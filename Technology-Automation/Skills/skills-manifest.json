@@ -277,6 +277,134 @@
         "Creative-Production/README.md"
       ],
       "contract": "legacy"
+    },
+    {
+      "name": "executive-decision-record",
+      "owner": "Executive",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/executive-decision-record",
+      "deploy_targets": [
+        ".claude/skills/executive-decision-record"
+      ],
+      "approval_gates": [
+        "approve-decision",
+        "change-company-os"
+      ],
+      "dependencies": [
+        "Executive/Current-State.md",
+        "Brand-Strategy/Source-Of-Truth-Map.md"
+      ],
+      "contract": "v1"
+    },
+    {
+      "name": "executive-operating-review",
+      "owner": "Executive",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/executive-operating-review",
+      "deploy_targets": [
+        ".claude/skills/executive-operating-review"
+      ],
+      "approval_gates": [
+        "publish-operating-review"
+      ],
+      "dependencies": [
+        "Executive/Current-State.md",
+        "Data-Analytics/Measurement-Framework.md"
+      ],
+      "contract": "v1"
+    },
+    {
+      "name": "offer-governance",
+      "owner": "Brand-Strategy",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/offer-governance",
+      "deploy_targets": [
+        ".claude/skills/offer-governance"
+      ],
+      "approval_gates": [
+        "approve-offer-change",
+        "approve-pricing"
+      ],
+      "dependencies": [
+        "Brand-Strategy/Source-Of-Truth-Map.md",
+        "Executive/Current-State.md"
+      ],
+      "contract": "v1"
+    },
+    {
+      "name": "customer-evidence-synthesis",
+      "owner": "Brand-Strategy",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/customer-evidence-synthesis",
+      "deploy_targets": [
+        ".claude/skills/customer-evidence-synthesis"
+      ],
+      "approval_gates": [
+        "update-persona-truth"
+      ],
+      "dependencies": [
+        "Brand-Strategy/Source-Of-Truth-Map.md",
+        "Executive/Current-State.md"
+      ],
+      "contract": "v1"
+    },
+    {
+      "name": "campaign-brief",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/campaign-brief",
+      "deploy_targets": [
+        ".claude/skills/campaign-brief"
+      ],
+      "approval_gates": [
+        "approve-campaign-budget",
+        "approve-campaign-brief"
+      ],
+      "dependencies": [
+        "Brand-Strategy/Source-Of-Truth-Map.md",
+        "Marketing-Growth/README.md"
+      ],
+      "contract": "v1"
+    },
+    {
+      "name": "creative-production-qa",
+      "owner": "Creative-Production",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/creative-production-qa",
+      "deploy_targets": [
+        ".claude/skills/creative-production-qa"
+      ],
+      "approval_gates": [
+        "approve-asset-publish"
+      ],
+      "dependencies": [
+        "Creative-Production/README.md"
+      ],
+      "contract": "v1"
     }
   ]
 }
