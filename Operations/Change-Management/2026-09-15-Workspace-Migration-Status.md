@@ -1,7 +1,8 @@
 # TravelFrame Workspace Migration Status
 
 **Ngày chốt:** 2026-09-15
-**Trạng thái:** Paused theo yêu cầu của Rocky
+**Trạng thái:** Completed 2026-09-15 (tiếp tục và hoàn tất theo yêu cầu của Rocky; bản gốc ghi Paused — lịch sử giữ nguyên bên dưới)
+**Bằng chứng hoàn tất:** `Operations/Migrations/2026-09-15-final-audit/README.md` (baseline 485 files: 0 unexplained missing) + các batch commits sau `5b6fb97`.
 **Workspace:** `/Users/macbook/Codex GPT/travelframe.vn`
 
 ## 1. Tóm tắt
