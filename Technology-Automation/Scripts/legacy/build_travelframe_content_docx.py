@@ -12,9 +12,14 @@ from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
 
-ROOT = Path("/Users/macbook/Codex GPT/travelframe.vn")
+ROOT = Path(__file__).resolve().parents[3]
 SOURCE = ROOT / "docs/superpowers/specs/2026-09-14-travelframe-30-day-content-design.md"
-OUTPUT = ROOT / "output/TravelFrame-30-Day-Content-Plan-2026-09-14.docx"
+OUTPUT = (
+    ROOT
+    / "Marketing-Growth"
+    / "Plans"
+    / "TravelFrame-30-Day-Content-Plan-2026-09-14.docx"
+)
 
 BLACK = "000000"
 CHARCOAL = "333333"

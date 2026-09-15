@@ -9,9 +9,12 @@ from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
 
-OUTPUT = Path(
-    "/Users/macbook/Codex GPT/travelframe.vn/output/"
-    "TravelFrame-Web-Pricing-Option-1-Implementation-Brief-2026-09-15.docx"
+ROOT = Path(__file__).resolve().parents[3]
+OUTPUT = (
+    ROOT
+    / "Brand-Strategy"
+    / "Offers-Pricing"
+    / "TravelFrame-Web-Pricing-Option-1-Implementation-Brief-2026-09-15.docx"
 )
 
 TEAL = "008AA3"
