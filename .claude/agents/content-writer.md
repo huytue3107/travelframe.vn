@@ -20,7 +20,7 @@ draft nội dung tiếng Anh theo giọng brand dựa trên knowledge base đó.
 ## Phạm vi (chuỗi 3 agent)
 
 `channel-scout` (thu thập) → `video-analyst` (phân tích, có bằng chứng) → **bạn**
-(học + viết). Bạn chỉ ĐỌC output của 2 agent trước trong `reference-library/`;
+(học + viết). Bạn chỉ ĐỌC output của 2 agent trước trong `Research-Insights/Library/`;
 KHÔNG tự tải video, KHÔNG chạy Apify/yt-dlp, KHÔNG tự spawn agent, KHÔNG chạy nền.
 Việc viết bài là của bạn — video-analyst không tự viết. Việc ĐÁNH GIÁ draft sau khi
 bạn viết (cổng chất lượng trước đăng) là của `channel-evaluator` — bạn không tự chấm
@@ -29,12 +29,12 @@ verdict cuối cho draft của mình.
 ## Bối cảnh workspace
 
 - Gốc dự án: `/Users/macbook/Codex GPT/travelframe.vn` (mọi đường dẫn tương đối từ đây).
-- Đầu vào học: `reference-library/analysis/<video-key>/<run>/analysis.{md,json}`,
-  `reference-library/channels/<handle>/{digest.md,*.json}`,
-  `reference-library/transcripts/<name>-<runstamp>/` (chỉ tin khi có `provenance.json`),
+- Đầu vào học: `Research-Insights/Library/analysis/<video-key>/<run>/analysis.{md,json}`,
+  `Research-Insights/Library/channels/<handle>/{digest.md,*.json}`,
+  `Research-Insights/Library/transcripts/<name>-<runstamp>/` (chỉ tin khi có `provenance.json`),
   và exemplar của chính TravelFrame (`output/posts/`, `output/hanoi-dong-xuan-series/`,
   `carousels/` — chỉ đọc text).
-- Knowledge base: `reference-library/knowledge/` (voice-playbook.md, patterns.md,
+- Knowledge base: `Research-Insights/Library/knowledge/` (voice-playbook.md, patterns.md,
   ideas-backlog.md, runs/) — schema + merge rules trong
   `.claude/skills/content-learning/references/knowledge-schema.md`.
 - Draft đầu ra: `output/drafts/<slug>/` + sources.md — rubric trong

@@ -9,12 +9,12 @@ from helpers import run_validate, verdict
 
 VALID_PATTERNS = """## P-001 | Hook: câu hỏi first-time + promise   (confidence: 2 nguồn)
 - Cấu trúc: question to the viewer plus one concrete benefit promise
-- Nguồn: output/posts/exemplar.md (2026-09-11), reference-library/analysis/youtube/x/run/analysis.md§3 (2026-09-12)
+- Nguồn: output/posts/exemplar.md (2026-09-11), Research-Insights/Library/analysis/youtube/x/run/analysis.md§3 (2026-09-12)
 - Áp dụng cho TravelFrame: use in hook beat of reel scripts
 """
 
 VALID_IDEAS = """## I-001 | Egg coffee morning walk reel   (confidence: 1 nguồn)
-- Nguồn: reference-library/channels/test/instagram-posts.json (2026-09-12)
+- Nguồn: Research-Insights/Library/channels/test/instagram-posts.json (2026-09-12)
 - Góc cho TravelFrame: morning route angle with coffee stop
 - Trạng thái: idea
 """
@@ -40,12 +40,16 @@ class ValidateKnowledgeTests(unittest.TestCase):
         self.root = self.tmp / "ws"
         (self.root / "output" / "posts").mkdir(parents=True)
         (self.root / "output" / "posts" / "exemplar.md").write_text("exemplar\n")
-        (self.root / "reference-library" / "analysis" / "youtube" / "x" / "run").mkdir(parents=True, exist_ok=True)
-        (self.root / "reference-library" / "analysis" / "youtube" / "x" / "run" / "analysis.md").write_text("analysis\n")
-        (self.root / "reference-library" / "channels" / "test").mkdir(parents=True, exist_ok=True)
-        (self.root / "reference-library" / "channels" / "test" / "instagram-posts.json").write_text("[]")
-        (self.root / "reference-library").mkdir(parents=True, exist_ok=True)
-        self.kdir = self.root / "reference-library" / "knowledge"
+        library = self.root / "Research-Insights" / "Library"
+        (library / "analysis" / "youtube" / "x" / "run").mkdir(
+            parents=True, exist_ok=True
+        )
+        (library / "analysis" / "youtube" / "x" / "run" / "analysis.md").write_text(
+            "analysis\n"
+        )
+        (library / "channels" / "test").mkdir(parents=True, exist_ok=True)
+        (library / "channels" / "test" / "instagram-posts.json").write_text("[]")
+        self.kdir = library / "knowledge"
         self.kdir.mkdir(parents=True)
 
     def seed_valid(self):
@@ -111,7 +115,7 @@ class ValidateKnowledgeTests(unittest.TestCase):
                   + "\n## P-002 | CTA: comment keyword + DM flow   (confidence: 2 nguồn)\n"
                   "- Cấu trúc: comment keyword triggers dm flow\n"
                   "- Nguồn: output/posts/exemplar.md (2026-09-11), "
-                  "reference-library/channels/test/digest.md§CTA (2026-09-12)\n"
+                  "Research-Insights/Library/channels/test/digest.md§CTA (2026-09-12)\n"
                   "\n## P-009 | Old CTA guess   (confidence: 1 nguồn)\n"
                   "- Nguồn: output/posts/exemplar.md (2026-09-11)\n"
                   "- Ghi chú: superseded bởi P-002 (2026-09-12)\n")
@@ -122,7 +126,14 @@ class ValidateKnowledgeTests(unittest.TestCase):
             "# Learning run 2026-09-12-exemplars\n- Trạng thái: learned\n"
             "- Thêm: P-002; cập nhật: P-001 (confidence 1→2); supersede: P-009\n",
             encoding="utf-8")
-        (self.root / "reference-library" / "channels" / "test" / "digest.md").write_text(
+        (
+            self.root
+            / "Research-Insights"
+            / "Library"
+            / "channels"
+            / "test"
+            / "digest.md"
+        ).write_text(
             "## CTA\ncomment keyword dm\n")
         v = verdict(run_validate("--knowledge", self.kdir, "--root", self.root))
         self.assertTrue(v["valid"], v["errors"])

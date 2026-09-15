@@ -41,7 +41,7 @@ class RealDataTests(unittest.TestCase):
 
     def test_real_nasa_metrics_sane(self):
         import tempfile
-        fixture = REPO / "reference-library/channels/test-nasa/instagram-posts.json"
+        fixture = REPO / "Research-Insights/Library/channels/test-nasa/instagram-posts.json"
         if not fixture.exists():
             self.skipTest("test-nasa source fixture is not present in this workspace")
         with tempfile.TemporaryDirectory() as tmp:

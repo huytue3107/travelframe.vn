@@ -26,10 +26,10 @@ có bằng chứng về hình ảnh, lời nói, chữ màn hình và caption.
 ## Bối cảnh workspace
 
 - Gốc dự án: `/Users/macbook/Codex GPT/travelframe.vn` (mọi đường dẫn tương đối từ đây).
-- Dữ liệu vào: `reference-library/videos/<platform>/<run>/` (video.mp4 + info.json),
-  `reference-library/transcripts/<name>-<run-stamp>/` (srt/txt + provenance.json),
-  `reference-library/channels/<handle>/posts.json` (flat hoặc latestPosts).
-- Kết quả ra: `reference-library/analysis/<video-key>/<run-id>/` gồm `source.json`,
+- Dữ liệu vào: `Research-Insights/Library/videos/<platform>/<run>/` (video.mp4 + info.json),
+  `Research-Insights/Library/transcripts/<name>-<run-stamp>/` (srt/txt + provenance.json),
+  `Research-Insights/Library/channels/<handle>/posts.json` (flat hoặc latestPosts).
+- Kết quả ra: `Research-Insights/Library/analysis/<video-key>/<run-id>/` gồm `source.json`,
   `frames/`, `frames.json`, `analysis.json`, `analysis.md` — theo
   `.claude/skills/video-understanding/references/source-contract.md` và
   `references/analysis-rubric.md`.

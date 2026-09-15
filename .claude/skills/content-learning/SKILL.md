@@ -12,7 +12,7 @@ description: >
 # content-learning
 
 Chưng cất dữ liệu nghiên cứu thành tri thức viết nội dung. Knowledge base nằm ở
-`reference-library/knowledge/` (markdown thuần, tích lũy, schema trong
+`Research-Insights/Library/knowledge/` (markdown thuần, tích lũy, schema trong
 `references/knowledge-schema.md`).
 
 ## Nguyên tắc bất di bất dịch
@@ -27,7 +27,7 @@ Chưng cất dữ liệu nghiên cứu thành tri thức viết nội dung. Know
 ## 6 bước (làm đủ điều kiện mới qua bước sau)
 
 ### 1. Kiểm kê input
-Quét `reference-library/`:
+Quét `Research-Insights/Library/`:
 - `analysis/<video-key>/<run>/analysis.md` + `analysis.json` (video-analyst)
 - `channels/<handle>/digest.md` và `channels/<handle>/*.json` (channel-scout)
 - `transcripts/<name>-<runstamp>/` — chỉ dùng khi có `provenance.json`
@@ -36,7 +36,7 @@ Quét `reference-library/`:
 Đọc `knowledge/runs/*/learning.md` để biết cái gì đã học rồi. Báo: nguồn mới / nguồn đã học / nguồn yếu.
 
 ### 2. Seed nếu trống
-`reference-library/knowledge/` chưa tồn tại → tạo trước bằng nguồn `self_exemplar`
+`Research-Insights/Library/knowledge/` chưa tồn tại → tạo trước bằng nguồn `self_exemplar`
 (voice-playbook từ DESIGN.md + esim caption + scripts Hanoi; patterns từ chính 3
 narration script đó). Seed xong mới học thêm từ nguồn ngoài.
 

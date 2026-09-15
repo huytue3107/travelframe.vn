@@ -13,7 +13,7 @@ Scripts:
 # Bước 2 — hồ sơ nguồn
 python3 .claude/skills/video-understanding/scripts/prepare_video.py \
   --video <video.mp4> [--info info.json] [--posts posts.json] [--transcripts <dir>] \
-  --out reference-library/analysis/<video-key>/<run-id>/
+  --out Research-Insights/Library/analysis/<video-key>/<run-id>/
 
 # Bước 4-5 — khung hình (pass tổng quan / pass focused)
 python3 .claude/skills/video-understanding/scripts/extract_frames.py \

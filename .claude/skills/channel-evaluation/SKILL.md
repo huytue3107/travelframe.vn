@@ -13,7 +13,7 @@ description: >
 # channel-evaluation
 
 Đánh giá chính xác = **số từ script, điểm từ chấm kép, bằng chứng từ URL thật**.
-Mọi output vào `reference-library/evaluation/<handle>/<run-id>/` (channel) hoặc
+Mọi output vào `Research-Insights/Library/evaluation/<handle>/<run-id>/` (channel) hoặc
 `output/drafts/<slug>/evaluation-<run-id>.{md,json}` (draft gate).
 
 ## Nguyên tắc bất di bất dịch
@@ -34,16 +34,16 @@ Mọi output vào `reference-library/evaluation/<handle>/<run-id>/` (channel) ho
 ## MODE 1 — Đánh giá kênh (7 bước)
 
 ### 1. Kiểm kê dữ liệu
-`reference-library/channels/<handle>/*.json` — probe shape (flat/latestPosts) + field
+`Research-Insights/Library/channels/<handle>/*.json` — probe shape (flat/latestPosts) + field
 theo bảng `references/data-contract.md`; analysis runs liên quan trong
-`reference-library/analysis/`. Ghi ngày snapshot (mtime file) — KHÔNG tự bịa ngày scrape.
+`Research-Insights/Library/analysis/`. Ghi ngày snapshot (mtime file) — KHÔNG tự bịa ngày scrape.
 Thiếu posts JSON → dừng, yêu cầu channel-scout.
 
 ### 2. Chạy metrics
 ```bash
 python3 .claude/skills/channel-evaluation/scripts/channel_metrics.py \
-  --posts reference-library/channels/<handle>/<file>.json \
-  --out reference-library/evaluation/<handle>/<run-id>/
+  --posts Research-Insights/Library/channels/<handle>/<file>.json \
+  --out Research-Insights/Library/evaluation/<handle>/<run-id>/
 ```
 Đọc kỹ stats.flags + missing_fields trước khi diễn giải.
 

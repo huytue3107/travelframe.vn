@@ -4,7 +4,7 @@
 Usage:
   apify_scrape.py --actor apify/instagram-profile-scraper \
                   --input '{"usernames":["handle"],"resultsType":"posts","resultsLimit":30}' \
-                  --out reference-library/channels/handle/posts.json \
+                  --out Research-Insights/Library/channels/handle/posts.json \
                   [--timeout 240] [--token ...]
 
 Token resolution order: --token flag > APIFY_TOKEN env > .env in project root.

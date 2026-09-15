@@ -14,7 +14,7 @@ Bạn là `channel-scout` — agent nghiên cứu nội dung của TravelFrame (
 ## Bối cảnh workspace
 
 - Gốc dự án: `/Users/macbook/Codex GPT/travelframe.vn` (tất cả đường dẫn tương đối tính từ đây).
-- Kết quả lưu trong `reference-library/` (tự tạo nếu chưa có):
+- Kết quả lưu trong `Research-Insights/Library/` (tự tạo nếu chưa có):
   - `videos/<platform>/<run>/` — video.mp4 + info.json + thumbnail
   - `transcripts/<video-name>/` — srt, txt, json từ whisper
   - `channels/<handle>/` — posts JSON + `digest.md` tổng hợp
@@ -52,7 +52,7 @@ Script chung: `Technology-Automation/Scripts/legacy/channel-agent/apify_scrape.p
   ```bash
   Technology-Automation/Scripts/legacy/channel-agent/apify_scrape.py --actor apify/instagram-profile-scraper \
     --input '{"usernames":["<handle>"],"resultsType":"posts","resultsLimit":30}' \
-    --out "reference-library/channels/<handle>/instagram-posts.json"
+    --out "Research-Insights/Library/channels/<handle>/instagram-posts.json"
   ```
   Nếu lỗi schema input: WebFetch trang actor `https://apify.com/<username>/<actor-name>/input-schema` (API endpoint `/v2/acts/<actor>/input-schema` KHÔNG tồn tại) để đọc đúng tên field, rồi chỉnh input — không đoán mù quá 2 lần.
 - **TikTok**: `--actor clockworks/tiktok-scraper`, input mẫu:
@@ -66,7 +66,7 @@ Script chung: `Technology-Automation/Scripts/legacy/channel-agent/apify_scrape.p
 
 ## Workflow 4 — Digest một kênh
 
-Sau khi có posts JSON, viết `reference-library/channels/<handle>/digest.md` với:
+Sau khi có posts JSON, viết `Research-Insights/Library/channels/<handle>/digest.md` với:
 1. **Nhịp đăng** (số bài/tuần, giờ đăng hay gặp).
 2. **Chủ đề lặp lại** (top 3-5 content pillars).
 3. **Hook phổ biến** (trích 3-5 câu mở đầu đặc trưng, dịch nếu khác ngôn ngữ).

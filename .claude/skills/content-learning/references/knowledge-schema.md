@@ -1,4 +1,4 @@
-# Knowledge base schema — reference-library/knowledge/
+# Knowledge base schema — Research-Insights/Library/knowledge/
 
 ## Files
 
@@ -43,7 +43,7 @@ Cả 3 file chính là markdown, header section = entry. ID không bao giờ tá
 ## Evidence pointer format
 
 `<đường-dẫn-từ-gốc-workspace>§<mục-hoặc-dòng>` — ví dụ:
-- `reference-library/analysis/youtube/jnqxac9ivrw/run-1/analysis.md§3-Hook`
+- `Research-Insights/Library/analysis/youtube/jnqxac9ivrw/run-1/analysis.md§3-Hook`
 - `output/posts/vietnam-esim-reel-caption.md` (self_exemplar, 2026-09-11)
 
 Pointer phải trỏ tới file THẬT. Entry thiếu pointer → bị từ chối khi merge (test

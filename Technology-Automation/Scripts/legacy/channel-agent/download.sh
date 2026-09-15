@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# download.sh <url> — download a video into reference-library/videos/<platform>/<id>/
+# download.sh <url> — download a video into Research-Insights/Library/videos/<platform>/<id>/
 # Writes: video.mp4, info.json, thumbnail. Prints final paths.
 set -euo pipefail
 
 URL="${1:?usage: download.sh <url>}"
 ROOT="$(cd "$(dirname "$0")/../../../.." && pwd)"
-DEST="$ROOT/reference-library/videos"
+DEST="$ROOT/Research-Insights/Library/videos"
 
 # platform slug from hostname
 case "$(printf '%s' "$URL" | sed -E 's#https?://(www\.)?##' | cut -d/ -f1)" in

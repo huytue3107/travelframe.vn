@@ -1,0 +1,317 @@
+{
+  "posts": [
+    {
+      "post_id": "3962359916161594424",
+      "url": "https://www.instagram.com/p/Db9IVmrDvQ4/",
+      "scores": {
+        "caption": {
+          "evidence": "3962359916161594424 (Db9IVmrDvQ4): câu ngắn, chỉ 3 hashtag hợp lý (#NASA #Eclipse #TotalSolarEclipse), thực dụng không lan man.",
+          "score": 2
+        },
+        "cta": {
+          "evidence": "3962359916161594424 (Db9IVmrDvQ4): không có CTA nào — caption thuần thông tin, kết bằng credit.",
+          "score": 0
+        },
+        "hook": {
+          "evidence": "3962359916161594424 (Db9IVmrDvQ4): mở đầu 'When the Moon and Sun align' + dòng 2 ngay lập tức định danh 'This rare sight — a total solar eclipse' — promise cụ thể, khớp 0-3s.",
+          "score": 2
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3962359916161594424, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3962359916161594424 (Db9IVmrDvQ4): mạch rõ 3 beat — hook → what/where/when (Spain, Aug. 12) → giải thích khoa học (Sun 400x wider, 400x further).",
+          "score": 2
+        }
+      }
+    },
+    {
+      "post_id": "3966649126543481665",
+      "url": "https://www.instagram.com/p/DcMXl1IPNtB/",
+      "scores": {
+        "caption": {
+          "evidence": "3966649126543481665 (DcMXl1IPNtB): đọc được, giọng báo chí, nhưng không có hashtag nào và không ngắt đoạn — thiếu craft.",
+          "score": 1
+        },
+        "cta": {
+          "evidence": "3966649126543481665 (DcMXl1IPNtB): 'The next spacewalk is scheduled for Tuesday, August 25' là thông tin lịch, không phải lời kêu gọi hành động.",
+          "score": 0
+        },
+        "hook": {
+          "evidence": "3966649126543481665 (DcMXl1IPNtB): 'Soothing spacewalk scenes.' — có vibe nhưng chung chung, không promise cụ thể.",
+          "score": 1
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3966649126543481665, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3966649126543481665 (DcMXl1IPNtB): có mạch (sự kiện → tốc độ 17,500 mph → spacewalk tiếp 25/8) nhưng gói trong 1 khối văn dày, 3 ý dồn nhau không ngắt beat.",
+          "score": 1
+        }
+      }
+    },
+    {
+      "post_id": "3967213292204992434",
+      "url": "https://www.instagram.com/p/DcOX3hWFiey/",
+      "scores": {
+        "caption": {
+          "evidence": "3967213292204992434 (DcOX3hWFiey): câu ngắn có nhịp, 3 hashtag hợp lý (#NASA #Universe #Nebula), thực dụng.",
+          "score": 2
+        },
+        "cta": {
+          "evidence": "3967213292204992434 (DcOX3hWFiey): chỉ tag handle @NASAHubble/@NASAWebb/@NASAChandraXray, không có CTA cho người xem.",
+          "score": 0
+        },
+        "hook": {
+          "evidence": "3967213292204992434 (DcOX3hWFiey): 'With your powers combined…' — curiosity gap cụ thể, dòng 2 trả lời ngay (Hubble + Webb + Chandra teamwork).",
+          "score": 2
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3967213292204992434, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3967213292204992434 (DcOX3hWFiey): beat dễ theo: hook → định danh Tarantula Nebula 160k light-years → giải mã màu theo telescope (Chandra blue / Webb red / Hubble green).",
+          "score": 2
+        }
+      }
+    },
+    {
+      "post_id": "3977571766420282017",
+      "url": "https://www.instagram.com/p/DczLHKOGpqh/",
+      "scores": {
+        "caption": {
+          "evidence": "3977571766420282017 (DczLHKOGpqh): đoạn ngắn có ý đồ, parenthetical gọn, 3 hashtag hợp lý (#NASA #BloodMoon #Eclipse).",
+          "score": 2
+        },
+        "cta": {
+          "evidence": "3977571766420282017 (DczLHKOGpqh): không có CTA — kết bằng credit NASA.",
+          "score": 0
+        },
+        "hook": {
+          "evidence": "3977571766420282017 (DczLHKOGpqh): 'Red Moon over Louisiana' — headline trực quan, địa điểm + hiện tượng cụ thể (near-total lunar eclipse ngay dòng 2).",
+          "score": 2
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3977571766420282017, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3977571766420282017 (DczLHKOGpqh): mạch rõ: sự kiện (Aug. 27-28) → vì sao đỏ (atmosphere scattering) → ai chụp/ở đâu → nối sang Michoud 'Rocket Factory' + Artemis.",
+          "score": 2
+        }
+      }
+    },
+    {
+      "post_id": "3978177813317091908",
+      "url": "https://www.instagram.com/p/Dc1U6TYGwJE/",
+      "scores": {
+        "caption": {
+          "evidence": "3978177813317091908 (Dc1U6TYGwJE): nhiều đoạn ngắn dễ đọc, số liệu cụ thể, 3 hashtag hợp lý (#NASA #Earth #Spacewalk); hơi dài nhưng có craft.",
+          "score": 2
+        },
+        "cta": {
+          "evidence": "3978177813317091908 (Dc1U6TYGwJE): không có CTA nào — chỉ credit + hashtag.",
+          "score": 0
+        },
+        "hook": {
+          "evidence": "3978177813317091908 (Dc1U6TYGwJE): 'A workplace view that can't be beat!' — khái 'workplace' hơi relatable nhưng chung chung, không promise mạnh.",
+          "score": 1
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3978177813317091908, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3978177813317091908 (Dc1U6TYGwJE): beat rõ: ai/làm gì (Sept. 1) → pivot câu hỏi 'what does that really mean?' → giải mã Spacewalk 99 (284th vs 99th) → stat Meir thứ 7, hạng 3 phụ nữ NASA.",
+          "score": 2
+        }
+      }
+    },
+    {
+      "post_id": "3978873996351670898",
+      "url": "https://www.instagram.com/p/Dc3zNGWlIpy/",
+      "scores": {
+        "caption": {
+          "evidence": "3978873996351670898 (Dc3zNGWlIpy): câu ngắn, wow-stat cụ thể (4K TV 45 city blocks), 3 hashtag hợp lý (#NASA #Roman #AdoptAPixel), CTA gắn hashtag.",
+          "score": 2
+        },
+        "cta": {
+          "evidence": "3978873996351670898 (Dc3zNGWlIpy): CTA cụ thể duy nhất trong 12 post — 'Did you know that you can adopt a pixel…? Sign up to claim your spot… the link is in our bio!'",
+          "score": 2
+        },
+        "hook": {
+          "evidence": "3978873996351670898 (Dc3zNGWlIpy): 'Godspeed, Roman.' — send-off cảm xúc, dòng ICYMI định danh ngay telescope vừa phóng Aug. 30, promise 'change how we view the cosmos'.",
+          "score": 2
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3978873996351670898, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3978873996351670898 (Dc3zNGWlIpy): beat chuẩn: send-off → recap phóng → timeline (3 tháng, first images early 2027) → wow-stat (300MP) → CTA adopt a pixel.",
+          "score": 2
+        }
+      }
+    },
+    {
+      "post_id": "3978909121511949930",
+      "url": "https://www.instagram.com/p/Dc37MPNSAZq/",
+      "scores": {
+        "caption": {
+          "evidence": "3978909121511949930 (Dc37MPNSAZq): đọc được như tiêu đề nhưng thiếu ngữ cảnh, không hashtag, không credit — mức 'đọc được' tối thiểu.",
+          "score": 1
+        },
+        "cta": {
+          "evidence": "3978909121511949930 (Dc37MPNSAZq): không có CTA, không hashtag, không credit.",
+          "score": 0
+        },
+        "hook": {
+          "evidence": "3978909121511949930 (Dc37MPNSAZq): 'Chez ISS - episode 3: next evolution…' — có concept series nhưng 'next evolution' mơ hồ, người xem lạnh không hiểu promise (cooking show).",
+          "score": 1
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3978909121511949930, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3978909121511949930 (Dc37MPNSAZq): chỉ 1 dòng tiêu đề series; có mini-mạch (series → method → 'back on Earth flavor') nhưng không có beat thật.",
+          "score": 1
+        }
+      }
+    },
+    {
+      "post_id": "3979136276912553964",
+      "url": "https://www.instagram.com/p/Dc4u1yKPj_s/",
+      "scores": {
+        "caption": {
+          "evidence": "3979136276912553964 (Dc4u1yKPj_s): 1 câu, đọc được, nhưng không có thông tin gì thêm ngoài shoutout — craft tối thiểu.",
+          "score": 1
+        },
+        "cta": {
+          "evidence": "3979136276912553964 (Dc4u1yKPj_s): không có CTA — chỉ hashtag show #JeopardyMasters.",
+          "score": 0
+        },
+        "hook": {
+          "evidence": "3979136276912553964 (Dc4u1yKPj_s): 'This category presented by astronaut @astro_christina is out of this world' — pun cũ, hook phụ thuộc video, caption tự nó không dừng scroll.",
+          "score": 1
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3979136276912553964, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3979136276912553964 (Dc4u1yKPj_s): 1 câu tagline phẳng, không có beat nào — chỉ là shoutout collab.",
+          "score": 1
+        }
+      }
+    },
+    {
+      "post_id": "3981777300299013341",
+      "url": "https://www.instagram.com/p/DdCHVu3CVzd/",
+      "scores": {
+        "caption": {
+          "evidence": "3981777300299013341 (DdCHVu3CVzd): câu ngắn, đoạn gọn, 3 hashtag hợp lý (#NASA #Universe #Astrophotography).",
+          "score": 2
+        },
+        "cta": {
+          "evidence": "3981777300299013341 (DdCHVu3CVzd): không có CTA — kết bằng credit.",
+          "score": 0
+        },
+        "hook": {
+          "evidence": "3981777300299013341 (DdCHVu3CVzd): 'Hey, neighbor' — conceit 'galaxy là hàng xóm' cụ thể, dòng 2 trả promise ngay ('Did you know our home galaxy… has smaller galaxies that orbit around it?').",
+          "score": 2
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3981777300299013341, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3981777300299013341 (DdCHVu3CVzd): beat rõ: did-you-know → LMC 160k light-years → bubble nebula → chu kỳ hình thành sao 'starting the cycle anew'.",
+          "score": 2
+        }
+      }
+    },
+    {
+      "post_id": "3982503053431843400",
+      "url": "https://www.instagram.com/p/DdEsW1ItqpI/",
+      "scores": {
+        "caption": {
+          "evidence": "3982503053431843400 (DdEsW1ItqpI): câu ngắn nhịp nhanh, emoji đúng brand, giọng cá nhân; không hashtag nhưng hợp lý cho dạng video người nói.",
+          "score": 2
+        },
+        "cta": {
+          "evidence": "3982503053431843400 (DdEsW1ItqpI): chỉ có CTA mềm 'Join me in my temporary home' — mời xem, không phải save/comment keyword/DM cụ thể.",
+          "score": 1
+        },
+        "hook": {
+          "evidence": "3982503053431843400 (DdEsW1ItqpI): 'Curly-haired crew, this one's for you!' — call-out đúng tệp + promise cụ thể 'how I care for my curls in space', giọng ngôi thứ nhất.",
+          "score": 2
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3982503053431843400, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3982503053431843400 (DdEsW1ItqpI): beat vui dễ theo: lời mời 'Join me on the @iss' → câu hỏi 'Ever wonder…' → chi tiết 3a→3c, velcro, no brush → pro → tease 'Earth shower'.",
+          "score": 2
+        }
+      }
+    },
+    {
+      "post_id": "3982532128898274302",
+      "url": "https://www.instagram.com/p/DdEy97xj9P-/",
+      "scores": {
+        "caption": {
+          "evidence": "3982532128898274302 (DdEy97xj9P-): ngắn gọn, dễ đọc, 3 hashtag hợp lý (#NASA #Hubble #Stars); 'by the way' tạo giọng nhẹ.",
+          "score": 2
+        },
+        "cta": {
+          "evidence": "3982532128898274302 (DdEy97xj9P-): không có CTA — chỉ credit + hashtag.",
+          "score": 0
+        },
+        "hook": {
+          "evidence": "3982532128898274302 (DdEy97xj9P-): 'Some things are worth repeating 📸' — mở đầu chung chung, phải chờ dòng 2 'Like observing a galaxy cluster!' mới có điểm neo.",
+          "score": 1
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3982532128898274302, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3982532128898274302 (DdEy97xj9P-): mạch gọn: hook → subject (Abell S0740) → cách tạo ảnh (combined Hubble observations) → wow-stat (100 billion Suns).",
+          "score": 2
+        }
+      }
+    },
+    {
+      "post_id": "3983374110243288826",
+      "url": "https://www.instagram.com/p/DdHyaYAifb6/",
+      "scores": {
+        "caption": {
+          "evidence": "3983374110243288826 (DdHyaYAifb6): câu ngắn, image descriptions 1-4 là accessibility craft thực dụng; trừ nhỏ vì không hashtag nhưng tổng thể có chủ đích.",
+          "score": 2
+        },
+        "cta": {
+          "evidence": "3983374110243288826 (DdHyaYAifb6): không có CTA, cũng không hashtag.",
+          "score": 0
+        },
+        "hook": {
+          "evidence": "3983374110243288826 (DdHyaYAifb6): 'Cementing their names in history.' + 'leaving their mark — literally' — wordplay nghĩa đen/bóng bám đúng chi tiết ký tên lên phần cứng.",
+          "score": 2
+        },
+        "production": {
+          "evidence": "chưa xem hình — không có analysis run cho 3983374110243288826, chỉ đánh giá được từ caption.",
+          "score": 1
+        },
+        "structure": {
+          "evidence": "3983374110243288826 (DdHyaYAifb6): mạch rõ: hook → context (ký tên Orion, launch 2027) → 'Image descriptions:' 1-4 đánh số theo slide.",
+          "score": 2
+        }
+      }
+    }
+  ],
+  "rater": "A"
+}

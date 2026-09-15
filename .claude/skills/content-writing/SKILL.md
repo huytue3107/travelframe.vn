@@ -22,7 +22,7 @@ hạn đăng, ràng buộc đặc biệt. Brief mơ hồ → hỏi lại qua phi
 Slug: `YYYY-MM-DD-<topic-kebab>` hoặc theo lịch carousels nếu người dùng chỉ định ngày đăng.
 
 ### 2. Nạp tri thức
-Đọc `reference-library/knowledge/voice-playbook.md`, `patterns.md`, `ideas-backlog.md`.
+Đọc `Research-Insights/Library/knowledge/voice-playbook.md`, `patterns.md`, `ideas-backlog.md`.
 Chọn pattern áp dụng + ghi lại ID (P-###/V-##) — sẽ liệt kê trong sources.md.
 Knowledge base chưa tồn tại → dừng, yêu cầu chạy `content-learning` trước (seed mất vài phút).
 Ý tưởng nên lấy từ ideas-backlog khi có I-### khớp chủ đề; nếu brief ngoài backlog →
@@ -58,12 +58,12 @@ Viết `sources.md`:
 python3 .claude/skills/content-writing/scripts/check_draft.py \
   --draft output/drafts/<slug>/caption.md --type reel \
   --sources-md output/drafts/<slug>/sources.md \
-  --knowledge reference-library/knowledge \
+  --knowledge Research-Insights/Library/knowledge \
   --sources <file nguồn ngoài nếu draft học theo nguồn cụ thể>
 python3 .claude/skills/content-writing/scripts/check_draft.py \
   --draft output/drafts/<slug>/reel-script.md --type reel --no-expect-hashtag \
   --sources-md output/drafts/<slug>/sources.md \
-  --knowledge reference-library/knowledge
+  --knowledge Research-Insights/Library/knowledge
 # (khi có nguồn ngoài: thêm --sources <file nguồn> cho mọi lệnh để overlap check chạy)
 # carousel: --draft slides-text.md --type carousel
 # video: --draft asset-plan.md --type video --script scripts/<slug>.txt

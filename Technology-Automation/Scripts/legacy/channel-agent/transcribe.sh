@@ -2,7 +2,7 @@
 # transcribe.sh <video-file> [model] [--output-dir DIR]
 #
 # Local whisper transcription. Output: txt/srt/vtt/tsv/json + provenance.json.
-# - No --output-dir: writes to reference-library/transcripts/<name>-<run-stamp>/
+# - No --output-dir: writes to Research-Insights/Library/transcripts/<name>-<run-stamp>/
 #   (a fresh directory per run — two files with the same basename never collide).
 # - With --output-dir: writes exactly there; refuses if it already has transcripts.
 # - Provenance sidecar records media fingerprint, source video, engine/model/language.
@@ -43,7 +43,7 @@ BASE_NAME="$(basename "${VIDEO%.*}")"
 if [ -n "$OUT_OVERRIDE" ]; then
   OUT="$OUT_OVERRIDE"
 else
-  OUT="$ROOT/reference-library/transcripts/${BASE_NAME}-${RUN_STAMP}"
+  OUT="$ROOT/Research-Insights/Library/transcripts/${BASE_NAME}-${RUN_STAMP}"
 fi
 
 # Refuse to clobber existing transcripts at the destination.

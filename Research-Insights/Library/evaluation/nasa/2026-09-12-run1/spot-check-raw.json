@@ -1,0 +1,26 @@
+{
+  "spot_check_status": "partial",
+  "posts": [
+    {
+      "shortCode": "Db9IVmrDvQ4",
+      "fetched": false,
+      "caption_match": "unknown",
+      "likes_order_match": "unknown",
+      "note": "Top 1 rel_er 15.62. WebFetch tra ve chi chu 'Instagram' (login wall / JS-required shell), khong co caption, likes hay username; thu lai voi ?hl=en cung ket qua tuong duong. Khong so khop duoc, khong bia so."
+    },
+    {
+      "shortCode": "DcOX3hWFiey",
+      "fetched": true,
+      "caption_match": "match",
+      "likes_order_match": "match",
+      "note": "Top 2 rel_er 3.633. Trang hien caption 'With your powers combined...' ve Tarantula Nebula (160,000 ly; Chandra = deep blue, Webb = red, Hubble = green; Credit: NASA; #NASA #Universe #Nebula) — trung noi dung caption trong instagram-posts.json (701 chars, 3 hashtags). Likes tren trang: '565.7K' vs JSON likesCount 564,892 (565,700 ≈ 564,892, lech ~0.1%, cung bac do lon) → match; comments '4.2K' vs 4,208 cung khop. Trang co sign-up prompt nhung van doc duoc post."
+    },
+    {
+      "shortCode": "Dc4u1yKPj_s",
+      "fetched": false,
+      "caption_match": "unknown",
+      "likes_order_match": "unknown",
+      "note": "Bottom 1 rel_er 0.275 (Video). WebFetch chi tra ve chu 'Instagram' (login wall), ca ?hl=en van that bai. JSON likesCount 42,743 khong so khop duoc voi trang — khong bia so."
+    }
+  ]
+}

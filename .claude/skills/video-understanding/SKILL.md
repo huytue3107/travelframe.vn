@@ -11,7 +11,7 @@ description: >
 # video-understanding
 
 Phân tích MỘT video được chỉ định thành hồ sơ phân tích có bằng chứng. Output là
-báo cáo tiếng Việt + JSON trong `reference-library/analysis/<video-key>/<run-id>/`.
+báo cáo tiếng Việt + JSON trong `Research-Insights/Library/analysis/<video-key>/<run-id>/`.
 
 ## Trước khi bắt đầu
 
@@ -36,7 +36,7 @@ Chạy:
 ```bash
 python3 .claude/skills/video-understanding/scripts/prepare_video.py \
   --video <video.mp4> [--info info.json] [--posts posts.json] \
-  [--transcripts <thư-mục-transcript>] --out reference-library/analysis/<video-key>/<run-id>/
+  [--transcripts <thư-mục-transcript>] --out Research-Insights/Library/analysis/<video-key>/<run-id>/
 ```
 - Script tạo `source.json`: ghép caption theo post ID/canonical URL (tuyệt đối không
   ghép theo tiêu đề gần giống/vị trí mảng/thời gian file), fingerprint media,
@@ -54,7 +54,7 @@ python3 .claude/skills/video-understanding/scripts/prepare_video.py \
 ### 4. Trích và đọc khung hình (lượt đầu — tổng quan)
 ```bash
 python3 .claude/skills/video-understanding/scripts/extract_frames.py \
-  <video.mp4> --out reference-library/analysis/<video-key>/<run-id>/frames/ \
+  <video.mp4> --out Research-Insights/Library/analysis/<video-key>/<run-id>/frames/ \
   [--resolution 768] [--max-frames 100]
 ```
 - Đọc ảnh theo batch (4-8 ảnh/lượt); ghi lại index/timestamp/path của từng ảnh đã xem.
@@ -84,7 +84,7 @@ chữ thay đổi nhỏ giữa các frame).
 ## Output bắt buộc (cùng một run dir)
 
 ```text
-reference-library/analysis/<video-key>/<run-id>/
+Research-Insights/Library/analysis/<video-key>/<run-id>/
   source.json      # từ bước 2
   frames/          # khung hình các pass
   frames.json      # index các pass (pass chính + pass focused)

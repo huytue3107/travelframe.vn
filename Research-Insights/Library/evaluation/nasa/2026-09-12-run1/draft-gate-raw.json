@@ -1,0 +1,72 @@
+{
+  "draft_slug": "2026-09-12-esim-setup-reel",
+  "draft_slug_placeholder_removed": "2026-09-12-esim-setup-reel",
+  "check_draft_results": [
+    {
+      "draft": "caption.md",
+      "type": "reel",
+      "status": "flagged",
+      "flags": [
+        "2 [VERIFY] marker(s) remain — status drafted_flagged"
+      ],
+      "hard_errors": [],
+      "checks": {
+        "overlap": {
+          "quoted_spans": 1,
+          "overlaps": 0,
+          "first_overlap": null
+        },
+        "verify_count": 2,
+        "signoff": true,
+        "hashtag_line": true,
+        "brand_hashtag": true,
+        "cta": true,
+        "traceability": {
+          "cited": 12,
+          "missing": []
+        }
+      },
+      "exit_code": 0,
+      "command": "check_draft.py --draft caption.md --type reel --sources-md sources.md --knowledge Research-Insights/Library/knowledge --sources output/posts/vietnam-esim-reel-caption.md"
+    },
+    {
+      "draft": "reel-script.md",
+      "type": "reel",
+      "status": "flagged",
+      "flags": [
+        "2 [VERIFY] marker(s) remain — status drafted_flagged"
+      ],
+      "hard_errors": [],
+      "checks": {
+        "overlap": {
+          "quoted_spans": 1,
+          "overlaps": 0,
+          "first_overlap": null
+        },
+        "verify_count": 2,
+        "signoff": true,
+        "hashtag_line": false,
+        "brand_hashtag": false,
+        "cta": true,
+        "traceability": {
+          "cited": 12,
+          "missing": []
+        }
+      },
+      "exit_code": 0,
+      "command": "check_draft.py --draft reel-script.md --type reel --no-expect-hashtag --sources-md sources.md --knowledge Research-Insights/Library/knowledge --sources output/posts/vietnam-esim-reel-caption.md",
+      "note": "hashtag_line=false va brand_hashtag=false la ket qua dung voi co --no-expect-hashtag (reel script khong co hashtag line theo V-03/V-06 ap dung cho caption)"
+    }
+  ],
+  "rubric_total": 9,
+  "rubric_evidence": "hook 2/2 — reel-script.md 0-3s: \"Landing in Hanoi with no data on your phone? / Here is how to fix it before your wheels touch down\" = tình huống cụ thể (mất data lúc hạ cánh Hanoi) + promise rõ (xong trước khi máy bay chạm bánh), phù hợp 0-3s, đúng pattern P-001; caption.md mở bằng cùng promise \"Land in Hanoi with your data already working — set it up before you fly. 🛬\". structure 2/2 — mạch rõ: Hook → Beat 1 trap (SIM desk at baggage claim) → Beat 2 fix (eSIM at home, one QR code) → Beat 3 why it wins (data live on landing, OTPs on main SIM) → Pro move (setup on home wifi) → Beat 4 network (Viettel/Vinaphone) → CTA; mỗi beat 2-3 dòng ngắn, trap→move đúng P-004, pro move đúng P-005. cta 2/2 — comment-keyword cụ thể: reel-script \"Comment \\\"SIM\\\" and our setup guide lands in your DMs\"; caption.md \"Drop \\\"SIM\\\" in the comments and we'll DM you our setup guide plus the local-network comparison. No sponsor.\" — nhất quán giữa 2 file, đúng V-05 (keyword + DM + \"no sponsor\" khi so sánh nhà mạng). caption 2/2 — caption.md câu ngắn 1 ý mỗi câu (V-02), emoji vừa phải gắn ý (🛬 mở dòng landing, ✈️ chỉ ở dòng ký tên — V-03), dòng hashtag 4 tag đủ #travelframe (V-06), signoff \"TravelFrame — your local friend in Hanoi ✈️\" (V-06), CTA cụ thể; thực dụng, không lê thê. production 1/2 (cap theo quy tắc rubric) — evidence \"chưa xem hình\": không có analysis run/video-analyst nào cho reel này trong draft folder, nên tối đa 1 điểm. Tổng 9/10 (single-rater gate pass; production bị chặn ở 1 vì chưa xem hình — rule \"không bao giờ điểm 2 nếu chưa xem hình\").",
+  "verdict": "needs_verification",
+  "fix_list": [
+    "Verify 'airport tourist SIM ~$15–25' (caption.md dòng 3) bằng 2 nguồn gần ngày đăng theo V-08, rồi bỏ [VERIFY]",
+    "Verify 'eSIM ~$6–8' (caption.md dòng 7) bằng 2 nguồn gần ngày đăng theo V-08, rồi bỏ [VERIFY]",
+    "Verify Viettel/Vinaphone là mạng người địa phương dùng (reel-script.md beat four, dòng 20) — đang [VERIFY]; giữ framing 'No sponsor' bất kể kết quả",
+    "Verify claim 'SIM desk costs more / eats the first hour of your trip' (reel-script.md beat one, dòng 8) — đang [VERIFY]",
+    "Sau khi 4 claim đã verify: bỏ hết [VERIFY] marker ở cả 2 file, cập nhật bảng Claims + Checklist trong sources.md, chạy lại check_draft.py đến khi status=pass trước khi lên lịch đăng"
+  ],
+  "notes": "Gate chạy đúng quy trình: (1) đã đọc cả 3 file draft, rubric scoring-rubric.md, voice-playbook.md; (2) chạy THẬT check_draft.py cho cả 2 file — exit 0, không hard_errors, overlap 0/1 quoted span vs exemplar vietnam-esim-reel-caption.md (không còn verbatim ≥8 từ, khớp nguồn.md sau review no-copy 2026-09-12), traceability cited=12 missing=[], signoff/cta/hashtag đều pass trên caption.md; (3) cờ duy nhất trên cả 2 file là \"2 [VERIFY] marker(s) remain\" mỗi file = 4 marker tổng: giá SIM sân bay $15–25, giá eSIM $6–8 (caption), Viettel/Vinaphone (script beat 4), SIM desk costs more (script beat 1). Cả 4 đều có trong bảng Claims của sources.md đúng quy ước V-07 (số chưa verify kèm [VERIFY] tại chỗ + bảng claim) — tức draft ĐÃ tuân thủ quy ước v1, nhưng V-08 yêu cầu 2 nguồn gần ngày đăng và sources.md tự ghi status drafted_flagged \"chờ verify theo V-08 trước đăng\". Theo luật gate (\"Còn [VERIFY] → verdict needs_verification\") → needs_verification, KHÔNG phải revise: chất lượng nội dung đạt 9/10 rubric, chỉ còn bước verify dữ liệu giá/mạng trước đăng. Draft KHÔNG bị sửa (yêu cầu KHÔNG sửa draft được tôn trọng — không có file nào thay đổi). Checker phụ: hashtag_line=false trên reel-script.md là kỳ vọng đúng vì chạy với --no-expect-hashtag."
+}

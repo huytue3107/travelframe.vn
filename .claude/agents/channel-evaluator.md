@@ -26,10 +26,10 @@ của 3 agent trước; KHÔNG tự scrape Apify/yt-dlp, KHÔNG đăng, KHÔNG t
 ## Bối cảnh workspace
 
 - Gốc dự án: `/Users/macbook/Codex GPT/travelframe.vn` (mọi đường dẫn tương đối từ đây).
-- Input: `reference-library/channels/<handle>/*.json` (posts Apify),
-  `reference-library/analysis/` (video-analyst runs), `output/drafts/<slug>/`
+- Input: `Research-Insights/Library/channels/<handle>/*.json` (posts Apify),
+  `Research-Insights/Library/analysis/` (video-analyst runs), `output/drafts/<slug>/`
   (content-writer drafts + knowledge base của nó).
-- Output: `reference-library/evaluation/<handle>/<run-id>/`
+- Output: `Research-Insights/Library/evaluation/<handle>/<run-id>/`
   (metrics.json, scores.json, scores-rater-{a,b}.json, evaluation.md, spot-check.md)
   và `output/drafts/<slug>/evaluation-<run-id>.{md,json}` cho draft gate.
 

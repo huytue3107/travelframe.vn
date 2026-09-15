@@ -1,0 +1,137 @@
+{
+  "rater": "B",
+  "posts": [
+    {
+      "post_id": "3984276751243127818",
+      "url": "https://www.instagram.com/p/DdK_ph8sawK/",
+      "scores": {
+        "hook": {"score": 1, "evidence": "3984276751243127818: '3 things I wish I knew sooner' — có số tạo promise và chút tò mò 'wish I knew sooner' nhưng không nói rõ chủ đề/destination, dễ lẫn vào đám đông hook listicle"},
+        "structure": {"score": 1, "evidence": "3984276751243127818: caption hứa 3 beat ('3 things') nhưng beat thật nằm trong video, từ caption không xác nhận được mạch"},
+        "cta": {"score": 0, "evidence": "3984276751243127818: caption 1 dòng, không có bất kỳ CTA nào (không save/comment/DM)"},
+        "caption": {"score": 1, "evidence": "3984276751243127818: câu ngắn đọc được nhưng chỉ 1 dòng trần, không hashtag, không CTA"},
+        "production": {"score": 1, "evidence": "3984276751243127818: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3984193724071807403",
+      "url": "https://www.instagram.com/p/DdKsxU3pAmr/",
+      "scores": {
+        "hook": {"score": 1, "evidence": "3984193724071807403: 'These apps saved me in Asai' — có điểm dừng kiểu story/utility nhưng 'apps' chung chung và typo 'Asai' (Asia?) gây vấp ngay trong hook"},
+        "structure": {"score": 1, "evidence": "3984193724071807403: caption gợi sẽ liệt kê app nhưng không có số/khung beat nào đọc được; beat thật nằm trong video"},
+        "cta": {"score": 0, "evidence": "3984193724071807403: không có CTA trong caption"},
+        "caption": {"score": 1, "evidence": "3984193724071807403: câu ngắn đọc được nhưng có typo 'Asai', không hashtag, không CTA"},
+        "production": {"score": 1, "evidence": "3984193724071807403: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3982795363453116185",
+      "url": "https://www.instagram.com/p/DdFu0gDsh8Z/",
+      "scores": {
+        "hook": {"score": 1, "evidence": "3982795363453116185: 'This travel hack is well worth it' — tease mơ hồ: không nói hack gì, không số, không destination; điểm dừng yếu, yếu nhất trong 12 post"},
+        "structure": {"score": 0, "evidence": "3982795363453116185: caption một câu khẳng định chung ('well worth it'), không gợi được beat hay mạch nào từ chính caption"},
+        "cta": {"score": 0, "evidence": "3982795363453116185: không có CTA"},
+        "caption": {"score": 1, "evidence": "3982795363453116185: ngắn và đọc được nhưng nói không cho thấy giá trị gì, không hashtag/CTA"},
+        "production": {"score": 1, "evidence": "3982795363453116185: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3982097433029099342",
+      "url": "https://www.instagram.com/p/DdDQIRssb9O/",
+      "scores": {
+        "hook": {"score": 2, "evidence": "3982097433029099342: 'Why I stopped using cash when traveling ✈️' — curiosity 'why' + hành vi cụ thể (bỏ tiền mặt), promise rõ, hợp 0-3s"},
+        "structure": {"score": 1, "evidence": "3982097433029099342: caption hứa một mạch lý do/narrative nhưng chi tiết nằm trong video; từ caption chỉ thấy khung"},
+        "cta": {"score": 0, "evidence": "3982097433029099342: không có CTA"},
+        "caption": {"score": 1, "evidence": "3982097433029099342: câu ngắn sạch, không typo, nhưng không hashtag và không CTA"},
+        "production": {"score": 1, "evidence": "3982097433029099342: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3982048415481659969",
+      "url": "https://www.instagram.com/p/DdDE--jMQJB/",
+      "scores": {
+        "hook": {"score": 2, "evidence": "3982048415481659969: 'Don't waste your time with cash in Vietnam 🇻🇳' — phủ định + nỗi đau cụ thể (waste time) + destination rõ ngay câu đầu"},
+        "structure": {"score": 1, "evidence": "3982048415481659969: gợi một mạch 'vì sao nên bỏ cash' nhưng beat đầy đủ nằm trong video, không xác nhận từ caption"},
+        "cta": {"score": 0, "evidence": "3982048415481659969: mệnh lệnh 'Don't waste your time...' là advice content, không phải CTA engagement (save/comment/DM)"},
+        "caption": {"score": 1, "evidence": "3982048415481659969: ngắn gọn thực dụng, có flag 🇻🇳, nhưng không hashtag và không CTA"},
+        "production": {"score": 1, "evidence": "3982048415481659969: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3980640947065063585",
+      "url": "https://www.instagram.com/p/Dc-E9ncMAih/",
+      "scores": {
+        "hook": {"score": 2, "evidence": "3980640947065063585: '3 things that make your trip to Vietnam better' — số + destination + benefit rõ, đúng khuôn hook listicle hiệu quả cho reels du lịch"},
+        "structure": {"score": 1, "evidence": "3980640947065063585: hứa 3 beat nhưng beat không đọc được từ caption; chưa xem video nên chưa xác nhận mạch"},
+        "cta": {"score": 0, "evidence": "3980640947065063585: không có CTA"},
+        "caption": {"score": 1, "evidence": "3980640947065063585: câu ngắn rõ nhưng chỉ 1 dòng trần, không hashtag, không CTA"},
+        "production": {"score": 1, "evidence": "3980640947065063585: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3980614630978605869",
+      "url": "https://www.instagram.com/p/Dc9--qrM9Mt/",
+      "scores": {
+        "hook": {"score": 1, "evidence": "3980614630978605869: '3 things that make your trip better' — có số tạo promise nhưng bỏ mất destination nên chung chung; post '3 things... Vietnam' cùng ngày cụ thể hơn"},
+        "structure": {"score": 1, "evidence": "3980614630978605869: hứa 3 beat nhưng mạch không xác nhận được từ caption"},
+        "cta": {"score": 0, "evidence": "3980614630978605869: không có CTA"},
+        "caption": {"score": 1, "evidence": "3980614630978605869: câu ngắn đọc được nhưng trùng lặp gần như nguyên văn với post Dc-E9ncMAih đăng 1 tiếng trước, không hashtag/CTA"},
+        "production": {"score": 1, "evidence": "3980614630978605869: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3979110401326735954",
+      "url": "https://www.instagram.com/p/Dc4o9PpJGJS/",
+      "scores": {
+        "hook": {"score": 2, "evidence": "3979110401326735954: '3 travel tips you need to know traveling to Thailand 🇹🇭' — số + destination + urgency 'you need to know'; wording hơi lặp 'traveling... traveling' nhưng promise rõ"},
+        "structure": {"score": 1, "evidence": "3979110401326735954: hứa 3 beat từ caption, beat thật nằm trong video"},
+        "cta": {"score": 0, "evidence": "3979110401326735954: không có CTA"},
+        "caption": {"score": 1, "evidence": "3979110401326735954: ngắn, đọc được, không typo, nhưng không hashtag và không CTA"},
+        "production": {"score": 1, "evidence": "3979110401326735954: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3978417827222847829",
+      "url": "https://www.instagram.com/p/Dc2Le9vswFV/",
+      "scores": {
+        "hook": {"score": 2, "evidence": "3978417827222847829: '3 travels tips you need to k ow when traveling to Vietnam 🇻🇳' — formula số + destination vẫn rõ promise dù 2 typo; typo xử ở điểm caption"},
+        "structure": {"score": 1, "evidence": "3978417827222847829: hứa 3 beat nhưng không đọc được thêm mạch nào từ caption"},
+        "cta": {"score": 0, "evidence": "3978417827222847829: không có CTA"},
+        "caption": {"score": 1, "evidence": "3978417827222847829: 2 lỗi đánh máy ('travels tips', 'k ow' → 'know') làm xấu caption dù nội dung ngắn gọn; không hashtag/CTA"},
+        "production": {"score": 1, "evidence": "3978417827222847829: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3974121917785311845",
+      "url": "https://www.instagram.com/p/Dcm6tQTsApl/",
+      "scores": {
+        "hook": {"score": 2, "evidence": "3974121917785311845: 'These simple mistakes can ruin your trip 🇻🇳' — stakes âm tính cụ thể (ruin your trip) + destination; điểm dừng mạnh bằng fear-of-loss dù không có số"},
+        "structure": {"score": 1, "evidence": "3974121917785311845: caption gợi sẽ liệt kê mistakes nhưng không có khung beat nào đọc được từ caption"},
+        "cta": {"score": 0, "evidence": "3974121917785311845: không có CTA"},
+        "caption": {"score": 1, "evidence": "3974121917785311845: câu ngắn sạch, đúng giọng cảnh báo; không hashtag và không CTA"},
+        "production": {"score": 1, "evidence": "3974121917785311845: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3973887682951809361",
+      "url": "https://www.instagram.com/p/DcmFcsHpIlR/",
+      "scores": {
+        "hook": {"score": 2, "evidence": "3973887682951809361: '📌 save this for your trip to Vietnam 🇻🇳 don't make these simple mistakes' — 📌 + destination + stakes 'simple mistakes', cụ thể và có lý do lưu ngay"},
+        "structure": {"score": 1, "evidence": "3973887682951809361: hai mệnh đề (save + cảnh báo) đọc liền mạch nhưng vẫn chỉ 1 dòng, beat thật nằm trong video"},
+        "cta": {"score": 2, "evidence": "3973887682951809361: '📌 save this for your trip to Vietnam' — CTA save cụ thể, gắn đúng ngữ cảnh sử dụng (trước chuyến đi)"},
+        "caption": {"score": 2, "evidence": "3973887682951809361: câu ngắn, có CTA save hợp lý, không typo, thực dụng; điểm trừ duy nhất là không hashtag"},
+        "production": {"score": 1, "evidence": "3973887682951809361: chưa xem hình"}
+      }
+    },
+    {
+      "post_id": "3972652694307591313",
+      "url": "https://www.instagram.com/p/DchspPUM9SR/",
+      "scores": {
+        "hook": {"score": 1, "evidence": "3972652694307591313: '📌 Save this for you trip to Thailand so you have the best experience 🇹🇭' — có 📌 + destination nhưng lead bằng CTA thay vì hook, benefit 'best experience' chung chung, thêm typo 'for you trip'"},
+        "structure": {"score": 1, "evidence": "3972652694307591313: một câu duy nhất không khung beat; mạch thực nằm trong video, không xác nhận được từ caption"},
+        "cta": {"score": 2, "evidence": "3972652694307591313: 'Save this for you trip to Thailand' — CTA save cụ thể gắn destination, dù có typo 'for you trip'"},
+        "caption": {"score": 1, "evidence": "3972652694307591313: ngắn và có CTA nhưng typo 'for you trip' (→ 'your trip') và benefit mơ hồ; không hashtag"},
+        "production": {"score": 1, "evidence": "3972652694307591313: chưa xem hình"}
+      }
+    }
+  ]
+}
