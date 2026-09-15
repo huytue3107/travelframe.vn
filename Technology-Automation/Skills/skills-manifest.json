@@ -405,6 +405,129 @@
         "Creative-Production/README.md"
       ],
       "contract": "v1"
+    },
+    {
+      "name": "lead-qualification",
+      "owner": "Sales-CRM",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/lead-qualification",
+      "deploy_targets": [
+        ".claude/skills/lead-qualification"
+      ],
+      "approval_gates": [
+        "send-external-quote"
+      ],
+      "dependencies": [
+        "Brand-Strategy/Offers-Pricing/",
+        "Sales-CRM/README.md"
+      ],
+      "contract": "v1"
+    },
+    {
+      "name": "manychat-flow-review",
+      "owner": "Sales-CRM",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/manychat-flow-review",
+      "deploy_targets": [
+        ".claude/skills/manychat-flow-review"
+      ],
+      "approval_gates": [
+        "enable-live-flow",
+        "modify-live-flow"
+      ],
+      "dependencies": [
+        "Sales-CRM/README.md"
+      ],
+      "contract": "v1"
+    },
+    {
+      "name": "integration-design",
+      "owner": "Technology-Automation",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/integration-design",
+      "deploy_targets": [
+        ".claude/skills/integration-design"
+      ],
+      "approval_gates": [
+        "grant-write-permission",
+        "enable-live-connector"
+      ],
+      "dependencies": [
+        "Technology-Automation/README.md"
+      ],
+      "contract": "v1"
+    },
+    {
+      "name": "web-experience-qa",
+      "owner": "Technology-Automation",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/web-experience-qa",
+      "deploy_targets": [
+        ".claude/skills/web-experience-qa"
+      ],
+      "approval_gates": [
+        "submit-live-form"
+      ],
+      "dependencies": [
+        "Technology-Automation/README.md"
+      ],
+      "contract": "v1"
+    },
+    {
+      "name": "campaign-performance-report",
+      "owner": "Data-Analytics",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/campaign-performance-report",
+      "deploy_targets": [
+        ".claude/skills/campaign-performance-report"
+      ],
+      "approval_gates": [
+        "publish-performance-report"
+      ],
+      "dependencies": [
+        "Data-Analytics/Measurement-Framework.md"
+      ],
+      "contract": "v1"
+    },
+    {
+      "name": "sop-change-control",
+      "owner": "Operations",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/sop-change-control",
+      "deploy_targets": [
+        ".claude/skills/sop-change-control"
+      ],
+      "approval_gates": [
+        "approve-sop-change"
+      ],
+      "dependencies": [
+        "Operations/README.md"
+      ],
+      "contract": "v1"
     }
   ]
 }
