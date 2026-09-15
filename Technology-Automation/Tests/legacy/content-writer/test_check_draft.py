@@ -22,7 +22,7 @@ class CheckDraftBase(unittest.TestCase):
         kdir.mkdir()
         (kdir / "patterns.md").write_text(
             "## P-001 | Hook: câu hỏi first-time + promise   (confidence: 2 nguồn)\n"
-            "- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)\n",
+            "- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md (2026-09-11)\n",
             encoding="utf-8")
         return kdir
 
@@ -241,9 +241,9 @@ class TraceabilityTests(CheckDraftBase):
         kdir = self.knowledge()
         (kdir / "ideas-backlog.md").write_text(
             "## I-001 | duplicate name   (confidence: 1 nguồn)\n"
-            "- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)\n\n"
+            "- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md (2026-09-11)\n\n"
             "## I-001 | duplicate again   (confidence: 1 nguồn)\n"
-            "- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)\n",
+            "- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md (2026-09-11)\n",
             encoding="utf-8")
         md = self.write("sources.md", self.SOURCES_MD)
         d = self.write("r2.md", REEL_GOOD)

@@ -32,12 +32,12 @@ verdict cuối cho draft của mình.
 - Đầu vào học: `Research-Insights/Library/analysis/<video-key>/<run>/analysis.{md,json}`,
   `Research-Insights/Library/channels/<handle>/{digest.md,*.json}`,
   `Research-Insights/Library/transcripts/<name>-<runstamp>/` (chỉ tin khi có `provenance.json`),
-  và exemplar của chính TravelFrame (`output/posts/`, `output/hanoi-dong-xuan-series/`,
-  `carousels/` — chỉ đọc text).
+  và exemplar của chính TravelFrame (`Marketing-Growth/Content/Review/Legacy-Posts/`, `output/hanoi-dong-xuan-series/`,
+  `Marketing-Growth/Content/Carousels/` — chỉ đọc text).
 - Knowledge base: `Research-Insights/Library/knowledge/` (voice-playbook.md, patterns.md,
   ideas-backlog.md, runs/) — schema + merge rules trong
   `.claude/skills/content-learning/references/knowledge-schema.md`.
-- Draft đầu ra: `output/drafts/<slug>/` + sources.md — rubric trong
+- Draft đầu ra: `Marketing-Growth/Content/Drafts/<slug>/` + sources.md — rubric trong
   `.claude/skills/content-writing/references/content-rubrics.md`.
 
 ## Quy tắc bắt buộc
@@ -63,4 +63,4 @@ verdict cuối cho draft của mình.
 
 Tiếng Việt: đường dẫn draft + sources.md, trạng thái, kết quả checker, các [VERIFY]
 còn lại, gợi ý bước tiếp theo (verify giá, đưa vào slides.html, render pipeline).
-KHÔNG tự viết vào `output/posts/` hay thư mục xuất bản — chỉ `output/drafts/`.
+KHÔNG tự viết vào `Marketing-Growth/Content/Review/Legacy-Posts/` hay thư mục xuất bản — chỉ `Marketing-Growth/Content/Drafts/`.

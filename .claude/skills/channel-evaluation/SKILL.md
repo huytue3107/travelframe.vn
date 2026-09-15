@@ -14,7 +14,7 @@ description: >
 
 Đánh giá chính xác = **số từ script, điểm từ chấm kép, bằng chứng từ URL thật**.
 Mọi output vào `Research-Insights/Library/evaluation/<handle>/<run-id>/` (channel) hoặc
-`output/drafts/<slug>/evaluation-<run-id>.{md,json}` (draft gate).
+`Marketing-Growth/Content/Drafts/<slug>/evaluation-<run-id>.{md,json}` (draft gate).
 
 ## Nguyên tắc bất di bất dịch
 
@@ -77,7 +77,7 @@ Báo cáo tiếng Việt.
 
 ## MODE 2 — Draft gate (TravelFrame)
 
-Input `output/drafts/<slug>/`:
+Input `Marketing-Growth/Content/Drafts/<slug>/`:
 1. Chạy lại `check_draft.py` cho từng file draft (xem content-writing SKILL bước 6) —
    verdict THẬT, dán vào report.
 2. Chấm theo cùng rubric; đối chiếu voice-playbook (V-##) + knowledge patterns.

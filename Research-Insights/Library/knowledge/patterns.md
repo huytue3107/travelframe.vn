@@ -5,7 +5,7 @@ chữ nguồn. Mỗi entry phải có evidence pointer tới file thật.
 
 ## P-001 | Hook: câu hỏi rơi vào hoàn cảnh + promise cụ thể   (confidence: 2 nguồn)
 - Cấu trúc: câu hỏi "chỉ [khoảng thời gian] ở [địa điểm]?" hoặc "lần đầu...?" + promise lợi ích ngay câu 2 (hook ≤3s)
-- Nguồn: output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt (2026-09-11), output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+- Nguồn: output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt (2026-09-11), Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md (2026-09-11)
 - Áp dụng cho TravelFrame: hook reel/video; promise phải cụ thể (không chung chung "tips")
 
 ## P-002 | Beat: lộ trình theo mốc thời gian trong ngày   (confidence: 1 nguồn)
@@ -20,7 +20,7 @@ chữ nguồn. Mỗi entry phải có evidence pointer tới file thật.
 
 ## P-004 | Beat: trap → move   (confidence: 1 nguồn)
 - Cấu trúc: nêu "trap" (rủi ro/sai lầm thường gặp) → "the move" (giải pháp) → 3-4 bullet vì sao giải pháp thắng
-- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md (2026-09-11)
 - Áp dụng cho TravelFrame: caption + reel vấn đề-giải pháp
 
 ## P-005 | Dòng "Pro move:" cho tip thực hành   (confidence: 1 nguồn)
@@ -35,7 +35,7 @@ chữ nguồn. Mỗi entry phải có evidence pointer tới file thật.
 
 ## P-007 | CTA: comment-keyword → DM steps   (confidence: 1 nguồn)
 - Cấu trúc: mời comment keyword ngắn → DM gửi tài liệu steps; dùng khi có offer/steps kèm; ghi no-sponsor nếu so sánh
-- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md (2026-09-11)
 - Áp dụng cho TravelFrame: reel hướng dẫn có tài liệu kèm
 
 ## P-008 | Safety line cho địa điểm nhạy cảm   (confidence: 1 nguồn)

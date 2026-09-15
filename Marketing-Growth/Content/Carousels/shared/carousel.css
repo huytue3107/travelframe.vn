@@ -1,0 +1,180 @@
+/* TravelFrame carousel design system
+ * Tokens theo vault: 01-Projects/Hanoi-Expert/TravelFrame/01-Brand-Source-Of-Truth
+ * Slide: 1080x1350 (Instagram 4:5). Render tại scale 2 -> 2160x2700.
+ * Quy tắc: radius toi da 8px, khong gradient trang tri, khong orb.
+ */
+:root {
+  --teal: #008AA3;
+  --teal-dark: #006B80;
+  --charcoal: #18211D;
+  --offwhite: #EDF1EF;
+  --sage: #DCE9E4;
+  --white: #FFFFFF;
+  --ink-60: rgba(24, 33, 29, 0.60);
+  --ink-40: rgba(24, 33, 29, 0.40);
+  --verify: #B3541E;
+  --radius: 8px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #444;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.slide {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  overflow: hidden;
+  margin: 0 auto 24px;
+  background: var(--offwhite);
+  color: var(--charcoal);
+}
+
+/* ---- chrome fixed elements ---- */
+.brandmark {
+  position: absolute; top: 44px; left: 64px; z-index: 5;
+  font-size: 26px; font-weight: 700; letter-spacing: 0.18em;
+  color: var(--ink-60);
+}
+.brandmark.light, .pager.light { color: rgba(255, 255, 255, 0.75); }
+.pager {
+  position: absolute; bottom: 40px; right: 64px; z-index: 5;
+  font-size: 26px; font-weight: 600; color: var(--ink-40);
+}
+
+/* ---- cover ---- */
+.cover-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.glass {
+  position: absolute; left: 64px; right: 64px; bottom: 96px;
+  background: rgba(24, 33, 29, 0.80);
+  color: var(--white);
+  border-radius: var(--radius);
+  padding: 56px 60px 52px;
+}
+.cover-h {
+  font-size: 96px; line-height: 1.06; font-weight: 800;
+  letter-spacing: -0.01em; margin: 20px 0 12px;
+}
+.cover-accent { font-size: 72px; font-weight: 800; color: #7FD4E3; }
+.cover-sub { font-size: 36px; line-height: 1.35; color: rgba(255, 255, 255, 0.85); margin-top: 16px; }
+
+/* ---- type ---- */
+.eyebrow {
+  font-size: 28px; font-weight: 700; letter-spacing: 0.22em;
+  text-transform: uppercase; color: var(--teal);
+}
+.eyebrow.light { color: #7FD4E3; }
+.section-h {
+  font-size: 68px; line-height: 1.08; font-weight: 800;
+  letter-spacing: -0.01em; margin: 20px 0 40px;
+}
+.accent { color: var(--teal); }
+
+.content { position: absolute; top: 130px; left: 64px; right: 64px; bottom: 110px; }
+
+/* ---- timeline ---- */
+.tl { display: flex; flex-direction: column; gap: 34px; }
+.tl-row { display: flex; gap: 28px; align-items: flex-start; }
+.tl-time {
+  flex: 0 0 150px; font-size: 34px; font-weight: 800; color: var(--teal);
+  padding-top: 4px; font-variant-numeric: tabular-nums;
+}
+.tl-t { font-size: 40px; font-weight: 700; line-height: 1.2; }
+.tl-d { font-size: 31px; line-height: 1.4; color: var(--ink-60); margin-top: 6px; }
+
+/* ---- tip box ---- */
+.tipbox {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  background: var(--charcoal); color: var(--white);
+  border-radius: var(--radius); padding: 30px 36px;
+  font-size: 30px; line-height: 1.4;
+}
+.tipbox span {
+  display: block; font-size: 22px; font-weight: 700; letter-spacing: 0.2em;
+  color: #7FD4E3; margin-bottom: 8px;
+}
+
+/* ---- chips ---- */
+.chip {
+  display: inline-block; border: 3px solid var(--teal); color: var(--teal);
+  border-radius: var(--radius); padding: 12px 26px;
+  font-size: 27px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+}
+.chip.light { border-color: #7FD4E3; color: #7FD4E3; }
+.chip-row { margin-top: 40px; }
+
+/* ---- image band (nửa trên/dưới) ---- */
+.band { position: absolute; left: 0; right: 0; height: 560px; overflow: hidden; }
+.band img { width: 100%; height: 100%; object-fit: cover; }
+.band.top { top: 0; } .band.bottom { bottom: 0; }
+.has-band .content { top: 660px; }
+.has-band .section-h { font-size: 60px; margin: 16px 0 30px; }
+.has-band .tl { gap: 26px; }
+.has-band .tl-t { font-size: 36px; }
+.has-band .tl-d { font-size: 28px; margin-top: 4px; }
+.has-band .tl-time { font-size: 30px; flex-basis: 132px; }
+
+/* ---- know rows (slide "good to know") ---- */
+.know { display: flex; flex-direction: column; gap: 30px; }
+.know-row { display: flex; gap: 26px; align-items: flex-start; }
+.know-dot {
+  flex: 0 0 18px; height: 18px; border-radius: 50%;
+  background: var(--teal); margin-top: 16px;
+}
+
+/* ---- place slides (Old Quarter) ---- */
+.place-no {
+  font-size: 150px; font-weight: 800; color: var(--teal);
+  line-height: 1; letter-spacing: -0.02em;
+}
+.place-name { font-size: 62px; font-weight: 800; line-height: 1.1; margin: 24px 0 18px; }
+.place-why { font-size: 34px; line-height: 1.45; color: var(--ink-60); max-width: 860px; }
+.meta-chips { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 44px; }
+.mchip {
+  border: 3px solid var(--charcoal); border-radius: var(--radius);
+  padding: 14px 22px; font-size: 26px; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+.mchip b { color: var(--teal); letter-spacing: 0.16em; margin-right: 10px; }
+
+/* ---- price rows ---- */
+.price-list { display: flex; flex-direction: column; }
+.price-row {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 24px;
+  padding: 26px 0; border-bottom: 3px solid var(--sage);
+}
+.price-row:first-child { border-top: 3px solid var(--sage); }
+.p-name { font-size: 36px; font-weight: 700; }
+.p-note { font-size: 26px; color: var(--ink-60); margin-top: 4px; }
+.p-val { font-size: 36px; font-weight: 800; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.p-val.ok { color: var(--teal); }
+.p-val .unit { font-size: 26px; font-weight: 700; color: var(--ink-60); }
+.tag {
+  display: inline-block; margin-left: 14px; border-radius: var(--radius);
+  padding: 5px 12px; font-size: 20px; font-weight: 800; letter-spacing: 0.1em;
+  vertical-align: middle;
+}
+.tag.ok { background: var(--teal); color: var(--white); }
+.tag.verify { border: 3px dashed var(--verify); color: var(--verify); }
+.footnote { font-size: 25px; color: var(--ink-40); margin-top: 26px; line-height: 1.4; }
+
+/* ---- CTA slide ---- */
+.cta-slide { background: var(--sage); }
+.cta-h { font-size: 84px; font-weight: 800; line-height: 1.08; letter-spacing: -0.01em; }
+.cta-sub { font-size: 38px; line-height: 1.45; color: var(--ink-60); margin-top: 36px; }
+.cta-line { display: flex; align-items: center; gap: 22px; margin-top: 44px; }
+.cta-ico {
+  flex: 0 0 64px; height: 64px; border-radius: var(--radius);
+  background: var(--teal); color: var(--white);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 32px; font-weight: 800;
+}
+.cta-txt { font-size: 34px; font-weight: 600; line-height: 1.3; }
+.credits {
+  position: absolute; bottom: 96px; left: 64px; right: 64px;
+  font-size: 22px; color: var(--ink-40); line-height: 1.5;
+}

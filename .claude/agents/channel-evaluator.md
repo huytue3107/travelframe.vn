@@ -27,11 +27,11 @@ của 3 agent trước; KHÔNG tự scrape Apify/yt-dlp, KHÔNG đăng, KHÔNG t
 
 - Gốc dự án: `/Users/macbook/Codex GPT/travelframe.vn` (mọi đường dẫn tương đối từ đây).
 - Input: `Research-Insights/Library/channels/<handle>/*.json` (posts Apify),
-  `Research-Insights/Library/analysis/` (video-analyst runs), `output/drafts/<slug>/`
+  `Research-Insights/Library/analysis/` (video-analyst runs), `Marketing-Growth/Content/Drafts/<slug>/`
   (content-writer drafts + knowledge base của nó).
 - Output: `Research-Insights/Library/evaluation/<handle>/<run-id>/`
   (metrics.json, scores.json, scores-rater-{a,b}.json, evaluation.md, spot-check.md)
-  và `output/drafts/<slug>/evaluation-<run-id>.{md,json}` cho draft gate.
+  và `Marketing-Growth/Content/Drafts/<slug>/evaluation-<run-id>.{md,json}` cho draft gate.
 
 ## Quy tắc chính xác (bắt buộc)
 
@@ -56,4 +56,4 @@ của 3 agent trước; KHÔNG tự scrape Apify/yt-dlp, KHÔNG đăng, KHÔNG t
 Tiếng Việt: run dir, trạng thái (`evaluated|partial|blocked`), scorecard chính,
 cross-channel comparison (nếu nhiều kênh), điểm unresolved, caveats, gợi ý hành động
 (ý tưởng cho content-writer, điều cần verify). KHÔNG đưa draft của mình vào
-`output/posts/` — mọi sản phẩm đánh giá nằm ở đường dẫn trên.
+`Marketing-Growth/Content/Review/Legacy-Posts/` — mọi sản phẩm đánh giá nằm ở đường dẫn trên.

@@ -11,7 +11,7 @@ description: >
 
 # content-writing
 
-Viết draft nội dung TravelFrame vào `output/drafts/<slug>/` kèm traceability và
+Viết draft nội dung TravelFrame vào `Marketing-Growth/Content/Drafts/<slug>/` kèm traceability và
 claim-check máy đọc được. Tiếng Anh cho nội dung; tiếng Việt cho báo cáo nội bộ.
 
 ## 6 bước (làm đủ điều kiện mới qua bước sau)
@@ -41,7 +41,7 @@ Mọi claim về giá/lịch/địa điểm/ưu đãi:
 - Có nguồn đáng tin trong knowledge base hoặc người dùng cung cấp → ghi nguồn trong sources.md
 - Chưa chắc → đánh dấu `[VERIFY]` ngay tại vị trí claim + liệt kê vào bảng claim trong sources.md
 - Quy tắc giá carousel: tối thiểu 2 nguồn gần ngày đăng; không đủ → range rộng + nhãn
-  `Indicative` hoặc bỏ số (theo carousels/README.md)
+  `Indicative` hoặc bỏ số (theo Marketing-Growth/Content/Carousels/README.md)
 - CẤM: hứa Train Street access/giờ tàu cố định; gọi tên Điểm A chỉ vì caption nguồn
   nói vậy; thêm giá không nguồn. Không tự web-search verify trong v1.
 
@@ -56,13 +56,13 @@ Viết `sources.md`:
 ```bash
 # reel: caption.md kiểm cả hashtag; reel-script.md là narration → --no-expect-hashtag
 python3 .claude/skills/content-writing/scripts/check_draft.py \
-  --draft output/drafts/<slug>/caption.md --type reel \
-  --sources-md output/drafts/<slug>/sources.md \
+  --draft Marketing-Growth/Content/Drafts/<slug>/caption.md --type reel \
+  --sources-md Marketing-Growth/Content/Drafts/<slug>/sources.md \
   --knowledge Research-Insights/Library/knowledge \
   --sources <file nguồn ngoài nếu draft học theo nguồn cụ thể>
 python3 .claude/skills/content-writing/scripts/check_draft.py \
-  --draft output/drafts/<slug>/reel-script.md --type reel --no-expect-hashtag \
-  --sources-md output/drafts/<slug>/sources.md \
+  --draft Marketing-Growth/Content/Drafts/<slug>/reel-script.md --type reel --no-expect-hashtag \
+  --sources-md Marketing-Growth/Content/Drafts/<slug>/sources.md \
   --knowledge Research-Insights/Library/knowledge
 # (khi có nguồn ngoài: thêm --sources <file nguồn> cho mọi lệnh để overlap check chạy)
 # carousel: --draft slides-text.md --type carousel
@@ -73,7 +73,7 @@ trạng thái cuối: `drafted` | `drafted_flagged` | `blocked`.
 
 ## Giới hạn
 
-- KHÔNG đăng, KHÔNG render, KHÔNG sửa `carousels/*/slides.html` (chỉ đưa text).
+- KHÔNG đăng, KHÔNG render, KHÔNG sửa `Marketing-Growth/Content/Carousels/*/slides.html` (chỉ đưa text).
 - KHÔNG chạy channel-scout/video-analyst thay; chỉ ĐỌC output của họ.
 - KHÔNG chép nguyên văn nguồn ngoài (checker bắt ≥8 từ); trích dẫn cho phép tối đa 1
   câu ngắn trong ngoặc.

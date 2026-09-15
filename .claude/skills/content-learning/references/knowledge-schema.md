@@ -44,7 +44,7 @@ Cả 3 file chính là markdown, header section = entry. ID không bao giờ tá
 
 `<đường-dẫn-từ-gốc-workspace>§<mục-hoặc-dòng>` — ví dụ:
 - `Research-Insights/Library/analysis/youtube/jnqxac9ivrw/run-1/analysis.md§3-Hook`
-- `output/posts/vietnam-esim-reel-caption.md` (self_exemplar, 2026-09-11)
+- `Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md` (self_exemplar, 2026-09-11)
 
 Pointer phải trỏ tới file THẬT. Entry thiếu pointer → bị từ chối khi merge (test
 `test_knowledge_schema.py` kiểm tra schema này).

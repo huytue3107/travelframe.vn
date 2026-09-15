@@ -3,22 +3,22 @@
 Ý tưởng có nguồn cảm hứng rõ ràng. Trạng thái: idea | drafted | archived.
 
 ## I-001 | Reel "24 giờ ở Hanoi" (biến thể của carousel day-03)   (confidence: 1 nguồn)
-- Nguồn: carousels/README.md (2026-09-11)
+- Nguồn: Marketing-Growth/Content/Carousels/README.md (2026-09-11)
 - Góc cho TravelFrame: reel lộ trình 24h theo P-002 (mốc thời gian), kết save+send (P-006)
 - Trạng thái: idea
 
 ## I-002 | Reel "What things cost in Hanoi"   (confidence: 1 nguồn)
-- Nguồn: carousels/README.md (2026-09-11)
+- Nguồn: Marketing-Growth/Content/Carousels/README.md (2026-09-11)
 - Góc cho TravelFrame: bảng giá so sánh tourist vs local — NHỚ quy tắc 2 nguồn + [VERIFY] theo V-07; chưa verify thì chỉ range Indicative
 - Trạng thái: idea
 
 ## I-003 | Reel khu đi bộ Phố cổ cuối tuần   (confidence: 1 nguồn)
-- Nguồn: carousels/README.md (2026-09-11)
+- Nguồn: Marketing-Growth/Content/Carousels/README.md (2026-09-11)
 - Góc cho TravelFrame: evening-walk angle, không claim lịch đóng cửa đường nếu chưa chắc
 - Trạng thái: idea
 
 ## I-004 | Video package: eSIM setup steps   (confidence: 1 nguồn)
-- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md (2026-09-11)
 - Góc cho TravelFrame: biến caption esim thành video script package (narration + asset-plan), CTA comment-keyword (P-007)
 - Trạng thái: idea
 

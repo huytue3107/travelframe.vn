@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Day 15 — 5 places you can walk to in Hanoi Old Quarter</title>
+<link rel="stylesheet" href="../shared/carousel.css">
+</head>
+<body>
+
+<!-- SLIDE 1 · COVER -->
+<div class="slide">
+  <img class="cover-img" src="../assets/34195917.jpg" alt="">
+  <div class="glass">
+    <div class="eyebrow light">Hanoi Old Quarter</div>
+    <div class="cover-h">5 places you can<br>walk to</div>
+    <div class="cover-accent">All in the Old Quarter.</div>
+    <div class="chip-row"><span class="chip light">Save this 📌</span></div>
+  </div>
+  <div class="brandmark light">TRAVELFRAME.VN</div>
+  <div class="pager light">1/7</div>
+</div>
+
+<!-- SLIDE 2 · PLACE 1 -->
+<div class="slide">
+  <div class="brandmark">TRAVELFRAME.VN</div>
+  <div class="content">
+    <div class="place-no">01</div>
+    <div class="place-name">Hoàn Kiếm Lake &amp; Ngọc Sơn Temple</div>
+    <div class="place-why">The heart of the city — a lake loop, a red bridge, and Hanoi moving at its own pace around both.</div>
+    <div class="meta-chips">
+      <div class="mchip"><b>Walk</b> ~5 min from center</div>
+      <div class="mchip"><b>Photo</b> before 9 AM</div>
+    </div>
+  </div>
+  <div class="pager">2/7</div>
+</div>
+
+<!-- SLIDE 3 · PLACE 2 -->
+<div class="slide">
+  <div class="brandmark">TRAVELFRAME.VN</div>
+  <div class="content">
+    <div class="place-no">02</div>
+    <div class="place-name">Hàng Mã Street</div>
+    <div class="place-why">Lanterns, colors and old shop fronts. The street that photographs itself.</div>
+    <div class="meta-chips">
+      <div class="mchip"><b>Walk</b> parallel to the lake</div>
+      <div class="mchip"><b>Photo</b> golden hour</div>
+    </div>
+  </div>
+  <div class="pager">3/7</div>
+</div>
+
+<!-- SLIDE 4 · PLACE 3 -->
+<div class="slide has-band">
+  <div class="band top"><img src="../assets/34152682.jpg" alt=""></div>
+  <div class="brandmark light">TRAVELFRAME.VN</div>
+  <div class="content">
+    <div class="place-no">03</div>
+    <div class="place-name">Đồng Xuân Market</div>
+    <div class="place-why">The Old Quarter's big classic market. Go in the morning — and eat at the stalls by the doors.</div>
+    <div class="meta-chips">
+      <div class="mchip"><b>Walk</b> north end of Old Quarter</div>
+      <div class="mchip"><b>Go</b> morning</div>
+    </div>
+  </div>
+  <div class="pager">4/7</div>
+</div>
+
+<!-- SLIDE 5 · PLACE 4 -->
+<div class="slide">
+  <div class="brandmark">TRAVELFRAME.VN</div>
+  <div class="content">
+    <div class="place-no">04</div>
+    <div class="place-name">Train Street</div>
+    <div class="place-why">The famous railway street. Access can change without notice — follow barriers and security instructions, always.</div>
+    <div class="meta-chips">
+      <div class="mchip"><b>Walk</b> mid Old Quarter</div>
+      <div class="mchip"><b>Check</b> access locally</div>
+    </div>
+  </div>
+  <div class="pager">5/7</div>
+</div>
+
+<!-- SLIDE 6 · PLACE 5 -->
+<div class="slide">
+  <div class="brandmark">TRAVELFRAME.VN</div>
+  <div class="content">
+    <div class="place-no">05</div>
+    <div class="place-name">St. Joseph's Cathedral</div>
+    <div class="place-why">The neo-gothic landmark, ringed by coffee shops. The balcony seats across the street are the real photo spot.</div>
+    <div class="meta-chips">
+      <div class="mchip"><b>Walk</b> ~5 min from the lake</div>
+      <div class="mchip"><b>Photo</b> from a café balcony</div>
+    </div>
+  </div>
+  <div class="pager">6/7</div>
+</div>
+
+<!-- SLIDE 7 · CTA -->
+<div class="slide cta-slide">
+  <div class="brandmark">TRAVELFRAME.VN</div>
+  <div class="content">
+    <div class="eyebrow">Old Quarter, done</div>
+    <div class="cta-h" style="margin-top:24px">Save this 📌<br>Walk it tomorrow.</div>
+    <div class="cta-sub">Five stops, one morning to one full day — you choose the pace.</div>
+    <div class="cta-line"><div class="cta-ico">→</div><div class="cta-txt">Follow <b>@travelframe.vn</b> — Hanoi tips &amp; photo spots</div></div>
+    <div class="cta-line"><div class="cta-ico">✉</div><div class="cta-txt">Want a walking route with photo stops built in? DM us.</div></div>
+  </div>
+  <div class="credits">Photos: Pexels — Thuan Pham. Access &amp; opening info checked Sep 2026 · can change without notice.</div>
+  <div class="pager">7/7</div>
+</div>
+
+<script>
+(function () {
+  var h = parseInt((location.hash || '').replace('#', ''), 10);
+  if (h >= 1) {
+    var slides = document.querySelectorAll('.slide');
+    for (var i = 0; i < slides.length; i++) if (i !== h - 1) slides[i].remove();
+    var s = document.querySelector('.slide'); if (s) s.style.marginBottom = '0';
+    document.body.style.background = '#000';
+  }
+})();
+</script>
+</body>
+</html>

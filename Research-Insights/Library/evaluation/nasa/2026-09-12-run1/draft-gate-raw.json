@@ -27,7 +27,7 @@
         }
       },
       "exit_code": 0,
-      "command": "check_draft.py --draft caption.md --type reel --sources-md sources.md --knowledge Research-Insights/Library/knowledge --sources output/posts/vietnam-esim-reel-caption.md"
+      "command": "check_draft.py --draft caption.md --type reel --sources-md sources.md --knowledge Research-Insights/Library/knowledge --sources Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md"
     },
     {
       "draft": "reel-script.md",
@@ -54,7 +54,7 @@
         }
       },
       "exit_code": 0,
-      "command": "check_draft.py --draft reel-script.md --type reel --no-expect-hashtag --sources-md sources.md --knowledge Research-Insights/Library/knowledge --sources output/posts/vietnam-esim-reel-caption.md",
+      "command": "check_draft.py --draft reel-script.md --type reel --no-expect-hashtag --sources-md sources.md --knowledge Research-Insights/Library/knowledge --sources Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md",
       "note": "hashtag_line=false va brand_hashtag=false la ket qua dung voi co --no-expect-hashtag (reel script khong co hashtag line theo V-03/V-06 ap dung cho caption)"
     }
   ],

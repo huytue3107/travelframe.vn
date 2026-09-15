@@ -56,4 +56,4 @@ Bottom: Dc4u1yKPj_s (0.27×), DdHyaYAifb6 (0.35×), DcMXl1IPNtB (0.58×). Pinned
 
 ## Run artifacts
 metrics.json · scores-rater-a.json · scores-rater-b.json · scores.json (100% resolved)
-spot-check.md (partial 1/3) · draft gate: output/drafts/2026-09-12-esim-setup-reel/evaluation-*.md
+spot-check.md (partial 1/3) · draft gate: Marketing-Growth/Content/Drafts/2026-09-12-esim-setup-reel/evaluation-*.md

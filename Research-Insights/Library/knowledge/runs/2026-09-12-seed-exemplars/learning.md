@@ -6,10 +6,10 @@
 
 ## Nguồn tiêu thụ (self_exemplar)
 - output/hanoi-dong-xuan-series/shared/DESIGN.md — guardrails + giọng
-- output/posts/vietnam-esim-reel-caption.md — caption voice + trap→move + comment-CTA
+- Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md — caption voice + trap→move + comment-CTA
 - output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt — hook countdown + pro move
 - output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt — beat theo giờ + safety line
-- carousels/README.md — quy tắc giá VERIFY 2 nguồn
+- Marketing-Growth/Content/Carousels/README.md — quy tắc giá VERIFY 2 nguồn
 
 ## Entry tạo mới
 - voice-playbook.md: V-01 … V-07 (7 entry)

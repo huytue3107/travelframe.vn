@@ -9,7 +9,7 @@ from helpers import run_validate, verdict
 
 VALID_PATTERNS = """## P-001 | Hook: câu hỏi first-time + promise   (confidence: 2 nguồn)
 - Cấu trúc: question to the viewer plus one concrete benefit promise
-- Nguồn: output/posts/exemplar.md (2026-09-11), Research-Insights/Library/analysis/youtube/x/run/analysis.md§3 (2026-09-12)
+- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/exemplar.md (2026-09-11), Research-Insights/Library/analysis/youtube/x/run/analysis.md§3 (2026-09-12)
 - Áp dụng cho TravelFrame: use in hook beat of reel scripts
 """
 
@@ -24,7 +24,7 @@ VALID_VOICE = """# Voice playbook
 ## Giọng & xưng hô
 ## V-01 | Warm local friend tone   (confidence: 3 nguồn)
 - Cấu trúc: short warm sentences, local friend addressing
-- Nguồn: output/posts/exemplar.md (2026-09-11)
+- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/exemplar.md (2026-09-11)
 
 ## Cấu trúc câu
 ## Emoji & ký hiệu
@@ -38,8 +38,15 @@ class ValidateKnowledgeTests(unittest.TestCase):
     def setUp(self):
         self.tmp = Path(tempfile.mkdtemp(prefix="kv-"))
         self.root = self.tmp / "ws"
-        (self.root / "output" / "posts").mkdir(parents=True)
-        (self.root / "output" / "posts" / "exemplar.md").write_text("exemplar\n")
+        legacy_posts = (
+            self.root
+            / "Marketing-Growth"
+            / "Content"
+            / "Review"
+            / "Legacy-Posts"
+        )
+        legacy_posts.mkdir(parents=True)
+        (legacy_posts / "exemplar.md").write_text("exemplar\n")
         library = self.root / "Research-Insights" / "Library"
         (library / "analysis" / "youtube" / "x" / "run").mkdir(
             parents=True, exist_ok=True
@@ -84,7 +91,7 @@ class ValidateKnowledgeTests(unittest.TestCase):
     def test_pointer_to_missing_file_fails(self):
         (self.kdir / "patterns.md").write_text(
             "## P-003 | Broken pointer   (confidence: 1 nguồn)\n"
-            "- Nguồn: output/posts/does-not-exist.md (2026-09-12)\n",
+            "- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/does-not-exist.md (2026-09-12)\n",
             encoding="utf-8")
         v = verdict(run_validate("--knowledge", self.kdir, "--root", self.root))
         self.assertFalse(v["valid"])
@@ -94,7 +101,7 @@ class ValidateKnowledgeTests(unittest.TestCase):
         self.seed_valid()
         (self.kdir / "ideas-backlog.md").write_text(
             VALID_IDEAS + "\n## P-001 | duplicate of patterns id   (confidence: 1 nguồn)\n"
-            "- Nguồn: output/posts/exemplar.md (2026-09-11)\n", encoding="utf-8")
+            "- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/exemplar.md (2026-09-11)\n", encoding="utf-8")
         v = verdict(run_validate("--knowledge", self.kdir, "--root", self.root))
         self.assertFalse(v["valid"])
         self.assertTrue(any("duplicate entry ID P-001" in e for e in v["errors"]))
@@ -114,10 +121,10 @@ class ValidateKnowledgeTests(unittest.TestCase):
         merged = (VALID_PATTERNS
                   + "\n## P-002 | CTA: comment keyword + DM flow   (confidence: 2 nguồn)\n"
                   "- Cấu trúc: comment keyword triggers dm flow\n"
-                  "- Nguồn: output/posts/exemplar.md (2026-09-11), "
+                  "- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/exemplar.md (2026-09-11), "
                   "Research-Insights/Library/channels/test/digest.md§CTA (2026-09-12)\n"
                   "\n## P-009 | Old CTA guess   (confidence: 1 nguồn)\n"
-                  "- Nguồn: output/posts/exemplar.md (2026-09-11)\n"
+                  "- Nguồn: Marketing-Growth/Content/Review/Legacy-Posts/exemplar.md (2026-09-11)\n"
                   "- Ghi chú: superseded bởi P-002 (2026-09-12)\n")
         (self.kdir / "patterns.md").write_text(merged_text := merged, encoding="utf-8")
         runs = self.kdir / "runs" / "2026-09-12-exemplars"

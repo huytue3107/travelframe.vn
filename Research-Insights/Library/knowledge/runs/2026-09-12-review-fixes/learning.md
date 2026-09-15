@@ -9,7 +9,7 @@
   - V-07 cập nhật: bỏ mệnh đề save/share cho mọi nội dung (xung đột V-05; guardrail đó
     chỉ của series Hanoi); [VERIFY] ghi rõ là quy ước mới có ngày; bỏ nguồn esim
     caption (không chứng minh trực tiếp); confidence 3→2 nguồn
-  - THÊM V-08: quy tắc giá 2 nguồn + Indicative (từ carousels/README.md)
+  - THÊM V-08: quy tắc giá 2 nguồn + Indicative (từ Marketing-Growth/Content/Carousels/README.md)
   - THÊM V-09: an toàn hành vi Train Street + ask first khi chụp
 - patterns.md: P-008 khái quát hóa 3 nhãn gần verbatim thành mô tả + ghi chú
 
