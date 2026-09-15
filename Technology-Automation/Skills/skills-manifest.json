@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "updated": "2026-09-15",
+  "canonical_root": ".agents/skills",
+  "mirror_roots": [
+    ".claude/skills"
+  ],
+  "skills": [
+    {
+      "name": "channel-evaluation",
+      "owner": "Research-Insights",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/channel-evaluation",
+      "deploy_targets": [
+        ".claude/skills/channel-evaluation"
+      ],
+      "approval_gates": [],
+      "dependencies": [
+        "Research-Insights/README.md"
+      ],
+      "contract": "legacy"
+    },
+    {
+      "name": "competitive-landscape",
+      "owner": "Research-Insights",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/competitive-landscape",
+      "deploy_targets": [
+        ".claude/skills/competitive-landscape"
+      ],
+      "approval_gates": [],
+      "dependencies": [
+        "Brand-Strategy/Source-Of-Truth-Map.md"
+      ],
+      "contract": "legacy"
+    },
+    {
+      "name": "competitor-analysis",
+      "owner": "Research-Insights",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/competitor-analysis",
+      "deploy_targets": [
+        ".claude/skills/competitor-analysis"
+      ],
+      "approval_gates": [],
+      "dependencies": [
+        "Brand-Strategy/Source-Of-Truth-Map.md"
+      ],
+      "contract": "legacy"
+    },
+    {
+      "name": "content-learning",
+      "owner": "Research-Insights",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/content-learning",
+      "deploy_targets": [
+        ".claude/skills/content-learning"
+      ],
+      "approval_gates": [],
+      "dependencies": [
+        "Research-Insights/Library/knowledge/patterns.md"
+      ],
+      "contract": "legacy"
+    },
+    {
+      "name": "content-writing",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/content-writing",
+      "deploy_targets": [
+        ".claude/skills/content-writing"
+      ],
+      "approval_gates": [
+        "publish-content"
+      ],
+      "dependencies": [
+        "Brand-Strategy/Source-Of-Truth-Map.md"
+      ],
+      "contract": "legacy"
+    },
+    {
+      "name": "humanizer",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/humanizer",
+      "deploy_targets": [
+        ".claude/skills/humanizer"
+      ],
+      "approval_gates": [],
+      "dependencies": [],
+      "contract": "legacy"
+    },
+    {
+      "name": "keyword-clustering",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/keyword-clustering",
+      "deploy_targets": [
+        ".claude/skills/keyword-clustering"
+      ],
+      "approval_gates": [],
+      "dependencies": [
+        "Technology-Automation/Runbooks/OpenSEO-Runbook.md"
+      ],
+      "contract": "legacy"
+    },
+    {
+      "name": "keyword-research",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/keyword-research",
+      "deploy_targets": [
+        ".claude/skills/keyword-research"
+      ],
+      "approval_gates": [],
+      "dependencies": [
+        "Technology-Automation/Runbooks/OpenSEO-Runbook.md"
+      ],
+      "contract": "legacy"
+    },
+    {
+      "name": "link-prospecting",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/link-prospecting",
+      "deploy_targets": [
+        ".claude/skills/link-prospecting"
+      ],
+      "approval_gates": [
+        "send-external-outreach"
+      ],
+      "dependencies": [],
+      "contract": "legacy"
+    },
+    {
+      "name": "local-seo",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/local-seo",
+      "deploy_targets": [
+        ".claude/skills/local-seo"
+      ],
+      "approval_gates": [
+        "update-gbp-live"
+      ],
+      "dependencies": [],
+      "contract": "legacy"
+    },
+    {
+      "name": "seo-audit",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/seo-audit",
+      "deploy_targets": [
+        ".claude/skills/seo-audit"
+      ],
+      "approval_gates": [
+        "publish-audit-report"
+      ],
+      "dependencies": [
+        "Technology-Automation/Runbooks/OpenSEO-Runbook.md"
+      ],
+      "contract": "legacy"
+    },
+    {
+      "name": "seo-coach",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/seo-coach",
+      "deploy_targets": [
+        ".claude/skills/seo-coach"
+      ],
+      "approval_gates": [],
+      "dependencies": [],
+      "contract": "legacy"
+    },
+    {
+      "name": "seo-project-setup",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/seo-project-setup",
+      "deploy_targets": [
+        ".claude/skills/seo-project-setup"
+      ],
+      "approval_gates": [
+        "mcp-write-scope"
+      ],
+      "dependencies": [
+        "Technology-Automation/Runbooks/OpenSEO-Runbook.md"
+      ],
+      "contract": "legacy"
+    },
+    {
+      "name": "video-understanding",
+      "owner": "Research-Insights",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/video-understanding",
+      "deploy_targets": [
+        ".claude/skills/video-understanding"
+      ],
+      "approval_gates": [],
+      "dependencies": [],
+      "contract": "legacy"
+    },
+    {
+      "name": "visual-asset-pipeline",
+      "owner": "Creative-Production",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/visual-asset-pipeline",
+      "deploy_targets": [
+        ".claude/skills/visual-asset-pipeline"
+      ],
+      "approval_gates": [
+        "paid-api-generation"
+      ],
+      "dependencies": [
+        "Creative-Production/README.md"
+      ],
+      "contract": "legacy"
+    }
+  ]
+}
