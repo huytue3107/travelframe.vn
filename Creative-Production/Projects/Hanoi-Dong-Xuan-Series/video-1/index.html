@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1080, height=1920, initial-scale=1">
+  <title>TravelFrame - Top 3 Hanoi Spots</title>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <style>
+    :root {
+      --charcoal: #10272B;
+      --paper: #F4F1EA;
+      --teal: #008AA3;
+      --amber: #F2B66D;
+    }
+
+    * { box-sizing: border-box; }
+    html, body {
+      width: 1080px;
+      height: 1920px;
+      margin: 0;
+      overflow: hidden;
+      background: var(--charcoal);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    [data-composition-id="video-1"] {
+      position: relative;
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: var(--charcoal);
+      color: var(--paper);
+    }
+
+    .media {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background: var(--charcoal);
+    }
+
+    .shade {
+      position: absolute;
+      inset: 0;
+      background: rgba(16,39,43,.48);
+      pointer-events: none;
+    }
+
+    .topline {
+      position: absolute;
+      left: 84px;
+      top: 116px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--paper);
+    }
+
+    .mark {
+      width: 18px;
+      height: 18px;
+      background: var(--amber);
+      border-radius: 50%;
+    }
+
+    .scene-copy {
+      position: absolute;
+      left: 84px;
+      right: 84px;
+      bottom: 212px;
+      padding-left: 28px;
+      border-left: 8px solid var(--teal);
+      text-shadow: 0 3px 18px rgba(0,0,0,.35);
+    }
+
+    .scene-kicker {
+      margin: 0 0 18px;
+      color: var(--amber);
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 3px;
+    }
+
+    .scene-title {
+      margin: 0;
+      max-width: 860px;
+      font-size: 82px;
+      line-height: .98;
+      letter-spacing: 0;
+      font-weight: 800;
+    }
+
+    .scene-note {
+      margin: 24px 0 0;
+      max-width: 780px;
+      font-size: 44px;
+      line-height: 1.08;
+      font-weight: 500;
+    }
+
+    .intro-copy {
+      top: 510px;
+      bottom: auto;
+      border-left: 0;
+      padding-left: 0;
+    }
+
+    .intro-copy .scene-title { font-size: 104px; max-width: 900px; }
+    .intro-copy .scene-note { font-size: 48px; max-width: 700px; }
+
+    .footer {
+      position: absolute;
+      left: 84px;
+      right: 84px;
+      bottom: 104px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(244,241,234,.82);
+    }
+
+    .footer .source { color: rgba(244,241,234,.62); letter-spacing: 1px; }
+
+    .wipe {
+      position: absolute;
+      inset: 0;
+      z-index: 20;
+      background: var(--teal);
+      transform: translateX(-100%);
+      pointer-events: none;
+    }
+
+    .final-copy {
+      position: absolute;
+      left: 84px;
+      right: 84px;
+      top: 650px;
+      text-align: center;
+    }
+
+    .final-copy .scene-title { max-width: none; font-size: 76px; }
+    .final-copy .scene-note {
+      max-width: none;
+      margin-top: 26px;
+      color: var(--amber);
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div data-hf-id="hf-87ns" id="stage" data-composition-id="video-1" data-width="1080" data-height="1920" data-duration="36.696" data-start="0" data-track-index="99">
+    <video data-hf-id="hf-s81l" id="market-day" class="media" src="assets/hanoi-market.mp4" data-start="0" data-duration="13" data-track-index="0" data-media-start="0" muted playsinline></video>
+    <video data-hf-id="hf-fnq7" id="hoan-kiem-tower" class="media" src="assets/turtle-tower-hoan-kiem.mp4" data-start="13" data-duration="7.5" data-track-index="0" data-media-start="0" muted playsinline></video>
+    <video data-hf-id="hf-q667" id="old-quarter-detail" class="media" src="assets/hanoi-old-quarter.mp4" data-start="20.5" data-duration="2.5" data-track-index="0" data-media-start="0.5" muted playsinline></video>
+    <video data-hf-id="hf-s62w" id="train-street" class="media" src="assets/hanoi-train-street.mp4" data-start="23" data-duration="11.5" data-track-index="0" data-media-start="0" muted playsinline></video>
+    <video data-hf-id="hf-2vuu" id="market-night-outro" class="media" src="assets/hanoi-market-night.mp4" data-start="34.5" data-duration="2.196" data-track-index="0" data-media-start="0" muted playsinline></video>
+    <audio data-hf-id="hf-u0bt" id="narration-video-1" src="audio/video-1.mp3" data-start="0" data-duration="36.696" data-track-index="2"></audio>
+
+    <div data-hf-id="hf-1ctr" id="shade-video-1" class="shade clip" data-start="0" data-duration="36.696" data-track-index="1" data-hidden=""></div>
+    <div data-hf-id="hf-iknf" id="topline-video-1" class="topline clip" data-start="0" data-duration="36.696" data-track-index="4" data-hidden=""><span data-hf-id="hf-zeo6" class="mark"></span>TRAVELFRAME / HANOI</div>
+
+    <section data-hf-id="hf-hddi" id="intro-video-1" class="scene-copy intro-copy clip" data-start="0" data-duration="3.6" data-track-index="5" data-hidden="">
+      <p data-hf-id="hf-ndjw" class="scene-kicker">A QUICK LOCAL START</p>
+      <h1 data-hf-id="hf-8bdd" class="scene-title">First time<br data-hf-id="hf-x5px">in Hanoi?</h1>
+      <p data-hf-id="hf-itwc" class="scene-note">Skip the checklist. Start here.</p>
+    </section>
+
+    <section data-hf-id="hf-zu8f" id="market-copy-video-1" class="scene-copy market-copy clip" data-start="3.6" data-duration="9.4" data-track-index="5" data-hidden="">
+      <p data-hf-id="hf-tmst" class="scene-kicker">01 / MARKET B-ROLL</p>
+      <h2 data-hf-id="hf-fugu" class="scene-title">Dong Xuan<br data-hf-id="hf-rsrt">Market</h2>
+      <p data-hf-id="hf-fojl" class="scene-note">Big, busy, zero chill.</p>
+    </section>
+
+    <section data-hf-id="hf-ryz2" id="lake-copy-video-1" class="scene-copy lake-copy clip" data-start="13" data-duration="10" data-track-index="5" data-hidden="">
+      <p data-hf-id="hf-1xay" class="scene-kicker">02 / HOAN KIEM</p>
+      <h2 data-hf-id="hf-hasu" class="scene-title">Lake time.</h2>
+      <p data-hf-id="hf-nk8w" class="scene-note">A calm reset after the market chaos.</p>
+    </section>
+
+    <section data-hf-id="hf-e2mv" id="train-copy-video-1" class="scene-copy train-copy clip" data-start="23" data-duration="11.5" data-track-index="5" data-hidden="">
+      <p data-hf-id="hf-1gdq" class="scene-kicker">03 / TRAIN STREET</p>
+      <h2 data-hf-id="hf-6cbj" class="scene-title">Iconic.<br data-hf-id="hf-szow">Still real.</h2>
+      <p data-hf-id="hf-jixb" class="scene-note">Respect the barriers. Listen to locals.</p>
+    </section>
+
+    <section data-hf-id="hf-rpan" id="final-copy-video-1" class="final-copy clip" data-start="34.5" data-duration="2.196" data-track-index="5" data-hidden="">
+      <h2 data-hf-id="hf-yujh" class="scene-title">Save this<br data-hf-id="hf-sldv">for Hanoi.</h2>
+      <p data-hf-id="hf-0ovt" class="scene-note">TravelFrame — your local friend in Hanoi</p>
+    </section>
+
+    <div data-hf-id="hf-lwvs" id="footer-video-1" class="footer clip" data-start="0" data-duration="36.696" data-track-index="6" data-hidden="">
+      <span data-hf-id="hf-vb8q">@travelframe.vn</span>
+      <span data-hf-id="hf-xzqq" class="source">Footage: Pexels</span>
+    </div>
+
+    <div data-hf-id="hf-aagz" id="wipe-video-1-a" class="wipe wipe-one clip" data-start="12.65" data-duration=".7" data-track-index="20"></div>
+    <div data-hf-id="hf-c0gd" id="wipe-video-1-b" class="wipe wipe-two clip" data-start="22.65" data-duration=".7" data-track-index="20"></div>
+    <div data-hf-id="hf-sudw" id="wipe-video-1-c" class="wipe wipe-three clip" data-start="34.15" data-duration=".7" data-track-index="20"></div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    window.__timelines = window.__timelines || {};
+
+    tl.from(".topline", { y: -30, opacity: 0, duration: 0.45, ease: "power2.out" }, 0.1);
+    tl.from(".intro-copy", { y: 34, opacity: 0, duration: 0.55, ease: "power3.out" }, 0.22);
+    tl.from(".market-copy", { y: 42, opacity: 0, duration: 0.48, ease: "power2.out" }, 3.72);
+    tl.from(".lake-copy", { y: 42, opacity: 0, duration: 0.48, ease: "power2.out" }, 13.12);
+    tl.from(".train-copy", { y: 42, opacity: 0, duration: 0.48, ease: "power2.out" }, 23.12);
+    tl.from(".final-copy", { scale: 0.96, opacity: 0, duration: 0.5, ease: "back.out(1.4)" }, 34.56);
+    tl.from(".footer", { opacity: 0, duration: 0.35, ease: "sine.out" }, 0.3);
+
+    tl.fromTo(".wipe-one", { xPercent: -100 }, { xPercent: 100, duration: 0.7, ease: "power2.inOut" }, 12.65);
+    tl.fromTo(".wipe-two", { xPercent: -100 }, { xPercent: 100, duration: 0.7, ease: "power2.inOut" }, 22.65);
+    tl.fromTo(".wipe-three", { xPercent: -100 }, { xPercent: 100, duration: 0.7, ease: "power2.inOut" }, 34.15);
+
+    window.__timelines["video-1"] = tl;
+  </script>
+</body>
+</html>

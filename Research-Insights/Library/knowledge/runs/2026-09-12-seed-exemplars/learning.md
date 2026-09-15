@@ -5,10 +5,10 @@
   knowledge base hiện chỉ seed từ exemplar của chính TravelFrame.
 
 ## Nguồn tiêu thụ (self_exemplar)
-- output/hanoi-dong-xuan-series/shared/DESIGN.md — guardrails + giọng
+- Creative-Production/Projects/Hanoi-Dong-Xuan-Series/shared/DESIGN.md — guardrails + giọng
 - Marketing-Growth/Content/Review/Legacy-Posts/vietnam-esim-reel-caption.md — caption voice + trap→move + comment-CTA
-- output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt — hook countdown + pro move
-- output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt — beat theo giờ + safety line
+- Creative-Production/Projects/Hanoi-Dong-Xuan-Series/scripts/top-3-hanoi-spots.txt — hook countdown + pro move
+- Creative-Production/Projects/Hanoi-Dong-Xuan-Series/scripts/one-day-hanoi-itinerary.txt — beat theo giờ + safety line
 - Marketing-Growth/Content/Carousels/README.md — quy tắc giá VERIFY 2 nguồn
 
 ## Entry tạo mới

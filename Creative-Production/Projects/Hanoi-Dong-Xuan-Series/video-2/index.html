@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1080, height=1920, initial-scale=1">
+  <title>TravelFrame - One Day in Hanoi</title>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <style>
+    :root {
+      --charcoal: #10272B;
+      --paper: #F4F1EA;
+      --teal: #008AA3;
+      --amber: #F2B66D;
+    }
+
+    * { box-sizing: border-box; }
+    html, body {
+      width: 1080px;
+      height: 1920px;
+      margin: 0;
+      overflow: hidden;
+      background: var(--charcoal);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    [data-composition-id="video-2"] {
+      position: relative;
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: var(--charcoal);
+      color: var(--paper);
+    }
+
+    .media {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background: var(--charcoal);
+    }
+
+    .shade {
+      position: absolute;
+      inset: 0;
+      background: rgba(16,39,43,.48);
+      pointer-events: none;
+    }
+
+    .topline {
+      position: absolute;
+      left: 84px;
+      top: 116px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--paper);
+    }
+
+    .mark {
+      width: 18px;
+      height: 18px;
+      background: var(--amber);
+      border-radius: 50%;
+    }
+
+    .scene-copy {
+      position: absolute;
+      left: 84px;
+      right: 84px;
+      bottom: 212px;
+      padding-left: 28px;
+      border-left: 8px solid var(--teal);
+      text-shadow: 0 3px 18px rgba(0,0,0,.35);
+    }
+
+    .scene-kicker {
+      margin: 0 0 18px;
+      color: var(--amber);
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 3px;
+    }
+
+    .scene-title {
+      margin: 0;
+      max-width: 860px;
+      font-size: 76px;
+      line-height: .98;
+      letter-spacing: 0;
+      font-weight: 800;
+    }
+
+    .scene-note {
+      margin: 24px 0 0;
+      max-width: 790px;
+      font-size: 42px;
+      line-height: 1.08;
+      font-weight: 500;
+    }
+
+    .intro-copy {
+      top: 510px;
+      bottom: auto;
+      border-left: 0;
+      padding-left: 0;
+    }
+
+    .intro-copy .scene-title { font-size: 104px; max-width: 900px; }
+    .intro-copy .scene-note { font-size: 48px; max-width: 700px; }
+
+    .footer {
+      position: absolute;
+      left: 84px;
+      right: 84px;
+      bottom: 104px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(244,241,234,.82);
+    }
+
+    .footer .source { color: rgba(244,241,234,.62); letter-spacing: 1px; }
+
+    .wipe {
+      position: absolute;
+      inset: 0;
+      z-index: 20;
+      background: var(--teal);
+      transform: translateX(-100%);
+      pointer-events: none;
+    }
+
+    .final-copy {
+      position: absolute;
+      left: 84px;
+      right: 84px;
+      top: 650px;
+      text-align: center;
+    }
+
+    .final-copy .scene-title { max-width: none; font-size: 76px; }
+    .final-copy .scene-note {
+      max-width: none;
+      margin-top: 26px;
+      color: var(--amber);
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div data-hf-id="hf-pl0g" id="stage" data-composition-id="video-2" data-width="1080" data-height="1920" data-duration="39.984" data-start="0" data-track-index="99">
+    <video data-hf-id="hf-92r0" id="old-quarter-morning" class="media" src="assets/hanoi-old-quarter.mp4" data-start="0" data-duration="10" data-track-index="0" data-media-start="0" muted playsinline></video>
+    <video data-hf-id="hf-78ae" id="hoan-kiem-late-morning" class="media" src="assets/turtle-tower-hoan-kiem.mp4" data-start="10" data-duration="6" data-track-index="0" data-media-start="0" muted playsinline></video>
+    <video data-hf-id="hf-2mgq" id="temple-afternoon" class="media" src="assets/hanoi-temple.mp4" data-start="16" data-duration="7.5" data-track-index="0" data-media-start="0" muted playsinline></video>
+    <video data-hf-id="hf-qqlz" id="cathedral-sunset" class="media" src="assets/st-joseph-cathedral.mp4" data-start="23.5" data-duration="5.5" data-track-index="0" data-media-start="0" muted playsinline></video>
+    <video data-hf-id="hf-5jwi" id="train-street-night" class="media" src="assets/hanoi-train-street.mp4" data-start="29" data-duration="8" data-track-index="0" data-media-start="0" muted playsinline></video>
+    <video data-hf-id="hf-no15" id="market-night-outro" class="media" src="assets/hanoi-market-night.mp4" data-start="37" data-duration="2.984" data-track-index="0" data-media-start="2" muted playsinline></video>
+    <audio data-hf-id="hf-ex6a" id="narration-video-2" src="audio/video-2.mp3" data-start="0" data-duration="39.984" data-track-index="2"></audio>
+
+    <div data-hf-id="hf-qv4j" id="shade-video-2" class="shade clip" data-start="0" data-duration="39.984" data-track-index="1" data-hidden=""></div>
+    <div data-hf-id="hf-y38v" id="topline-video-2" class="topline clip" data-start="0" data-duration="39.984" data-track-index="4" data-hidden=""><span data-hf-id="hf-zeo6" class="mark"></span>TRAVELFRAME / HANOI</div>
+
+    <section data-hf-id="hf-4p6d" id="intro-video-2" class="scene-copy intro-copy clip" data-start="0" data-duration="3" data-track-index="5" data-hidden="">
+      <p data-hf-id="hf-daj0" class="scene-kicker">THE ONE-DAY MOVE</p>
+      <h1 data-hf-id="hf-e44c" class="scene-title">Only one day<br data-hf-id="hf-x5px">in Hanoi?</h1>
+      <p data-hf-id="hf-92xi" class="scene-note">Here is the move.</p>
+    </section>
+
+    <section data-hf-id="hf-edfw" id="market-copy-video-2" class="scene-copy market-copy clip" data-start="3" data-duration="7" data-track-index="5" data-hidden="">
+      <p data-hf-id="hf-lxx4" class="scene-kicker">MORNING / MARKET B-ROLL</p>
+      <h2 data-hf-id="hf-7fre" class="scene-title">Dong Xuan<br data-hf-id="hf-rsrt">+ Old Quarter</h2>
+      <p data-hf-id="hf-5gn6" class="scene-note">Breakfast, stalls, and a little getting lost.</p>
+    </section>
+
+    <section data-hf-id="hf-4u4d" id="lake-copy-video-2" class="scene-copy lake-copy clip" data-start="10" data-duration="6" data-track-index="5" data-hidden="">
+      <p data-hf-id="hf-o2kw" class="scene-kicker">LATE MORNING / HOAN KIEM</p>
+      <h2 data-hf-id="hf-s1fj" class="scene-title">Walk it off.</h2>
+      <p data-hf-id="hf-5hnx" class="scene-note">Then grab egg coffee or a cold Vietnamese coffee.</p>
+    </section>
+
+    <section data-hf-id="hf-2q8x" id="temple-copy-video-2" class="scene-copy temple-copy clip" data-start="16" data-duration="7.5" data-track-index="5" data-hidden="">
+      <p data-hf-id="hf-5zb1" class="scene-kicker">AFTERNOON / VAN MIEU</p>
+      <h2 data-hf-id="hf-600b" class="scene-title">Slow<br data-hf-id="hf-szow">the pace.</h2>
+      <p data-hf-id="hf-x9ph" class="scene-note">Temple of Literature = a calm reset.</p>
+    </section>
+
+    <section data-hf-id="hf-yejk" id="cathedral-copy-video-2" class="scene-copy cathedral-copy clip" data-start="23.5" data-duration="5.5" data-track-index="5" data-hidden="">
+      <p data-hf-id="hf-n7n6" class="scene-kicker">SUNSET / FRENCH QUARTER</p>
+      <h2 data-hf-id="hf-236z" class="scene-title">Postcard<br data-hf-id="hf-sldv">Hanoi.</h2>
+      <p data-hf-id="hf-wa5s" class="scene-note">St. Joseph's Cathedral, then wander.</p>
+    </section>
+
+    <section data-hf-id="hf-1wfh" id="night-copy-video-2" class="scene-copy night-copy clip" data-start="29" data-duration="8" data-track-index="5" data-hidden="">
+      <p data-hf-id="hf-bryt" class="scene-kicker">NIGHT / KEEP IT FLEXIBLE</p>
+      <h2 data-hf-id="hf-ccc5" class="scene-title">Train Street<br data-hf-id="hf-qluq">or street food.</h2>
+      <p data-hf-id="hf-k2w9" class="scene-note">Check access. Respect the neighborhood.</p>
+    </section>
+
+    <section data-hf-id="hf-97f7" id="final-copy-video-2" class="final-copy clip" data-start="37" data-duration="2.984" data-track-index="5" data-hidden="">
+      <h2 data-hf-id="hf-aivn" class="scene-title">Save this<br data-hf-id="hf-q7jp">Hanoi route.</h2>
+      <p data-hf-id="hf-0ovt" class="scene-note">TravelFrame — your local friend in Hanoi</p>
+    </section>
+
+    <div data-hf-id="hf-wd9m" id="footer-video-2" class="footer clip" data-start="0" data-duration="39.984" data-track-index="6" data-hidden="">
+      <span data-hf-id="hf-vb8q">@travelframe.vn</span>
+      <span data-hf-id="hf-xzqq" class="source">Footage: Pexels</span>
+    </div>
+
+    <div data-hf-id="hf-qmio" id="wipe-video-2-a" class="wipe wipe-one clip" data-start="9.65" data-duration=".7" data-track-index="20"></div>
+    <div data-hf-id="hf-e3o4" id="wipe-video-2-b" class="wipe wipe-two clip" data-start="15.65" data-duration=".7" data-track-index="20"></div>
+    <div data-hf-id="hf-gk63" id="wipe-video-2-c" class="wipe wipe-three clip" data-start="23.15" data-duration=".7" data-track-index="20"></div>
+    <div data-hf-id="hf-s2eu" id="wipe-video-2-d" class="wipe wipe-four clip" data-start="28.65" data-duration=".7" data-track-index="20"></div>
+    <div data-hf-id="hf-ck28" id="wipe-video-2-e" class="wipe wipe-five clip" data-start="36.65" data-duration=".7" data-track-index="20"></div>
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    window.__timelines = window.__timelines || {};
+
+    tl.from(".topline", { y: -30, opacity: 0, duration: 0.45, ease: "power2.out" }, 0.1);
+    tl.from(".intro-copy", { y: 34, opacity: 0, duration: 0.55, ease: "power3.out" }, 0.22);
+    tl.from(".market-copy", { y: 42, opacity: 0, duration: 0.48, ease: "power2.out" }, 3.12);
+    tl.from(".lake-copy", { y: 42, opacity: 0, duration: 0.48, ease: "power2.out" }, 10.12);
+    tl.from(".temple-copy", { y: 42, opacity: 0, duration: 0.48, ease: "power2.out" }, 16.12);
+    tl.from(".cathedral-copy", { y: 42, opacity: 0, duration: 0.48, ease: "power2.out" }, 23.62);
+    tl.from(".night-copy", { y: 42, opacity: 0, duration: 0.48, ease: "power2.out" }, 29.12);
+    tl.from(".final-copy", { scale: 0.96, opacity: 0, duration: 0.5, ease: "back.out(1.4)" }, 37.06);
+    tl.from(".footer", { opacity: 0, duration: 0.35, ease: "sine.out" }, 0.3);
+
+    tl.fromTo(".wipe-one", { xPercent: -100 }, { xPercent: 100, duration: 0.7, ease: "power2.inOut" }, 9.65);
+    tl.fromTo(".wipe-two", { xPercent: -100 }, { xPercent: 100, duration: 0.7, ease: "power2.inOut" }, 15.65);
+    tl.fromTo(".wipe-three", { xPercent: -100 }, { xPercent: 100, duration: 0.7, ease: "power2.inOut" }, 23.15);
+    tl.fromTo(".wipe-four", { xPercent: -100 }, { xPercent: 100, duration: 0.7, ease: "power2.inOut" }, 28.65);
+    tl.fromTo(".wipe-five", { xPercent: -100 }, { xPercent: 100, duration: 0.7, ease: "power2.inOut" }, 36.65);
+
+    window.__timelines["video-2"] = tl;
+  </script>
+</body>
+</html>

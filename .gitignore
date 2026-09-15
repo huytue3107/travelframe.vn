@@ -26,3 +26,14 @@ Creative-Production/Projects/*/Renders/
 Creative-Production/Review/
 Research-Insights/Library/videos/
 Research-Insights/Library/transcripts/
+
+# Hanoi Dong Xuan project bundle: media and caches stay untracked, sources tracked.
+Creative-Production/Projects/Hanoi-Dong-Xuan-Series/renders/
+Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/renders/
+Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/assets/
+Creative-Production/Projects/Hanoi-Dong-Xuan-Series/assets/
+Creative-Production/Projects/Hanoi-Dong-Xuan-Series/audio/
+Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/audio/
+Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/.hyperframes/
+Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/.thumbnails/
+Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/.waveform-cache/

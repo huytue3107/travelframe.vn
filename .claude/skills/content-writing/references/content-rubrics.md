@@ -31,7 +31,7 @@ Checker yêu cầu: đúng 5-7 slide `## Slide N —`, mọi token giá phải c
 
 `Marketing-Growth/Content/Drafts/<slug>/scripts/<slug>.txt`:
 - Narration thuần, mỗi beat 1 khối cách dòng trống (đúng format
-  `output/hanoi-dong-xuan-series/scripts/*.txt`)
+  `Creative-Production/Projects/Hanoi-Dong-Xuan-Series/scripts/*.txt`)
 - Câu ngắn đủ đọc là 1 câu overlay; kết beat cuối bằng save/share + mời gọi
 
 `Marketing-Growth/Content/Drafts/<slug>/asset-plan.md`:

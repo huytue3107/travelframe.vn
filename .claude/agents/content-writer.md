@@ -32,7 +32,7 @@ verdict cuối cho draft của mình.
 - Đầu vào học: `Research-Insights/Library/analysis/<video-key>/<run>/analysis.{md,json}`,
   `Research-Insights/Library/channels/<handle>/{digest.md,*.json}`,
   `Research-Insights/Library/transcripts/<name>-<runstamp>/` (chỉ tin khi có `provenance.json`),
-  và exemplar của chính TravelFrame (`Marketing-Growth/Content/Review/Legacy-Posts/`, `output/hanoi-dong-xuan-series/`,
+  và exemplar của chính TravelFrame (`Marketing-Growth/Content/Review/Legacy-Posts/`, `Creative-Production/Projects/Hanoi-Dong-Xuan-Series/`,
   `Marketing-Growth/Content/Carousels/` — chỉ đọc text).
 - Knowledge base: `Research-Insights/Library/knowledge/` (voice-playbook.md, patterns.md,
   ideas-backlog.md, runs/) — schema + merge rules trong

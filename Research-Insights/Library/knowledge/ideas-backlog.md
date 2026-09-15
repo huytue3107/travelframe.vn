@@ -23,12 +23,12 @@
 - Trạng thái: idea
 
 ## I-005 | Reel "ăn gì ở Chợ Đồng Xuân"   (confidence: 1 nguồn)
-- Nguồn: output/hanoi-dong-xuan-series/asset-plan.md (2026-09-11)
+- Nguồn: Creative-Production/Projects/Hanoi-Dong-Xuan-Series/asset-plan.md (2026-09-11)
 - Góc cho TravelFrame: countdown 3 món (P-003), footage là market B-roll trừ khi chứng minh được chợ (V-07)
 - Trạng thái: idea
 
 ## I-006 | Reel "Hồ Hoàn Kiếm buổi sáng như người địa phương"   (confidence: 2 nguồn)
-- Nguồn: output/hanoi-dong-xuan-series/asset-plan.md (2026-09-11), output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt (2026-09-11)
+- Nguồn: Creative-Production/Projects/Hanoi-Dong-Xuan-Series/asset-plan.md (2026-09-11), Creative-Production/Projects/Hanoi-Dong-Xuan-Series/scripts/one-day-hanoi-itinerary.txt (2026-09-11)
 - Góc cho TravelFrame: slow-morning angle + egg coffee stop, tone reset giữa phố xô (theo beat P-002)
 - Trạng thái: idea
 

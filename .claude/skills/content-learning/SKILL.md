@@ -31,7 +31,7 @@ Quét `Research-Insights/Library/`:
 - `analysis/<video-key>/<run>/analysis.md` + `analysis.json` (video-analyst)
 - `channels/<handle>/digest.md` và `channels/<handle>/*.json` (channel-scout)
 - `transcripts/<name>-<runstamp>/` — chỉ dùng khi có `provenance.json`
-- Exemplar của TravelFrame: `Marketing-Growth/Content/Review/Legacy-Posts/*.md`, `output/hanoi-dong-xuan-series/`
+- Exemplar của TravelFrame: `Marketing-Growth/Content/Review/Legacy-Posts/*.md`, `Creative-Production/Projects/Hanoi-Dong-Xuan-Series/`
   (scripts + asset-plan + DESIGN.md), `Marketing-Growth/Content/Carousels/*/slides.html` (chỉ ĐỌC text)
 Đọc `knowledge/runs/*/learning.md` để biết cái gì đã học rồi. Báo: nguồn mới / nguồn đã học / nguồn yếu.
 
