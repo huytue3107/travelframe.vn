@@ -69,16 +69,46 @@ Không kéo giãn thiết kế `4:5` thành `9:16`. Designer phải bố cục l
 
 ## 4. Visual System Chung
 
+### Visual Source Of Truth
+
+Nguồn nhận diện của campaign là Facebook Fanpage `travelframe.vn` và Instagram
+`@travelframe.vn`, được kiểm tra ngày `2026-09-15`.
+
+Hai kênh cùng dùng logo đỏ gạch - trắng. Cover Facebook dùng đỏ nâu đậm; cover
+Instagram gần nhất sử dụng vàng sáng, đen và trắng trên ảnh du lịch. Campaign phải
+tiếp nối hệ màu đang xuất hiện trên kênh, không dùng palette teal cũ.
+
 | Thành phần | Quy định |
 |---|---|
-| Accent teal | `#008AA3` |
-| Dark charcoal teal | `#10272B` |
-| Main text | `#F4F1EA` |
-| Warm highlight | `#F2B66D` |
-| Body text trên nền sáng | Charcoal |
+| Primary brand red | `#AE2A1D` |
+| Deep brand red | `#42100E` |
+| Content highlight yellow | `#FFE050` |
+| Main black | `#101010` |
+| Main white | `#FFFFFF` |
+| Warm white | `#F7F2ED` |
 | Typeface | Arial, Helvetica hoặc sans-serif tương đương |
 | Corner radius | Tối đa 8 px nếu thật sự cần |
 | Photography | Ưu tiên ảnh thật, rõ chủ thể và đúng dịch vụ |
+
+### Color Roles
+
+- `#AE2A1D`: logo, CTA, underline hoặc brand marker.
+- `#42100E`: nền tối, divider hoặc cover treatment có sắc đỏ nâu.
+- `#FFE050`: headline label, keyword hoặc chi tiết cần được nhìn thấy nhanh.
+- `#101010`: headline trên nền vàng hoặc trắng.
+- `#FFFFFF` và `#F7F2ED`: text trên nền đỏ, information panel hoặc khoảng thở.
+
+Không dùng tất cả màu trên cùng một slide. Mỗi layout chỉ cần ảnh thật, một neutral
+pair đen - trắng và một màu nhấn đỏ hoặc vàng.
+
+Tỷ lệ gợi ý:
+
+```text
+Ảnh thật: 65-75%
+Black/white/neutral: 15-25%
+Brand red: 5-10%
+Highlight yellow: tối đa 5-10%
+```
 
 ### Nguyên Tắc Bố Cục
 
@@ -88,7 +118,10 @@ Không kéo giãn thiết kế `4:5` thành `9:16`. Designer phải bố cục l
 - Không dùng paragraph dài trên ảnh.
 - Không đặt card trong card.
 - Không dùng gradient, glow, bokeh hoặc decorative orb.
-- Không phủ một màu teal lên toàn bộ bộ ảnh.
+- Không phủ đỏ hoặc vàng lên toàn bộ bộ ảnh.
+- Không biến mọi slide thành khối vàng; vàng chỉ dùng để giữ continuity với các
+  thumbnail Instagram hiện tại.
+- CTA cuối ưu tiên nền đỏ `#AE2A1D`, chữ trắng và keyword vàng hoặc trắng.
 - Không dùng quá hai kiểu font weight trên một slide.
 - Letter spacing bằng `0`, trừ micro label viết hoa khi thật sự cần.
 
@@ -182,6 +215,7 @@ DM “FILM” TO TRY IT
 - Hero image: khách đang cầm máy film và chụp một cảnh Hà Nội.
 - Góc máy ưu tiên over-shoulder để thấy cả máy và subject.
 - Có thể thêm một dải contact sheet nhỏ ở mép dưới.
+- Headline có thể đặt trên label vàng với chữ đen; CTA dùng đỏ - trắng.
 - Contact sheet phải là ảnh film thật hoặc được ghi là visual mockup nội bộ.
 - Máy film phải nhìn rõ và không bị nhầm thành digital camera.
 
@@ -291,6 +325,7 @@ DM “PHOTO” TO CHECK AVAILABILITY
 
 - Dùng một final photo mạnh làm hero.
 - Có thể thêm một BTS inset nhỏ để chứng minh photographer thật sự đồng hành.
+- Dùng đỏ - trắng cho brand marker; vàng chỉ dùng cho hook hoặc keyword.
 - Final photo và BTS phải thuộc cùng buổi chụp.
 - Gương mặt, màu da và bối cảnh phải rõ.
 - Không dùng stock photo như portfolio TravelFrame.
@@ -393,6 +428,7 @@ DM “HANOI” TO PLAN YOUR WALK
 - Hero image: local host và khách đang tương tác hoặc cùng đi bộ.
 - Cần nhìn thấy mối quan hệ host-khách, không chỉ là cảnh thành phố.
 - Có thể dùng ba micro labels: `Food`, `Local life`, `Photography`.
+- Micro label có thể dùng nền vàng, chữ đen; CTA vẫn dùng đỏ - trắng.
 - Micro labels dùng text phẳng, không biến thành một cụm pill dày đặc.
 
 ### Không Dùng
@@ -598,7 +634,8 @@ Không publish hoặc đưa vào Ads Manager trước khi Rocky duyệt final.
 - [ ] Không dùng stock như bằng chứng khách hàng thật.
 - [ ] Không cam kết Train Street hoặc địa điểm cố định.
 - [ ] Màu da và màu ảnh tự nhiên.
-- [ ] Thiết kế không bị thống trị bởi một màu teal.
+- [ ] Thiết kế dùng đúng hệ đỏ - trắng và vàng - đen của Facebook/Instagram.
+- [ ] Không có teal nếu chưa có brand guideline mới phê duyệt.
 - [ ] File `4:5` và `9:16` được kiểm tra riêng.
 - [ ] Assets có quyền sử dụng paid ads.
 - [ ] Rocky đã duyệt final.

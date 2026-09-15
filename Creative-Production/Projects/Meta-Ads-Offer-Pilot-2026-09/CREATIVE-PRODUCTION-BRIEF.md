@@ -49,19 +49,47 @@ nghiệm thành một câu chuyện hình ảnh cá nhân.
 
 ### Visual Identity
 
+Visual source of truth cho campaign này là nhận diện đang hiển thị trên Facebook
+Fanpage `travelframe.vn` và Instagram `@travelframe.vn`, được kiểm tra ngày
+`2026-09-15`.
+
+Hai kênh cùng dùng logo đỏ gạch - trắng. Cover Facebook dùng đỏ nâu đậm; các cover
+Instagram gần nhất dùng vàng sáng, chữ đen và khối trắng trên ảnh. Palette dưới đây
+được lấy từ visual đang hiển thị, không lấy palette teal cũ của Guest Guide.
+
 | Thành phần | Quy định |
 |---|---|
-| Accent teal | `#008AA3` |
-| Dark background | `#10272B` |
-| Main text | `#F4F1EA` |
-| Warm highlight | `#F2B66D` |
+| Primary brand red | `#AE2A1D` |
+| Deep brand red | `#42100E` |
+| Content highlight yellow | `#FFE050` |
+| Main black | `#101010` |
+| Main white | `#FFFFFF` |
+| Warm white | `#F7F2ED` |
 | Typeface | Arial, Helvetica hoặc sans-serif tương đương |
 | Headline | Bold, dễ đọc, không dùng negative letter spacing |
 | Graphic style | Flat, editorial, ưu tiên ảnh/video thật |
 | Không sử dụng | Gradient, glow, bokeh, decorative orb, sticker thừa |
 
-Teal chỉ là màu nhấn. Không phủ teal lên toàn bộ video hoặc làm footage Hà Nội mất
-màu sắc tự nhiên.
+### Color Hierarchy
+
+- **Brand layer:** đỏ `#AE2A1D` và trắng dùng cho logo, CTA cuối và brand marker.
+- **Content layer:** vàng `#FFE050` và đen `#101010` dùng cho hook, keyword hoặc
+  information label.
+- **Image layer:** footage thật chiếm phần lớn khung hình và giữ màu tự nhiên.
+- **Dark layer:** đỏ nâu `#42100E` chỉ dùng cho nền tối, divider hoặc transition
+  ngắn.
+
+Tỷ lệ gợi ý:
+
+```text
+Footage/photo thật: 70-80%
+Black/white typography và neutral space: 10-20%
+Brand red: 5-10%
+Highlight yellow: tối đa 5-8%
+```
+
+Không dùng teal trong campaign này, trừ khi Rocky cung cấp brand guideline mới.
+Không phủ đỏ hoặc vàng lên toàn bộ footage.
 
 ## 4. Yêu Cầu Chung Cho Ba Creative
 
@@ -121,6 +149,7 @@ Chịu trách nhiệm:
 
 - Xây visual treatment dùng chung cho cả ba creative.
 - Thiết kế text overlay, lower-third, cover và final CTA card.
+- Dùng đỏ - trắng cho CTA/brand frame; dùng vàng - đen cho hook hoặc utility label.
 - Thiết kế contact sheet hoặc film scan frame cho creative `FILM`.
 - Thiết kế cách trình bày ảnh final cho creative `PHOTO`.
 - Thiết kế route/mood labels tối giản cho creative `HANOI`.
@@ -380,7 +409,7 @@ A private route shaped around you
 
 - Text entrance từ 0,3-0,6 giây.
 - Chuyển cảnh rõ nhưng không phô diễn plugin.
-- Có thể dùng teal wipe ngắn để thống nhất series.
+- Có thể dùng brand-red wipe ngắn hoặc hard cut sạch để thống nhất series.
 - Không dùng quá ba kiểu transition trong một video.
 - Hook frame phải có chuyển động của người hoặc vật thể, không chỉ là title card.
 - Final CTA giữ từ 1,5-2 giây.
