@@ -1,0 +1,24 @@
+{
+  "name": "travelframe.vn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mcp/travelframe-readonly.mjs",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npm run test:mcp",
+    "test:mcp": "node --test tests/mcp/travelframe-readonly.test.mjs",
+    "test:workspace": "python3 -m unittest discover -s Technology-Automation/Tests -p 'test_*.py'",
+    "workspace:check": "python3 Technology-Automation/Scripts/workspace_check.py --root . --allow-legacy-paths",
+    "mcp:travelframe": "node mcp/travelframe-readonly.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0"
+  }
+}
