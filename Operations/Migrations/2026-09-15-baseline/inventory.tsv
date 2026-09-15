@@ -1,0 +1,485 @@
+.claude/agents/channel-evaluator.md	3597	text/plain
+.claude/agents/channel-scout.md	6836	text/plain
+.claude/agents/content-writer.md	4075	text/plain
+.claude/agents/video-analyst.md	3624	text/plain
+.claude/skills/channel-evaluation/SKILL.md	4919	text/plain
+.claude/skills/channel-evaluation/references/data-contract.md	2760	text/plain
+.claude/skills/channel-evaluation/references/scoring-rubric.md	2141	text/plain
+.claude/skills/channel-evaluation/scripts/channel_metrics.py	9737	text/x-script.python
+.claude/skills/channel-evaluation/scripts/merge_scores.py	5984	text/x-script.python
+.claude/skills/content-learning/SKILL.md	4106	text/plain
+.claude/skills/content-learning/references/knowledge-schema.md	3261	text/plain
+.claude/skills/content-learning/scripts/validate_knowledge.py	4104	text/x-script.python
+.claude/skills/content-writing/SKILL.md	4677	text/plain
+.claude/skills/content-writing/references/content-rubrics.md	2828	text/plain
+.claude/skills/content-writing/scripts/check_draft.py	10650	text/x-script.python
+.claude/skills/video-understanding/README.md	1021	text/plain
+.claude/skills/video-understanding/SKILL.md	6283	text/plain
+.claude/skills/video-understanding/references/analysis-rubric.md	2462	text/plain
+.claude/skills/video-understanding/references/source-contract.md	2802	text/plain
+.claude/skills/video-understanding/references/upstream.md	2272	text/plain
+.claude/skills/video-understanding/scripts/extract_frames.py	4159	text/x-script.python
+.claude/skills/video-understanding/scripts/prepare_video.py	15456	text/x-script.python
+.claude/skills/video-understanding/scripts/vendor/claude_video/LICENSE	1072	text/plain
+.claude/skills/video-understanding/scripts/vendor/claude_video/frames.py	26346	text/x-script.python
+.gitignore	505	text/plain
+Operations/Migrations/2026-09-15-baseline/README.md	1109	text/plain
+Source video/ins pic 1/774666172_18088317677217614_5455503365960249186_n.jpg	199914	image/jpeg
+Source video/ins pic 1/774787569_18088317635217614_499222390247033565_n.jpg	172264	image/jpeg
+Source video/ins pic 1/774905429_18088282844217614_1074464301111141056_n.jpg	251995	image/jpeg
+Source video/ins pic 1/774970405_18088317593217614_888845167844610344_n.jpg	168160	image/jpeg
+Source video/ins pic 1/775028079_18088317614217614_7319210903484894379_n.jpg	397118	image/jpeg
+Source video/ins pic 1/775036900_18088317521217614_4021588339783429766_n.jpg	365617	image/jpeg
+Source video/ins pic 1/775106581_18088317575217614_3312847767654793978_n.jpg	289343	image/jpeg
+Source video/ins pic 1/775183491_18088317494217614_6605533885837930219_n.jpg	286332	image/jpeg
+Source video/ins pic 1/775280744_18088317539217614_959568623212446899_n.jpg	271702	image/jpeg
+Source video/ins pic 1/775726848_18088282922217614_1618519785792845016_n.jpg	159436	image/jpeg
+Source video/ins pic 1/777114052_18088317356217614_7433133105086465097_n.jpg	400690	image/jpeg
+Source video/ins pic 1/777297816_18088317710217614_4712927259953551254_n.jpg	231112	image/jpeg
+Source video/ins pic 1/777418175_18088317725217614_7709682331116809665_n.jpg	220095	image/jpeg
+Source video/ins pic 1/777478453_18088282865217614_8598278070468840859_n.jpg	110557	image/jpeg
+Source video/ins pic 1/777916383_18088282886217614_2902068566959165077_n.jpg	171091	image/jpeg
+Source video/ins pic 1/778625492_18088282943217614_8325715563361202191_n.jpg	213101	image/jpeg
+Source video/ins pic 1/778660408_18088317695217614_1018384917541540592_n.jpg	240847	image/jpeg
+Source video/ins pic 1/778794218_18088282958217614_1670845408564071417_n.jpg	107301	image/jpeg
+Source video/ins pic 1/778882257_18088317656217614_3756044720847974520_n.jpg	254165	image/jpeg
+Source video/ins pic 1/778915760_18088282814217614_1646813340359878231_n.jpg	109069	image/jpeg
+Source video/ins pic 1/779158599_18089501258217614_8873581707579392349_n.jpg	194689	image/jpeg
+Source video/ins pic 1/779787968_18089501291217614_7012662958096393623_n.jpg	205962	image/jpeg
+Source video/ins pic 1/779866033_18089501228217614_6453596230385004110_n.jpeg	1337474	image/jpeg
+Source video/ins pic 1/780817510_18090035105217614_6373526202547751152_n.jpg	209771	image/jpeg
+Source video/ins pic 1/781977404_18089501273217614_5068940326908192548_n.jpg	129683	image/jpeg
+Source video/ins pic 1/782386372_18089501243217614_4542674522114984046_n.jpeg	1489627	image/jpeg
+Source video/ins pic 1/784252017_18090035120217614_5634220315064011235_n.jpg	187624	image/jpeg
+Source video/ins pic 1/784326202_18090035087217614_763114798220456268_n.jpg	259916	image/jpeg
+Source video/ins pic 1/784428397_18090035012217614_93087273621233079_n.jpg	270444	image/jpeg
+Source video/ins pic 1/784749029_18090035072217614_3600866660873029904_n.jpg	251537	image/jpeg
+Source video/ins pic 1/render/travelframe.vn video 1/travelframe.vn video 1-Cover.jpg	878154	image/jpeg
+Source video/ins pic 1/render/travelframe.vn video 1/travelframe.vn video 1.mp4	137571986	video/quicktime
+Source video/ins pic 1/render/travelframe.vn video 10.mp4	111000073	video/quicktime
+Source video/ins pic 1/render/travelframe.vn video 2.mp4	52230744	video/quicktime
+Source video/ins pic 1/render/travelframe.vn video 3.mp4	37832018	video/quicktime
+Source video/ins pic 1/render/travelframe.vn video 4.mp4	20495945	video/quicktime
+Source video/ins pic 1/render/travelframe.vn video 5.mp4	56389115	video/quicktime
+Source video/ins pic 1/render/travelframe.vn video 6.mp4	79148593	video/quicktime
+Source video/ins pic 1/render/travelframe.vn video 7.mp4	35188834	video/quicktime
+Source video/ins pic 1/render/travelframe.vn video 8.mp4	55879380	video/quicktime
+Source video/ins pic 1/render/travelframe.vn video 9.mp4	21822055	video/quicktime
+Source video/ins pic 1/source/Chùa_Trấn_Quốc_nơi_rất_nên_đến_trong_đời!-20260909105916.mp4.webm	5487617	video/webm
+Source video/ins pic 1/source/Chùa_một_Cột-20260909104428.mp4.webm	851626	video/webm
+Source video/ins pic 1/source/Di_tích_lịch_sử_“Nhà_tù_hoả_lò”_#chubodoivlog_#vlog_#chubodoi_#travel-20260909103628.mp4.webm	3409882	video/webm
+Source video/ins pic 1/source/Lăng_bác_Hồ_-_Hà_Nội-20260909104125.mp4.webm	21040742	video/webm
+Source video/ins pic 1/source/Mùa thu Hà Nội🍂🍁-1.mp4	4855145	video/mp4
+Source video/ins pic 1/source/Những_điều_bạn_cần_biết_trước_khi_đi_NHÀ_TÙ_HOẢ_LÒ_📍#wpuong_#nhatuhoalo_#hoaloprison_#review_#vlog-20260909103255.mp4.webm	9454152	video/webm
+Source video/ins pic 1/source/Review sapa Vietnamese-1.mp4	16736706	video/mp4
+Source video/ins pic 1/source/SAPA-_越南🇻🇳-20260907085105.mp4	6072553	video/mp4
+Source video/ins pic 1/source/Sapa,_Vietnam-20260907085207.mp4	9410279	video/mp4
+Source video/ins pic 1/source/The Golden Bridge in Da Nang Feels Like-1.mp4	2770126	video/mp4
+Source video/ins pic 1/source/WATER_PUPPET_SHOW_#vietnam_#hanoi_#vietnamtoiyeu_#vietnamese_#puppetshow_#puppet_#puppeteer-20260909111436.mp4.webm	3957272	video/webm
+Source video/ins pic 1/source/XiaoHongShu_video_#68d137fa000000001301ea84-20260907085552.mp4	13709527	video/mp4
+Source video/ins pic 1/source/XiaoHongShu_video_#69146a08000000000d035037-20260907085336.mp4	21916567	video/mp4
+Source video/ins pic 1/source/“东方夏威夷”、岘港、越南、越南的“小东京”-20260907085417.mp4	36829137	video/mp4
+Source video/ins pic 1/source/☕_河内这家咖啡馆…找得到算你赢！-20260908093709.mp4	11321958	video/mp4
+Source video/ins pic 1/source/下雨天的越南🇻🇳河内火车街-20260908044105.mp4	5669755	video/mp4
+Source video/ins pic 1/source/下龙湾｜海上小桂林-20260907085247.mp4	12896530	video/mp4
+Source video/ins pic 1/source/会安🇻🇳一座被时光放慢脚步的南洋古镇-20260907085532.mp4	4262411	video/mp4
+Source video/ins pic 1/source/地球亿万年造化的奇迹|下龙湾|火星环球-20260907085225.mp4	6722289	video/mp4
+Source video/ins pic 1/source/岘港海岸之美_·_疯狂种草-20260907085356.mp4	6315141	video/mp4
+Source video/ins pic 1/source/打卡河内最独特的体验：火车街咖啡馆_🇻🇳-20260908044121.mp4	9627400	video/mp4
+Source video/ins pic 1/source/河内48h极限打卡10个“出片+文化”-20260908072255.mp4	15706339	video/mp4
+Source video/ins pic 1/source/福布斯评选六大最美海滩-20260907085449.mp4	4893871	video/mp4
+Source video/ins pic 1/source/第一视角越南河内火车街火车经过压迫感-20260908044021.mp4	13014162	video/mp4
+Source video/ins pic 1/source/越南宁平-20260907085305.mp4	28574478	video/mp4
+Source video/ins pic 1/source/越南旅行|谁懂火车带来的浪漫-20260908051058.mp4	4595482	video/mp4
+Source video/ins pic 1/source/越南河内火车街🧩-20260908044142.mp4	8335504	video/mp4
+Source video/ins pic 1/source/难得一见的窄轨小火车-20260908044037.mp4	14034818	video/mp4
+Source video/ins pic 1/source/顺化今天天气真棒！-20260907085612.mp4	9434848	video/mp4
+Source video/ins pic 1/source/🌏_下一站越南-20260909114804.mp4	4383031	video/mp4
+Source video/ins pic 1/source/🏮_会安古城｜千年古韵中的世界文化遗产_✨-20260907085508.mp4	2596576	video/mp4
+Source video/ins pic 1/source/📍Alpine_Coaster,_Sapa-20260907085124.mp4	33078213	video/mp4
+Source video/ins pic 1/source/📍Sapa-20260907085027.mp4	2457721	video/mp4
+Source video/ins pic 1/source/📍Sapa-20260907085048.mp4	2457721	video/mp4
+Source video/ins pic 1/source/😂🥖越南法棍有多脆？看地上就知道-20260909113942.mp4	2387657	video/mp4
+Source video/ins pic 1/source/🚆_河内「铁路咖啡」有多近？-20260909062925.mp4	5022951	video/mp4
+Source video/ins pic 1/source/🚦来越南，有一项“隐藏技能”必须学会-20260908074454.mp4	8689877	video/mp4
+Source video/ins pic 1/source/🧺_本来以为是安静划船体验-20260910054355.mp4	9113147	video/mp4
+Source video/ins pic 1/vid 1.mp4	22815093	video/quicktime
+Source video/ins pic 1/video 1.mp4	36811671	video/quicktime
+Source video/ins pic 1/video 2.mp4	63820573	video/quicktime
+Source video/ins pic 1/video 3.mp4	68129937	video/quicktime
+Source video/ins pic 1/video 4.mp4	131487036	video/quicktime
+Source video/ins pic 1/video 5.mp4	80212063	video/quicktime
+Source video/ins pic 1/video 6.mp4	125402679	video/quicktime
+Source video/ins pic 1/video 7.mp4	66225862	video/quicktime
+Source video/ins pic 1/🇻🇳 河內最迷人的不是景點-1.MP4	5165672	video/mp4
+Source video/ins pic 1/🌆 河内｜邂逅首都的日常慢节奏生活 ✨-1.MP4	2963252	video/mp4
+Source video/ins pic 1/🚣‍♀️🌊 在下龙湾划船-1.MP4	8033179	video/mp4
+carousels/README.md	2038	text/plain
+carousels/assets/1444635.jpg	173761	image/jpeg
+carousels/assets/15857872.jpg	167812	image/jpeg
+carousels/assets/34152682.jpg	197394	image/jpeg
+carousels/assets/34195917.jpg	276263	image/jpeg
+carousels/assets/36742743.jpg	143405	image/jpeg
+carousels/assets/38782292.jpg	228534	image/jpeg
+carousels/day-03-24h-hanoi/png/slide-01.png	3649615	image/png
+carousels/day-03-24h-hanoi/png/slide-02.png	214299	image/png
+carousels/day-03-24h-hanoi/png/slide-03.png	218535	image/png
+carousels/day-03-24h-hanoi/png/slide-04.png	2038066	image/png
+carousels/day-03-24h-hanoi/png/slide-05.png	1794364	image/png
+carousels/day-03-24h-hanoi/png/slide-06.png	223448	image/png
+carousels/day-03-24h-hanoi/png/slide-07.png	225061	image/png
+carousels/day-03-24h-hanoi/slides.html	7601	text/html
+carousels/day-11-prices/png/slide-01.png	3345324	image/png
+carousels/day-11-prices/png/slide-02.png	182526	image/png
+carousels/day-11-prices/png/slide-03.png	192201	image/png
+carousels/day-11-prices/png/slide-04.png	188438	image/png
+carousels/day-11-prices/png/slide-05.png	197960	image/png
+carousels/day-11-prices/png/slide-06.png	198184	image/png
+carousels/day-11-prices/png/slide-07.png	226853	image/png
+carousels/day-11-prices/slides.html	8098	text/html
+carousels/day-15-old-quarter/png/slide-01.png	5316008	image/png
+carousels/day-15-old-quarter/png/slide-02.png	138311	image/png
+carousels/day-15-old-quarter/png/slide-03.png	111080	image/png
+carousels/day-15-old-quarter/png/slide-04.png	1826716	image/png
+carousels/day-15-old-quarter/png/slide-05.png	123851	image/png
+carousels/day-15-old-quarter/png/slide-06.png	141591	image/png
+carousels/day-15-old-quarter/png/slide-07.png	216598	image/png
+carousels/day-15-old-quarter/slides.html	4770	text/html
+carousels/render.sh	733	text/x-shellscript
+carousels/shared/carousel.css	6716	text/plain
+docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md	3861	text/plain
+docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md	14767	text/plain
+docs/superpowers/specs/2026-09-14-travelframe-30-day-content-design.md	15113	text/plain
+docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md	11271	text/plain
+mcp/travelframe-readonly.mjs	4723	text/x-java
+output/TravelFrame-30-Day-Content-Plan-2026-09-14.docx	49074	application/octet-stream
+output/TravelFrame-Master-Summary-2026-09-15.md	23804	text/plain
+output/TravelFrame-Web-Pricing-Option-1-Implementation-Brief-2026-09-15.docx	50577	application/octet-stream
+output/TravelFrame-Website-Packages-Pricing-2026-09-15.md	8009	text/plain
+output/drafts/2026-09-12-esim-setup-reel/caption.md	673	text/plain
+output/drafts/2026-09-12-esim-setup-reel/evaluation-2026-09-12-run1.json	2733	application/json
+output/drafts/2026-09-12-esim-setup-reel/evaluation-2026-09-12-run1.md	4651	text/plain
+output/drafts/2026-09-12-esim-setup-reel/reel-script.md	836	text/plain
+output/drafts/2026-09-12-esim-setup-reel/sources.md	1812	text/plain
+output/hanoi-dong-xuan-series/asset-plan.md	1762	text/plain
+output/hanoi-dong-xuan-series/assets/hanoi-market-night.mp4	23875282	video/mp4
+output/hanoi-dong-xuan-series/assets/hanoi-market.mp4	48865075	video/mp4
+output/hanoi-dong-xuan-series/assets/hanoi-old-quarter.mp4	29050767	video/mp4
+output/hanoi-dong-xuan-series/assets/hanoi-street-food.mp4	16119301	video/mp4
+output/hanoi-dong-xuan-series/assets/hanoi-temple.mp4	26341479	video/mp4
+output/hanoi-dong-xuan-series/assets/hanoi-train-street.mp4	15384538	video/mp4
+output/hanoi-dong-xuan-series/assets/st-joseph-cathedral.mp4	33716685	video/mp4
+output/hanoi-dong-xuan-series/assets/turtle-tower-hoan-kiem.mp4	15834703	video/mp4
+output/hanoi-dong-xuan-series/audio/video-1.mp3	567789	audio/mpeg
+output/hanoi-dong-xuan-series/audio/video-2.mp3	621837	audio/mpeg
+output/hanoi-dong-xuan-series/pexels-results.json	2022	application/json
+output/hanoi-dong-xuan-series/pexels-search-dong-xuan.json	50272	application/json
+output/hanoi-dong-xuan-series/pexels-search-french-quarter.json	52051	application/json
+output/hanoi-dong-xuan-series/pexels-search-hanoi-market.json	51572	application/json
+output/hanoi-dong-xuan-series/pexels-search-hoan-kiem.json	50389	application/json
+output/hanoi-dong-xuan-series/pexels-search-old-quarter.json	50770	application/json
+output/hanoi-dong-xuan-series/pexels-search-opera-house.json	51554	application/json
+output/hanoi-dong-xuan-series/pexels-search-street-food.json	52003	application/json
+output/hanoi-dong-xuan-series/pexels-search-temple-literature.json	53311	application/json
+output/hanoi-dong-xuan-series/pexels-search-train-street.json	52803	application/json
+output/hanoi-dong-xuan-series/pexels-search-van-mieu.json	51785	application/json
+output/hanoi-dong-xuan-series/pexels-search-vietnam-market.json	48526	application/json
+output/hanoi-dong-xuan-series/renders/hanoi-dong-xuan-master-reels.mp4	101493788	video/mp4
+output/hanoi-dong-xuan-series/renders/one-day-hanoi-itinerary-cover.jpg	305558	image/jpeg
+output/hanoi-dong-xuan-series/renders/one-day-hanoi-itinerary.mp4	68712281	video/mp4
+output/hanoi-dong-xuan-series/renders/top-3-hanoi-spots.mp4	64243737	video/mp4
+output/hanoi-dong-xuan-series/review/master/end.jpg	178861	image/jpeg
+output/hanoi-dong-xuan-series/review/master/join.jpg	340380	image/jpeg
+output/hanoi-dong-xuan-series/review/master/start.jpg	249858	image/jpeg
+output/hanoi-dong-xuan-series/review/video-1-end.jpg	176499	image/jpeg
+output/hanoi-dong-xuan-series/review/video-1-middle.jpg	366846	image/jpeg
+output/hanoi-dong-xuan-series/review/video-1-start.jpg	262017	image/jpeg
+output/hanoi-dong-xuan-series/review/video-2-end.jpg	179970	image/jpeg
+output/hanoi-dong-xuan-series/review/video-2-middle.jpg	190625	image/jpeg
+output/hanoi-dong-xuan-series/review/video-2-start.jpg	352503	image/jpeg
+output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt	768	text/plain
+output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt	698	text/plain
+output/hanoi-dong-xuan-series/shared/DESIGN.md	1133	text/plain
+output/hanoi-dong-xuan-series/subtitles/one-day-hanoi-itinerary-cover-taglines.md	848	text/plain
+output/hanoi-dong-xuan-series/subtitles/one-day-hanoi-itinerary.srt	1529	text/plain
+output/hanoi-dong-xuan-series/subtitles/top-3-hanoi-spots.srt	1466	text/plain
+output/hanoi-dong-xuan-series/video-1/.hyperframes/backup/2026-09-10T08-44-22-195Z-aW5kZXguaHRtbA	9059	text/html
+output/hanoi-dong-xuan-series/video-1/.hyperframes/backup/2026-09-10T08-44-22-625Z-aW5kZXguaHRtbA	9044	text/html
+output/hanoi-dong-xuan-series/video-1/.hyperframes/backup/2026-09-10T08-44-33-045Z-aW5kZXguaHRtbA	9059	text/html
+output/hanoi-dong-xuan-series/video-1/.hyperframes/backup/2026-09-10T08-44-33-763Z-aW5kZXguaHRtbA	9104	text/html
+output/hanoi-dong-xuan-series/video-1/.hyperframes/backup/2026-09-10T08-44-34-560Z-aW5kZXguaHRtbA	9059	text/html
+output/hanoi-dong-xuan-series/video-1/.hyperframes/backup/2026-09-10T08-44-35-910Z-aW5kZXguaHRtbA	9104	text/html
+output/hanoi-dong-xuan-series/video-1/.hyperframes/backup/2026-09-10T08-44-39-055Z-aW5kZXguaHRtbA	9059	text/html
+output/hanoi-dong-xuan-series/video-1/.hyperframes/backup/2026-09-10T08-44-41-876Z-aW5kZXguaHRtbA	9104	text/html
+output/hanoi-dong-xuan-series/video-1/.hyperframes/backup/2026-09-10T08-44-45-949Z-aW5kZXguaHRtbA	9059	text/html
+output/hanoi-dong-xuan-series/video-1/.hyperframes/backup/2026-09-10T08-44-52-044Z-aW5kZXguaHRtbA	9074	text/html
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_06278424880346a5_d56045be52109266_jpeg_preview_index.html_1080x1920_76x135_1789029855685_1.80__intro-video-1_0.jpg	1599	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029857231_13.00__wipe-video-1-a_0.jpg	5492	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029857231_18.00__lake-copy-video-1_0.jpg	1301	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029857231_23.00__wipe-video-1-b_0.jpg	5959	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029857231_28.75__train-copy-video-1_0.jpg	1518	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029857231_34.50__wipe-video-1-c_0.jpg	3882	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029857231_35.60__final-copy-video-1_0.jpg	1263	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029862626_1.80__intro-video-1_0.jpg	1599	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029862626_13.00__wipe-video-1-a_0.jpg	5492	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029862626_18.00__lake-copy-video-1_0.jpg	1301	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029862626_23.00__wipe-video-1-b_0.jpg	5959	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029862626_28.75__train-copy-video-1_0.jpg	1518	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029862626_3.00.jpg	4205	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029862626_34.50__wipe-video-1-c_0.jpg	3882	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029862626_35.60__final-copy-video-1_0.jpg	1263	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029862626_8.30__market-copy-video-1_0.jpg	1436	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029873764_3.00.jpg	4205	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029873764_8.30__market-copy-video-1_0.jpg	1436	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029875911_1.80__intro-video-1_0.jpg	1599	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029875911_3.00.jpg	4205	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029881878_1.80__intro-video-1_0.jpg	1599	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029881878_13.00__wipe-video-1-a_0.jpg	5492	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029881878_18.00__lake-copy-video-1_0.jpg	1301	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029881878_28.75__train-copy-video-1_0.jpg	1518	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029881878_3.00.jpg	4205	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_1ab6fa3ef7b47a0e_1aca0a2c5033872f_jpeg_preview_index.html_1080x1920_76x135_1789029881878_8.30__market-copy-video-1_0.jpg	1436	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029807892_1.80.jpg	3383	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029807892_13.00.jpg	3687	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029807892_18.00.jpg	3713	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029807892_23.00.jpg	4121	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029807892_28.75.jpg	4180	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029807892_3.00.jpg	3223	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029807892_34.50.jpg	2547	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029807892_35.60.jpg	2865	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029807892_8.30.jpg	3170	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029836399_1.80__intro-video-1_0.jpg	1503	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029836399_13.00__wipe-video-1-a_0.jpg	4144	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029836399_18.00__lake-copy-video-1_0.jpg	1236	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029836399_23.00__wipe-video-1-b_0.jpg	4553	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029836399_28.75__train-copy-video-1_0.jpg	1425	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029836399_3.00.jpg	3223	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029836399_34.50__wipe-video-1-c_0.jpg	2995	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029836399_35.60__final-copy-video-1_0.jpg	1214	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_2052bf1aa53d8543_d6ab6cdc3958e93a_jpeg_preview_index.html_1080x1920_76x135_1789029836399_8.30__market-copy-video-1_0.jpg	1381	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_75a8330f7d819424_ba2577bccbe9f5b5_jpeg_preview_index.html_1080x1920_76x135_1789029892046_1.80__intro-video-1_0.jpg	4237	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_75a8330f7d819424_ba2577bccbe9f5b5_jpeg_preview_index.html_1080x1920_76x135_1789029892046_13.00__wipe-video-1-a_0.jpg	5498	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_75a8330f7d819424_ba2577bccbe9f5b5_jpeg_preview_index.html_1080x1920_76x135_1789029892046_18.00__lake-copy-video-1_0.jpg	4954	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_75a8330f7d819424_ba2577bccbe9f5b5_jpeg_preview_index.html_1080x1920_76x135_1789029892046_23.00__wipe-video-1-b_0.jpg	5967	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_75a8330f7d819424_ba2577bccbe9f5b5_jpeg_preview_index.html_1080x1920_76x135_1789029892046_28.75__train-copy-video-1_0.jpg	5492	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_75a8330f7d819424_ba2577bccbe9f5b5_jpeg_preview_index.html_1080x1920_76x135_1789029892046_3.00.jpg	3991	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_75a8330f7d819424_ba2577bccbe9f5b5_jpeg_preview_index.html_1080x1920_76x135_1789029892046_34.50__wipe-video-1-c_0.jpg	3852	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_75a8330f7d819424_ba2577bccbe9f5b5_jpeg_preview_index.html_1080x1920_76x135_1789029892046_35.60__final-copy-video-1_0.jpg	3422	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_75a8330f7d819424_ba2577bccbe9f5b5_jpeg_preview_index.html_1080x1920_76x135_1789029892046_8.30__market-copy-video-1_0.jpg	4062	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_8710c363fe62ec26_84a3a6f3e9af2d0e_jpeg_preview_index.html_1080x1920_76x135_1789029885950_1.80__intro-video-1_0.jpg	1599	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_8710c363fe62ec26_84a3a6f3e9af2d0e_jpeg_preview_index.html_1080x1920_76x135_1789029885950_13.00__wipe-video-1-a_0.jpg	5498	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_8710c363fe62ec26_84a3a6f3e9af2d0e_jpeg_preview_index.html_1080x1920_76x135_1789029885950_18.00__lake-copy-video-1_0.jpg	1301	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_8710c363fe62ec26_84a3a6f3e9af2d0e_jpeg_preview_index.html_1080x1920_76x135_1789029885950_23.00__wipe-video-1-b_0.jpg	5967	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_8710c363fe62ec26_84a3a6f3e9af2d0e_jpeg_preview_index.html_1080x1920_76x135_1789029885950_28.75__train-copy-video-1_0.jpg	1518	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_8710c363fe62ec26_84a3a6f3e9af2d0e_jpeg_preview_index.html_1080x1920_76x135_1789029885950_3.00.jpg	4164	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_8710c363fe62ec26_84a3a6f3e9af2d0e_jpeg_preview_index.html_1080x1920_76x135_1789029885950_34.50__wipe-video-1-c_0.jpg	3852	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_8710c363fe62ec26_84a3a6f3e9af2d0e_jpeg_preview_index.html_1080x1920_76x135_1789029885950_35.60__final-copy-video-1_0.jpg	1263	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_8710c363fe62ec26_84a3a6f3e9af2d0e_jpeg_preview_index.html_1080x1920_76x135_1789029885950_8.30__market-copy-video-1_0.jpg	1436	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_d861f77fefb28431_71e9a552c6610774_jpeg_preview_index.html_1080x1920_76x135_1789029828173_1.80__intro-video-1_0.jpg	1350	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_d861f77fefb28431_71e9a552c6610774_jpeg_preview_index.html_1080x1920_76x135_1789029828173_3.00.jpg	1298	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_d861f77fefb28431_71e9a552c6610774_jpeg_preview_index.html_1080x1920_76x135_1789029828173_8.30__market-copy-video-1_0.jpg	1235	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_d861f77fefb28431_71e9a552c6610774_jpeg_preview_index.html_1080x1920_76x135_1789029830693_13.00__wipe-video-1-a_0.jpg	1110	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_d861f77fefb28431_71e9a552c6610774_jpeg_preview_index.html_1080x1920_76x135_1789029830693_18.00__lake-copy-video-1_0.jpg	1126	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_d861f77fefb28431_71e9a552c6610774_jpeg_preview_index.html_1080x1920_76x135_1789029830693_28.75__train-copy-video-1_0.jpg	1262	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_d861f77fefb28431_71e9a552c6610774_jpeg_preview_index.html_1080x1920_76x135_1789029830693_35.60__final-copy-video-1_0.jpg	1167	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_e70ade6ad0eeaf93_4effe5e22eab01f8_jpeg_preview_index.html_1080x1920_76x135_1789029873047_3.00.jpg	4205	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_e70ade6ad0eeaf93_4effe5e22eab01f8_jpeg_preview_index.html_1080x1920_76x135_1789029873047_8.30__market-copy-video-1_0.jpg	1436	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_e70ade6ad0eeaf93_4effe5e22eab01f8_jpeg_preview_index.html_1080x1920_76x135_1789029879056_1.80__intro-video-1_0.jpg	1599	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_e70ade6ad0eeaf93_4effe5e22eab01f8_jpeg_preview_index.html_1080x1920_76x135_1789029879056_3.00.jpg	4205	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.thumbnails/v4_v3_e70ade6ad0eeaf93_4effe5e22eab01f8_jpeg_preview_index.html_1080x1920_76x135_1789029879056_8.30__market-copy-video-1_0.jpg	1436	image/jpeg
+output/hanoi-dong-xuan-series/video-1/.waveform-cache/v2_audio_video-1.mp3_567789-1789029375493.json	74555	application/json
+output/hanoi-dong-xuan-series/video-1/assets/hanoi-market-night.mp4	23875282	video/mp4
+output/hanoi-dong-xuan-series/video-1/assets/hanoi-market.mp4	48865075	video/mp4
+output/hanoi-dong-xuan-series/video-1/assets/hanoi-old-quarter.mp4	29050767	video/mp4
+output/hanoi-dong-xuan-series/video-1/assets/hanoi-street-food.mp4	16119301	video/mp4
+output/hanoi-dong-xuan-series/video-1/assets/hanoi-temple.mp4	26341479	video/mp4
+output/hanoi-dong-xuan-series/video-1/assets/hanoi-train-street.mp4	15384538	video/mp4
+output/hanoi-dong-xuan-series/video-1/assets/st-joseph-cathedral.mp4	33716685	video/mp4
+output/hanoi-dong-xuan-series/video-1/assets/turtle-tower-hoan-kiem.mp4	15834703	video/mp4
+output/hanoi-dong-xuan-series/video-1/audio/video-1.mp3	567789	audio/mpeg
+output/hanoi-dong-xuan-series/video-1/index.html	9149	text/html
+output/hanoi-dong-xuan-series/video-1/renders/video-1_2026-09-10_15-45-03.meta.json	40	application/json
+output/hanoi-dong-xuan-series/video-1/renders/video-1_2026-09-10_15-45-03.mp4	91640599	video/mp4
+output/hanoi-dong-xuan-series/video-2/.hyperframes/backup/2026-09-10T08-48-06-786Z-aW5kZXguaHRtbA	10877	text/html
+output/hanoi-dong-xuan-series/video-2/.hyperframes/backup/2026-09-10T08-48-09-252Z-aW5kZXguaHRtbA	10892	text/html
+output/hanoi-dong-xuan-series/video-2/.hyperframes/backup/2026-09-10T08-48-10-872Z-aW5kZXguaHRtbA	10877	text/html
+output/hanoi-dong-xuan-series/video-2/.hyperframes/backup/2026-09-10T08-48-12-441Z-aW5kZXguaHRtbA	10892	text/html
+output/hanoi-dong-xuan-series/video-2/.hyperframes/backup/2026-09-10T08-48-41-502Z-aW5kZXguaHRtbA	10877	text/html
+output/hanoi-dong-xuan-series/video-2/.hyperframes/backup/2026-09-10T08-48-46-470Z-aW5kZXguaHRtbA	10892	text/html
+output/hanoi-dong-xuan-series/video-2/.hyperframes/backup/2026-09-10T08-48-57-045Z-aW5kZXguaHRtbA	10907	text/html
+output/hanoi-dong-xuan-series/video-2/.hyperframes/backup/2026-09-10T08-53-34-498Z-aW5kZXguaHRtbA	11012	text/html
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030079457_1.50.jpg	4070	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030079457_13.00.jpg	3721	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030079457_19.75.jpg	2941	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030079457_26.25.jpg	3865	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030079457_3.00.jpg	3958	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030079457_33.00.jpg	4200	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030079457_38.49.jpg	2906	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030079457_6.50.jpg	4172	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030092442_10.00__wipe-video-2-a_0.jpg	4144	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030092442_13.00__lake-copy-video-2_0.jpg	1410	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030092442_16.00__wipe-video-2-b_0.jpg	3240	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030092442_19.75__temple-copy-video-2_0.jpg	1452	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030092442_23.50__wipe-video-2-c_0.jpg	4242	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030092442_26.25__cathedral-copy-video-2_0.jpg	1513	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030092442_29.00__wipe-video-2-d_0.jpg	4553	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030092442_33.00__night-copy-video-2_0.jpg	1466	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030092442_37.00__wipe-video-2-e_0.jpg	3037	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_00adf8b9c758632b_a9f9b35e282d4599_jpeg_preview_index.html_1080x1920_76x135_1789030092442_38.49__final-copy-video-2_0.jpg	1235	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_1.50__intro-video-2_0.jpg	3863	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_10.00__wipe-video-2-a_0.jpg	4087	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_13.00__lake-copy-video-2_0.jpg	3606	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_16.00__wipe-video-2-b_0.jpg	3154	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_19.75__temple-copy-video-2_0.jpg	2739	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_23.50__wipe-video-2-c_0.jpg	4198	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_26.25__cathedral-copy-video-2_0.jpg	3651	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_29.00__wipe-video-2-d_0.jpg	4523	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_3.00.jpg	3879	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_33.00__night-copy-video-2_0.jpg	3999	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_37.00__wipe-video-2-e_0.jpg	2892	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_38.49__final-copy-video-2_0.jpg	2413	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_32e50ed52704ef2f_d423065d8838e28a_jpeg_preview_index.html_1080x1920_76x135_1789030137046_6.50__market-copy-video-2_0.jpg	3797	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_4545cc8f72ddf540_47d36610e9bc2e44_jpeg_preview_index.html_1080x1920_76x135_1789030121503_1.50__intro-video-2_0.jpg	1674	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_4545cc8f72ddf540_47d36610e9bc2e44_jpeg_preview_index.html_1080x1920_76x135_1789030121503_13.00__lake-copy-video-2_0.jpg	1410	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_4545cc8f72ddf540_47d36610e9bc2e44_jpeg_preview_index.html_1080x1920_76x135_1789030121503_19.75__temple-copy-video-2_0.jpg	1452	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_4545cc8f72ddf540_47d36610e9bc2e44_jpeg_preview_index.html_1080x1920_76x135_1789030121503_3.00.jpg	3941	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_4545cc8f72ddf540_47d36610e9bc2e44_jpeg_preview_index.html_1080x1920_76x135_1789030121503_6.50__market-copy-video-2_0.jpg	1376	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_1.50__intro-video-2_0.jpg	5345	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_10.00__wipe-video-2-a_0.jpg	5498	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_13.00__lake-copy-video-2_0.jpg	5001	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_16.00__wipe-video-2-b_0.jpg	4242	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_19.75__temple-copy-video-2_0.jpg	3907	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_23.50__wipe-video-2-c_0.jpg	5586	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_26.25__cathedral-copy-video-2_0.jpg	5082	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_29.00__wipe-video-2-d_0.jpg	5967	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_3.00.jpg	5332	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_33.00__night-copy-video-2_0.jpg	5487	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_37.00__wipe-video-2-e_0.jpg	3883	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_38.49__final-copy-video-2_0.jpg	3430	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_5fcca32a45a84837_7b4f52707eaa743f_jpeg_preview_index.html_1080x1920_76x135_1789030414499_6.50__market-copy-video-2_0.jpg	5250	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_c048f5799a9677f9_8401fa6a234abf5b_jpeg_preview_index.html_1080x1920_76x135_1789030126471_10.00__wipe-video-2-a_0.jpg	4087	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_c048f5799a9677f9_8401fa6a234abf5b_jpeg_preview_index.html_1080x1920_76x135_1789030126471_16.00__wipe-video-2-b_0.jpg	3154	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_c048f5799a9677f9_8401fa6a234abf5b_jpeg_preview_index.html_1080x1920_76x135_1789030126471_23.50__wipe-video-2-c_0.jpg	4198	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_c048f5799a9677f9_8401fa6a234abf5b_jpeg_preview_index.html_1080x1920_76x135_1789030126471_38.49__final-copy-video-2_0.jpg	1235	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.thumbnails/v4_v3_f6ec3dac79928476_6d33164209a31d17_jpeg_preview_index.html_1080x1920_76x135_1789030086787_23.50.jpg	5157	image/jpeg
+output/hanoi-dong-xuan-series/video-2/.waveform-cache/v2_audio_video-2.mp3_621837-1789029375496.json	75178	application/json
+output/hanoi-dong-xuan-series/video-2/assets/hanoi-market-night.mp4	23875282	video/mp4
+output/hanoi-dong-xuan-series/video-2/assets/hanoi-market.mp4	48865075	video/mp4
+output/hanoi-dong-xuan-series/video-2/assets/hanoi-old-quarter.mp4	29050767	video/mp4
+output/hanoi-dong-xuan-series/video-2/assets/hanoi-street-food.mp4	16119301	video/mp4
+output/hanoi-dong-xuan-series/video-2/assets/hanoi-temple.mp4	26341479	video/mp4
+output/hanoi-dong-xuan-series/video-2/assets/hanoi-train-street.mp4	15384538	video/mp4
+output/hanoi-dong-xuan-series/video-2/assets/st-joseph-cathedral.mp4	33716685	video/mp4
+output/hanoi-dong-xuan-series/video-2/assets/turtle-tower-hoan-kiem.mp4	15834703	video/mp4
+output/hanoi-dong-xuan-series/video-2/audio/video-2.mp3	621837	audio/mpeg
+output/hanoi-dong-xuan-series/video-2/index.html	11027	text/html
+output/hanoi-dong-xuan-series/video-2/renders/video-2_2026-09-10_15-48-58.meta.json	40	application/json
+output/hanoi-dong-xuan-series/video-2/renders/video-2_2026-09-10_15-48-58.mp4	68375632	video/mp4
+output/hanoi-dong-xuan-series/video-2/renders/video-2_2026-09-10_15-53-40.meta.json	40	application/json
+output/hanoi-dong-xuan-series/video-2/renders/video-2_2026-09-10_15-53-40.mp4	98122638	video/mp4
+output/manychat-travelframe-playbook-2026-09-14.md	8264	text/plain
+output/manychat-travelframe-ready-scripts-2026-09-14.md	9064	text/plain
+output/posts/vietnam-esim-reel-caption.md	1276	text/plain
+output/qa-web-pricing-option1-v1/TravelFrame-Web-Pricing-Option-1-Implementation-Brief-2026-09-15.pdf	383404	application/pdf
+output/qa-web-pricing-option1-v1/page-1.png	193948	image/png
+output/qa-web-pricing-option1-v1/page-10.png	145590	image/png
+output/qa-web-pricing-option1-v1/page-2.png	342911	image/png
+output/qa-web-pricing-option1-v1/page-3.png	330462	image/png
+output/qa-web-pricing-option1-v1/page-4.png	306771	image/png
+output/qa-web-pricing-option1-v1/page-5.png	351269	image/png
+output/qa-web-pricing-option1-v1/page-6.png	277846	image/png
+output/qa-web-pricing-option1-v1/page-7.png	304380	image/png
+output/qa-web-pricing-option1-v1/page-8.png	271897	image/png
+output/qa-web-pricing-option1-v1/page-9.png	277071	image/png
+output/qa-web-pricing-option1-v2/TravelFrame-Web-Pricing-Option-1-Implementation-Brief-2026-09-15.pdf	383578	application/pdf
+output/qa-web-pricing-option1-v2/page-1.png	193797	image/png
+output/qa-web-pricing-option1-v2/page-10.png	145590	image/png
+output/qa-web-pricing-option1-v2/page-2.png	342911	image/png
+output/qa-web-pricing-option1-v2/page-3.png	320319	image/png
+output/qa-web-pricing-option1-v2/page-4.png	302242	image/png
+output/qa-web-pricing-option1-v2/page-5.png	336383	image/png
+output/qa-web-pricing-option1-v2/page-6.png	293016	image/png
+output/qa-web-pricing-option1-v2/page-7.png	320501	image/png
+output/qa-web-pricing-option1-v2/page-8.png	271897	image/png
+output/qa-web-pricing-option1-v2/page-9.png	277071	image/png
+package-lock.json	42234	application/json
+package.json	503	application/json
+reference-library/channels/host-themikeytravel/digest.md	3215	text/plain
+reference-library/channels/host-themikeytravel/evaluation-2026-09-13-run1/evaluation.md	3540	text/plain
+reference-library/channels/host-themikeytravel/evaluation-2026-09-13-run1/metrics.json	8009	application/json
+reference-library/channels/host-themikeytravel/evaluation-2026-09-13-run1/scores-rater-a.json	11992	application/json
+reference-library/channels/host-themikeytravel/evaluation-2026-09-13-run1/scores-rater-b.json	10858	application/json
+reference-library/channels/host-themikeytravel/evaluation-2026-09-13-run1/scores.json	30616	application/json
+reference-library/channels/host-themikeytravel/evaluation-2026-09-13-run1/spot-check.md	1252	text/plain
+reference-library/channels/host-themikeytravel/instagram-posts.json	29815	application/json
+reference-library/evaluation/nasa/2026-09-12-run1/draft-gate-raw.json	5998	application/json
+reference-library/evaluation/nasa/2026-09-12-run1/evaluation.md	3416	text/plain
+reference-library/evaluation/nasa/2026-09-12-run1/metrics.json	8756	application/json
+reference-library/evaluation/nasa/2026-09-12-run1/scores-rater-a.json	14879	application/json
+reference-library/evaluation/nasa/2026-09-12-run1/scores-rater-b.json	11496	application/json
+reference-library/evaluation/nasa/2026-09-12-run1/scores.json	32342	application/json
+reference-library/evaluation/nasa/2026-09-12-run1/spot-check-raw.json	1378	application/json
+reference-library/evaluation/nasa/2026-09-12-run1/spot-check.md	1331	text/plain
+reference-library/knowledge/ideas-backlog.md	2478	text/plain
+reference-library/knowledge/patterns.md	5093	text/plain
+reference-library/knowledge/runs/2026-09-12-review-fixes/learning.md	1342	text/plain
+reference-library/knowledge/runs/2026-09-12-seed-exemplars/learning.md	1188	text/plain
+reference-library/knowledge/runs/2026-09-13-host-themikeytravel/learning.md	1508	text/plain
+reference-library/knowledge/voice-playbook.md	5168	text/plain
+reference-library/transcripts/video/video.json	1385	application/json
+reference-library/transcripts/video/video.srt	297	text/plain
+reference-library/transcripts/video/video.tsv	243	text/plain
+reference-library/transcripts/video/video.txt	198	text/plain
+reference-library/transcripts/video/video.vtt	281	text/plain
+reference-library/videos/youtube/2026-09-11-7242/video.info.json	41822	application/json
+reference-library/videos/youtube/2026-09-11-7242/video.mp4	475957	video/mp4
+reference-library/videos/youtube/2026-09-11-7242/video.webp	23038	image/webp
+scripts/build_travelframe_content_docx.py	16931	text/x-script.python
+scripts/build_website_pricing_option1_docx.py	33152	text/x-script.python
+scripts/channel-agent/README.md	1333	text/plain
+scripts/channel-agent/apify_scrape.py	5223	text/x-script.python
+scripts/channel-agent/download.sh	1098	text/x-shellscript
+scripts/channel-agent/transcribe.sh	4093	text/x-shellscript
+scripts/travelframe-mcp/run.sh	337	text/x-shellscript
+tests/channel-evaluator/helpers.py	741	text/plain
+tests/channel-evaluator/test_channel_metrics.py	5638	text/plain
+tests/channel-evaluator/test_merge_scores.py	4000	text/plain
+tests/channel-evaluator/test_static_safety.py	2733	text/plain
+tests/content-writer/helpers.py	774	text/plain
+tests/content-writer/test_check_draft.py	11496	text/plain
+tests/content-writer/test_knowledge_schema.py	6666	text/plain
+tests/mcp/travelframe-readonly.test.mjs	758	text/x-java
+tests/video-understanding/helpers.py	1711	text/plain
+tests/video-understanding/test_extract_frames.py	2918	text/plain
+tests/video-understanding/test_prepare_video.py	8058	text/plain
+tests/video-understanding/test_static_safety.py	1934	text/plain
+tests/video-understanding/test_transcribe.sh	4133	text/plain
+travelframe-guest-guide/TravelFrame-Hanoi-Guest-Guide.pdf	2146059	application/pdf
+travelframe-guest-guide/TravelFrame-Hanoi-Guest-Guide.pptx	3036768	application/vnd.openxmlformats-officedocument.presentationml.presentation
+travelframe-guest-guide/assets/1444635.jpg	173761	image/jpeg
+travelframe-guest-guide/assets/15857872.jpg	167812	image/jpeg
+travelframe-guest-guide/assets/34152682.jpg	197394	image/jpeg
+travelframe-guest-guide/assets/34195917.jpg	276263	image/jpeg
+travelframe-guest-guide/assets/36742743.jpg	143405	image/jpeg
+travelframe-guest-guide/assets/38782292.jpg	228534	image/jpeg
+travelframe-guest-guide/pdf-previews/page-01.png	1889033	image/png
+travelframe-guest-guide/pdf-previews/page-02.png	2123761	image/png
+travelframe-guest-guide/pdf-previews/page-03.png	552024	image/png
+travelframe-guest-guide/pdf-previews/page-04.png	1545605	image/png
+travelframe-guest-guide/pdf-previews/page-05.png	1398109	image/png
+travelframe-guest-guide/pdf-previews/page-06.png	1427094	image/png
+travelframe-guest-guide/pdf-previews/page-07.png	270794	image/png
+travelframe-guest-guide/pdf-previews/page-08.png	555186	image/png
+travelframe-guest-guide/pdf-previews/page-09.png	484893	image/png
+travelframe-guest-guide/pdf-previews/page-10.png	1126451	image/png
+travelframe-guest-guide/previews/contact-sheet.png	711905	image/png
+travelframe-guest-guide/previews/slide-1.png	2164567	image/png
+travelframe-guest-guide/previews/slide-10.png	1430918	image/png
+travelframe-guest-guide/previews/slide-2.png	2483642	image/png
+travelframe-guest-guide/previews/slide-3.png	654822	image/png
+travelframe-guest-guide/previews/slide-4.png	1855697	image/png
+travelframe-guest-guide/previews/slide-5.png	1717919	image/png
+travelframe-guest-guide/previews/slide-6.png	1742764	image/png
+travelframe-guest-guide/previews/slide-7.png	309364	image/png
+travelframe-guest-guide/previews/slide-8.png	649210	image/png
+travelframe-guest-guide/previews/slide-9.png	563854	image/png

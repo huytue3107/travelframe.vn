@@ -1,0 +1,241 @@
+./scripts/build_website_pricing_option1_docx.py:13:    "/Users/macbook/Codex GPT/travelframe.vn/output/"
+./scripts/travelframe-mcp/run.sh:9:exec node "$PWD/mcp/travelframe-readonly.mjs"
+./package.json:5:  "main": "mcp/travelframe-readonly.mjs",
+./package.json:12:    "test:mcp": "node --test tests/mcp/travelframe-readonly.test.mjs",
+./package.json:13:    "mcp:travelframe": "node mcp/travelframe-readonly.mjs"
+./.gitignore:10:.output/
+./.gitignore:15:Source video/
+./.gitignore:16:output/
+./.gitignore:17:travelframe-guest-guide/
+./.gitignore:18:carousels/*/png/
+./.gitignore:19:reference-library/videos/
+./.gitignore:20:reference-library/transcripts/
+./.gitignore:27:Research-Insights/Library/transcripts/
+./scripts/build_travelframe_content_docx.py:15:ROOT = Path("/Users/macbook/Codex GPT/travelframe.vn")
+./scripts/build_travelframe_content_docx.py:17:OUTPUT = ROOT / "output/TravelFrame-30-Day-Content-Plan-2026-09-14.docx"
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:5:**Phạm vi:** `/Users/macbook/Codex GPT/travelframe.vn`
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:196:| `Source video/` | `Creative-Production/Assets/Raw/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:197:| `reference-library/` | `Research-Insights/Library/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:198:| `carousels/` | `Marketing-Growth/Content/Carousels/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:199:| `travelframe-guest-guide/` | `Creative-Production/Deliverables/Guest-Guide/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:200:| `output/drafts/` | `Marketing-Growth/Content/Drafts/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:201:| `output/posts/` | `Marketing-Growth/Content/Approved/` pending status review |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:202:| `output/hanoi-dong-xuan-series/` | `Creative-Production/Projects/Hanoi-Dong-Xuan-Series/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:203:| `output/manychat-*` | `Sales-CRM/Automation/ManyChat/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:204:| `output/*pricing*` | `Brand-Strategy/Offers-Pricing/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:205:| `output/qa-*` | `Creative-Production/Review/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:206:| `mcp/` | `Technology-Automation/MCP/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:207:| `scripts/` | `Technology-Automation/Scripts/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:208:| `tests/` | `Technology-Automation/Tests/` |
+./docs/superpowers/specs/2026-09-15-travelframe-company-workspace-design.md:211:`output/posts/` không được tự coi là Published. Migration phải kiểm tra từng artifact
+./scripts/channel-agent/download.sh:2:# download.sh <url> — download a video into reference-library/videos/<platform>/<id>/
+./scripts/channel-agent/download.sh:8:DEST="$ROOT/reference-library/videos"
+./scripts/channel-agent/README.md:6:# 1. Download video (yt-dlp) → reference-library/videos/<platform>/<run>/
+./scripts/channel-agent/README.md:7:scripts/channel-agent/download.sh "https://www.tiktok.com/@user/video/123"
+./scripts/channel-agent/README.md:9:# 2. Lấy subtitle/transcript bằng whisper chạy cục bộ → reference-library/transcripts/<name>-<run-stamp>/
+./scripts/channel-agent/README.md:10:scripts/channel-agent/transcribe.sh reference-library/videos/tiktok/.../video.mp4 medium   # hoặc small (nhanh hơn)
+./scripts/channel-agent/README.md:13:scripts/channel-agent/transcribe.sh video.mp4 medium --output-dir reference-library/transcripts/video-medium
+./scripts/channel-agent/README.md:16:scripts/channel-agent/apify_scrape.py \
+./scripts/channel-agent/README.md:19:  --out reference-library/channels/handle/instagram-posts.json
+./scripts/channel-agent/README.md:23:- Thư mục `reference-library/` do script tự tạo. Kết quả phân tích lưu cạnh dữ liệu thô.
+./scripts/channel-agent/transcribe.sh:5:# - No --output-dir: writes to reference-library/transcripts/<name>-<run-stamp>/
+./scripts/channel-agent/transcribe.sh:46:  OUT="$ROOT/reference-library/transcripts/${BASE_NAME}-${RUN_STAMP}"
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:16:- Create: `output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:17:- Create: `output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:18:- Create: `output/hanoi-dong-xuan-series/asset-plan.md`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:27:- Create: `output/hanoi-dong-xuan-series/assets/`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:28:- Create: `output/hanoi-dong-xuan-series/pexels-results.json`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:37:- Create: `output/hanoi-dong-xuan-series/audio/video-1.wav`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:38:- Create: `output/hanoi-dong-xuan-series/audio/video-2.wav`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:47:- Create: `output/hanoi-dong-xuan-series/video-1/index.html`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:48:- Create: `output/hanoi-dong-xuan-series/video-2/index.html`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:49:- Create: `output/hanoi-dong-xuan-series/shared/DESIGN.md`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:58:- Create: `output/hanoi-dong-xuan-series/renders/top-3-hanoi-spots.mp4`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:59:- Create: `output/hanoi-dong-xuan-series/renders/one-day-hanoi-itinerary.mp4`
+./docs/superpowers/plans/2026-09-10-hanoi-dong-xuan-video-plan.md:60:- Create: `output/hanoi-dong-xuan-series/renders/hanoi-dong-xuan-series.mp4`
+./carousels/README.md:8:carousels/
+./reference-library/channels/host-themikeytravel/digest.md:3:Nguồn: reference-library/channels/host-themikeytravel/instagram-posts.json
+./tests/content-writer/test_check_draft.py:25:            "- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)\n",
+./tests/content-writer/test_check_draft.py:244:            "- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)\n\n"
+./tests/content-writer/test_check_draft.py:246:            "- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)\n",
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:48:.output/
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:57:Research-Insights/Library/Transcripts/
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:71:/Users/macbook/Codex GPT/travelframe.vn
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:72:Source video
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:73:reference-library
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:74:carousels
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:75:travelframe-guest-guide
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:76:output/
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:77:mcp/
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:78:scripts/
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:79:tests/
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:229:- Move: `mcp/` to `Technology-Automation/MCP/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:230:- Move: `scripts/` to `Technology-Automation/Scripts/legacy/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:231:- Move: `tests/` to `Technology-Automation/Tests/legacy/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:253:Technology-Automation/Tests/legacy/mcp/travelframe-readonly.test.mjs
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:276:- Move: `reference-library/` to `Research-Insights/Library/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:295:Replace `reference-library/` with `Research-Insights/Library/` in active agents,
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:311:- Move: `carousels/` to `Marketing-Growth/Content/Carousels/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:312:- Move: `output/drafts/` to `Marketing-Growth/Content/Drafts/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:313:- Move: `output/posts/` to `Marketing-Growth/Content/Review/Legacy-Posts/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:346:- Move: `output/*pricing*` and pricing QA source documents to `Brand-Strategy/Offers-Pricing/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:347:- Move: `output/manychat-*` to `Sales-CRM/Automation/ManyChat/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:348:- Move: `output/TravelFrame-Master-Summary-2026-09-15.md` to `Executive/Snapshots/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:349:- Move: `output/TravelFrame-30-Day-Content-Plan-2026-09-14.docx` to `Marketing-Growth/Plans/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:373:- Move: `Source video/` to `Creative-Production/Assets/Raw/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:374:- Move: `travelframe-guest-guide/` to `Creative-Production/Deliverables/Guest-Guide/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:375:- Move: `output/hanoi-dong-xuan-series/` to `Creative-Production/Projects/Hanoi-Dong-Xuan-Series/`
+./docs/superpowers/plans/2026-09-15-travelframe-company-workspace-implementation.md:376:- Move: `output/qa-*` to `Creative-Production/Review/`
+./scripts/channel-agent/apify_scrape.py:7:                  --out reference-library/channels/handle/posts.json \
+./scripts/channel-agent/apify_scrape.py:11:(script lives at <root>/scripts/channel-agent/, so root is two levels up).
+./scripts/channel-agent/apify_scrape.py:31:    # script at <root>/scripts/channel-agent/apify_scrape.py → up 3 levels
+./tests/video-understanding/test_transcribe.sh:31:        return self.tmp / "reference-library" / "transcripts"
+./.claude/skills/content-writing/SKILL.md:14:Viết draft nội dung TravelFrame vào `output/drafts/<slug>/` kèm traceability và
+./.claude/skills/content-writing/SKILL.md:22:Slug: `YYYY-MM-DD-<topic-kebab>` hoặc theo lịch carousels nếu người dùng chỉ định ngày đăng.
+./.claude/skills/content-writing/SKILL.md:25:Đọc `reference-library/knowledge/voice-playbook.md`, `patterns.md`, `ideas-backlog.md`.
+./.claude/skills/content-writing/SKILL.md:35:- **video-package**: `scripts/<slug>.txt` (narration thuần, beat cách dòng trống)
+./.claude/skills/content-writing/SKILL.md:44:  `Indicative` hoặc bỏ số (theo carousels/README.md)
+./.claude/skills/content-writing/SKILL.md:58:python3 .claude/skills/content-writing/scripts/check_draft.py \
+./.claude/skills/content-writing/SKILL.md:59:  --draft output/drafts/<slug>/caption.md --type reel \
+./.claude/skills/content-writing/SKILL.md:60:  --sources-md output/drafts/<slug>/sources.md \
+./.claude/skills/content-writing/SKILL.md:61:  --knowledge reference-library/knowledge \
+./.claude/skills/content-writing/SKILL.md:63:python3 .claude/skills/content-writing/scripts/check_draft.py \
+./.claude/skills/content-writing/SKILL.md:64:  --draft output/drafts/<slug>/reel-script.md --type reel --no-expect-hashtag \
+./.claude/skills/content-writing/SKILL.md:65:  --sources-md output/drafts/<slug>/sources.md \
+./.claude/skills/content-writing/SKILL.md:66:  --knowledge reference-library/knowledge
+./.claude/skills/content-writing/SKILL.md:69:# video: --draft asset-plan.md --type video --script scripts/<slug>.txt
+./.claude/skills/content-writing/SKILL.md:76:- KHÔNG đăng, KHÔNG render, KHÔNG sửa `carousels/*/slides.html` (chỉ đưa text).
+./tests/content-writer/test_knowledge_schema.py:12:- Nguồn: output/posts/exemplar.md (2026-09-11), reference-library/analysis/youtube/x/run/analysis.md§3 (2026-09-12)
+./tests/content-writer/test_knowledge_schema.py:17:- Nguồn: reference-library/channels/test/instagram-posts.json (2026-09-12)
+./tests/content-writer/test_knowledge_schema.py:27:- Nguồn: output/posts/exemplar.md (2026-09-11)
+./tests/content-writer/test_knowledge_schema.py:43:        (self.root / "reference-library" / "analysis" / "youtube" / "x" / "run").mkdir(parents=True, exist_ok=True)
+./tests/content-writer/test_knowledge_schema.py:44:        (self.root / "reference-library" / "analysis" / "youtube" / "x" / "run" / "analysis.md").write_text("analysis\n")
+./tests/content-writer/test_knowledge_schema.py:45:        (self.root / "reference-library" / "channels" / "test").mkdir(parents=True, exist_ok=True)
+./tests/content-writer/test_knowledge_schema.py:46:        (self.root / "reference-library" / "channels" / "test" / "instagram-posts.json").write_text("[]")
+./tests/content-writer/test_knowledge_schema.py:47:        (self.root / "reference-library").mkdir(parents=True, exist_ok=True)
+./tests/content-writer/test_knowledge_schema.py:48:        self.kdir = self.root / "reference-library" / "knowledge"
+./tests/content-writer/test_knowledge_schema.py:83:            "- Nguồn: output/posts/does-not-exist.md (2026-09-12)\n",
+./tests/content-writer/test_knowledge_schema.py:93:            "- Nguồn: output/posts/exemplar.md (2026-09-11)\n", encoding="utf-8")
+./tests/content-writer/test_knowledge_schema.py:113:                  "- Nguồn: output/posts/exemplar.md (2026-09-11), "
+./tests/content-writer/test_knowledge_schema.py:114:                  "reference-library/channels/test/digest.md§CTA (2026-09-12)\n"
+./tests/content-writer/test_knowledge_schema.py:116:                  "- Nguồn: output/posts/exemplar.md (2026-09-11)\n"
+./tests/content-writer/test_knowledge_schema.py:125:        (self.root / "reference-library" / "channels" / "test" / "digest.md").write_text(
+./tests/channel-evaluator/test_static_safety.py:48:                 str(REPO / "reference-library/channels/test-nasa/instagram-posts.json"),
+./tests/mcp/travelframe-readonly.test.mjs:6:  const source = await readFile(new URL("../../mcp/travelframe-readonly.mjs", import.meta.url), "utf8");
+./reference-library/channels/host-themikeytravel/evaluation-2026-09-13-run1/metrics.json:2:  "source_file": "reference-library/channels/host-themikeytravel/instagram-posts.json",
+./.claude/skills/video-understanding/README.md:14:python3 .claude/skills/video-understanding/scripts/prepare_video.py \
+./.claude/skills/video-understanding/README.md:16:  --out reference-library/analysis/<video-key>/<run-id>/
+./.claude/skills/video-understanding/README.md:19:python3 .claude/skills/video-understanding/scripts/extract_frames.py \
+./.claude/skills/video-understanding/README.md:24:Tests: `python3 -m unittest discover -s tests/video-understanding -v` (từ gốc dự án).
+./.claude/skills/channel-evaluation/SKILL.md:16:Mọi output vào `reference-library/evaluation/<handle>/<run-id>/` (channel) hoặc
+./.claude/skills/channel-evaluation/SKILL.md:17:`output/drafts/<slug>/evaluation-<run-id>.{md,json}` (draft gate).
+./.claude/skills/channel-evaluation/SKILL.md:37:`reference-library/channels/<handle>/*.json` — probe shape (flat/latestPosts) + field
+./.claude/skills/channel-evaluation/SKILL.md:39:`reference-library/analysis/`. Ghi ngày snapshot (mtime file) — KHÔNG tự bịa ngày scrape.
+./.claude/skills/channel-evaluation/SKILL.md:44:python3 .claude/skills/channel-evaluation/scripts/channel_metrics.py \
+./.claude/skills/channel-evaluation/SKILL.md:45:  --posts reference-library/channels/<handle>/<file>.json \
+./.claude/skills/channel-evaluation/SKILL.md:46:  --out reference-library/evaluation/<handle>/<run-id>/
+./.claude/skills/channel-evaluation/SKILL.md:60:python3 .claude/skills/channel-evaluation/scripts/merge_scores.py \
+./.claude/skills/channel-evaluation/SKILL.md:80:Input `output/drafts/<slug>/`:
+./.claude/skills/video-understanding/SKILL.md:14:báo cáo tiếng Việt + JSON trong `reference-library/analysis/<video-key>/<run-id>/`.
+./.claude/skills/video-understanding/SKILL.md:37:python3 .claude/skills/video-understanding/scripts/prepare_video.py \
+./.claude/skills/video-understanding/SKILL.md:39:  [--transcripts <thư-mục-transcript>] --out reference-library/analysis/<video-key>/<run-id>/
+./.claude/skills/video-understanding/SKILL.md:50:- Thiếu transcript + video có audio → chạy `scripts/channel-agent/transcribe.sh
+./.claude/skills/video-understanding/SKILL.md:56:python3 .claude/skills/video-understanding/scripts/extract_frames.py \
+./.claude/skills/video-understanding/SKILL.md:57:  <video.mp4> --out reference-library/analysis/<video-key>/<run-id>/frames/ \
+./.claude/skills/video-understanding/SKILL.md:87:reference-library/analysis/<video-key>/<run-id>/
+./.claude/agents/video-analyst.md:28:- Gốc dự án: `/Users/macbook/Codex GPT/travelframe.vn` (mọi đường dẫn tương đối từ đây).
+./.claude/agents/video-analyst.md:29:- Dữ liệu vào: `reference-library/videos/<platform>/<run>/` (video.mp4 + info.json),
+./.claude/agents/video-analyst.md:30:  `reference-library/transcripts/<name>-<run-stamp>/` (srt/txt + provenance.json),
+./.claude/agents/video-analyst.md:31:  `reference-library/channels/<handle>/posts.json` (flat hoặc latestPosts).
+./.claude/agents/video-analyst.md:32:- Kết quả ra: `reference-library/analysis/<video-key>/<run-id>/` gồm `source.json`,
+./.claude/agents/video-analyst.md:51:   transcribe lại bằng `scripts/channel-agent/transcribe.sh`.
+./.claude/skills/content-learning/SKILL.md:15:`reference-library/knowledge/` (markdown thuần, tích lũy, schema trong
+./.claude/skills/content-learning/SKILL.md:30:Quét `reference-library/`:
+./.claude/skills/content-learning/SKILL.md:33:- `transcripts/<name>-<runstamp>/` — chỉ dùng khi có `provenance.json`
+./.claude/skills/content-learning/SKILL.md:34:- Exemplar của TravelFrame: `output/posts/*.md`, `output/hanoi-dong-xuan-series/`
+./.claude/skills/content-learning/SKILL.md:35:  (scripts + asset-plan + DESIGN.md), `carousels/*/slides.html` (chỉ ĐỌC text)
+./.claude/skills/content-learning/SKILL.md:39:`reference-library/knowledge/` chưa tồn tại → tạo trước bằng nguồn `self_exemplar`
+./.claude/skills/video-understanding/references/source-contract.md:8:  transcribe.sh→ transcripts/<name>-<run-stamp>/ srt/txt/json + provenance.json
+./.claude/skills/video-understanding/references/source-contract.md:44:Mỗi lần transcribe tạo 1 thư mục `transcripts/<name>-<runstamp>/` với
+./.claude/skills/video-understanding/references/source-contract.md:46:engine, model, language}`. SRT cũ trong `transcripts/video/` KHÔNG có provenance →
+./.claude/agents/channel-scout.md:16:- Gốc dự án: `/Users/macbook/Codex GPT/travelframe.vn` (tất cả đường dẫn tương đối tính từ đây).
+./.claude/agents/channel-scout.md:17:- Kết quả lưu trong `reference-library/` (tự tạo nếu chưa có):
+./.claude/agents/channel-scout.md:19:  - `transcripts/<video-name>/` — srt, txt, json từ whisper
+./.claude/agents/channel-scout.md:26:scripts/channel-agent/download.sh "<url>"
+./.claude/agents/channel-scout.md:35:scripts/channel-agent/transcribe.sh "<video.mp4>" [medium|small]
+./.claude/agents/channel-scout.md:39:- Mỗi lần chạy tạo thư mục riêng `transcripts/<name>-<run-stamp>/` — hai video cùng tên
+./.claude/agents/channel-scout.md:42:- Ngôn ngữ tự động detect; nếu user chỉ định ngôn ngữ (vd tiếng Việt) thì chạy `LANGUAGE=vi scripts/channel-agent/transcribe.sh ...`.
+./.claude/agents/channel-scout.md:49:Script chung: `scripts/channel-agent/apify_scrape.py` (chạy 1 actor, chờ, lưu dataset JSON).
+./.claude/agents/channel-scout.md:53:  scripts/channel-agent/apify_scrape.py --actor apify/instagram-profile-scraper \
+./.claude/agents/channel-scout.md:55:    --out "reference-library/channels/<handle>/instagram-posts.json"
+./.claude/agents/channel-scout.md:69:Sau khi có posts JSON, viết `reference-library/channels/<handle>/digest.md` với:
+./.claude/agents/channel-scout.md:92:4. SRT cũ trong `transcripts/video/` không có provenance — khi bàn giao phải nói rõ
+./.claude/skills/content-writing/references/content-rubrics.md:5:`output/drafts/<slug>/reel-script.md`:
+./.claude/skills/content-writing/references/content-rubrics.md:20:`output/drafts/<slug>/slides-text.md`:
+./.claude/skills/content-writing/references/content-rubrics.md:23:- Giá: theo quy tắc carousels/README.md — thiếu nguồn → `[VERIFY]` hoặc bỏ số;
+./.claude/skills/content-writing/references/content-rubrics.md:32:`output/drafts/<slug>/scripts/<slug>.txt`:
+./.claude/skills/content-writing/references/content-rubrics.md:34:  `output/hanoi-dong-xuan-series/scripts/*.txt`)
+./.claude/skills/content-writing/references/content-rubrics.md:37:`output/drafts/<slug>/asset-plan.md`:
+./.claude/skills/content-writing/references/content-rubrics.md:44:Checker yêu cầu (--draft asset-plan.md --script scripts/<slug>.txt): asset-plan có
+./.claude/agents/content-writer.md:23:(học + viết). Bạn chỉ ĐỌC output của 2 agent trước trong `reference-library/`;
+./.claude/agents/content-writer.md:31:- Gốc dự án: `/Users/macbook/Codex GPT/travelframe.vn` (mọi đường dẫn tương đối từ đây).
+./.claude/agents/content-writer.md:32:- Đầu vào học: `reference-library/analysis/<video-key>/<run>/analysis.{md,json}`,
+./.claude/agents/content-writer.md:33:  `reference-library/channels/<handle>/{digest.md,*.json}`,
+./.claude/agents/content-writer.md:34:  `reference-library/transcripts/<name>-<runstamp>/` (chỉ tin khi có `provenance.json`),
+./.claude/agents/content-writer.md:35:  và exemplar của chính TravelFrame (`output/posts/`, `output/hanoi-dong-xuan-series/`,
+./.claude/agents/content-writer.md:36:  `carousels/` — chỉ đọc text).
+./.claude/agents/content-writer.md:37:- Knowledge base: `reference-library/knowledge/` (voice-playbook.md, patterns.md,
+./.claude/agents/content-writer.md:40:- Draft đầu ra: `output/drafts/<slug>/` + sources.md — rubric trong
+./.claude/agents/content-writer.md:66:KHÔNG tự viết vào `output/posts/` hay thư mục xuất bản — chỉ `output/drafts/`.
+./reference-library/evaluation/nasa/2026-09-12-run1/evaluation.md:59:spot-check.md (partial 1/3) · draft gate: output/drafts/2026-09-12-esim-setup-reel/evaluation-*.md
+./.claude/skills/content-learning/references/knowledge-schema.md:1:# Knowledge base schema — reference-library/knowledge/
+./.claude/skills/content-learning/references/knowledge-schema.md:46:- `reference-library/analysis/youtube/jnqxac9ivrw/run-1/analysis.md§3-Hook`
+./.claude/skills/content-learning/references/knowledge-schema.md:47:- `output/posts/vietnam-esim-reel-caption.md` (self_exemplar, 2026-09-11)
+./.claude/skills/content-learning/scripts/validate_knowledge.py:98:    parser.add_argument("--root", default="/Users/macbook/Codex GPT/travelframe.vn",
+./.claude/skills/video-understanding/references/upstream.md:7:| `scripts/vendor/claude_video/frames.py` | `skills/watch/scripts/frames.py` @ commit `83da59fa78c3eee9e20f515fe75c438bb5166efd` | `ad317574facd619ff0c5ccbbb86a08b76abc8419c81107d179dbe2a3ba526ae6` |
+./.claude/skills/video-understanding/references/upstream.md:8:| `scripts/vendor/claude_video/LICENSE` | `LICENSE` @ cùng commit | `add78957ea8124a8ae6eccd7a55c948543a9f32ea26917bf562b8cafacb01d3e` |
+./.claude/skills/video-understanding/references/upstream.md:40:Cập nhật commit + SHA-256 ở bảng trên, chạy lại tests/video-understanding/.
+./.claude/agents/channel-evaluator.md:28:- Gốc dự án: `/Users/macbook/Codex GPT/travelframe.vn` (mọi đường dẫn tương đối từ đây).
+./.claude/agents/channel-evaluator.md:29:- Input: `reference-library/channels/<handle>/*.json` (posts Apify),
+./.claude/agents/channel-evaluator.md:30:  `reference-library/analysis/` (video-analyst runs), `output/drafts/<slug>/`
+./.claude/agents/channel-evaluator.md:32:- Output: `reference-library/evaluation/<handle>/<run-id>/`
+./.claude/agents/channel-evaluator.md:34:  và `output/drafts/<slug>/evaluation-<run-id>.{md,json}` cho draft gate.
+./.claude/agents/channel-evaluator.md:59:`output/posts/` — mọi sản phẩm đánh giá nằm ở đường dẫn trên.
+./reference-library/evaluation/nasa/2026-09-12-run1/metrics.json:2:  "source_file": "reference-library/channels/test-nasa/instagram-posts.json",
+./reference-library/evaluation/nasa/2026-09-12-run1/draft-gate-raw.json:30:      "command": "check_draft.py --draft caption.md --type reel --sources-md sources.md --knowledge reference-library/knowledge --sources output/posts/vietnam-esim-reel-caption.md"
+./reference-library/evaluation/nasa/2026-09-12-run1/draft-gate-raw.json:57:      "command": "check_draft.py --draft reel-script.md --type reel --no-expect-hashtag --sources-md sources.md --knowledge reference-library/knowledge --sources output/posts/vietnam-esim-reel-caption.md",
+./reference-library/knowledge/patterns.md:8:- Nguồn: output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt (2026-09-11), output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+./reference-library/knowledge/patterns.md:13:- Nguồn: output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt (2026-09-11)
+./reference-library/knowledge/patterns.md:18:- Nguồn: output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt (2026-09-11)
+./reference-library/knowledge/patterns.md:23:- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+./reference-library/knowledge/patterns.md:28:- Nguồn: output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt (2026-09-11)
+./reference-library/knowledge/patterns.md:33:- Nguồn: output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt (2026-09-11), output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt (2026-09-11)
+./reference-library/knowledge/patterns.md:38:- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+./reference-library/knowledge/patterns.md:43:- Nguồn: output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt (2026-09-11)
+./reference-library/knowledge/patterns.md:49:- Nguồn: reference-library/channels/host-themikeytravel/instagram-posts.json (2026-09-13 — hook viral nhất của kênh: 219× median ER theo metrics.json; tương quan, không nhân quả)
+./reference-library/knowledge/patterns.md:54:- Nguồn: reference-library/channels/host-themikeytravel/instagram-posts.json (2026-09-13)
+./reference-library/knowledge/voice-playbook.md:10:- Nguồn: output/hanoi-dong-xuan-series/shared/DESIGN.md (2026-09-11), output/posts/vietnam-esim-reel-caption.md (2026-09-11), output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt (2026-09-11)
+./reference-library/knowledge/voice-playbook.md:17:- Nguồn: output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt (2026-09-11), output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt (2026-09-11)
+./reference-library/knowledge/voice-playbook.md:25:- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+./reference-library/knowledge/voice-playbook.md:32:- Nguồn: output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt (2026-09-11), output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt (2026-09-11)
+./reference-library/knowledge/voice-playbook.md:37:- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+./reference-library/knowledge/voice-playbook.md:44:- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+./reference-library/knowledge/voice-playbook.md:51:- Nguồn: output/hanoi-dong-xuan-series/shared/DESIGN.md (2026-09-11), carousels/README.md (2026-09-11)
+./reference-library/knowledge/voice-playbook.md:57:- Nguồn: carousels/README.md (2026-09-11)
+./reference-library/knowledge/voice-playbook.md:62:- Nguồn: output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt (2026-09-11), output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt (2026-09-11)
+./reference-library/knowledge/ideas-backlog.md:6:- Nguồn: carousels/README.md (2026-09-11)
+./reference-library/knowledge/ideas-backlog.md:11:- Nguồn: carousels/README.md (2026-09-11)
+./reference-library/knowledge/ideas-backlog.md:16:- Nguồn: carousels/README.md (2026-09-11)
+./reference-library/knowledge/ideas-backlog.md:21:- Nguồn: output/posts/vietnam-esim-reel-caption.md (2026-09-11)
+./reference-library/knowledge/ideas-backlog.md:26:- Nguồn: output/hanoi-dong-xuan-series/asset-plan.md (2026-09-11)
+./reference-library/knowledge/ideas-backlog.md:31:- Nguồn: output/hanoi-dong-xuan-series/asset-plan.md (2026-09-11), output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt (2026-09-11)
+./reference-library/knowledge/ideas-backlog.md:36:- Nguồn: reference-library/channels/host-themikeytravel/instagram-posts.json (2026-09-13 — hook dạng này viral 219× median kênh host)
+./.claude/skills/video-understanding/scripts/prepare_video.py:204:    it — e.g. legacy `transcripts/video/` output — are recorded as unverified
+./.claude/skills/video-understanding/scripts/prepare_video.py:294:            if parent.name == "videos" and parent.parent.name == "reference-library":
+./reference-library/knowledge/runs/2026-09-13-host-themikeytravel/learning.md:4:- Nguồn tiêu thụ: reference-library/channels/host-themikeytravel/instagram-posts.json
+./reference-library/knowledge/runs/2026-09-12-seed-exemplars/learning.md:8:- output/hanoi-dong-xuan-series/shared/DESIGN.md — guardrails + giọng
+./reference-library/knowledge/runs/2026-09-12-seed-exemplars/learning.md:9:- output/posts/vietnam-esim-reel-caption.md — caption voice + trap→move + comment-CTA
+./reference-library/knowledge/runs/2026-09-12-seed-exemplars/learning.md:10:- output/hanoi-dong-xuan-series/scripts/top-3-hanoi-spots.txt — hook countdown + pro move
+./reference-library/knowledge/runs/2026-09-12-seed-exemplars/learning.md:11:- output/hanoi-dong-xuan-series/scripts/one-day-hanoi-itinerary.txt — beat theo giờ + safety line
+./reference-library/knowledge/runs/2026-09-12-seed-exemplars/learning.md:12:- carousels/README.md — quy tắc giá VERIFY 2 nguồn
+./reference-library/knowledge/runs/2026-09-12-review-fixes/learning.md:12:  - THÊM V-08: quy tắc giá 2 nguồn + Indicative (từ carousels/README.md)

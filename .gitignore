@@ -1,0 +1,27 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.nuxt/
+.output/
+dist/
+build/
+
+# Legacy large/generated paths during migration.
+Source video/
+output/
+travelframe-guest-guide/
+carousels/*/png/
+reference-library/videos/
+reference-library/transcripts/
+
+# Company OS large/generated business assets.
+Creative-Production/Assets/Raw/
+Creative-Production/Projects/*/Renders/
+Creative-Production/Review/
+Research-Insights/Library/videos/
+Research-Insights/Library/transcripts/
