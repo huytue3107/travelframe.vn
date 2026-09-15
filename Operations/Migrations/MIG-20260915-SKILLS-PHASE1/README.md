@@ -1,10 +1,10 @@
 # Migration Batch: MIG-20260915-SKILLS-PHASE1
-## TravelFrame Department Skills Implementation Baseline
+## TravelFrame Department Skills Implementation
 
 - **Batch ID:** `MIG-20260915-SKILLS-PHASE1`
 - **Date:** 2026-09-15
 - **Owner:** Technology-Automation / Operations
-- **Status:** Baseline Captured
+- **Status:** Completed & Validated
 
 ---
 
@@ -19,48 +19,28 @@ Thiết lập hệ thống kỹ năng chuẩn hóa (Agent Skills) cho 9 phòng b
 
 ---
 
-## 2. Trạng Thái Git Trước Khi Sửa (Worktree Baseline)
+## 2. Kết Quả Triển Khai
 
-### Modified Files (Không thuộc batch này - không đụng tới):
-- `Creative-Production/README.md`
-- `Research-Insights/Library/knowledge/ideas-backlog.md`
-- `Research-Insights/Library/knowledge/patterns.md`
-- `Technology-Automation/MCP/travelframe-readonly.mjs`
-- `Technology-Automation/README.md`
-- `Technology-Automation/Scripts/workspace_check.py`
-- `Technology-Automation/Tests/legacy/mcp/travelframe-readonly.test.mjs`
-- `WORKSPACE-MAP.md`
-- `package.json`
-- `package-lock.json`
-
-### Tracked Skills (4 skills trong `.claude/skills/`):
-- `.claude/skills/channel-evaluation/`
-- `.claude/skills/content-learning/`
-- `.claude/skills/content-writing/`
-- `.claude/skills/video-understanding/`
-
-### Untracked Skills (11 skills trong `.agents/skills/` và `.claude/skills/`):
-- `competitive-landscape`
-- `competitor-analysis`
-- `humanizer`
-- `keyword-clustering`
-- `keyword-research`
-- `link-prospecting`
-- `local-seo`
-- `seo-audit`
-- `seo-coach`
-- `seo-project-setup`
-- `visual-asset-pipeline`
-
-Tổng cộng: 46 files skill hiện có được kiểm kê và băm SHA-256 chi tiết trong `manifest.tsv` và `files.sha256`.
+1. **Tổng số kỹ năng được quản lý:** 27 skills (15 skills hiện có chuẩn hóa + 12 skills mới).
+2. **Đồng bộ Codex và Claude:** 100% đồng nhất giữa `.agents/skills/` và `.claude/skills/`, 0 drift detected.
+3. **Quản trị và Hướng dẫn:**
+   - [Technology-Automation/Skills/README.md](../../../Technology-Automation/Skills/README.md)
+   - [Technology-Automation/Skills/Catalog.md](../../../Technology-Automation/Skills/Catalog.md)
+   - [Technology-Automation/Skills/Governance.md](../../../Technology-Automation/Skills/Governance.md)
+   - [Technology-Automation/Skills/skills-manifest.json](../../../Technology-Automation/Skills/skills-manifest.json)
+   - 9 bộ hướng dẫn phòng ban trong `Technology-Automation/Skills/Departments/`
+4. **Báo cáo nghiệm thu chi tiết:**
+   - [validation-report.md](validation-report.md)
 
 ---
 
-## 3. Kết Quả Kiểm Thử Nền Tảng (Baseline Tests)
+## 3. Kiểm Thử Nghiệm Thu (Final Verification)
 
-- **`npm test` (MCP test suite):** PASS (2 tests pass in 75ms).
-- **`npm run test:workspace` (Workspace unit tests):** PASS (6 tests pass in 23ms).
-- **`npm run workspace:check` (Company OS integrity):** PASS (6 checks pass).
+- **`npm test`:** PASS (2/2 tests pass).
+- **`npm run test:workspace`:** PASS (25/25 tests pass).
+- **`npm run test:skills`:** PASS (15/15 tests pass).
+- **`npm run skills:check`:** PASS (327 checks pass, 0 drift).
+- **`npm run workspace:check`:** PASS (10/10 checks pass).
 
 ---
 
@@ -71,7 +51,7 @@ Tổng cộng: 46 files skill hiện có được kiểm kê và băm SHA-256 ch
    - Không xóa hay ghi đè bất kỳ skill nào không nằm trong `Technology-Automation/Skills/skills-manifest.json`.
 
 2. **Khôi phục theo commit:**
-   - Mỗi task/checkpoint trong batch migration này được commit riêng biệt. Để rollback một task, dùng `git revert <commit-hash>` hoặc checkout lại file cụ thể từ baseline commit.
+   - Mỗi task/checkpoint trong batch migration này được commit riêng biệt. Để rollback một task, dùng `git revert <commit-hash>`.
 
 3. **Khôi phục theo manifest:**
-   - Sử dụng bảng đối chiếu SHA-256 trong `manifest.tsv` và `files.sha256` để kiểm tra tính toàn vẹn của 15 skills gốc nếu nghi ngờ có sự thay đổi ngoài ý muốn.
+   - Bảng đối soát SHA-256 chi tiết cho 139 files trong `manifest.tsv` và `files.sha256` cho phép kiểm tra và hoàn tác chính xác từng file.

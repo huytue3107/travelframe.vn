@@ -8,6 +8,7 @@
 - Side Agency vault tiếp tục là canonical source cho chiến lược TravelFrame.
 - Migration chạy theo batch, có checksum, validation và rollback.
 - Agent mặc định có quyền Read, Draft và Review.
+- Hệ thống Agent Skills (27 skills, manifest, validator, sync mirror và 9 department guides) đã hoàn tất và Active theo batch `MIG-20260915-SKILLS-PHASE1`.
 
 ## Working
 
