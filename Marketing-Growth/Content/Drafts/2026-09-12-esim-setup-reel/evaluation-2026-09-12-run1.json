@@ -65,5 +65,5 @@
     "Verify claim 'SIM desk costs more / eats the first hour of your trip' (reel-script.md beat one, dòng 8) — đang [VERIFY]",
     "Sau khi 4 claim đã verify: bỏ hết [VERIFY] marker ở cả 2 file, cập nhật bảng Claims + Checklist trong sources.md, chạy lại check_draft.py đến khi status=pass trước khi lên lịch đăng"
   ],
-  "run": "/Users/macbook/Codex GPT/travelframe.vn/Research-Insights/Library/evaluation/nasa/2026-09-12-run1"
+  "run": "Research-Insights/Library/evaluation/nasa/2026-09-12-run1"
 }

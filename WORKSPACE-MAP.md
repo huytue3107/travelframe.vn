@@ -23,21 +23,21 @@
 | Metrics, snapshots, attribution, results | `Data-Analytics/` |
 | SOP, migration, inventory, maintenance | `Operations/` |
 
-## Migration status
+## Current-state map (cấu trúc hiện hành)
 
-Workspace đang được chuyển từ cấu trúc legacy sang Company OS. Tra cứu
-`Operations/Migrations/` trước khi dùng đường dẫn cũ. Không tự xóa compatibility
-path hoặc legacy folder khi batch chưa có validation record.
-
-## Legacy mapping
-
-| Legacy | Company OS owner |
+| Khu vực | Nội dung |
 |---|---|
-| `Source video/` | `Creative-Production/Assets/Raw/` |
-| `reference-library/` | `Research-Insights/Library/` |
-| `carousels/` | `Marketing-Growth/Content/Carousels/` |
-| `travelframe-guest-guide/` | `Creative-Production/Deliverables/Guest-Guide/` |
-| `output/drafts/` | `Marketing-Growth/Content/Drafts/` |
-| `output/posts/` | `Marketing-Growth/Content/Review/Legacy-Posts/` |
-| `output/hanoi-dong-xuan-series/` | `Creative-Production/Projects/Hanoi-Dong-Xuan-Series/` |
-| `mcp/`, `scripts/`, `tests/` | `Technology-Automation/` |
+| `Executive/` | Current state, snapshots, quyết định |
+| `Brand-Strategy/` | Source-of-truth map, offers & pricing |
+| `Research-Insights/Library/` | Research library: channels, videos, transcripts, analysis, evaluation, knowledge |
+| `Marketing-Growth/Content/` | Carousels, drafts, legacy posts (Review), plans |
+| `Creative-Production/` | Assets/Raw (source media), Projects (Hanoi-Dong-Xuan-Series), Review (QA previews), Deliverables (Guest Guide) |
+| `Sales-CRM/Automation/ManyChat/` | ManyChat docs |
+| `Technology-Automation/` | MCP, Scripts, Tests, agents & skills trong `.claude/` |
+| `Data-Analytics/` | Metric definitions, snapshot index |
+| `Operations/` | Migrations (manifest + validation per batch), Change-Management (design/plan/status docs) |
+
+## Legacy mapping (tham chiếu lịch sử — đã di chuyển xong 2026-09-15)
+
+Các legacy root cũ đã hết. Nếu tooling cũ còn ghi đường dẫn legacy, tra
+`Operations/Migrations/` để map về vị trí mới. Không tái tạo cây legacy.

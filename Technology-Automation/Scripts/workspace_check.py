@@ -115,11 +115,20 @@ def check_tracked_secrets(root: Path) -> list[str]:
     ]
 
 
+# The checker must not flag its own detection constant or its test fixture.
+LEGACY_CHECK_SELF_EXCLUDED = (
+    Path("Technology-Automation/Scripts/workspace_check.py"),
+    Path("Technology-Automation/Tests/test_workspace_check.py"),
+)
+
+
 def _iter_text_files(root: Path):
     for path in root.rglob("*"):
         if not path.is_file() or path.suffix.lower() not in TEXT_SUFFIXES:
             continue
         relative = path.relative_to(root)
+        if relative in LEGACY_CHECK_SELF_EXCLUDED:
+            continue
         if any(part in SKIP_PARTS for part in relative.parts):
             continue
         if relative.parts[:2] == ("Operations", "Migrations"):
