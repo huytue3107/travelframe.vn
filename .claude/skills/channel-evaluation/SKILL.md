@@ -85,3 +85,12 @@ Input `Marketing-Growth/Content/Drafts/<slug>/`:
 4. Verdict: `approve` | `revise` (+danh sách sửa cụ thể) | `block`.
 5. Output `evaluation-<run-id>.md` + `scores.json` ngay trong thư mục draft.
    KHÔNG tự sửa draft — content-writer sửa rồi chạy gate lại.
+
+## TravelFrame Governance Contract
+- **Owner:** Research-Insights (`Research-Insights/Library/`)
+- **Read First:** `Research-Insights/README.md`, `Brand-Strategy/Source-Of-Truth-Map.md`
+- **Output:** `Research-Insights/Library/`
+- **Source Precedence:** Rocky direct instruction > Executive approved decisions > canonical vault source > local approved artifact > working document > research snapshot.
+- **Approval Gates:** Không tự động chạy paid scrape hoặc mở rộng collection ngoài brief mà chưa có Rocky phê duyệt.
+- **Guardrails:** Raw evidence không bị ghi đè. Report phải có source date và limitations.
+- **Completion Criteria:** Báo cáo đánh giá kênh hoàn chỉnh, có số liệu đối chiếu và evidence bundle.

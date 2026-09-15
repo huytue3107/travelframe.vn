@@ -104,3 +104,12 @@ post mới; bài học cho TravelFrame là ý tưởng + nguyên tắc, không s
 ## Giới hạn v1
 - Không OCR package, không speech API mới. Không quét cả thư viện. Tuần tự, từng
   video được chỉ định. Đọc ảnh tốn token qua provider của phiên — không tuyên bố offline.
+
+## TravelFrame Governance Contract
+- **Owner:** Research-Insights (`Research-Insights/Library/`)
+- **Read First:** `Research-Insights/README.md`, `Research-Insights/Library/knowledge/patterns.md`
+- **Output:** `Research-Insights/Library/transcripts/` và `Research-Insights/Library/analysis/`
+- **Source Precedence:** Video evidence gốc > Phân tích và trích xuất.
+- **Approval Gates:** Không tải video vi phạm bản quyền hoặc dùng script ngoài phạm vi phân tích nội bộ.
+- **Guardrails:** Bảo toàn toàn bộ bundle hình ảnh, timestamps và transcript trích xuất để phục vụ kiểm chứng provenance.
+- **Completion Criteria:** Thư mục phân tích có ảnh chụp màn hình, transcript có mốc thời gian và bài tổng hợp insight.

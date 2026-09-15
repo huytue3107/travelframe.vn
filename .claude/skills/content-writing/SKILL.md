@@ -78,3 +78,12 @@ trạng thái cuối: `drafted` | `drafted_flagged` | `blocked`.
 - KHÔNG chép nguyên văn nguồn ngoài (checker bắt ≥8 từ); trích dẫn cho phép tối đa 1
   câu ngắn trong ngoặc.
 - Draft KHÔNG bake caption vào video — text là input cho pipeline render riêng.
+
+## TravelFrame Governance Contract
+- **Owner:** Marketing-Growth (`Marketing-Growth/Content/Drafts/`)
+- **Read First:** `Brand-Strategy/Source-Of-Truth-Map.md`, `Executive/Current-State.md`, `Marketing-Growth/README.md`
+- **Output:** `Marketing-Growth/Content/Drafts/`
+- **Source Precedence:** Rocky direct instruction > Executive approved decisions > canonical vault source > draft.
+- **Approval Gates:** BẮT BUỘC Rocky duyệt trước khi chuyển Draft thành Published hoặc đưa lên web/mạng xã hội.
+- **Guardrails:** Không tự ý tạo claim về giá, visa, thời tiết hoặc dịch vụ mà chưa đối chiếu Source-Of-Truth.
+- **Completion Criteria:** Bài viết draft hoàn chỉnh, đạt chuẩn SEO, kiểm tra check_draft.py pass và sẵn sàng cho review.

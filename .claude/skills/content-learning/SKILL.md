@@ -66,3 +66,12 @@ Theo đúng schema + merge rules (`references/knowledge-schema.md`):
 thêm/cập nhật/conflict, cái gì chưa chắc. Trạng thái lượt học: `learned` |
 `learned_partial` (nguồn thiếu/yếu) | `no_new_inputs`. Báo cuối: entry mới/cập nhật,
 điểm chưa chắc, gợi ý lượt học sau.
+
+## TravelFrame Governance Contract
+- **Owner:** Research-Insights (`Research-Insights/Library/knowledge/`)
+- **Read First:** `Research-Insights/Library/knowledge/patterns.md`, `Research-Insights/Library/knowledge/ideas-backlog.md`
+- **Output:** `Research-Insights/Library/knowledge/runs/`
+- **Source Precedence:** Quyết định approved > Canonical vault > Local approved > Working doc > Learning run.
+- **Approval Gates:** Tri thức trích xuất cần được review trước khi tích hợp vào cẩm nang chính thức của TravelFrame.
+- **Guardrails:** Không ghi đè raw evidence (video, transcript, snapshot) của các lần chạy trước.
+- **Completion Criteria:** Tài liệu learning.md có phân loại pattern, idea backlog cập nhật và test check pass.
