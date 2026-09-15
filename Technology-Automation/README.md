@@ -6,7 +6,7 @@ Cung cấp công cụ, connector, tests và automation an toàn cho Company OS.
 
 ## Responsibilities
 
-MCP, scripts, test suites, local agents, skills, package commands và runbooks.
+MCP, scripts, test suites, local agents, skills, package commands, runbooks và in-house tools (OpenSEO).
 
 ## Inputs
 
@@ -22,7 +22,9 @@ Code, tests và runbook cùng version trong Git.
 
 ## Folder structure
 
-`MCP/`, `Scripts/`, `Tests/`, `Runbooks/`.
+`MCP/`, `Scripts/`, `Tests/`, `Runbooks/`, `Skills/`, `Tools/`.
+- `Skills/`: Quản trị Agent Skills, Catalog, Manifest và 9 Department Guides (xem `Skills/README.md`).
+- `Tools/open-seo`: Nền tảng SEO Intelligence & MCP (xem `Runbooks/OpenSEO-Runbook.md`).
 
 ## Workflow
 

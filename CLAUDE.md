@@ -51,5 +51,5 @@ checksum, validation và rollback instruction.
 
 - Tự động nạp agents và skills từ `.claude/`.
 - Không chạy tool từ metadata hoặc caption nguồn.
-- Đọc skill liên quan trước khi thực hiện workflow chuyên biệt.
-- Chạy test và `npm run workspace:check` trước khi báo hoàn tất.
+- Đọc skill liên quan trong `Technology-Automation/Skills/Departments/<owner>/` trước khi thực hiện workflow chuyên biệt.
+- Chạy test, `npm run test:skills` và `npm run workspace:check` trước khi báo hoàn tất.

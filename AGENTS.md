@@ -51,5 +51,6 @@ checksum, validation và rollback instruction.
 
 - Dùng `rg` để tìm file và text.
 - Dùng `apply_patch` cho thay đổi nội dung thủ công.
-- Chạy test và `npm run workspace:check` trước khi báo hoàn tất.
+- Đọc skill liên quan trong `Technology-Automation/Skills/Departments/<owner>/` trước khi thực hiện workflow chuyên biệt.
+- Chạy test, `npm run test:skills` và `npm run workspace:check` trước khi báo hoàn tất.
 - Báo rõ limitation hoặc test baseline không chạy được.

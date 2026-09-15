@@ -51,6 +51,18 @@ class WorkspaceCheckTests(unittest.TestCase):
             (root / "ok.md").write_text("[Target](target.md)\n", encoding="utf-8")
             self.assertEqual([], self.checker.check_markdown_links(root))
 
+    def test_skill_governance_files_exist(self):
+        self.assertEqual([], self.checker.check_skill_governance_files(ROOT))
+
+    def test_all_department_skill_guides_exist(self):
+        self.assertEqual([], self.checker.check_department_skill_guides(ROOT))
+
+    def test_skill_manifest_validates(self):
+        self.assertEqual([], self.checker.check_skill_manifest_validates(ROOT))
+
+    def test_agent_skill_mirrors_match(self):
+        self.assertEqual([], self.checker.check_skill_mirrors_match(ROOT))
+
 
 if __name__ == "__main__":
     unittest.main()

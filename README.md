@@ -12,6 +12,7 @@ conversion, automation và reporting trong một Company OS có owner rõ ràng.
 3. Đọc `Brand-Strategy/Source-Of-Truth-Map.md` trước khi dùng claim, offer hoặc policy.
 4. Mở `WORKSPACE-MAP.md` để tìm owner và đường dẫn đúng.
 5. Đọc README của phòng ban liên quan trước khi ghi file.
+6. Khi nhiệm vụ cần skill chuyên môn: đọc README phòng ban -> `Technology-Automation/Skills/Departments/<owner>/README.md` -> `SKILL.md` được chọn.
 
 ## Source precedence
 
@@ -86,6 +87,8 @@ Không đọc, in hoặc commit `.env`, token hay credential. Dùng Keychain ho�
 
 ```bash
 npm test
+npm run test:skills
+npm run skills:check
 npm run workspace:check
 ```
 

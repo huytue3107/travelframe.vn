@@ -33,6 +33,25 @@ DEPARTMENTS = (
     "Archive",
 )
 
+SKILL_GOVERNANCE_FILES = (
+    "Technology-Automation/Skills/README.md",
+    "Technology-Automation/Skills/Catalog.md",
+    "Technology-Automation/Skills/Governance.md",
+    "Technology-Automation/Skills/skills-manifest.json",
+)
+
+SKILL_DEPARTMENTS = (
+    "Executive",
+    "Brand-Strategy",
+    "Research-Insights",
+    "Marketing-Growth",
+    "Creative-Production",
+    "Sales-CRM",
+    "Technology-Automation",
+    "Data-Analytics",
+    "Operations",
+)
+
 TEXT_SUFFIXES = {
     ".css",
     ".html",
@@ -53,6 +72,7 @@ SKIP_PARTS = {
     "node_modules",
     "__pycache__",
     ".pytest_cache",
+    "Tools",
 }
 
 LEGACY_ABSOLUTE_ROOT = "/Users/macbook/Codex GPT/travelframe.vn/"
@@ -178,6 +198,51 @@ def check_markdown_links(root: Path) -> list[str]:
     return errors
 
 
+def check_skill_governance_files(root: Path) -> list[str]:
+    errors = []
+    for rel_path in SKILL_GOVERNANCE_FILES:
+        if not (root / rel_path).exists():
+            errors.append(f"missing skill governance file: {rel_path}")
+    return errors
+
+
+def check_department_skill_guides(root: Path) -> list[str]:
+    errors = []
+    for dept in SKILL_DEPARTMENTS:
+        guide = root / "Technology-Automation" / "Skills" / "Departments" / dept / "README.md"
+        if not guide.exists():
+            errors.append(f"missing department skill guide: {dept}")
+    return errors
+
+
+def check_skill_manifest_validates(root: Path) -> list[str]:
+    validator_script = root / "Technology-Automation" / "Scripts" / "validate_skills.py"
+    if not validator_script.exists():
+        return ["missing validate_skills.py"]
+    res = subprocess.run(
+        ["python3", str(validator_script), "--root", str(root), "--json"],
+        capture_output=True,
+        text=True,
+    )
+    if res.returncode != 0:
+        return [f"skill manifest validation failed: {res.stdout.strip()} {res.stderr.strip()}"]
+    return []
+
+
+def check_skill_mirrors_match(root: Path) -> list[str]:
+    sync_script = root / "Technology-Automation" / "Scripts" / "sync_skills.py"
+    if not sync_script.exists():
+        return ["missing sync_skills.py"]
+    res = subprocess.run(
+        ["python3", str(sync_script), "--root", str(root), "--check"],
+        capture_output=True,
+        text=True,
+    )
+    if res.returncode != 0:
+        return [f"skill mirrors drift detected: {res.stdout.strip()} {res.stderr.strip()}"]
+    return []
+
+
 def run_checks(root: Path, allow_legacy_paths: bool) -> int:
     checks = (
         ("required startup files", check_required_files),
@@ -185,6 +250,10 @@ def run_checks(root: Path, allow_legacy_paths: bool) -> int:
         ("agent policy sync", check_agent_policy),
         ("tracked secret paths", check_tracked_secrets),
         ("local markdown links", check_markdown_links),
+        ("skill governance files", check_skill_governance_files),
+        ("department skill guides", check_department_skill_guides),
+        ("skill manifest validation", check_skill_manifest_validates),
+        ("skill mirrors match", check_skill_mirrors_match),
     )
     failed = False
     for label, check in checks:

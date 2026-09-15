@@ -31,9 +31,9 @@
 | `Brand-Strategy/` | Source-of-truth map, offers & pricing |
 | `Research-Insights/Library/` | Research library: channels, videos, transcripts, analysis, evaluation, knowledge |
 | `Marketing-Growth/Content/` | Carousels, drafts, legacy posts (Review), plans |
-| `Creative-Production/` | Assets/Raw (source media), Projects (Hanoi-Dong-Xuan-Series), Review (QA previews), Deliverables (Guest Guide) |
+| `Creative-Production/` | Assets (Raw, Stock Pexels, AI-Generated), Projects (Hanoi-Dong-Xuan-Series), Review, Deliverables, Runbooks (Visual Asset Pipeline) |
 | `Sales-CRM/Automation/ManyChat/` | ManyChat docs |
-| `Technology-Automation/` | MCP, Scripts, Tests, agents & skills trong `.claude/` |
+| `Technology-Automation/` | MCP, Scripts, Tests, Runbooks, Skills (Catalog, Governance, Manifest, Department Guides), Tools (`open-seo`), agents & skills trong `.claude/` và `.agents/` |
 | `Data-Analytics/` | Metric definitions, snapshot index |
 | `Operations/` | Migrations (manifest + validation per batch), Change-Management (design/plan/status docs) |
 
