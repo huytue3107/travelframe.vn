@@ -25,6 +25,7 @@ Code, tests và runbook cùng version trong Git.
 `MCP/`, `Scripts/`, `Tests/`, `Runbooks/`, `Skills/`, `Tools/`.
 - `Skills/`: Quản trị Agent Skills, Catalog, Manifest và 9 Department Guides (xem `Skills/README.md`).
 - `Tools/open-seo`: Nền tảng SEO Intelligence & MCP (xem `Runbooks/OpenSEO-Runbook.md`).
+- `Scripts/typesafe_lead_triage.mjs`: TypeSafe lead triage cho booking workflow — `npm run triage -- --mock <scenario>` (offline) hoặc `--input <state.json> --live` (cần `TYPESAFE_LIVE_APPROVED=1`). Runbook: `Runbooks/DES-20260923-TYPESAFE-LEAD-TRIAGE.md`. Test: `npm run test:triage`.
 
 ## Workflow
 

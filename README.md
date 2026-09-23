@@ -88,8 +88,10 @@ Không đọc, in hoặc commit `.env`, token hay credential. Dùng Keychain ho�
 ```bash
 npm test
 npm run test:skills
+npm run test:triage
 npm run skills:check
 npm run workspace:check
+npm run triage -- --mock photo_tour_ready   # TypeSafe lead triage, offline
 ```
 
 Trong migration, đọc `Operations/Migrations/` trước khi đổi đường dẫn hoặc di chuyển

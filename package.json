@@ -10,6 +10,8 @@
   "scripts": {
     "test": "npm run test:mcp",
     "test:mcp": "node --test Technology-Automation/Tests/legacy/mcp/*.test.mjs",
+    "test:triage": "node --test Technology-Automation/Tests/typesafe_lead_triage.test.mjs",
+    "triage": "node Technology-Automation/Scripts/typesafe_lead_triage.mjs",
     "test:skills": "python3 -m unittest Technology-Automation.Tests.test_skill_manifest Technology-Automation.Tests.test_skill_contracts Technology-Automation.Tests.test_skill_sync -v",
     "test:workspace": "python3 -m unittest discover -s Technology-Automation/Tests -p 'test_*.py'",
     "skills:check": "python3 Technology-Automation/Scripts/validate_skills.py --root . && python3 Technology-Automation/Scripts/sync_skills.py --root . --check",
