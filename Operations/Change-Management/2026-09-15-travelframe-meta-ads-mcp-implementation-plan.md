@@ -402,9 +402,9 @@ Add:
 
 ```toml
 [mcp_servers.travelframe_meta_ads]
-command = "/Users/macbook/Codex GPT/travelframe.vn/Technology-Automation/Scripts/meta-ads-mcp/run.sh"
+command = "<workspace-root>/Technology-Automation/Scripts/meta-ads-mcp/run.sh"
 args = []
-cwd = "/Users/macbook/Codex GPT/travelframe.vn"
+cwd = "<workspace-root>"
 startup_timeout_sec = 30
 ```
 

@@ -72,6 +72,7 @@ SKIP_PARTS = {
     "node_modules",
     "__pycache__",
     ".pytest_cache",
+    ".worktrees",  # sibling git worktrees: gitignored local checkouts, not workspace state
     "Tools",
 }
 
