@@ -2,7 +2,7 @@
 
 **Ngày lập:** 2026-09-15  
 **Owner:** Marketing-Growth / Sales-CRM  
-**Trạng thái:** Review - chờ Rocky duyệt trước khi bật quảng cáo  
+**Trạng thái:** Approved by Rocky (Creative Package Ready for Ad Set Setup 2026-09-15)  
 **Ngân sách quảng cáo:** Tối đa 300 USD  
 **Thời gian:** 25 ngày chạy, chưa gồm giai đoạn chuẩn bị  
 **Kênh chuyển đổi:** Instagram Direct Message  

@@ -14,9 +14,17 @@ function accessToken() {
   return token;
 }
 
-async function graphGet(path, params = {}) {
+function pageAccessToken() {
+  const token = process.env.TRAVELFRAME_META_PAGE_ACCESS_TOKEN;
+  if (!token) {
+    throw new Error("Missing TRAVELFRAME_META_PAGE_ACCESS_TOKEN.");
+  }
+  return token;
+}
+
+async function graphGet(path, params = {}, token = accessToken()) {
   const url = new URL(`${GRAPH_BASE}/${path.replace(/^\/+/, "")}`);
-  for (const [key, value] of Object.entries({ ...params, access_token: accessToken() })) {
+  for (const [key, value] of Object.entries({ ...params, access_token: token })) {
     if (value !== undefined && value !== null) url.searchParams.set(key, String(value));
   }
 
@@ -60,6 +68,43 @@ server.registerTool(
     inputSchema: {},
   },
   async () => result(await graphGet(PAGE_ID, { fields: "id,name,instagram_business_account" }))
+);
+
+server.registerTool(
+  "get_facebook_page_info",
+  {
+    description: "Read the TravelFrame Facebook Page details (about, followers, verification, links).",
+    inputSchema: {},
+  },
+  async () =>
+    result(
+      await graphGet(PAGE_ID, {
+        fields: "id,name,about,category,followers_count,fan_count,link,website,verification_status",
+      }, pageAccessToken())
+    )
+);
+
+server.registerTool(
+  "list_facebook_page_posts",
+  {
+    description: "Read recent posts from the TravelFrame Facebook Page.",
+    inputSchema: {
+      limit: z.number().int().min(1).max(100).optional(),
+    },
+  },
+  async ({ limit = 25 }) =>
+    result({
+      ...(await graphGet(`${PAGE_ID}/posts`, {
+        // Comments/reactions require pages_read_user_content or Page Public Content Access.
+        fields: "id,message,created_time,permalink_url,shares",
+        limit,
+      }, pageAccessToken())),
+      data_source: "facebook_page",
+      page_id: PAGE_ID,
+      limitations: [
+        "Comments and reactions are unavailable because pages_read_user_content or Page Public Content Access is not enabled for this app.",
+      ],
+    })
 );
 
 server.registerTool(

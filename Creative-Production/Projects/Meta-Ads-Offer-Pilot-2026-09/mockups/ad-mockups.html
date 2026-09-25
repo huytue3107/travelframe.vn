@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelFrame Meta Ads Creative Deliverables (Offer Pilot 2026-09)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- html2canvas for 1-click high-res export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <style>
+    :root {
+      --brand-red: #AE2A1D;
+      --deep-red: #42100E;
+      --yellow: #FFE050;
+      --black: #101010;
+      --white: #FFFFFF;
+      --warm-white: #F7F2ED;
+      --gray-border: #3F3F46;
+      --bg-dark: #121214;
+      --card-bg: #1C1C1F;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg-dark);
+      color: #E4E4E7;
+      font-family: 'Work Sans', -apple-system, sans-serif;
+      padding: 30px 20px 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      max-width: 1200px;
+      width: 100%;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .status-badge {
+      display: inline-block;
+      background: rgba(34, 197, 94, 0.15);
+      color: #4ADE80;
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+
+    header h1 {
+      font-size: 30px;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: #A1A1AA;
+      font-size: 14.5px;
+      margin-bottom: 24px;
+    }
+
+    /* Tabs Bar */
+    .tab-bar {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      background: var(--card-bg);
+      padding: 6px;
+      border-radius: 12px;
+      border: 1px solid var(--gray-border);
+    }
+
+    .tab-btn {
+      padding: 10px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      color: #A1A1AA;
+      transition: all 0.2s;
+    }
+
+    .tab-btn:hover {
+      color: var(--white);
+    }
+
+    .tab-btn.active {
+      background: var(--brand-red);
+      color: var(--white);
+      box-shadow: 0 2px 8px rgba(174, 42, 29, 0.4);
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .tool-btn {
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      border: 1px solid #3F3F46;
+      background: #27272A;
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .tool-btn:hover {
+      background: #3F3F46;
+    }
+
+    .tool-btn.active {
+      background: var(--yellow);
+      color: var(--black);
+      border-color: var(--yellow);
+    }
+
+    /* Tab Contents */
+    .tab-pane {
+      display: none;
+      width: 100%;
+      max-width: 1400px;
+    }
+
+    .tab-pane.active {
+      display: block;
+    }
+
+    /* Grid Layouts */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+      gap: 40px;
+      justify-items: center;
+      width: 100%;
+    }
+
+    .card-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      background: var(--card-bg);
+      padding: 16px;
+      border-radius: 12px;
+      border: 1px solid var(--gray-border);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .card-meta {
+      font-size: 13px;
+      color: #D4D4D8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 4px;
+    }
+
+    .badge-tag {
+      background: #27272A;
+      color: var(--yellow);
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 11px;
+    }
+
+    .download-link-btn {
+      background: transparent;
+      border: 1px solid #52525B;
+      color: #E4E4E7;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s;
+    }
+
+    .download-link-btn:hover {
+      background: var(--brand-red);
+      border-color: var(--brand-red);
+      color: var(--white);
+    }
+
+    /* -------------------------------------------------------------
+       FEED AD FRAME (4:5 Aspect Ratio, 1080x1350 scaled to 360x450)
+       ------------------------------------------------------------- */
+    .feed-frame {
+      width: 360px;
+      height: 450px;
+      position: relative;
+      background: #000;
+      border-radius: 4px;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    .feed-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .feed-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 30px 26px 36px 26px; /* Scaled safe area */
+      background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0.5) 0%,
+        rgba(0,0,0,0.05) 28%,
+        rgba(0,0,0,0.15) 58%,
+        rgba(0,0,0,0.88) 100%
+      );
+      z-index: 2;
+    }
+
+    /* Brand Bar */
+    .brand-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand-pill {
+      background: rgba(16, 16, 16, 0.82);
+      backdrop-filter: blur(8px);
+      padding: 5px 10px;
+      border-radius: 4px;
+      border: 1px solid rgba(255,255,255,0.15);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .brand-pill .logo-dot {
+      width: 7px;
+      height: 7px;
+      background: var(--brand-red);
+      border-radius: 50%;
+    }
+
+    .brand-pill span {
+      font-size: 10.5px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: var(--white);
+      text-transform: uppercase;
+    }
+
+    .format-label {
+      background: var(--yellow);
+      color: var(--black);
+      font-size: 9.5px;
+      font-weight: 800;
+      padding: 3px 7px;
+      border-radius: 3px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    /* Content Box */
+    .content-box {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .headline-pill {
+      display: inline-block;
+      background: var(--yellow);
+      color: var(--black);
+      font-size: 19px;
+      font-weight: 800;
+      line-height: 1.15;
+      padding: 4px 8px;
+      border-radius: 2px;
+      width: fit-content;
+      letter-spacing: -0.2px;
+      text-transform: uppercase;
+    }
+
+    .headline-text-white {
+      color: var(--white);
+      font-size: 21px;
+      font-weight: 800;
+      line-height: 1.15;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+      text-transform: uppercase;
+    }
+
+    .sub-copy {
+      color: var(--warm-white);
+      font-size: 12.5px;
+      font-weight: 500;
+      line-height: 1.35;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+      max-width: 95%;
+    }
+
+    .feature-pills {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      margin-top: 2px;
+    }
+
+    .feature-pill {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(6px);
+      color: var(--white);
+      font-size: 10px;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 3px;
+      border: 1px solid rgba(255,255,255,0.25);
+    }
+
+    .cta-button {
+      background: var(--brand-red);
+      color: var(--white);
+      padding: 10px 16px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(174, 42, 29, 0.4);
+      border: 1px solid rgba(255,255,255,0.2);
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    /* -------------------------------------------------------------
+       STORY AD FRAME (9:16 Aspect Ratio, 1080x1920 scaled to 270x480)
+       ------------------------------------------------------------- */
+    .story-frame {
+      width: 270px;
+      height: 480px;
+      position: relative;
+      background: #000;
+      border-radius: 6px;
+      overflow: hidden;
+      user-select: none;
+    }
+
+    .story-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .story-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 42px 21px 64px 21px; /* Scaled safe area: top 170px, bot 260px, x 84px */
+      background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0.6) 0%,
+        rgba(0,0,0,0.05) 25%,
+        rgba(0,0,0,0.1) 50%,
+        rgba(0,0,0,0.85) 100%
+      );
+      z-index: 2;
+    }
+
+    .story-headline {
+      font-size: 19px;
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.2;
+      text-transform: uppercase;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+    }
+
+    .story-pill-hl {
+      background: var(--yellow);
+      color: var(--black);
+      padding: 3px 6px;
+      border-radius: 2px;
+      display: inline-block;
+      margin-bottom: 4px;
+    }
+
+    .story-cta {
+      background: var(--brand-red);
+      color: var(--white);
+      padding: 12px;
+      border-radius: 6px;
+      text-align: center;
+      font-weight: 800;
+      font-size: 12px;
+      box-shadow: 0 6px 16px rgba(174, 42, 29, 0.5);
+      border: 1px solid rgba(255,255,255,0.25);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* -------------------------------------------------------------
+       CAROUSEL DISPLAY (Horizontal scrollable series)
+       ------------------------------------------------------------- */
+    .carousel-series {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding-bottom: 20px;
+      width: 100%;
+      scrollbar-width: thin;
+      scrollbar-color: #52525B transparent;
+    }
+
+    .carousel-slide-wrap {
+      flex: 0 0 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .carousel-frame {
+      width: 280px;
+      height: 350px; /* 4:5 */
+      position: relative;
+      background: #1C1C1F;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .carousel-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .carousel-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px 18px 24px;
+      background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.88) 100%);
+      z-index: 2;
+    }
+
+    .slide-page-indicator {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--yellow);
+      background: rgba(0,0,0,0.6);
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    /* Safe Area Guides */
+    .feed-safe-guide {
+      position: absolute;
+      top: 30px;
+      bottom: 40px;
+      left: 26px;
+      right: 26px;
+      border: 1.5px dashed rgba(255, 224, 80, 0.7);
+      pointer-events: none;
+      z-index: 10;
+      display: none;
+    }
+
+    .story-safe-guide {
+      position: absolute;
+      top: 42px;
+      bottom: 70px;
+      left: 21px;
+      right: 21px;
+      border: 1.5px dashed rgba(255, 224, 80, 0.7);
+      pointer-events: none;
+      z-index: 10;
+      display: none;
+    }
+
+    .safe-guide-label {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      font-size: 8.5px;
+      font-weight: 700;
+      background: var(--yellow);
+      color: var(--black);
+      padding: 2px 4px;
+      border-radius: 2px;
+    }
+
+    body.show-guides .feed-safe-guide,
+    body.show-guides .story-safe-guide {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="status-badge">Approved by Rocky • Ready for Production</div>
+    <h1>TravelFrame Meta Ads Creative Package</h1>
+    <p>Campaign: TF-LEADS-HANOI-OFFER-TEST-202609 • All Creatives Spec-Checked</p>
+    
+    <div class="tab-bar">
+      <button class="tab-btn active" onclick="switchTab('tab-feed')">1. Feed Ads (4:5)</button>
+      <button class="tab-btn" onclick="switchTab('tab-story')">2. Story Ads (9:16)</button>
+      <button class="tab-btn" onclick="switchTab('tab-carousel')">3. Carousel Series (4:5)</button>
+    </div>
+
+    <div class="toolbar">
+      <button class="tool-btn" id="toggleGuideBtn" onclick="toggleGuides()">
+        <span>📏</span> Toggle Safe Area Guides
+      </button>
+      <button class="tool-btn" onclick="exportCurrentVisible()">
+        <span>💾</span> Export High-Res Images (PNG)
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 1: FEED POSTS & ADS (4:5 ASPECT RATIO)                                -->
+  <!-- ========================================================================= -->
+  <div id="tab-feed" class="tab-pane active">
+    <div class="cards-grid">
+
+      <!-- AD 01: FILM -->
+      <div class="card-wrap">
+        <div class="card-meta">
+          <strong>AD-FILM-SHOOT-HANOI-V1</strong>
+          <button class="download-link-btn" onclick="exportElement('feed-ad-1', 'AD-FILM-4x5.png')">Export PNG</button>
+        </div>
+        <div class="feed-frame" id="feed-ad-1">
+          <img class="feed-bg" src="../../../Assets/AI-Generated/FILM-Hero-Ad-V1.jpg" alt="Shoot Hanoi on Film">
+          <div class="feed-safe-guide"><span class="safe-guide-label">SAFE AREA</span></div>
+          <div class="feed-overlay">
+            <div class="brand-header">
+              <div class="brand-pill">
+                <div class="logo-dot"></div>
+                <span>TravelFrame.vn</span>
+              </div>
+              <div class="format-label">35mm Experience</div>
+            </div>
+
+            <div class="content-box">
+              <div class="headline-pill">SHOOT HANOI ON FILM</div>
+              <div class="sub-copy">Camera, film and local guidance included. You take the photos, we develop & scan.</div>
+              <div class="feature-pills">
+                <span class="feature-pill">Classic SLR</span>
+                <span class="feature-pill">Guided Route</span>
+                <span class="feature-pill">Full Scans</span>
+              </div>
+              <div class="cta-button">
+                <span>DM "FILM" TO TRY IT</span>
+                <span>→</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AD 02: PHOTO -->
+      <div class="card-wrap">
+        <div class="card-meta">
+          <strong>AD-PHOTO-NATURAL-GUIDE-V1</strong>
+          <button class="download-link-btn" onclick="exportElement('feed-ad-2', 'AD-PHOTO-4x5.png')">Export PNG</button>
+        </div>
+        <div class="feed-frame" id="feed-ad-2">
+          <img class="feed-bg" src="../../../Assets/AI-Generated/PHOTO-Hero-Ad-V1.jpg" alt="Natural Photos in Hanoi">
+          <div class="feed-safe-guide"><span class="safe-guide-label">SAFE AREA</span></div>
+          <div class="feed-overlay">
+            <div class="brand-header">
+              <div class="brand-pill">
+                <div class="logo-dot"></div>
+                <span>TravelFrame.vn</span>
+              </div>
+              <div class="format-label">Private Photographer</div>
+            </div>
+
+            <div class="content-box">
+              <div class="headline-text-white">NATURAL PHOTOS.<br>NO AWKWARD POSING.</div>
+              <div class="sub-copy">Gentle local guidance through Hanoi's best light. Edited into your personal story.</div>
+              <div class="feature-pills">
+                <span class="feature-pill">100% Candid</span>
+                <span class="feature-pill">Cinematic Color</span>
+                <span class="feature-pill">Private Pace</span>
+              </div>
+              <div class="cta-button">
+                <span>DM "PHOTO" TO CHECK DATES</span>
+                <span>→</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AD 03: HANOI -->
+      <div class="card-wrap">
+        <div class="card-meta">
+          <strong>AD-HANOI-EXPLORE-LOCAL-V1</strong>
+          <button class="download-link-btn" onclick="exportElement('feed-ad-3', 'AD-HANOI-4x5.png')">Export PNG</button>
+        </div>
+        <div class="feed-frame" id="feed-ad-3">
+          <img class="feed-bg" src="../../../Assets/AI-Generated/HANOI-Hero-Ad-V1.jpg" alt="Explore Hanoi with a Local">
+          <div class="feed-safe-guide"><span class="safe-guide-label">SAFE AREA</span></div>
+          <div class="feed-overlay">
+            <div class="brand-header">
+              <div class="brand-pill">
+                <div class="logo-dot"></div>
+                <span>TravelFrame.vn</span>
+              </div>
+              <div class="format-label">Private Walking Tour</div>
+            </div>
+
+            <div class="content-box">
+              <div class="headline-pill">EXPLORE HANOI WITH A LOCAL</div>
+              <div class="sub-copy">Skip tourist traps. A private walk shaped around hidden food, alleys and local life.</div>
+              <div class="feature-pills">
+                <span class="feature-pill">Hidden Food</span>
+                <span class="feature-pill">Old Alleys</span>
+                <span class="feature-pill">Tailored Route</span>
+              </div>
+              <div class="cta-button">
+                <span>DM "HANOI" TO PLAN YOUR WALK</span>
+                <span>→</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 2: STORY ADAPTATION (9:16 ASPECT RATIO)                              -->
+  <!-- ========================================================================= -->
+  <div id="tab-story" class="tab-pane">
+    <div class="cards-grid">
+
+      <!-- STORY 01: FILM -->
+      <div class="card-wrap">
+        <div class="card-meta">
+          <strong>STORY-FILM-V1 (9:16)</strong>
+          <button class="download-link-btn" onclick="exportElement('story-ad-1', 'STORY-FILM-9x16.png')">Export PNG</button>
+        </div>
+        <div class="story-frame" id="story-ad-1">
+          <img class="story-bg" src="../../../Assets/AI-Generated/FILM-Hero-Ad-V1.jpg" alt="Story Film">
+          <div class="story-safe-guide"><span class="safe-guide-label">STORY SAFE AREA</span></div>
+          <div class="story-overlay">
+            <div class="brand-header">
+              <div class="brand-pill">
+                <div class="logo-dot"></div>
+                <span>TravelFrame</span>
+              </div>
+              <div class="format-label">Hanoi 35mm</div>
+            </div>
+
+            <div class="story-headline">
+              <span class="story-pill-hl">WHAT IF YOU</span><br>
+              PHOTOGRAPHED HANOI YOURSELF?
+            </div>
+
+            <div class="sub-copy" style="font-size: 12px; margin-top:-10px;">
+              Camera, film and local guidance included.
+            </div>
+
+            <div class="story-cta">
+              DM "FILM" TO TRY IT
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STORY 02: PHOTO -->
+      <div class="card-wrap">
+        <div class="card-meta">
+          <strong>STORY-PHOTO-V1 (9:16)</strong>
+          <button class="download-link-btn" onclick="exportElement('story-ad-2', 'STORY-PHOTO-9x16.png')">Export PNG</button>
+        </div>
+        <div class="story-frame" id="story-ad-2">
+          <img class="story-bg" src="../../../Assets/AI-Generated/PHOTO-Hero-Ad-V1.jpg" alt="Story Photo">
+          <div class="story-safe-guide"><span class="safe-guide-label">STORY SAFE AREA</span></div>
+          <div class="story-overlay">
+            <div class="brand-header">
+              <div class="brand-pill">
+                <div class="logo-dot"></div>
+                <span>TravelFrame</span>
+              </div>
+              <div class="format-label">Private Session</div>
+            </div>
+
+            <div class="story-headline">
+              NATURAL PHOTOS.<br>
+              <span class="story-pill-hl">NO AWKWARD POSING.</span>
+            </div>
+
+            <div class="sub-copy" style="font-size: 12px; margin-top:-10px;">
+              Explore at your pace. Edited into your personal story.
+            </div>
+
+            <div class="story-cta">
+              DM "PHOTO" TO CHECK DATES
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- STORY 03: HANOI -->
+      <div class="card-wrap">
+        <div class="card-meta">
+          <strong>STORY-HANOI-V1 (9:16)</strong>
+          <button class="download-link-btn" onclick="exportElement('story-ad-3', 'STORY-HANOI-9x16.png')">Export PNG</button>
+        </div>
+        <div class="story-frame" id="story-ad-3">
+          <img class="story-bg" src="../../../Assets/AI-Generated/HANOI-Hero-Ad-V1.jpg" alt="Story Hanoi">
+          <div class="story-safe-guide"><span class="safe-guide-label">STORY SAFE AREA</span></div>
+          <div class="story-overlay">
+            <div class="brand-header">
+              <div class="brand-pill">
+                <div class="logo-dot"></div>
+                <span>TravelFrame</span>
+              </div>
+              <div class="format-label">Local Host</div>
+            </div>
+
+            <div class="story-headline">
+              <span class="story-pill-hl">NOT SURE WHERE</span><br>
+              TO BEGIN IN HANOI?
+            </div>
+
+            <div class="sub-copy" style="font-size: 12px; margin-top:-10px;">
+              Hidden food, old alleys and street life with a friend.
+            </div>
+
+            <div class="story-cta">
+              DM "HANOI" TO PLAN WALK
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- TAB 3: CAROUSEL 5-SLIDE SERIES (OFFER FILM)                              -->
+  <!-- ========================================================================= -->
+  <div id="tab-carousel" class="tab-pane">
+    <div style="margin-bottom: 16px; display:flex; justify-content:space-between; align-items:center;">
+      <div>
+        <h3 style="font-size: 18px; color: var(--white);">CAROUSEL-FILM-5SLIDES</h3>
+        <p style="font-size: 13px; color: #A1A1AA;">5 sequential slides telling the complete Film Experience story</p>
+      </div>
+      <span class="badge-tag">SWIPE SEQUENCE</span>
+    </div>
+
+    <div class="carousel-series">
+
+      <!-- SLIDE 1: HOOK -->
+      <div class="carousel-slide-wrap">
+        <div class="card-meta"><span>Slide 1 • Hook</span></div>
+        <div class="carousel-frame">
+          <img src="../../../Assets/AI-Generated/FILM-Hero-Ad-V1.jpg" alt="Slide 1">
+          <div class="carousel-overlay">
+            <div style="display:flex; justify-content:space-between;">
+              <span class="slide-page-indicator">1 / 5</span>
+              <span style="font-size:11px; color:#fff;">TravelFrame</span>
+            </div>
+            <div>
+              <div class="headline-pill" style="font-size:16px;">WHAT IF YOU</div>
+              <div style="color:#fff; font-size:17px; font-weight:800; line-height:1.2; margin-top:2px;">PHOTOGRAPHED HANOI YOURSELF?</div>
+              <div style="font-size:11.5px; color:var(--warm-white); margin-top:4px;">Swipe to see how it works →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 2: HARDWARE -->
+      <div class="carousel-slide-wrap">
+        <div class="card-meta"><span>Slide 2 • Hardware</span></div>
+        <div class="carousel-frame" style="background: #18181B;">
+          <img src="../../../Assets/AI-Generated/FILM-Hero-Ad-V1.jpg" style="filter: brightness(0.65);" alt="Slide 2">
+          <div class="carousel-overlay">
+            <div style="display:flex; justify-content:space-between;">
+              <span class="slide-page-indicator">2 / 5</span>
+              <span style="font-size:11px; color:#fff;">Equipment</span>
+            </div>
+            <div>
+              <div class="headline-pill" style="font-size:15px;">WE PROVIDE THE CAMERA</div>
+              <div style="color:#fff; font-size:13.5px; font-weight:600; line-height:1.3; margin-top:4px;">
+                Classic 35mm mechanical SLR camera & fresh film roll included. No prior experience needed.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 3: GUIDED ROUTE -->
+      <div class="carousel-slide-wrap">
+        <div class="card-meta"><span>Slide 3 • The Walk</span></div>
+        <div class="carousel-frame" style="background: #18181B;">
+          <img src="../../../Assets/AI-Generated/HANOI-Hero-Ad-V1.jpg" style="filter: brightness(0.7);" alt="Slide 3">
+          <div class="carousel-overlay">
+            <div style="display:flex; justify-content:space-between;">
+              <span class="slide-page-indicator">3 / 5</span>
+              <span style="font-size:11px; color:#fff;">Photo Walk</span>
+            </div>
+            <div>
+              <div class="headline-pill" style="font-size:15px;">LEARN WHILE YOU EXPLORE</div>
+              <div style="color:#fff; font-size:13.5px; font-weight:600; line-height:1.3; margin-top:4px;">
+                Light, framing, and hidden neighborhood corners. Your host walks with you.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 4: PROCESSING -->
+      <div class="carousel-slide-wrap">
+        <div class="card-meta"><span>Slide 4 • Scans</span></div>
+        <div class="carousel-frame" style="background: #18181B;">
+          <img src="../../../Assets/AI-Generated/FILM-Hero-Ad-V1.jpg" style="filter: contrast(1.1) brightness(0.7);" alt="Slide 4">
+          <div class="carousel-overlay">
+            <div style="display:flex; justify-content:space-between;">
+              <span class="slide-page-indicator">4 / 5</span>
+              <span style="font-size:11px; color:#fff;">Deliverables</span>
+            </div>
+            <div>
+              <div class="headline-pill" style="font-size:15px;">YOU SHOOT. WE HANDLE LAB.</div>
+              <div style="color:#fff; font-size:13.5px; font-weight:600; line-height:1.3; margin-top:4px;">
+                Full developing and high-resolution digital scans delivered directly to your phone.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 5: CTA -->
+      <div class="carousel-slide-wrap">
+        <div class="card-meta"><span>Slide 5 • Action</span></div>
+        <div class="carousel-frame" style="background: var(--deep-red);">
+          <img src="../../../Assets/AI-Generated/FILM-Hero-Ad-V1.jpg" style="filter: brightness(0.35);" alt="Slide 5">
+          <div class="carousel-overlay" style="justify-content:center; text-align:center; gap:16px;">
+            <div style="color:var(--yellow); font-weight:800; font-size:12px; letter-spacing:1px; text-transform:uppercase;">
+              READY TO TRY IT IN HANOI?
+            </div>
+            <div style="color:#fff; font-size:20px; font-weight:800; line-height:1.2;">
+              SEE HANOI THROUGH<br>YOUR OWN LENS
+            </div>
+            <div style="background:var(--brand-red); color:#fff; padding:12px 18px; border-radius:4px; font-weight:800; font-size:13px; margin:0 auto; box-shadow:0 4px 14px rgba(0,0,0,0.4);">
+              DM "FILM"
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+
+    function toggleGuides() {
+      document.body.classList.toggle('show-guides');
+      const btn = document.getElementById('toggleGuideBtn');
+      btn.classList.toggle('active');
+    }
+
+    // Export element as high-res PNG using html2canvas
+    function exportElement(elementId, filename) {
+      const el = document.getElementById(elementId);
+      if (!el) return;
+      
+      // Temporary hide guides for clean export
+      const wasGuides = document.body.classList.contains('show-guides');
+      document.body.classList.remove('show-guides');
+
+      html2canvas(el, {
+        scale: 3, // 3x resolution: 360x450 -> 1080x1350 px
+        useCORS: true,
+        allowTaint: true,
+        backgroundColor: null
+      }).then(canvas => {
+        if (wasGuides) document.body.classList.add('show-guides');
+        const link = document.createElement('a');
+        link.download = filename;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      }).catch(err => {
+        console.error('Export failed:', err);
+        alert('Could not export image. Please ensure local images are served or open in browser.');
+      });
+    }
+
+    function exportCurrentVisible() {
+      alert('Click individual "Export PNG" buttons on each ad card to save 1080x1350px / 1080x1920px image files directly!');
+    }
+  </script>
+</body>
+</html>

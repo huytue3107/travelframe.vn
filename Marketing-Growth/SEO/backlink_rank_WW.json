@@ -1,0 +1,4002 @@
+[
+	{
+		"target": "instagram.com",
+		"count": 1000
+	},
+	{
+		"target": "facebook.com",
+		"count": 1000
+	},
+	{
+		"target": "twitter.com",
+		"count": 1000
+	},
+	{
+		"target": "youtube.com",
+		"count": 1000
+	},
+	{
+		"target": "iubenda.com",
+		"count": 964
+	},
+	{
+		"target": "telegram.org",
+		"count": 962
+	},
+	{
+		"target": "google.com",
+		"count": 940
+	},
+	{
+		"target": "t.me",
+		"count": 931
+	},
+	{
+		"target": "linkedin.com",
+		"count": 930
+	},
+	{
+		"target": "vk.com",
+		"count": 921
+	},
+	{
+		"target": "apple.com",
+		"count": 893
+	},
+	{
+		"target": "whatsapp.com",
+		"count": 892
+	},
+	{
+		"target": "letterboxd.com",
+		"count": 891
+	},
+	{
+		"target": "x.com",
+		"count": 882
+	},
+	{
+		"target": "tiktok.com",
+		"count": 879
+	},
+	{
+		"target": "pinterest.com",
+		"count": 877
+	},
+	{
+		"target": "wa.me",
+		"count": 876
+	},
+	{
+		"target": "github.com",
+		"count": 865
+	},
+	{
+		"target": "max.ru",
+		"count": 864
+	},
+	{
+		"target": "dzen.ru",
+		"count": 860
+	},
+	{
+		"target": "rutube.ru",
+		"count": 859
+	},
+	{
+		"target": "wordpress.org",
+		"count": 856
+	},
+	{
+		"target": "lin.ee",
+		"count": 839
+	},
+	{
+		"target": "bsky.app",
+		"count": 836
+	},
+	{
+		"target": "themoviedb.org",
+		"count": 836
+	},
+	{
+		"target": "amazon.com",
+		"count": 835
+	},
+	{
+		"target": "app.link",
+		"count": 834
+	},
+	{
+		"target": "yna.co.kr",
+		"count": 829
+	},
+	{
+		"target": "wordpress.com",
+		"count": 827
+	},
+	{
+		"target": "goo.gl",
+		"count": 826
+	},
+	{
+		"target": "threads.net",
+		"count": 826
+	},
+	{
+		"target": "yandex.ru",
+		"count": 825
+	},
+	{
+		"target": "liveinternet.ru",
+		"count": 824
+	},
+	{
+		"target": "statcounter.com",
+		"count": 824
+	},
+	{
+		"target": "mk.co.kr",
+		"count": 818
+	},
+	{
+		"target": "discord.com",
+		"count": 816
+	},
+	{
+		"target": "line.me",
+		"count": 815
+	},
+	{
+		"target": "wikipedia.org",
+		"count": 813
+	},
+	{
+		"target": "donga.com",
+		"count": 813
+	},
+	{
+		"target": "addtoany.com",
+		"count": 813
+	},
+	{
+		"target": "discord.gg",
+		"count": 813
+	},
+	{
+		"target": "creativecommons.org",
+		"count": 811
+	},
+	{
+		"target": "shopify.com",
+		"count": 809
+	},
+	{
+		"target": "baidu.com",
+		"count": 807
+	},
+	{
+		"target": "trustpilot.com",
+		"count": 803
+	},
+	{
+		"target": "mps.gov.cn",
+		"count": 802
+	},
+	{
+		"target": "googleblog.com",
+		"count": 802
+	},
+	{
+		"target": "github.blog",
+		"count": 801
+	},
+	{
+		"target": "telegram.me",
+		"count": 801
+	},
+	{
+		"target": "naver.com",
+		"count": 800
+	},
+	{
+		"target": "reddit.com",
+		"count": 799
+	},
+	{
+		"target": "imdb.com",
+		"count": 799
+	},
+	{
+		"target": "tumblr.com",
+		"count": 797
+	},
+	{
+		"target": "ok.ru",
+		"count": 792
+	},
+	{
+		"target": "prom.ua",
+		"count": 791
+	},
+	{
+		"target": "google.de",
+		"count": 791
+	},
+	{
+		"target": "youtu.be",
+		"count": 791
+	},
+	{
+		"target": "adobe.com",
+		"count": 791
+	},
+	{
+		"target": "dmca.com",
+		"count": 791
+	},
+	{
+		"target": "microsoft.com",
+		"count": 788
+	},
+	{
+		"target": "europa.eu",
+		"count": 787
+	},
+	{
+		"target": "kakao.com",
+		"count": 785
+	},
+	{
+		"target": "brivity.com",
+		"count": 784
+	},
+	{
+		"target": "mail.ru",
+		"count": 784
+	},
+	{
+		"target": "wp.com",
+		"count": 783
+	},
+	{
+		"target": "w3.org",
+		"count": 783
+	},
+	{
+		"target": "zalo.me",
+		"count": 782
+	},
+	{
+		"target": "hatena.ne.jp",
+		"count": 782
+	},
+	{
+		"target": "bit.ly",
+		"count": 782
+	},
+	{
+		"target": "zendesk.com",
+		"count": 780
+	},
+	{
+		"target": "enable-javascript.com",
+		"count": 780
+	},
+	{
+		"target": "enamad.ir",
+		"count": 779
+	},
+	{
+		"target": "globalso.com",
+		"count": 777
+	},
+	{
+		"target": "codeberg.org",
+		"count": 777
+	},
+	{
+		"target": "generatepress.com",
+		"count": 775
+	},
+	{
+		"target": "spotify.com",
+		"count": 775
+	},
+	{
+		"target": "mozilla.org",
+		"count": 774
+	},
+	{
+		"target": "phpbb.com",
+		"count": 773
+	},
+	{
+		"target": "rtalabel.org",
+		"count": 770
+	},
+	{
+		"target": "paypal.com",
+		"count": 770
+	},
+	{
+		"target": "flickr.com",
+		"count": 770
+	},
+	{
+		"target": "weibo.com",
+		"count": 770
+	},
+	{
+		"target": "12377.cn",
+		"count": 770
+	},
+	{
+		"target": "mt.co.kr",
+		"count": 769
+	},
+	{
+		"target": "xenforo.com",
+		"count": 769
+	},
+	{
+		"target": "suruga-ya.jp",
+		"count": 767
+	},
+	{
+		"target": "oracle.com",
+		"count": 767
+	},
+	{
+		"target": "vimeo.com",
+		"count": 766
+	},
+	{
+		"target": "discourse.org",
+		"count": 765
+	},
+	{
+		"target": "doi.org",
+		"count": 765
+	},
+	{
+		"target": "joinmastodon.org",
+		"count": 765
+	},
+	{
+		"target": "onelink.me",
+		"count": 764
+	},
+	{
+		"target": "mediawiki.org",
+		"count": 763
+	},
+	{
+		"target": "forms.gle",
+		"count": 761
+	},
+	{
+		"target": "hankyung.com",
+		"count": 760
+	},
+	{
+		"target": "brivityidx.com",
+		"count": 758
+	},
+	{
+		"target": "anpc.ro",
+		"count": 757
+	},
+	{
+		"target": "rambler.ru",
+		"count": 757
+	},
+	{
+		"target": "bigcommerce.com",
+		"count": 755
+	},
+	{
+		"target": "xing.com",
+		"count": 755
+	},
+	{
+		"target": "adjust.com",
+		"count": 754
+	},
+	{
+		"target": "rakuten.co.jp",
+		"count": 754
+	},
+	{
+		"target": "yandex.com",
+		"count": 753
+	},
+	{
+		"target": "feedburner.com",
+		"count": 752
+	},
+	{
+		"target": "m.me",
+		"count": 752
+	},
+	{
+		"target": "g.page",
+		"count": 751
+	},
+	{
+		"target": "disqus.com",
+		"count": 751
+	},
+	{
+		"target": "theporndude.com",
+		"count": 750
+	},
+	{
+		"target": "patreon.com",
+		"count": 750
+	},
+	{
+		"target": "dmm.co.jp",
+		"count": 749
+	},
+	{
+		"target": "faphouse.com",
+		"count": 749
+	},
+	{
+		"target": "amazon.co.jp",
+		"count": 748
+	},
+	{
+		"target": "huawei.com",
+		"count": 748
+	},
+	{
+		"target": "toplist.cz",
+		"count": 748
+	},
+	{
+		"target": "pinimg.com",
+		"count": 747
+	},
+	{
+		"target": "booking.com",
+		"count": 747
+	},
+	{
+		"target": "afthemes.com",
+		"count": 746
+	},
+	{
+		"target": "media-amazon.com",
+		"count": 743
+	},
+	{
+		"target": "amzn.to",
+		"count": 743
+	},
+	{
+		"target": "mybb.com",
+		"count": 743
+	},
+	{
+		"target": "wikimedia.org",
+		"count": 742
+	},
+	{
+		"target": "nih.gov",
+		"count": 742
+	},
+	{
+		"target": "medium.com",
+		"count": 742
+	},
+	{
+		"target": "openstreetmap.org",
+		"count": 742
+	},
+	{
+		"target": "histats.com",
+		"count": 741
+	},
+	{
+		"target": "walmart.com",
+		"count": 740
+	},
+	{
+		"target": "zlinkt.com",
+		"count": 740
+	},
+	{
+		"target": "forumactif.com",
+		"count": 740
+	},
+	{
+		"target": "shoper.pl",
+		"count": 739
+	},
+	{
+		"target": "safety.google",
+		"count": 739
+	},
+	{
+		"target": "firefox.com",
+		"count": 738
+	},
+	{
+		"target": "twitch.tv",
+		"count": 737
+	},
+	{
+		"target": "amazon.de",
+		"count": 736
+	},
+	{
+		"target": "airbnb.com",
+		"count": 736
+	},
+	{
+		"target": "alicdn.com",
+		"count": 734
+	},
+	{
+		"target": "addthis.com",
+		"count": 734
+	},
+	{
+		"target": "kisa.or.kr",
+		"count": 733
+	},
+	{
+		"target": "idosell.com",
+		"count": 733
+	},
+	{
+		"target": "ebay.com",
+		"count": 733
+	},
+	{
+		"target": "envato.com",
+		"count": 733
+	},
+	{
+		"target": "hit.ua",
+		"count": 732
+	},
+	{
+		"target": "steamcommunity.com",
+		"count": 732
+	},
+	{
+		"target": "awin1.com",
+		"count": 731
+	},
+	{
+		"target": "ortograf.biz",
+		"count": 731
+	},
+	{
+		"target": "livroreclamacoes.pt",
+		"count": 731
+	},
+	{
+		"target": "daum.net",
+		"count": 731
+	},
+	{
+		"target": "vk.ru",
+		"count": 730
+	},
+	{
+		"target": "www.gov.pl",
+		"count": 730
+	},
+	{
+		"target": "gitlab.com",
+		"count": 730
+	},
+	{
+		"target": "olark.com",
+		"count": 730
+	},
+	{
+		"target": "mastodon.social",
+		"count": 729
+	},
+	{
+		"target": "indeed.com",
+		"count": 729
+	},
+	{
+		"target": "etsy.com",
+		"count": 729
+	},
+	{
+		"target": "yahoo.co.jp",
+		"count": 729
+	},
+	{
+		"target": "recruit.co.jp",
+		"count": 729
+	},
+	{
+		"target": "gov.ro",
+		"count": 729
+	},
+	{
+		"target": "expireddomains.com",
+		"count": 728
+	},
+	{
+		"target": "online.gov.vn",
+		"count": 728
+	},
+	{
+		"target": "stripe.com",
+		"count": 727
+	},
+	{
+		"target": "archive.org",
+		"count": 727
+	},
+	{
+		"target": "desertcart.com",
+		"count": 727
+	},
+	{
+		"target": "amazonaws.com",
+		"count": 726
+	},
+	{
+		"target": "eepurl.com",
+		"count": 726
+	},
+	{
+		"target": "staticflickr.com",
+		"count": 726
+	},
+	{
+		"target": "android.com",
+		"count": 725
+	},
+	{
+		"target": "themeforest.net",
+		"count": 724
+	},
+	{
+		"target": "steampowered.com",
+		"count": 724
+	},
+	{
+		"target": "bbb.org",
+		"count": 724
+	},
+	{
+		"target": "gnu.org",
+		"count": 724
+	},
+	{
+		"target": "odoo.com",
+		"count": 723
+	},
+	{
+		"target": "wa.link",
+		"count": 723
+	},
+	{
+		"target": "soundcloud.com",
+		"count": 723
+	},
+	{
+		"target": "hatena.blog",
+		"count": 723
+	},
+	{
+		"target": "myshoptet.com",
+		"count": 722
+	},
+	{
+		"target": "snapchat.com",
+		"count": 722
+	},
+	{
+		"target": "tscprts.com",
+		"count": 722
+	},
+	{
+		"target": "xnxx.com",
+		"count": 722
+	},
+	{
+		"target": "hcaptcha.com",
+		"count": 722
+	},
+	{
+		"target": "list-manage.com",
+		"count": 722
+	},
+	{
+		"target": "google.fr",
+		"count": 722
+	},
+	{
+		"target": "haendlerbund.de",
+		"count": 722
+	},
+	{
+		"target": "t.co",
+		"count": 721
+	},
+	{
+		"target": "threads.com",
+		"count": 721
+	},
+	{
+		"target": "calendly.com",
+		"count": 721
+	},
+	{
+		"target": "themeansar.com",
+		"count": 721
+	},
+	{
+		"target": "ca.gov",
+		"count": 721
+	},
+	{
+		"target": "carousell.com",
+		"count": 721
+	},
+	{
+		"target": "boatsgroup.com",
+		"count": 720
+	},
+	{
+		"target": "fc2.com",
+		"count": 720
+	},
+	{
+		"target": "xnxx.gold",
+		"count": 720
+	},
+	{
+		"target": "automattic.com",
+		"count": 720
+	},
+	{
+		"target": "com.com",
+		"count": 720
+	},
+	{
+		"target": "bing.com",
+		"count": 719
+	},
+	{
+		"target": "bestvpn.org",
+		"count": 719
+	},
+	{
+		"target": "office.com",
+		"count": 718
+	},
+	{
+		"target": "pinterest.de",
+		"count": 718
+	},
+	{
+		"target": "localhost",
+		"count": 717
+	},
+	{
+		"target": "google.co.jp",
+		"count": 717
+	},
+	{
+		"target": "bigl.ua",
+		"count": 717
+	},
+	{
+		"target": "linktr.ee",
+		"count": 717
+	},
+	{
+		"target": "gambleaware.org",
+		"count": 717
+	},
+	{
+		"target": "aparat.com",
+		"count": 717
+	},
+	{
+		"target": "bip.gov.pl",
+		"count": 717
+	},
+	{
+		"target": "ameblo.jp",
+		"count": 716
+	},
+	{
+		"target": "rustore.ru",
+		"count": 716
+	},
+	{
+		"target": "viber.com",
+		"count": 715
+	},
+	{
+		"target": "substack.com",
+		"count": 715
+	},
+	{
+		"target": "sourceforge.net",
+		"count": 715
+	},
+	{
+		"target": "wp.me",
+		"count": 714
+	},
+	{
+		"target": "litres.ru",
+		"count": 714
+	},
+	{
+		"target": "eticaret.gov.tr",
+		"count": 714
+	},
+	{
+		"target": "rmhfrtnd.com",
+		"count": 714
+	},
+	{
+		"target": "ftc.go.kr",
+		"count": 713
+	},
+	{
+		"target": "airbnb.co.in",
+		"count": 713
+	},
+	{
+		"target": "dmm.com",
+		"count": 712
+	},
+	{
+		"target": "pinterest.co.uk",
+		"count": 712
+	},
+	{
+		"target": "digikey.com",
+		"count": 712
+	},
+	{
+		"target": "gate.com",
+		"count": 712
+	},
+	{
+		"target": "amazon.co.uk",
+		"count": 712
+	},
+	{
+		"target": "trustedshops.de",
+		"count": 711
+	},
+	{
+		"target": "tistory.com",
+		"count": 711
+	},
+	{
+		"target": "issuu.com",
+		"count": 710
+	},
+	{
+		"target": "onetrust.com",
+		"count": 710
+	},
+	{
+		"target": "pinterest.fr",
+		"count": 709
+	},
+	{
+		"target": "stackoverflow.com",
+		"count": 709
+	},
+	{
+		"target": "openai.com",
+		"count": 709
+	},
+	{
+		"target": "opera.com",
+		"count": 709
+	},
+	{
+		"target": "amazon.com.au",
+		"count": 708
+	},
+	{
+		"target": "tinyurl.com",
+		"count": 708
+	},
+	{
+		"target": "shop-pro.jp",
+		"count": 707
+	},
+	{
+		"target": "ahlamontada.com",
+		"count": 707
+	},
+	{
+		"target": "b-cdn.net",
+		"count": 707
+	},
+	{
+		"target": "example.com",
+		"count": 707
+	},
+	{
+		"target": "privacymark.jp",
+		"count": 706
+	},
+	{
+		"target": "glassdoor.com",
+		"count": 706
+	},
+	{
+		"target": "aboutads.info",
+		"count": 706
+	},
+	{
+		"target": "argentina.gob.ar",
+		"count": 705
+	},
+	{
+		"target": "idealo.de",
+		"count": 705
+	},
+	{
+		"target": "sec.gov",
+		"count": 705
+	},
+	{
+		"target": "stumbleupon.com",
+		"count": 705
+	},
+	{
+		"target": "insales-cdn.com",
+		"count": 704
+	},
+	{
+		"target": "ameba.jp",
+		"count": 704
+	},
+	{
+		"target": "fb.com",
+		"count": 704
+	},
+	{
+		"target": "behance.net",
+		"count": 704
+	},
+	{
+		"target": "site.com",
+		"count": 704
+	},
+	{
+		"target": "apache.org",
+		"count": 704
+	},
+	{
+		"target": "videojs.com",
+		"count": 703
+	},
+	{
+		"target": "squarespace.com",
+		"count": 703
+	},
+	{
+		"target": "hh.ru",
+		"count": 703
+	},
+	{
+		"target": "yelp.com",
+		"count": 703
+	},
+	{
+		"target": "typeform.com",
+		"count": 703
+	},
+	{
+		"target": "elegantthemes.com",
+		"count": 703
+	},
+	{
+		"target": "planalto.gov.br",
+		"count": 703
+	},
+	{
+		"target": "www.gov.uk",
+		"count": 703
+	},
+	{
+		"target": "g2.com",
+		"count": 703
+	},
+	{
+		"target": "skroutz.gr",
+		"count": 702
+	},
+	{
+		"target": "cafe24.com",
+		"count": 702
+	},
+	{
+		"target": "odnoklassniki.ru",
+		"count": 701
+	},
+	{
+		"target": "afip.gob.ar",
+		"count": 701
+	},
+	{
+		"target": "nopcommerce.com",
+		"count": 701
+	},
+	{
+		"target": "page.link",
+		"count": 701
+	},
+	{
+		"target": "correios.com.br",
+		"count": 701
+	},
+	{
+		"target": "mailchimp.com",
+		"count": 701
+	},
+	{
+		"target": "a8.net",
+		"count": 701
+	},
+	{
+		"target": "note.com",
+		"count": 700
+	},
+	{
+		"target": "learneo.com",
+		"count": 700
+	},
+	{
+		"target": "gamblingtherapy.org",
+		"count": 700
+	},
+	{
+		"target": "thryv.com",
+		"count": 699
+	},
+	{
+		"target": "kdca.go.kr",
+		"count": 699
+	},
+	{
+		"target": "getpocket.com",
+		"count": 699
+	},
+	{
+		"target": "livedoor.com",
+		"count": 699
+	},
+	{
+		"target": "nationalarchives.gov.uk",
+		"count": 699
+	},
+	{
+		"target": "g.co",
+		"count": 698
+	},
+	{
+		"target": "buymeacoffee.com",
+		"count": 698
+	},
+	{
+		"target": "fanza.co.jp",
+		"count": 698
+	},
+	{
+		"target": "umich.edu",
+		"count": 698
+	},
+	{
+		"target": "elsevier.com",
+		"count": 698
+	},
+	{
+		"target": "vbulletin.com",
+		"count": 698
+	},
+	{
+		"target": "shinystat.com",
+		"count": 698
+	},
+	{
+		"target": "cineca.it",
+		"count": 698
+	},
+	{
+		"target": "envato.market",
+		"count": 697
+	},
+	{
+		"target": "canada.ca",
+		"count": 697
+	},
+	{
+		"target": "wix.com",
+		"count": 697
+	},
+	{
+		"target": "samsung.com",
+		"count": 697
+	},
+	{
+		"target": "heureka.cz",
+		"count": 697
+	},
+	{
+		"target": "bilibili.com",
+		"count": 697
+	},
+	{
+		"target": "digg.com",
+		"count": 697
+	},
+	{
+		"target": "freepik.com",
+		"count": 697
+	},
+	{
+		"target": "mhlw.go.jp",
+		"count": 696
+	},
+	{
+		"target": "live.com",
+		"count": 696
+	},
+	{
+		"target": "sharepoint.com",
+		"count": 696
+	},
+	{
+		"target": "mynavi.jp",
+		"count": 696
+	},
+	{
+		"target": "cookieyes.com",
+		"count": 696
+	},
+	{
+		"target": "atlassian.net",
+		"count": 696
+	},
+	{
+		"target": "provenexpert.com",
+		"count": 695
+	},
+	{
+		"target": "mitiendanube.com",
+		"count": 695
+	},
+	{
+		"target": "freshdesk.com",
+		"count": 695
+	},
+	{
+		"target": "ble.ir",
+		"count": 695
+	},
+	{
+		"target": "www.gov.br",
+		"count": 695
+	},
+	{
+		"target": "eprints.org",
+		"count": 695
+	},
+	{
+		"target": "simplemachines.org",
+		"count": 695
+	},
+	{
+		"target": "livejournal.com",
+		"count": 695
+	},
+	{
+		"target": "begambleaware.org",
+		"count": 695
+	},
+	{
+		"target": "bbc.com",
+		"count": 695
+	},
+	{
+		"target": "uservoice.com",
+		"count": 695
+	},
+	{
+		"target": "agid.gov.it",
+		"count": 695
+	},
+	{
+		"target": "unsplash.com",
+		"count": 695
+	},
+	{
+		"target": "flagcounter.com",
+		"count": 695
+	},
+	{
+		"target": "xvideos.net",
+		"count": 695
+	},
+	{
+		"target": "cloudflare.com",
+		"count": 695
+	},
+	{
+		"target": "place.com",
+		"count": 694
+	},
+	{
+		"target": "deltek.com",
+		"count": 694
+	},
+	{
+		"target": "canva.com",
+		"count": 694
+	},
+	{
+		"target": "legifrance.gouv.fr",
+		"count": 694
+	},
+	{
+		"target": "jwwb.nl",
+		"count": 694
+	},
+	{
+		"target": "arcgis.com",
+		"count": 694
+	},
+	{
+		"target": "userway.org",
+		"count": 693
+	},
+	{
+		"target": "mapy.com",
+		"count": 693
+	},
+	{
+		"target": "kakaku.com",
+		"count": 693
+	},
+	{
+		"target": "google.co.uk",
+		"count": 693
+	},
+	{
+		"target": "pinterest.jp",
+		"count": 693
+	},
+	{
+		"target": "valuecommerce.com",
+		"count": 693
+	},
+	{
+		"target": "blogmura.com",
+		"count": 692
+	},
+	{
+		"target": "linksynergy.com",
+		"count": 692
+	},
+	{
+		"target": "forumotion.com",
+		"count": 692
+	},
+	{
+		"target": "ko-fi.com",
+		"count": 692
+	},
+	{
+		"target": "wiktionary.org",
+		"count": 692
+	},
+	{
+		"target": "bund.de",
+		"count": 692
+	},
+	{
+		"target": "drupal.org",
+		"count": 692
+	},
+	{
+		"target": "cari.la",
+		"count": 692
+	},
+	{
+		"target": "jotform.com",
+		"count": 691
+	},
+	{
+		"target": "getyourguide.com",
+		"count": 691
+	},
+	{
+		"target": "wikidata.org",
+		"count": 691
+	},
+	{
+		"target": "outdatedbrowser.com",
+		"count": 691
+	},
+	{
+		"target": "onlyfans.com",
+		"count": 691
+	},
+	{
+		"target": "handle.net",
+		"count": 691
+	},
+	{
+		"target": "nutaku.net",
+		"count": 690
+	},
+	{
+		"target": "douyin.com",
+		"count": 690
+	},
+	{
+		"target": "dribbble.com",
+		"count": 690
+	},
+	{
+		"target": "mercadoshops.com.ar",
+		"count": 690
+	},
+	{
+		"target": "mapy.cz",
+		"count": 690
+	},
+	{
+		"target": "arxiv.org",
+		"count": 690
+	},
+	{
+		"target": "aripaev.ee",
+		"count": 689
+	},
+	{
+		"target": "shoptet.cz",
+		"count": 689
+	},
+	{
+		"target": "eitaa.com",
+		"count": 689
+	},
+	{
+		"target": "gismeteo.ru",
+		"count": 689
+	},
+	{
+		"target": "wikwik.org",
+		"count": 689
+	},
+	{
+		"target": "spreadshirt.com",
+		"count": 689
+	},
+	{
+		"target": "fb.me",
+		"count": 689
+	},
+	{
+		"target": "depositphotos.com",
+		"count": 689
+	},
+	{
+		"target": "tmdb.org",
+		"count": 689
+	},
+	{
+		"target": "dropcatch.com",
+		"count": 689
+	},
+	{
+		"target": "francebillet.com",
+		"count": 689
+	},
+	{
+		"target": "rakuten.com",
+		"count": 689
+	},
+	{
+		"target": "xhamsterlive.com",
+		"count": 688
+	},
+	{
+		"target": "vkontakte.ru",
+		"count": 688
+	},
+	{
+		"target": "pornhub.com",
+		"count": 688
+	},
+	{
+		"target": "bbc.co.uk",
+		"count": 688
+	},
+	{
+		"target": "fcc.gov",
+		"count": 688
+	},
+	{
+		"target": "livedoor.jp",
+		"count": 688
+	},
+	{
+		"target": "bigmir.net",
+		"count": 688
+	},
+	{
+		"target": "fragrantica.com",
+		"count": 687
+	},
+	{
+		"target": "xhamster.com",
+		"count": 687
+	},
+	{
+		"target": "tripadvisor.com",
+		"count": 687
+	},
+	{
+		"target": "debian.org",
+		"count": 687
+	},
+	{
+		"target": "google.ru",
+		"count": 687
+	},
+	{
+		"target": "storage.googleapis.com",
+		"count": 687
+	},
+	{
+		"target": "shutterstock.com",
+		"count": 687
+	},
+	{
+		"target": "tradedoubler.com",
+		"count": 687
+	},
+	{
+		"target": "hrtechprivacy.com",
+		"count": 686
+	},
+	{
+		"target": "airbnb.com.mt",
+		"count": 686
+	},
+	{
+		"target": "termsfeed.com",
+		"count": 686
+	},
+	{
+		"target": "airbnb.ie",
+		"count": 686
+	},
+	{
+		"target": "airbnb.ca",
+		"count": 686
+	},
+	{
+		"target": "wpengine.com",
+		"count": 686
+	},
+	{
+		"target": "airbnb.be",
+		"count": 686
+	},
+	{
+		"target": "unite.eu",
+		"count": 686
+	},
+	{
+		"target": "2gis.ru",
+		"count": 685
+	},
+	{
+		"target": "nytimes.com",
+		"count": 685
+	},
+	{
+		"target": "arukereso.hu",
+		"count": 685
+	},
+	{
+		"target": "stackexchange.com",
+		"count": 684
+	},
+	{
+		"target": "google.nl",
+		"count": 684
+	},
+	{
+		"target": "flipboard.com",
+		"count": 684
+	},
+	{
+		"target": "pin.it",
+		"count": 684
+	},
+	{
+		"target": "trafic.ro",
+		"count": 684
+	},
+	{
+		"target": "bandcamp.com",
+		"count": 684
+	},
+	{
+		"target": "bitget.com",
+		"count": 684
+	},
+	{
+		"target": "spglobal.com",
+		"count": 684
+	},
+	{
+		"target": "vkvideo.ru",
+		"count": 684
+	},
+	{
+		"target": "7eer.net",
+		"count": 683
+	},
+	{
+		"target": "tawk.to",
+		"count": 683
+	},
+	{
+		"target": "clickbank.net",
+		"count": 683
+	},
+	{
+		"target": "aliexpress.com",
+		"count": 683
+	},
+	{
+		"target": "gooyaabitemplates.com",
+		"count": 683
+	},
+	{
+		"target": "blog.jp",
+		"count": 683
+	},
+	{
+		"target": "question2answer.org",
+		"count": 682
+	},
+	{
+		"target": "livechat.com",
+		"count": 682
+	},
+	{
+		"target": "aboutyou.de",
+		"count": 681
+	},
+	{
+		"target": "imgur.com",
+		"count": 681
+	},
+	{
+		"target": "aliyun.com",
+		"count": 681
+	},
+	{
+		"target": "smartadserver.com",
+		"count": 681
+	},
+	{
+		"target": "hubspot.com",
+		"count": 680
+	},
+	{
+		"target": "muziker.com",
+		"count": 680
+	},
+	{
+		"target": "flaticon.com",
+		"count": 680
+	},
+	{
+		"target": "google.com.tw",
+		"count": 680
+	},
+	{
+		"target": "ubuntu.com",
+		"count": 680
+	},
+	{
+		"target": "simplepartner.hu",
+		"count": 680
+	},
+	{
+		"target": "paypal.me",
+		"count": 680
+	},
+	{
+		"target": "datocapital.com",
+		"count": 680
+	},
+	{
+		"target": "messenger.com",
+		"count": 679
+	},
+	{
+		"target": "novosti.rs",
+		"count": 679
+	},
+	{
+		"target": "pinterest.it",
+		"count": 679
+	},
+	{
+		"target": "naver.jp",
+		"count": 679
+	},
+	{
+		"target": "xyzscripts.com",
+		"count": 679
+	},
+	{
+		"target": "shopperapproved.com",
+		"count": 679
+	},
+	{
+		"target": "skype.com",
+		"count": 679
+	},
+	{
+		"target": "gitee.com",
+		"count": 679
+	},
+	{
+		"target": "glassdoor.ca",
+		"count": 678
+	},
+	{
+		"target": "feedly.com",
+		"count": 678
+	},
+	{
+		"target": "google.pl",
+		"count": 678
+	},
+	{
+		"target": "avis-verifies.com",
+		"count": 678
+	},
+	{
+		"target": "usa.gov",
+		"count": 678
+	},
+	{
+		"target": "bstatic.com",
+		"count": 678
+	},
+	{
+		"target": "douban.com",
+		"count": 678
+	},
+	{
+		"target": "holprop.com",
+		"count": 678
+	},
+	{
+		"target": "sfu.ca",
+		"count": 678
+	},
+	{
+		"target": "chatgpt.com",
+		"count": 677
+	},
+	{
+		"target": "strava.com",
+		"count": 677
+	},
+	{
+		"target": "harvard.edu",
+		"count": 677
+	},
+	{
+		"target": "intelius.com",
+		"count": 677
+	},
+	{
+		"target": "cutt.ly",
+		"count": 677
+	},
+	{
+		"target": "mailchi.mp",
+		"count": 676
+	},
+	{
+		"target": "onelink.to",
+		"count": 676
+	},
+	{
+		"target": "gosuslugi.ru",
+		"count": 676
+	},
+	{
+		"target": "gismeteo.kz",
+		"count": 676
+	},
+	{
+		"target": "ytimg.com",
+		"count": 676
+	},
+	{
+		"target": "mangoanimate.com",
+		"count": 676
+	},
+	{
+		"target": "over-blog.com",
+		"count": 676
+	},
+	{
+		"target": "gmail.com",
+		"count": 676
+	},
+	{
+		"target": "awin.com",
+		"count": 676
+	},
+	{
+		"target": "constantcontact.com",
+		"count": 675
+	},
+	{
+		"target": "adj.st",
+		"count": 675
+	},
+	{
+		"target": "lyst.com",
+		"count": 675
+	},
+	{
+		"target": "wiley.com",
+		"count": 675
+	},
+	{
+		"target": "gravatar.com",
+		"count": 675
+	},
+	{
+		"target": "with2.net",
+		"count": 675
+	},
+	{
+		"target": "jetcost.com",
+		"count": 675
+	},
+	{
+		"target": "rehlat.com",
+		"count": 675
+	},
+	{
+		"target": "mit.edu",
+		"count": 675
+	},
+	{
+		"target": "klarna.com",
+		"count": 675
+	},
+	{
+		"target": "waze.com",
+		"count": 674
+	},
+	{
+		"target": "intercom.help",
+		"count": 674
+	},
+	{
+		"target": "doubleclick.net",
+		"count": 674
+	},
+	{
+		"target": "webshopapp.com",
+		"count": 674
+	},
+	{
+		"target": "livechatinc.com",
+		"count": 674
+	},
+	{
+		"target": "satu.kz",
+		"count": 674
+	},
+	{
+		"target": "pxf.io",
+		"count": 674
+	},
+	{
+		"target": "airbnb.co.za",
+		"count": 674
+	},
+	{
+		"target": "airbnb.ch",
+		"count": 674
+	},
+	{
+		"target": "hotpepper.jp",
+		"count": 674
+	},
+	{
+		"target": "scopus.com",
+		"count": 674
+	},
+	{
+		"target": "shareasale.com",
+		"count": 674
+	},
+	{
+		"target": "joomla.org",
+		"count": 674
+	},
+	{
+		"target": "polskapress.pl",
+		"count": 673
+	},
+	{
+		"target": "foroactivo.com",
+		"count": 673
+	},
+	{
+		"target": "pinterest.es",
+		"count": 673
+	},
+	{
+		"target": "kiyoh.com",
+		"count": 673
+	},
+	{
+		"target": "pinterest.ca",
+		"count": 673
+	},
+	{
+		"target": "spreaker.com",
+		"count": 673
+	},
+	{
+		"target": "invisionpower.com",
+		"count": 673
+	},
+	{
+		"target": "hotlog.ru",
+		"count": 673
+	},
+	{
+		"target": "amazon.fr",
+		"count": 672
+	},
+	{
+		"target": "autouncle.com",
+		"count": 672
+	},
+	{
+		"target": "deviantart.com",
+		"count": 672
+	},
+	{
+		"target": "dropbox.com",
+		"count": 672
+	},
+	{
+		"target": "deere.com",
+		"count": 672
+	},
+	{
+		"target": "zoom.us",
+		"count": 672
+	},
+	{
+		"target": "tencent.com",
+		"count": 672
+	},
+	{
+		"target": "xiti.com",
+		"count": 672
+	},
+	{
+		"target": "google.es",
+		"count": 671
+	},
+	{
+		"target": "google.ca",
+		"count": 671
+	},
+	{
+		"target": "tecalliance.net",
+		"count": 671
+	},
+	{
+		"target": "bdgest.com",
+		"count": 671
+	},
+	{
+		"target": "sjv.io",
+		"count": 671
+	},
+	{
+		"target": "pinterest.com.au",
+		"count": 671
+	},
+	{
+		"target": "google.it",
+		"count": 671
+	},
+	{
+		"target": "etherscan.io",
+		"count": 671
+	},
+	{
+		"target": "tradingview.com",
+		"count": 671
+	},
+	{
+		"target": "greynium.com",
+		"count": 671
+	},
+	{
+		"target": "mercari.com",
+		"count": 671
+	},
+	{
+		"target": "trustedshops.com",
+		"count": 670
+	},
+	{
+		"target": "amazon.in",
+		"count": 670
+	},
+	{
+		"target": "orphus.ru",
+		"count": 670
+	},
+	{
+		"target": "cloudinary.com",
+		"count": 670
+	},
+	{
+		"target": "appsflyer.com",
+		"count": 670
+	},
+	{
+		"target": "stackoverflow.co",
+		"count": 670
+	},
+	{
+		"target": "i.ua",
+		"count": 670
+	},
+	{
+		"target": "transfermarkt.de",
+		"count": 670
+	},
+	{
+		"target": "thuiswinkel.org",
+		"count": 670
+	},
+	{
+		"target": "rentalcars.com",
+		"count": 670
+	},
+	{
+		"target": "coingecko.com",
+		"count": 670
+	},
+	{
+		"target": "blogspot.in",
+		"count": 670
+	},
+	{
+		"target": "dimdi.de",
+		"count": 669
+	},
+	{
+		"target": "jooble.org",
+		"count": 669
+	},
+	{
+		"target": "seoul.go.kr",
+		"count": 669
+	},
+	{
+		"target": "visa.com",
+		"count": 669
+	},
+	{
+		"target": "ebay.it",
+		"count": 669
+	},
+	{
+		"target": "statuspage.io",
+		"count": 669
+	},
+	{
+		"target": "blogspot.gr",
+		"count": 669
+	},
+	{
+		"target": "iinfo.cz",
+		"count": 669
+	},
+	{
+		"target": "syosetu.com",
+		"count": 669
+	},
+	{
+		"target": "workable.com",
+		"count": 668
+	},
+	{
+		"target": "glassdoor.ch",
+		"count": 668
+	},
+	{
+		"target": "smi2.ru",
+		"count": 668
+	},
+	{
+		"target": "t.ly",
+		"count": 668
+	},
+	{
+		"target": "manomano.com",
+		"count": 668
+	},
+	{
+		"target": "coursebible.com",
+		"count": 668
+	},
+	{
+		"target": "anrdoezrs.net",
+		"count": 668
+	},
+	{
+		"target": "glassdoor.be",
+		"count": 668
+	},
+	{
+		"target": "ebay.de",
+		"count": 668
+	},
+	{
+		"target": "reformal.ru",
+		"count": 668
+	},
+	{
+		"target": "producthunt.com",
+		"count": 668
+	},
+	{
+		"target": "nasa.gov",
+		"count": 668
+	},
+	{
+		"target": "foreca.com",
+		"count": 668
+	},
+	{
+		"target": "icio.us",
+		"count": 668
+	},
+	{
+		"target": "mois.go.kr",
+		"count": 668
+	},
+	{
+		"target": "scholastic.com",
+		"count": 668
+	},
+	{
+		"target": "zalando.com",
+		"count": 667
+	},
+	{
+		"target": "medianewsgroup.com",
+		"count": 667
+	},
+	{
+		"target": "blogimg.jp",
+		"count": 667
+	},
+	{
+		"target": "ozon.ru",
+		"count": 667
+	},
+	{
+		"target": "stores.jp",
+		"count": 667
+	},
+	{
+		"target": "dailymotion.com",
+		"count": 667
+	},
+	{
+		"target": "prf.hn",
+		"count": 667
+	},
+	{
+		"target": "joins.com",
+		"count": 667
+	},
+	{
+		"target": "python.org",
+		"count": 667
+	},
+	{
+		"target": "woocommerce.com",
+		"count": 667
+	},
+	{
+		"target": "outlook.com",
+		"count": 666
+	},
+	{
+		"target": "myworkdayjobs.com",
+		"count": 666
+	},
+	{
+		"target": "icons8.com",
+		"count": 666
+	},
+	{
+		"target": "waysur.com",
+		"count": 666
+	},
+	{
+		"target": "seaquery.com",
+		"count": 666
+	},
+	{
+		"target": "g2b.go.kr",
+		"count": 666
+	},
+	{
+		"target": "admin.ch",
+		"count": 666
+	},
+	{
+		"target": "ckan.org",
+		"count": 666
+	},
+	{
+		"target": "brasil.gov.br",
+		"count": 666
+	},
+	{
+		"target": "rebrand.ly",
+		"count": 665
+	},
+	{
+		"target": "slideshare.net",
+		"count": 665
+	},
+	{
+		"target": "myqcloud.com",
+		"count": 665
+	},
+	{
+		"target": "homes.jp",
+		"count": 665
+	},
+	{
+		"target": "ethz.ch",
+		"count": 665
+	},
+	{
+		"target": "geonames.org",
+		"count": 665
+	},
+	{
+		"target": "viamichelin.com",
+		"count": 665
+	},
+	{
+		"target": "studiopress.com",
+		"count": 664
+	},
+	{
+		"target": "okx.com",
+		"count": 664
+	},
+	{
+		"target": "mediaworks.hu",
+		"count": 664
+	},
+	{
+		"target": "loc.gov",
+		"count": 664
+	},
+	{
+		"target": "jimdofree.com",
+		"count": 664
+	},
+	{
+		"target": "adultempire.com",
+		"count": 664
+	},
+	{
+		"target": "microsoftonline.com",
+		"count": 663
+	},
+	{
+		"target": "theguardian.com",
+		"count": 663
+	},
+	{
+		"target": "soratemplates.com",
+		"count": 663
+	},
+	{
+		"target": "shopee.tw",
+		"count": 663
+	},
+	{
+		"target": "userapi.com",
+		"count": 663
+	},
+	{
+		"target": "blurb.com",
+		"count": 663
+	},
+	{
+		"target": "trafficstars.com",
+		"count": 663
+	},
+	{
+		"target": "tcgplayer.com",
+		"count": 663
+	},
+	{
+		"target": "cedarlakeventures.com",
+		"count": 662
+	},
+	{
+		"target": "houzz.com",
+		"count": 662
+	},
+	{
+		"target": "airbnb.fr",
+		"count": 662
+	},
+	{
+		"target": "mastercard.com",
+		"count": 662
+	},
+	{
+		"target": "glassdoor.fr",
+		"count": 662
+	},
+	{
+		"target": "perplexity.ai",
+		"count": 662
+	},
+	{
+		"target": "postimages.org",
+		"count": 662
+	},
+	{
+		"target": "apkpure.com",
+		"count": 662
+	},
+	{
+		"target": "php.net",
+		"count": 662
+	},
+	{
+		"target": "zdnet.com",
+		"count": 661
+	},
+	{
+		"target": "amazon.it",
+		"count": 661
+	},
+	{
+		"target": "amazon.es",
+		"count": 661
+	},
+	{
+		"target": "iastate.edu",
+		"count": 661
+	},
+	{
+		"target": "glassdoor.co.in",
+		"count": 661
+	},
+	{
+		"target": "zhihu.com",
+		"count": 661
+	},
+	{
+		"target": "surveymonkey.com",
+		"count": 661
+	},
+	{
+		"target": "compari.ro",
+		"count": 661
+	},
+	{
+		"target": "free.fr",
+		"count": 661
+	},
+	{
+		"target": "worldcat.org",
+		"count": 661
+	},
+	{
+		"target": "phpbb.de",
+		"count": 661
+	},
+	{
+		"target": "thefa.com",
+		"count": 661
+	},
+	{
+		"target": "stripchat.com",
+		"count": 660
+	},
+	{
+		"target": "mercadolibre.com.mx",
+		"count": 660
+	},
+	{
+		"target": "wp.pl",
+		"count": 660
+	},
+	{
+		"target": "texas.gov",
+		"count": 660
+	},
+	{
+		"target": "hhs.gov",
+		"count": 660
+	},
+	{
+		"target": "academic.ru",
+		"count": 660
+	},
+	{
+		"target": "issn.org",
+		"count": 660
+	},
+	{
+		"target": "aliyuncs.com",
+		"count": 660
+	},
+	{
+		"target": "pracuj.pl",
+		"count": 659
+	},
+	{
+		"target": "allegro.pl",
+		"count": 659
+	},
+	{
+		"target": "glassdoor.co.uk",
+		"count": 659
+	},
+	{
+		"target": "portotheme.com",
+		"count": 659
+	},
+	{
+		"target": "glassdoor.de",
+		"count": 659
+	},
+	{
+		"target": "rapidgator.net",
+		"count": 659
+	},
+	{
+		"target": "youtube-nocookie.com",
+		"count": 659
+	},
+	{
+		"target": "airbnb.de",
+		"count": 659
+	},
+	{
+		"target": "airbnb.jp",
+		"count": 659
+	},
+	{
+		"target": "usda.gov",
+		"count": 659
+	},
+	{
+		"target": "airbnb.co.uk",
+		"count": 659
+	},
+	{
+		"target": "airbnb.com.au",
+		"count": 659
+	},
+	{
+		"target": "airbnb.it",
+		"count": 659
+	},
+	{
+		"target": "colorlib.com",
+		"count": 659
+	},
+	{
+		"target": "force.com",
+		"count": 659
+	},
+	{
+		"target": "sedo.com",
+		"count": 659
+	},
+	{
+		"target": "capterra.com",
+		"count": 659
+	},
+	{
+		"target": "airbnb.lu",
+		"count": 658
+	},
+	{
+		"target": "google.cz",
+		"count": 658
+	},
+	{
+		"target": "dlsite.com",
+		"count": 658
+	},
+	{
+		"target": "lefigaro.fr",
+		"count": 658
+	},
+	{
+		"target": "tc-v.com",
+		"count": 658
+	},
+	{
+		"target": "quotidiano.net",
+		"count": 658
+	},
+	{
+		"target": "apple.co",
+		"count": 658
+	},
+	{
+		"target": "agoda.com",
+		"count": 658
+	},
+	{
+		"target": "expedia.com",
+		"count": 658
+	},
+	{
+		"target": "fliphtml5.com",
+		"count": 658
+	},
+	{
+		"target": "airbnb.lv",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.ni",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.co",
+		"count": 658
+	},
+	{
+		"target": "airbnb.at",
+		"count": 658
+	},
+	{
+		"target": "airbnb.cl",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.pa",
+		"count": 658
+	},
+	{
+		"target": "airbnb.si",
+		"count": 658
+	},
+	{
+		"target": "airbnb.ru",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.br",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.sv",
+		"count": 658
+	},
+	{
+		"target": "airbnb.is",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.hk",
+		"count": 658
+	},
+	{
+		"target": "airbnb.cat",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.ee",
+		"count": 658
+	},
+	{
+		"target": "supplyframe.com",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.py",
+		"count": 658
+	},
+	{
+		"target": "airbnb.co.nz",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.sg",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.hn",
+		"count": 658
+	},
+	{
+		"target": "airbnb.co.cr",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.bz",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.gt",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.tr",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.ar",
+		"count": 658
+	},
+	{
+		"target": "airbnb.am",
+		"count": 658
+	},
+	{
+		"target": "airbnb.me",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.ro",
+		"count": 658
+	},
+	{
+		"target": "airbnb.ae",
+		"count": 658
+	},
+	{
+		"target": "prestashop.com",
+		"count": 658
+	},
+	{
+		"target": "airbnb.ba",
+		"count": 658
+	},
+	{
+		"target": "airbnb.mx",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.bo",
+		"count": 658
+	},
+	{
+		"target": "airbnb.fi",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.pe",
+		"count": 658
+	},
+	{
+		"target": "airbnb.nl",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.tw",
+		"count": 658
+	},
+	{
+		"target": "airbnb.pt",
+		"count": 658
+	},
+	{
+		"target": "airbnb.com.ec",
+		"count": 658
+	},
+	{
+		"target": "toutiao.com",
+		"count": 658
+	},
+	{
+		"target": "bitbucket.org",
+		"count": 658
+	},
+	{
+		"target": "iana.org",
+		"count": 658
+	},
+	{
+		"target": "gov.hu",
+		"count": 657
+	},
+	{
+		"target": "bergfex.com",
+		"count": 657
+	},
+	{
+		"target": "finanzen.net",
+		"count": 657
+	},
+	{
+		"target": "molit.go.kr",
+		"count": 657
+	},
+	{
+		"target": "lastminute.com",
+		"count": 657
+	},
+	{
+		"target": "amazon.com.br",
+		"count": 656
+	},
+	{
+		"target": "via-mobilis.com",
+		"count": 656
+	},
+	{
+		"target": "glassdoor.com.mx",
+		"count": 656
+	},
+	{
+		"target": "culture.gouv.fr",
+		"count": 656
+	},
+	{
+		"target": "cnn.com",
+		"count": 656
+	},
+	{
+		"target": "reg.ru",
+		"count": 656
+	},
+	{
+		"target": "ycombinator.com",
+		"count": 656
+	},
+	{
+		"target": "un.org",
+		"count": 656
+	},
+	{
+		"target": "1688.com",
+		"count": 656
+	},
+	{
+		"target": "naszemiasto.pl",
+		"count": 655
+	},
+	{
+		"target": "google.com.ua",
+		"count": 655
+	},
+	{
+		"target": "ning.com",
+		"count": 655
+	},
+	{
+		"target": "supercell.com",
+		"count": 655
+	},
+	{
+		"target": "mexc.com",
+		"count": 655
+	},
+	{
+		"target": "fandom.com",
+		"count": 655
+	},
+	{
+		"target": "rada.gov.ua",
+		"count": 655
+	},
+	{
+		"target": "justwatch.com",
+		"count": 655
+	},
+	{
+		"target": "winudf.com",
+		"count": 655
+	},
+	{
+		"target": "google.co.in",
+		"count": 654
+	},
+	{
+		"target": "google.com.br",
+		"count": 654
+	},
+	{
+		"target": "glassdoor.com.au",
+		"count": 654
+	},
+	{
+		"target": "providesupport.com",
+		"count": 654
+	},
+	{
+		"target": "zbozi.cz",
+		"count": 654
+	},
+	{
+		"target": "tielabs.com",
+		"count": 654
+	},
+	{
+		"target": "wizards.com",
+		"count": 654
+	},
+	{
+		"target": "jax.org",
+		"count": 654
+	},
+	{
+		"target": "iex.nl",
+		"count": 654
+	},
+	{
+		"target": "discordapp.com",
+		"count": 654
+	},
+	{
+		"target": "docomo.ne.jp",
+		"count": 654
+	},
+	{
+		"target": "sh.gov.cn",
+		"count": 654
+	},
+	{
+		"target": "mercadolivre.com.br",
+		"count": 654
+	},
+	{
+		"target": "shopee.vn",
+		"count": 653
+	},
+	{
+		"target": "partner-ads.com",
+		"count": 653
+	},
+	{
+		"target": "discogs.com",
+		"count": 653
+	},
+	{
+		"target": "yandex.by",
+		"count": 653
+	},
+	{
+		"target": "secureserver.net",
+		"count": 653
+	},
+	{
+		"target": "lexisnexis.com",
+		"count": 652
+	},
+	{
+		"target": "cornell.edu",
+		"count": 652
+	},
+	{
+		"target": "heureka.sk",
+		"count": 652
+	},
+	{
+		"target": "wsj.com",
+		"count": 652
+	},
+	{
+		"target": "glassdoor.nl",
+		"count": 652
+	},
+	{
+		"target": "podtail.com",
+		"count": 652
+	},
+	{
+		"target": "kayak.com",
+		"count": 652
+	},
+	{
+		"target": "springer.com",
+		"count": 652
+	},
+	{
+		"target": "comodo.com",
+		"count": 652
+	},
+	{
+		"target": "uspto.gov",
+		"count": 652
+	},
+	{
+		"target": "launchpad.net",
+		"count": 652
+	},
+	{
+		"target": "uniprot.org",
+		"count": 652
+	},
+	{
+		"target": "moodle.org",
+		"count": 652
+	},
+	{
+		"target": "gg.go.kr",
+		"count": 652
+	},
+	{
+		"target": "sap.com",
+		"count": 652
+	},
+	{
+		"target": "lajumate.ro",
+		"count": 651
+	},
+	{
+		"target": "tigerdroppings.com",
+		"count": 651
+	},
+	{
+		"target": "eventbrite.com",
+		"count": 651
+	},
+	{
+		"target": "volusion.store",
+		"count": 651
+	},
+	{
+		"target": "espn.com",
+		"count": 651
+	},
+	{
+		"target": "gencat.cat",
+		"count": 651
+	},
+	{
+		"target": "pixabay.com",
+		"count": 651
+	},
+	{
+		"target": "pixiv.net",
+		"count": 651
+	},
+	{
+		"target": "adcell.com",
+		"count": 651
+	},
+	{
+		"target": "fsf.org",
+		"count": 651
+	},
+	{
+		"target": "riken.jp",
+		"count": 651
+	},
+	{
+		"target": "nature.com",
+		"count": 650
+	},
+	{
+		"target": "4shared.com",
+		"count": 650
+	},
+	{
+		"target": "delaware.gov",
+		"count": 650
+	},
+	{
+		"target": "wpastra.com",
+		"count": 650
+	},
+	{
+		"target": "generated.photos",
+		"count": 650
+	},
+	{
+		"target": "hp.com",
+		"count": 650
+	},
+	{
+		"target": "ticaret.gov.tr",
+		"count": 649
+	},
+	{
+		"target": "onet.pl",
+		"count": 649
+	},
+	{
+		"target": "seznam.cz",
+		"count": 649
+	},
+	{
+		"target": "hostingersite.com",
+		"count": 649
+	},
+	{
+		"target": "quora.com",
+		"count": 649
+	},
+	{
+		"target": "kyotei.club",
+		"count": 649
+	},
+	{
+		"target": "mos.ru",
+		"count": 649
+	},
+	{
+		"target": "uol.com.br",
+		"count": 649
+	},
+	{
+		"target": "mercadoshops.com.br",
+		"count": 649
+	},
+	{
+		"target": "yellowpages.com",
+		"count": 649
+	},
+	{
+		"target": "calameo.com",
+		"count": 649
+	},
+	{
+		"target": "twimg.com",
+		"count": 649
+	},
+	{
+		"target": "service-public.fr",
+		"count": 649
+	},
+	{
+		"target": "thewaltdisneycompany.com",
+		"count": 649
+	},
+	{
+		"target": "glassdoor.ie",
+		"count": 649
+	},
+	{
+		"target": "glassdoor.com.br",
+		"count": 649
+	},
+	{
+		"target": "open.go.kr",
+		"count": 649
+	},
+	{
+		"target": "indiatimes.com",
+		"count": 648
+	},
+	{
+		"target": "cnet.com",
+		"count": 648
+	},
+	{
+		"target": "reuters.com",
+		"count": 648
+	},
+	{
+		"target": "tellows.net",
+		"count": 648
+	},
+	{
+		"target": "realtor.ca",
+		"count": 648
+	},
+	{
+		"target": "books.com.tw",
+		"count": 648
+	},
+	{
+		"target": "globo.com",
+		"count": 648
+	},
+	{
+		"target": "apnews.com",
+		"count": 648
+	},
+	{
+		"target": "jimdo.com",
+		"count": 648
+	},
+	{
+		"target": "redhat.com",
+		"count": 648
+	},
+	{
+		"target": "effiliation.com",
+		"count": 648
+	},
+	{
+		"target": "blesk.cz",
+		"count": 647
+	},
+	{
+		"target": "binance.com",
+		"count": 647
+	},
+	{
+		"target": "glassdoor.sg",
+		"count": 647
+	},
+	{
+		"target": "mlit.go.jp",
+		"count": 647
+	},
+	{
+		"target": "heylink.me",
+		"count": 647
+	},
+	{
+		"target": "doorblog.jp",
+		"count": 647
+	},
+	{
+		"target": "en-academic.com",
+		"count": 647
+	},
+	{
+		"target": "yandex.net",
+		"count": 647
+	},
+	{
+		"target": "scribd.com",
+		"count": 647
+	},
+	{
+		"target": "bepress.com",
+		"count": 647
+	},
+	{
+		"target": "yimg.jp",
+		"count": 647
+	},
+	{
+		"target": "ebi.ac.uk",
+		"count": 647
+	},
+	{
+		"target": "who.int",
+		"count": 647
+	},
+	{
+		"target": "sports-reference.com",
+		"count": 646
+	},
+	{
+		"target": "kqzyfj.com",
+		"count": 646
+	},
+	{
+		"target": "google.com.tr",
+		"count": 646
+	},
+	{
+		"target": "glassdoor.co.nz",
+		"count": 646
+	},
+	{
+		"target": "glassdoor.com.hk",
+		"count": 646
+	},
+	{
+		"target": "zenrin-datacom.net",
+		"count": 646
+	},
+	{
+		"target": "rugvista.ch",
+		"count": 646
+	},
+	{
+		"target": "squarespace-cdn.com",
+		"count": 646
+	},
+	{
+		"target": "ap.org",
+		"count": 646
+	},
+	{
+		"target": "bloglovin.com",
+		"count": 646
+	},
+	{
+		"target": "dpbolvw.net",
+		"count": 646
+	},
+	{
+		"target": "boe.es",
+		"count": 646
+	},
+	{
+		"target": "sciencedirect.com",
+		"count": 646
+	},
+	{
+		"target": "webgains.com",
+		"count": 646
+	},
+	{
+		"target": "follow.it",
+		"count": 645
+	},
+	{
+		"target": "google.ch",
+		"count": 645
+	},
+	{
+		"target": "foxnews.com",
+		"count": 645
+	},
+	{
+		"target": "wargaming.net",
+		"count": 645
+	},
+	{
+		"target": "bookdelivery.com",
+		"count": 645
+	},
+	{
+		"target": "dealer.com",
+		"count": 645
+	},
+	{
+		"target": "business.site",
+		"count": 645
+	},
+	{
+		"target": "forbes.com",
+		"count": 645
+	},
+	{
+		"target": "digicert.com",
+		"count": 645
+	},
+	{
+		"target": "www",
+		"count": 645
+	},
+	{
+		"target": "exblog.jp",
+		"count": 645
+	},
+	{
+		"target": "mercadolibre.com",
+		"count": 645
+	},
+	{
+		"target": "usgs.gov",
+		"count": 644
+	},
+	{
+		"target": "futureplc.com",
+		"count": 644
+	},
+	{
+		"target": "locondo.jp",
+		"count": 644
+	},
+	{
+		"target": "threadless.com",
+		"count": 644
+	},
+	{
+		"target": "tkqlhce.com",
+		"count": 644
+	},
+	{
+		"target": "cnpq.br",
+		"count": 644
+	},
+	{
+		"target": "usatoday.com",
+		"count": 644
+	},
+	{
+		"target": "blogspot.co.id",
+		"count": 644
+	},
+	{
+		"target": "produccion.gob.ar",
+		"count": 643
+	},
+	{
+		"target": "iid.co.jp",
+		"count": 643
+	},
+	{
+		"target": "michelin.com",
+		"count": 643
+	},
+	{
+		"target": "nicovideo.jp",
+		"count": 643
+	},
+	{
+		"target": "appypie.com",
+		"count": 643
+	},
+	{
+		"target": "globalsign.com",
+		"count": 643
+	},
+	{
+		"target": "kernel.org",
+		"count": 643
+	},
+	{
+		"target": "banggood.com",
+		"count": 643
+	},
+	{
+		"target": "meteoprog.com",
+		"count": 642
+	},
+	{
+		"target": "independent.co.uk",
+		"count": 642
+	},
+	{
+		"target": "storage.yandexcloud.net",
+		"count": 642
+	},
+	{
+		"target": "kyotei24.jp",
+		"count": 642
+	},
+	{
+		"target": "i00.eu",
+		"count": 642
+	},
+	{
+		"target": "lifullconnect.com",
+		"count": 642
+	},
+	{
+		"target": "bookshop.org",
+		"count": 642
+	},
+	{
+		"target": "marriott.com",
+		"count": 642
+	},
+	{
+		"target": "idnes.cz",
+		"count": 642
+	},
+	{
+		"target": "ebay.co.uk",
+		"count": 642
+	},
+	{
+		"target": "partauto.fr",
+		"count": 642
+	},
+	{
+		"target": "besoccer.com",
+		"count": 642
+	},
+	{
+		"target": "glassdoor.it",
+		"count": 642
+	},
+	{
+		"target": "vecteezy.com",
+		"count": 642
+	},
+	{
+		"target": "norton.com",
+		"count": 642
+	},
+	{
+		"target": "d-nb.info",
+		"count": 642
+	},
+	{
+		"target": "ebis.ne.jp",
+		"count": 642
+	},
+	{
+		"target": "alexa.com",
+		"count": 642
+	},
+	{
+		"target": "mendeley.com",
+		"count": 642
+	},
+	{
+		"target": "blog.hu",
+		"count": 641
+	},
+	{
+		"target": "universitydunia.com",
+		"count": 641
+	},
+	{
+		"target": "exlibrisgroup.com",
+		"count": 641
+	},
+	{
+		"target": "amazon.ca",
+		"count": 641
+	},
+	{
+		"target": "myonlinestore.eu",
+		"count": 641
+	},
+	{
+		"target": "wikimediafoundation.org",
+		"count": 641
+	},
+	{
+		"target": "authorize.net",
+		"count": 641
+	},
+	{
+		"target": "carsensor.net",
+		"count": 641
+	},
+	{
+		"target": "researchgate.net",
+		"count": 641
+	},
+	{
+		"target": "bayern.de",
+		"count": 641
+	},
+	{
+		"target": "swissmarketplace.group",
+		"count": 641
+	},
+	{
+		"target": "census.gov",
+		"count": 641
+	},
+	{
+		"target": "italiaonline.it",
+		"count": 641
+	},
+	{
+		"target": "thebase.in",
+		"count": 641
+	},
+	{
+		"target": "kemdikbud.go.id",
+		"count": 641
+	},
+	{
+		"target": "xoilaczzqipxt.tv",
+		"count": 641
+	},
+	{
+		"target": "cctv.com",
+		"count": 641
+	},
+	{
+		"target": "sinoptik.ua",
+		"count": 640
+	},
+	{
+		"target": "pexels.com",
+		"count": 640
+	},
+	{
+		"target": "nist.gov",
+		"count": 640
+	},
+	{
+		"target": "ceroacero.com.co",
+		"count": 640
+	},
+	{
+		"target": "piraeusbank.gr",
+		"count": 640
+	},
+	{
+		"target": "nj.gov",
+		"count": 640
+	},
+	{
+		"target": "msn.com",
+		"count": 640
+	},
+	{
+		"target": "xn--pckua2a7gp15o89zb.com",
+		"count": 640
+	},
+	{
+		"target": "mercadolibre.com.co",
+		"count": 640
+	},
+	{
+		"target": "meisterdrucke.com",
+		"count": 640
+	},
+	{
+		"target": "epicgames.com",
+		"count": 640
+	},
+	{
+		"target": "ox.ac.uk",
+		"count": 640
+	},
+	{
+		"target": "mofa.go.kr",
+		"count": 640
+	},
+	{
+		"target": "pinterest.ru",
+		"count": 640
+	},
+	{
+		"target": "nsf.gov",
+		"count": 640
+	},
+	{
+		"target": "accuweather.com",
+		"count": 640
+	},
+	{
+		"target": "gra.pl",
+		"count": 640
+	},
+	{
+		"target": "metabrainz.org",
+		"count": 640
+	},
+	{
+		"target": "tubetraffic.com",
+		"count": 640
+	},
+	{
+		"target": "ceroacero.es",
+		"count": 639
+	},
+	{
+		"target": "crunchbase.com",
+		"count": 639
+	},
+	{
+		"target": "viamichelin.ch",
+		"count": 639
+	},
+	{
+		"target": "cdc.gov",
+		"count": 639
+	},
+	{
+		"target": "flashscore.com",
+		"count": 639
+	},
+	{
+		"target": "ssl-images-amazon.com",
+		"count": 639
+	},
+	{
+		"target": "cocolog-nifty.com",
+		"count": 639
+	},
+	{
+		"target": "jdoqocy.com",
+		"count": 639
+	},
+	{
+		"target": "zillow.com",
+		"count": 639
+	},
+	{
+		"target": "shopee.co.id",
+		"count": 638
+	},
+	{
+		"target": "telekom.si",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.lu",
+		"count": 638
+	},
+	{
+		"target": "leballonrond.fr",
+		"count": 638
+	},
+	{
+		"target": "unian.net",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.nl",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.hu",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.ie",
+		"count": 638
+	},
+	{
+		"target": "eurosport.com",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.jp",
+		"count": 638
+	},
+	{
+		"target": "truste.com",
+		"count": 638
+	},
+	{
+		"target": "marketbeat.com",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.dk",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.fi",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.se",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.be",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.at",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.it",
+		"count": 638
+	},
+	{
+		"target": "i2i.jp",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.no",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.ch",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.pt",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.us",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.cz",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.fr",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.es",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.pl",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.uk",
+		"count": 638
+	},
+	{
+		"target": "meisterdrucke.de",
+		"count": 638
+	},
+	{
+		"target": "sat24.com",
+		"count": 638
+	},
+	{
+		"target": "superbthemes.com",
+		"count": 638
+	},
+	{
+		"target": "mall.cz",
+		"count": 637
+	},
+	{
+		"target": "k-img.com",
+		"count": 637
+	},
+	{
+		"target": "seek.com",
+		"count": 637
+	},
+	{
+		"target": "plurk.com",
+		"count": 637
+	},
+	{
+		"target": "calciozz.it",
+		"count": 637
+	},
+	{
+		"target": "redd.it",
+		"count": 637
+	},
+	{
+		"target": "paginegialle.it",
+		"count": 637
+	},
+	{
+		"target": "themegrill.com",
+		"count": 637
+	},
+	{
+		"target": "ilo.org",
+		"count": 637
+	},
+	{
+		"target": "fda.gov",
+		"count": 637
+	},
+	{
+		"target": "ibb.co",
+		"count": 637
+	},
+	{
+		"target": "brazzersnetwork.com",
+		"count": 636
+	},
+	{
+		"target": "zerozero.cl",
+		"count": 636
+	},
+	{
+		"target": "voetbalzz.nl",
+		"count": 636
+	},
+	{
+		"target": "centerblog.net",
+		"count": 636
+	},
+	{
+		"target": "zerozero.pt",
+		"count": 636
+	},
+	{
+		"target": "zerozero.pe",
+		"count": 636
+	},
+	{
+		"target": "ogol.com.br",
+		"count": 636
+	},
+	{
+		"target": "zerozero.com.mx",
+		"count": 636
+	},
+	{
+		"target": "snap.com",
+		"count": 636
+	},
+	{
+		"target": "mascus.com",
+		"count": 636
+	},
+	{
+		"target": "ny.gov",
+		"count": 636
+	},
+	{
+		"target": "state.mn.us",
+		"count": 636
+	},
+	{
+		"target": "fussballzz.de",
+		"count": 636
+	},
+	{
+		"target": "techcrunch.com",
+		"count": 636
+	},
+	{
+		"target": "krak.dk",
+		"count": 636
+	},
+	{
+		"target": "fiverr.com",
+		"count": 636
+	},
+	{
+		"target": "prnewswire.com",
+		"count": 636
+	},
+	{
+		"target": "superlawyers.com",
+		"count": 636
+	},
+	{
+		"target": "dot.gov",
+		"count": 636
+	},
+	{
+		"target": "google.com.au",
+		"count": 635
+	},
+	{
+		"target": "gnavi.co.jp",
+		"count": 635
+	},
+	{
+		"target": "godaddy.com",
+		"count": 635
+	},
+	{
+		"target": "j-server.com",
+		"count": 635
+	},
+	{
+		"target": "skiresort-service.com",
+		"count": 635
+	},
+	{
+		"target": "homeadvisor.com",
+		"count": 635
+	},
+	{
+		"target": "zazzle.com",
+		"count": 635
+	},
+	{
+		"target": "thesun.co.uk",
+		"count": 635
+	},
+	{
+		"target": "ibict.br",
+		"count": 635
+	},
+	{
+		"target": "playmakerstats.com",
+		"count": 634
+	},
+	{
+		"target": "google.hu",
+		"count": 634
+	},
+	{
+		"target": "halara.com",
+		"count": 634
+	},
+	{
+		"target": "imgix.net",
+		"count": 634
+	},
+	{
+		"target": "playstation.com",
+		"count": 634
+	},
+	{
+		"target": "mitre.org",
+		"count": 634
+	},
+	{
+		"target": "berkeley.edu",
+		"count": 634
+	},
+	{
+		"target": "pchome.com.tw",
+		"count": 634
+	},
+	{
+		"target": "shkulevholding.ru",
+		"count": 633
+	},
+	{
+		"target": "bloomberg.com",
+		"count": 633
+	},
+	{
+		"target": "ansa.it",
+		"count": 633
+	},
+	{
+		"target": "click.ro",
+		"count": 633
+	},
+	{
+		"target": "stackoverflow.blog",
+		"count": 633
+	},
+	{
+		"target": "zerozero.com.ve",
+		"count": 633
+	},
+	{
+		"target": "interia.pl",
+		"count": 633
+	},
+	{
+		"target": "coupang.com",
+		"count": 633
+	},
+	{
+		"target": "epa.gov",
+		"count": 633
+	},
+	{
+		"target": "goo.ne.jp",
+		"count": 633
+	},
+	{
+		"target": "carfax.com",
+		"count": 633
+	},
+	{
+		"target": "washingtonpost.com",
+		"count": 633
+	},
+	{
+		"target": "eldiario.es",
+		"count": 633
+	},
+	{
+		"target": "ebra.fr",
+		"count": 632
+	},
+	{
+		"target": "minkabu.jp",
+		"count": 632
+	},
+	{
+		"target": "globenewswire.com",
+		"count": 632
+	},
+	{
+		"target": "videouroki.net",
+		"count": 632
+	},
+	{
+		"target": "sbnation.com",
+		"count": 632
+	},
+	{
+		"target": "cncenter.cz",
+		"count": 632
+	},
+	{
+		"target": "bol.com",
+		"count": 632
+	},
+	{
+		"target": "zerozero.com.ar",
+		"count": 632
+	},
+	{
+		"target": "dragonforms.com",
+		"count": 632
+	},
+	{
+		"target": "hifi.de",
+		"count": 632
+	},
+	{
+		"target": "akismet.com",
+		"count": 632
+	},
+	{
+		"target": "beniculturali.it",
+		"count": 632
+	},
+	{
+		"target": "mpg.de",
+		"count": 632
+	},
+	{
+		"target": "strefabiznesu.pl",
+		"count": 631
+	},
+	{
+		"target": "kadokawa.co.jp",
+		"count": 631
+	},
+	{
+		"target": "e15.cz",
+		"count": 631
+	},
+	{
+		"target": "informa.com",
+		"count": 631
+	},
+	{
+		"target": "airbnb.es",
+		"count": 631
+	},
+	{
+		"target": "soccerzz.com",
+		"count": 631
+	},
+	{
+		"target": "homes.co.jp",
+		"count": 631
+	},
+	{
+		"target": "informer.com",
+		"count": 631
+	},
+	{
+		"target": "socastsrm.com",
+		"count": 631
+	},
+	{
+		"target": "libsyn.com",
+		"count": 631
+	},
+	{
+		"target": "google.co.th",
+		"count": 631
+	},
+	{
+		"target": "da8h1v3w8q6n5.cloudfront.net",
+		"count": 631
+	}
+]

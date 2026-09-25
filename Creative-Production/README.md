@@ -22,11 +22,12 @@ Project manifest, source assets và final checksum.
 
 ## Folder structure
 
-`Assets/Raw`, `Projects/`, `Review/`, `Deliverables/`.
+`Assets/Raw/`, `Assets/Stock/`, `Assets/AI-Generated/`, `Projects/`, `Review/`, `Deliverables/`, `Runbooks/`.
+- `Runbooks/Visual-Asset-Pipeline-Guide.md`: Hướng dẫn toàn diện tìm ảnh Pexels API & render Nano Banana AI.
 
 ## Workflow
 
-Ingest -> plan -> edit -> render -> QA -> approve -> handoff.
+Ingest -> plan -> source/generate (Pexels / Nano Banana) -> edit -> render -> QA -> approve -> handoff.
 
 ## Approval requirements
 

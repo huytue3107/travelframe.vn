@@ -1,0 +1,31 @@
+{
+  "project": "Meta-Ads-Offer-Pilot-2026-09",
+  "generated_date": "2026-09-15",
+  "engine": "Nano Banana / Imagen 3",
+  "assets": [
+    {
+      "id": "FILM-Hero-Ad-V1",
+      "offer": "FILM",
+      "file": "FILM-Hero-Ad-V1.jpg",
+      "aspect_ratio": "3:4 (Feed Portrait)",
+      "prompt": "Authentic documentary travel photograph of an international female traveler holding a vintage mechanical 35mm film SLR camera up to her eye, taking a photo in Hanoi Old Quarter. Over-the-shoulder perspective showing both the camera details and the charming street ahead with weathered ochre-yellow French colonial walls and hanging green plants. Soft morning golden sunlight, subtle 35mm film grain, warm Kodak Portra 400 tones, realistic skin texture, photorealistic, no artificial blur, cinematic atmosphere",
+      "usage": "Hero visual for Static Ad AD-FILM-SHOOT-HANOI-V1 and Carousel Slide 1 cover"
+    },
+    {
+      "id": "PHOTO-Hero-Ad-V1",
+      "offer": "PHOTO",
+      "file": "PHOTO-Hero-Ad-V1.jpg",
+      "aspect_ratio": "3:4 (Feed Portrait)",
+      "prompt": "Cinematic documentary travel photograph of an international couple strolling naturally along a quiet tree-lined street in Hanoi, laughing together mid-stride, natural candid body language, completely unposed. Dappled morning sunlight filtering through ancient trees, captured with an 85mm prime lens at f/2.0, soft background compression, warm analog cinematic color grading, authentic emotional connection, realistic skin texture",
+      "usage": "Hero visual for Static Ad AD-PHOTO-NATURAL-GUIDE-V1"
+    },
+    {
+      "id": "HANOI-Hero-Ad-V1",
+      "offer": "HANOI",
+      "file": "HANOI-Hero-Ad-V1.jpg",
+      "aspect_ratio": "3:4 (Feed Portrait)",
+      "prompt": "Heartwarming candid photograph of a friendly young Vietnamese local host guiding an international traveler through a vibrant narrow Hanoi alleyway. Both smiling and talking naturally about local life, authentic human connection, steaming street food stall in soft background, warm late-afternoon sunlight, 35mm documentary realism, authentic street depth",
+      "usage": "Hero visual for Static Ad AD-HANOI-EXPLORE-LOCAL-V1"
+    }
+  ]
+}

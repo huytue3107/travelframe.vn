@@ -10,7 +10,7 @@ from docx.shared import Inches, Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parents[2]
 
-OUT = ROOT / "Data-Analytics" / "Reports" / "2026-09-23-TravelFrame-Social-And-Website-Report.docx"
+OUT = ROOT / "Data-Analytics" / "Reports" / "2026-09-25-TravelFrame-Social-And-Website-Report.docx"
 
 DARK = "1F2933"
 NAVY = "174A63"
@@ -144,7 +144,7 @@ for name, size in (("Title", 24), ("Heading 1", 16.5), ("Heading 2", 12.5)):
 
 footer = section.footer.paragraphs[0]
 footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
-footer_run = footer.add_run("TravelFrame | Báo cáo mạng xã hội và website | 23 tháng 09 năm 2026")
+footer_run = footer.add_run("TravelFrame | Báo cáo mạng xã hội và website | 25 tháng 09 năm 2026")
 footer_run.font.name = "Aptos"
 footer_run.font.size = Pt(8)
 footer_run.font.color.rgb = RGBColor.from_string("666666")
@@ -162,12 +162,12 @@ table(
     doc,
     ["Trường", "Thông tin"],
     [
-        ["Ngày báo cáo", "23 tháng 09 năm 2026"],
+        ["Ngày báo cáo", "25 tháng 09 năm 2026"],
         ["Facebook", "travelframe.vn"],
         ["Instagram", "@travelframe.vn"],
         ["Website", "travelframe.sidevn.com | GA4 Property 552867189"],
-        ["Social snapshot", "Meta Graph API live: 23 tháng 09 năm 2026"],
-        ["Website snapshot", "GA4 live: 24 tháng 08 đến 22 tháng 09 năm 2026"],
+        ["Social snapshot", "Meta Graph API live: 25 tháng 09 năm 2026"],
+        ["Website snapshot", "GA4 live: 26 tháng 08 đến 24 tháng 09 năm 2026"],
         ["Trạng thái", "Draft để review nội bộ"],
     ],
     [1.55, 5.5],
@@ -191,8 +191,8 @@ table(
     doc,
     ["Nguồn", "Trạng thái", "Cách dùng trong báo cáo"],
     [
-        ["Facebook và Instagram", "Đọc live thành công ngày 23 tháng 09", "Chỉ đọc dữ liệu, không có thay đổi live"],
-        ["GA4", "Đọc live đến hết ngày 22 tháng 09", "Dùng làm số liệu website hiện tại"],
+        ["Facebook và Instagram", "Đọc live thành công ngày 25 tháng 09", "Chỉ đọc dữ liệu, không có thay đổi live"],
+        ["GA4", "Đọc live đến hết ngày 24 tháng 09", "Dùng làm số liệu website hiện tại"],
         ["CRM và booking", "Chưa có evidence được đối soát", "Không tính form submit là booking hoặc doanh thu"],
     ],
     [1.55, 2.15, 3.35],
@@ -204,9 +204,9 @@ table(
     doc,
     ["Kênh", "Quy mô hoặc lưu lượng", "Tín hiệu tích cực", "Điểm cần xử lý"],
     [
-        ["Facebook", "921 followers; 67 bài đọc được", "316 shares; bài cao nhất 66 shares", "Chưa có comments, reactions và Page Insights đầy đủ"],
-        ["Instagram", "283 followers; 85 media", "137.610 reach; 16.245 interactions", "Chỉ có 11 website clicks trong 30 ngày"],
-        ["Website", "64 users; 149 sessions; 742 page views", "52 views trang booking; 77 views trang tours", "34 sessions Tag Assistant và traffic admin làm nhiễu dữ liệu"],
+        ["Facebook", "959 followers; 75 bài đọc được", "328 shares; bài cao nhất 66 shares", "Chưa có comments, reactions và Page Insights đầy đủ"],
+        ["Instagram", "295 followers; 91 media", "143.397 reach; 17.316 interactions", "Chỉ có 11 website clicks trong 30 ngày"],
+        ["Website", "64 users; 159 sessions; 798 page views", "59 views trang booking; 81 views trang tours", "36 sessions Tag Assistant và traffic admin làm nhiễu dữ liệu"],
     ],
     [1.05, 1.75, 2.25, 2.0],
 )
@@ -214,8 +214,8 @@ table(
 heading(doc, "1. Facebook Fanpage")
 paragraph(
     doc,
-    "Dữ liệu live ngày 23 tháng 09 cho thấy Fanpage travelframe.vn có 921 followers, "
-    "67 bài đọc được và 316 shares trong tập bài trả về. Shares tập trung vào một số winner, vì vậy "
+    "Dữ liệu live ngày 25 tháng 09 cho thấy Fanpage travelframe.vn có 959 followers, "
+    "75 bài đọc được và 328 shares trong tập bài trả về. Shares tập trung vào một số winner, vì vậy "
     "không nên coi mọi format đều hiệu quả như nhau."
 )
 heading(doc, "Nội Dung Facebook Đang Thắng", level=2)
@@ -224,8 +224,8 @@ table(
     ["Hạng", "Chủ đề", "Shares", "Lý do thắng"],
     [
         ["1", "Cách sang đường ở Việt Nam", "66", "Giải quyết nỗi lo cụ thể, dễ gửi cho người đi cùng"],
-        ["2", "Hanoi Train Street quick guide", "44", "Thông tin thực tế có giá trị lên lịch và chia sẻ"],
-        ["3", "5 Train Street cafés", "31", "Địa điểm cụ thể kèm bối cảnh trải nghiệm"],
+        ["2", "Hanoi Train Street quick guide", "47", "Thông tin thực tế có giá trị lên lịch và chia sẻ"],
+        ["3", "5 Train Street cafés", "32", "Địa điểm cụ thể kèm bối cảnh trải nghiệm"],
         ["4", "Hidden Hanoi location kèm CTA DM", "28", "Tò mò cộng lời mời hành động rõ"],
         ["5", "Vietnam Cheat Sheet Part 2", "28", "Checklist có giá trị save và share"],
     ],
@@ -243,18 +243,18 @@ doc.add_page_break()
 heading(doc, "2. Instagram Business")
 paragraph(
     doc,
-    "Cửa sổ Insights live là 24 tháng 08 đến 22 tháng 09 năm 2026. "
+    "Cửa sổ Insights live là 26 tháng 08 đến 24 tháng 09 năm 2026. "
     "Instagram là động cơ discovery chính, nhưng bước từ profile sang website hiện rất thấp."
 )
 table(
     doc,
     ["Chỉ số", "Giá trị", "Diễn giải"],
     [
-        ["Views", "330.802", "Độ phủ nội dung lớn so với quy mô follower"],
-        ["Reach", "137.610", "Nhiều người mới có cơ hội nhìn thấy nội dung"],
-        ["Accounts engaged", "7.519", "Có nền tảng tương tác thực"],
-        ["Total interactions", "16.245", "Tương tác nội dung cao"],
-        ["Profile views", "2.256", "Có cầu nối từ Reel sang profile"],
+        ["Views", "354.334", "Độ phủ nội dung lớn so với quy mô follower"],
+        ["Reach", "143.397", "Nhiều người mới có cơ hội nhìn thấy nội dung"],
+        ["Accounts engaged", "7.965", "Có nền tảng tương tác thực"],
+        ["Total interactions", "17.316", "Tương tác nội dung cao"],
+        ["Profile views", "2.317", "Có cầu nối từ Reel sang profile"],
         ["Website clicks", "11", "Bottleneck lớn nhất của phễu"],
     ],
     [1.65, 1.15, 4.25],
@@ -265,19 +265,19 @@ table(
     doc,
     ["Hạng", "Nhóm nội dung", "Engagement", "Vai trò phù hợp"],
     [
-        ["1", "Crossing the road in Vietnam", "345", "Safety utility và confidence building"],
-        ["2", "Hanoi flooding reaction", "309", "Topical humour và discovery"],
-        ["3", "Short humorous Hanoi reaction", "292", "Entertainment để duy trì reach"],
+        ["1", "Crossing the road in Vietnam", "351", "Safety utility và confidence building"],
+        ["2", "Hanoi flooding reaction", "310", "Topical humour và discovery"],
+        ["3", "Short humorous Hanoi reaction", "294", "Entertainment để duy trì reach"],
         ["4", "Hidden Hanoi location", "258", "Curiosity, local discovery và CTA DM"],
-        ["5", "Save-time Vietnam tip", "240", "Utility dễ save/share"],
-        ["6", "Cash-payment scam warning", "183", "Safety content có ý định cao"],
+        ["5", "Save-time Vietnam tip", "245", "Utility dễ save/share"],
+        ["6", "Cash-payment scam warning", "185", "Safety content có ý định cao"],
     ],
     [0.55, 2.9, 1.1, 2.5],
     numeric_columns=[0, 2],
 )
 paragraph(
     doc,
-    "Tỷ lệ reach sang profile khoảng 1,64%, nhưng profile sang website click chỉ khoảng 0,49%. "
+    "Tỷ lệ reach sang profile khoảng 1,62%, nhưng profile sang website click chỉ khoảng 0,47%. "
     "Nội dung đang tạo sự chú ý; bio, offer và CTA chưa biến sự chú ý đó thành lượt đi sâu đủ rõ."
 )
 
@@ -285,7 +285,7 @@ doc.add_page_break()
 heading(doc, "3. Website GA4")
 paragraph(
     doc,
-    "GA4 được truy vấn live cho 24 tháng 08 đến 22 tháng 09 năm 2026. Dữ liệu chỉ bắt đầu có hoạt động "
+    "GA4 được truy vấn live cho 26 tháng 08 đến 24 tháng 09 năm 2026. Dữ liệu chỉ bắt đầu có hoạt động "
     "từ 14 tháng 09; vì thế không đủ lịch sử để kết luận tăng trưởng tháng hoặc so sánh tuần có ý nghĩa."
 )
 table(
@@ -293,10 +293,10 @@ table(
     ["Chỉ số", "Giá trị", "Ghi chú"],
     [
         ["Active users", "64", "Toàn bộ người dùng được GA4 ghi nhận"],
-        ["Sessions", "149", "Bao gồm traffic test và nội bộ"],
-        ["Page views", "742", "Có spike ngày 21 tháng 09 cần kiểm tra"],
-        ["Bounce rate", "53,7%", "Không diễn giải như KPI cuối cùng khi còn traffic test"],
-        ["Average session duration", "8 phút 05 giây", "Tăng bởi một số phiên sâu hoặc nội bộ"],
+        ["Sessions", "159", "Bao gồm traffic test và nội bộ"],
+        ["Page views", "798", "Có spike ngày 21 tháng 09 cần kiểm tra"],
+        ["Bounce rate", "50,3%", "Không diễn giải như KPI cuối cùng khi còn traffic test"],
+        ["Average session duration", "8 phút 24 giây", "Tăng bởi một số phiên sâu hoặc nội bộ"],
         ["Form starts", "20 từ 4 users", "Chưa xác nhận là khách thật"],
         ["Form submits", "19 từ 4 users", "Không được coi là booking trước khi đối soát CRM"],
     ],
@@ -308,12 +308,12 @@ table(
     doc,
     ["Trang", "Views", "Users", "Ý nghĩa"],
     [
-        ["/", "154", "59", "Trang vào chính"],
-        ["/tours", "77", "10", "Bắt đầu khám phá offer"],
-        ["/news", "65", "9", "Nội dung có thể hỗ trợ organic search"],
-        ["/booking", "52", "11", "Có tín hiệu intent, cần đối soát"],
+        ["/", "168", "59", "Trang vào chính"],
+        ["/tours", "81", "11", "Bắt đầu khám phá offer"],
+        ["/news", "70", "9", "Nội dung có thể hỗ trợ organic search"],
+        ["/booking", "59", "12", "Có tín hiệu intent, cần đối soát"],
         ["/gallery", "29", "10", "Proof visual có người xem"],
-        ["Trang quản trị", "99", "không áp dụng", "Không dùng đánh giá hiệu quả khách hàng"],
+        ["Trang quản trị", "109", "không áp dụng", "Không dùng đánh giá hiệu quả khách hàng"],
     ],
     [1.8, 0.85, 0.85, 3.5],
     numeric_columns=[1, 2],
@@ -323,10 +323,10 @@ table(
     doc,
     ["Nguồn", "Sessions", "Đọc đúng dữ liệu"],
     [
-        ["Direct", "91", "Cần gắn UTM để biết nguồn thật"],
-        ["tagassistant.google.com / referral", "34", "Traffic kiểm thử, cần loại khỏi KPI marketing"],
-        ["google / organic", "13", "Tín hiệu SEO ban đầu"],
-        ["Organic Social tổng", "10", "Chưa tương xứng với social reach"],
+        ["Direct", "98", "Cần gắn UTM để biết nguồn thật"],
+        ["tagassistant.google.com / referral", "36", "Traffic kiểm thử, cần loại khỏi KPI marketing"],
+        ["google / organic", "14", "Tín hiệu SEO ban đầu"],
+        ["Organic Social tổng", "11", "Chưa tương xứng với social reach"],
     ],
     [2.5, 1.0, 3.5],
     numeric_columns=[1],
@@ -359,7 +359,7 @@ bullet(doc, "Loại traffic nội bộ, trang admin và Tag Assistant khỏi bá
 bullet(doc, "Đối soát form submit với CRM và bổ sung trường source, keyword, qualified lead, quote, deposit, paid booking.")
 
 heading(doc, "Giới Hạn Dữ Liệu")
-bullet(doc, "Social data được đọc live ngày 23 tháng 09, còn Instagram Insights dùng cửa sổ 24 tháng 08 đến 22 tháng 09.")
+bullet(doc, "Social data được đọc live ngày 25 tháng 09, còn Instagram Insights dùng cửa sổ 26 tháng 08 đến 24 tháng 09.")
 bullet(doc, "Facebook chưa trả comments, reactions hoặc Page Insights đầy đủ vì thiếu pages_read_user_content hoặc Page Public Content Access.")
 bullet(doc, "GA4 còn traffic internal/test, đặc biệt Tag Assistant và trang quản trị.")
 bullet(doc, "Không có Meta Ads spend, CRM evidence hoặc booking revenue; không tính được ROAS, CAC, CPL hoặc conversion to booking.")

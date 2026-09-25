@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelFrame Hanoi — Private Photo Tours & Local Guided Experiences</title>
+  <style>
+    :root {
+      --primary: #008AA3;
+      --primary-dark: #00596B;
+      --primary-light: #E0F2F5;
+      --charcoal: #1E293B;
+      --muted: #64748B;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --border: #E2E8F0;
+      --gold: #D97706;
+      --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background: #0F172A;
+      color: var(--charcoal);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    /* Top Control Bar */
+    .top-controls {
+      width: 100%;
+      max-width: 900px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      color: #F8FAFC;
+      font-size: 14px;
+    }
+
+    .brand-logo {
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      color: #38BDF8;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .view-toggles {
+      display: flex;
+      gap: 8px;
+      background: #1E293B;
+      padding: 4px;
+      border-radius: 8px;
+    }
+
+    .toggle-btn {
+      background: transparent;
+      border: none;
+      color: #94A3B8;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .toggle-btn.active {
+      background: var(--primary);
+      color: #FFFFFF;
+    }
+
+    /* Deck Frame Container */
+    .deck-container {
+      width: 100%;
+      max-width: 860px;
+      background: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: max-width 0.3s ease;
+    }
+
+    /* Mobile View Mode Modifier */
+    .deck-container.mobile-mode {
+      max-width: 440px;
+    }
+
+    .slides-wrapper {
+      position: relative;
+      min-height: 560px;
+      overflow: hidden;
+    }
+
+    .slide {
+      display: none;
+      padding: 40px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .slide.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Slide 1: Cover */
+    .cover-slide {
+      background: linear-gradient(rgba(15, 23, 42, 0.65), rgba(15, 23, 42, 0.85)), url('assets/hero-cover.jpg') center/cover no-repeat;
+      color: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 560px;
+      padding: 60px 30px;
+    }
+
+    .cover-tag {
+      background: rgba(0, 138, 163, 0.85);
+      color: #FFFFFF;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .cover-title {
+      font-size: 38px;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      max-width: 650px;
+    }
+
+    .cover-subtitle {
+      font-size: 18px;
+      color: #E2E8F0;
+      max-width: 540px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      font-weight: 300;
+    }
+
+    .cover-meta {
+      display: flex;
+      gap: 20px;
+      font-size: 13px;
+      color: #94A3B8;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      padding-top: 20px;
+    }
+
+    /* General Slide Elements */
+    .slide-badge {
+      display: inline-block;
+      color: var(--primary);
+      background: var(--primary-light);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    .slide-title {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--charcoal);
+      margin-bottom: 8px;
+    }
+
+    .slide-desc {
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    /* Grid & Cards */
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 10px;
+    }
+
+    .comp-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      background: #FFFFFF;
+    }
+
+    .comp-card.highlight {
+      border: 2px solid var(--primary);
+      background: var(--primary-light);
+    }
+
+    .comp-card h4 {
+      font-size: 16px;
+      margin-bottom: 12px;
+      color: var(--charcoal);
+    }
+
+    .comp-card ul {
+      list-style: none;
+    }
+
+    .comp-card li {
+      font-size: 13.5px;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    /* Moods Grid */
+    .moods-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .mood-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      background: #FFFFFF;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+
+    .mood-img {
+      height: 120px;
+      width: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .mood-body {
+      padding: 14px;
+    }
+
+    .mood-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 4px;
+    }
+
+    .mood-desc {
+      font-size: 12.5px;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    /* Pricing Packages */
+    .packages-container {
+      display: grid;
+      grid-template-columns: 1fr 1.15fr 1fr;
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .package-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 16px;
+      background: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .package-card.popular {
+      border: 2px solid var(--primary);
+      background: #FBFEFF;
+      box-shadow: 0 10px 25px -5px rgba(0, 138, 163, 0.15);
+      transform: scale(1.02);
+    }
+
+    .popular-tag {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--primary);
+      color: #FFFFFF;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 10px;
+      border-radius: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    .pkg-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--charcoal);
+      margin-bottom: 6px;
+    }
+
+    .pkg-time {
+      font-size: 12.5px;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .pkg-price {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--primary-dark);
+      margin-bottom: 4px;
+    }
+
+    .pkg-vnd {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+    }
+
+    .pkg-features {
+      list-style: none;
+      font-size: 12.5px;
+      color: var(--charcoal);
+      flex-grow: 1;
+    }
+
+    .pkg-features li {
+      margin-bottom: 6px;
+      line-height: 1.4;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Testimonials */
+    .reviews-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .review-item {
+      background: var(--bg);
+      border-left: 4px solid var(--primary);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+
+    .review-text {
+      font-size: 13.5px;
+      font-style: italic;
+      color: var(--charcoal);
+      margin-bottom: 6px;
+      line-height: 1.5;
+    }
+
+    .review-author {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--primary-dark);
+    }
+
+    /* SLA & Booking Flow */
+    .steps-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .step-box {
+      background: var(--bg);
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+    }
+
+    .step-num {
+      width: 32px;
+      height: 32px;
+      background: var(--primary);
+      color: #FFFFFF;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      margin: 0 auto 10px;
+      font-size: 14px;
+    }
+
+    .step-box h5 {
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+
+    .step-box p {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+
+    /* Contact CTA */
+    .cta-container {
+      background: linear-gradient(135deg, #008AA3, #00596B);
+      color: #FFFFFF;
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .cta-btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 22px;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      transition: transform 0.15s ease;
+    }
+
+    .btn-action:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: #FFFFFF;
+    }
+
+    .btn-ig {
+      background: #FFFFFF;
+      color: #1E293B;
+    }
+
+    /* Bottom Navigation Bar */
+    .deck-nav {
+      background: #F1F5F9;
+      border-top: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-btn {
+      background: #FFFFFF;
+      border: 1px solid var(--border);
+      color: var(--charcoal);
+      padding: 8px 18px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+
+    .nav-btn:hover:not(:disabled) {
+      background: var(--primary);
+      color: #FFFFFF;
+      border-color: var(--primary);
+    }
+
+    .nav-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .nav-dots {
+      display: flex;
+      gap: 6px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #CBD5E1;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .dot.active {
+      background: var(--primary);
+      width: 20px;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 680px) {
+      .comparison-grid, .moods-grid, .packages-container, .steps-grid {
+        grid-template-columns: 1fr;
+      }
+      .slide {
+        padding: 24px 18px;
+      }
+      .cover-title {
+        font-size: 28px;
+      }
+      .package-card.popular {
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-controls">
+    <div class="brand-logo">
+      <span>📸</span> TRAVELFRAME HANOI
+    </div>
+    <div class="view-toggles">
+      <button class="toggle-btn active" id="btnDesktopView" onclick="setViewMode('desktop')">🖥️ Desktop Magazine</button>
+      <button class="toggle-btn" id="btnMobileView" onclick="setViewMode('mobile')">📱 Mobile View</button>
+    </div>
+  </div>
+
+  <div class="deck-container" id="deckContainer">
+    <div class="slides-wrapper">
+
+      <!-- SLIDE 1: COVER -->
+      <div class="slide active cover-slide" id="slide-1">
+        <div class="cover-tag">2026 Customer Pitching Catalogue</div>
+        <h1 class="cover-title">Explore Hanoi With a Local Friend, Preserve Your Story in Frames</h1>
+        <p class="cover-subtitle">Private bespoke walking tours paired with high-end candid photography and cinematic vertical video.</p>
+        <div class="cover-meta">
+          <span>✨ 100% Private</span>
+          <span>⚡ 24h Sneak Peek</span>
+          <span>📍 Secret Local Routes</span>
+        </div>
+      </div>
+
+      <!-- SLIDE 2: WHY US -->
+      <div class="slide" id="slide-2">
+        <span class="slide-badge">The TravelFrame Difference</span>
+        <h2 class="slide-title">Say Goodbye to Stiff Poses & Rushed Group Tours</h2>
+        <p class="slide-desc">We created TravelFrame to solve the dilemma every discerning traveler faces in Southeast Asia.</p>
+
+        <div class="comparison-grid">
+          <div class="comp-card">
+            <h4>❌ Ordinary Travel Frustrations</h4>
+            <ul>
+              <li>🚫 <strong>Crowded Group Tours:</strong> Rushed 15-minute stops, zero context, forced souvenir shops.</li>
+              <li>🚫 <strong>Awkward Photoshoots:</strong> Stiff poses directed by photographers who don't know the city.</li>
+              <li>🚫 <strong>Tripod Headaches:</strong> Missing the moment while trying to balance a phone in crowded alleys.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card highlight">
+            <h4>✨ The TravelFrame Experience</h4>
+            <ul>
+              <li>✅ <strong>Your Local Hanoi Friend:</strong> Fluent, cultured guide who shares hidden folklore and local cafe culture.</li>
+              <li>✅ <strong>Natural, Candid Moments:</strong> We guide gentle posture while capturing pure, genuine smiles.</li>
+              <li>✅ <strong>All-Inclusive & Stress-Free:</strong> Professional camera gear, private pace, specialty coffee stops included.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 3: 4 SIGNATURE MOODS -->
+      <div class="slide" id="slide-3">
+        <span class="slide-badge">Aesthetic Direction</span>
+        <h2 class="slide-title">Four Distinct Hanoi Moods</h2>
+        <p class="slide-desc">Select 1 or 2 visual vibes for your private session. We customize the route to match your personality.</p>
+
+        <div class="moods-grid">
+          <div class="mood-card">
+            <img src="assets/heritage.jpg" alt="Heritage Hanoi" class="mood-img" />
+            <div class="mood-body">
+              <div class="mood-name">🏛️ Heritage Hanoi</div>
+              <div class="mood-desc">Ancient temple eaves, mossy brick walls, and centuries of architectural nostalgia.</div>
+            </div>
+          </div>
+          <div class="mood-card">
+            <img src="assets/everyday.jpg" alt="Everyday Hanoi" class="mood-img" />
+            <div class="mood-body">
+              <div class="mood-name">☕ Everyday Hanoi</div>
+              <div class="mood-desc">Vibrant morning markets, egg coffee alleys, and kinetic street documentary vibes.</div>
+            </div>
+          </div>
+          <div class="mood-card">
+            <img src="assets/in-style.jpg" alt="Hanoi In Style" class="mood-img" />
+            <div class="mood-body">
+              <div class="mood-name">✨ Hanoi In Style</div>
+              <div class="mood-desc">French Quarter elegance, colonial colonnades, and polished editorial portraits.</div>
+            </div>
+          </div>
+          <div class="mood-card">
+            <img src="assets/after-dark.jpg" alt="Hanoi After Dark" class="mood-img" />
+            <div class="mood-body">
+              <div class="mood-name">🌙 Hanoi After Dark</div>
+              <div class="mood-desc">Twilight on Long Bien Bridge, neon-lit night markets, and cinematic street glow.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 4: PACKAGES & PRICING -->
+      <div class="slide" id="slide-4">
+        <span class="slide-badge">Transparent Value</span>
+        <h2 class="slide-title">All-Inclusive Private Tour Packages</h2>
+        <p class="slide-desc">No hidden surcharges. Includes dedicated host/photographer, entrance tickets, beverage stops & retouching.</p>
+
+        <div class="packages-container">
+          <!-- Package 1 -->
+          <div class="package-card">
+            <div class="pkg-title">Quick Photo Walk</div>
+            <div class="pkg-time">⏱️ 2 - 2.5 Hours (1-2 Guests)</div>
+            <div class="pkg-price">$75 <span style="font-size: 14px; font-weight: normal; color: var(--muted);">USD</span></div>
+            <div class="pkg-vnd">~ 1,950,000 VND / Group</div>
+            <ul class="pkg-features">
+              <li>📸 15+ Retouched photos</li>
+              <li>☕ 1 Specialty coffee stop</li>
+              <li>📍 1 Core historic quarter</li>
+              <li>⚡ 24-48h Delivery</li>
+            </ul>
+          </div>
+
+          <!-- Package 2 (Popular) -->
+          <div class="package-card popular">
+            <div class="popular-tag">MOST POPULAR</div>
+            <div class="pkg-title">Signature Story Tour</div>
+            <div class="pkg-time">⏱️ 4 - 4.5 Hours (1-3 Guests)</div>
+            <div class="pkg-price">$160 <span style="font-size: 14px; font-weight: normal; color: var(--muted);">USD</span></div>
+            <div class="pkg-vnd">~ 4,150,000 VND / Group</div>
+            <ul class="pkg-features">
+              <li>📸 <strong>35+ Retouched photos</strong></li>
+              <li>🎬 <strong>1 Vertical 9:16 Reel (45s)</strong></li>
+              <li>🍜 Street food & coffee tasting</li>
+              <li>🏛️ 2 Selected Moods</li>
+              <li>⚡ <strong>24h Sneak Peek + 48h Gallery</strong></li>
+            </ul>
+          </div>
+
+          <!-- Package 3 -->
+          <div class="package-card">
+            <div class="pkg-title">Cultural Odyssey</div>
+            <div class="pkg-time">⏱️ 8 - 9 Hours (2-6 Guests)</div>
+            <div class="pkg-price">$290 <span style="font-size: 14px; font-weight: normal; color: var(--muted);">USD</span></div>
+            <div class="pkg-vnd">~ 7,500,000 VND / Group</div>
+            <ul class="pkg-features">
+              <li>📸 60+ Master retouched photos</li>
+              <li>🎥 1 Cinematic film (60-90s)</li>
+              <li>🚗 Full-day private vehicle</li>
+              <li>🏺 Pottery or Incense village</li>
+              <li>🍽️ Traditional lunch included</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 5: SLA & GEAR -->
+      <div class="slide" id="slide-5">
+        <span class="slide-badge">Technical Assurance</span>
+        <h2 class="slide-title">Uncompromising Quality & Delivery SLA</h2>
+        <p class="slide-desc">We respect your travel schedule with prompt communication and guaranteed turnaround times.</p>
+
+        <div class="comparison-grid">
+          <div class="comp-card">
+            <h4>📷 Premium Camera Gear</h4>
+            <p style="font-size: 13.5px; color: var(--muted); line-height: 1.5;">
+              • Sony A7 & Canon R Series full-frame bodies.<br />
+              • Prime portrait glass (35mm f/1.4, 50mm f/1.2, 85mm f/1.4) for creamy bokeh and magical low-light.<br />
+              • Wireless Rode/DJI microphones for crisp audio in video reels.
+            </p>
+          </div>
+
+          <div class="comp-card">
+            <h4>⚡ Rapid Delivery SLA</h4>
+            <p style="font-size: 13.5px; color: var(--muted); line-height: 1.5;">
+              • <strong>Within 24 Hours:</strong> Sneak peek hero shots delivered directly to your WhatsApp to post while in Vietnam.<br />
+              • <strong>Within 48-72 Hours:</strong> Private encrypted cloud gallery with full-resolution & web-ready downloads.<br />
+              • <strong>Privacy Guarantee:</strong> Zero public posting without your explicit permission.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 6: TESTIMONIALS -->
+      <div class="slide" id="slide-6">
+        <span class="slide-badge">Social Proof</span>
+        <h2 class="slide-title">Loved by Travelers from Around the Globe</h2>
+        <p class="slide-desc">Real impressions from solo travelers, couples, and creators who explored Hanoi with us.</p>
+
+        <div class="reviews-list">
+          <div class="review-item">
+            <div class="review-text">"As a solo female traveler, taking good photos without asking strangers is so hard. Mike from TravelFrame felt like an old friend showing me around his hometown. The photos look straight out of a magazine!"</div>
+            <div class="review-author">— Emma R., Sydney, Australia (Solo Traveler)</div>
+          </div>
+          <div class="review-item">
+            <div class="review-text">"We hate stiff couple posing. TravelFrame guided us to laugh naturally while walking down French colonial alleys. The 24-hour sneak peek made our entire honeymoon!"</div>
+            <div class="review-author">— David & Chloe, London, UK (Honeymooners)</div>
+          </div>
+          <div class="review-item">
+            <div class="review-text">"The vertical Reel footage was shot and graded impeccably. TravelFrame brought me to secret spots I could have never discovered on my own. Truly worth every penny."</div>
+            <div class="review-author">— Marcus K., Berlin, Germany (Content Creator)</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 7: HOW TO BOOK & CONTACT CTA -->
+      <div class="slide" id="slide-7">
+        <span class="slide-badge">Seamless Booking</span>
+        <h2 class="slide-title">Reserve Your Date in 3 Simple Steps</h2>
+        <p class="slide-desc">No complicated paperwork. Transparent confirmation via WhatsApp or Instagram DM.</p>
+
+        <div class="steps-grid">
+          <div class="step-box">
+            <div class="step-num">1</div>
+            <h5>Pick Your Vibe</h5>
+            <p>Select your preferred package, date, and 1-2 Moods.</p>
+          </div>
+          <div class="step-box">
+            <div class="step-num">2</div>
+            <h5>Tailor With Host</h5>
+            <p>Chat via WhatsApp/DM to confirm hotel pickup and timing.</p>
+          </div>
+          <div class="step-box">
+            <div class="step-num">3</div>
+            <h5>Meet & Enjoy</h5>
+            <p>Meet your host in Hanoi. Free cancellation up to 48h.</p>
+          </div>
+        </div>
+
+        <div class="cta-container">
+          <h3 style="font-size: 20px; margin-bottom: 8px;">Ready to Capture Your Hanoi Memories?</h3>
+          <p style="font-size: 13.5px; opacity: 0.9;">Tours are limited to 2 sessions per host daily. Reserve your slot early.</p>
+          <div class="cta-btn-row">
+            <a href="https://wa.me/84904888644?text=Hi%20TravelFrame!%20I'd%20like%20to%20book%20a%20private%20photo-tour%20in%20Hanoi." target="_blank" class="btn-action btn-whatsapp">
+              💬 Chat on WhatsApp
+            </a>
+            <a href="https://instagram.com/travelframe.vn" target="_blank" class="btn-action btn-ig">
+              📸 DM on Instagram (@travelframe.vn)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE 8: B2B PARTNERSHIP & MEDIA KIT -->
+      <div class="slide" id="slide-8">
+        <span class="slide-badge">B2B Co-Marketing</span>
+        <h2 class="slide-title">Partner With TravelFrame: Grow Together</h2>
+        <p class="slide-desc">Connect your hotel, cafe, craft workshop, or tour agency with thousands of high-spending inbound travelers visiting Hanoi.</p>
+
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px; background: var(--bg); padding: 14px; border-radius: 10px; text-align: center;">
+          <div>
+            <div style="font-size: 20px; font-weight: 800; color: var(--primary-dark);">41.9K+</div>
+            <div style="font-size: 11px; color: var(--muted); text-transform: uppercase;">Monthly Views</div>
+          </div>
+          <div>
+            <div style="font-size: 20px; font-weight: 800; color: var(--primary-dark);">27.4K+</div>
+            <div style="font-size: 11px; color: var(--muted); text-transform: uppercase;">Accounts Reached</div>
+          </div>
+          <div>
+            <div style="font-size: 20px; font-weight: 800; color: var(--primary-dark);">98.7%</div>
+            <div style="font-size: 11px; color: var(--muted); text-transform: uppercase;">Non-Followers (New Visitors)</div>
+          </div>
+          <div>
+            <div style="font-size: 20px; font-weight: 800; color: var(--primary-dark);">$75 - $290</div>
+            <div style="font-size: 11px; color: var(--muted); text-transform: uppercase;">Guest Spending Power</div>
+          </div>
+        </div>
+
+        <div class="steps-grid" style="margin-bottom: 16px;">
+          <div class="step-box" style="text-align: left;">
+            <h5 style="color: var(--primary-dark); font-size: 14px; margin-bottom: 4px;">🏨 Hotels & Homestays</h5>
+            <p style="font-size: 12px; line-height: 1.4; color: var(--charcoal);">
+              • <strong>15% Commission</strong> on every booking.<br/>
+              • Free room/interior photography.<br/>
+              • Elevate guest reviews on TripAdvisor.
+            </p>
+          </div>
+          <div class="step-box" style="text-align: left;">
+            <h5 style="color: var(--primary-dark); font-size: 14px; margin-bottom: 4px;">☕ Cafes & Restaurants</h5>
+            <p style="font-size: 12px; line-height: 1.4; color: var(--charcoal);">
+              • Guaranteed weekly guest foot traffic.<br/>
+              • Free magazine-quality food photography.<br/>
+              • Social shoutouts on viral food Reels.
+            </p>
+          </div>
+          <div class="step-box" style="text-align: left;">
+            <h5 style="color: var(--primary-dark); font-size: 14px; margin-bottom: 4px;">🏺 Workshops & Agencies</h5>
+            <p style="font-size: 12px; line-height: 1.4; color: var(--charcoal);">
+              • Included in Full-Day Cultural tours.<br/>
+              • <strong>25-30% B2B discount</strong> for tour agencies.<br/>
+              • Free artisan mini-documentary.
+            </p>
+          </div>
+        </div>
+
+        <div style="background: var(--primary-light); border: 1px solid var(--primary); border-radius: 10px; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+          <div>
+            <div style="font-weight: 700; font-size: 14px; color: var(--primary-dark);">Explore Partnership Opportunities</div>
+            <div style="font-size: 12px; color: var(--muted);">Zero upfront cost. Contact our partnership team today.</div>
+          </div>
+          <div style="display: flex; gap: 10px;">
+            <a href="https://wa.me/84904888644?text=Hi%20TravelFrame!%20We%20would%20like%20to%20partner%20with%20you." target="_blank" class="btn-action btn-whatsapp" style="padding: 8px 16px; font-size: 12.5px;">
+              💬 Partner via WhatsApp
+            </a>
+            <a href="mailto:partners@travelframe.vn" class="btn-action btn-ig" style="padding: 8px 16px; font-size: 12.5px; border: 1px solid var(--border);">
+              ✉️ Email Us
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM DECK NAVIGATION -->
+    <div class="deck-nav">
+      <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
+      <div class="nav-dots" id="dotsContainer"></div>
+      <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)">Next →</button>
+    </div>
+  </div>
+
+  <script>
+    let currentSlide = 1;
+    const totalSlides = 8;
+
+    function initDots() {
+      const container = document.getElementById("dotsContainer");
+      container.innerHTML = "";
+      for (let i = 1; i <= totalSlides; i++) {
+        const dot = document.createElement("div");
+        dot.className = `dot ${i === 1 ? 'active' : ''}`;
+        dot.onclick = () => goToSlide(i);
+        container.appendChild(dot);
+      }
+    }
+
+    function updateDeck() {
+      document.querySelectorAll(".slide").forEach((s, idx) => {
+        s.classList.toggle("active", idx + 1 === currentSlide);
+      });
+      document.querySelectorAll(".dot").forEach((d, idx) => {
+        d.classList.toggle("active", idx + 1 === currentSlide);
+      });
+
+      document.getElementById("prevBtn").disabled = (currentSlide === 1);
+      document.getElementById("nextBtn").innerText = (currentSlide === totalSlides) ? "Start Over ↺" : "Next →";
+    }
+
+    function changeSlide(direction) {
+      if (currentSlide === totalSlides && direction === 1) {
+        currentSlide = 1;
+      } else {
+        currentSlide = Math.max(1, Math.min(totalSlides, currentSlide + direction));
+      }
+      updateDeck();
+    }
+
+    function goToSlide(n) {
+      currentSlide = n;
+      updateDeck();
+    }
+
+    function setViewMode(mode) {
+      const container = document.getElementById("deckContainer");
+      document.getElementById("btnDesktopView").classList.toggle("active", mode === 'desktop');
+      document.getElementById("btnMobileView").classList.toggle("active", mode === 'mobile');
+      if (mode === 'mobile') {
+        container.classList.add("mobile-mode");
+      } else {
+        container.classList.remove("mobile-mode");
+      }
+    }
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight") changeSlide(1);
+      if (e.key === "ArrowLeft") changeSlide(-1);
+    });
+
+    initDots();
+    updateDeck();
+  </script>
+</body>
+</html>
