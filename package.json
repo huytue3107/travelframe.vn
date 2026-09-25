@@ -11,6 +11,7 @@
     "test": "npm run test:mcp",
     "test:mcp": "node --test Technology-Automation/Tests/legacy/mcp/*.test.mjs",
     "test:triage": "node --test Technology-Automation/Tests/typesafe_lead_triage.test.mjs",
+    "test:classifier": "node --test Technology-Automation/Tests/typesafe_content_classifier.test.mjs",
     "triage": "node Technology-Automation/Scripts/typesafe_lead_triage.mjs",
     "test:skills": "python3 -m unittest Technology-Automation.Tests.test_skill_manifest Technology-Automation.Tests.test_skill_contracts Technology-Automation.Tests.test_skill_sync -v",
     "test:workspace": "python3 -m unittest discover -s Technology-Automation/Tests -p 'test_*.py'",

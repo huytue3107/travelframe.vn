@@ -69,8 +69,10 @@ ManyChat theo mapping. Khong co du lieu nao tu dong ghi len ManyChat.
 Tuong lai (can runbook + approval rieng): ManyChat External Request POST state
 den service, response actions bien thanh Set Custom Field / Add Tag trong flow.
 
-Duyet API tra phi: Rocky da cung cap key 2026-09-23. Moi lan chay live can
-`--live` + `TYPESAFE_LIVE_APPROVED=1` o thoi diem goi (khong de ambient trong .env).
+Duyet API tra phi: Rocky da cung cap key 2026-09-23. Tu 2026-09-25 Rocky phe duyet
+**live la mac dinh** cho JEV (triage + content classifier): goi `--live` khong can
+nua env `TYPESAFE_LIVE_APPROVED=1`; dat `TYPESAFE_LIVE_APPROVED=0` khi muon chay
+offline/mock (xem `DES-20260925-JEV-CONTENT-CLASSIFIER`).
 
 ## 4. Ranh Gioi Bao Mat
 
@@ -87,6 +89,8 @@ Da duyet (2026-09-23):
 
 1. Dung TypeSafe API tra phi (Rocky cung cap key).
 2. Trien khai script + test + runbook + doc Sales-CRM (Draft/Review).
+3. Live la mac dinh cho goi JEV (Rocky, 2026-09-25); `TYPESAFE_LIVE_APPROVED=0`
+   la cong tat offline.
 
 Chua duyet — can approval rieng cua Rocky:
 
@@ -163,7 +167,7 @@ Mapping (chi thuc thi khi confidence >= 0.6; noul dung chinh gia tri):
 | Loi | Xu ly |
 |---|---|
 | Thieu `TYPESAFE_API_KEY` khi --live | exit 2, huong dan .env |
-| Thieu `TYPESAFE_LIVE_APPROVED=1` khi --live | exit 2, tu choi goi |
+| `TYPESAFE_LIVE_APPROVED=0` khi --live | exit 2, tu choi goi (cong tat offline) |
 | Input sai contract | throw voi mo ta field sai |
 | HTTP 401/422/429/529 | exit 1, hien status + message (khong in key) |
 | Answers thieu question id | answer mac dinh conf 0 -> policy cho review |
@@ -182,8 +186,8 @@ ManyChat change). `.env` giu nguyen.
   transport injectable; 1 test inject fetch-throw de assert mock khong ra
   internet; unit table-driven cho 6 hang policy; schema validation; guard gia
   (output khong chua $75|$130|$180|$160|$290).
-- Live smoke sau duyet: 1 state synthetic, `TYPESAFE_LIVE_APPROVED=1 npm run
-  triage -- --input <synthetic>.json --live`, kiem tra answers hop le + usage.
+- Live smoke sau duyet: 1 state synthetic, `npm run triage -- --input
+  <synthetic>.json --live`, kiem tra answers hop le + usage.
 
 ## 12. Trinh Tu Trien Khai
 

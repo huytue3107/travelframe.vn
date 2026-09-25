@@ -262,7 +262,7 @@ test('CLI --mock prints valid triage JSON', () => {
   assert.equal(parsed.guardrails.price_quoted, false);
 });
 
-test('CLI refuses live call without approval env', () => {
+test('CLI refuses live call when explicitly disabled (TYPESAFE_LIVE_APPROVED=0)', () => {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'triage-test-'));
   const statePath = path.join(tmp, 'state.json');
   fs.writeFileSync(statePath, JSON.stringify(FIXTURES.price_question));
@@ -271,13 +271,13 @@ test('CLI refuses live call without approval env', () => {
     try {
       execFileSync('node', [SCRIPT, '--input', statePath, '--live'], {
         cwd: ROOT, encoding: 'utf8',
-        env: { ...process.env, TYPESAFE_LIVE_APPROVED: '' },
+        env: { ...process.env, TYPESAFE_LIVE_APPROVED: '0' },
       });
       assert.fail('should have exited');
     } catch (err) {
       stderr = err.stderr || '';
     }
-    assert.ok(stderr.includes('TYPESAFE_LIVE_APPROVED'), 'live guard must explain the approval gate');
+    assert.ok(stderr.includes('TYPESAFE_LIVE_APPROVED'), 'guard must explain the offline switch');
   } finally {
     fs.rmSync(tmp, { recursive: true, force: true });
   }

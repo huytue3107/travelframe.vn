@@ -41,6 +41,7 @@ Kỹ năng tự động hóa và điều khiển việc tương tác, nuôi dư�
 - **Nguyên tắc Tương tác Newsfeed (Newsfeed Interaction Rule — BẮT BUỘC):**
   - Trong phiên lướt feed (`--mode feed`), Agent **BẮT BUỘC tương tác (Like và/hoặc Reply tự nhiên) với các bài viết hiển thị trên newsfeed**, **KHÔNG chỉ tương tác với nội dung tìm được qua từ khóa** (`--mode search`).
   - Bài viết trên newsfeed **không cần khớp Tầng 2 (Whitelist từ khóa)** vẫn được Like và/hoặc Reply đúng ngữ cảnh bài viết, như hành vi của một người dùng thật đang lướt bảng tin.
+  - Khi chưa xác minh được ngữ cảnh để viết Reply phù hợp, **Like là đủ** (đúng hành vi người dùng thật); tuyệt đối không ép bình luận văn mẫu chung chung. Nếu JEV tự tin xác minh bài **ngoài phạm vi** nội dung TravelFrame thì vẫn skip.
   - Tầng 1 (Blacklist loại trừ) vẫn áp dụng cho mọi bài newsfeed; pacing 45s-75s, author cooldown và quy tắc không hard-sell giữ nguyên.
   - Chỉ bài viết khớp từ khóa du lịch/photo tour mới đi tiếp quy trình xử lý sâu: đọc context thread, khai thác Top Comment (Pattern P-034) và lead triage `jev-latest`.
   - Bộ lọc 4 Tầng dưới đây áp dụng đầy đủ cho **tương tác theo từ khóa**; riêng bài newsfeed trong chế độ feed chỉ cần vượt Tầng 1.
@@ -60,6 +61,11 @@ Kỹ năng tự động hóa và điều khiển việc tương tác, nuôi dư�
   - Nếu bài viết chỉ nhắc chung chung về "đi chơi", "du lịch" mà không xác định được rõ địa danh hay dịch vụ cốt lõi (`contextTopic === 'general'`), hệ thống **BỎ QUA NGAY LẬP TỨC** (`skip`), tuyệt đối không like hay bình luận gượng ép. Thà bỏ qua 10 bài viết còn hơn tương tác lệch 1 bài gây tổn hại hình ảnh thương hiệu. (Quy tắc bỏ qua này áp dụng cho tương tác theo từ khóa; riêng bài viết trên newsfeed trong phiên lướt feed không bị chặn bởi điều kiện `contextTopic === 'general'`, xem Newsfeed Interaction Rule.)
 - **Tầng 4 (Author Cooldown Guard - Tránh Lặp Tác Giả):**
   - Duy trì ghi nhớ các tác giả đã tương tác trong 30 bài gần nhất từ log. Tự động bỏ qua các bài viết mới từ cùng một tác giả trong phiên để tránh gây cảm giác spam hoặc làm phiền người dùng.
+- **Phân loại ngữ nghĩa bằng JEV (Hybrid Scan Pipeline):**
+  - Sau Tier 1 (hard stop, không bao giờ bị model override) và prefilter từ khóa, Agent phân loại ứng viên bằng `Technology-Automation/Scripts/typesafe_content_classifier.mjs` (model `jev-latest`, 4 typed questions: `content_relevance`, `topic`, `lead_signal`, `season_claim`).
+  - Chỉ tin kết quả JEV khi `confidence >= 0.6`; dưới ngưỡng fallback `0.5` thì search mode skip, feed mode Like-only. Quyết định cuối nằm trong code policy, không giao cho model.
+  - **Live là mặc định** (Rocky duyệt 2026-09-25 — API trả phí, mỗi ứng viên 1 request). Cần `TYPESAFE_API_KEY`; đặt `TYPESAFE_LIVE_APPROVED=0` để bắt chạy offline/mock (xem `Technology-Automation/Runbooks/DES-20260925-JEV-CONTENT-CLASSIFIER.md`).
+  - `lead_signal` từ JEV bổ sung cho regex lead hiện có; lead phát hiện được vẫn đi tiếp luồng lead triage `jev-latest`.
 
 ### Bước 3: Đánh giá & Xoay Tua Văn Phong Gen Z (5-Angle Rotation Engine)
 - **Quy chuẩn kỹ năng viết Content (Humanizer & Anti-AI Tells):**
@@ -152,6 +158,9 @@ node .agents/skills/threads-engagement/scripts/threads_interact.mjs --mode searc
 
 # Tương tác đích danh vào 1 bài viết cụ thể
 node .agents/skills/threads-engagement/scripts/threads_interact.mjs --mode single --url "<threads-post-url>" --comment "<nội dung>"
+
+# Phân loại nội dung offline (mock) bằng JEV content classifier
+node Technology-Automation/Scripts/typesafe_content_classifier.mjs --mock hanoi_photo_relevant
 ```
 
 ---

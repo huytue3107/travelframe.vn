@@ -64,6 +64,9 @@ Mỗi bình luận tương tác của Agent được luân phiên tuần tự qu
            │
            ├── Lướt Feed / Tìm kiếm từ khóa (Search Matrix)
            │
+           ├── Hybrid Scan: Tier 1 blacklist (hard stop) ➔ prefilter từ khóa
+           │      └── JEV Content Classifier (jev-latest) ➔ relevance / topic / lead
+           │
            ├── Thao tác DOM: Like ➔ Reply ➔ Fill Comment ➔ Back (No-Reload)
            │
            ├── Pacing Engine (Giãn cách 45s - 75s tự nhiên)
@@ -77,6 +80,7 @@ Mỗi bình luận tương tác của Agent được luân phiên tuần tự qu
 - **Trình duyệt thực thi:** Orca Browser CLI điều khiển tab `https://www.threads.com/` (không mất session).
 - **Quy trình điều hướng:** Sau khi bình luận bài viết, bắt buộc dùng `window.history.back()` quay lại đúng vị trí viewport cũ, cuộn tiếp tục `window.scrollBy(0, 1000)`. **Tuyệt đối không reload lại trang chủ liên tục**.
 - **Bộ lọc trùng lặp:** Duy trì `seenUrls` đối chiếu với bảng tổng hợp để không tương tác 2 lần vào cùng 1 bài.
+- **Phân loại nội dung hybrid (DES-20260925-JEV-CONTENT-CLASSIFIER):** Tier 1 blacklist chạy deterministic trước và không bị model override; JEV (`jev-latest` qua `typesafe_content_classifier.mjs`) phân loại `content_relevance` / `topic` / `lead_signal` với confidence gate `0.6`, quyết định cuối trong code policy. Bài newsfeed trong `--mode feed` được Like/Reply tự nhiên không cần khớp từ khóa (Like-only khi thiếu ngữ cảnh để Reply đúng bài); chỉ bài khớp từ khóa mới đi xử lý sâu Pattern P-034.
 - **Tích hợp TypeSafe Lead Triage:** Khi khách hàng phản hồi tích cực hoặc inbox hỏi dịch vụ, dữ liệu được chuyển qua `Technology-Automation/Scripts/typesafe_lead_triage.mjs` để chấm điểm intent và đẩy về ManyChat CRM.
 
 ---

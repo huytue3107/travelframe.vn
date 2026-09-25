@@ -11,7 +11,8 @@
  * Usage:
  *   node Technology-Automation/Scripts/typesafe_lead_triage.mjs --mock photo_tour_ready
  *   node Technology-Automation/Scripts/typesafe_lead_triage.mjs --input state.json --live
- *   TYPESAFE_LIVE_APPROVED=1 required for any live call (Rocky approval gate).
+ *   Live is the default (Rocky approved 2026-09-25). Set TYPESAFE_LIVE_APPROVED=0
+ *   to force offline mock runs.
  */
 
 import fs from 'node:fs';
@@ -453,7 +454,7 @@ async function cli(argv) {
     console.log(
       'TypeSafe Lead Triage\n' +
       '  --mock <scenario>          run offline (scenarios: ' + Object.keys(MOCK_SCENARIOS).join(', ') + ')\n' +
-      '  --input <file> --live      call the live API (needs TYPESAFE_API_KEY + TYPESAFE_LIVE_APPROVED=1)'
+      '  --input <file> --live      call the live API (needs TYPESAFE_API_KEY; set TYPESAFE_LIVE_APPROVED=0 to disable live)'
     );
     return 0;
   }
@@ -467,8 +468,8 @@ async function cli(argv) {
     return 0;
   }
 
-  if (process.env.TYPESAFE_LIVE_APPROVED !== '1') {
-    console.error('Live calls require --live + TYPESAFE_LIVE_APPROVED=1 (Rocky approval gate).');
+  if (process.env.TYPESAFE_LIVE_APPROVED === '0') {
+    console.error('Live calls are disabled (TYPESAFE_LIVE_APPROVED=0). Use --mock for offline runs.');
     return 2;
   }
   if (!flags.input) {

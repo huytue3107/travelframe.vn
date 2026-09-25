@@ -15,6 +15,16 @@
  *   - Tier 4: Zero-Generic Quality Gate (Never comments on vague/general posts)
  *   - Anti-AI rules: Zero hyphens, no trailing emojis, slang and puns enclosed in quotes ""
  *
+ * Hybrid scan pipeline (DES-20260925-JEV-CONTENT-CLASSIFIER):
+ *   - Tier 1 blacklist always runs first, deterministic, never overridden by the model.
+ *   - JEV (jev-latest) classifies candidate posts (relevance, topic, lead, season)
+ *     via typesafe_content_classifier.mjs — live by default (Rocky approved
+ *     2026-09-25; set TYPESAFE_LIVE_APPROVED=0 for offline keyword fallback).
+ *   - Policy stays in code: trust JEV only at confidence >= 0.6, fall back otherwise.
+ *   - Newsfeed Interaction Rule: in --mode feed, posts passing Tier 1 get natural
+ *     interaction (Like always; Reply only with a verified contextual topic) even
+ *     when no keyword matches. Search modes keep the Zero-Generic Skip Rule.
+ *
  * Usage:
  *   node threads_interact.mjs --mode feed --duration 30
  *   node threads_interact.mjs --mode search --query "photo tour" --duration 15
@@ -31,12 +41,14 @@ const ORCA_CLI = '/Applications/Orca.app/Contents/Resources/app.asar.unpacked/ou
 const LOG_FILE = path.resolve(process.cwd(), 'Marketing-Growth/Content/Threads-All-Interactions-Log.md');
 const MINED_COMMENTS_FILE = path.resolve(process.cwd(), 'Research-Insights/Library/knowledge/threads-high-engagement-comments.json');
 const TRIAGE_SCRIPT = path.resolve(process.cwd(), 'Technology-Automation/Scripts/typesafe_lead_triage.mjs');
+const CLASSIFIER_SCRIPT = path.resolve(process.cwd(), 'Technology-Automation/Scripts/typesafe_content_classifier.mjs');
+const JEV_CONF_GATE = 0.6;
 
 const ANGLES = ['yeu_thich', 'nghi_ngo', 'tu_hoi', 'tich_cuc', 'clickbait'];
 let currentAngleIndex = 0;
 const OWN_HANDLES = new Set(['travelframe.vn']);
 const AUTHOR_COOLDOWN_SIZE = 30;
-const RECENT_COMMENT_HISTORY_SIZE = 100;
+const RECENT_COMMENT_HISTORY_SIZE = 10;
 const sessionCommentCounts = new Map();
 const recentCommentTexts = new Set();
 let lastSessionComment = '';
@@ -211,7 +223,7 @@ function evaluatePostRelevance(text) {
 
   for (const bad of blacklist) {
     if (lower.includes(bad)) {
-      return { relevant: false, reason: `Chứa từ khóa loại trừ: "${bad}"` };
+      return { relevant: false, tier1Blocked: true, reason: `Chứa từ khóa loại trừ: "${bad}"` };
     }
   }
 
@@ -253,7 +265,7 @@ function evaluatePostRelevance(text) {
   if (hasNorthernMountain) return { relevant: true, topic: 'mountain_views' };
   if (isSoloTravel) return { relevant: true, topic: 'solo_travel' };
 
-  return { relevant: false, reason: 'Không khớp với các địa danh hoặc dịch vụ du lịch cốt lõi của TravelFrame' };
+  return { relevant: false, tier1Blocked: false, reason: 'Không khớp với các địa danh hoặc dịch vụ du lịch cốt lõi của TravelFrame' };
 }
 
 /**
@@ -352,8 +364,8 @@ async function triageLeadWithJev(leadComment, postUrl) {
     fs.mkdirSync(scratchDir, { recursive: true });
     fs.writeFileSync(tempStateFile, JSON.stringify(statePayload, null, 2), 'utf8');
 
-    const isLiveApproved = process.env.TYPESAFE_LIVE_APPROVED === '1' && process.env.TYPESAFE_API_KEY;
-    const args = isLiveApproved
+    const useLive = process.env.TYPESAFE_LIVE_APPROVED !== '0';
+    const args = useLive
       ? [TRIAGE_SCRIPT, '--input', tempStateFile, '--live']
       : [TRIAGE_SCRIPT, '--mock', 'photo_tour_ready', '--input', tempStateFile];
 
@@ -369,6 +381,86 @@ async function triageLeadWithJev(leadComment, postUrl) {
     if (fs.existsSync(tempStateFile)) fs.unlinkSync(tempStateFile);
     return null;
   }
+}
+
+/**
+ * Hybrid scan stage: JEV content classification (DES-20260925-JEV-CONTENT-CLASSIFIER).
+ * Live by default (Rocky approved 2026-09-25; paid API). Set TYPESAFE_LIVE_APPROVED=0
+ * for offline keyword fallback. Never fakes a model verdict when offline.
+ */
+let jevUnavailable = false;
+
+async function classifyContentWithJev(rootText, comments) {
+  if (process.env.TYPESAFE_LIVE_APPROVED === '0') {
+    console.log('[JEV Classifier] Offline (TYPESAFE_LIVE_APPROVED=0). Dùng keyword heuristic.');
+    return null;
+  }
+  if (jevUnavailable) return null;
+
+  const payload = {
+    source_post_url: '',
+    root_text: String(rootText || '').slice(0, 600),
+    comments: (comments || []).slice(0, 10).map(c => ({
+      author: c.author || '',
+      text: String(c.text || '').slice(0, 300),
+      like_count: c.likeCount || 0
+    }))
+  };
+
+  const scratchDir = path.resolve(process.cwd(), 'scratch');
+  const tempFile = path.resolve(scratchDir, `content_classify_${Date.now()}.json`);
+  try {
+    fs.mkdirSync(scratchDir, { recursive: true });
+    fs.writeFileSync(tempFile, JSON.stringify(payload, null, 2), 'utf8');
+    const out = execFileSync('node', [CLASSIFIER_SCRIPT, '--input', tempFile, '--live'], {
+      encoding: 'utf8',
+      timeout: 15000
+    });
+    const result = JSON.parse(out);
+    const c = result.classification;
+    console.log(`[JEV Classifier] relevant=${c.relevant} topic="${c.topic}" lead=${c.is_lead} conf=${c.confidence} trusted=${c.trusted}`);
+    return c;
+  } catch (err) {
+    if (/TYPESAFE_API_KEY/.test(err.message)) jevUnavailable = true;
+    console.error(`[JEV Classifier Error] ${err.message.split('\n')[0]} — fallback keyword heuristic.`);
+    return null;
+  } finally {
+    if (fs.existsSync(tempFile)) fs.unlinkSync(tempFile);
+  }
+}
+
+/**
+ * Deterministic interaction policy (code-owned). Tier 1 blacklist is checked
+ * before this function and always wins over any model verdict.
+ *   - feed: Newsfeed Interaction Rule — Like always, Reply only with a verified topic.
+ *   - search/international/single: Zero-Generic Skip Rule stays in force.
+ */
+function decideInteraction(mode, keywordEval, jev) {
+  const isFeed = mode === 'feed';
+  let relevant;
+  let topic;
+  let source;
+
+  if (jev && jev.trusted) {
+    // JEV tự tin xác minh "ngoài phạm vi" thì skip cả feed (chỉ khác "không khớp whitelist")
+    if (!jev.relevant && !jev.borderline) {
+      return { action: 'skip', reason: 'JEV xác minh ngoài phạm vi nội dung TravelFrame', source: 'jev' };
+    }
+    relevant = jev.relevant;
+    topic = jev.topic || 'general';
+    source = 'jev';
+  } else {
+    if (jev && jev.below_fallback && !isFeed) {
+      return { action: 'skip', reason: 'JEV confidence dưới ngưỡng fallback, không xác minh được ngữ cảnh', source: 'jev' };
+    }
+    relevant = keywordEval.relevant;
+    topic = keywordEval.topic || 'general';
+    source = 'keyword';
+  }
+
+  if (relevant) return { action: 'comment', topic, source };
+  if (isFeed) return { action: 'like_only', topic: 'general', source };
+  return { action: 'skip', reason: keywordEval.reason || 'Nội dung chung chung, không xác minh được ngữ cảnh', source };
 }
 
 function getContextualCommentVariants(topic, isVietnamese) {
@@ -441,10 +533,10 @@ function getContextualCommentVariants(topic, isVietnamese) {
 function isCommentAllowed(comment) {
   const normalized = normalizeText(comment);
   if (!normalized) return false;
-  if (/(travelframe|book|booking|dm|inbox|link in bio|contact|gia|giá|price|dat tour|đặt tour|hire|photographer)/i.test(comment)) {
+  if (/(book now|booking link|dm me|inbox me|link in bio|contact us|zalo:|hotline:|báo giá ngay|đặt tour ngay)/i.test(comment)) {
     return false;
   }
-  return !comment.includes('http://') && !comment.includes('https://') && !comment.includes('|');
+  return !comment.includes('http://') && !comment.includes('https://') && !comment.includes('|') && !comment.includes('-');
 }
 
 function generateContextualComment(text, topic = '') {
@@ -468,7 +560,7 @@ function generateContextualComment(text, topic = '') {
   return comment;
 }
 
-async function interactWithPost(url, author, defaultComment, angle = 'tự động', expectedTopic = '') {
+async function interactWithPost(url, author, defaultComment, angle = 'tự động', expectedTopic = '', mode = 'search') {
   console.log(`\n>>> Interacting with post by @${author} [Angle: ${angle}]: ${url}`);
   runOrca(['goto', '--page', PAGE_ID, '--url', url]);
   await sleep(3500);
@@ -478,17 +570,26 @@ async function interactWithPost(url, author, defaultComment, angle = 'tự độ
 
   // Scan thread comments, context, and lead signals
   const threadData = scanThreadContextAndComments();
-  const { comments, topComment, contextTopic, leadSignals } = threadData;
+  const { comments, topComment, leadSignals } = threadData;
 
-  // Quality Gate: If topic is general or vague, abort interaction immediately
-  if (contextTopic === 'general') {
-    console.log(`[Quality Gate] Aborted: Context topic for ${url} is general/unverified. Skipping to protect brand relevance.`);
+  // Hybrid classification: keyword heuristic + JEV (when live-approved), policy in code
+  const keywordEval = evaluatePostRelevance(threadData.rootText);
+  if (keywordEval.tier1Blocked) {
+    console.log(`[Tier 1 Blacklist] Aborted: ${url} ${keywordEval.reason}`);
+    return false;
+  }
+  const jev = await classifyContentWithJev(threadData.rootText, comments);
+  const decision = decideInteraction(mode, keywordEval, jev);
+
+  if (decision.action === 'skip') {
+    console.log(`[Quality Gate] Aborted: ${url} ${decision.reason} (source: ${decision.source}). Skipping to protect brand relevance.`);
     return false;
   }
 
-  console.log(`[Thread Context] Scanned ${comments.length} comments. Verified Topic: "${contextTopic}"`);
+  const contextTopic = decision.topic;
+  console.log(`[Thread Context] Scanned ${comments.length} comments. Verified Topic: "${contextTopic}" [action: ${decision.action}, source: ${decision.source}]`);
 
-  // Like root post only after topic verification
+  // Like root post after the gate passes
   const likeMatch = snap.match(/button "(?:Like|Like\s+[\d\.,KM]+)"\s+\[ref=(e\d+)\]/);
   if (likeMatch) {
     console.log(`Liking with ref ${likeMatch[1]}...`);
@@ -496,11 +597,19 @@ async function interactWithPost(url, author, defaultComment, angle = 'tự độ
     await sleep(1500);
   }
 
-  // Option A: Triage any detected leads with jev-latest
-  if (leadSignals.length > 0) {
-    for (const lead of leadSignals) {
-      await triageLeadWithJev(lead, url);
-    }
+  // Option A: Triage detected leads with jev-latest (regex signals + JEV lead_signal)
+  const leads = [...leadSignals];
+  if (jev && jev.is_lead && leads.length === 0) {
+    leads.push({ author, text: threadData.rootText || '' });
+  }
+  for (const lead of leads) {
+    await triageLeadWithJev(lead, url);
+  }
+
+  // Newsfeed Interaction Rule: Like-only when no verified topic fits a contextual reply
+  if (decision.action === 'like_only') {
+    logInteraction(author, url, '(Like only — newsfeed)', angle, `Newsfeed: like-only (${decision.source})`);
+    return true;
   }
 
   // Knowledge Mining: Learn and save high-engagement comments
@@ -527,7 +636,13 @@ async function interactWithPost(url, author, defaultComment, angle = 'tự độ
 
   let replyRef = null;
   let targetAuthor = author;
-  let commentToPost = defaultComment;
+  let commentToPost = defaultComment || generateContextualComment(threadData.rootText, contextTopic) || '';
+  if (!commentToPost) {
+    // Không ép bình luận văn mẫu chung chung: giữ tương tác tự nhiên ở mức Like-only
+    console.log(`[Quality Gate] No contextual reply available for ${url}. Falling back to Like-only.`);
+    logInteraction(author, url, '(Like only — newsfeed)', angle, `Like-only (${decision.source})`);
+    return true;
+  }
 
   snap = runOrca(['snapshot', '--page', PAGE_ID]);
 
@@ -897,7 +1012,7 @@ async function main() {
     }
     const authorMatch = options.url.match(/@([^/]+)/);
     const author = authorMatch ? authorMatch[1] : 'user';
-    await interactWithPost(options.url, author, options.comment, options.angle || 'Single');
+    await interactWithPost(options.url, author, options.comment, options.angle || 'Single', '', 'single');
     console.log('Single interaction complete.');
     return;
   }
@@ -982,21 +1097,40 @@ async function main() {
         }
 
         const evalRel = evaluatePostRelevance(p.text);
+        const isFeedMode = options.mode === 'feed';
+
+        if (evalRel.tier1Blocked) {
+          seenUrls.add(p.url);
+          console.log(`[Tier 1 Blacklist] Skipped post by @${p.author || 'user'}: "${p.text.slice(0, 50)}..." (${evalRel.reason})`);
+          continue;
+        }
+
+        if (!evalRel.relevant && !isFeedMode) {
+          seenUrls.add(p.url);
+          console.log(`[Filtered Out] Skipped post by @${p.author || 'user'}: "${p.text.slice(0, 50)}..." (${evalRel.reason})`);
+          continue;
+        }
+
         if (evalRel.relevant) {
-          const contextualComment = generateContextualComment(p.text, evalRel.topic);
-          if (!contextualComment) {
+          const genResult = generateGenZComment(p.text, options.angle || null);
+          if (!genResult || !genResult.text || !isCommentAllowed(genResult.text)) {
             seenUrls.add(p.url);
-            console.log(`[Comment Diversity] Skipped post by @${postAuthor || 'user'} because no fresh safe comment variant is available.`);
+            console.log(`[Comment Filter] Skipped post by @${postAuthor || 'user'} because generated comment did not pass safety rules.`);
             continue;
           }
           candidate = p;
           candidateTopic = evalRel.topic;
-          candidate.comment = contextualComment;
-          break;
+          candidate.comment = genResult.text;
+          candidate.angle = genResult.angle;
         } else {
-          seenUrls.add(p.url);
-          console.log(`[Filtered Out] Skipped post by @${p.author || 'user'}: "${p.text.slice(0, 50)}..." (${evalRel.reason})`);
+          // Newsfeed Interaction Rule: bài feed không khớp whitelist vẫn được tương tác tự nhiên
+          candidate = p;
+          candidateTopic = 'general';
+          candidate.comment = '';
+          candidate.angle = 'Newsfeed';
+          console.log(`[Newsfeed Rule] Selected post by @${postAuthor || 'user'} for natural feed interaction: "${p.text.slice(0, 50)}..."`);
         }
+        break;
       }
     }
 
@@ -1008,8 +1142,9 @@ async function main() {
         candidate.url,
         author,
         candidate.comment,
-        options.angle || 'Value First',
-        candidateTopic
+        candidate.angle || 'Tự động',
+        candidateTopic,
+        options.mode
       );
 
       // Return to search/feed and scroll down
