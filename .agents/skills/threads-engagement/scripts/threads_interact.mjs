@@ -715,7 +715,21 @@ function generateTopReplyComment(commentText, baseComment, angle, author, contex
 }
 
 /**
+ * Pool picker: rotates through variants per slot, never picks the same one twice in a row.
+ * slotKey = e.g. "en_solo:yeu_thich"
+ */
+const _poolState = {};
+function pickFromPool(slotKey, variants) {
+  if (!_poolState[slotKey]) _poolState[slotKey] = { idx: 0 };
+  const state = _poolState[slotKey];
+  const pick = variants[state.idx % variants.length];
+  state.idx++;
+  return pick;
+}
+
+/**
  * 5-Angle Gen Z Comment Engine with Season & Question Awareness
+ * v2: 3 variants per (topic × angle) slot, rotating to prevent repetition.
  */
 function generateGenZComment(text, enforcedAngle = null) {
   const angle = enforcedAngle || ANGLES[currentAngleIndex % ANGLES.length];
@@ -724,151 +738,185 @@ function generateGenZComment(text, enforcedAngle = null) {
   const lower = text.toLowerCase();
   const isVietnamese = /[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/i.test(text);
 
-  // English comments
+  // Helper: map angle key to Vietnamese display name
+  const angleLabel = angle === 'yeu_thich' ? 'Yêu thích' : angle === 'nghi_ngo' ? 'Nghi ngờ' : angle === 'tu_hoi' ? 'Tự hỏi' : angle === 'tich_cuc' ? 'Tích cực' : 'Clickbait';
+
+  // ======================================================================
+  // ENGLISH COMMENT POOLS
+  // ======================================================================
   if (!isVietnamese) {
     const isEnSolo = lower.includes('solo') || lower.includes('alone') || lower.includes('by myself');
     const isEnPhoto = lower.includes('photo') || lower.includes('visual') || lower.includes('camera') || lower.includes('picture') || lower.includes('instagram') || lower.includes('spot');
     const isEnItinerary = lower.includes('itinerary') || lower.includes('reco') || lower.includes('plan') || lower.includes('worth it') || lower.includes('day trip') || lower.includes('sapa') || lower.includes('how many days') || lower.includes('hotel') || lower.includes('suggest');
     const isEnFood = lower.includes('food') || lower.includes('cafe') || lower.includes('coffee') || lower.includes('eat') || lower.includes('dish');
 
+    // --- EN SOLO ---
     if (isEnSolo) {
-      if (angle === 'yeu_thich') {
-        return {
-          angle: 'Yêu thích',
-          text: "Huge respect for choosing Vietnam for your solo trip! Hanoi is remarkably safe, walkable, and welcoming to solo wanderers. Strolling around Hoan Kiem Lake at dawn ✨ will make you feel like you have the entire poetic city to yourself!"
-        };
-      } else if (angle === 'nghi_ngo') {
-        return {
-          angle: 'Nghi ngờ',
-          text: "A lot of people worry that solo traveling in Vietnam feels overwhelming with street crossing. The secret is simple: walk at a calm steady pace, never step backwards, and the motorbikes will smoothly flow around you like water!"
-        };
-      } else if (angle === 'tu_hoi') {
-        return {
-          angle: 'Tự hỏi',
-          text: "Ever wonder why so many solo wanderers fall head over heels for Hanoi? It is that special feeling ☕ when you sit on a tiny sidewalk stool and a local vendor smiles like you are family."
-        };
-      } else if (angle === 'tich_cuc') {
-        return {
-          angle: 'Tích cực',
-          text: "Sending warmest wishes and safe travels for your solo journey! Vietnam has a unique way 💛 of making solo wanderers feel embraced and right at home everywhere they go."
-        };
-      } else {
-        return {
-          angle: 'Clickbait',
-          text: "The real \"plot twist\" of solo travel in Vietnam: you think you might feel lonely, but within 2 days you will make friends in cozy alleyway cafes and wish you booked a month longer!"
-        };
-      }
-    } else if (isEnPhoto) {
-      if (angle === 'yeu_thich') {
-        return {
-          angle: 'Yêu thích',
-          text: "Hanoi is an absolute paradise for photography! The golden morning light filtering through century old French shutters 📸 creates an aesthetic that looks straight out of a classic Wong Kar Wai film!"
-        };
-      } else if (angle === 'nghi_ngo') {
-        return {
-          angle: 'Nghi ngờ',
-          text: "People think you need professional studio lighting for good photos here. Truth is, Hanoi natural early morning mist and quiet temple corners ✨ do all the storytelling on their own!"
-        };
-      } else if (angle === 'tu_hoi') {
-        return {
-          angle: 'Tự hỏi',
-          text: "Ever wonder why every vintage corner in the Old Quarter looks like a movie still? Cannot decide whether the mossy yellow walls or the street vendors with flower bicycles 📸 make the better photo!"
-        };
-      } else if (angle === 'tich_cuc') {
-        return {
-          angle: 'Tích cực',
-          text: "May your camera roll be filled with golden hour memories, candid smiles, and breathtaking street scenes! Vietnam is stunning 📸 through every angle."
-        };
-      } else {
-        return {
-          angle: 'Clickbait',
-          text: "\"Hidden secret\" for the best photos in Hanoi: head to Phan Dinh Phung street at 6:45 AM before the crowds arrive. If you ever want a local friend with a camera to guide you, TravelFrame 📸 is always here to guide you!"
-        };
-      }
-    } else if (isEnItinerary) {
-      if (angle === 'yeu_thich') {
-        return {
-          angle: 'Yêu thích',
-          text: "Such a well planned route! For Sapa, 2 days is great for Fansipan peak and trekking through Ta Van village. For Hanoi, wake up early around 6:30 AM to catch the soft morning sunbeams ✨ cutting through ancient trees on Phan Dinh Phung street, pure magic!"
-        };
-      } else if (angle === 'nghi_ngo') {
-        return {
-          angle: 'Nghi ngờ',
-          text: "Skip the overpriced tourist spots! In Hanoi, grabbing an authentic egg coffee at Cafe Dinh overlooking the lake beats crowded cafes every time. And in Sapa, staying in an eco lodge in Ta Van gives you the real \"hidden gem\" tranquility."
-        };
-      } else if (angle === 'tu_hoi') {
-        return {
-          angle: 'Tự hỏi',
-          text: "Planning a North Vietnam trip always leaves you wondering how to see it all! If you have to choose between rushing five places or spending a slow morning ☕ wandering the quiet Old Quarter alleys, definitely take the slow morning."
-        };
-      } else if (angle === 'tich_cuc') {
-        return {
-          angle: 'Tích cực',
-          text: "Your Vietnam plans sound absolutely wonderful! Wishing you crisp sunny skies in Sapa and pleasant autumn breezes in Hanoi. Enjoy every single moment 💛 of your adventure!"
-        };
-      } else {
-        return {
-          angle: 'Clickbait',
-          text: "Pro tip for your itinerary: do not rush Hanoi in just 1 day! The real charm 🤫 of the city hides in the quiet residential alleys between 6:30 AM and 8:00 AM before the motorbikes take over."
-        };
-      }
-    } else if (isEnFood) {
-      if (angle === 'yeu_thich') {
-        return {
-          angle: 'Yêu thích',
-          text: "Get ready for a flavor explosion! Street food in Hanoi is elite, especially sitting on a low plastic stool 🍜 sipping hot pho broth on a cool autumn morning!"
-        };
-      } else if (angle === 'nghi_ngo') {
-        return {
-          angle: 'Nghi ngờ',
-          text: "Do not be intimidated by the tiny alleyway eateries! The rule of thumb in Hanoi: if you see local elders sitting on little blue chairs eating, walk right in, the food is 100% authentic and delicious."
-        };
-      } else if (angle === 'tu_hoi') {
-        return {
-          angle: 'Tự hỏi',
-          text: "Ever wonder why Hanoi coffee culture is so addictive? Having an authentic egg coffee ☕ tucked away in a quiet second floor balcony just completely stops time."
-        };
-      } else if (angle === 'tich_cuc') {
-        return {
-          angle: 'Tích cực',
-          text: "Wishing you the tastiest culinary journey in Vietnam! May every bowl of pho and cup of coffee bring pure warmth 💛 to your soul."
-        };
-      } else {
-        return {
-          angle: 'Clickbait',
-          text: "Warning: Hanoi street food will completely ruin all other food for you! Make sure to try bun cha on Hang Quat street 🍜 and egg coffee on Nguyen Huu Huan before leaving!"
-        };
-      }
-    } else {
-      if (angle === 'yeu_thich') {
-        return {
-          angle: 'Yêu thích',
-          text: "Literally obsessed with this capture! The morning light ✨ in Vietnam hits completely different, pure aesthetic perfection for real."
-        };
-      } else if (angle === 'nghi_ngo') {
-        return {
-          angle: 'Nghi ngờ',
-          text: "Honestly thought those misty morning reels were color graded to death, until I woke up at 6 AM and walked the quiet Old Quarter alleys myself. It genuinely is that dreamy!"
-        };
-      } else if (angle === 'tu_hoi') {
-        return {
-          angle: 'Tự hỏi',
-          text: "Ever wonder why Vietnam feels more like a living poem than just a destination? Maybe it is that slow morning rhythm ☕ and the aroma of street coffee that literally stops time."
-        };
-      } else if (angle === 'tich_cuc') {
-        return {
-          angle: 'Tích cực',
-          text: "Sending warm positive vibes 💛 from Vietnam! Travel really has a magical way of resetting the soul. Hope every step of your journey is filled with joy and breathtaking moments!"
-        };
-      } else {
-        return {
-          angle: 'Clickbait',
-          text: "The \"plot twist\" nobody warned you about Vietnam: you think you came for a quick 2 day visit ☕, but the hidden alleyway cafes and warm local smiles will make you want to cancel your flight back!"
-        };
-      }
+      const pools = {
+        yeu_thich: [
+          "Huge respect for choosing Vietnam for your solo trip! Hanoi is remarkably safe, walkable, and welcoming to solo wanderers. Strolling around Hoan Kiem Lake at dawn ✨ will make you feel like you have the entire poetic city to yourself!",
+          "Solo in Vietnam is honestly one of the best decisions you can make. The moment you sit on a tiny sidewalk stool ☕ watching the city wake up, you will know you picked the right place!",
+          "Vietnam solo trips hit different because the locals genuinely treat you like family. A morning walk around the Old Quarter with an egg coffee in hand ✨ and you will forget you are traveling alone!"
+        ],
+        nghi_ngo: [
+          "A lot of people worry that solo traveling in Vietnam feels overwhelming with street crossing. The secret is simple: walk at a calm steady pace, never step backwards, and the motorbikes will smoothly flow around you like water!",
+          "Everyone says Vietnam is chaotic for solo travelers, but plot twist: the chaos has a rhythm. Once you stop fighting it and just walk steady ☕ the city starts making perfect sense!",
+          "\"Is Vietnam safe for solo travelers?\" gets asked a million times. Honest answer: you will feel safer walking Hanoi at midnight than most major cities. The biggest danger is eating too much pho 🍜 honestly!"
+        ],
+        tu_hoi: [
+          "Ever wonder why so many solo wanderers fall head over heels for Hanoi? It is that special feeling ☕ when you sit on a tiny sidewalk stool and a local vendor smiles like you are family.",
+          "Something about Vietnam solo travel just rewires your brain. You arrive stressed, and somewhere between the third egg coffee and your first alley detour ☕ everything just clicks.",
+          "What is it about Hanoi that turns a 5 day solo trip into \"maybe I should stay a month\"? Asking for literally every solo traveler who has ever visited 🤔"
+        ],
+        tich_cuc: [
+          "Sending warmest wishes and safe travels for your solo journey! Vietnam has a unique way 💛 of making solo wanderers feel embraced and right at home everywhere they go.",
+          "Solo travel is the ultimate gift you give yourself 💛 and Vietnam is going to reward that courage with incredible food, warm smiles, and views that stay with you forever!",
+          "There is something magical about exploring a new country on your own terms. Vietnam will give you stories 💛 you will be telling for years. Have the best time!"
+        ],
+        clickbait: [
+          "The real \"plot twist\" of solo travel in Vietnam: you think you might feel lonely, but within 2 days you will make friends in cozy alleyway cafes and wish you booked a month longer!",
+          "Nobody warned me about the biggest risk of solo travel in Vietnam: you WILL fall in love with the country so hard that planning your return trip starts before you even leave 😭✈️",
+          "Solo travel unpopular opinion: Vietnam is genuinely easier alone than with a group. You eat what you want, wander where you want, and somehow end up at the best hidden spots ☕ because you have no plan!"
+        ]
+      };
+      const pool = pools[angle] || pools.clickbait;
+      return { angle: angleLabel, text: pickFromPool(`en_solo:${angle}`, pool) };
     }
+
+    // --- EN PHOTO ---
+    if (isEnPhoto) {
+      const pools = {
+        yeu_thich: [
+          "Hanoi is an absolute paradise for photography! The golden morning light filtering through century old French shutters 📸 creates an aesthetic that looks straight out of a classic Wong Kar Wai film!",
+          "This visual is pure art! Vietnam has this magical quality where every random alley 📸 turns into a perfectly composed frame without even trying.",
+          "Obsessed with this vibe! The light in Hanoi between 6:30 and 7:30 AM is genuinely unmatched ✨ it makes everything look like a film still, no editing needed."
+        ],
+        nghi_ngo: [
+          "People think you need professional studio lighting for good photos here. Truth is, Hanoi natural early morning mist and quiet temple corners ✨ do all the storytelling on their own!",
+          "Thought the Vietnam aesthetic was all filters and presets. Then I saw the actual golden hour on Phan Dinh Phung street at 6:45 AM 📸 and realized the camera was barely keeping up with reality!",
+          "\"You edited this right?\" is the most common question about Hanoi photos. The actual answer is the city just looks like this at sunrise ✨ the editing is minimal!"
+        ],
+        tu_hoi: [
+          "Ever wonder why every vintage corner in the Old Quarter looks like a movie still? Cannot decide whether the mossy yellow walls or the street vendors with flower bicycles 📸 make the better photo!",
+          "How does Hanoi manage to make every single narrow alley photogenic? Other cities wish they had this kind of effortless aesthetic 📸 honestly!",
+          "Sometimes I wonder if Hanoi was designed by a cinematographer. The layers of light, shadow, and texture in every corner ✨ are almost too perfect to be accidental."
+        ],
+        tich_cuc: [
+          "This capture genuinely made my day! Vietnam through a camera lens ✨ is something everyone should experience at least once. Keep shooting, these are gorgeous!",
+          "The way you caught this moment is beautiful 📸 Vietnam gives such generous light and texture to work with. Wishing you many more frames like this!",
+          "Every photo from Vietnam tells a little story. This one has such warmth and honesty in it ✨ love seeing the country through fresh eyes!"
+        ],
+        clickbait: [
+          "\"Hidden secret\" for the best photos in Hanoi: head to Phan Dinh Phung street at 6:45 AM before the crowds arrive. The light at that hour is genuinely 📸 cinematic perfection!",
+          "The one photography hack nobody shares about Hanoi: skip the tourist viewpoints entirely. Walk into any random residential alley at golden hour 📸 and you will get frames that look professionally art directed!",
+          "Plot twist for photographers visiting Vietnam: the most beautiful shots are not at the famous spots. They are in the 6 AM alleys where grandmas brew coffee and cats sleep on motorbikes 📸🐱"
+        ]
+      };
+      const pool = pools[angle] || pools.clickbait;
+      return { angle: angleLabel, text: pickFromPool(`en_photo:${angle}`, pool) };
+    }
+
+    // --- EN ITINERARY ---
+    if (isEnItinerary) {
+      const pools = {
+        yeu_thich: [
+          "Such a well planned route! For Sapa, 2 days is great for Fansipan peak and trekking through Ta Van village. For Hanoi, catch the 6:30 AM sunbeams ✨ on Phan Dinh Phung, pure magic!",
+          "Love this itinerary energy! One tip that makes a huge difference: leave your first Hanoi morning completely open ✨ the best discoveries happen when you are not rushing to the next pin.",
+          "Solid plan! The real game changer for North Vietnam trips is adding one buffer day with zero agenda. That is usually when the best food finds and photo moments happen ✨"
+        ],
+        nghi_ngo: [
+          "Skip the overpriced tourist spots! In Hanoi, an authentic egg coffee at Cafe Dinh overlooking the lake beats crowded cafes every time. In Sapa, an eco lodge in Ta Van gives you the real \"hidden gem\" tranquility.",
+          "Hot take: half the \"must visit\" spots in Hanoi tourist guides are actually skippable. The real magic is in the unplanned alleys, the 6 AM markets, and that random pho shop 🍜 your taxi driver swears by!",
+          "Unpopular opinion: a perfect Vietnam itinerary has at least 2 days with nothing scheduled. Those are the days you find the egg coffee spot with no English menu ☕ and the view that is not on any blog."
+        ],
+        tu_hoi: [
+          "How do you fit Hanoi, Sapa, AND Ha Long Bay without it feeling like a sprint? Honestly, choosing slow mornings over more checkpoints ☕ usually makes the whole trip feel twice as long in the best way!",
+          "The eternal Vietnam itinerary dilemma: see everything in 7 days or actually enjoy 3 places properly? Having done both ☕ I can confirm the slow version wins every time.",
+          "Real question: does anyone actually regret skipping one tourist spot to spend an extra morning wandering quiet alleys with coffee? Never heard of it happening ☕"
+        ],
+        tich_cuc: [
+          "This route is going to be incredible! North Vietnam has a way of exceeding every expectation 💛 especially when you give yourself room to breathe between the highlights!",
+          "What an exciting trip ahead! Vietnam rewards travelers who stay curious and open 💛 you are going to come back with the best stories. Enjoy every moment!",
+          "The fact that you are planning this carefully means you are already set for an amazing trip 💛 Vietnam is going to surprise you in the best ways!"
+        ],
+        clickbait: [
+          "Pro tip for your itinerary: do not rush Hanoi in just 1 day! The real charm 🤫 hides in the quiet residential alleys between 6:30 AM and 8:00 AM before the motorbikes take over.",
+          "The #1 itinerary mistake in Vietnam: scheduling every hour. The best meal you will eat, the best photo you will take, and the best conversation you will have 🤫 will all happen during unplanned time!",
+          "Insider tip that most travel blogs will not tell you: book your Sapa hotel in Ta Van village instead of Sapa town 🤫 you wake up to rice terraces and clouds instead of tourist shops. Thank me later!"
+        ]
+      };
+      const pool = pools[angle] || pools.clickbait;
+      return { angle: angleLabel, text: pickFromPool(`en_itinerary:${angle}`, pool) };
+    }
+
+    // --- EN FOOD ---
+    if (isEnFood) {
+      const pools = {
+        yeu_thich: [
+          "Get ready for a flavor explosion! Street food in Hanoi is elite, especially sitting on a low plastic stool 🍜 sipping hot pho broth on a cool autumn morning!",
+          "Vietnam street food is genuinely life changing! The first time you eat bun cha on a tiny sidewalk table 🍜 with the charcoal smoke drifting past, you will understand why people keep coming back.",
+          "The food scene in Vietnam is unreal! Pro tip: the best meals are almost always at the places with plastic stools, no menu in English 🍜 and a line of locals waiting."
+        ],
+        nghi_ngo: [
+          "Do not be intimidated by the tiny alleyway eateries! The rule of thumb in Hanoi: if you see local elders sitting on little blue chairs eating, walk right in, the food is 100% authentic and delicious.",
+          "\"Is street food safe in Vietnam?\" is the most asked question and the answer is almost always yes. Those tiny stalls with the highest local turnover 🍜 are fresher than most restaurant kitchens!",
+          "Forget the restaurants with English menus and AC. The real Hanoi food experience is squeezing onto a plastic stool in an alley 🍜 pointing at what the person next to you is eating, and being amazed every single time!"
+        ],
+        tu_hoi: [
+          "Ever wonder why Hanoi coffee culture is so addictive? Having an authentic egg coffee ☕ tucked away in a quiet second floor balcony just completely stops time.",
+          "Why does a 50 cent bowl of pho from a street vendor somehow taste better than any pho you have ever had at a proper restaurant? Vietnam food logic ☕ is beautifully unfair!",
+          "How is it possible that a city this small has this many incredible food spots? Every single alley in Hanoi hides at least one dish 🍜 that will genuinely change your standards forever."
+        ],
+        tich_cuc: [
+          "Wishing you the tastiest culinary journey in Vietnam! May every bowl of pho and cup of coffee bring pure warmth 💛 to your soul.",
+          "Vietnam food adventures are the best kind of adventures 💛 your taste buds are about to go on the trip of a lifetime. Enjoy every bite!",
+          "The food in Vietnam is one of those things that connects everyone 💛 you will sit down with strangers, share a meal, and leave feeling like old friends."
+        ],
+        clickbait: [
+          "Warning: Hanoi street food will completely ruin all other food for you! Make sure to try bun cha on Hang Quat street 🍜 and egg coffee on Nguyen Huu Huan before leaving!",
+          "Nobody tells you this but the biggest expense in Vietnam is not hotels or tours, it is that you will eat 6 meals a day because everything costs $2 and tastes incredible 🍜😭",
+          "The one food rule in Hanoi that has never failed me: if the stool is tiny, the menu is handwritten, and there is a queue of locals at 7 AM, sit down immediately 🍜 you are about to have the best meal of your trip!"
+        ]
+      };
+      const pool = pools[angle] || pools.clickbait;
+      return { angle: angleLabel, text: pickFromPool(`en_food:${angle}`, pool) };
+    }
+
+    // --- EN GENERAL (fallback for English) ---
+    const enGeneralPools = {
+      yeu_thich: [
+        "Literally obsessed with this capture! The morning light ✨ in Vietnam hits completely different, pure aesthetic perfection for real.",
+        "This is the kind of content that makes you stop scrolling and just stare ✨ Vietnam really is that photogenic. No filter needed!",
+        "Everything about this is gorgeous! Vietnam has a way of making ordinary moments look absolutely cinematic ✨ and you captured it perfectly."
+      ],
+      nghi_ngo: [
+        "Honestly thought those misty morning reels were color graded to death, until I woke up at 6 AM and walked the quiet Old Quarter alleys myself. It genuinely is that dreamy!",
+        "Was 100% convinced Vietnam travel content was overhyped until I actually went. Turns out the reality is somehow even more beautiful than the reels? Make it make sense 😭",
+        "\"There is no way it actually looks like that\" is what I said before visiting Vietnam. Now I am the one posting sunset pics that people think are fake. The irony is real ☕"
+      ],
+      tu_hoi: [
+        "Ever wonder why Vietnam feels more like a living poem than just a destination? Maybe it is that slow morning rhythm ☕ and the aroma of street coffee that literally stops time.",
+        "What is it about Vietnam that makes people completely rethink their travel priorities? Everyone goes for a week and comes back wanting to live there ☕",
+        "Genuine question: has anyone ever visited Vietnam and NOT immediately started planning their next trip back? Because I have never met that person 🤔"
+      ],
+      tich_cuc: [
+        "This genuinely brought a smile to my face! Wishing you the most incredible time 💛 Vietnam has a way of filling your heart with warmth you did not know you needed.",
+        "Love seeing people experience Vietnam for the first time 💛 the country has so much beauty, kindness, and unforgettable moments waiting for you!",
+        "Sending the warmest vibes from Vietnam 💛 may your journey be full of unexpected discoveries, amazing food, and the kind of memories that last forever!"
+      ],
+      clickbait: [
+        "The \"plot twist\" nobody warned you about Vietnam: you think you came for a quick 2 day visit ☕, but the hidden alleyway cafes and warm local smiles will make you want to cancel your flight back!",
+        "Nobody talks about the real side effect of visiting Vietnam: a permanent craving for egg coffee, an unreasonable attachment to plastic stools, and an uncontrollable urge to book another flight 😭☕",
+        "The thing about Vietnam that no travel guide mentions: it is not the sights that get you, it is the random Tuesday morning 🤫 when a stranger shares their coffee and tells you their life story. That is what makes you stay."
+      ]
+    };
+    const pool = enGeneralPools[angle] || enGeneralPools.clickbait;
+    return { angle: angleLabel, text: pickFromPool(`en_general:${angle}`, pool) };
   }
 
+  // ======================================================================
+  // VIETNAMESE COMMENT POOLS
+  // ======================================================================
   const isHanoi = lower.includes('hanoi') || lower.includes('hà nội') || lower.includes('hoa sữa') || lower.includes('phố cổ') || lower.includes('hồ gươm') || lower.includes('phan đình phùng');
   const isPhotoTour = lower.includes('photo tour') || lower.includes('tour chụp') || lower.includes('thợ chụp') || lower.includes('chụp ảnh');
   const isMountain = lower.includes('hà giang') || lower.includes('cao bằng') || lower.includes('sapa') || lower.includes('tà xùa') || lower.includes('ninh bình') || lower.includes('mù cang chải');
@@ -878,129 +926,159 @@ function generateGenZComment(text, enforcedAngle = null) {
     if (lower.includes('tháng 11') || lower.includes('tháng 12') || lower.includes('hoa gì') || lower.includes('hoa tam giác mạch')) {
       return {
         angle: 'Tư vấn bản địa',
-        text: "Hà Giang cuối tháng 11 là trúng mùa hoa tam giác mạch 🌸 nở rộ khắp các triền đồi luôn bạn ơi! Lúc này trời chớm đông se lạnh cực thơ, nhớ mang theo áo khoác ấm và chuẩn bị máy ảnh để bắt trọn những góc hình visual tuyệt đẹp nha!"
+        text: pickFromPool('vi_hagiang_season', [
+          "Hà Giang cuối tháng 11 là trúng mùa hoa tam giác mạch 🌸 nở rộ khắp các triền đồi luôn bạn ơi! Lúc này trời chớm đông se lạnh cực thơ, nhớ mang theo áo khoác ấm và chuẩn bị máy ảnh để bắt trọn những góc hình visual tuyệt đẹp nha!",
+          "Cuối tháng 11 lên Hà Giang là đúng chuẩn \"timing vàng\" nè! Hoa tam giác mạch 🌸 tím hồng phủ kín đồi, sáng sớm sương giăng mờ ảo, chỉ cần giơ máy lên là có ngay ảnh triệu view á!",
+          "Tháng 11 lên Hà Giang là \"auto win\" về visual nha bạn! Hoa tam giác mạch nở rộ 🌸 kết hợp ruộng bậc thang vàng cuối mùa, trời se lạnh mặc áo len đi giữa hoa là có ảnh đẹp lung linh không cần chỉnh sửa gì luôn!"
+        ])
       };
     }
   }
 
-  if (angle === 'yeu_thich') {
-    if (isHanoi) {
-      return {
-        angle: 'Yêu thích',
-        text: "U là trời cái visual này đúng là 🍂 \"chân ái\" mùa thu Hà Nội rồi sốp ơi! Nắng hanh vàng xiên qua kẽ lá đẹp \"mê xỉu up xỉu down\", ngắm qua màn hình thôi mà tim đập thình thịch muốn xách balo lên đi liền á. Cần cạ local dẫn photo tour thì cứ ới TravelFrame tụi mình nha!"
-      };
-    } else if (isPhotoTour) {
-      return {
-        angle: 'Yêu thích',
-        text: "Gu chụp này \"đỉnh nóc kịch trần\" luôn nè! Team mê ảnh đẹp 📸 như TravelFrame tụi mình nhìn là mê đắm đuối, đi du lịch mà có người bắt được góc visual tự nhiên thế này thì tha hồ \"flex\" cả năm không hết á!"
-      };
-    } else if (isMountain) {
+  // --- VI HANOI ---
+  if (isHanoi) {
+    const pools = {
+      yeu_thich: [
+        "U là trời cái visual này đúng là 🍂 \"chân ái\" mùa thu Hà Nội rồi sốp ơi! Nắng hanh vàng xiên qua kẽ lá đẹp \"mê xỉu up xỉu down\", ngắm qua màn hình thôi mà tim đập thình thịch muốn xách balo lên đi liền á!",
+        "Visual Hà Nội mùa thu kiểu này nhìn là biết 🍂 \"chữa lành\" level max rồi nè! Cái cảm giác sáng sớm xách xe lượn Phan Đình Phùng lúc nắng vàng xiên qua sương, không filter nào đọ được ngoài đời á!",
+        "Hà Nội mùa thu nó khác biệt kiểu: sáng ra hít một hơi không khí se lạnh 🍂 thoang thoảng hoa sữa là tự nhiên muốn gọi hết bạn bè lên đây liền. Visual tự nhiên thơ hơn cả phim á sốp ơi!"
+      ],
+      nghi_ngo: [
+        "\"Ủa alo\" ban đầu tui cũng tưởng ảnh mạng lừa lọc màu mè thôi, tới hồi 6h sáng xách xe lượn 🍂 phố Hoàng Diệu, Phan Đình Phùng mới ngã ngửa: ủa sao ngoài đời nó còn thơ và tình hơn trên video dữ vậy trời =)))",
+        "Trước tui cũng \"nghi ngờ nhân sinh\" lắm, nghĩ Hà Nội mùa thu chắc chỉ đẹp qua filter. Xong 6h sáng ra đường Hoàng Diệu thấy nắng 🍂 xiên qua hàng sấu, chịu thua luôn, thực tế đẹp hơn ảnh mạng á!",
+        "Cứ tưởng team Hà Nội mùa thu là \"sống ảo\" chứ gì, tới hồi tự đi mới thấy: 6h30 sáng Phan Đình Phùng vắng tanh 🍂 sương mờ mờ, nắng vàng nhẹ, quay video không cần filter mà đã đẹp nức nở rồi =)))"
+      ],
+      tu_hoi: [
+        "Nhiều khi tự hỏi không biết Hà Nội mùa thu có bùa mê thuốc lú gì không mà cứ chớm se lạnh là cả nước lại nhấp nhổm đòi bay ra? Chắc tại cái mùi hoa sữa thoang thoảng với cảm giác ngồi vỉa hè nhâm nhi ☕ ly cà phê trứng nó \"chữa lành\" tâm hồn quá chăng?",
+        "Tự hỏi hoài sao Hà Nội mùa thu cứ quay video bất kỳ góc nào cũng ra cinematic dữ vậy ta? Không biết là do thời tiết, do ánh sáng, hay do cái thành phố này nó \"tình\" từ trong xương ra vậy ☕?",
+        "Có ai giải thích giúp tui tại sao cứ tháng 9, 10 là lại cuống cuồng muốn bay ra Hà Nội không? Rõ ràng đã đi 5 lần rồi mà năm nào cũng \"sốt ruột\" y hệt 🍂 bùa Hà Nội mùa thu mạnh quá trời!"
+      ],
+      tich_cuc: [
+        "Thấy bài này là thấy cả một bầu trời \"an yên\" rồi! Gửi một \"chiếc ôm ấm áp\" 💛 từ Hà Nội, chúc bạn có chuyến đi ngập tràn niềm vui, ăn được nhiều món ngon và gom về thật nhiều khoảnh khắc đáng nhớ nhé!",
+        "Ngắm Hà Nội qua góc nhìn của bạn ấm áp quá đi 💛 chúc hành trình luôn thuận buồm xuôi gió, gom về nhiều ảnh đẹp và kỷ niệm ngọt ngào nha!",
+        "Hà Nội chào đón bạn bằng gió mùa thu se lạnh và những ly cà phê nóng hổi đó 💛 chúc chuyến đi này là chuyến đi đáng nhớ nhất trong năm nha bạn ơi!"
+      ],
+      clickbait: [
+        "\"Khoan dừng khoảng chừng là 2s\"! Đừng dại dột ra đường Phan Đình Phùng chụp ảnh lúc 9h hoặc 10h sáng nếu không muốn chen chúc trong biển người. Muốn visual thơ mộng 🤫 như phim Vương Gia Vệ thì bí quyết duy nhất là: canh đúng khung giờ 6h15 đến 7h30 sáng!",
+        "\"Bật mí nhỏ\" cho ai sắp ra Hà Nội: đừng đi thẳng ra Hoàn Kiếm, hãy rẽ vào các ngõ nhỏ phố cổ lúc 6h sáng khi trời còn mờ sương 🤫 visual level \"Wong Kar-wai\" mà không cần thuê quay phim đâu!",
+        "Plot twist: cái chỗ chụp ảnh đẹp nhất Hà Nội mùa thu không phải Phan Đình Phùng đâu, mà là con đường Hoàng Diệu lúc 6h15 sáng 🤫 vắng, nắng xiên, lá rụng. Biết rồi thì đừng nói ai nha!"
+      ]
+    };
+    const pool = pools[angle] || pools.clickbait;
+    return { angle: angleLabel, text: pickFromPool(`vi_hanoi:${angle}`, pool) };
+  }
+
+  // --- VI PHOTO TOUR ---
+  if (isPhotoTour) {
+    const pools = {
+      yeu_thich: [
+        "Gu chụp này \"đỉnh nóc kịch trần\" luôn nè! Team mê ảnh đẹp 📸 như TravelFrame tụi mình nhìn là mê đắm đuối, đi du lịch mà có người bắt được góc visual tự nhiên thế này thì tha hồ \"flex\" cả năm không hết á!",
+        "Visual bộ ảnh này chất lượng quá trời luôn! Đi du lịch mà có ảnh chụp tự nhiên 📸 kiểu này thì về nhà \"flex\" cả năm không hết á, đẹp từng khoảnh khắc luôn!",
+        "Ảnh đẹp quá sốp ơi, từng tấm đều giữ được cái hồn của khoảnh khắc 📸 tự nhiên và chân thật. Đi du lịch gom về bộ ảnh thế này thì khỏi cần filter chi cho mệt!"
+      ],
+      nghi_ngo: [
+        "Nhiều người hay nghi ngờ đi du lịch thuê thợ chụp cùng chi cho tốn tiền hay \"sượng trân\". Tới lúc tự chụp 📸 bằng gậy selfie dính nọng cằm mới thấy: có photo riêng kiêm bạn local nó là một đẳng cấp \"cứu rỗi\" hoàn toàn chuyến đi ạ!",
+        "\"Thuê thợ chụp đi chơi sao mà tự nhiên được?\" Ủa thì vấn đề là bạn chọn đúng thợ local 📸 biết dẫn đi ngõ ngách, vừa chụp vừa kể chuyện, tự nhiên ra hết á!",
+        "Tưởng photo tour chỉ là mấy tấm ảnh pose cứng giữa phố. Ai ngờ đi xong mới hiểu: người dẫn local 📸 biết lúc nào nắng đẹp, góc nào vắng, chụp lúc mình cười tự nhiên, đó mới là ảnh đáng giá!"
+      ],
+      tu_hoi: [
+        "Tự hỏi sao đi solo thì dễ mà tìm được đứa bạn có tâm canh góc chụp ảnh không dìm hàng nó lại khó ngang lên trời vậy ta? Photo tour sinh ra là để \"cứu rỗi\" nhân loại nè =)))",
+        "Tự hỏi sao mọi người đi du lịch mà ảnh lúc nào cũng đẹp long lanh vậy ta 📸? Hóa ra bí mật là có bạn local đi cùng canh góc, bắt khoảnh khắc tự nhiên, còn mình thì chỉ cần \"vui chơi hết mình\" thôi á!",
+        "Có ai tự hỏi sao tự chụp hoài không bao giờ đẹp bằng ảnh travel creator chụp giúp không? Đáp án: vì bạn không thấy 📸 khoảnh khắc tự nhiên nhất của chính mình, cần có ai đó bắt hộ!"
+      ],
+      tich_cuc: [
+        "Mỗi chuyến đi là một món quà tuyệt vời cho chính mình sau chuỗi ngày nỗ lực. Ảnh đẹp 📸 chỉ là phần thưởng thêm, cảm xúc đọng lại mới là vô giá nè!",
+        "Chuyến đi nào cũng xứng đáng được lưu giữ bằng những tấm ảnh chân thật 📸 và tràn đầy cảm xúc. Chúc bạn gom về thật nhiều khoảnh khắc đáng nhớ nha!",
+        "Đi du lịch mà có ảnh đẹp mang về là bonus lớn nhất rồi 📸 chúc bạn có thêm nhiều chuyến đi trọn vẹn và tràn đầy năng lượng tích cực nha!"
+      ],
+      clickbait: [
+        "\"Bí mật không ai nói cho bạn\": Đi du lịch một mình không sợ buồn, chỉ sợ lúc về không có tấm ảnh nào ra hồn để \"flex\" =))) Giải pháp là book ngay bạn local photographer dắt đi ngõ ngách, vừa có ảnh cinematic vừa bao ăn sập phố xá luôn!",
+        "Plot twist: tấm ảnh du lịch đẹp nhất không phải ảnh pose ở landmark, mà là lúc bạn đang ăn phở 🍜 sáng, mồ hôi lấm tấm, cười toe toét. Cần ai đó chụp khoảnh khắc đó hộ thôi!",
+        "\"Cảnh báo nhẹ\": thuê thợ chụp local đi cùng một lần rồi sẽ không bao giờ muốn tự chụp selfie nữa đâu 📸 biết trước nói trước, đừng trách =)))"
+      ]
+    };
+    const pool = pools[angle] || pools.clickbait;
+    return { angle: angleLabel, text: pickFromPool(`vi_photo:${angle}`, pool) };
+  }
+
+  // --- VI MOUNTAIN ---
+  if (isMountain) {
+    if (angle === 'yeu_thich') {
       if (lower.includes('lúa') || lower.includes('mù cang chải') || lower.includes('hoàng su phì')) {
         return {
           angle: 'Yêu thích',
-          text: "Mùa lúa chín 🌾 vàng óng ả nhìn ngoài đời choáng ngợp gấp 10 lần trong ảnh luôn á! Cảnh sắc quê hương mình đẹp muốn xỉu, chúc sốp có chuyến đi visual \"10 điểm không có nhưng\" nha!"
+          text: pickFromPool('vi_mountain_lua:yeu_thich', [
+            "Mùa lúa chín 🌾 vàng óng ả nhìn ngoài đời choáng ngợp gấp 10 lần trong ảnh luôn á! Cảnh sắc quê hương mình đẹp muốn xỉu, chúc sốp có chuyến đi visual \"10 điểm không có nhưng\" nha!",
+            "Ruộng bậc thang mùa lúa chín 🌾 lúc nắng sáng chiếu xiên vàng rực thì camera nào chụp cũng đẹp luôn á! Thiên nhiên mình \"max visual\" tới mức không cần chỉnh sửa gì!",
+            "Lúa chín vàng rực cả thung lũng 🌾 nhìn ngoài đời mà tim đập thình thịch luôn á bạn ơi! Quê hương mình đẹp tới mức ảnh mạng chụp \"có tâm\" cỡ nào cũng không diễn tả hết được!"
+          ])
         };
       }
       return {
         angle: 'Yêu thích',
-        text: "Cảnh sắc núi rừng miền Bắc ⛰️ ngắm ngoài đời thực sự choáng ngợp hơn nhiều so với ảnh mạng á! Không khí trong lành mát rượi, chúc bạn có một chuyến đi visual \"10 điểm không có nhưng\" nha!"
-      };
-    } else {
-      return {
-        angle: 'Yêu thích',
-        text: "Mỗi bước chân khám phá đều mang lại trải nghiệm vô giá ✨ nè! Chúc bạn gom về thật nhiều bức ảnh kỷ niệm tuyệt đẹp và những khoảnh khắc đáng nhớ nha!"
-      };
-    }
-  } else if (angle === 'nghi_ngo') {
-    if (isHanoi) {
-      return {
-        angle: 'Nghi ngờ',
-        text: "\"Ủa alo\" ban đầu tui cũng tưởng ảnh mạng lừa lọc màu mè thôi, tới hồi 6h sáng xách xe lượn 🍂 phố Hoàng Diệu, Phan Đình Phùng mới ngã ngửa: ủa sao ngoài đời nó còn thơ và tình hơn trên video dữ vậy trời =)))"
-      };
-    } else if (isPhotoTour) {
-      return {
-        angle: 'Nghi ngờ',
-        text: "Nhiều người hay nghi ngờ đi du lịch thuê thợ chụp cùng chi cho tốn tiền hay \"sượng trân\". Tới lúc tự chụp 📸 bằng gậy selfie dính nọng cằm hoặc nhờ người lạ chụp mất tiêu cái đầu mới thấy: có photo riêng kiêm bạn local nó là một đẳng cấp \"cứu rỗi\" hoàn toàn chuyến đi ạ!"
-      };
-    } else if (isMountain) {
-      return {
-        angle: 'Nghi ngờ',
-        text: "Ai bảo đi vùng cao mùa này vất vả đâu bước ra đây? Mở mắt ra thấy ☁️ biển mây bồng bềnh ngay trước mặt là thấy mọi mệt mỏi tan biến hết trơn á, \"nghi ngờ nhân sinh\" sao cảnh vật đẹp dữ thần luôn!"
-      };
-    } else {
-      return {
-        angle: 'Nghi ngờ',
-        text: "Ban đầu tui cũng hoài nghi mấy bài review khen nức nở, tới hồi đặt chân đến trải nghiệm mới thấy: hóa ra người ta khen còn hơi khiêm tốn đấy chứ ngoài đời đỉnh hơn nhiều á!"
+        text: pickFromPool('vi_mountain:yeu_thich', [
+          "Cảnh sắc núi rừng miền Bắc ⛰️ ngắm ngoài đời thực sự choáng ngợp hơn nhiều so với ảnh mạng á! Không khí trong lành mát rượi, chúc bạn có một chuyến đi visual \"10 điểm không có nhưng\" nha!",
+          "Vùng cao miền Bắc mùa này ⛰️ visual đỉnh tới mức giơ điện thoại lên quay bừa cũng ra clip triệu view á! Chúc sốp có chuyến đi gom về thật nhiều khoảnh khắc tuyệt đẹp nha!",
+          "Núi rừng Tây Bắc đúng là \"thiên đường\" cho team mê cảnh đẹp ⛰️ mỗi khúc cua lại mở ra một bức tranh mới, đẹp tới mức cứ đứng ngẩn người ra ngắm thôi!"
+        ])
       };
     }
-  } else if (angle === 'tu_hoi') {
-    if (isHanoi) {
-      return {
-        angle: 'Tự hỏi',
-        text: "Nhiều khi tự hỏi không biết Hà Nội mùa thu có bùa mê thuốc lú gì không mà cứ chớm se lạnh là cả nước lại nhấp nhổm đòi bay ra? Chắc tại cái mùi hoa sữa thoang thoảng với cảm giác ngồi vỉa hè nhâm nhi ☕ ly cà phê trứng nó \"chữa lành\" tâm hồn quá chăng?"
-      };
-    } else if (isPhotoTour) {
-      return {
-        angle: 'Tự hỏi',
-        text: "Tự hỏi sao đi solo thì dễ mà tìm được đứa bạn có tâm canh góc chụp ảnh không dìm hàng nó lại khó ngang lên trời vậy ta? Đó là lý do TravelFrame tụi mình phải ra đời gói tour kèm photo để \"cứu rỗi\" nhân loại nè =)))"
-      };
-    } else if (isMountain) {
-      return {
-        angle: 'Tự hỏi',
-        text: "Đứng giữa mây trời ⛰️ Tây Bắc tự hỏi: mình cày cuốc deadline cả năm để làm gì nếu không dành ra vài ngày lên đây đứng thở giữa thiên nhiên bao la thế này nhỉ?"
-      };
-    } else {
-      return {
-        angle: 'Tự hỏi',
-        text: "Có ai như tui không, cứ mỗi lần stress công việc là lại tự hỏi sao mình chưa xách balo lên và đi trốn đến một góc phố lạ để \"sạc lại năng lượng\" ta?"
-      };
-    }
-  } else if (angle === 'tich_cuc') {
-    if (isHanoi) {
-      return {
-        angle: 'Tích cực',
-        text: "Thấy bài này là thấy cả một bầu trời \"an yên\" rồi! Gửi một \"chiếc ôm ấm áp\" 💛 từ Hà Nội, chúc bạn có chuyến đi ngập tràn niềm vui, ăn được nhiều món ngon và gom về thật nhiều khoảnh khắc đáng nhớ nhé!"
-      };
-    } else if (isPhotoTour) {
-      return {
-        angle: 'Tích cực',
-        text: "Mỗi chuyến đi là một món quà tuyệt vời cho chính mình sau chuỗi ngày nỗ lực. Chúc bạn tận hưởng trọn vẹn từng bước chân khám phá, ảnh đẹp 📸 chỉ là phần thưởng thêm, cảm xúc đọng lại mới là vô giá nè!"
-      };
-    } else if (isMountain) {
-      return {
-        angle: 'Tích cực',
-        text: "Việt Nam mình ở đâu con người cũng ấm áp và cảnh sắc thì tuyệt mỹ. Chúc hành trình của bạn luôn thuận buồm xuôi gió và đầy ắp những nụ cười bản địa rạng rỡ nha!"
-      };
-    } else {
-      return {
-        angle: 'Tích cực',
-        text: "Năng lượng tích cực 💛 ngập tràn luôn á! Chúc bạn luôn giữ được ngọn lửa đam mê khám phá và có thêm thật nhiều hành trình trọn vẹn yêu thương nha!"
-      };
-    }
-  } else {
-    // Clickbait
-    if (isHanoi) {
-      return {
-        angle: 'Clickbait',
-        text: "\"Khoan dừng khoảng chừng là 2s\"! Đừng dại dột ra đường Phan Đình Phùng chụp ảnh lúc 9h hoặc 10h sáng nếu không muốn chen chúc trong biển người. Muốn visual thơ mộng 🤫 như phim Vương Gia Vệ thì bí quyết duy nhất là: canh đúng khung giờ 6h15 đến 7h30 sáng lúc nắng vừa xiên qua sương sớm, vắng tanh tha hồ thả dáng nha!"
-      };
-    } else if (isPhotoTour) {
-      return {
-        angle: 'Clickbait',
-        text: "\"Bí mật không ai nói cho bạn\": Đi du lịch một mình không sợ buồn, chỉ sợ lúc về không có tấm ảnh nào ra hồn để \"flex\" với crush =))) Giải pháp nhanh nhất là book ngay một bạn local photographer của TravelFrame dắt đi ngõ ngách, vừa có ảnh cinematic vừa bao ăn sập phố xá luôn!"
-      };
-    } else if (isMountain) {
-      return {
-        angle: 'Clickbait',
-        text: "\"Plot twist\" cực mạnh: Lên Tây Bắc mùa này đừng chỉ mải chụp lúa, hãy thức dậy lúc 5h30 sáng ngắm khói lam chiều quyện sương sớm ở các bản làng, visual đó mới là thứ khiến bạn nổi da gà vì quá đẹp!"
-      };
-    } else {
-      return {
-        angle: 'Clickbait',
-        text: "\"Cảnh báo nhẹ\": Đi du lịch mùa này nguy cơ tăng 2kg là có thật vì ẩm thực ngõ ngách thơm nức mũi! Bí kíp sinh tồn là cứ thấy quán nào bàn ghế nhựa con con toàn người già ngồi ăn là auto tấp vào, 100% \"ngon nhức nách\" luôn!"
-      };
-    }
+    const mountainPools = {
+      nghi_ngo: [
+        "Ai bảo đi vùng cao mùa này vất vả đâu bước ra đây? Mở mắt ra thấy ☁️ biển mây bồng bềnh ngay trước mặt là thấy mọi mệt mỏi tan biến hết trơn á, \"nghi ngờ nhân sinh\" sao cảnh vật đẹp dữ thần luôn!",
+        "Trước tui cũng sợ lên vùng cao đường xá khó đi lắm. Đi xong mới thấy: ủa mệt thật nhưng mà cái khoảnh khắc ☁️ sáng sớm mở mắt ra thấy biển mây, nó \"bù\" hết mọi vất vả luôn á!",
+        "\"Lên Tây Bắc chi cho cực\" tui hay nghe câu này lắm. Xong lên tới nơi thấy cảnh ⛰️ hùng vĩ tới mức quên luôn 6 tiếng ngồi xe, chỉ biết \"ơ trời ơi đẹp quá\" thôi =)))"
+      ],
+      tu_hoi: [
+        "Đứng giữa mây trời ⛰️ Tây Bắc tự hỏi: mình cày cuốc deadline cả năm để làm gì nếu không dành ra vài ngày lên đây đứng thở giữa thiên nhiên bao la thế này nhỉ?",
+        "Tự hỏi sao mỗi lần lên vùng cao là cảm giác như được \"reset\" lại toàn bộ tâm hồn vậy ⛰️? Có lẽ không khí trong lành và sự yên tĩnh nó chữa lành thật sự!",
+        "Có ai lên tới đỉnh đèo, ngắm mây trôi bồng bềnh ⛰️ rồi tự hỏi: sao mình không lên đây sớm hơn ta? Thôi muộn còn hơn không, đi ngay và luôn!"
+      ],
+      tich_cuc: [
+        "Việt Nam mình ở đâu con người cũng ấm áp và cảnh sắc thì tuyệt mỹ. Chúc hành trình của bạn luôn thuận buồm xuôi gió và đầy ắp những nụ cười bản địa rạng rỡ nha!",
+        "Vùng cao miền Bắc mùa nào cũng có cái đẹp riêng 💛 chúc bạn có chuyến đi an toàn, gom về thật nhiều kỷ niệm và ảnh visual \"đỉnh nóc\" nha!",
+        "Cung đường nào mà đi bằng cả đam mê thì cung đường đó sẽ đẹp gấp đôi 💛 chúc bạn tận hưởng trọn vẹn từng khúc cua, từng bình minh vùng cao nha!"
+      ],
+      clickbait: [
+        "\"Plot twist\" cực mạnh: Lên Tây Bắc mùa này đừng chỉ mải chụp lúa, hãy thức dậy lúc 5h30 sáng ngắm khói lam chiều quyện sương sớm ở các bản làng 🤫 visual đó mới là thứ khiến bạn nổi da gà vì quá đẹp!",
+        "\"Bật mí\" cho ai sắp lên Tây Bắc: dậy lúc 5h sáng leo lên điểm cao nhất gần homestay 🤫 lúc sương tan, biển mây hiện ra, visual lúc đó chỉ có mình bạn và trời đất, camera nào cũng thành máy ảnh chuyên nghiệp!",
+        "Đi vùng cao mà không dậy trước bình minh thì bỏ phí phân nửa chuyến đi rồi nha 🤫 cái khoảnh khắc mặt trời ló ra sau đỉnh núi lúc 5h45, sương tan dần, ruộng bậc thang hiện rõ, visual đó không filter nào tạo nổi!"
+      ]
+    };
+    const pool = mountainPools[angle] || mountainPools.clickbait;
+    return { angle: angleLabel, text: pickFromPool(`vi_mountain:${angle}`, pool) };
   }
+
+  // --- VI GENERAL (fallback for Vietnamese) ---
+  const viGeneralPools = {
+    yeu_thich: [
+      "Mỗi bước chân khám phá đều mang lại trải nghiệm vô giá ✨ nè! Chúc bạn gom về thật nhiều bức ảnh kỷ niệm tuyệt đẹp và những khoảnh khắc đáng nhớ nha!",
+      "Visual bài này đẹp quá sốp ơi ✨ nhìn là biết đi du lịch bằng cả trái tim luôn á! Chúc có thêm nhiều chuyến đi tuyệt vời như vậy nha!",
+      "Hình ảnh và năng lượng bài này tích cực quá ✨ xem xong là muốn xách balo lên đi ngay! Chúc bạn luôn giữ được đam mê khám phá nha!"
+    ],
+    nghi_ngo: [
+      "Ban đầu tui cũng hoài nghi mấy bài review khen nức nở, tới hồi đặt chân đến trải nghiệm mới thấy: hóa ra người ta khen còn hơi khiêm tốn đấy chứ ngoài đời đỉnh hơn nhiều á!",
+      "Trước tui cũng hay \"hmm thật không ta\" với mấy bài travel đẹp quá. Tới hồi tự đi mới giật mình: ủa ngoài đời còn đẹp hơn ảnh, thật mà! =)))",
+      "\"Chắc photoshop chứ gì\" tui cũng từng nghĩ vậy. Xong tới nơi mới thấy: không chỉ đẹp bằng mà còn đẹp hơn ảnh, kèm theo cái cảm giác gió mát, mùi cỏ cây, không filter nào diễn tả nổi!"
+    ],
+    tu_hoi: [
+      "Có ai như tui không, cứ mỗi lần stress công việc là lại tự hỏi sao mình chưa xách balo lên và đi trốn đến một góc phố lạ để \"sạc lại năng lượng\" ta? ✨",
+      "Tự hỏi sao đi du lịch về xong thì tuần đầu tiên làm việc hiệu quả gấp đôi ta ✨? Có khi \"sạc pin\" bằng chuyến đi mới là cách chăm sóc bản thân đúng nghĩa nhất!",
+      "Nhiều khi tự hỏi: mình tiết kiệm tiền để làm gì nếu không phải để đổi lấy những trải nghiệm và khoảnh khắc đáng nhớ nhỉ ✨? Đi thôi, không cần lý do!"
+    ],
+    tich_cuc: [
+      "Năng lượng tích cực 💛 ngập tràn luôn á! Chúc bạn luôn giữ được ngọn lửa đam mê khám phá và có thêm thật nhiều hành trình trọn vẹn yêu thương nha!",
+      "Xem bài của bạn xong thấy lòng nhẹ nhõm 💛 và muốn đi du lịch ngay luôn á! Chúc bạn luôn vui vẻ, khỏe mạnh và có thêm nhiều chuyến đi đáng nhớ nha!",
+      "Mỗi chuyến đi đều là một phiên bản \"nâng cấp\" của mình 💛 cảm ơn bạn vì đã chia sẻ năng lượng tích cực, chúc hành trình tiếp theo còn tuyệt vời hơn nữa nha!"
+    ],
+    clickbait: [
+      "\"Cảnh báo nhẹ\": Đi du lịch mùa này nguy cơ tăng 2kg là có thật vì ẩm thực ngõ ngách thơm nức mũi 🤫! Bí kíp sinh tồn là cứ thấy quán nào bàn ghế nhựa con con toàn người già ngồi ăn là auto tấp vào, 100% \"ngon nhức nách\" luôn!",
+      "\"Plot twist\" kinh điển của dân du lịch: đặt vé bay về rồi mà đêm cuối vẫn ước \"giá mà ở thêm 3 ngày\" 😭 thôi lần sau book dài hơn nha, trust me!",
+      "\"Bật mí\" cho ai chưa biết: đi du lịch Việt Nam không cần lịch trình dày cộm 🤫 chỉ cần một buổi sáng thong thả, một quán cà phê vỉa hè, và bước chân đi theo bụng (theo nghĩa đen, đến đâu có quán ngon thì dừng), vậy là đủ chuyến đi hoàn hảo!"
+    ]
+  };
+  const pool = viGeneralPools[angle] || viGeneralPools.clickbait;
+  return { angle: angleLabel, text: pickFromPool(`vi_general:${angle}`, pool) };
 }
 
 async function main() {

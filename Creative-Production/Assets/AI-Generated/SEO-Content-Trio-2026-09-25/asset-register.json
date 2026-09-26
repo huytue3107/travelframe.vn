@@ -1,0 +1,29 @@
+{
+  "project": "PLN-20260925-SEO-CONTENT-TRIO",
+  "created_at": "2026-09-25",
+  "generator": "Codex built-in image generation",
+  "disclosure": "AI-generated editorial illustrations. Do not use as evidence for access, safety, schedules, architecture, or current operating conditions.",
+  "assets": [
+    {
+      "file": "train-street-safety-editorial.jpg",
+      "article": "Blog-Train-Street-Hanoi-Safety-Guide-2026.md",
+      "alt": "A traveler waiting behind a closed railway barrier as a train approaches in Hanoi",
+      "use_case": "photorealistic-natural",
+      "status": "Draft"
+    },
+    {
+      "file": "solo-female-hanoi-photo-walk.jpg",
+      "article": "Blog-Solo-Female-Traveler-Hanoi-Photoshoot.md",
+      "alt": "A solo female traveler walking naturally through a quiet Hanoi street in morning light",
+      "use_case": "photorealistic-natural",
+      "status": "Draft"
+    },
+    {
+      "file": "slow-hanoi-morning.jpg",
+      "article": "Blog-Slow-Hanoi-48-Hour-Itinerary.md",
+      "alt": "A solo traveler walking beside Hoan Kiem Lake as Hanoi begins its morning",
+      "use_case": "photorealistic-natural",
+      "status": "Draft"
+    }
+  ]
+}
