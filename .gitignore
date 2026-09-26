@@ -11,6 +11,10 @@ __pycache__/
 dist/
 build/
 .worktrees/
+.qa-docx/
+scratch/
+~$*
+Technology-Automation/Tools/
 
 # Legacy large/generated paths during migration.
 Source video/

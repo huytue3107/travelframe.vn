@@ -2,12 +2,18 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
+import { execSync } from "node:child_process";
+
 const GRAPH_VERSION = process.env.META_GRAPH_VERSION || "v25.0";
 const PAGE_ID = process.env.TRAVELFRAME_PAGE_ID || "1409099405611405";
 const GRAPH_BASE = `https://graph.facebook.com/${GRAPH_VERSION}`;
 
 function accessToken() {
-  const token = process.env.TRAVELFRAME_META_ACCESS_TOKEN;
+  let token = process.env.TRAVELFRAME_META_ACCESS_TOKEN;
+  try {
+    const fresh = execSync('security find-generic-password -a "macbook" -s "travelframe-meta-readonly" -w 2>/dev/null', { encoding: "utf8" }).trim();
+    if (fresh) token = fresh;
+  } catch {}
   if (!token) {
     throw new Error("Missing TRAVELFRAME_META_ACCESS_TOKEN.");
   }
@@ -15,7 +21,11 @@ function accessToken() {
 }
 
 function pageAccessToken() {
-  const token = process.env.TRAVELFRAME_META_PAGE_ACCESS_TOKEN;
+  let token = process.env.TRAVELFRAME_META_PAGE_ACCESS_TOKEN;
+  try {
+    const fresh = execSync('security find-generic-password -a "travelframe-page-access" -s "travelframe-meta-automation-token" -w 2>/dev/null || security find-generic-password -a "macbook" -s "travelframe-facebook-page-readonly" -w 2>/dev/null', { encoding: "utf8" }).trim();
+    if (fresh) token = fresh;
+  } catch {}
   if (!token) {
     throw new Error("Missing TRAVELFRAME_META_PAGE_ACCESS_TOKEN.");
   }
