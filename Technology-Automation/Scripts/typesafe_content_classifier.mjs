@@ -114,19 +114,35 @@ function buildQuestions() {
       type: 'choice',
       instructions:
         'Pick the single best topic label for choosing a contextual reply pool. ' +
-        'Use "general" only when nothing more specific fits.',
-      criteria: Object.fromEntries(TOPIC_CHOICES.map((t) => [t, t])),
+        'Match the post language: en_* labels only for English posts, Vietnamese labels ' +
+        'only for Vietnamese posts. Use "general" only when nothing more specific fits.',
+      criteria: {
+        hanoi_autumn: 'Vietnamese: Hanoi scenery, weather, autumn, streets, lakes, cafes, city walks',
+        street_food: 'Vietnamese: Hanoi food, dishes, eateries, coffee places',
+        photo_tour: 'Photography tours, hiring a photographer, photoshoots, photo services (paid or tour-like, any language)',
+        mountain_views: 'Northern Vietnam mountains and destinations: Ha Giang, Sapa, Ta Xua, Mu Cang Chach, Cao Bang, Ninh Binh; rice terraces, flowers, weather there',
+        solo_travel: 'Vietnamese: traveling alone, solo trips',
+        pricing_budget: 'Tour prices, costs, budget questions',
+        en_solo: 'English: solo or alone travel',
+        en_photo: 'English: photography, photo spots, cameras, visuals without hiring a photographer or tour',
+        en_itinerary: 'English: itineraries, trip planning, routes, day trips, hotels, how long to stay',
+        en_food: 'English: food, cafes, coffee, what to eat',
+        international_vietnam: 'English: Vietnam travel fitting no specific label above',
+        general: 'Vietnamese post fitting none of the above',
+      },
     },
     lead_signal: {
       type: 'choice',
       instructions:
         'Does any comment (or the post itself) show purchase or inquiry intent toward ' +
-        'a photography tour, local guide, itinerary help, or pricing?',
+        'a photography tour, local guide, itinerary help, or pricing? ' +
+        'Casual questions to the community (route reviews, what flowers are in season, ' +
+        'where to eat) are NOT inquiry signals.',
       criteria: {
         price_question: 'Explicitly asks pricing, cost, or how much a tour/photo session is',
-        photo_tour_request: 'Wants a photographer, photo tour, or photoshoot, or asks availability',
-        itinerary_request: 'Asks for route/itinerary/plan help implying paid guidance',
-        guide_request: 'Asks for a local guide, driver, or booking help',
+        photo_tour_request: 'Wants to hire a photographer, book a photo tour or photoshoot, or asks its availability',
+        itinerary_request: 'Explicitly asks for a planned route/itinerary built for them, implying paid guidance',
+        guide_request: 'Asks to hire a local guide, driver, or for booking help',
         none: 'No inquiry or purchase signal',
       },
     },
@@ -307,13 +323,16 @@ function applyClassificationPolicy(a = {}) {
   // Relevance confidence drives the trust decision; the other answers are
   // acted on only when their own confidence clears the gate.
   const confidence = a.content_relevance?.confidence ?? 0;
+  const topicConf = a.topic?.confidence ?? 0;
   const leadConf = a.lead_signal?.confidence ?? 0;
   const trusted = confidence >= CONF_GATE;
+  const topicTrusted = trusted && topicConf >= CONF_GATE;
   const relevantChoice = a.content_relevance?.choice ?? 'borderline';
   return {
     relevant: relevantChoice === 'relevant',
     borderline: relevantChoice === 'borderline',
-    topic: trusted ? (a.topic?.choice ?? 'general') : 'general',
+    topic: topicTrusted ? (a.topic?.choice ?? 'general') : 'general',
+    topic_trusted: topicTrusted,
     is_lead: trusted && leadConf >= CONF_GATE && (a.lead_signal?.choice ?? 'none') !== 'none',
     lead_kind: trusted && leadConf >= CONF_GATE ? (a.lead_signal?.choice ?? 'none') : 'none',
     season_claim: a.season_claim?.noul ?? 0,

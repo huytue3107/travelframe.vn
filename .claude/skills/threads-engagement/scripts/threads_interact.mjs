@@ -447,7 +447,9 @@ function decideInteraction(mode, keywordEval, jev) {
       return { action: 'skip', reason: 'JEV xác minh ngoài phạm vi nội dung TravelFrame', source: 'jev' };
     }
     relevant = jev.relevant;
-    topic = jev.topic || 'general';
+    // Topic chỉ tin khi JEV tự tin (topic_trusted); ngược lại dùng topic từ khóa
+    // để tránh nhận nhãn lệch (general/en_itinerary trên bài tiếng Việt).
+    topic = jev.topic_trusted === false ? (keywordEval.topic || 'general') : (jev.topic || 'general');
     source = 'jev';
   } else {
     if (jev && jev.below_fallback && !isFeed) {
@@ -576,6 +578,7 @@ async function interactWithPost(url, author, defaultComment, angle = 'tự độ
   const keywordEval = evaluatePostRelevance(threadData.rootText);
   if (keywordEval.tier1Blocked) {
     console.log(`[Tier 1 Blacklist] Aborted: ${url} ${keywordEval.reason}`);
+    seenUrls.add(url); // tránh quét lại (mỗi lần quét = 1 request JEV trả phí)
     return false;
   }
   const jev = await classifyContentWithJev(threadData.rootText, comments);
@@ -583,6 +586,7 @@ async function interactWithPost(url, author, defaultComment, angle = 'tự độ
 
   if (decision.action === 'skip') {
     console.log(`[Quality Gate] Aborted: ${url} ${decision.reason} (source: ${decision.source}). Skipping to protect brand relevance.`);
+    seenUrls.add(url); // tránh quét lại (mỗi lần quét = 1 request JEV trả phí)
     return false;
   }
 

@@ -83,6 +83,27 @@ test('policy trusts JEV only at or above the confidence gate', () => {
   assert.equal(untrusted.below_fallback, true);
 });
 
+test('policy gates the topic label on its own confidence', () => {
+  const weakTopic = applyClassificationPolicy({
+    content_relevance: { choice: 'relevant', confidence: 0.9 },
+    topic: { choice: 'en_itinerary', confidence: CONF_GATE - 0.1 },
+    lead_signal: { choice: 'none', confidence: 0.9 },
+    season_claim: { noul: 0.1 },
+  });
+  assert.equal(weakTopic.trusted, true);
+  assert.equal(weakTopic.topic_trusted, false);
+  assert.equal(weakTopic.topic, 'general');
+
+  const strongTopic = applyClassificationPolicy({
+    content_relevance: { choice: 'relevant', confidence: 0.9 },
+    topic: { choice: 'mountain_views', confidence: CONF_GATE },
+    lead_signal: { choice: 'none', confidence: 0.9 },
+    season_claim: { noul: 0.1 },
+  });
+  assert.equal(strongTopic.topic_trusted, true);
+  assert.equal(strongTopic.topic, 'mountain_views');
+});
+
 test('policy flags leads only when the lead answer is confident', () => {
   const lead = applyClassificationPolicy({
     content_relevance: { choice: 'relevant', confidence: 0.9 },

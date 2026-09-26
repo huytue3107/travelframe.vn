@@ -101,6 +101,13 @@ Typed questions (1 request, independent questions over same state):
 Moi answer kem `confidence` (0-1). Nguong: `CONF_GATE = 0.6` (tin JEV),
 `CONF_FALLBACK = 0.5` (duoi nay khong tin ca keyword lẫn model, skip/like-only).
 
+Bo cau hoi `topic` co mo ta tung nhan rieng (khong chi lap slug) va rule ngon ngu
+(en_* cho bai tieng Anh, nhan Viet cho bai tieng Viet). Topic chi duoc dung khi
+`topic.confidence >= 0.6` (`classification.topic_trusted`); nguoc lai runner dung
+topic tu keyword. Lead chi bat khi `lead_signal.confidence >= 0.6`; cau hoi
+`lead_signal` loai ro cau hoi cong dong (xin review cung đường, hoi mua) khong
+phai inquiry mua dich vu. (Cap nhat 2026-09-26 sau eval 11 case.)
+
 ## 7. Data Contract
 
 Output JSON:
@@ -117,6 +124,7 @@ Output JSON:
   "classification": {
     "relevant": true,
     "topic": "photo_tour",
+    "topic_trusted": true,
     "is_lead": false,
     "lead_kind": "none",
     "season_claim": 0.1,
@@ -128,7 +136,8 @@ Output JSON:
 ```
 
 `trusted = confidence >= 0.6`. `threads_interact.mjs` chi dung `classification`
-khi `trusted === true`, nguoc lai fallback keyword.
+khi `trusted === true`, nguoc lai fallback keyword. `topic_trusted = trusted &&
+topic.confidence >= 0.6`; khi `topic_trusted === false` runner lay topic tu keyword.
 
 ## 8. Reporting
 
