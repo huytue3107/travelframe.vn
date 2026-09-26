@@ -74,3 +74,28 @@
   3. Giá & Minh Bạch: Đập tan rào cản *"Did you book through an agent?"* bằng cam kết 100% Direct Local Team, niêm yết giá công khai không phụ phí ẩn.
 - Trạng thái: idea
 
+## I-013 | Reel: "Bí kíp qua đường Hà Nội mượt mà như người bản địa (The 3 Golden Rules)"   (confidence: 2 nguồn)
+- Nguồn: Research-Insights/Library/knowledge/2026-09-26-customer-evidence-synthesis.md, Research-Insights/Library/knowledge/2026-09-26-meta-social-comments-audit.json (2026-09-26)
+- Góc cho TravelFrame:
+  1. Hook 0-3s (P-035): *"Think crossing roads in Hanoi is impossible? Here is what they don't tell you."* (Footage người đi bộ bước đều giữa dòng xe lướt qua êm ả).
+  2. 3 Golden Rules: (1) Never stop or run back; (2) Maintain steady walking pace; (3) Make gentle eye contact with oncoming riders.
+  3. CTA (P-006): *"Save this for your first day in Hanoi, or let our local photographers walk with you and capture your calmest moments."*
+- Trạng thái: idea
+
+## I-014 | Phễu tự động ManyChat: "Hanoi Hidden Rooftops & Secret Cafes Guide"   (confidence: 2 nguồn)
+- Nguồn: Research-Insights/Library/knowledge/2026-09-26-customer-evidence-synthesis.md (2026-09-26)
+- Góc cho TravelFrame:
+  1. Kích hoạt bằng keyword `HANOI` hoặc `CAFE` dưới các bài đăng hé lộ quán ẩn / gatekeeping (P-036).
+  2. Gửi PDF hướng dẫn 5 quán rooftop ẩn quanh phố cổ (trong đó có Nắng Coffee Đồng Xuân) kèm hình ảnh thực tế, chỉ dẫn lối đi ngõ hẹp và bảng giá minh bạch.
+  3. Tích hợp nút chuyển đổi: *"Want someone to take you to these secret spots and take incredible candid photos? Chat with us."*
+- Trạng thái: idea
+
+## I-015 | Chiến dịch quảng cáo nhắm mục tiêu kỳ nghỉ Tháng 12 & Tháng 2 (Winter Holiday Hanoi Walking Tour)   (confidence: 2 nguồn)
+- Nguồn: Research-Insights/Library/knowledge/2026-09-26-customer-evidence-synthesis.md (2026-09-26)
+- Góc cho TravelFrame:
+  1. Nhắm mục tiêu tệp du khách quốc tế từ Úc, Singapore, Anh, Mỹ đang lên kế hoạch kỳ nghỉ đông (tháng 12) hoặc Tết Nguyên đán/mùa xuân (tháng 2).
+  2. Thông điệp cá nhân hóa giải tỏa rào cản tìm khách sạn, ẩm thực chuẩn vị và di chuyển an toàn (dẫn xuất từ bằng chứng của Regina G. Castillo, Jim Backowski, Trish Saunders).
+  3. Ưu đãi Early Bird: Đặt lịch sớm trước 30 ngày tặng kèm Bản đồ ẩm thực ngõ hẻm độc quyền và miễn phí 1 cuộn film chụp hoài niệm.
+- Trạng thái: idea
+
+

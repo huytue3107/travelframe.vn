@@ -185,4 +185,20 @@ chữ nguồn. Mỗi entry phải có evidence pointer tới file thật.
 - Nguồn: Marketing-Growth/Agents/Threads-Engagement-Agent.md, Research-Insights/Library/knowledge/threads-high-engagement-comments.json, Technology-Automation/Scripts/typesafe_lead_triage.mjs (2026-09-25)
 - Áp dụng cho TravelFrame: Vận hành tương tác mạng xã hội Threads; tái sử dụng các motif bình luận đạt tương tác cao để nâng cao tỷ lệ phản hồi tự nhiên và chuyển đổi khách hàng tiềm năng
 
+## P-035 | Hook: "Nghi Thức Băng Qua Đường Hà Nội & Cơ Chế Giảm Lo Âu Giao Thông"   (confidence: 2 nguồn)
+- Cấu trúc: Khởi đầu bằng hình ảnh băng qua đường hỗn loạn hoặc câu đùa kinh điển ("Real life frogger game", "cầm gạch qua đường", "vừa nhắm mắt vừa đi") -> Chuyển hướng thành 3 nguyên tắc sinh tồn thực tế (bước đều, không dừng đột ngột, mắt nhìn thẳng, người lái xe tự lách qua như nước ôm lấy đá) -> Đưa ra giải pháp đồng hành (Local Companion dẫn đường an tâm và chụp lại khoảnh khắc nhập môn)
+- Nguồn: Research-Insights/Library/knowledge/2026-09-26-meta-social-comments-audit.json, Research-Insights/Library/knowledge/2026-09-26-customer-evidence-synthesis.md (2026-09-26)
+- Áp dụng cho TravelFrame: Hook Reels ngắn và bài viết TikTok/Instagram; tạo cảm giác thân thiện, xóa tan định kiến giao thông nguy hiểm và tôn vinh nét văn hóa đường phố độc đáo
+
+## P-036 | Phễu Inbound: "Gatekeeping Điểm Ẩn & Kích Hoạt Phễu Tự Động Hóa Inbound"   (confidence: 2 nguồn)
+- Cấu trúc: Video/ảnh hé lộ một địa điểm rooftop hoặc quán cà phê ngõ sâu tuyệt đẹp nhưng cố tình giấu tên ("Lowkey gatekeeping this spot... DM us for the location") -> Kêu gọi comment keyword (ví dụ "HANOI" hoặc "CAFE") để nhận tọa độ chính xác -> Phễu tự động ManyChat gửi tin nhắn kèm bản đồ và menu đặc trưng -> Tự động chuyển tiếp (Lead Triage) sang lời mời đặt tour chụp ảnh riêng
+- Nguồn: Research-Insights/Library/knowledge/2026-09-26-meta-social-comments-audit.json, Research-Insights/Library/knowledge/2026-09-26-customer-evidence-synthesis.md (2026-09-26)
+- Áp dụng cho TravelFrame: Tăng vọt lượng bình luận tự nhiên (13+ comments chất lượng cao/bài) và tạo tệp lead ấm chuyển đổi thẳng vào hộp thư
+
+## P-037 | Định vị Trải Nghiệm: "Phòng Vệ Trải Nghiệm Phố Đường Tàu & Hướng Dẫn Tầng Trệt Thoáng Khí"   (confidence: 2 nguồn)
+- Cấu trúc: Thẳng thắn thừa nhận nhược điểm của các điểm quá tải du lịch (khói diesel phả vào mặt ở tầng 2, không gian thương mại hóa ngột ngạt) thay vì tâng bốc một chiều -> Đưa ra giải pháp thay thế tối ưu của người bản địa (ngồi tầng trệt đón gió, chọn đoạn đường ray phía Nam ít khách du lịch, hoặc ghé sớm vào 7:00 AM) -> Nâng tầm uy tín thương hiệu như một nguồn thông tin trung thực, không tô hồng
+- Nguồn: Research-Insights/Library/knowledge/2026-09-26-meta-social-comments-audit.json, Research-Insights/Library/knowledge/2026-09-26-customer-evidence-synthesis.md (2026-09-26)
+- Áp dụng cho TravelFrame: Giữ vững uy tín thương hiệu đối với du khách khó tính; phân hóa TravelFrame khỏi các đại lý bán tour chạy xô thương mại hóa
+
+
 
