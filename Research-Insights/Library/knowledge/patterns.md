@@ -200,5 +200,25 @@ chữ nguồn. Mỗi entry phải có evidence pointer tới file thật.
 - Nguồn: Research-Insights/Library/knowledge/2026-09-26-meta-social-comments-audit.json, Research-Insights/Library/knowledge/2026-09-26-customer-evidence-synthesis.md (2026-09-26)
 - Áp dụng cho TravelFrame: Giữ vững uy tín thương hiệu đối với du khách khó tính; phân hóa TravelFrame khỏi các đại lý bán tour chạy xô thương mại hóa
 
+## P-038 | The Multi-Part Retention Cascade: Cấu trúc Thread Đa Phần (4-12 parts) Kéo Dwell Time   (confidence: 1 nguồn)
+- Cấu trúc: Triển khai nội dung dưới dạng chuỗi Thread nối tiếp từ 4 đến 12 phần đánh số rõ ràng (1/7, 2/7...). Mở đầu bằng tuyên bố chữ in hoa (Caps-Lock / Bold Claim Hook) kích hoạt tò mò hoặc lo âu (Loss-Aversion); mỗi sub-post chỉ chứa đúng 1 insight hoặc 1 địa điểm thực tế; sub-post cuối cùng đúc rút quy luật thực tế (Synthesis Rule) và kết thúc bằng Soft Call-To-Action.
+- Nguồn: Research-Insights/Library/channels/vietnamcontext/digest.md, Research-Insights/Library/channels/vietnamcontext/threads-full-archive.json (2026-09-28 — 58 threads đạt 959K views trong 9 ngày)
+- Áp dụng cho TravelFrame: Đóng gói các kinh nghiệm du lịch và điểm chụp ảnh Hà Nội thành các luồng Thread đa phần trên Threads; tối đa hóa thời lượng dừng xem (Dwell Time) và tương tác để thuật toán Meta phân phối vào Explore/For You.
+
+## P-039 | Price Asymmetry & The Invisible Leak: Bóc Tách Bất Đối Xứng Chi Phí Thực Tế   (confidence: 1 nguồn)
+- Cấu trúc: Thiết lập sự đối lập rõ nét giữa hai thái cực chi phí: "Những thứ rẻ hơn bạn tưởng" (Grab ngắn < $1, phở ngõ nhỏ, đồ may đo Hội An) đối chiếu với "Những thứ đắt hơn bạn tính" (vé điểm di tích lớn, menu có hình tiếng Anh cạnh danh thắng, tuần lễ Tết tăng giá x2). Chỉ ra con số tổn thất vô hình ($80 - $150 cho chuyến đi 10 ngày hoặc $17 oan vì nhầm tờ 500k với 50k) mà không đổ lỗi cho sự gian dối mà do thiếu bối cảnh bản địa.
+- Nguồn: Research-Insights/Library/channels/vietnamcontext/digest.md (2026-09-28 — Thread #4, #7, #8, #21)
+- Áp dụng cho TravelFrame: Xây dựng niềm tin vững chắc với du khách bằng sự am hiểu giá cả mặt đất; định vị gói Photo Tour bản địa như một khoản đầu tư thông minh giúp khách tiết kiệm thời gian và tiền bạc nhờ có người địa phương dẫn đường chuẩn xác.
+
+## P-040 | Anti-Tourist "Side Quest" Framing: Tái Định Vị Trải Nghiệm Thành Nhiệm Vụ Phụ   (confidence: 1 nguồn)
+- Cấu trúc: Lật ngược vấn đề: *"Chuyến đi của bạn nhàm chán vì bạn thiếu các Side Quests (nhiệm vụ phụ)"*. Đưa ra danh sách 10-15 trải nghiệm bản địa ngoài lộ trình du lịch đại trà (4h sáng chợ hoa Quảng Bá trước khi thành điểm sống ảo, săn cà phê ngõ hẹp không biển hiệu, chèo kayak hồ Ba Bể, ngắm bình minh đèo Hải Vân 6h sáng).
+- Nguồn: Research-Insights/Library/channels/vietnamcontext/digest.md (2026-09-28 — Thread #2)
+- Áp dụng cho TravelFrame: Trực tiếp biến các gói Photo Tour của TravelFrame thành "The Ultimate Hanoi Visual Side Quest" — giúp du khách quốc tế thoát khỏi các tour xe buýt 45 chỗ đại trà để bước vào những ngõ ngách độc bản của Hà Nội.
+
+## P-041 | Loss-Aversion & Pre-Flight Survival Checklist: Cẩm Nang Phòng Vệ Trước Giờ Bay   (confidence: 1 nguồn)
+- Cấu trúc: Đặt mốc thời gian hành động dứt khoát: *"10 điều nên mua hoặc tải về 1 ngày TRƯỚC KHI bay, không phải sau khi hạ cánh"*. Đánh trúng tâm lý bối rối và mệt mỏi trong 24 giờ đầu tiên của khách quốc tế (cài đặt Grab/Xanh SM trước, mua eSIM online, tải Google Translate offline, chuẩn bị trang phục che vai/đầu gối cho đền chùa).
+- Nguồn: Research-Insights/Library/channels/vietnamcontext/digest.md (2026-09-28 — Thread #1, #3, #11)
+- Áp dụng cho TravelFrame: Tạo series bài viết chuẩn bị trước giờ bay dành cho khách quốc tế; gắn liền với lời mời kết nối cùng "Local Friend Companion" tại Hà Nội để an tâm ngay từ bước chân đầu tiên.
+
 
 

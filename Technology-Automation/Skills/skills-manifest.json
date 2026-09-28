@@ -546,6 +546,24 @@
         "Marketing-Growth/README.md"
       ],
       "contract": "legacy"
+    },
+    {
+      "name": "instagram-engagement",
+      "owner": "Marketing-Growth",
+      "status": "active",
+      "source_type": "custom",
+      "source_url": null,
+      "source_commit": null,
+      "license": "project-internal",
+      "canonical_path": ".agents/skills/instagram-engagement",
+      "deploy_targets": [
+        ".claude/skills/instagram-engagement"
+      ],
+      "approval_gates": [],
+      "dependencies": [
+        "Marketing-Growth/README.md"
+      ],
+      "contract": "v1"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # TravelFrame Skills Catalog
 
-Danh mục toàn bộ 27 kỹ năng (Agent Skills) của TravelFrame được phân bổ theo 9 phòng ban nghiệp vụ.
+Danh mục toàn bộ 28 kỹ năng (Agent Skills) của TravelFrame được phân bổ theo 9 phòng ban nghiệp vụ.
 
 ---
 
@@ -62,6 +62,7 @@ Danh mục toàn bộ 27 kỹ năng (Agent Skills) của TravelFrame được ph
 | `transcript-intelligence` | Bóc tách transcript video du lịch thành hook & quote | Bảng hooks, claims, content atoms | Giữ ngữ cảnh chính xác của phát ngôn | Adopted | [Marketing Guide](file:///Users/macbook/Codex%20GPT/travelframe.vn/Technology-Automation/Skills/Departments/Marketing-Growth/README.md) |
 | `scrapecreators-api` | Tầng kết nối REST API tra cứu dữ liệu 27+ nền tảng | Kết nối API tra cứu profile, post, reel | Không log hay để lộ API key | Adopted | [Marketing Guide](file:///Users/macbook/Codex%20GPT/travelframe.vn/Technology-Automation/Skills/Departments/Marketing-Growth/README.md) |
 | `threads-engagement` | Tương tác, bình luận và phát hiện khách hàng tiềm năng trên Threads | `Marketing-Growth/Content/Threads-All-Interactions-Log.md` | Pacing an toàn 45s-75s, không spam link | Active | [Marketing Guide](file:///Users/macbook/Codex%20GPT/travelframe.vn/Technology-Automation/Skills/Departments/Marketing-Growth/README.md) |
+| `instagram-engagement` | Tương tác, lướt Reels và bình luận xây dựng cộng đồng trên Instagram | `Marketing-Growth/Content/Instagram-All-Interactions-Log.md` | Pacing an toàn 45s-75s, không spam link | Active | [Marketing Guide](file:///Users/macbook/Codex%20GPT/travelframe.vn/Technology-Automation/Skills/Departments/Marketing-Growth/README.md) |
 
 ---
 

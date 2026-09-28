@@ -38,8 +38,10 @@ Marketing Growth chịu trách nhiệm về thu hút du khách, triển khai chi
 | `transcript-intelligence` | Bóc tách transcript video du lịch thành hook & quote | Hàng tuần | Bảng hook, claims, trích dẫn, content atoms |
 | `scrapecreators-api` | Tầng kết nối REST API tra cứu dữ liệu 27+ nền tảng | Kỹ năng nền tảng | Gọi API, tài liệu OpenAPI cho từng endpoint |
 | `threads-engagement` | Tương tác, bình luận và săn tìm khách hàng trên Threads | Hàng ngày | Like, comment, log tương tác, lead triage |
+| `instagram-engagement` | Tương tác, lướt Reels và xây dựng cộng đồng trên Instagram | Hàng ngày | Like, comment, log tương tác, nuôi dưỡng creator |
 
 ## 3. Câu Lệnh Kích Hoạt Mẫu (Sample Triggers)
+- *"Lướt Reels Instagram và tương tác với các video du lịch Việt Nam"* -> Kích hoạt `instagram-engagement`
 - *"Tương tác tự động 30 phút trên Threads về du lịch Hà Nội và photo tour"* -> Kích hoạt `threads-engagement`
 - *"Lướt Threads tìm các bài hỏi tour chụp ảnh và để lại comment tư vấn"* -> Kích hoạt `threads-engagement`
 - *"Tạo campaign brief hoàn chỉnh cho chiến dịch Meta Ads mùa thu Hà Nội"* -> Kích hoạt `campaign-brief`

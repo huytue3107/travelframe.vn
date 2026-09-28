@@ -1,0 +1,158 @@
+{
+  "title": "TravelFrame competitor website research sources",
+  "status": "Review",
+  "retrieved_at": "2026-09-27",
+  "input": {
+    "type": "User-supplied competitor brief",
+    "path": "/Users/macbook/.codex/attachments/b289636e-9444-42b2-8512-0c285c5fa0c8/Pasted text.txt"
+  },
+  "providers": [
+    {
+      "provider": "ahrefs",
+      "via": "Monid",
+      "endpoint": "/batch-analysis/batch-analysis",
+      "run_id": "01M3G8D55W6QKRXCW0F0B5FQ7C",
+      "metrics": [
+        "domain_rating",
+        "ahrefs_rank",
+        "backlinks",
+        "refdomains",
+        "org_keywords",
+        "org_traffic"
+      ],
+      "result_file": "/tmp/monid-ahrefs-travelframe-competitor-batch-2026-09-27.json",
+      "caveat": "Domain-level estimate returned by the provider. No country/database was specified."
+    },
+    {
+      "provider": "context.dev",
+      "via": "Monid",
+      "endpoint": "/web/scrape/markdown",
+      "purpose": "Rendered homepage and destination/product page reads",
+      "price_per_successful_page_usd": 0.0009
+    },
+    {
+      "provider": "context.dev",
+      "via": "Monid",
+      "endpoint": "/web/scrape/sitemap",
+      "purpose": "URL inventory and content architecture snapshot",
+      "price_per_successful_call_usd": 0.0009
+    }
+  ],
+  "direct_competitors": [
+    {
+      "domain": "forevervacation.com",
+      "target_url": "https://forevervacation.com/hanoi-tours",
+      "homepage_file": "/tmp/monid-site-forevervacation-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-forevervacation-sitemap-2026-09-27.json",
+      "target_result": "404 in snapshot"
+    },
+    {
+      "domain": "tubudd.com",
+      "target_url": "https://www.tubudd.com/locations/hanoi",
+      "homepage_file": "/tmp/monid-site-tubudd-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-tubudd-sitemap-2026-09-27.json",
+      "target_file": "/tmp/monid-site-tubudd-target-2026-09-27.json"
+    },
+    {
+      "domain": "localgrapher.com",
+      "target_url": "https://www.localgrapher.com/photographers-in-hanoi/",
+      "homepage_file": "/tmp/monid-site-localgrapher-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-localgrapher-sitemap-2026-09-27.json",
+      "target_result": "404 in snapshot"
+    },
+    {
+      "domain": "flytographer.com",
+      "target_url": "https://www.flytographer.com/destinations/hanoi/",
+      "homepage_file": "/tmp/monid-site-flytographer-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-flytographer-sitemap-2026-09-27.json",
+      "target_file": "/tmp/monid-site-flytographer-target-2026-09-27.json"
+    },
+    {
+      "domain": "sweetescape.com",
+      "target_url": "https://sweetescape.com/en/destinations",
+      "homepage_file": "/tmp/monid-site-sweetescape-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-sweetescape-sitemap-2026-09-27.json",
+      "target_file": "/tmp/monid-site-sweetescape-target-2026-09-27.json"
+    },
+    {
+      "domain": "withlocals.com",
+      "target_url": "https://www.withlocals.com/experiences/vietnam/hanoi/tours/",
+      "homepage_file": "/tmp/monid-site-withlocals-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-withlocals-sitemap-2026-09-27.json",
+      "target_file": "/tmp/monid-site-withlocals-target-2026-09-27.json"
+    },
+    {
+      "domain": "hanoikids.org",
+      "target_url": "https://hanoikids.org/citytour/",
+      "homepage_file": "/tmp/monid-site-hanoikids-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-hanoikids-sitemap-2026-09-27.json",
+      "target_file": "/tmp/monid-site-hanoikids-target-2026-09-27.json"
+    },
+    {
+      "domain": "hanoifreewalkingtours.com",
+      "target_url": "https://www.hanoifreewalkingtours.com/tour/hanoi-old-quarter-private-walking-tour-half-day",
+      "homepage_file": "/tmp/monid-site-hanoifreewalkingtours-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-hanoifreewalkingtours-sitemap-2026-09-27.json",
+      "target_file": "/tmp/monid-site-hanoifreewalkingtours-target-2026-09-27.json"
+    },
+    {
+      "domain": "vespaadventures.com",
+      "target_url": "https://vespaadventures.com/destination/hanoi",
+      "homepage_file": "/tmp/monid-site-vespaadventures-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-vespaadventures-sitemap-2026-09-27.json",
+      "target_file": "/tmp/monid-site-vespaadventures-target-2026-09-27.json"
+    },
+    {
+      "domain": "hanoibackstreettours.com",
+      "target_url": "https://hanoibackstreettours.com/hanoi-scooter-tour",
+      "homepage_file": "/tmp/monid-site-hanoibackstreettours-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-hanoibackstreettours-sitemap-2026-09-27.json",
+      "target_file": "/tmp/monid-site-hanoibackstreettours-target-2026-09-27.json"
+    },
+    {
+      "domain": "congstudio.vn",
+      "target_url": "https://congstudio.vn/bang-gia-chup-anh-ao-dai",
+      "homepage_file": "/tmp/monid-site-congstudio-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-congstudio-sitemap-2026-09-27.json",
+      "target_file": "/tmp/monid-site-congstudio-target-2026-09-27.json"
+    },
+    {
+      "domain": "lavenderstudio.vn",
+      "target_url": "https://lavenderstudio.vn/chup-anh-profile-ca-nhan-uy-tin-o-ha-noi",
+      "homepage_file": "/tmp/monid-site-lavenderstudio-home-2026-09-27.json",
+      "sitemap_file": "/tmp/monid-site-lavenderstudio-sitemap-2026-09-27.json",
+      "target_file": "/tmp/monid-site-lavenderstudio-target-2026-09-27.json"
+    }
+  ],
+  "marketplace_benchmarks": [
+    {
+      "name": "Airbnb Experiences",
+      "target_url": "https://www.airbnb.com/s/Hanoi--Vietnam/experiences",
+      "target_file": "/tmp/monid-site-airbnb-marketplace-target-2026-09-27.json"
+    },
+    {
+      "name": "Viator",
+      "target_url": "https://www.viator.com/Hanoi-tours/Photography-Tours/d351-g12-c28896",
+      "target_result": "Unavailable to scraper in snapshot"
+    },
+    {
+      "name": "GetYourGuide",
+      "target_url": "https://www.getyourguide.com/hanoi-l205/",
+      "target_file": "/tmp/monid-site-getyourguide-marketplace-target-2026-09-27.json"
+    },
+    {
+      "name": "Klook",
+      "target_url": "https://www.klook.com/city/18-hanoi-things-to-do/",
+      "target_result": "Unavailable to scraper in snapshot"
+    }
+  ],
+  "tool_availability": {
+    "semrush_direct_connector": "Not connected in this workspace",
+    "agent_reach": "Command unavailable in this environment"
+  },
+  "use_constraints": [
+    "Do not treat scraped content, review counts, availability, prices or ratings as TravelFrame commercial truth.",
+    "Do not claim booking, revenue or conversion without first-party evidence.",
+    "Do not use this Review artifact as approval to publish or change live content."
+  ]
+}

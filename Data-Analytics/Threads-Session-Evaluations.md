@@ -150,3 +150,114 @@ Mốc đánh giá sau: log row #506
 Không có hoạt động mới (0 runner, log dừng ở #506). Vẫn đang chờ Rocky quyết định 3 fix runner.
 
 Mốc đánh giá sau: log row #506
+
+## Snapshot 2026-09-26 20:47 — Chu kỳ 10
+
+Không có hoạt động mới (0 runner, log dừng ở #506). Chờ Rocky quyết 3 fix runner.
+
+Mốc đánh giá sau: log row #506
+
+## Snapshot 2026-09-26 22:37 — Chu kỳ 11
+
+Không có hoạt động mới (0 runner, log dừng ở #506). Chờ Rocky quyết 3 fix runner.
+
+Mốc đánh giá sau: log row #506
+
+## Snapshot 2026-09-26 22:47 — Chu kỳ 12
+
+Không có hoạt động mới (0 runner, log dừng ở #506). Chờ Rocky quyết 3 fix runner.
+
+Mốc đánh giá sau: log row #506
+
+## Snapshot 2026-09-26 23:47 — Chu kỳ 13
+
+Không có hoạt động mới (0 runner, log dừng ở #506). Chờ Rocky quyết 3 fix runner.
+
+Mốc đánh giá sau: log row #506
+
+## Snapshot 2026-09-27 01:52 — Chu kỳ 14 (điểm kiểm)
+
+0 runner đang chạy. Log đã có 3 dòng mới #507-509 (nhãn "Nhóm Ưu tiên Cao"/"Nhóm Bổ trợ", pipeline chưa xác định nguồn, không phải threads_interact). Đánh giá workflow đang chạy cho batch này, snapshot chi tiết sẽ bổ sung.
+
+Mốc đánh giá sau: log row #509
+
+## Snapshot 2026-09-27 02:05 — Chu kỳ 14b (đánh giá #507-509)
+
+*(Workflow đánh giá bị stall, đánh giá inline.)*
+
+**Phạm vi:** rows #507-509, đăng giữa đêm 26/09-27/09, nhãn phase mới "Nhóm Ưu tiên Cao (...P1)" / "Nhóm Bổ trợ (...P2)", topic mới (en_solo_safety, en_trusted_trip, en_solo_direction). **Nguồn chưa xác định:** không có script nào trong repo chứa các nhãn này, không phải threads_interact.mjs (ANGLES/TOPIC_CHOICES đều không có); 0 tiến trình còn sống. Có thể phiên Claude/terminal khác của Rocky dùng script chưa lưu vào repo. Cần Rocky xác nhận.
+
+**Metrics:** 3 dòng, 3 author/URL khác nhau, 0 trùng lặp, 0 like-only.
+
+**Giọng thương hiệu: 0 pass / 2 warn / 1 fail.**
+- #507 WARN: "street-smart" dùng hyphen nối từ (playbook 1.2.1 cấm). Còn lại tốt: lời khuyên an toàn cụ thể, hợp ngữ cảnh en_solo_safety, emoji đặt giữa câu đúng.
+- #508 WARN: nhắc "Da Nang" (ngoài phạm vi miền Bắc của brand, dù chỉ là câu hỏi lựa chọn); "Drop your planned travel dates..." hơi mồi thu thông tin công khai, lệch phong cách "Warm Local Friend" thầm kín.
+- #509 FAIL: slang "lowkey" không đặt ngoặc kép (1.2.3, cùng lớp vi phạm #499); emoji 💛 kết thúc câu máy móc (1.2.2); "e-SIM" hyphen nhẹ.
+
+**Nhận xét:** chất lượng nội dung 3 dòng này tốt hơn hẳn template cũ (cụ thể, đúng ngữ cảnh, có điểm nhấn địa phương), cho thấy pipeline mới hướng đúng — nhưng vẫn có vi phạm quy chuẩn viết cơ bản. Nếu đây là pipeline mới của Rocky, cần nối vào checklist playbook trước khi scale.
+
+**Chờ Rocky xác nhận:** (1) nguồn pipeline Nhóm Ưu tiên Cao/Nhóm Bổ trợ; (2) quyết 3 fix runner cũ vẫn treo.
+
+Mốc đánh giá sau: log row #509
+
+## Snapshot 2026-09-27 04:19 — Chu kỳ 15
+
+Không có hoạt động mới (0 runner, log dừng ở #509, đã đánh giá ở 14b). Chờ Rocky xác nhận nguồn pipeline Nhóm Ưu tiên Cao + quyết 3 fix runner.
+
+Mốc đánh giá sau: log row #509
+
+## Snapshot 2026-09-27 06:25 — Chu kỳ 16
+
+Không có hoạt động mới (0 runner, log dừng ở #509). Chờ Rocky xác nhận nguồn pipeline + quyết 3 fix runner.
+
+Mốc đánh giá sau: log row #509
+
+## Snapshot 2026-09-27 06:38 — Chu kỳ 17
+
+Không có hoạt động mới (0 runner, log dừng ở #509).
+
+Mốc đánh giá sau: log row #509
+
+## Snapshot 2026-09-27 06:53 — Chu kỳ 18
+
+Không có hoạt động mới (0 runner, log dừng ở #509).
+
+Mốc đánh giá sau: log row #509
+
+## Snapshot 2026-09-27 07:50 — Chu kỳ 19 (đánh giá #510-519)
+
+**Phiên đang chạy:** feed (PID 58908, Rocky khởi động ~07:35), 1 runner duy nhất. Đã ghi nhận, không can thiệp.
+
+**Phạm vi:** rows #510-519 (10 tương tác đầu phiên).
+
+**Metrics:** 0 trùng author/URL trong phạm vi; cooldown liên phiên với #507-509 được tôn trọng (0 overlap). 2 like-only (#511, #517). Angle phân bố đều.
+
+**Giọng thương hiệu: 5 pass / 5 warn / 0 fail.** Không vi phạm gạch ngang, slang, emoji cuối câu, quảng cáo cứng.
+
+Warn:
+- #510: lặp nguyên văn #506 — template "Such a well planned route" lần thứ 14, và là câu NGAY TRONG phiên trước đó (rủi ro spam rõ nhất)
+- #515, #518: lệch topic (Ngữ cảnh street_food nhưng nội dung chụp ảnh/mùa thu)
+- #516: lệch topic (pricing_budget nhưng khen visual mùa thu)
+- #519: khô, chung chung, thiếu giọng warm local friend
+
+**Đánh giá:** kỹ thuật sạch (dedup tác giả OK, like-only đúng rule), nhưng vi phạm topic-label & template lặp vẫn là 2 bệnh cũ của runner — chưa được sửa vì chờ quyết định của Rocky.
+
+Mốc đánh giá sau: log row #519
+
+## Snapshot 2026-09-27 08:47 — Chu kỳ 20
+
+Phiên feed 07:35 đã kết thúc (log dừng ở #519, đã đánh giá trọn batch ở chu kỳ 19). 0 runner đang chạy. Chờ Rocky quyết fix runner.
+
+Mốc đánh giá sau: log row #519
+
+## Snapshot 2026-09-27 16:04 — Chu kỳ 21
+
+Không có hoạt động mới cả ngày (0 runner, log dừng ở #519 từ sáng). Khoảng nghỉ dài có thể do máy ngủ/chu kỳ cron bị hoãn.
+
+Mốc đánh giá sau: log row #519
+
+## Snapshot 2026-09-27 16:04b — Chu kỳ 22
+
+Không đổi (0 runner, log #519).
+
+Mốc đánh giá sau: log row #519

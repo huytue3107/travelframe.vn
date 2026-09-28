@@ -1,0 +1,48 @@
+{
+  "status": "Review",
+  "scanDate": "2026-09-26",
+  "provider": "Monid",
+  "endpointProvider": "TikHub",
+  "searchEndpoint": "/api/v1/threads/web/search_posts",
+  "commentEndpoint": "/api/v1/threads/web/fetch_post_comments",
+  "successfulCoreQueries": [
+    "hanoi",
+    "vietnam travel",
+    "du lịch Hà Nội",
+    "solo travel"
+  ],
+  "additionalQueriesTested": [
+    "Hanoi solo travel",
+    "Hanoi recommendations",
+    "Hanoi itinerary",
+    "Hanoi photographer",
+    "Hanoi photoshoot",
+    "Hanoi solo",
+    "going to Hanoi",
+    "first time Hanoi",
+    "solo female Vietnam"
+  ],
+  "coreRunIds": [
+    "01M3F8TPAQ3N2KHAPXJHVJ7HWH",
+    "01M3F8TPB9TV2Y3GK23SGWH8YC",
+    "01M3F8TPBE9RBEVK1CYRYRHDVC",
+    "01M3F8TPB4SJPBFJN61J2K7C50"
+  ],
+  "rawUniquePosts": 76,
+  "heuristicCandidates": 44,
+  "manualShortlist": 6,
+  "spendUsd": 0.033,
+  "remainingBalanceUsd": 0.967,
+  "commentFetch": {
+    "attemptedPosts": 6,
+    "successfulPosts": 0,
+    "httpStatus": 400,
+    "billedUsd": 0
+  },
+  "interactionPerformed": false,
+  "notes": [
+    "Search results are a dated public snapshot, not an exhaustive Threads index.",
+    "Exact multi-word queries were less reliable than broad terms.",
+    "No live engagement was performed."
+  ]
+}

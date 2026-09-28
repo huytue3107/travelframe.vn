@@ -98,4 +98,24 @@
   3. Ưu đãi Early Bird: Đặt lịch sớm trước 30 ngày tặng kèm Bản đồ ẩm thực ngõ hẻm độc quyền và miễn phí 1 cuộn film chụp hoài niệm.
 - Trạng thái: idea
 
+## I-016 | Threads Multi-Part Series: "Hanoi Visual Side Quests — 10 nhiệm vụ phụ ngõ hẻm ngoài tour xe buýt"   (confidence: 2 nguồn)
+- Nguồn: Research-Insights/Library/channels/vietnamcontext/digest.md (2026-09-28 — Thread #2), Research-Insights/Library/knowledge/patterns.md (P-040)
+- Góc cho TravelFrame: Triển khai luồng Thread 8 phần trên Threads. Giới thiệu các Side Quests mang tính thị giác cao (chợ hoa Quảng Bá 4h sáng, săn nắng xiên ngõ Hàng Buồm, ngắm hoàng hôn bến Hàn Quốc hồ Tây, góc cầu Long Biên lúc 6h sáng). Mỗi phần đính kèm 1 ảnh cinematic chất lượng cao của TravelFrame. Kết thúc bằng cầu nối rủ rê tản bộ cùng bạn bản địa và lưu giữ bộ ảnh độc bản.
+- Trạng thái: idea
+
+## I-017 | Threads Multi-Part Series: "Bất đối xứng giá cả Hà Nội — Rẻ hơn bạn tưởng vs Đắt hơn bạn tính"   (confidence: 2 nguồn)
+- Nguồn: Research-Insights/Library/channels/vietnamcontext/digest.md (2026-09-28 — Thread #4, #7), Research-Insights/Library/knowledge/patterns.md (P-039)
+- Góc cho TravelFrame: Thread 7 phần đối chiếu giá cả thực tế: 6 thứ rẻ hơn tưởng tượng (Grab bike 15k, phở ngõ nhỏ 40k, trà đá vỉa hè 5k) vs 6 thứ đắt hơn kỳ vọng (quán cà phê landmark, taxi dù sảnh ga, xích lô không chốt giá trước). Định vị TravelFrame là "người bạn đồng hành bản địa" giúp du khách đi đúng giá, ăn đúng quán ngon và có ảnh đẹp tự nhiên.
+- Trạng thái: idea
+
+## I-018 | Threads Multi-Part Series: "10 thứ chuẩn bị 24h trước khi hạ cánh Nội Bài (Checklist sống còn)"   (confidence: 2 nguồn)
+- Nguồn: Research-Insights/Library/channels/vietnamcontext/digest.md (2026-09-28 — Thread #1, #3), Research-Insights/Library/knowledge/patterns.md (P-041)
+- Góc cho TravelFrame: Thread 7 phần đánh trúng nỗi đau chuẩn bị trước chuyến bay (Grab/Xanh SM đã gắn thẻ, eSIM mua trước online, phân biệt tờ 500k vs 50k, tải Google Translate offline, trang phục kín vai cho Văn Miếu/Chùa Trấn Quốc). Kèm lời mời kết nối cùng TravelFrame để có bộ ảnh đón chào ngày đầu tiên tại thủ đô.
+- Trạng thái: idea
+
+## I-019 | Threads Multi-Part Series: "Story Time: Bóc mẽ chiêu trò taxi sân bay, đánh giày & Grab nhái"   (confidence: 2 nguồn)
+- Nguồn: Research-Insights/Library/channels/vietnamcontext/digest.md (2026-09-28 — Thread #10, #14, #31, #33)
+- Góc cho TravelFrame: Thread 6 phần phân tích các bẫy giao thông và chèo kéo phổ biến nhất tại sân bay Nội Bài và phố cổ Hà Nội. Không chỉ dừng lại ở cảnh báo mà đưa ra giải pháp bảo vệ an toàn: cách nhận diện xe công nghệ thật, mẹo từ chối dứt khoát lịch sự, và cách gọi xe đưa đón uy tín.
+- Trạng thái: idea
+
 
