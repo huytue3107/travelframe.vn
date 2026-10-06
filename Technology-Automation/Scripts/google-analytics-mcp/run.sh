@@ -1,6 +1,12 @@
 #!/bin/zsh
 set -euo pipefail
 
+# Claude Desktop starts MCP servers with a minimal PATH; make sure node is found
+export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.volta/bin:$PATH"
+if ! command -v node >/dev/null 2>&1 && [[ -s "$HOME/.nvm/nvm.sh" ]]; then
+  source "$HOME/.nvm/nvm.sh" >/dev/null
+fi
+
 # Default config directory for TravelFrame keys
 DEFAULT_KEY_PATH="$HOME/.config/travelframe/ga4-service-account.json"
 
@@ -10,5 +16,5 @@ fi
 
 export GA4_PROPERTY_ID="${GA4_PROPERTY_ID:-552867189}"
 
-ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
-exec node "$ROOT/Technology-Automation/MCP/google-analytics-readonly.mjs"
+ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
+exec node "$ROOT/Technology-Automation/MCP/google-analytics-readonly.mjs" "$@"

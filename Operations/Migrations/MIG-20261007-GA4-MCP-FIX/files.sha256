@@ -1,0 +1,3 @@
+b1e5c3bd892ff6ff9165481c0e1a5e3cfa87c92090205bd1ef50b9e494b99f1f  Technology-Automation/Scripts/google-analytics-mcp/run.sh
+b0300bd3b063983b2ba1b9c9fdb34461ca17647f6b3e240f150fad90608e9647  Technology-Automation/MCP/google-analytics-readonly.mjs
+51590bdfb9c88271574733a123deeb02184766f0271b12b6bba745925f1ab5c7  Technology-Automation/Tests/legacy/mcp/run-scripts-paths.test.mjs
