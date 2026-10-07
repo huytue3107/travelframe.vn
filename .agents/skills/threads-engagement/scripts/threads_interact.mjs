@@ -33,9 +33,12 @@ import { execFileSync } from 'child_process';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const PAGE_ID = '4c9a2fab-28f2-44d8-96d5-b6f108dc9404';
-const ORCA_ELECTRON = '/Applications/Orca.app/Contents/MacOS/Orca';
-const ORCA_CLI = '/Applications/Orca.app/Contents/Resources/app.asar.unpacked/out/cli/index.js';
+const DEFAULT_PAGE_ID = '4c9a2fab-28f2-44d8-96d5-b6f108dc9404';
+const MAC_ORCA_ELECTRON = '/Applications/Orca.app/Contents/MacOS/Orca';
+const MAC_ORCA_CLI = '/Applications/Orca.app/Contents/Resources/app.asar.unpacked/out/cli/index.js';
+const LINUX_ORCA_SHIM = path.join(process.env.HOME || '', '.config/orca/linux-orca-cli-shim/orca');
+
+let PAGE_ID = process.env.ORCA_PAGE_ID || DEFAULT_PAGE_ID;
 const LOG_FILE = path.resolve(process.cwd(), 'Marketing-Growth/Content/Threads-All-Interactions-Log.md');
 const MINED_COMMENTS_FILE = path.resolve(process.cwd(), 'Research-Insights/Library/knowledge/threads-high-engagement-comments.json');
 const TRIAGE_SCRIPT = path.resolve(process.cwd(), 'Technology-Automation/Scripts/typesafe_lead_triage.mjs');
@@ -60,7 +63,9 @@ function parseArgs() {
     url: '',
     comment: '',
     angle: '',
-    lang: 'all'
+    lang: 'all',
+    page: '',
+    slot: 'ca1'
   };
 
   for (let i = 0; i < args.length; i++) {
@@ -71,6 +76,8 @@ function parseArgs() {
     else if (args[i] === '--comment' && args[i + 1]) options.comment = args[++i];
     else if (args[i] === '--angle' && args[i + 1]) options.angle = args[++i];
     else if (args[i] === '--lang' && args[i + 1]) options.lang = args[++i];
+    else if (args[i] === '--page' && args[i + 1]) options.page = args[++i];
+    else if (args[i] === '--slot' && args[i + 1]) options.slot = args[++i];
   }
   return options;
 }
@@ -81,8 +88,23 @@ function sleep(ms) {
 
 function runOrca(args) {
   try {
-    const res = execFileSync(ORCA_ELECTRON, [ORCA_CLI, ...args], {
-      env: { ...process.env, ELECTRON_RUN_AS_NODE: '1' },
+    let cmd, cmdArgs, env = { ...process.env };
+    if (process.env.ORCA_BIN && fs.existsSync(process.env.ORCA_BIN)) {
+      cmd = process.env.ORCA_BIN;
+      cmdArgs = args;
+    } else if (fs.existsSync(MAC_ORCA_ELECTRON) && fs.existsSync(MAC_ORCA_CLI)) {
+      cmd = MAC_ORCA_ELECTRON;
+      cmdArgs = [MAC_ORCA_CLI, ...args];
+      env.ELECTRON_RUN_AS_NODE = '1';
+    } else if (fs.existsSync(LINUX_ORCA_SHIM)) {
+      cmd = LINUX_ORCA_SHIM;
+      cmdArgs = args;
+    } else {
+      cmd = 'orca';
+      cmdArgs = args;
+    }
+    const res = execFileSync(cmd, cmdArgs, {
+      env,
       timeout: 25000,
       encoding: 'utf8'
     });
@@ -90,6 +112,22 @@ function runOrca(args) {
   } catch (err) {
     return null;
   }
+}
+
+function resolveThreadsPageId() {
+  if (process.env.ORCA_PAGE_ID) return process.env.ORCA_PAGE_ID;
+  const listRaw = runOrca(['tab', 'list', '--json']);
+  if (listRaw) {
+    try {
+      const parsed = JSON.parse(listRaw);
+      const tabs = parsed?.result?.tabs || [];
+      const threadsTab = tabs.find(t => t.url && t.url.includes('threads.com'));
+      if (threadsTab && threadsTab.browserPageId) {
+        return threadsTab.browserPageId;
+      }
+    } catch (_) {}
+  }
+  return null;
 }
 
 const seenUrls = new Set();
@@ -1198,11 +1236,132 @@ async function interactWithPost(url, author, defaultComment, angle = 'tự độ
   return false;
 }
 
+const VIRAL_SCHEDULE = {
+  ca1: [
+    {
+      id: 'V-01',
+      url: 'https://www.threads.com/@kayyliin._/post/DdLAFr3H-rg',
+      author: 'kayyliin._',
+      angle: 'Yêu thích',
+      comment: 'Nhìn chiếc visual này là biết mùa thu đã thực sự về chạm ngõ rồi nè ✨! Hà Nội mùa này mê nhất là tầm 6h30 sáng, nắng xiên qua tán cây xà cừ cổ thụ ở Phan Đình Phùng đẹp như tranh luôn á. Chúc bồ có chuyến đi visual "10 điểm không có nhưng" nha!'
+    },
+    {
+      id: 'V-02',
+      url: 'https://www.threads.com/@nttt9191/post/DdEtHABE77w',
+      author: 'nttt9191',
+      angle: 'Nghi ngờ',
+      comment: '"Ủa alo" ban đầu ai chưa đi cũng tưởng ảnh mạng lừa lọc màu mè thôi á! Nhưng ra đúng độ cuối tháng 9 đầu tháng 10, sáng sớm se se lạnh, mùi hoa sữa thoang thoảng 🍂 với nắng vàng rót mật trên mấy bức tường cổ thì mới hiểu vì sao người ta lại say đắm mùa thu Hà Nội đến vậy á! Rất đáng để trải nghiệm một lần trong đời nha!'
+    },
+    {
+      id: 'V-03',
+      url: 'https://www.threads.com/@khanhle53044/post/DdvTPJ0EiUR',
+      author: 'khanhle53044',
+      angle: 'Tích cực',
+      comment: 'Nhịp sống Hà Nội vào thu có một khoảng lặng rất kỳ diệu 💛 chỉ cần ngồi bên hiên một quán cà phê ngõ nhỏ, ngắm lá vàng rơi lãng đãng thôi là mọi muộn phiền tự nhiên tan biến hết. Cảm ơn bồ vì chiếc thread mang năng lượng an yên này nha!'
+    }
+  ],
+  ca2: [
+    {
+      id: 'V-04',
+      url: 'https://www.threads.com/@nguyentruong1101/post/DcsZ-FzEgwj',
+      author: 'nguyentruong1101',
+      angle: 'Clickbait',
+      comment: '"Bật mí" cho ai mê ngắm phố: đi dạo mùa này đừng đợi đến chiều tối đông nghẹt 🤫. Cứ đúng 6h sáng xách xe ra hồ Tây hoặc dạo bộ một vòng phố cổ, gió hồ mát rượi kèm mùi hoa sữa đầu mùa, cảm giác như cả thành phố thơ mộng này thuộc về riêng mình vậy á!'
+    },
+    {
+      id: 'V-05',
+      url: 'https://www.threads.com/@trucnguyen.daily/post/DdhAWeIk5WC',
+      author: 'trucnguyen.daily',
+      angle: 'Value-First',
+      comment: 'Nếu muốn check in cuối tuần mà tránh cảnh biển người chen chúc thì bồ thử mấy góc này nha 📸: (1) Sáng sớm 6h30 dạo phố Hoàng Diệu hoặc đoạn tường cổ phía sau Hoàng Thành; (2) Rẽ vào ngõ Yên Thái hoặc ngõ Hàng Buồm tìm mấy ô cửa lá sách xanh cổ kính; (3) Ngồi cà phê tầng 2 nhìn xuống ngõ hẻm phố cổ. Vừa thơ mộng vừa có ảnh tự nhiên không dính người nè!'
+    },
+    {
+      id: 'V-06',
+      url: 'https://www.threads.com/@lermer_di_chill/post/Dck8CGrEbPa',
+      author: 'lermer_di_chill',
+      angle: 'Yêu thích',
+      comment: 'Công nhận Hà Nội mấy hôm nay thời tiết đúng chuẩn "bản premium" không tì vết luôn á ✨! Nắng vàng hanh hao, gió se se lạnh, visual như bước ra từ một thước phim điện ảnh cổ điển vậy. Đi dạo mùa này thì chỉ có nước "mê xỉu" thôi!'
+    }
+  ],
+  ca3: [
+    {
+      id: 'V-07',
+      url: 'https://www.threads.com/@i.am.pampoo/post/DdbTN_6CZMG',
+      author: 'i.am.pampoo',
+      angle: 'Tư vấn kinh nghiệm',
+      comment: 'Lịch trình 3 ngày Hà Nội + 4 ngày Hà Giang của bồ chia thời gian như vậy là cực kỳ hợp lý luôn á ☕! Ở Hà Nội dành trọn một buổi sáng thong thả dạo ngõ phố cổ và uống cà phê trứng. Lên Hà Giang cuối tháng 10 thì hoa tam giác mạch bắt đầu nở rộ rực rỡ rồi, nhớ mang theo áo gió ấm vì đêm trên cao nguyên đá lạnh buốt nha! Chúc chuyến đi trọn vẹn nè!'
+    },
+    {
+      id: 'V-08',
+      url: 'https://www.threads.com/@nthv.33/post/DcwQMmBk4Ji',
+      author: 'nthv.33',
+      angle: 'Anti-Crammed Itinerary',
+      comment: 'Bay từ Sài Gòn ra với 4N3Đ thì "bí kíp sinh tồn" là đừng ham nhồi nhét quá nhiều điểm nha bồ ơi 🤫! Ngày 1 ở Hà Nội cứ dạo chơi nhẹ nhàng ăn phở và cà phê phố cổ cho quen nhịp. Tối bắt xe giường nằm lên Hà Giang ngủ một giấc là sáng hôm sau tràn đầy năng lượng khám phá cung đường Mã Pí Lèng luôn, đi vậy vừa khỏe vừa có ảnh đẹp nè!'
+    }
+  ],
+  ca4: [
+    {
+      id: 'V-09',
+      url: 'https://www.threads.com/@luuhoangtrungtin/post/Ddx35u0Ed-v',
+      author: 'luuhoangtrungtin',
+      angle: 'Reality Check',
+      comment: 'Tháng 11 đi Hà Giang là đúng dịp hoa tam giác mạch nở bung đẹp nhất trong năm luôn nè 🌸! Nhưng có một "plot twist" cần lưu ý: tầm này sương mù dày và nhiệt độ vùng cao xuống rất thấp (có hôm dưới 10 độ). Lịch trình nên linh động xuất phát muộn hơn một chút vào buổi sáng khi tan sương để chạy đèo an toàn nha!'
+    },
+    {
+      id: 'V-10',
+      url: 'https://www.threads.com/@bombocalac/post/DcqWqXAkxMz',
+      author: 'bombocalac',
+      angle: 'Tự hỏi & Chữa lành',
+      comment: 'Đi solo trip vùng cao là một trải nghiệm "chữa lành" cực kỳ đáng thử trong đời á ✨! Để tiết kiệm ngân sách, bồ có thể tham khảo mấy homestay của người bản địa ở thôn Nặm Đăm hoặc Lô Lô Chải, giá vừa mềm vừa được ăn cơm tối quây quần bên bếp lửa cùng bà con ấm cúng lắm luôn nè!'
+    },
+    {
+      id: 'V-11',
+      url: 'https://www.threads.com/@kkdlsosss/post/DdyB-YTnQqV',
+      author: 'kkdlsosss',
+      angle: 'Value-First',
+      comment: 'Nhóm 4 người đi tầm 20-23/11 là chuẩn cung mùa hoa tam giác mạch và bắt đầu có sương mù rét ngọt rồi nè ⛰️! Lưu ý sống còn: (1) Đặt xe cabin khứ hồi sớm trước 2-3 tuần kẻo hết vé; (2) Mang đủ miếng dán giữ nhiệt và găng tay chắn gió đi đường đèo; (3) Thuê xe máy máy khỏe ở Km0 để leo dốc an toàn nha!'
+    }
+  ]
+};
+
 async function main() {
   const options = parseArgs();
+  const detectedPageId = resolveThreadsPageId();
+  if (options.page) {
+    PAGE_ID = options.page;
+  } else if (detectedPageId) {
+    PAGE_ID = detectedPageId;
+  }
   console.log(`=== Starting TravelFrame Threads Engagement Runner [Mode: ${options.mode}, Lang: ${options.lang}] ===`);
+  console.log(`Active Orca Page ID: ${PAGE_ID}`);
   console.log(`4-Tier Relevance & Safety Gate Active. Tracked recent comments: ${recentCommentTexts.size}`);
   console.log(`Known interacted posts count: ${seenUrls.size}`);
+
+  if (options.mode === 'schedule') {
+    const slotKey = options.slot || 'ca1';
+    const items = VIRAL_SCHEDULE[slotKey] || [];
+    console.log(`=== Running Targeted Viral Schedule [Slot: ${slotKey}] (${items.length} bài) ===`);
+
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i];
+      if (seenUrls.has(item.url)) {
+        console.log(`[Already Handled] ${item.id} (${item.url}) đã có trong log, bỏ qua.`);
+        continue;
+      }
+
+      console.log(`\n[Schedule Progress ${i + 1}/${items.length}] Bắt đầu bài ${item.id} (@${item.author})...`);
+      await interactWithPost(item.url, item.author, item.comment, item.angle, 'hanoi_autumn', 'single');
+
+      // Giãn cách tự nhiên như người thật nếu còn bài tiếp theo
+      if (i < items.length - 1) {
+        const pacingSec = Math.floor(65 + Math.random() * 30); // 65s - 95s
+        console.log(`[Human Pacing] Đang nghỉ tự nhiên ${pacingSec}s trước khi xem bài tiếp theo...`);
+        await sleep(pacingSec * 1000);
+      }
+    }
+    console.log(`=== Hoàn thành đợt tương tác ${slotKey} ===`);
+    return;
+  }
 
   if (options.mode === 'single') {
     if (!options.url || !options.comment) {

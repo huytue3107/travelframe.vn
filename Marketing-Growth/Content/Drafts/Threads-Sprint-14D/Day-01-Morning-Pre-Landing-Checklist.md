@@ -15,8 +15,6 @@ Most travelers arrive at Nội Bài airport jetlagged, walk past customs, and im
 
 Here is the exact 10 minute setup you do from your couch the night before landing:
 
-1/6
-
 ---
 
 ### [PART 2/6: TRANSPORT SETUP]
@@ -26,16 +24,12 @@ Everyone knows Grab, but Xanh SM (Vietnam's pure electric VinFast fleet) has tak
 
 Link your credit card in both apps so you never need to scramble for small paper cash while curbside.
 
-2/6
-
 ---
 
 ### [PART 3/6: CONNECTIVITY TRUTH]
 Buy your eSIM online via Airalo or Klook 24 hours in advance, never at the airport arrival hall.
 
 The counters at Terminal 2 slap a 30% to 50% tourist markup on data plans and label them "unlimited", which actually caps high speed data at 2GB to 4GB per day before throttling you to dial up speeds. A 15 day local Viettel or Vinaphone data pack bought beforehand costs roughly $6 to $9 USD and activates the second your airplane wheels touch the tarmac.
-
-3/6
 
 ---
 
@@ -46,16 +40,12 @@ The best street food stalls in Hanoi have handwritten signs pinned to wooden wal
 
 Also pin your hotel location on Google Maps and download the offline Hanoi map area.
 
-4/6
-
 ---
 
 ### [PART 5/6: DAYPACK ESSENTIALS]
 Pack one lightweight linen overshirt or cotton scarf right at the very top of your carry on daypack.
 
 Hanoi's most atmospheric pagodas, like Trấn Quốc on West Lake or the Temple of Literature, strictly enforce temple dress codes: shoulders and knees must be completely covered. Buying cheap polyester tourist pants at the gate costs 4x normal price and feels like wearing plastic wrap in humid weather.
-
-5/6
 
 ---
 
@@ -65,5 +55,3 @@ Most travelers spend their first 24 hours in Hanoi fixing small mistakes they co
 Your first day in Hanoi shouldn't feel like a navigation test. If you are landing this week, traveling solo, or want a warm local friend to walk you through hidden Old Quarter alleyways and capture your first moments with authentic candid 35mm photos, send us a quick DM on Instagram @travelframe.vn 📸
 
 Welcome to Hanoi!
-
-6/6

@@ -1,0 +1,22 @@
+# Sổ Cái Đăng Bài Threads — TravelFrame
+
+| Thời gian | Bài | Nội dung trích dẫn | Trạng thái / Link |
+|---|---|---|---|
+| 2026-09-28T00:30:42.127Z | Bài 1 | Thú thật đi, có ai từng lướt Threads thấy mấy video mùa thu ... | Published via Orca |
+| 2026-09-28T12:30:00.000Z | TH-SPRINT-D01-PM | YOUR HANOI TRIP IS BORING BECAUSE IT HAS NO SIDE QUESTS (7 parts) | Published via Orca |
+| 2026-09-29T00:30:00.000Z | TH-SPRINT-D02-AM | 6 THINGS THAT ARE ACTUALLY CHEAPER IN HANOI, AND 6 PRICIER (7 parts) | Published via Orca |
+| 2026-09-29T04:45:47.526Z | Bài 5 | "Cảnh báo nhẹ": Lên phố cổ mùa này nguy cơ tăng 2kg là hoàn ... | Published via Orca |
+| 2026-09-29T12:30:00.000Z | TH-SPRINT-D02-PM | A GUY LANDS AT NOI BAI, AND SOMEONE IN A GRAB JACKET OFFERS A RIDE (5 parts) | Published via Orca |
+| 2026-09-30T00:30:00.000Z | TH-SPRINT-D03-AM | THERE ARE TWO VIETNAMESE BANKNOTES THAT LOOK ALMOST IDENTICAL (5 parts) | Published via Orca |
+| 2026-09-30T12:30:00.000Z | TH-SPRINT-D03-PM | NOBODY EXPLAINS HOW TO CROSS THE STREET IN HANOI (6 parts) | Published via Orca |
+| 2026-09-30T13:32:18.211Z | Bài 4 | Nhiều khi tự hỏi: sao tìm một người bạn đồng hành vừa biết ă... | Published via Orca |
+| 2026-10-01T00:30:00.000Z | TH-SPRINT-D04-AM | THE OLD QUARTER SHOESHINE HUSTLE HAS RUN ON THE EXACT SAME ... (5 parts) | Published via Orca |
+| 2026-10-01T12:30:00.000Z | TH-SPRINT-D04-PM | 6 THINGS TO EAT IN HANOI THAT AREN'T PHO, AND MOST FIRST TIM... (7 parts) | Published via Orca |
+| 2026-10-02T00:30:00.000Z | TH-SPRINT-D05-AM | THE AIRPORT SIM CARD COUNTER IS WHERE 80% OF TOURISTS OVERP... (5 parts) | Published via Orca |
+| 2026-10-02T12:30:00.000Z | TH-SPRINT-D05-PM | THE EXACT 45 MINUTES WHEN HANOI ALLEYWAYS TURN CINEMATIC ... (6 parts) | Published via Orca |
+| 2026-10-03T00:30:00.000Z | TH-SPRINT-D06-AM | PAGODAS AND TEMPLES IN VIETNAM ARE GENUINELY STRICT ABOUT D... (5 parts) | Published via Orca |
+| 2026-10-03T12:30:00.000Z | TH-SPRINT-D06-PM | THE RHYTHM OF A HANOI BIA HOI TABLE LOOKS LIKE PURE CHAOS... (6 parts) | Published via Orca |
+| 2026-10-04T00:30:00.000Z | TH-SPRINT-D07-AM | IS ICE IN VIETNAM ACTUALLY SAFE TO DRINK, OR ARE YOU GUARAN... (5 parts) | Published via Orca |
+| 2026-10-06T03:07:42.000Z | TH-SPRINT-D07-PM | SKIP THE $18 ROOFTOP COCKTAILS: THE BEST SUNSET IN HANOI IS... (6 parts) | Published via Orca |
+| 2026-10-06T14:48:45.000Z | TH-SPRINT-D08-AM | HA TRUNG STREET HAS NEAR PERFECT CURRENCY EXCHANGE RATES... (5 parts) | Published via Orca |
+| 2026-10-07T00:35:03.000Z | TH-SPRINT-D08-PM | HANOI TRAIN STREET IS NOT CLOSED: HERE IS HOW TO VISIT... (6 parts) | Published via Orca |

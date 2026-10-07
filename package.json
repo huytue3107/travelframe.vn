@@ -21,6 +21,7 @@
     "mcp:travelframe": "node Technology-Automation/MCP/travelframe-readonly.mjs",
     "mcp:google-analytics": "node Technology-Automation/MCP/google-analytics-readonly.mjs",
     "openseo:info": "node -e \"console.log('OpenSEO Platform: Technology-Automation/Tools/open-seo | Runbook: Technology-Automation/Runbooks/OpenSEO-Runbook.md')\"",
+    "openreply:info": "node -e \"console.log('OpenReply Platform: Technology-Automation/Tools/openreply | Runbook: Technology-Automation/Runbooks/OpenReply-Runbook.md')\"",
     "media:search": "node Technology-Automation/Scripts/fetch_media_asset.mjs search",
     "media:download": "node Technology-Automation/Scripts/fetch_media_asset.mjs download"
   },

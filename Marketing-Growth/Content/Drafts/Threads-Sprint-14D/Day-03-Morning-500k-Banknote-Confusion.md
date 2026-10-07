@@ -15,8 +15,6 @@ It happens to almost every first time visitor, especially on their first night w
 
 You reach into your pocket, pull out a blue polymer note, hand it over, and walk away thinking you paid 80 cents. You actually just handed over a twenty dollar bill.
 
-1/5
-
 ---
 
 ### [PART 2/5: THE BLUE NOTE TWINS]
@@ -29,20 +27,16 @@ Both are printed on slick polymer plastic with clear windows. Both share a very 
 
 There is also a second trap: the 50,000 VND note and the 200,000 VND note share similar warm reddish hues.
 
-2/5
-
 ---
 
 ### [PART 3/5: THE LOCAL WALLET SYSTEM]
 Here is the 2 pocket wallet system locals use to prevent any mix ups:
 
-1. Never keep large bills in your front pockets or mixed with change.
-2. Put all 500,000 VND and 200,000 VND notes inside the deepest zippered compartment of your wallet or behind your hotel safe.
-3. In your quick access pocket, carry only small daily spending notes: 10,000, 20,000, 50,000, and 100,000 VND.
+(1) Never keep large bills in your front pockets or mixed with change.
+(2) Put all 500,000 VND and 200,000 VND notes inside the deepest zippered compartment of your wallet or behind your hotel safe.
+(3) In your quick access pocket, carry only small daily spending notes: 10,000, 20,000, 50,000, and 100,000 VND.
 
 When paying curbside, count the number of zeroes in the corner, not the color of the paper.
-
-3/5
 
 ---
 
@@ -50,8 +44,6 @@ When paying curbside, count the number of zeroes in the corner, not the color of
 When a vendor hands you change, do not just stuff the crumpled wad into your jeans pocket while rushing off.
 
 Step one step to the side, count the notes calmly under the light, and check the zeroes. Vietnamese vendors respect this completely; checking your money before walking away is standard polite behavior across all local markets.
-
-4/5
 
 ---
 
@@ -61,5 +53,3 @@ Navigating a new country is full of tiny nuances that guidebook apps forget to m
 Having a local friend by your side turns everyday confusion into effortless confidence. We walk with solo travelers and couples through the secret corners of Hanoi, keeping you completely relaxed while capturing your best candid memories on 35mm film and digital cameras.
 
 Check our bio link or send us a DM on Instagram @travelframe.vn 📸🇻🇳
-
-5/5

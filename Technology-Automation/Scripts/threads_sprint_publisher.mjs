@@ -21,8 +21,9 @@ import { execFileSync } from 'child_process';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const ORCA_ELECTRON = '/Applications/Orca.app/Contents/MacOS/Orca';
-const ORCA_CLI = '/Applications/Orca.app/Contents/Resources/app.asar.unpacked/out/cli/index.js';
+const MAC_ORCA_ELECTRON = '/Applications/Orca.app/Contents/MacOS/Orca';
+const MAC_ORCA_CLI = '/Applications/Orca.app/Contents/Resources/app.asar.unpacked/out/cli/index.js';
+const LINUX_ORCA_SHIM = path.join(process.env.HOME || '', '.config/orca/linux-orca-cli-shim/orca');
 const LOG_FILE = path.resolve(process.cwd(), 'Marketing-Growth/Content/Threads-All-Interactions-Log.md');
 
 function parseArgs() {
@@ -45,8 +46,23 @@ function parseArgs() {
 
 function runOrca(args) {
   try {
-    const res = execFileSync(ORCA_ELECTRON, [ORCA_CLI, ...args], {
-      env: { ...process.env, ELECTRON_RUN_AS_NODE: '1' },
+    let cmd, cmdArgs, env = { ...process.env };
+    if (process.env.ORCA_BIN && fs.existsSync(process.env.ORCA_BIN)) {
+      cmd = process.env.ORCA_BIN;
+      cmdArgs = args;
+    } else if (fs.existsSync(MAC_ORCA_ELECTRON) && fs.existsSync(MAC_ORCA_CLI)) {
+      cmd = MAC_ORCA_ELECTRON;
+      cmdArgs = [MAC_ORCA_CLI, ...args];
+      env.ELECTRON_RUN_AS_NODE = '1';
+    } else if (fs.existsSync(LINUX_ORCA_SHIM)) {
+      cmd = LINUX_ORCA_SHIM;
+      cmdArgs = args;
+    } else {
+      cmd = 'orca';
+      cmdArgs = args;
+    }
+    const res = execFileSync(cmd, cmdArgs, {
+      env,
       timeout: 30000,
       encoding: 'utf8'
     });
@@ -59,6 +75,32 @@ function runOrca(args) {
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function sanitizePartText(text) {
+  let cleaned = text.trim();
+  // 1. Remove markdown hr delimiters
+  cleaned = cleaned.replace(/\n*---\s*$/g, '').trim();
+
+  // 2. Strip trailing counter like "1/7", "2/5", etc. per user protocol
+  cleaned = cleaned.replace(/\n*\s*\b\d+\/\d+\b\s*$/g, '').trim();
+
+  // 3. Prevent accidental web links from sentence dots:
+  // Ensure that any dot followed by a letter without space is separated by a space,
+  // while safely preserving approved domains like @travelframe.vn and threads.com
+  const TF_TOKEN = '__TF_VN_TOKEN__';
+  const THREADS_TOKEN = '__THREADS_COM_TOKEN__';
+  cleaned = cleaned.replace(/@?travelframe\.vn/gi, TF_TOKEN);
+  cleaned = cleaned.replace(/threads\.com/gi, THREADS_TOKEN);
+
+  // Replace any dot followed immediately by a letter (e.g. "Hanoi.You" -> "Hanoi. You")
+  cleaned = cleaned.replace(/([a-zA-Z0-9])\.([a-zA-Z])/g, '$1. $2');
+
+  // Restore tokens
+  cleaned = cleaned.replace(new RegExp(TF_TOKEN, 'g'), '@travelframe.vn');
+  cleaned = cleaned.replace(new RegExp(THREADS_TOKEN, 'g'), 'threads.com');
+
+  return cleaned;
 }
 
 function parseThreadFile(filePath) {
@@ -91,8 +133,7 @@ function parseThreadFile(filePath) {
     const start = indices[i].headerEnd;
     const end = (i + 1 < indices.length) ? indices[i + 1].index : raw.length;
     let partText = raw.slice(start, end).trim();
-    // Remove markdown hr delimiters
-    partText = partText.replace(/\n*---\s*$/g, '').trim();
+    partText = sanitizePartText(partText);
 
     parts.push({
       partNum: indices[i].partNum,
@@ -138,10 +179,16 @@ function validateThread(thread) {
       errors.push(`Part ${p.partNum} contains forbidden hyphen '-' character.`);
     }
 
-    // Check numbering format at end of part
-    const endExpected = `${p.partNum}/${p.totalParts}`;
-    if (!p.text.trim().endsWith(endExpected)) {
-      warnings.push(`Part ${p.partNum} does not cleanly end with expected counter "${endExpected}".`);
+    // Counter check: Ensure no "1/7", "2/7" counters remain at the end of the post
+    if (/\b\d+\/\d+\b\s*$/.test(p.text.trim())) {
+      errors.push(`Part ${p.partNum} contains forbidden trailing counter (e.g. "1/7", "2/5"). Remove counters per user protocol.`);
+    }
+
+    // Accidental web link check: ensure no dot between words creates an unintended domain link
+    const sanitizedText = p.text.replace(/@?travelframe\.vn/gi, '').replace(/threads\.com/gi, '');
+    const accidentalLinkMatch = sanitizedText.match(/[a-zA-Z0-9]\.[a-zA-Z]{2,}/);
+    if (accidentalLinkMatch) {
+      warnings.push(`Part ${p.partNum} may contain an accidental domain link near "${accidentalLinkMatch[0]}". Ensure sentences are separated by space after dot.`);
     }
   });
 
@@ -166,6 +213,8 @@ function validateThread(thread) {
   };
 }
 
+const TRAVELFRAME_PROFILE_ID = 'e332b231-0a7e-4f17-b8ae-2a04e7fc89b1';
+
 function findThreadsTab(preferredPageId = null) {
   if (preferredPageId) return preferredPageId;
   const raw = runOrca(['tab', 'list', '--json']);
@@ -173,11 +222,93 @@ function findThreadsTab(preferredPageId = null) {
   try {
     const data = JSON.parse(raw);
     const tabs = data?.result?.tabs || [];
-    const threadsTab = tabs.find(t => t.url && t.url.includes('threads.com'));
+    // Prioritize travelframe profile
+    let threadsTab = tabs.find(t => t.url && t.url.includes('threads.com') && (t.profileLabel === 'travelframe' || t.profileId === TRAVELFRAME_PROFILE_ID));
+    if (!threadsTab) {
+      threadsTab = tabs.find(t => t.url && t.url.includes('threads.com'));
+    }
+    if (!threadsTab) {
+      console.log('No active Threads tab found. Opening a new tab with TravelFrame profile...');
+      const createRes = runOrca(['tab', 'create', '--url', 'https://www.threads.com/', '--profile', TRAVELFRAME_PROFILE_ID]);
+      const match = createRes && createRes.match(/Created tab ([0-9a-f-]+)/);
+      if (match) return match[1];
+    }
     return threadsTab ? threadsTab.browserPageId : null;
   } catch (e) {
     return null;
   }
+}
+
+function convertTextToLexicalState(text) {
+  const lines = text.split('\n');
+  const children = [];
+  let prevWasEmpty = false;
+
+  lines.forEach((line) => {
+    const trimmed = line.trim();
+    if (!trimmed) {
+      if (!prevWasEmpty && children.length > 0) {
+        children.push({
+          children: [],
+          direction: 'ltr',
+          format: '',
+          indent: 0,
+          textFormat: 0,
+          textStyle: '',
+          type: 'paragraph',
+          version: 1
+        });
+        prevWasEmpty = true;
+      }
+    } else {
+      children.push({
+        children: [{
+          detail: 0,
+          format: 0,
+          mode: 'normal',
+          style: '',
+          text: trimmed,
+          type: 'text',
+          version: 1
+        }],
+        direction: 'ltr',
+        format: '',
+        indent: 0,
+        textFormat: 0,
+        textStyle: '',
+        type: 'paragraph',
+        version: 1
+      });
+      prevWasEmpty = false;
+    }
+  });
+
+  return {
+    root: {
+      children,
+      direction: 'ltr',
+      format: '',
+      indent: 0,
+      type: 'root',
+      version: 1
+    }
+  };
+}
+
+function fillLexicalEditor(pageId, editorIndex, text) {
+  const stateJson = JSON.stringify(convertTextToLexicalState(text));
+  const code = `(() => {
+    const editors = Array.from(document.querySelectorAll('[contenteditable=true]'));
+    if (!editors[${editorIndex}]) return 'error:editor_not_found';
+    const el = editors[${editorIndex}];
+    if (!el.__lexicalEditor) return 'error:no_lexical';
+    const ed = el.__lexicalEditor;
+    const parsed = ed.parseEditorState(${JSON.stringify(stateJson)});
+    ed.setEditorState(parsed);
+    ed.focus();
+    return 'ok';
+  })()`;
+  return runOrca(['eval', '--page', pageId, '--expression', code]);
 }
 
 async function stageThreadInOrca(pageId, thread, options) {
@@ -185,82 +316,103 @@ async function stageThreadInOrca(pageId, thread, options) {
 
   // 1. Ensure we are on Threads home or feed
   const curUrl = runOrca(['eval', '--page', pageId, '--expression', 'location.href']);
-  if (!curUrl || !curUrl.includes('threads.com')) {
+  if (!curUrl || curUrl.includes('/post/') || !curUrl.match(/threads\.com\/?(?:\?.*)?$/)) {
     console.log(`Navigating tab to https://www.threads.com/...`);
     runOrca(['goto', '--page', pageId, '--url', 'https://www.threads.com/']);
-    await sleep(3500);
+    await sleep(4000);
   }
 
-  // 2. Close any lingering dialog
+  // 2. Close any lingering dialog cleanly
   runOrca(['eval', '--page', pageId, '--expression', `(() => {
-    const cancelBtn = Array.from(document.querySelectorAll('div[role=dialog] button, div[role=dialog] [role=button]'))
-      .find(b => (b.innerText || '').includes('Cancel'));
-    if (cancelBtn) cancelBtn.click();
-    const dontSave = Array.from(document.querySelectorAll('div[role=dialog] button, div[role=dialog] [role=button]'))
-      .find(b => (b.innerText || '').includes("Don't save"));
-    if (dontSave) dontSave.click();
+    const cancelBtns = Array.from(document.querySelectorAll('button, [role=button]'))
+      .filter(b => (b.innerText || '').trim() === 'Cancel');
+    cancelBtns.forEach(b => b.click());
+  })()`]);
+  await sleep(1200);
+  runOrca(['eval', '--page', pageId, '--expression', `(() => {
+    const discardBtns = Array.from(document.querySelectorAll('button, [role=button]'))
+      .filter(b => ["Don't save", 'Discard', 'Hủy'].some(w => (b.innerText || '').includes(w)));
+    discardBtns.forEach(b => b.click());
   })()`]);
   await sleep(1500);
 
-  // 3. Open composer modal
-  console.log('Opening "New thread" composer dialog...');
-  runOrca(['eval', '--page', pageId, '--expression', `(() => {
-    const composeBtn = document.querySelector('div[aria-label="Empty text field. Type to compose a new post."]')
-      || Array.from(document.querySelectorAll('button, [role=button]')).find(b => (b.innerText || '').includes('New thread'));
-    if (composeBtn) composeBtn.click();
+  // 2.5 Safety Check: Verify active account is @travelframe.vn
+  const checkAcc = runOrca(['eval', '--page', pageId, '--expression', `(() => {
+    return document.body.innerText.includes('travelframe.vn') || !!document.querySelector('a[href*="/@travelframe.vn"]');
   })()`]);
-  await sleep(2500);
+  if (!checkAcc || !checkAcc.includes('true')) {
+    throw new Error('Safety guardrail triggered: Active Threads tab is NOT logged in as @travelframe.vn! Aborted to protect personal accounts.');
+  }
 
-  // 4. Fill parts sequentially
-  for (let i = 0; i < thread.parts.length; i++) {
-    const part = thread.parts[i];
-    console.log(`Filling Part ${part.partNum}/${part.totalParts} (${part.charCount} chars)...`);
-
-    // Snapshot to find textboxes
-    await sleep(1000);
-    const snap = runOrca(['snapshot', '--page', pageId]);
-    if (!snap) throw new Error('Failed to take snapshot of composer.');
-
-    // Find all textboxes in the dialog
-    const boxMatches = [...snap.matchAll(/textbox "Empty text field\.[^"]*"\s+\[ref=(e\d+)\]/g)];
-    if (boxMatches.length === 0) {
-      throw new Error(`Could not find composer textbox for Part ${part.partNum}`);
+  // 3. Open composer modal if not already open
+  let initialEditorCount = parseInt(runOrca(['eval', '--page', pageId, '--expression', 'document.querySelectorAll("[contenteditable=true]").length']) || '0', 10);
+  if (initialEditorCount === 0) {
+    console.log('Opening "New thread" composer dialog...');
+    let snapInit = runOrca(['snapshot', '--page', pageId]);
+    const createMatch = snapInit && snapInit.match(/button "(?:Create|New thread)"[^\[]*\[(?:expanded=\w+,\s*)?ref=(e\d+)\]/i);
+    if (createMatch) {
+      runOrca(['click', '--page', pageId, '--element', createMatch[1]]);
+    } else {
+      runOrca(['eval', '--page', pageId, '--expression', `(() => {
+        const whatsNew = document.querySelector('[aria-label*="Empty text field"]');
+        if (whatsNew) { whatsNew.click(); return; }
+        const btn = Array.from(document.querySelectorAll("button, [role=button], div")).find(b => {
+          const text = (b.innerText || '').trim();
+          const aria = b.getAttribute('aria-label') || '';
+          return text === 'New thread' || aria === 'New thread' || text === 'Create' || aria === 'Create';
+        });
+        if (btn) btn.click();
+      })()`]);
     }
+    await sleep(2500);
 
-    // The active target textbox for current part is the last one in the tree
-    const targetBoxRef = boxMatches[boxMatches.length - 1][1];
-    console.log(`Target textbox ref: [${targetBoxRef}]`);
-    runOrca(['fill', '--page', pageId, '--element', targetBoxRef, '--value', part.text]);
-    await sleep(1500);
-
-    // If there is a next part, click "Add to thread"
-    if (i < thread.parts.length - 1) {
-      console.log('Triggering "Add to thread"...');
-      let clicked = false;
-      for (let attempt = 0; attempt < 3; attempt++) {
-        const res = runOrca(['eval', '--page', pageId, '--expression', `(() => {
-          const addBtn = Array.from(document.querySelectorAll('button, [role=button]'))
-            .find(b => (b.innerText || '').includes('Add to thread') && !b.disabled && !b.getAttribute('aria-disabled'));
-          if (addBtn) {
-            addBtn.click();
-            return 'clicked';
-          }
-          return 'not_ready';
-        })()`]);
-        if (res && res.includes('clicked')) {
-          clicked = true;
-          break;
-        }
-        await sleep(1200);
-      }
-      if (!clicked) {
-        throw new Error(`"Add to thread" button was not ready after filling Part ${part.partNum}`);
-      }
-      await sleep(2000);
+    // Wait for initial contenteditable
+    for (let attempt = 0; attempt < 8; attempt++) {
+      const countStr = runOrca(['eval', '--page', pageId, '--expression', 'document.querySelectorAll("[contenteditable=true]").length']);
+      if (parseInt(countStr, 10) > 0) break;
+      await sleep(1000);
     }
   }
 
-  console.log(`\n✅ All ${thread.parts.length} parts successfully loaded into Threads composer!`);
+  // 4. Fill parts sequentially via Lexical EditorState
+  for (let i = 0; i < thread.parts.length; i++) {
+    const part = thread.parts[i];
+    console.log(`Filling Part ${part.partNum}/${part.totalParts} (${part.charCount} chars) into editor index [${i}]...`);
+
+    const fillRes = fillLexicalEditor(pageId, i, part.text);
+    if (!fillRes || !fillRes.includes('ok')) {
+      throw new Error(`Failed to inject Lexical content for Part ${part.partNum}: ${fillRes}`);
+    }
+    await sleep(1500);
+
+    // If there is a next part, click "Add to thread" and wait for next editor
+    if (i < thread.parts.length - 1) {
+      console.log('Triggering "Add to thread"...');
+      let created = false;
+      for (let attempt = 0; attempt < 6; attempt++) {
+        runOrca(['eval', '--page', pageId, '--expression', `(() => {
+          const addBtn = Array.from(document.querySelectorAll('button, [role=button]'))
+            .find(b => (b.innerText || '').includes('Add to thread') && !b.disabled && b.getAttribute('aria-disabled') !== 'true');
+          if (addBtn) addBtn.click();
+        })()`]);
+        await sleep(1500);
+
+        const countStr = runOrca(['eval', '--page', pageId, '--expression', 'document.querySelectorAll("[contenteditable=true]").length']);
+        const count = parseInt(countStr, 10);
+        if (count >= i + 2) {
+          created = true;
+          break;
+        }
+      }
+      if (!created) {
+        throw new Error(`"Add to thread" failed to create editor for Part ${part.partNum + 1}`);
+      }
+      await sleep(1500);
+    }
+  }
+
+  const finalCountStr = runOrca(['eval', '--page', pageId, '--expression', 'document.querySelectorAll("[contenteditable=true]").length']);
+  console.log(`\n✅ All ${thread.parts.length} parts successfully loaded into Threads composer (Total active editors: ${finalCountStr})!`);
 
   if (options.mode === 'stage') {
     console.log('\n[STAGE MODE] Composer is open in Orca for human visual inspection and review.');
@@ -292,22 +444,34 @@ async function stageThreadInOrca(pageId, thread, options) {
       throw new Error('Live publishing requires explicit --confirm flag after Rocky approval.');
     }
 
-    console.log('\n🚀 PUBLISHING LIVE: Clicking "Post"...');
-    const snap = runOrca(['snapshot', '--page', pageId]);
-    const postMatch = snap.match(/button "Post"\s+\[ref=(e\d+)\]/);
-    if (!postMatch) {
-      throw new Error('Post button not found in composer.');
+    console.log('\n🚀 PUBLISHING LIVE: Clicking modal "Post" button...');
+    const postClickRes = runOrca(['eval', '--page', pageId, '--expression', `(() => {
+      const dialog = document.querySelector('[role=dialog]') || document;
+      const postBtns = Array.from(dialog.querySelectorAll('button, [role=button]'))
+        .filter(b => (b.innerText || '').trim() === 'Post' && !b.disabled && b.getAttribute('aria-disabled') !== 'true');
+      if (postBtns.length > 0) {
+        postBtns[postBtns.length - 1].click();
+        return 'clicked';
+      }
+      return 'not_found';
+    })()`]);
+
+    if (!postClickRes || !postClickRes.includes('clicked')) {
+      throw new Error(`Failed to click active modal Post button: ${postClickRes}`);
     }
 
-    runOrca(['click', '--page', pageId, '--element', postMatch[1]]);
     console.log('Waiting for post to process and submit...');
-    await sleep(7000);
-
-    // Verify dialog is closed
-    const afterSnap = runOrca(['snapshot', '--page', pageId]);
-    if (afterSnap && afterSnap.includes('New thread')) {
-      console.warn('Composer dialog still visible, waiting additional 4s...');
-      await sleep(4000);
+    let submitted = false;
+    for (let attempt = 0; attempt < 12; attempt++) {
+      await sleep(2000);
+      const editorCount = runOrca(['eval', '--page', pageId, '--expression', 'document.querySelectorAll("[contenteditable=true]").length']);
+      if (parseInt(editorCount, 10) === 0) {
+        submitted = true;
+        break;
+      }
+    }
+    if (!submitted) {
+      console.warn('Composer still open after 24s, verifying submission...');
     }
 
     // Log the interaction
