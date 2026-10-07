@@ -1,0 +1,364 @@
+<style>
+  :root {
+    --ink: #171317;
+    --paper: #fffdf7;
+    --pink: #ff9ed2;
+    --blush: #f5d9eb;
+    --lemon: #fff7b2;
+    --teal: #008aa3;
+    --mist: #e9f2f3;
+  }
+
+  .board {
+    display: grid;
+    gap: 24px;
+  }
+
+  .band {
+    background: var(--paper);
+    border: 1px solid #dedbd4;
+    padding: 22px;
+  }
+
+  .band h3 {
+    margin-top: 0;
+  }
+
+  .swatches {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .swatch {
+    min-height: 112px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 1px solid rgba(0,0,0,.12);
+    font: 700 12px Arial, sans-serif;
+  }
+
+  .swatch small {
+    display: block;
+    margin-top: 4px;
+    font-weight: 500;
+  }
+
+  .type-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 18px;
+  }
+
+  .type-sample {
+    min-height: 190px;
+    padding: 22px;
+    color: var(--ink);
+    background: #fff;
+    border: 1px solid #dedbd4;
+  }
+
+  .display-type {
+    font: 900 48px/0.91 Arial Black, Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+  .accent-type {
+    font: 48px/1 Georgia, serif;
+  }
+
+  .body-type {
+    margin-top: 22px;
+    font: 600 16px/1.45 Arial, sans-serif;
+  }
+
+  .device-row {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .device {
+    min-height: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    overflow: hidden;
+    background: #f2f1ed;
+    border: 1px solid #dedbd4;
+  }
+
+  .tape {
+    padding: 9px 14px;
+    background: var(--pink);
+    color: var(--ink);
+    font: 900 22px Arial, sans-serif;
+    transform: rotate(-2deg);
+  }
+
+  .episode-badge {
+    padding: 10px 16px;
+    background: var(--blush);
+    color: var(--ink);
+    font: 25px Georgia, serif;
+    box-shadow: 5px 5px 0 var(--ink);
+  }
+
+  .sparkles {
+    color: #fff;
+    background: var(--teal);
+    font-size: 46px;
+    letter-spacing: 8px;
+  }
+
+  .field-stamp {
+    padding: 11px 12px;
+    border: 3px solid var(--ink);
+    color: var(--ink);
+    font: 900 16px Arial, sans-serif;
+    text-align: center;
+    transform: rotate(3deg);
+  }
+
+  .cover-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .cover {
+    position: relative;
+    aspect-ratio: 9 / 14;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 12px 28px rgba(0,0,0,.16);
+  }
+
+  .cover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.28), transparent 55%);
+  }
+
+  .cover-1 {
+    background-image: url("https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=85");
+  }
+
+  .cover-2 {
+    background-image: url("https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=900&q=85");
+  }
+
+  .cover-3 {
+    background-image: url("https://images.unsplash.com/photo-1509030450996-dd1a26dda07a?auto=format&fit=crop&w=900&q=85");
+  }
+
+  .brand-lockup {
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 6%;
+    color: white;
+    font: 800 11px Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+  .brand-lockup span {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    background: var(--teal);
+  }
+
+  .copy-stack {
+    position: absolute;
+    z-index: 2;
+    top: 15%;
+    left: 7%;
+    right: 5%;
+  }
+
+  .mini-episode {
+    display: table;
+    margin-left: 42%;
+    padding: 5px 9px;
+    background: var(--blush);
+    color: var(--ink);
+    font: 22px Georgia, serif;
+  }
+
+  .cover-title {
+    display: table;
+    margin-top: 7px;
+    padding: 6px 9px;
+    background: var(--lemon);
+    color: var(--ink);
+    font: 900 27px/.91 Arial Black, Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+  .cover-hook {
+    display: table;
+    max-width: 95%;
+    margin-top: 8px;
+    padding: 5px 9px 7px;
+    background: var(--pink);
+    color: var(--ink);
+    font: 900 25px/.95 Arial, sans-serif;
+    transform: rotate(-1deg);
+  }
+
+  .vj-id {
+    position: absolute;
+    z-index: 2;
+    left: 7%;
+    bottom: 6%;
+    color: white;
+    font: 700 12px Arial, sans-serif;
+  }
+
+  .rules {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .rule-list {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.55;
+  }
+
+  .approval {
+    cursor: pointer;
+    padding: 18px;
+    background: var(--mist);
+    border: 2px solid var(--teal);
+    color: var(--ink);
+    text-align: center;
+    font: 800 17px Arial, sans-serif;
+  }
+
+  .approval.selected {
+    background: var(--teal);
+    color: #fff;
+  }
+
+  @media (max-width: 900px) {
+    .swatches, .device-row {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .type-grid, .cover-grid, .rules {
+      grid-template-columns: 1fr;
+    }
+
+    .cover {
+      aspect-ratio: 4 / 3;
+    }
+  }
+</style>
+
+<h2>TravelFrame Field Notes — Visual System</h2>
+<p class="subtitle">Direction: Pop Field Notes. Playful enough to stop the scroll, structured enough to remain recognizably TravelFrame.</p>
+
+<div class="board">
+  <section class="band">
+    <h3>1. Color palette</h3>
+    <div class="swatches">
+      <div class="swatch" style="background:#171317;color:#fff">Field Ink<small>#171317</small></div>
+      <div class="swatch" style="background:#fffdf7">Paper White<small>#FFFDF7</small></div>
+      <div class="swatch" style="background:#ff9ed2">Signal Pink<small>#FF9ED2</small></div>
+      <div class="swatch" style="background:#f5d9eb">Soft Blush<small>#F5D9EB</small></div>
+      <div class="swatch" style="background:#fff7b2">Map Lemon<small>#FFF7B2</small></div>
+      <div class="swatch" style="background:#008aa3;color:#fff">TravelFrame Teal<small>#008AA3</small></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <h3>2. Type pairing</h3>
+    <div class="type-grid">
+      <div class="type-sample">
+        <div class="display-type">Remote<br>but real.</div>
+        <div class="body-type">Primary display: Archivo Black or Arial Black. Short lines, uppercase, high contrast.</div>
+      </div>
+      <div class="type-sample">
+        <div class="accent-type">Field Note<br>No. 04</div>
+        <div class="body-type">Editorial accent: DM Serif Display or Georgia. Only for episode and human notes.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <h3>3. Graphic devices</h3>
+    <div class="device-row">
+      <div class="device"><div class="tape">WORTH THE TRIP?</div></div>
+      <div class="device"><div class="episode-badge">Part 04</div></div>
+      <div class="device sparkles">✦ ✦</div>
+      <div class="device"><div class="field-stamp">CHECKED<br>ON LOCATION</div></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <h3>4. Reel cover system</h3>
+    <div class="cover-grid">
+      <div class="cover cover-1">
+        <div class="brand-lockup"><span></span>TravelFrame Field Notes</div>
+        <div class="copy-stack">
+          <div class="mini-episode">Part 01</div>
+          <div class="cover-title">A homestay<br>past the road</div>
+          <div class="cover-hook">Would you stay here?</div>
+        </div>
+        <div class="vj-id">WITH MINH / LOCAL VJ</div>
+      </div>
+      <div class="cover cover-2">
+        <div class="brand-lockup"><span></span>TravelFrame Field Notes</div>
+        <div class="copy-stack">
+          <div class="mini-episode">Part 02</div>
+          <div class="cover-title">The train stop<br>tourists miss</div>
+          <div class="cover-hook">We got off anyway.</div>
+        </div>
+        <div class="vj-id">WITH MINH / LOCAL VJ</div>
+      </div>
+      <div class="cover cover-3">
+        <div class="brand-lockup"><span></span>TravelFrame Field Notes</div>
+        <div class="copy-stack">
+          <div class="mini-episode">Part 03</div>
+          <div class="cover-title">Dinner with<br>no menu</div>
+          <div class="cover-hook">Here's what arrived.</div>
+        </div>
+        <div class="vj-id">WITH MINH / LOCAL VJ</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band rules">
+    <div>
+      <h3>Always</h3>
+      <ul class="rule-list">
+        <li>One dominant hook, maximum three text strips.</li>
+        <li>Real location or VJ action remains visible.</li>
+        <li>Teal appears only as the TravelFrame endorsement.</li>
+        <li>Text strips feel placed by hand, not perfectly aligned.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Never</h3>
+      <ul class="rule-list">
+        <li>No gradients, glow, heavy shadow or rounded pill labels.</li>
+        <li>No more than pink, lemon and one brand accent together.</li>
+        <li>No unverified superlatives presented as fact.</li>
+        <li>No oversized title covering the VJ's face.</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="approval" data-choice="approve-visual-system" onclick="toggleSelect(this)">
+    Approve this visual system
+  </div>
+</div>

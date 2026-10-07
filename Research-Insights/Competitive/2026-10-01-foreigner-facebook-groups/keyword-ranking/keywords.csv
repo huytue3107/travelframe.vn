@@ -1,0 +1,1001 @@
+keyword_id,keyword,location,audience,intent,pattern_id,deterministic_score,jev_selected,jev_confidence,jev_batch,jev_rank_in_batch,final_score,final_rank,recommended_for_search
+KW0513,expats in Hanoi community,Hanoi,expats,community,1,100,true,0.82,1,1,100,1,true
+KW0514,expats in Hanoi group,Hanoi,expats,group,1,100,true,0.41,3,1,100,2,true
+KW0544,expats in Hanoi things to do,Hanoi,expats,things to do,1,100,true,0.04,8,10,100,3,true
+KW0002,expats in Vietnam group,Vietnam,expats,group,1,100,true,0.35,2,1,100,4,true
+KW0015,expats in Vietnam local tips,Vietnam,expats,local tips,1,100,true,0.29,3,2,100,5,true
+KW0003,expats in Vietnam social group,Vietnam,expats,social group,1,100,true,0.63,6,1,100,6,true
+KW0545,foreigners in Hanoi community,Hanoi,foreigners,community,1,100,true,0.8,9,1,100,7,true
+KW0546,foreigners in Hanoi group,Hanoi,foreigners,group,1,100,true,0.21,1,3,100,8,true
+KW0559,foreigners in Hanoi local tips,Hanoi,foreigners,local tips,1,100,true,0.06,2,7,100,9,true
+KW0547,foreigners in Hanoi social group,Hanoi,foreigners,social group,1,100,true,0.38,5,1,100,10,true
+KW0033,foreigners in Vietnam community,Vietnam,foreigners,community,1,100,true,0.28,8,2,100,11,true
+KW0577,international community in Hanoi community,Hanoi,international community,community,1,100,true,0.64,7,1,100,12,true
+KW0578,international community in Hanoi group,Hanoi,international community,group,1,100,true,0.31,8,1,100,13,true
+KW0579,international community in Hanoi social group,Hanoi,international community,social group,1,100,true,0.48,10,1,100,14,true
+KW0065,international community in Vietnam community,Vietnam,international community,community,1,100,true,0.25,1,2,100,15,true
+KW0067,international community in Vietnam social group,Vietnam,international community,social group,1,100,true,0.35,4,1,100,16,true
+KW0548,foreigners in Hanoi meetup,Hanoi,foreigners,meetup,1,97,true,0.16,10,5,100,17,true
+KW0037,foreigners in Vietnam events,Vietnam,foreigners,events,1,97,true,0.13,1,4,100,18,true
+KW0036,foreigners in Vietnam meetup,Vietnam,foreigners,meetup,1,97,true,0.19,2,3,100,19,true
+KW0581,international community in Hanoi events,Hanoi,international community,events,1,97,true,0.2,3,3,100,20,true
+KW0589,international community in Hanoi friends,Hanoi,international community,friends,1,97,true,0.32,4,2,100,21,true
+KW0591,international community in Hanoi local tips,Hanoi,international community,local tips,1,97,true,0.31,5,2,100,22,true
+KW0580,international community in Hanoi meetup,Hanoi,international community,meetup,1,97,true,0.15,6,3,100,23,true
+KW0593,international community in Hanoi photography,Hanoi,international community,photography,1,97,true,0.14,7,6,100,24,true
+KW0608,international community in Hanoi things to do,Hanoi,international community,things to do,1,97,true,0.11,8,4,100,25,true
+KW0590,international community in Hanoi travel advice,Hanoi,international community,travel advice,1,97,true,0.2,9,3,100,26,true
+KW0069,international community in Vietnam events,Vietnam,international community,events,1,97,true,0.15,10,6,100,27,true
+KW0524,expats in Hanoi language exchange,Hanoi,expats,language exchange,1,94,true,0.06,2,9,100,28,true
+KW0556,foreigners in Hanoi language exchange,Hanoi,foreigners,language exchange,1,94,true,0.05,8,8,100,29,true
+KW0575,foreigners in Hanoi weekend trips,Hanoi,foreigners,weekend trips,1,94,true,0.07,9,7,100,30,true
+KW0993,local and expat in Hanoi community,Hanoi,local and expat,community,1,94,true,0.05,3,8,100,31,true
+KW0961,newcomers in Hanoi community,Hanoi,newcomers,community,1,94,true,0.09,7,5,100,32,true
+KW0080,international community in Vietnam food and restaurants,Vietnam,international community,food and restaurants,1,92,true,0.07,6,7,100,33,true
+KW0083,international community in Vietnam hiking,Vietnam,international community,hiking,1,92,true,0.04,7,8,100,34,true
+KW0995,local and expat in Hanoi social group,Hanoi,local and expat,social group,1,92,true,0.07,1,8,100,35,true
+KW0963,newcomers in Hanoi social group,Hanoi,newcomers,social group,1,92,true,0.06,5,8,100,36,true
+KW0737,expat families in Hanoi community,Hanoi,expat families,community,1,91,true,0.07,8,7,100,37,true
+KW0525,expats in Hanoi friends,Hanoi,expats,friends,1,100,false,,,,100,38,true
+KW0527,expats in Hanoi local tips,Hanoi,expats,local tips,1,100,false,,,,100,39,true
+KW0530,expats in Hanoi photo walks,Hanoi,expats,photo walks,1,100,false,,,,100,40,true
+KW0529,expats in Hanoi photography,Hanoi,expats,photography,1,100,false,,,,100,41,true
+KW0515,expats in Hanoi social group,Hanoi,expats,social group,1,100,false,,,,100,42,true
+KW0526,expats in Hanoi travel advice,Hanoi,expats,travel advice,1,100,false,,,,100,43,true
+KW0001,expats in Vietnam community,Vietnam,expats,community,1,100,false,,,,100,44,true
+KW0013,expats in Vietnam friends,Vietnam,expats,friends,1,100,false,,,,100,45,true
+KW0018,expats in Vietnam photo walks,Vietnam,expats,photo walks,1,100,false,,,,100,46,true
+KW0017,expats in Vietnam photography,Vietnam,expats,photography,1,100,false,,,,100,47,true
+KW0032,expats in Vietnam things to do,Vietnam,expats,things to do,1,100,false,,,,100,48,true
+KW0014,expats in Vietnam travel advice,Vietnam,expats,travel advice,1,100,false,,,,100,49,true
+KW0557,foreigners in Hanoi friends,Hanoi,foreigners,friends,1,100,false,,,,100,50,true
+KW0562,foreigners in Hanoi photo walks,Hanoi,foreigners,photo walks,1,100,false,,,,100,51,true
+KW0561,foreigners in Hanoi photography,Hanoi,foreigners,photography,1,100,false,,,,100,52,true
+KW0576,foreigners in Hanoi things to do,Hanoi,foreigners,things to do,1,100,false,,,,100,53,true
+KW0558,foreigners in Hanoi travel advice,Hanoi,foreigners,travel advice,1,100,false,,,,100,54,true
+KW0045,foreigners in Vietnam friends,Vietnam,foreigners,friends,1,100,false,,,,100,55,true
+KW0034,foreigners in Vietnam group,Vietnam,foreigners,group,1,100,false,,,,100,56,true
+KW0047,foreigners in Vietnam local tips,Vietnam,foreigners,local tips,1,100,false,,,,100,57,true
+KW0050,foreigners in Vietnam photo walks,Vietnam,foreigners,photo walks,1,100,false,,,,100,58,true
+KW0049,foreigners in Vietnam photography,Vietnam,foreigners,photography,1,100,false,,,,100,59,true
+KW0035,foreigners in Vietnam social group,Vietnam,foreigners,social group,1,100,false,,,,100,60,true
+KW0064,foreigners in Vietnam things to do,Vietnam,foreigners,things to do,1,100,false,,,,100,61,true
+KW0046,foreigners in Vietnam travel advice,Vietnam,foreigners,travel advice,1,100,false,,,,100,62,true
+KW0594,international community in Hanoi photo walks,Hanoi,international community,photo walks,1,100,false,,,,100,63,true
+KW0066,international community in Vietnam group,Vietnam,international community,group,1,100,false,,,,100,64,true
+KW0082,international community in Vietnam photo walks,Vietnam,international community,photo walks,1,100,false,,,,100,65,true
+KW0975,newcomers in Hanoi local tips,Hanoi,newcomers,local tips,1,89,true,0.05,10,8,98,66,true
+KW0974,newcomers in Hanoi travel advice,Hanoi,newcomers,travel advice,1,89,true,0.05,3,9,97,67,true
+KW0461,newcomers in Vietnam friends,Vietnam,newcomers,friends,1,89,true,0.05,4,9,97,68,true
+KW0517,expats in Hanoi events,Hanoi,expats,events,1,97,false,,,,97,69,true
+KW0516,expats in Hanoi meetup,Hanoi,expats,meetup,1,97,false,,,,97,70,true
+KW0005,expats in Vietnam events,Vietnam,expats,events,1,97,false,,,,97,71,true
+KW0004,expats in Vietnam meetup,Vietnam,expats,meetup,1,97,false,,,,97,72,true
+KW0549,foreigners in Hanoi events,Hanoi,foreigners,events,1,97,false,,,,97,73,true
+KW0077,international community in Vietnam friends,Vietnam,international community,friends,1,97,false,,,,97,74,true
+KW0079,international community in Vietnam local tips,Vietnam,international community,local tips,1,97,false,,,,97,75,true
+KW0068,international community in Vietnam meetup,Vietnam,international community,meetup,1,97,false,,,,97,76,true
+KW0081,international community in Vietnam photography,Vietnam,international community,photography,1,97,false,,,,97,77,true
+KW0096,international community in Vietnam things to do,Vietnam,international community,things to do,1,97,false,,,,97,78,true
+KW0078,international community in Vietnam travel advice,Vietnam,international community,travel advice,1,97,false,,,,97,79,true
+KW0992,newcomers in Hanoi things to do,Hanoi,newcomers,things to do,1,89,true,0.05,2,10,96,80,true
+KW0582,international community in Hanoi housing,Hanoi,international community,housing,1,95,false,,,,95,81,true
+KW0588,international community in Hanoi language exchange,Hanoi,international community,language exchange,1,95,false,,,,95,82,true
+KW0607,international community in Hanoi weekend trips,Hanoi,international community,weekend trips,1,95,false,,,,95,83,true
+KW0070,international community in Vietnam housing,Vietnam,international community,housing,1,95,false,,,,95,84,true
+KW0076,international community in Vietnam language exchange,Vietnam,international community,language exchange,1,95,false,,,,95,85,true
+KW0095,international community in Vietnam weekend trips,Vietnam,international community,weekend trips,1,95,false,,,,95,86,true
+KW0609,digital nomads in Hanoi community,Hanoi,digital nomads,community,1,94,false,,,,94,87,true
+KW0610,digital nomads in Hanoi group,Hanoi,digital nomads,group,1,94,false,,,,94,88,true
+KW0097,digital nomads in Vietnam community,Vietnam,digital nomads,community,1,94,false,,,,94,89,true
+KW0098,digital nomads in Vietnam group,Vietnam,digital nomads,group,1,94,false,,,,94,90,true
+KW0641,English teachers in Hanoi community,Hanoi,English teachers,community,1,94,false,,,,94,91,true
+KW0642,English teachers in Hanoi group,Hanoi,English teachers,group,1,94,false,,,,94,92,true
+KW0129,English teachers in Vietnam community,Vietnam,English teachers,community,1,94,false,,,,94,93,true
+KW0130,English teachers in Vietnam group,Vietnam,English teachers,group,1,94,false,,,,94,94,true
+KW0518,expats in Hanoi housing,Hanoi,expats,housing,1,94,false,,,,94,95,true
+KW0543,expats in Hanoi weekend trips,Hanoi,expats,weekend trips,1,94,false,,,,94,96,true
+KW0006,expats in Vietnam housing,Vietnam,expats,housing,1,94,false,,,,94,97,true
+KW0012,expats in Vietnam language exchange,Vietnam,expats,language exchange,1,94,false,,,,94,98,true
+KW0031,expats in Vietnam weekend trips,Vietnam,expats,weekend trips,1,94,false,,,,94,99,true
+KW0550,foreigners in Hanoi housing,Hanoi,foreigners,housing,1,94,false,,,,94,100,true
+KW0038,foreigners in Vietnam housing,Vietnam,foreigners,housing,1,94,false,,,,94,101,false
+KW0044,foreigners in Vietnam language exchange,Vietnam,foreigners,language exchange,1,94,false,,,,94,102,false
+KW0063,foreigners in Vietnam weekend trips,Vietnam,foreigners,weekend trips,1,94,false,,,,94,103,false
+KW0994,local and expat in Hanoi group,Hanoi,local and expat,group,1,94,false,,,,94,104,false
+KW0481,local and expat in Vietnam community,Vietnam,local and expat,community,1,94,false,,,,94,105,false
+KW0482,local and expat in Vietnam group,Vietnam,local and expat,group,1,94,false,,,,94,106,false
+KW0962,newcomers in Hanoi group,Hanoi,newcomers,group,1,94,false,,,,94,107,false
+KW0449,newcomers in Vietnam community,Vietnam,newcomers,community,1,94,false,,,,94,108,false
+KW0450,newcomers in Vietnam group,Vietnam,newcomers,group,1,94,false,,,,94,109,false
+KW0626,digital nomads in Hanoi photo walks,Hanoi,digital nomads,photo walks,1,92,false,,,,92,110,false
+KW0611,digital nomads in Hanoi social group,Hanoi,digital nomads,social group,1,92,false,,,,92,111,false
+KW0114,digital nomads in Vietnam photo walks,Vietnam,digital nomads,photo walks,1,92,false,,,,92,112,false
+KW0099,digital nomads in Vietnam social group,Vietnam,digital nomads,social group,1,92,false,,,,92,113,false
+KW0658,English teachers in Hanoi photo walks,Hanoi,English teachers,photo walks,1,92,false,,,,92,114,false
+KW0643,English teachers in Hanoi social group,Hanoi,English teachers,social group,1,92,false,,,,92,115,false
+KW0146,English teachers in Vietnam photo walks,Vietnam,English teachers,photo walks,1,92,false,,,,92,116,false
+KW0131,English teachers in Vietnam social group,Vietnam,English teachers,social group,1,92,false,,,,92,117,false
+KW0519,expats in Hanoi apartments,Hanoi,expats,apartments,1,92,false,,,,92,118,false
+KW0521,expats in Hanoi English teaching jobs,Hanoi,expats,English teaching jobs,1,92,false,,,,92,119,false
+KW0528,expats in Hanoi food and restaurants,Hanoi,expats,food and restaurants,1,92,false,,,,92,120,false
+KW0531,expats in Hanoi hiking,Hanoi,expats,hiking,1,92,false,,,,92,121,false
+KW0520,expats in Hanoi jobs,Hanoi,expats,jobs,1,92,false,,,,92,122,false
+KW0534,expats in Hanoi parents,Hanoi,expats,parents,1,92,false,,,,92,123,false
+KW0535,expats in Hanoi women,Hanoi,expats,women,1,92,false,,,,92,124,false
+KW0007,expats in Vietnam apartments,Vietnam,expats,apartments,1,92,false,,,,92,125,false
+KW0009,expats in Vietnam English teaching jobs,Vietnam,expats,English teaching jobs,1,92,false,,,,92,126,false
+KW0016,expats in Vietnam food and restaurants,Vietnam,expats,food and restaurants,1,92,false,,,,92,127,false
+KW0019,expats in Vietnam hiking,Vietnam,expats,hiking,1,92,false,,,,92,128,false
+KW0008,expats in Vietnam jobs,Vietnam,expats,jobs,1,92,false,,,,92,129,false
+KW0022,expats in Vietnam parents,Vietnam,expats,parents,1,92,false,,,,92,130,false
+KW0023,expats in Vietnam women,Vietnam,expats,women,1,92,false,,,,92,131,false
+KW0551,foreigners in Hanoi apartments,Hanoi,foreigners,apartments,1,92,false,,,,92,132,false
+KW0553,foreigners in Hanoi English teaching jobs,Hanoi,foreigners,English teaching jobs,1,92,false,,,,92,133,false
+KW0560,foreigners in Hanoi food and restaurants,Hanoi,foreigners,food and restaurants,1,92,false,,,,92,134,false
+KW0563,foreigners in Hanoi hiking,Hanoi,foreigners,hiking,1,92,false,,,,92,135,false
+KW0552,foreigners in Hanoi jobs,Hanoi,foreigners,jobs,1,92,false,,,,92,136,false
+KW0566,foreigners in Hanoi parents,Hanoi,foreigners,parents,1,92,false,,,,92,137,false
+KW0567,foreigners in Hanoi women,Hanoi,foreigners,women,1,92,false,,,,92,138,false
+KW0039,foreigners in Vietnam apartments,Vietnam,foreigners,apartments,1,92,false,,,,92,139,false
+KW0041,foreigners in Vietnam English teaching jobs,Vietnam,foreigners,English teaching jobs,1,92,false,,,,92,140,false
+KW0048,foreigners in Vietnam food and restaurants,Vietnam,foreigners,food and restaurants,1,92,false,,,,92,141,false
+KW0051,foreigners in Vietnam hiking,Vietnam,foreigners,hiking,1,92,false,,,,92,142,false
+KW0040,foreigners in Vietnam jobs,Vietnam,foreigners,jobs,1,92,false,,,,92,143,false
+KW0054,foreigners in Vietnam parents,Vietnam,foreigners,parents,1,92,false,,,,92,144,false
+KW0055,foreigners in Vietnam women,Vietnam,foreigners,women,1,92,false,,,,92,145,false
+KW0583,international community in Hanoi apartments,Hanoi,international community,apartments,1,92,false,,,,92,146,false
+KW0585,international community in Hanoi English teaching jobs,Hanoi,international community,English teaching jobs,1,92,false,,,,92,147,false
+KW0592,international community in Hanoi food and restaurants,Hanoi,international community,food and restaurants,1,92,false,,,,92,148,false
+KW0595,international community in Hanoi hiking,Hanoi,international community,hiking,1,92,false,,,,92,149,false
+KW0584,international community in Hanoi jobs,Hanoi,international community,jobs,1,92,false,,,,92,150,false
+KW0598,international community in Hanoi parents,Hanoi,international community,parents,1,92,false,,,,92,151,false
+KW0599,international community in Hanoi women,Hanoi,international community,women,1,92,false,,,,92,152,false
+KW0071,international community in Vietnam apartments,Vietnam,international community,apartments,1,92,false,,,,92,153,false
+KW0073,international community in Vietnam English teaching jobs,Vietnam,international community,English teaching jobs,1,92,false,,,,92,154,false
+KW0072,international community in Vietnam jobs,Vietnam,international community,jobs,1,92,false,,,,92,155,false
+KW0086,international community in Vietnam parents,Vietnam,international community,parents,1,92,false,,,,92,156,false
+KW0087,international community in Vietnam women,Vietnam,international community,women,1,92,false,,,,92,157,false
+KW0498,local and expat in Vietnam photo walks,Vietnam,local and expat,photo walks,1,92,false,,,,92,158,false
+KW0483,local and expat in Vietnam social group,Vietnam,local and expat,social group,1,92,false,,,,92,159,false
+KW0978,newcomers in Hanoi photo walks,Hanoi,newcomers,photo walks,1,92,false,,,,92,160,false
+KW0466,newcomers in Vietnam photo walks,Vietnam,newcomers,photo walks,1,92,false,,,,92,161,false
+KW0451,newcomers in Vietnam social group,Vietnam,newcomers,social group,1,92,false,,,,92,162,false
+KW0738,expat families in Hanoi group,Hanoi,expat families,group,1,91,false,,,,91,163,false
+KW0225,expat families in Vietnam community,Vietnam,expat families,community,1,91,false,,,,91,164,false
+KW0226,expat families in Vietnam group,Vietnam,expat families,group,1,91,false,,,,91,165,false
+KW0705,expat women in Hanoi community,Hanoi,expat women,community,1,91,false,,,,91,166,false
+KW0706,expat women in Hanoi group,Hanoi,expat women,group,1,91,false,,,,91,167,false
+KW0193,expat women in Vietnam community,Vietnam,expat women,community,1,91,false,,,,91,168,false
+KW0194,expat women in Vietnam group,Vietnam,expat women,group,1,91,false,,,,91,169,false
+KW0833,foreign photographers in Hanoi community,Hanoi,foreign photographers,community,1,91,false,,,,91,170,false
+KW0834,foreign photographers in Hanoi group,Hanoi,foreign photographers,group,1,91,false,,,,91,171,false
+KW0321,foreign photographers in Vietnam community,Vietnam,foreign photographers,community,1,91,false,,,,91,172,false
+KW0322,foreign photographers in Vietnam group,Vietnam,foreign photographers,group,1,91,false,,,,91,173,false
+KW0801,remote workers in Hanoi community,Hanoi,remote workers,community,1,91,false,,,,91,174,false
+KW0802,remote workers in Hanoi group,Hanoi,remote workers,group,1,91,false,,,,91,175,false
+KW0289,remote workers in Vietnam community,Vietnam,remote workers,community,1,91,false,,,,91,176,false
+KW0290,remote workers in Vietnam group,Vietnam,remote workers,group,1,91,false,,,,91,177,false
+KW0865,solo travelers in Hanoi community,Hanoi,solo travelers,community,1,91,false,,,,91,178,false
+KW0866,solo travelers in Hanoi group,Hanoi,solo travelers,group,1,91,false,,,,91,179,false
+KW0353,solo travelers in Vietnam community,Vietnam,solo travelers,community,1,91,false,,,,91,180,false
+KW0354,solo travelers in Vietnam group,Vietnam,solo travelers,group,1,91,false,,,,91,181,false
+KW0600,international community in Hanoi business networking,Hanoi,international community,business networking,1,90,false,,,,90,182,false
+KW0586,international community in Hanoi buy sell swap,Hanoi,international community,buy sell swap,1,90,false,,,,90,183,false
+KW0601,international community in Hanoi coworking,Hanoi,international community,coworking,1,90,false,,,,90,184,false
+KW0587,international community in Hanoi marketplace,Hanoi,international community,marketplace,1,90,false,,,,90,185,false
+KW0597,international community in Hanoi nightlife,Hanoi,international community,nightlife,1,90,false,,,,90,186,false
+KW0596,international community in Hanoi sports,Hanoi,international community,sports,1,90,false,,,,90,187,false
+KW0088,international community in Vietnam business networking,Vietnam,international community,business networking,1,90,false,,,,90,188,false
+KW0074,international community in Vietnam buy sell swap,Vietnam,international community,buy sell swap,1,90,false,,,,90,189,false
+KW0089,international community in Vietnam coworking,Vietnam,international community,coworking,1,90,false,,,,90,190,false
+KW0075,international community in Vietnam marketplace,Vietnam,international community,marketplace,1,90,false,,,,90,191,false
+KW0085,international community in Vietnam nightlife,Vietnam,international community,nightlife,1,90,false,,,,90,192,false
+KW0084,international community in Vietnam sports,Vietnam,international community,sports,1,90,false,,,,90,193,false
+KW0621,digital nomads in Hanoi friends,Hanoi,digital nomads,friends,1,89,false,,,,89,194,false
+KW0623,digital nomads in Hanoi local tips,Hanoi,digital nomads,local tips,1,89,false,,,,89,195,false
+KW0625,digital nomads in Hanoi photography,Hanoi,digital nomads,photography,1,89,false,,,,89,196,false
+KW0640,digital nomads in Hanoi things to do,Hanoi,digital nomads,things to do,1,89,false,,,,89,197,false
+KW0622,digital nomads in Hanoi travel advice,Hanoi,digital nomads,travel advice,1,89,false,,,,89,198,false
+KW0109,digital nomads in Vietnam friends,Vietnam,digital nomads,friends,1,89,false,,,,89,199,false
+KW0111,digital nomads in Vietnam local tips,Vietnam,digital nomads,local tips,1,89,false,,,,89,200,false
+KW0113,digital nomads in Vietnam photography,Vietnam,digital nomads,photography,1,89,false,,,,89,201,false
+KW0128,digital nomads in Vietnam things to do,Vietnam,digital nomads,things to do,1,89,false,,,,89,202,false
+KW0110,digital nomads in Vietnam travel advice,Vietnam,digital nomads,travel advice,1,89,false,,,,89,203,false
+KW0653,English teachers in Hanoi friends,Hanoi,English teachers,friends,1,89,false,,,,89,204,false
+KW0655,English teachers in Hanoi local tips,Hanoi,English teachers,local tips,1,89,false,,,,89,205,false
+KW0657,English teachers in Hanoi photography,Hanoi,English teachers,photography,1,89,false,,,,89,206,false
+KW0672,English teachers in Hanoi things to do,Hanoi,English teachers,things to do,1,89,false,,,,89,207,false
+KW0654,English teachers in Hanoi travel advice,Hanoi,English teachers,travel advice,1,89,false,,,,89,208,false
+KW0141,English teachers in Vietnam friends,Vietnam,English teachers,friends,1,89,false,,,,89,209,false
+KW0143,English teachers in Vietnam local tips,Vietnam,English teachers,local tips,1,89,false,,,,89,210,false
+KW0145,English teachers in Vietnam photography,Vietnam,English teachers,photography,1,89,false,,,,89,211,false
+KW0160,English teachers in Vietnam things to do,Vietnam,English teachers,things to do,1,89,false,,,,89,212,false
+KW0142,English teachers in Vietnam travel advice,Vietnam,English teachers,travel advice,1,89,false,,,,89,213,false
+KW0536,expats in Hanoi business networking,Hanoi,expats,business networking,1,89,false,,,,89,214,false
+KW0522,expats in Hanoi buy sell swap,Hanoi,expats,buy sell swap,1,89,false,,,,89,215,false
+KW0537,expats in Hanoi coworking,Hanoi,expats,coworking,1,89,false,,,,89,216,false
+KW0523,expats in Hanoi marketplace,Hanoi,expats,marketplace,1,89,false,,,,89,217,false
+KW0533,expats in Hanoi nightlife,Hanoi,expats,nightlife,1,89,false,,,,89,218,false
+KW0532,expats in Hanoi sports,Hanoi,expats,sports,1,89,false,,,,89,219,false
+KW0024,expats in Vietnam business networking,Vietnam,expats,business networking,1,89,false,,,,89,220,false
+KW0010,expats in Vietnam buy sell swap,Vietnam,expats,buy sell swap,1,89,false,,,,89,221,false
+KW0025,expats in Vietnam coworking,Vietnam,expats,coworking,1,89,false,,,,89,222,false
+KW0011,expats in Vietnam marketplace,Vietnam,expats,marketplace,1,89,false,,,,89,223,false
+KW0021,expats in Vietnam nightlife,Vietnam,expats,nightlife,1,89,false,,,,89,224,false
+KW0020,expats in Vietnam sports,Vietnam,expats,sports,1,89,false,,,,89,225,false
+KW0568,foreigners in Hanoi business networking,Hanoi,foreigners,business networking,1,89,false,,,,89,226,false
+KW0554,foreigners in Hanoi buy sell swap,Hanoi,foreigners,buy sell swap,1,89,false,,,,89,227,false
+KW0569,foreigners in Hanoi coworking,Hanoi,foreigners,coworking,1,89,false,,,,89,228,false
+KW0555,foreigners in Hanoi marketplace,Hanoi,foreigners,marketplace,1,89,false,,,,89,229,false
+KW0565,foreigners in Hanoi nightlife,Hanoi,foreigners,nightlife,1,89,false,,,,89,230,false
+KW0564,foreigners in Hanoi sports,Hanoi,foreigners,sports,1,89,false,,,,89,231,false
+KW0056,foreigners in Vietnam business networking,Vietnam,foreigners,business networking,1,89,false,,,,89,232,false
+KW0042,foreigners in Vietnam buy sell swap,Vietnam,foreigners,buy sell swap,1,89,false,,,,89,233,false
+KW0057,foreigners in Vietnam coworking,Vietnam,foreigners,coworking,1,89,false,,,,89,234,false
+KW0043,foreigners in Vietnam marketplace,Vietnam,foreigners,marketplace,1,89,false,,,,89,235,false
+KW0053,foreigners in Vietnam nightlife,Vietnam,foreigners,nightlife,1,89,false,,,,89,236,false
+KW0052,foreigners in Vietnam sports,Vietnam,foreigners,sports,1,89,false,,,,89,237,false
+KW0493,local and expat in Vietnam friends,Vietnam,local and expat,friends,1,89,false,,,,89,238,false
+KW0495,local and expat in Vietnam local tips,Vietnam,local and expat,local tips,1,89,false,,,,89,239,false
+KW0497,local and expat in Vietnam photography,Vietnam,local and expat,photography,1,89,false,,,,89,240,false
+KW0512,local and expat in Vietnam things to do,Vietnam,local and expat,things to do,1,89,false,,,,89,241,false
+KW0494,local and expat in Vietnam travel advice,Vietnam,local and expat,travel advice,1,89,false,,,,89,242,false
+KW0973,newcomers in Hanoi friends,Hanoi,newcomers,friends,1,89,false,,,,89,243,false
+KW0977,newcomers in Hanoi photography,Hanoi,newcomers,photography,1,89,false,,,,89,244,false
+KW0463,newcomers in Vietnam local tips,Vietnam,newcomers,local tips,1,89,false,,,,89,245,false
+KW0465,newcomers in Vietnam photography,Vietnam,newcomers,photography,1,89,false,,,,89,246,false
+KW0480,newcomers in Vietnam things to do,Vietnam,newcomers,things to do,1,89,false,,,,89,247,false
+KW0462,newcomers in Vietnam travel advice,Vietnam,newcomers,travel advice,1,89,false,,,,89,248,false
+KW0754,expat families in Hanoi photo walks,Hanoi,expat families,photo walks,1,88,false,,,,88,249,false
+KW0739,expat families in Hanoi social group,Hanoi,expat families,social group,1,88,false,,,,88,250,false
+KW0242,expat families in Vietnam photo walks,Vietnam,expat families,photo walks,1,88,false,,,,88,251,false
+KW0227,expat families in Vietnam social group,Vietnam,expat families,social group,1,88,false,,,,88,252,false
+KW0722,expat women in Hanoi photo walks,Hanoi,expat women,photo walks,1,88,false,,,,88,253,false
+KW0707,expat women in Hanoi social group,Hanoi,expat women,social group,1,88,false,,,,88,254,false
+KW0210,expat women in Vietnam photo walks,Vietnam,expat women,photo walks,1,88,false,,,,88,255,false
+KW0195,expat women in Vietnam social group,Vietnam,expat women,social group,1,88,false,,,,88,256,false
+KW0850,foreign photographers in Hanoi photo walks,Hanoi,foreign photographers,photo walks,1,88,false,,,,88,257,false
+KW0835,foreign photographers in Hanoi social group,Hanoi,foreign photographers,social group,1,88,false,,,,88,258,false
+KW0338,foreign photographers in Vietnam photo walks,Vietnam,foreign photographers,photo walks,1,88,false,,,,88,259,false
+KW0323,foreign photographers in Vietnam social group,Vietnam,foreign photographers,social group,1,88,false,,,,88,260,false
+KW0818,remote workers in Hanoi photo walks,Hanoi,remote workers,photo walks,1,88,false,,,,88,261,false
+KW0803,remote workers in Hanoi social group,Hanoi,remote workers,social group,1,88,false,,,,88,262,false
+KW0306,remote workers in Vietnam photo walks,Vietnam,remote workers,photo walks,1,88,false,,,,88,263,false
+KW0291,remote workers in Vietnam social group,Vietnam,remote workers,social group,1,88,false,,,,88,264,false
+KW0882,solo travelers in Hanoi photo walks,Hanoi,solo travelers,photo walks,1,88,false,,,,88,265,false
+KW0867,solo travelers in Hanoi social group,Hanoi,solo travelers,social group,1,88,false,,,,88,266,false
+KW0370,solo travelers in Vietnam photo walks,Vietnam,solo travelers,photo walks,1,88,false,,,,88,267,false
+KW0355,solo travelers in Vietnam social group,Vietnam,solo travelers,social group,1,88,false,,,,88,268,false
+KW0769,foreign entrepreneurs in Hanoi community,Hanoi,foreign entrepreneurs,community,1,87,false,,,,87,269,false
+KW0770,foreign entrepreneurs in Hanoi group,Hanoi,foreign entrepreneurs,group,1,87,false,,,,87,270,false
+KW0257,foreign entrepreneurs in Vietnam community,Vietnam,foreign entrepreneurs,community,1,87,false,,,,87,271,false
+KW0258,foreign entrepreneurs in Vietnam group,Vietnam,foreign entrepreneurs,group,1,87,false,,,,87,272,false
+KW0673,international students in Hanoi community,Hanoi,international students,community,1,87,false,,,,87,273,false
+KW0674,international students in Hanoi group,Hanoi,international students,group,1,87,false,,,,87,274,false
+KW0161,international students in Vietnam community,Vietnam,international students,community,1,87,false,,,,87,275,false
+KW0162,international students in Vietnam group,Vietnam,international students,group,1,87,false,,,,87,276,false
+KW0749,expat families in Hanoi friends,Hanoi,expat families,friends,1,86,false,,,,86,277,false
+KW0751,expat families in Hanoi local tips,Hanoi,expat families,local tips,1,86,false,,,,86,278,false
+KW0753,expat families in Hanoi photography,Hanoi,expat families,photography,1,86,false,,,,86,279,false
+KW0768,expat families in Hanoi things to do,Hanoi,expat families,things to do,1,86,false,,,,86,280,false
+KW0750,expat families in Hanoi travel advice,Hanoi,expat families,travel advice,1,86,false,,,,86,281,false
+KW0237,expat families in Vietnam friends,Vietnam,expat families,friends,1,86,false,,,,86,282,false
+KW0239,expat families in Vietnam local tips,Vietnam,expat families,local tips,1,86,false,,,,86,283,false
+KW0241,expat families in Vietnam photography,Vietnam,expat families,photography,1,86,false,,,,86,284,false
+KW0256,expat families in Vietnam things to do,Vietnam,expat families,things to do,1,86,false,,,,86,285,false
+KW0238,expat families in Vietnam travel advice,Vietnam,expat families,travel advice,1,86,false,,,,86,286,false
+KW0717,expat women in Hanoi friends,Hanoi,expat women,friends,1,86,false,,,,86,287,false
+KW0719,expat women in Hanoi local tips,Hanoi,expat women,local tips,1,86,false,,,,86,288,false
+KW0721,expat women in Hanoi photography,Hanoi,expat women,photography,1,86,false,,,,86,289,false
+KW0736,expat women in Hanoi things to do,Hanoi,expat women,things to do,1,86,false,,,,86,290,false
+KW0718,expat women in Hanoi travel advice,Hanoi,expat women,travel advice,1,86,false,,,,86,291,false
+KW0205,expat women in Vietnam friends,Vietnam,expat women,friends,1,86,false,,,,86,292,false
+KW0207,expat women in Vietnam local tips,Vietnam,expat women,local tips,1,86,false,,,,86,293,false
+KW0209,expat women in Vietnam photography,Vietnam,expat women,photography,1,86,false,,,,86,294,false
+KW0224,expat women in Vietnam things to do,Vietnam,expat women,things to do,1,86,false,,,,86,295,false
+KW0206,expat women in Vietnam travel advice,Vietnam,expat women,travel advice,1,86,false,,,,86,296,false
+KW0845,foreign photographers in Hanoi friends,Hanoi,foreign photographers,friends,1,86,false,,,,86,297,false
+KW0847,foreign photographers in Hanoi local tips,Hanoi,foreign photographers,local tips,1,86,false,,,,86,298,false
+KW0849,foreign photographers in Hanoi photography,Hanoi,foreign photographers,photography,1,86,false,,,,86,299,false
+KW0864,foreign photographers in Hanoi things to do,Hanoi,foreign photographers,things to do,1,86,false,,,,86,300,false
+KW0846,foreign photographers in Hanoi travel advice,Hanoi,foreign photographers,travel advice,1,86,false,,,,86,301,false
+KW0333,foreign photographers in Vietnam friends,Vietnam,foreign photographers,friends,1,86,false,,,,86,302,false
+KW0335,foreign photographers in Vietnam local tips,Vietnam,foreign photographers,local tips,1,86,false,,,,86,303,false
+KW0337,foreign photographers in Vietnam photography,Vietnam,foreign photographers,photography,1,86,false,,,,86,304,false
+KW0352,foreign photographers in Vietnam things to do,Vietnam,foreign photographers,things to do,1,86,false,,,,86,305,false
+KW0334,foreign photographers in Vietnam travel advice,Vietnam,foreign photographers,travel advice,1,86,false,,,,86,306,false
+KW0813,remote workers in Hanoi friends,Hanoi,remote workers,friends,1,86,false,,,,86,307,false
+KW0815,remote workers in Hanoi local tips,Hanoi,remote workers,local tips,1,86,false,,,,86,308,false
+KW0817,remote workers in Hanoi photography,Hanoi,remote workers,photography,1,86,false,,,,86,309,false
+KW0832,remote workers in Hanoi things to do,Hanoi,remote workers,things to do,1,86,false,,,,86,310,false
+KW0814,remote workers in Hanoi travel advice,Hanoi,remote workers,travel advice,1,86,false,,,,86,311,false
+KW0301,remote workers in Vietnam friends,Vietnam,remote workers,friends,1,86,false,,,,86,312,false
+KW0303,remote workers in Vietnam local tips,Vietnam,remote workers,local tips,1,86,false,,,,86,313,false
+KW0305,remote workers in Vietnam photography,Vietnam,remote workers,photography,1,86,false,,,,86,314,false
+KW0320,remote workers in Vietnam things to do,Vietnam,remote workers,things to do,1,86,false,,,,86,315,false
+KW0302,remote workers in Vietnam travel advice,Vietnam,remote workers,travel advice,1,86,false,,,,86,316,false
+KW0877,solo travelers in Hanoi friends,Hanoi,solo travelers,friends,1,86,false,,,,86,317,false
+KW0879,solo travelers in Hanoi local tips,Hanoi,solo travelers,local tips,1,86,false,,,,86,318,false
+KW0881,solo travelers in Hanoi photography,Hanoi,solo travelers,photography,1,86,false,,,,86,319,false
+KW0896,solo travelers in Hanoi things to do,Hanoi,solo travelers,things to do,1,86,false,,,,86,320,false
+KW0878,solo travelers in Hanoi travel advice,Hanoi,solo travelers,travel advice,1,86,false,,,,86,321,false
+KW0365,solo travelers in Vietnam friends,Vietnam,solo travelers,friends,1,86,false,,,,86,322,false
+KW0367,solo travelers in Vietnam local tips,Vietnam,solo travelers,local tips,1,86,false,,,,86,323,false
+KW0369,solo travelers in Vietnam photography,Vietnam,solo travelers,photography,1,86,false,,,,86,324,false
+KW0384,solo travelers in Vietnam things to do,Vietnam,solo travelers,things to do,1,86,false,,,,86,325,false
+KW0366,solo travelers in Vietnam travel advice,Vietnam,solo travelers,travel advice,1,86,false,,,,86,326,false
+KW0613,digital nomads in Hanoi events,Hanoi,digital nomads,events,1,85,false,,,,85,327,false
+KW0612,digital nomads in Hanoi meetup,Hanoi,digital nomads,meetup,1,85,false,,,,85,328,false
+KW0101,digital nomads in Vietnam events,Vietnam,digital nomads,events,1,85,false,,,,85,329,false
+KW0100,digital nomads in Vietnam meetup,Vietnam,digital nomads,meetup,1,85,false,,,,85,330,false
+KW0645,English teachers in Hanoi events,Hanoi,English teachers,events,1,85,false,,,,85,331,false
+KW0644,English teachers in Hanoi meetup,Hanoi,English teachers,meetup,1,85,false,,,,85,332,false
+KW0133,English teachers in Vietnam events,Vietnam,English teachers,events,1,85,false,,,,85,333,false
+KW0132,English teachers in Vietnam meetup,Vietnam,English teachers,meetup,1,85,false,,,,85,334,false
+KW0786,foreign entrepreneurs in Hanoi photo walks,Hanoi,foreign entrepreneurs,photo walks,1,85,false,,,,85,335,false
+KW0771,foreign entrepreneurs in Hanoi social group,Hanoi,foreign entrepreneurs,social group,1,85,false,,,,85,336,false
+KW0274,foreign entrepreneurs in Vietnam photo walks,Vietnam,foreign entrepreneurs,photo walks,1,85,false,,,,85,337,false
+KW0259,foreign entrepreneurs in Vietnam social group,Vietnam,foreign entrepreneurs,social group,1,85,false,,,,85,338,false
+KW0690,international students in Hanoi photo walks,Hanoi,international students,photo walks,1,85,false,,,,85,339,false
+KW0675,international students in Hanoi social group,Hanoi,international students,social group,1,85,false,,,,85,340,false
+KW0178,international students in Vietnam photo walks,Vietnam,international students,photo walks,1,85,false,,,,85,341,false
+KW0163,international students in Vietnam social group,Vietnam,international students,social group,1,85,false,,,,85,342,false
+KW0997,local and expat in Hanoi events,Hanoi,local and expat,events,1,85,false,,,,85,343,false
+KW0996,local and expat in Hanoi meetup,Hanoi,local and expat,meetup,1,85,false,,,,85,344,false
+KW0485,local and expat in Vietnam events,Vietnam,local and expat,events,1,85,false,,,,85,345,false
+KW0484,local and expat in Vietnam meetup,Vietnam,local and expat,meetup,1,85,false,,,,85,346,false
+KW0965,newcomers in Hanoi events,Hanoi,newcomers,events,1,85,false,,,,85,347,false
+KW0964,newcomers in Hanoi meetup,Hanoi,newcomers,meetup,1,85,false,,,,85,348,false
+KW0453,newcomers in Vietnam events,Vietnam,newcomers,events,1,85,false,,,,85,349,false
+KW0452,newcomers in Vietnam meetup,Vietnam,newcomers,meetup,1,85,false,,,,85,350,false
+KW0897,backpackers in Hanoi community,Hanoi,backpackers,community,1,84,false,,,,84,351,false
+KW0898,backpackers in Hanoi group,Hanoi,backpackers,group,1,84,false,,,,84,352,false
+KW0385,backpackers in Vietnam community,Vietnam,backpackers,community,1,84,false,,,,84,353,false
+KW0386,backpackers in Vietnam group,Vietnam,backpackers,group,1,84,false,,,,84,354,false
+KW0929,retirees in Hanoi community,Hanoi,retirees,community,1,84,false,,,,84,355,false
+KW0930,retirees in Hanoi group,Hanoi,retirees,group,1,84,false,,,,84,356,false
+KW0417,retirees in Vietnam community,Vietnam,retirees,community,1,84,false,,,,84,357,false
+KW0418,retirees in Vietnam group,Vietnam,retirees,group,1,84,false,,,,84,358,false
+KW0603,international community in Hanoi healthcare,Hanoi,international community,healthcare,1,83,false,,,,83,359,false
+KW0606,international community in Hanoi motorbike,Hanoi,international community,motorbike,1,83,false,,,,83,360,false
+KW0605,international community in Hanoi pets,Hanoi,international community,pets,1,83,false,,,,83,361,false
+KW0604,international community in Hanoi schools,Hanoi,international community,schools,1,83,false,,,,83,362,false
+KW0602,international community in Hanoi visa advice,Hanoi,international community,visa advice,1,83,false,,,,83,363,false
+KW0091,international community in Vietnam healthcare,Vietnam,international community,healthcare,1,83,false,,,,83,364,false
+KW0094,international community in Vietnam motorbike,Vietnam,international community,motorbike,1,83,false,,,,83,365,false
+KW0093,international community in Vietnam pets,Vietnam,international community,pets,1,83,false,,,,83,366,false
+KW0092,international community in Vietnam schools,Vietnam,international community,schools,1,83,false,,,,83,367,false
+KW0090,international community in Vietnam visa advice,Vietnam,international community,visa advice,1,83,false,,,,83,368,false
+KW0614,digital nomads in Hanoi housing,Hanoi,digital nomads,housing,1,82,false,,,,82,369,false
+KW0620,digital nomads in Hanoi language exchange,Hanoi,digital nomads,language exchange,1,82,false,,,,82,370,false
+KW0639,digital nomads in Hanoi weekend trips,Hanoi,digital nomads,weekend trips,1,82,false,,,,82,371,false
+KW0102,digital nomads in Vietnam housing,Vietnam,digital nomads,housing,1,82,false,,,,82,372,false
+KW0108,digital nomads in Vietnam language exchange,Vietnam,digital nomads,language exchange,1,82,false,,,,82,373,false
+KW0127,digital nomads in Vietnam weekend trips,Vietnam,digital nomads,weekend trips,1,82,false,,,,82,374,false
+KW0646,English teachers in Hanoi housing,Hanoi,English teachers,housing,1,82,false,,,,82,375,false
+KW0652,English teachers in Hanoi language exchange,Hanoi,English teachers,language exchange,1,82,false,,,,82,376,false
+KW0671,English teachers in Hanoi weekend trips,Hanoi,English teachers,weekend trips,1,82,false,,,,82,377,false
+KW0134,English teachers in Vietnam housing,Vietnam,English teachers,housing,1,82,false,,,,82,378,false
+KW0140,English teachers in Vietnam language exchange,Vietnam,English teachers,language exchange,1,82,false,,,,82,379,false
+KW0159,English teachers in Vietnam weekend trips,Vietnam,English teachers,weekend trips,1,82,false,,,,82,380,false
+KW0741,expat families in Hanoi events,Hanoi,expat families,events,1,82,false,,,,82,381,false
+KW0740,expat families in Hanoi meetup,Hanoi,expat families,meetup,1,82,false,,,,82,382,false
+KW0229,expat families in Vietnam events,Vietnam,expat families,events,1,82,false,,,,82,383,false
+KW0228,expat families in Vietnam meetup,Vietnam,expat families,meetup,1,82,false,,,,82,384,false
+KW0709,expat women in Hanoi events,Hanoi,expat women,events,1,82,false,,,,82,385,false
+KW0708,expat women in Hanoi meetup,Hanoi,expat women,meetup,1,82,false,,,,82,386,false
+KW0197,expat women in Vietnam events,Vietnam,expat women,events,1,82,false,,,,82,387,false
+KW0196,expat women in Vietnam meetup,Vietnam,expat women,meetup,1,82,false,,,,82,388,false
+KW0539,expats in Hanoi healthcare,Hanoi,expats,healthcare,1,82,false,,,,82,389,false
+KW0542,expats in Hanoi motorbike,Hanoi,expats,motorbike,1,82,false,,,,82,390,false
+KW0541,expats in Hanoi pets,Hanoi,expats,pets,1,82,false,,,,82,391,false
+KW0540,expats in Hanoi schools,Hanoi,expats,schools,1,82,false,,,,82,392,false
+KW0538,expats in Hanoi visa advice,Hanoi,expats,visa advice,1,82,false,,,,82,393,false
+KW0027,expats in Vietnam healthcare,Vietnam,expats,healthcare,1,82,false,,,,82,394,false
+KW0030,expats in Vietnam motorbike,Vietnam,expats,motorbike,1,82,false,,,,82,395,false
+KW0029,expats in Vietnam pets,Vietnam,expats,pets,1,82,false,,,,82,396,false
+KW0028,expats in Vietnam schools,Vietnam,expats,schools,1,82,false,,,,82,397,false
+KW0026,expats in Vietnam visa advice,Vietnam,expats,visa advice,1,82,false,,,,82,398,false
+KW0781,foreign entrepreneurs in Hanoi friends,Hanoi,foreign entrepreneurs,friends,1,82,false,,,,82,399,false
+KW0783,foreign entrepreneurs in Hanoi local tips,Hanoi,foreign entrepreneurs,local tips,1,82,false,,,,82,400,false
+KW0785,foreign entrepreneurs in Hanoi photography,Hanoi,foreign entrepreneurs,photography,1,82,false,,,,82,401,false
+KW0800,foreign entrepreneurs in Hanoi things to do,Hanoi,foreign entrepreneurs,things to do,1,82,false,,,,82,402,false
+KW0782,foreign entrepreneurs in Hanoi travel advice,Hanoi,foreign entrepreneurs,travel advice,1,82,false,,,,82,403,false
+KW0269,foreign entrepreneurs in Vietnam friends,Vietnam,foreign entrepreneurs,friends,1,82,false,,,,82,404,false
+KW0271,foreign entrepreneurs in Vietnam local tips,Vietnam,foreign entrepreneurs,local tips,1,82,false,,,,82,405,false
+KW0273,foreign entrepreneurs in Vietnam photography,Vietnam,foreign entrepreneurs,photography,1,82,false,,,,82,406,false
+KW0288,foreign entrepreneurs in Vietnam things to do,Vietnam,foreign entrepreneurs,things to do,1,82,false,,,,82,407,false
+KW0270,foreign entrepreneurs in Vietnam travel advice,Vietnam,foreign entrepreneurs,travel advice,1,82,false,,,,82,408,false
+KW0837,foreign photographers in Hanoi events,Hanoi,foreign photographers,events,1,82,false,,,,82,409,false
+KW0836,foreign photographers in Hanoi meetup,Hanoi,foreign photographers,meetup,1,82,false,,,,82,410,false
+KW0325,foreign photographers in Vietnam events,Vietnam,foreign photographers,events,1,82,false,,,,82,411,false
+KW0324,foreign photographers in Vietnam meetup,Vietnam,foreign photographers,meetup,1,82,false,,,,82,412,false
+KW0571,foreigners in Hanoi healthcare,Hanoi,foreigners,healthcare,1,82,false,,,,82,413,false
+KW0574,foreigners in Hanoi motorbike,Hanoi,foreigners,motorbike,1,82,false,,,,82,414,false
+KW0573,foreigners in Hanoi pets,Hanoi,foreigners,pets,1,82,false,,,,82,415,false
+KW0572,foreigners in Hanoi schools,Hanoi,foreigners,schools,1,82,false,,,,82,416,false
+KW0570,foreigners in Hanoi visa advice,Hanoi,foreigners,visa advice,1,82,false,,,,82,417,false
+KW0059,foreigners in Vietnam healthcare,Vietnam,foreigners,healthcare,1,82,false,,,,82,418,false
+KW0062,foreigners in Vietnam motorbike,Vietnam,foreigners,motorbike,1,82,false,,,,82,419,false
+KW0061,foreigners in Vietnam pets,Vietnam,foreigners,pets,1,82,false,,,,82,420,false
+KW0060,foreigners in Vietnam schools,Vietnam,foreigners,schools,1,82,false,,,,82,421,false
+KW0058,foreigners in Vietnam visa advice,Vietnam,foreigners,visa advice,1,82,false,,,,82,422,false
+KW0685,international students in Hanoi friends,Hanoi,international students,friends,1,82,false,,,,82,423,false
+KW0687,international students in Hanoi local tips,Hanoi,international students,local tips,1,82,false,,,,82,424,false
+KW0689,international students in Hanoi photography,Hanoi,international students,photography,1,82,false,,,,82,425,false
+KW0704,international students in Hanoi things to do,Hanoi,international students,things to do,1,82,false,,,,82,426,false
+KW0686,international students in Hanoi travel advice,Hanoi,international students,travel advice,1,82,false,,,,82,427,false
+KW0173,international students in Vietnam friends,Vietnam,international students,friends,1,82,false,,,,82,428,false
+KW0175,international students in Vietnam local tips,Vietnam,international students,local tips,1,82,false,,,,82,429,false
+KW0177,international students in Vietnam photography,Vietnam,international students,photography,1,82,false,,,,82,430,false
+KW0192,international students in Vietnam things to do,Vietnam,international students,things to do,1,82,false,,,,82,431,false
+KW0174,international students in Vietnam travel advice,Vietnam,international students,travel advice,1,82,false,,,,82,432,false
+KW0998,local and expat in Hanoi housing,Hanoi,local and expat,housing,1,82,false,,,,82,433,false
+KW0486,local and expat in Vietnam housing,Vietnam,local and expat,housing,1,82,false,,,,82,434,false
+KW0492,local and expat in Vietnam language exchange,Vietnam,local and expat,language exchange,1,82,false,,,,82,435,false
+KW0511,local and expat in Vietnam weekend trips,Vietnam,local and expat,weekend trips,1,82,false,,,,82,436,false
+KW0966,newcomers in Hanoi housing,Hanoi,newcomers,housing,1,82,false,,,,82,437,false
+KW0972,newcomers in Hanoi language exchange,Hanoi,newcomers,language exchange,1,82,false,,,,82,438,false
+KW0991,newcomers in Hanoi weekend trips,Hanoi,newcomers,weekend trips,1,82,false,,,,82,439,false
+KW0454,newcomers in Vietnam housing,Vietnam,newcomers,housing,1,82,false,,,,82,440,false
+KW0460,newcomers in Vietnam language exchange,Vietnam,newcomers,language exchange,1,82,false,,,,82,441,false
+KW0479,newcomers in Vietnam weekend trips,Vietnam,newcomers,weekend trips,1,82,false,,,,82,442,false
+KW0805,remote workers in Hanoi events,Hanoi,remote workers,events,1,82,false,,,,82,443,false
+KW0804,remote workers in Hanoi meetup,Hanoi,remote workers,meetup,1,82,false,,,,82,444,false
+KW0293,remote workers in Vietnam events,Vietnam,remote workers,events,1,82,false,,,,82,445,false
+KW0292,remote workers in Vietnam meetup,Vietnam,remote workers,meetup,1,82,false,,,,82,446,false
+KW0869,solo travelers in Hanoi events,Hanoi,solo travelers,events,1,82,false,,,,82,447,false
+KW0868,solo travelers in Hanoi meetup,Hanoi,solo travelers,meetup,1,82,false,,,,82,448,false
+KW0357,solo travelers in Vietnam events,Vietnam,solo travelers,events,1,82,false,,,,82,449,false
+KW0356,solo travelers in Vietnam meetup,Vietnam,solo travelers,meetup,1,82,false,,,,82,450,false
+KW0914,backpackers in Hanoi photo walks,Hanoi,backpackers,photo walks,1,81,false,,,,81,451,false
+KW0899,backpackers in Hanoi social group,Hanoi,backpackers,social group,1,81,false,,,,81,452,false
+KW0402,backpackers in Vietnam photo walks,Vietnam,backpackers,photo walks,1,81,false,,,,81,453,false
+KW0387,backpackers in Vietnam social group,Vietnam,backpackers,social group,1,81,false,,,,81,454,false
+KW0946,retirees in Hanoi photo walks,Hanoi,retirees,photo walks,1,81,false,,,,81,455,false
+KW0931,retirees in Hanoi social group,Hanoi,retirees,social group,1,81,false,,,,81,456,false
+KW0434,retirees in Vietnam photo walks,Vietnam,retirees,photo walks,1,81,false,,,,81,457,false
+KW0419,retirees in Vietnam social group,Vietnam,retirees,social group,1,81,false,,,,81,458,false
+KW0615,digital nomads in Hanoi apartments,Hanoi,digital nomads,apartments,1,80,false,,,,80,459,false
+KW0617,digital nomads in Hanoi English teaching jobs,Hanoi,digital nomads,English teaching jobs,1,80,false,,,,80,460,false
+KW0624,digital nomads in Hanoi food and restaurants,Hanoi,digital nomads,food and restaurants,1,80,false,,,,80,461,false
+KW0627,digital nomads in Hanoi hiking,Hanoi,digital nomads,hiking,1,80,false,,,,80,462,false
+KW0616,digital nomads in Hanoi jobs,Hanoi,digital nomads,jobs,1,80,false,,,,80,463,false
+KW0630,digital nomads in Hanoi parents,Hanoi,digital nomads,parents,1,80,false,,,,80,464,false
+KW0631,digital nomads in Hanoi women,Hanoi,digital nomads,women,1,80,false,,,,80,465,false
+KW0103,digital nomads in Vietnam apartments,Vietnam,digital nomads,apartments,1,80,false,,,,80,466,false
+KW0105,digital nomads in Vietnam English teaching jobs,Vietnam,digital nomads,English teaching jobs,1,80,false,,,,80,467,false
+KW0112,digital nomads in Vietnam food and restaurants,Vietnam,digital nomads,food and restaurants,1,80,false,,,,80,468,false
+KW0115,digital nomads in Vietnam hiking,Vietnam,digital nomads,hiking,1,80,false,,,,80,469,false
+KW0104,digital nomads in Vietnam jobs,Vietnam,digital nomads,jobs,1,80,false,,,,80,470,false
+KW0118,digital nomads in Vietnam parents,Vietnam,digital nomads,parents,1,80,false,,,,80,471,false
+KW0119,digital nomads in Vietnam women,Vietnam,digital nomads,women,1,80,false,,,,80,472,false
+KW0647,English teachers in Hanoi apartments,Hanoi,English teachers,apartments,1,80,false,,,,80,473,false
+KW0649,English teachers in Hanoi English teaching jobs,Hanoi,English teachers,English teaching jobs,1,80,false,,,,80,474,false
+KW0656,English teachers in Hanoi food and restaurants,Hanoi,English teachers,food and restaurants,1,80,false,,,,80,475,false
+KW0659,English teachers in Hanoi hiking,Hanoi,English teachers,hiking,1,80,false,,,,80,476,false
+KW0648,English teachers in Hanoi jobs,Hanoi,English teachers,jobs,1,80,false,,,,80,477,false
+KW0662,English teachers in Hanoi parents,Hanoi,English teachers,parents,1,80,false,,,,80,478,false
+KW0663,English teachers in Hanoi women,Hanoi,English teachers,women,1,80,false,,,,80,479,false
+KW0135,English teachers in Vietnam apartments,Vietnam,English teachers,apartments,1,80,false,,,,80,480,false
+KW0137,English teachers in Vietnam English teaching jobs,Vietnam,English teachers,English teaching jobs,1,80,false,,,,80,481,false
+KW0144,English teachers in Vietnam food and restaurants,Vietnam,English teachers,food and restaurants,1,80,false,,,,80,482,false
+KW0147,English teachers in Vietnam hiking,Vietnam,English teachers,hiking,1,80,false,,,,80,483,false
+KW0136,English teachers in Vietnam jobs,Vietnam,English teachers,jobs,1,80,false,,,,80,484,false
+KW0150,English teachers in Vietnam parents,Vietnam,English teachers,parents,1,80,false,,,,80,485,false
+KW0151,English teachers in Vietnam women,Vietnam,English teachers,women,1,80,false,,,,80,486,false
+KW0999,local and expat in Hanoi apartments,Hanoi,local and expat,apartments,1,80,false,,,,80,487,false
+KW1000,local and expat in Hanoi jobs,Hanoi,local and expat,jobs,1,80,false,,,,80,488,false
+KW0487,local and expat in Vietnam apartments,Vietnam,local and expat,apartments,1,80,false,,,,80,489,false
+KW0489,local and expat in Vietnam English teaching jobs,Vietnam,local and expat,English teaching jobs,1,80,false,,,,80,490,false
+KW0496,local and expat in Vietnam food and restaurants,Vietnam,local and expat,food and restaurants,1,80,false,,,,80,491,false
+KW0499,local and expat in Vietnam hiking,Vietnam,local and expat,hiking,1,80,false,,,,80,492,false
+KW0488,local and expat in Vietnam jobs,Vietnam,local and expat,jobs,1,80,false,,,,80,493,false
+KW0502,local and expat in Vietnam parents,Vietnam,local and expat,parents,1,80,false,,,,80,494,false
+KW0503,local and expat in Vietnam women,Vietnam,local and expat,women,1,80,false,,,,80,495,false
+KW0967,newcomers in Hanoi apartments,Hanoi,newcomers,apartments,1,80,false,,,,80,496,false
+KW0969,newcomers in Hanoi English teaching jobs,Hanoi,newcomers,English teaching jobs,1,80,false,,,,80,497,false
+KW0976,newcomers in Hanoi food and restaurants,Hanoi,newcomers,food and restaurants,1,80,false,,,,80,498,false
+KW0979,newcomers in Hanoi hiking,Hanoi,newcomers,hiking,1,80,false,,,,80,499,false
+KW0968,newcomers in Hanoi jobs,Hanoi,newcomers,jobs,1,80,false,,,,80,500,false
+KW0982,newcomers in Hanoi parents,Hanoi,newcomers,parents,1,80,false,,,,80,501,false
+KW0983,newcomers in Hanoi women,Hanoi,newcomers,women,1,80,false,,,,80,502,false
+KW0455,newcomers in Vietnam apartments,Vietnam,newcomers,apartments,1,80,false,,,,80,503,false
+KW0457,newcomers in Vietnam English teaching jobs,Vietnam,newcomers,English teaching jobs,1,80,false,,,,80,504,false
+KW0464,newcomers in Vietnam food and restaurants,Vietnam,newcomers,food and restaurants,1,80,false,,,,80,505,false
+KW0467,newcomers in Vietnam hiking,Vietnam,newcomers,hiking,1,80,false,,,,80,506,false
+KW0456,newcomers in Vietnam jobs,Vietnam,newcomers,jobs,1,80,false,,,,80,507,false
+KW0470,newcomers in Vietnam parents,Vietnam,newcomers,parents,1,80,false,,,,80,508,false
+KW0471,newcomers in Vietnam women,Vietnam,newcomers,women,1,80,false,,,,80,509,false
+KW0909,backpackers in Hanoi friends,Hanoi,backpackers,friends,1,79,false,,,,79,510,false
+KW0911,backpackers in Hanoi local tips,Hanoi,backpackers,local tips,1,79,false,,,,79,511,false
+KW0913,backpackers in Hanoi photography,Hanoi,backpackers,photography,1,79,false,,,,79,512,false
+KW0928,backpackers in Hanoi things to do,Hanoi,backpackers,things to do,1,79,false,,,,79,513,false
+KW0910,backpackers in Hanoi travel advice,Hanoi,backpackers,travel advice,1,79,false,,,,79,514,false
+KW0397,backpackers in Vietnam friends,Vietnam,backpackers,friends,1,79,false,,,,79,515,false
+KW0399,backpackers in Vietnam local tips,Vietnam,backpackers,local tips,1,79,false,,,,79,516,false
+KW0401,backpackers in Vietnam photography,Vietnam,backpackers,photography,1,79,false,,,,79,517,false
+KW0416,backpackers in Vietnam things to do,Vietnam,backpackers,things to do,1,79,false,,,,79,518,false
+KW0398,backpackers in Vietnam travel advice,Vietnam,backpackers,travel advice,1,79,false,,,,79,519,false
+KW0742,expat families in Hanoi housing,Hanoi,expat families,housing,1,79,false,,,,79,520,false
+KW0748,expat families in Hanoi language exchange,Hanoi,expat families,language exchange,1,79,false,,,,79,521,false
+KW0767,expat families in Hanoi weekend trips,Hanoi,expat families,weekend trips,1,79,false,,,,79,522,false
+KW0230,expat families in Vietnam housing,Vietnam,expat families,housing,1,79,false,,,,79,523,false
+KW0236,expat families in Vietnam language exchange,Vietnam,expat families,language exchange,1,79,false,,,,79,524,false
+KW0255,expat families in Vietnam weekend trips,Vietnam,expat families,weekend trips,1,79,false,,,,79,525,false
+KW0710,expat women in Hanoi housing,Hanoi,expat women,housing,1,79,false,,,,79,526,false
+KW0716,expat women in Hanoi language exchange,Hanoi,expat women,language exchange,1,79,false,,,,79,527,false
+KW0735,expat women in Hanoi weekend trips,Hanoi,expat women,weekend trips,1,79,false,,,,79,528,false
+KW0198,expat women in Vietnam housing,Vietnam,expat women,housing,1,79,false,,,,79,529,false
+KW0204,expat women in Vietnam language exchange,Vietnam,expat women,language exchange,1,79,false,,,,79,530,false
+KW0223,expat women in Vietnam weekend trips,Vietnam,expat women,weekend trips,1,79,false,,,,79,531,false
+KW0838,foreign photographers in Hanoi housing,Hanoi,foreign photographers,housing,1,79,false,,,,79,532,false
+KW0844,foreign photographers in Hanoi language exchange,Hanoi,foreign photographers,language exchange,1,79,false,,,,79,533,false
+KW0863,foreign photographers in Hanoi weekend trips,Hanoi,foreign photographers,weekend trips,1,79,false,,,,79,534,false
+KW0326,foreign photographers in Vietnam housing,Vietnam,foreign photographers,housing,1,79,false,,,,79,535,false
+KW0332,foreign photographers in Vietnam language exchange,Vietnam,foreign photographers,language exchange,1,79,false,,,,79,536,false
+KW0351,foreign photographers in Vietnam weekend trips,Vietnam,foreign photographers,weekend trips,1,79,false,,,,79,537,false
+KW0806,remote workers in Hanoi housing,Hanoi,remote workers,housing,1,79,false,,,,79,538,false
+KW0812,remote workers in Hanoi language exchange,Hanoi,remote workers,language exchange,1,79,false,,,,79,539,false
+KW0831,remote workers in Hanoi weekend trips,Hanoi,remote workers,weekend trips,1,79,false,,,,79,540,false
+KW0294,remote workers in Vietnam housing,Vietnam,remote workers,housing,1,79,false,,,,79,541,false
+KW0300,remote workers in Vietnam language exchange,Vietnam,remote workers,language exchange,1,79,false,,,,79,542,false
+KW0319,remote workers in Vietnam weekend trips,Vietnam,remote workers,weekend trips,1,79,false,,,,79,543,false
+KW0941,retirees in Hanoi friends,Hanoi,retirees,friends,1,79,false,,,,79,544,false
+KW0943,retirees in Hanoi local tips,Hanoi,retirees,local tips,1,79,false,,,,79,545,false
+KW0945,retirees in Hanoi photography,Hanoi,retirees,photography,1,79,false,,,,79,546,false
+KW0960,retirees in Hanoi things to do,Hanoi,retirees,things to do,1,79,false,,,,79,547,false
+KW0942,retirees in Hanoi travel advice,Hanoi,retirees,travel advice,1,79,false,,,,79,548,false
+KW0429,retirees in Vietnam friends,Vietnam,retirees,friends,1,79,false,,,,79,549,false
+KW0431,retirees in Vietnam local tips,Vietnam,retirees,local tips,1,79,false,,,,79,550,false
+KW0433,retirees in Vietnam photography,Vietnam,retirees,photography,1,79,false,,,,79,551,false
+KW0448,retirees in Vietnam things to do,Vietnam,retirees,things to do,1,79,false,,,,79,552,false
+KW0430,retirees in Vietnam travel advice,Vietnam,retirees,travel advice,1,79,false,,,,79,553,false
+KW0870,solo travelers in Hanoi housing,Hanoi,solo travelers,housing,1,79,false,,,,79,554,false
+KW0876,solo travelers in Hanoi language exchange,Hanoi,solo travelers,language exchange,1,79,false,,,,79,555,false
+KW0895,solo travelers in Hanoi weekend trips,Hanoi,solo travelers,weekend trips,1,79,false,,,,79,556,false
+KW0358,solo travelers in Vietnam housing,Vietnam,solo travelers,housing,1,79,false,,,,79,557,false
+KW0364,solo travelers in Vietnam language exchange,Vietnam,solo travelers,language exchange,1,79,false,,,,79,558,false
+KW0383,solo travelers in Vietnam weekend trips,Vietnam,solo travelers,weekend trips,1,79,false,,,,79,559,false
+KW0773,foreign entrepreneurs in Hanoi events,Hanoi,foreign entrepreneurs,events,1,78,false,,,,78,560,false
+KW0772,foreign entrepreneurs in Hanoi meetup,Hanoi,foreign entrepreneurs,meetup,1,78,false,,,,78,561,false
+KW0261,foreign entrepreneurs in Vietnam events,Vietnam,foreign entrepreneurs,events,1,78,false,,,,78,562,false
+KW0260,foreign entrepreneurs in Vietnam meetup,Vietnam,foreign entrepreneurs,meetup,1,78,false,,,,78,563,false
+KW0677,international students in Hanoi events,Hanoi,international students,events,1,78,false,,,,78,564,false
+KW0676,international students in Hanoi meetup,Hanoi,international students,meetup,1,78,false,,,,78,565,false
+KW0165,international students in Vietnam events,Vietnam,international students,events,1,78,false,,,,78,566,false
+KW0164,international students in Vietnam meetup,Vietnam,international students,meetup,1,78,false,,,,78,567,false
+KW0632,digital nomads in Hanoi business networking,Hanoi,digital nomads,business networking,1,77,false,,,,77,568,false
+KW0618,digital nomads in Hanoi buy sell swap,Hanoi,digital nomads,buy sell swap,1,77,false,,,,77,569,false
+KW0633,digital nomads in Hanoi coworking,Hanoi,digital nomads,coworking,1,77,false,,,,77,570,false
+KW0619,digital nomads in Hanoi marketplace,Hanoi,digital nomads,marketplace,1,77,false,,,,77,571,false
+KW0629,digital nomads in Hanoi nightlife,Hanoi,digital nomads,nightlife,1,77,false,,,,77,572,false
+KW0628,digital nomads in Hanoi sports,Hanoi,digital nomads,sports,1,77,false,,,,77,573,false
+KW0120,digital nomads in Vietnam business networking,Vietnam,digital nomads,business networking,1,77,false,,,,77,574,false
+KW0106,digital nomads in Vietnam buy sell swap,Vietnam,digital nomads,buy sell swap,1,77,false,,,,77,575,false
+KW0121,digital nomads in Vietnam coworking,Vietnam,digital nomads,coworking,1,77,false,,,,77,576,false
+KW0107,digital nomads in Vietnam marketplace,Vietnam,digital nomads,marketplace,1,77,false,,,,77,577,false
+KW0117,digital nomads in Vietnam nightlife,Vietnam,digital nomads,nightlife,1,77,false,,,,77,578,false
+KW0116,digital nomads in Vietnam sports,Vietnam,digital nomads,sports,1,77,false,,,,77,579,false
+KW0664,English teachers in Hanoi business networking,Hanoi,English teachers,business networking,1,77,false,,,,77,580,false
+KW0650,English teachers in Hanoi buy sell swap,Hanoi,English teachers,buy sell swap,1,77,false,,,,77,581,false
+KW0665,English teachers in Hanoi coworking,Hanoi,English teachers,coworking,1,77,false,,,,77,582,false
+KW0651,English teachers in Hanoi marketplace,Hanoi,English teachers,marketplace,1,77,false,,,,77,583,false
+KW0661,English teachers in Hanoi nightlife,Hanoi,English teachers,nightlife,1,77,false,,,,77,584,false
+KW0660,English teachers in Hanoi sports,Hanoi,English teachers,sports,1,77,false,,,,77,585,false
+KW0152,English teachers in Vietnam business networking,Vietnam,English teachers,business networking,1,77,false,,,,77,586,false
+KW0138,English teachers in Vietnam buy sell swap,Vietnam,English teachers,buy sell swap,1,77,false,,,,77,587,false
+KW0153,English teachers in Vietnam coworking,Vietnam,English teachers,coworking,1,77,false,,,,77,588,false
+KW0139,English teachers in Vietnam marketplace,Vietnam,English teachers,marketplace,1,77,false,,,,77,589,false
+KW0149,English teachers in Vietnam nightlife,Vietnam,English teachers,nightlife,1,77,false,,,,77,590,false
+KW0148,English teachers in Vietnam sports,Vietnam,English teachers,sports,1,77,false,,,,77,591,false
+KW0504,local and expat in Vietnam business networking,Vietnam,local and expat,business networking,1,77,false,,,,77,592,false
+KW0490,local and expat in Vietnam buy sell swap,Vietnam,local and expat,buy sell swap,1,77,false,,,,77,593,false
+KW0505,local and expat in Vietnam coworking,Vietnam,local and expat,coworking,1,77,false,,,,77,594,false
+KW0491,local and expat in Vietnam marketplace,Vietnam,local and expat,marketplace,1,77,false,,,,77,595,false
+KW0501,local and expat in Vietnam nightlife,Vietnam,local and expat,nightlife,1,77,false,,,,77,596,false
+KW0500,local and expat in Vietnam sports,Vietnam,local and expat,sports,1,77,false,,,,77,597,false
+KW0984,newcomers in Hanoi business networking,Hanoi,newcomers,business networking,1,77,false,,,,77,598,false
+KW0970,newcomers in Hanoi buy sell swap,Hanoi,newcomers,buy sell swap,1,77,false,,,,77,599,false
+KW0985,newcomers in Hanoi coworking,Hanoi,newcomers,coworking,1,77,false,,,,77,600,false
+KW0971,newcomers in Hanoi marketplace,Hanoi,newcomers,marketplace,1,77,false,,,,77,601,false
+KW0981,newcomers in Hanoi nightlife,Hanoi,newcomers,nightlife,1,77,false,,,,77,602,false
+KW0980,newcomers in Hanoi sports,Hanoi,newcomers,sports,1,77,false,,,,77,603,false
+KW0472,newcomers in Vietnam business networking,Vietnam,newcomers,business networking,1,77,false,,,,77,604,false
+KW0458,newcomers in Vietnam buy sell swap,Vietnam,newcomers,buy sell swap,1,77,false,,,,77,605,false
+KW0473,newcomers in Vietnam coworking,Vietnam,newcomers,coworking,1,77,false,,,,77,606,false
+KW0459,newcomers in Vietnam marketplace,Vietnam,newcomers,marketplace,1,77,false,,,,77,607,false
+KW0469,newcomers in Vietnam nightlife,Vietnam,newcomers,nightlife,1,77,false,,,,77,608,false
+KW0468,newcomers in Vietnam sports,Vietnam,newcomers,sports,1,77,false,,,,77,609,false
+KW0743,expat families in Hanoi apartments,Hanoi,expat families,apartments,1,76,false,,,,76,610,false
+KW0745,expat families in Hanoi English teaching jobs,Hanoi,expat families,English teaching jobs,1,76,false,,,,76,611,false
+KW0752,expat families in Hanoi food and restaurants,Hanoi,expat families,food and restaurants,1,76,false,,,,76,612,false
+KW0755,expat families in Hanoi hiking,Hanoi,expat families,hiking,1,76,false,,,,76,613,false
+KW0744,expat families in Hanoi jobs,Hanoi,expat families,jobs,1,76,false,,,,76,614,false
+KW0758,expat families in Hanoi parents,Hanoi,expat families,parents,1,76,false,,,,76,615,false
+KW0759,expat families in Hanoi women,Hanoi,expat families,women,1,76,false,,,,76,616,false
+KW0231,expat families in Vietnam apartments,Vietnam,expat families,apartments,1,76,false,,,,76,617,false
+KW0233,expat families in Vietnam English teaching jobs,Vietnam,expat families,English teaching jobs,1,76,false,,,,76,618,false
+KW0240,expat families in Vietnam food and restaurants,Vietnam,expat families,food and restaurants,1,76,false,,,,76,619,false
+KW0243,expat families in Vietnam hiking,Vietnam,expat families,hiking,1,76,false,,,,76,620,false
+KW0232,expat families in Vietnam jobs,Vietnam,expat families,jobs,1,76,false,,,,76,621,false
+KW0246,expat families in Vietnam parents,Vietnam,expat families,parents,1,76,false,,,,76,622,false
+KW0247,expat families in Vietnam women,Vietnam,expat families,women,1,76,false,,,,76,623,false
+KW0711,expat women in Hanoi apartments,Hanoi,expat women,apartments,1,76,false,,,,76,624,false
+KW0713,expat women in Hanoi English teaching jobs,Hanoi,expat women,English teaching jobs,1,76,false,,,,76,625,false
+KW0720,expat women in Hanoi food and restaurants,Hanoi,expat women,food and restaurants,1,76,false,,,,76,626,false
+KW0723,expat women in Hanoi hiking,Hanoi,expat women,hiking,1,76,false,,,,76,627,false
+KW0712,expat women in Hanoi jobs,Hanoi,expat women,jobs,1,76,false,,,,76,628,false
+KW0726,expat women in Hanoi parents,Hanoi,expat women,parents,1,76,false,,,,76,629,false
+KW0727,expat women in Hanoi women,Hanoi,expat women,women,1,76,false,,,,76,630,false
+KW0199,expat women in Vietnam apartments,Vietnam,expat women,apartments,1,76,false,,,,76,631,false
+KW0201,expat women in Vietnam English teaching jobs,Vietnam,expat women,English teaching jobs,1,76,false,,,,76,632,false
+KW0208,expat women in Vietnam food and restaurants,Vietnam,expat women,food and restaurants,1,76,false,,,,76,633,false
+KW0211,expat women in Vietnam hiking,Vietnam,expat women,hiking,1,76,false,,,,76,634,false
+KW0200,expat women in Vietnam jobs,Vietnam,expat women,jobs,1,76,false,,,,76,635,false
+KW0214,expat women in Vietnam parents,Vietnam,expat women,parents,1,76,false,,,,76,636,false
+KW0215,expat women in Vietnam women,Vietnam,expat women,women,1,76,false,,,,76,637,false
+KW0774,foreign entrepreneurs in Hanoi housing,Hanoi,foreign entrepreneurs,housing,1,76,false,,,,76,638,false
+KW0780,foreign entrepreneurs in Hanoi language exchange,Hanoi,foreign entrepreneurs,language exchange,1,76,false,,,,76,639,false
+KW0799,foreign entrepreneurs in Hanoi weekend trips,Hanoi,foreign entrepreneurs,weekend trips,1,76,false,,,,76,640,false
+KW0262,foreign entrepreneurs in Vietnam housing,Vietnam,foreign entrepreneurs,housing,1,76,false,,,,76,641,false
+KW0268,foreign entrepreneurs in Vietnam language exchange,Vietnam,foreign entrepreneurs,language exchange,1,76,false,,,,76,642,false
+KW0287,foreign entrepreneurs in Vietnam weekend trips,Vietnam,foreign entrepreneurs,weekend trips,1,76,false,,,,76,643,false
+KW0839,foreign photographers in Hanoi apartments,Hanoi,foreign photographers,apartments,1,76,false,,,,76,644,false
+KW0841,foreign photographers in Hanoi English teaching jobs,Hanoi,foreign photographers,English teaching jobs,1,76,false,,,,76,645,false
+KW0848,foreign photographers in Hanoi food and restaurants,Hanoi,foreign photographers,food and restaurants,1,76,false,,,,76,646,false
+KW0851,foreign photographers in Hanoi hiking,Hanoi,foreign photographers,hiking,1,76,false,,,,76,647,false
+KW0840,foreign photographers in Hanoi jobs,Hanoi,foreign photographers,jobs,1,76,false,,,,76,648,false
+KW0854,foreign photographers in Hanoi parents,Hanoi,foreign photographers,parents,1,76,false,,,,76,649,false
+KW0855,foreign photographers in Hanoi women,Hanoi,foreign photographers,women,1,76,false,,,,76,650,false
+KW0327,foreign photographers in Vietnam apartments,Vietnam,foreign photographers,apartments,1,76,false,,,,76,651,false
+KW0329,foreign photographers in Vietnam English teaching jobs,Vietnam,foreign photographers,English teaching jobs,1,76,false,,,,76,652,false
+KW0336,foreign photographers in Vietnam food and restaurants,Vietnam,foreign photographers,food and restaurants,1,76,false,,,,76,653,false
+KW0339,foreign photographers in Vietnam hiking,Vietnam,foreign photographers,hiking,1,76,false,,,,76,654,false
+KW0328,foreign photographers in Vietnam jobs,Vietnam,foreign photographers,jobs,1,76,false,,,,76,655,false
+KW0342,foreign photographers in Vietnam parents,Vietnam,foreign photographers,parents,1,76,false,,,,76,656,false
+KW0343,foreign photographers in Vietnam women,Vietnam,foreign photographers,women,1,76,false,,,,76,657,false
+KW0678,international students in Hanoi housing,Hanoi,international students,housing,1,76,false,,,,76,658,false
+KW0684,international students in Hanoi language exchange,Hanoi,international students,language exchange,1,76,false,,,,76,659,false
+KW0703,international students in Hanoi weekend trips,Hanoi,international students,weekend trips,1,76,false,,,,76,660,false
+KW0166,international students in Vietnam housing,Vietnam,international students,housing,1,76,false,,,,76,661,false
+KW0172,international students in Vietnam language exchange,Vietnam,international students,language exchange,1,76,false,,,,76,662,false
+KW0191,international students in Vietnam weekend trips,Vietnam,international students,weekend trips,1,76,false,,,,76,663,false
+KW0807,remote workers in Hanoi apartments,Hanoi,remote workers,apartments,1,76,false,,,,76,664,false
+KW0809,remote workers in Hanoi English teaching jobs,Hanoi,remote workers,English teaching jobs,1,76,false,,,,76,665,false
+KW0816,remote workers in Hanoi food and restaurants,Hanoi,remote workers,food and restaurants,1,76,false,,,,76,666,false
+KW0819,remote workers in Hanoi hiking,Hanoi,remote workers,hiking,1,76,false,,,,76,667,false
+KW0808,remote workers in Hanoi jobs,Hanoi,remote workers,jobs,1,76,false,,,,76,668,false
+KW0822,remote workers in Hanoi parents,Hanoi,remote workers,parents,1,76,false,,,,76,669,false
+KW0823,remote workers in Hanoi women,Hanoi,remote workers,women,1,76,false,,,,76,670,false
+KW0295,remote workers in Vietnam apartments,Vietnam,remote workers,apartments,1,76,false,,,,76,671,false
+KW0297,remote workers in Vietnam English teaching jobs,Vietnam,remote workers,English teaching jobs,1,76,false,,,,76,672,false
+KW0304,remote workers in Vietnam food and restaurants,Vietnam,remote workers,food and restaurants,1,76,false,,,,76,673,false
+KW0307,remote workers in Vietnam hiking,Vietnam,remote workers,hiking,1,76,false,,,,76,674,false
+KW0296,remote workers in Vietnam jobs,Vietnam,remote workers,jobs,1,76,false,,,,76,675,false
+KW0310,remote workers in Vietnam parents,Vietnam,remote workers,parents,1,76,false,,,,76,676,false
+KW0311,remote workers in Vietnam women,Vietnam,remote workers,women,1,76,false,,,,76,677,false
+KW0871,solo travelers in Hanoi apartments,Hanoi,solo travelers,apartments,1,76,false,,,,76,678,false
+KW0873,solo travelers in Hanoi English teaching jobs,Hanoi,solo travelers,English teaching jobs,1,76,false,,,,76,679,false
+KW0880,solo travelers in Hanoi food and restaurants,Hanoi,solo travelers,food and restaurants,1,76,false,,,,76,680,false
+KW0883,solo travelers in Hanoi hiking,Hanoi,solo travelers,hiking,1,76,false,,,,76,681,false
+KW0872,solo travelers in Hanoi jobs,Hanoi,solo travelers,jobs,1,76,false,,,,76,682,false
+KW0886,solo travelers in Hanoi parents,Hanoi,solo travelers,parents,1,76,false,,,,76,683,false
+KW0887,solo travelers in Hanoi women,Hanoi,solo travelers,women,1,76,false,,,,76,684,false
+KW0359,solo travelers in Vietnam apartments,Vietnam,solo travelers,apartments,1,76,false,,,,76,685,false
+KW0361,solo travelers in Vietnam English teaching jobs,Vietnam,solo travelers,English teaching jobs,1,76,false,,,,76,686,false
+KW0368,solo travelers in Vietnam food and restaurants,Vietnam,solo travelers,food and restaurants,1,76,false,,,,76,687,false
+KW0371,solo travelers in Vietnam hiking,Vietnam,solo travelers,hiking,1,76,false,,,,76,688,false
+KW0360,solo travelers in Vietnam jobs,Vietnam,solo travelers,jobs,1,76,false,,,,76,689,false
+KW0374,solo travelers in Vietnam parents,Vietnam,solo travelers,parents,1,76,false,,,,76,690,false
+KW0375,solo travelers in Vietnam women,Vietnam,solo travelers,women,1,76,false,,,,76,691,false
+KW0901,backpackers in Hanoi events,Hanoi,backpackers,events,1,75,false,,,,75,692,false
+KW0900,backpackers in Hanoi meetup,Hanoi,backpackers,meetup,1,75,false,,,,75,693,false
+KW0389,backpackers in Vietnam events,Vietnam,backpackers,events,1,75,false,,,,75,694,false
+KW0388,backpackers in Vietnam meetup,Vietnam,backpackers,meetup,1,75,false,,,,75,695,false
+KW0933,retirees in Hanoi events,Hanoi,retirees,events,1,75,false,,,,75,696,false
+KW0932,retirees in Hanoi meetup,Hanoi,retirees,meetup,1,75,false,,,,75,697,false
+KW0421,retirees in Vietnam events,Vietnam,retirees,events,1,75,false,,,,75,698,false
+KW0420,retirees in Vietnam meetup,Vietnam,retirees,meetup,1,75,false,,,,75,699,false
+KW0760,expat families in Hanoi business networking,Hanoi,expat families,business networking,1,74,false,,,,74,700,false
+KW0746,expat families in Hanoi buy sell swap,Hanoi,expat families,buy sell swap,1,74,false,,,,74,701,false
+KW0761,expat families in Hanoi coworking,Hanoi,expat families,coworking,1,74,false,,,,74,702,false
+KW0747,expat families in Hanoi marketplace,Hanoi,expat families,marketplace,1,74,false,,,,74,703,false
+KW0757,expat families in Hanoi nightlife,Hanoi,expat families,nightlife,1,74,false,,,,74,704,false
+KW0756,expat families in Hanoi sports,Hanoi,expat families,sports,1,74,false,,,,74,705,false
+KW0248,expat families in Vietnam business networking,Vietnam,expat families,business networking,1,74,false,,,,74,706,false
+KW0234,expat families in Vietnam buy sell swap,Vietnam,expat families,buy sell swap,1,74,false,,,,74,707,false
+KW0249,expat families in Vietnam coworking,Vietnam,expat families,coworking,1,74,false,,,,74,708,false
+KW0235,expat families in Vietnam marketplace,Vietnam,expat families,marketplace,1,74,false,,,,74,709,false
+KW0245,expat families in Vietnam nightlife,Vietnam,expat families,nightlife,1,74,false,,,,74,710,false
+KW0244,expat families in Vietnam sports,Vietnam,expat families,sports,1,74,false,,,,74,711,false
+KW0728,expat women in Hanoi business networking,Hanoi,expat women,business networking,1,74,false,,,,74,712,false
+KW0714,expat women in Hanoi buy sell swap,Hanoi,expat women,buy sell swap,1,74,false,,,,74,713,false
+KW0729,expat women in Hanoi coworking,Hanoi,expat women,coworking,1,74,false,,,,74,714,false
+KW0715,expat women in Hanoi marketplace,Hanoi,expat women,marketplace,1,74,false,,,,74,715,false
+KW0725,expat women in Hanoi nightlife,Hanoi,expat women,nightlife,1,74,false,,,,74,716,false
+KW0724,expat women in Hanoi sports,Hanoi,expat women,sports,1,74,false,,,,74,717,false
+KW0216,expat women in Vietnam business networking,Vietnam,expat women,business networking,1,74,false,,,,74,718,false
+KW0202,expat women in Vietnam buy sell swap,Vietnam,expat women,buy sell swap,1,74,false,,,,74,719,false
+KW0217,expat women in Vietnam coworking,Vietnam,expat women,coworking,1,74,false,,,,74,720,false
+KW0203,expat women in Vietnam marketplace,Vietnam,expat women,marketplace,1,74,false,,,,74,721,false
+KW0213,expat women in Vietnam nightlife,Vietnam,expat women,nightlife,1,74,false,,,,74,722,false
+KW0212,expat women in Vietnam sports,Vietnam,expat women,sports,1,74,false,,,,74,723,false
+KW0856,foreign photographers in Hanoi business networking,Hanoi,foreign photographers,business networking,1,74,false,,,,74,724,false
+KW0842,foreign photographers in Hanoi buy sell swap,Hanoi,foreign photographers,buy sell swap,1,74,false,,,,74,725,false
+KW0857,foreign photographers in Hanoi coworking,Hanoi,foreign photographers,coworking,1,74,false,,,,74,726,false
+KW0843,foreign photographers in Hanoi marketplace,Hanoi,foreign photographers,marketplace,1,74,false,,,,74,727,false
+KW0853,foreign photographers in Hanoi nightlife,Hanoi,foreign photographers,nightlife,1,74,false,,,,74,728,false
+KW0852,foreign photographers in Hanoi sports,Hanoi,foreign photographers,sports,1,74,false,,,,74,729,false
+KW0344,foreign photographers in Vietnam business networking,Vietnam,foreign photographers,business networking,1,74,false,,,,74,730,false
+KW0330,foreign photographers in Vietnam buy sell swap,Vietnam,foreign photographers,buy sell swap,1,74,false,,,,74,731,false
+KW0345,foreign photographers in Vietnam coworking,Vietnam,foreign photographers,coworking,1,74,false,,,,74,732,false
+KW0331,foreign photographers in Vietnam marketplace,Vietnam,foreign photographers,marketplace,1,74,false,,,,74,733,false
+KW0341,foreign photographers in Vietnam nightlife,Vietnam,foreign photographers,nightlife,1,74,false,,,,74,734,false
+KW0340,foreign photographers in Vietnam sports,Vietnam,foreign photographers,sports,1,74,false,,,,74,735,false
+KW0824,remote workers in Hanoi business networking,Hanoi,remote workers,business networking,1,74,false,,,,74,736,false
+KW0810,remote workers in Hanoi buy sell swap,Hanoi,remote workers,buy sell swap,1,74,false,,,,74,737,false
+KW0825,remote workers in Hanoi coworking,Hanoi,remote workers,coworking,1,74,false,,,,74,738,false
+KW0811,remote workers in Hanoi marketplace,Hanoi,remote workers,marketplace,1,74,false,,,,74,739,false
+KW0821,remote workers in Hanoi nightlife,Hanoi,remote workers,nightlife,1,74,false,,,,74,740,false
+KW0820,remote workers in Hanoi sports,Hanoi,remote workers,sports,1,74,false,,,,74,741,false
+KW0312,remote workers in Vietnam business networking,Vietnam,remote workers,business networking,1,74,false,,,,74,742,false
+KW0298,remote workers in Vietnam buy sell swap,Vietnam,remote workers,buy sell swap,1,74,false,,,,74,743,false
+KW0313,remote workers in Vietnam coworking,Vietnam,remote workers,coworking,1,74,false,,,,74,744,false
+KW0299,remote workers in Vietnam marketplace,Vietnam,remote workers,marketplace,1,74,false,,,,74,745,false
+KW0309,remote workers in Vietnam nightlife,Vietnam,remote workers,nightlife,1,74,false,,,,74,746,false
+KW0308,remote workers in Vietnam sports,Vietnam,remote workers,sports,1,74,false,,,,74,747,false
+KW0888,solo travelers in Hanoi business networking,Hanoi,solo travelers,business networking,1,74,false,,,,74,748,false
+KW0874,solo travelers in Hanoi buy sell swap,Hanoi,solo travelers,buy sell swap,1,74,false,,,,74,749,false
+KW0889,solo travelers in Hanoi coworking,Hanoi,solo travelers,coworking,1,74,false,,,,74,750,false
+KW0875,solo travelers in Hanoi marketplace,Hanoi,solo travelers,marketplace,1,74,false,,,,74,751,false
+KW0885,solo travelers in Hanoi nightlife,Hanoi,solo travelers,nightlife,1,74,false,,,,74,752,false
+KW0884,solo travelers in Hanoi sports,Hanoi,solo travelers,sports,1,74,false,,,,74,753,false
+KW0376,solo travelers in Vietnam business networking,Vietnam,solo travelers,business networking,1,74,false,,,,74,754,false
+KW0362,solo travelers in Vietnam buy sell swap,Vietnam,solo travelers,buy sell swap,1,74,false,,,,74,755,false
+KW0377,solo travelers in Vietnam coworking,Vietnam,solo travelers,coworking,1,74,false,,,,74,756,false
+KW0363,solo travelers in Vietnam marketplace,Vietnam,solo travelers,marketplace,1,74,false,,,,74,757,false
+KW0373,solo travelers in Vietnam nightlife,Vietnam,solo travelers,nightlife,1,74,false,,,,74,758,false
+KW0372,solo travelers in Vietnam sports,Vietnam,solo travelers,sports,1,74,false,,,,74,759,false
+KW0775,foreign entrepreneurs in Hanoi apartments,Hanoi,foreign entrepreneurs,apartments,1,73,false,,,,73,760,false
+KW0777,foreign entrepreneurs in Hanoi English teaching jobs,Hanoi,foreign entrepreneurs,English teaching jobs,1,73,false,,,,73,761,false
+KW0784,foreign entrepreneurs in Hanoi food and restaurants,Hanoi,foreign entrepreneurs,food and restaurants,1,73,false,,,,73,762,false
+KW0787,foreign entrepreneurs in Hanoi hiking,Hanoi,foreign entrepreneurs,hiking,1,73,false,,,,73,763,false
+KW0776,foreign entrepreneurs in Hanoi jobs,Hanoi,foreign entrepreneurs,jobs,1,73,false,,,,73,764,false
+KW0790,foreign entrepreneurs in Hanoi parents,Hanoi,foreign entrepreneurs,parents,1,73,false,,,,73,765,false
+KW0791,foreign entrepreneurs in Hanoi women,Hanoi,foreign entrepreneurs,women,1,73,false,,,,73,766,false
+KW0263,foreign entrepreneurs in Vietnam apartments,Vietnam,foreign entrepreneurs,apartments,1,73,false,,,,73,767,false
+KW0265,foreign entrepreneurs in Vietnam English teaching jobs,Vietnam,foreign entrepreneurs,English teaching jobs,1,73,false,,,,73,768,false
+KW0272,foreign entrepreneurs in Vietnam food and restaurants,Vietnam,foreign entrepreneurs,food and restaurants,1,73,false,,,,73,769,false
+KW0275,foreign entrepreneurs in Vietnam hiking,Vietnam,foreign entrepreneurs,hiking,1,73,false,,,,73,770,false
+KW0264,foreign entrepreneurs in Vietnam jobs,Vietnam,foreign entrepreneurs,jobs,1,73,false,,,,73,771,false
+KW0278,foreign entrepreneurs in Vietnam parents,Vietnam,foreign entrepreneurs,parents,1,73,false,,,,73,772,false
+KW0279,foreign entrepreneurs in Vietnam women,Vietnam,foreign entrepreneurs,women,1,73,false,,,,73,773,false
+KW0679,international students in Hanoi apartments,Hanoi,international students,apartments,1,73,false,,,,73,774,false
+KW0681,international students in Hanoi English teaching jobs,Hanoi,international students,English teaching jobs,1,73,false,,,,73,775,false
+KW0688,international students in Hanoi food and restaurants,Hanoi,international students,food and restaurants,1,73,false,,,,73,776,false
+KW0691,international students in Hanoi hiking,Hanoi,international students,hiking,1,73,false,,,,73,777,false
+KW0680,international students in Hanoi jobs,Hanoi,international students,jobs,1,73,false,,,,73,778,false
+KW0694,international students in Hanoi parents,Hanoi,international students,parents,1,73,false,,,,73,779,false
+KW0695,international students in Hanoi women,Hanoi,international students,women,1,73,false,,,,73,780,false
+KW0167,international students in Vietnam apartments,Vietnam,international students,apartments,1,73,false,,,,73,781,false
+KW0169,international students in Vietnam English teaching jobs,Vietnam,international students,English teaching jobs,1,73,false,,,,73,782,false
+KW0176,international students in Vietnam food and restaurants,Vietnam,international students,food and restaurants,1,73,false,,,,73,783,false
+KW0179,international students in Vietnam hiking,Vietnam,international students,hiking,1,73,false,,,,73,784,false
+KW0168,international students in Vietnam jobs,Vietnam,international students,jobs,1,73,false,,,,73,785,false
+KW0182,international students in Vietnam parents,Vietnam,international students,parents,1,73,false,,,,73,786,false
+KW0183,international students in Vietnam women,Vietnam,international students,women,1,73,false,,,,73,787,false
+KW0902,backpackers in Hanoi housing,Hanoi,backpackers,housing,1,72,false,,,,72,788,false
+KW0908,backpackers in Hanoi language exchange,Hanoi,backpackers,language exchange,1,72,false,,,,72,789,false
+KW0927,backpackers in Hanoi weekend trips,Hanoi,backpackers,weekend trips,1,72,false,,,,72,790,false
+KW0390,backpackers in Vietnam housing,Vietnam,backpackers,housing,1,72,false,,,,72,791,false
+KW0396,backpackers in Vietnam language exchange,Vietnam,backpackers,language exchange,1,72,false,,,,72,792,false
+KW0415,backpackers in Vietnam weekend trips,Vietnam,backpackers,weekend trips,1,72,false,,,,72,793,false
+KW0934,retirees in Hanoi housing,Hanoi,retirees,housing,1,72,false,,,,72,794,false
+KW0940,retirees in Hanoi language exchange,Hanoi,retirees,language exchange,1,72,false,,,,72,795,false
+KW0959,retirees in Hanoi weekend trips,Hanoi,retirees,weekend trips,1,72,false,,,,72,796,false
+KW0422,retirees in Vietnam housing,Vietnam,retirees,housing,1,72,false,,,,72,797,false
+KW0428,retirees in Vietnam language exchange,Vietnam,retirees,language exchange,1,72,false,,,,72,798,false
+KW0447,retirees in Vietnam weekend trips,Vietnam,retirees,weekend trips,1,72,false,,,,72,799,false
+KW0635,digital nomads in Hanoi healthcare,Hanoi,digital nomads,healthcare,1,71,false,,,,71,800,false
+KW0638,digital nomads in Hanoi motorbike,Hanoi,digital nomads,motorbike,1,71,false,,,,71,801,false
+KW0637,digital nomads in Hanoi pets,Hanoi,digital nomads,pets,1,71,false,,,,71,802,false
+KW0636,digital nomads in Hanoi schools,Hanoi,digital nomads,schools,1,71,false,,,,71,803,false
+KW0634,digital nomads in Hanoi visa advice,Hanoi,digital nomads,visa advice,1,71,false,,,,71,804,false
+KW0123,digital nomads in Vietnam healthcare,Vietnam,digital nomads,healthcare,1,71,false,,,,71,805,false
+KW0126,digital nomads in Vietnam motorbike,Vietnam,digital nomads,motorbike,1,71,false,,,,71,806,false
+KW0125,digital nomads in Vietnam pets,Vietnam,digital nomads,pets,1,71,false,,,,71,807,false
+KW0124,digital nomads in Vietnam schools,Vietnam,digital nomads,schools,1,71,false,,,,71,808,false
+KW0122,digital nomads in Vietnam visa advice,Vietnam,digital nomads,visa advice,1,71,false,,,,71,809,false
+KW0667,English teachers in Hanoi healthcare,Hanoi,English teachers,healthcare,1,71,false,,,,71,810,false
+KW0670,English teachers in Hanoi motorbike,Hanoi,English teachers,motorbike,1,71,false,,,,71,811,false
+KW0669,English teachers in Hanoi pets,Hanoi,English teachers,pets,1,71,false,,,,71,812,false
+KW0668,English teachers in Hanoi schools,Hanoi,English teachers,schools,1,71,false,,,,71,813,false
+KW0666,English teachers in Hanoi visa advice,Hanoi,English teachers,visa advice,1,71,false,,,,71,814,false
+KW0155,English teachers in Vietnam healthcare,Vietnam,English teachers,healthcare,1,71,false,,,,71,815,false
+KW0158,English teachers in Vietnam motorbike,Vietnam,English teachers,motorbike,1,71,false,,,,71,816,false
+KW0157,English teachers in Vietnam pets,Vietnam,English teachers,pets,1,71,false,,,,71,817,false
+KW0156,English teachers in Vietnam schools,Vietnam,English teachers,schools,1,71,false,,,,71,818,false
+KW0154,English teachers in Vietnam visa advice,Vietnam,English teachers,visa advice,1,71,false,,,,71,819,false
+KW0507,local and expat in Vietnam healthcare,Vietnam,local and expat,healthcare,1,71,false,,,,71,820,false
+KW0510,local and expat in Vietnam motorbike,Vietnam,local and expat,motorbike,1,71,false,,,,71,821,false
+KW0509,local and expat in Vietnam pets,Vietnam,local and expat,pets,1,71,false,,,,71,822,false
+KW0508,local and expat in Vietnam schools,Vietnam,local and expat,schools,1,71,false,,,,71,823,false
+KW0506,local and expat in Vietnam visa advice,Vietnam,local and expat,visa advice,1,71,false,,,,71,824,false
+KW0987,newcomers in Hanoi healthcare,Hanoi,newcomers,healthcare,1,71,false,,,,71,825,false
+KW0990,newcomers in Hanoi motorbike,Hanoi,newcomers,motorbike,1,71,false,,,,71,826,false
+KW0989,newcomers in Hanoi pets,Hanoi,newcomers,pets,1,71,false,,,,71,827,false
+KW0988,newcomers in Hanoi schools,Hanoi,newcomers,schools,1,71,false,,,,71,828,false
+KW0986,newcomers in Hanoi visa advice,Hanoi,newcomers,visa advice,1,71,false,,,,71,829,false
+KW0475,newcomers in Vietnam healthcare,Vietnam,newcomers,healthcare,1,71,false,,,,71,830,false
+KW0478,newcomers in Vietnam motorbike,Vietnam,newcomers,motorbike,1,71,false,,,,71,831,false
+KW0477,newcomers in Vietnam pets,Vietnam,newcomers,pets,1,71,false,,,,71,832,false
+KW0476,newcomers in Vietnam schools,Vietnam,newcomers,schools,1,71,false,,,,71,833,false
+KW0474,newcomers in Vietnam visa advice,Vietnam,newcomers,visa advice,1,71,false,,,,71,834,false
+KW0903,backpackers in Hanoi apartments,Hanoi,backpackers,apartments,1,70,false,,,,70,835,false
+KW0905,backpackers in Hanoi English teaching jobs,Hanoi,backpackers,English teaching jobs,1,70,false,,,,70,836,false
+KW0912,backpackers in Hanoi food and restaurants,Hanoi,backpackers,food and restaurants,1,70,false,,,,70,837,false
+KW0915,backpackers in Hanoi hiking,Hanoi,backpackers,hiking,1,70,false,,,,70,838,false
+KW0904,backpackers in Hanoi jobs,Hanoi,backpackers,jobs,1,70,false,,,,70,839,false
+KW0918,backpackers in Hanoi parents,Hanoi,backpackers,parents,1,70,false,,,,70,840,false
+KW0919,backpackers in Hanoi women,Hanoi,backpackers,women,1,70,false,,,,70,841,false
+KW0391,backpackers in Vietnam apartments,Vietnam,backpackers,apartments,1,70,false,,,,70,842,false
+KW0393,backpackers in Vietnam English teaching jobs,Vietnam,backpackers,English teaching jobs,1,70,false,,,,70,843,false
+KW0400,backpackers in Vietnam food and restaurants,Vietnam,backpackers,food and restaurants,1,70,false,,,,70,844,false
+KW0403,backpackers in Vietnam hiking,Vietnam,backpackers,hiking,1,70,false,,,,70,845,false
+KW0392,backpackers in Vietnam jobs,Vietnam,backpackers,jobs,1,70,false,,,,70,846,false
+KW0406,backpackers in Vietnam parents,Vietnam,backpackers,parents,1,70,false,,,,70,847,false
+KW0407,backpackers in Vietnam women,Vietnam,backpackers,women,1,70,false,,,,70,848,false
+KW0792,foreign entrepreneurs in Hanoi business networking,Hanoi,foreign entrepreneurs,business networking,1,70,false,,,,70,849,false
+KW0778,foreign entrepreneurs in Hanoi buy sell swap,Hanoi,foreign entrepreneurs,buy sell swap,1,70,false,,,,70,850,false
+KW0793,foreign entrepreneurs in Hanoi coworking,Hanoi,foreign entrepreneurs,coworking,1,70,false,,,,70,851,false
+KW0779,foreign entrepreneurs in Hanoi marketplace,Hanoi,foreign entrepreneurs,marketplace,1,70,false,,,,70,852,false
+KW0789,foreign entrepreneurs in Hanoi nightlife,Hanoi,foreign entrepreneurs,nightlife,1,70,false,,,,70,853,false
+KW0788,foreign entrepreneurs in Hanoi sports,Hanoi,foreign entrepreneurs,sports,1,70,false,,,,70,854,false
+KW0280,foreign entrepreneurs in Vietnam business networking,Vietnam,foreign entrepreneurs,business networking,1,70,false,,,,70,855,false
+KW0266,foreign entrepreneurs in Vietnam buy sell swap,Vietnam,foreign entrepreneurs,buy sell swap,1,70,false,,,,70,856,false
+KW0281,foreign entrepreneurs in Vietnam coworking,Vietnam,foreign entrepreneurs,coworking,1,70,false,,,,70,857,false
+KW0267,foreign entrepreneurs in Vietnam marketplace,Vietnam,foreign entrepreneurs,marketplace,1,70,false,,,,70,858,false
+KW0277,foreign entrepreneurs in Vietnam nightlife,Vietnam,foreign entrepreneurs,nightlife,1,70,false,,,,70,859,false
+KW0276,foreign entrepreneurs in Vietnam sports,Vietnam,foreign entrepreneurs,sports,1,70,false,,,,70,860,false
+KW0696,international students in Hanoi business networking,Hanoi,international students,business networking,1,70,false,,,,70,861,false
+KW0682,international students in Hanoi buy sell swap,Hanoi,international students,buy sell swap,1,70,false,,,,70,862,false
+KW0697,international students in Hanoi coworking,Hanoi,international students,coworking,1,70,false,,,,70,863,false
+KW0683,international students in Hanoi marketplace,Hanoi,international students,marketplace,1,70,false,,,,70,864,false
+KW0693,international students in Hanoi nightlife,Hanoi,international students,nightlife,1,70,false,,,,70,865,false
+KW0692,international students in Hanoi sports,Hanoi,international students,sports,1,70,false,,,,70,866,false
+KW0184,international students in Vietnam business networking,Vietnam,international students,business networking,1,70,false,,,,70,867,false
+KW0170,international students in Vietnam buy sell swap,Vietnam,international students,buy sell swap,1,70,false,,,,70,868,false
+KW0185,international students in Vietnam coworking,Vietnam,international students,coworking,1,70,false,,,,70,869,false
+KW0171,international students in Vietnam marketplace,Vietnam,international students,marketplace,1,70,false,,,,70,870,false
+KW0181,international students in Vietnam nightlife,Vietnam,international students,nightlife,1,70,false,,,,70,871,false
+KW0180,international students in Vietnam sports,Vietnam,international students,sports,1,70,false,,,,70,872,false
+KW0935,retirees in Hanoi apartments,Hanoi,retirees,apartments,1,70,false,,,,70,873,false
+KW0937,retirees in Hanoi English teaching jobs,Hanoi,retirees,English teaching jobs,1,70,false,,,,70,874,false
+KW0944,retirees in Hanoi food and restaurants,Hanoi,retirees,food and restaurants,1,70,false,,,,70,875,false
+KW0947,retirees in Hanoi hiking,Hanoi,retirees,hiking,1,70,false,,,,70,876,false
+KW0936,retirees in Hanoi jobs,Hanoi,retirees,jobs,1,70,false,,,,70,877,false
+KW0950,retirees in Hanoi parents,Hanoi,retirees,parents,1,70,false,,,,70,878,false
+KW0951,retirees in Hanoi women,Hanoi,retirees,women,1,70,false,,,,70,879,false
+KW0423,retirees in Vietnam apartments,Vietnam,retirees,apartments,1,70,false,,,,70,880,false
+KW0425,retirees in Vietnam English teaching jobs,Vietnam,retirees,English teaching jobs,1,70,false,,,,70,881,false
+KW0432,retirees in Vietnam food and restaurants,Vietnam,retirees,food and restaurants,1,70,false,,,,70,882,false
+KW0435,retirees in Vietnam hiking,Vietnam,retirees,hiking,1,70,false,,,,70,883,false
+KW0424,retirees in Vietnam jobs,Vietnam,retirees,jobs,1,70,false,,,,70,884,false
+KW0438,retirees in Vietnam parents,Vietnam,retirees,parents,1,70,false,,,,70,885,false
+KW0439,retirees in Vietnam women,Vietnam,retirees,women,1,70,false,,,,70,886,false
+KW0920,backpackers in Hanoi business networking,Hanoi,backpackers,business networking,1,67,false,,,,67,887,false
+KW0906,backpackers in Hanoi buy sell swap,Hanoi,backpackers,buy sell swap,1,67,false,,,,67,888,false
+KW0921,backpackers in Hanoi coworking,Hanoi,backpackers,coworking,1,67,false,,,,67,889,false
+KW0907,backpackers in Hanoi marketplace,Hanoi,backpackers,marketplace,1,67,false,,,,67,890,false
+KW0917,backpackers in Hanoi nightlife,Hanoi,backpackers,nightlife,1,67,false,,,,67,891,false
+KW0916,backpackers in Hanoi sports,Hanoi,backpackers,sports,1,67,false,,,,67,892,false
+KW0408,backpackers in Vietnam business networking,Vietnam,backpackers,business networking,1,67,false,,,,67,893,false
+KW0394,backpackers in Vietnam buy sell swap,Vietnam,backpackers,buy sell swap,1,67,false,,,,67,894,false
+KW0409,backpackers in Vietnam coworking,Vietnam,backpackers,coworking,1,67,false,,,,67,895,false
+KW0395,backpackers in Vietnam marketplace,Vietnam,backpackers,marketplace,1,67,false,,,,67,896,false
+KW0405,backpackers in Vietnam nightlife,Vietnam,backpackers,nightlife,1,67,false,,,,67,897,false
+KW0404,backpackers in Vietnam sports,Vietnam,backpackers,sports,1,67,false,,,,67,898,false
+KW0763,expat families in Hanoi healthcare,Hanoi,expat families,healthcare,1,67,false,,,,67,899,false
+KW0766,expat families in Hanoi motorbike,Hanoi,expat families,motorbike,1,67,false,,,,67,900,false
+KW0765,expat families in Hanoi pets,Hanoi,expat families,pets,1,67,false,,,,67,901,false
+KW0764,expat families in Hanoi schools,Hanoi,expat families,schools,1,67,false,,,,67,902,false
+KW0762,expat families in Hanoi visa advice,Hanoi,expat families,visa advice,1,67,false,,,,67,903,false
+KW0251,expat families in Vietnam healthcare,Vietnam,expat families,healthcare,1,67,false,,,,67,904,false
+KW0254,expat families in Vietnam motorbike,Vietnam,expat families,motorbike,1,67,false,,,,67,905,false
+KW0253,expat families in Vietnam pets,Vietnam,expat families,pets,1,67,false,,,,67,906,false
+KW0252,expat families in Vietnam schools,Vietnam,expat families,schools,1,67,false,,,,67,907,false
+KW0250,expat families in Vietnam visa advice,Vietnam,expat families,visa advice,1,67,false,,,,67,908,false
+KW0731,expat women in Hanoi healthcare,Hanoi,expat women,healthcare,1,67,false,,,,67,909,false
+KW0734,expat women in Hanoi motorbike,Hanoi,expat women,motorbike,1,67,false,,,,67,910,false
+KW0733,expat women in Hanoi pets,Hanoi,expat women,pets,1,67,false,,,,67,911,false
+KW0732,expat women in Hanoi schools,Hanoi,expat women,schools,1,67,false,,,,67,912,false
+KW0730,expat women in Hanoi visa advice,Hanoi,expat women,visa advice,1,67,false,,,,67,913,false
+KW0219,expat women in Vietnam healthcare,Vietnam,expat women,healthcare,1,67,false,,,,67,914,false
+KW0222,expat women in Vietnam motorbike,Vietnam,expat women,motorbike,1,67,false,,,,67,915,false
+KW0221,expat women in Vietnam pets,Vietnam,expat women,pets,1,67,false,,,,67,916,false
+KW0220,expat women in Vietnam schools,Vietnam,expat women,schools,1,67,false,,,,67,917,false
+KW0218,expat women in Vietnam visa advice,Vietnam,expat women,visa advice,1,67,false,,,,67,918,false
+KW0859,foreign photographers in Hanoi healthcare,Hanoi,foreign photographers,healthcare,1,67,false,,,,67,919,false
+KW0862,foreign photographers in Hanoi motorbike,Hanoi,foreign photographers,motorbike,1,67,false,,,,67,920,false
+KW0861,foreign photographers in Hanoi pets,Hanoi,foreign photographers,pets,1,67,false,,,,67,921,false
+KW0860,foreign photographers in Hanoi schools,Hanoi,foreign photographers,schools,1,67,false,,,,67,922,false
+KW0858,foreign photographers in Hanoi visa advice,Hanoi,foreign photographers,visa advice,1,67,false,,,,67,923,false
+KW0347,foreign photographers in Vietnam healthcare,Vietnam,foreign photographers,healthcare,1,67,false,,,,67,924,false
+KW0350,foreign photographers in Vietnam motorbike,Vietnam,foreign photographers,motorbike,1,67,false,,,,67,925,false
+KW0349,foreign photographers in Vietnam pets,Vietnam,foreign photographers,pets,1,67,false,,,,67,926,false
+KW0348,foreign photographers in Vietnam schools,Vietnam,foreign photographers,schools,1,67,false,,,,67,927,false
+KW0346,foreign photographers in Vietnam visa advice,Vietnam,foreign photographers,visa advice,1,67,false,,,,67,928,false
+KW0827,remote workers in Hanoi healthcare,Hanoi,remote workers,healthcare,1,67,false,,,,67,929,false
+KW0830,remote workers in Hanoi motorbike,Hanoi,remote workers,motorbike,1,67,false,,,,67,930,false
+KW0829,remote workers in Hanoi pets,Hanoi,remote workers,pets,1,67,false,,,,67,931,false
+KW0828,remote workers in Hanoi schools,Hanoi,remote workers,schools,1,67,false,,,,67,932,false
+KW0826,remote workers in Hanoi visa advice,Hanoi,remote workers,visa advice,1,67,false,,,,67,933,false
+KW0315,remote workers in Vietnam healthcare,Vietnam,remote workers,healthcare,1,67,false,,,,67,934,false
+KW0318,remote workers in Vietnam motorbike,Vietnam,remote workers,motorbike,1,67,false,,,,67,935,false
+KW0317,remote workers in Vietnam pets,Vietnam,remote workers,pets,1,67,false,,,,67,936,false
+KW0316,remote workers in Vietnam schools,Vietnam,remote workers,schools,1,67,false,,,,67,937,false
+KW0314,remote workers in Vietnam visa advice,Vietnam,remote workers,visa advice,1,67,false,,,,67,938,false
+KW0952,retirees in Hanoi business networking,Hanoi,retirees,business networking,1,67,false,,,,67,939,false
+KW0938,retirees in Hanoi buy sell swap,Hanoi,retirees,buy sell swap,1,67,false,,,,67,940,false
+KW0953,retirees in Hanoi coworking,Hanoi,retirees,coworking,1,67,false,,,,67,941,false
+KW0939,retirees in Hanoi marketplace,Hanoi,retirees,marketplace,1,67,false,,,,67,942,false
+KW0949,retirees in Hanoi nightlife,Hanoi,retirees,nightlife,1,67,false,,,,67,943,false
+KW0948,retirees in Hanoi sports,Hanoi,retirees,sports,1,67,false,,,,67,944,false
+KW0440,retirees in Vietnam business networking,Vietnam,retirees,business networking,1,67,false,,,,67,945,false
+KW0426,retirees in Vietnam buy sell swap,Vietnam,retirees,buy sell swap,1,67,false,,,,67,946,false
+KW0441,retirees in Vietnam coworking,Vietnam,retirees,coworking,1,67,false,,,,67,947,false
+KW0427,retirees in Vietnam marketplace,Vietnam,retirees,marketplace,1,67,false,,,,67,948,false
+KW0437,retirees in Vietnam nightlife,Vietnam,retirees,nightlife,1,67,false,,,,67,949,false
+KW0436,retirees in Vietnam sports,Vietnam,retirees,sports,1,67,false,,,,67,950,false
+KW0891,solo travelers in Hanoi healthcare,Hanoi,solo travelers,healthcare,1,67,false,,,,67,951,false
+KW0894,solo travelers in Hanoi motorbike,Hanoi,solo travelers,motorbike,1,67,false,,,,67,952,false
+KW0893,solo travelers in Hanoi pets,Hanoi,solo travelers,pets,1,67,false,,,,67,953,false
+KW0892,solo travelers in Hanoi schools,Hanoi,solo travelers,schools,1,67,false,,,,67,954,false
+KW0890,solo travelers in Hanoi visa advice,Hanoi,solo travelers,visa advice,1,67,false,,,,67,955,false
+KW0379,solo travelers in Vietnam healthcare,Vietnam,solo travelers,healthcare,1,67,false,,,,67,956,false
+KW0382,solo travelers in Vietnam motorbike,Vietnam,solo travelers,motorbike,1,67,false,,,,67,957,false
+KW0381,solo travelers in Vietnam pets,Vietnam,solo travelers,pets,1,67,false,,,,67,958,false
+KW0380,solo travelers in Vietnam schools,Vietnam,solo travelers,schools,1,67,false,,,,67,959,false
+KW0378,solo travelers in Vietnam visa advice,Vietnam,solo travelers,visa advice,1,67,false,,,,67,960,false
+KW0795,foreign entrepreneurs in Hanoi healthcare,Hanoi,foreign entrepreneurs,healthcare,1,64,false,,,,64,961,false
+KW0798,foreign entrepreneurs in Hanoi motorbike,Hanoi,foreign entrepreneurs,motorbike,1,64,false,,,,64,962,false
+KW0797,foreign entrepreneurs in Hanoi pets,Hanoi,foreign entrepreneurs,pets,1,64,false,,,,64,963,false
+KW0796,foreign entrepreneurs in Hanoi schools,Hanoi,foreign entrepreneurs,schools,1,64,false,,,,64,964,false
+KW0794,foreign entrepreneurs in Hanoi visa advice,Hanoi,foreign entrepreneurs,visa advice,1,64,false,,,,64,965,false
+KW0283,foreign entrepreneurs in Vietnam healthcare,Vietnam,foreign entrepreneurs,healthcare,1,64,false,,,,64,966,false
+KW0286,foreign entrepreneurs in Vietnam motorbike,Vietnam,foreign entrepreneurs,motorbike,1,64,false,,,,64,967,false
+KW0285,foreign entrepreneurs in Vietnam pets,Vietnam,foreign entrepreneurs,pets,1,64,false,,,,64,968,false
+KW0284,foreign entrepreneurs in Vietnam schools,Vietnam,foreign entrepreneurs,schools,1,64,false,,,,64,969,false
+KW0282,foreign entrepreneurs in Vietnam visa advice,Vietnam,foreign entrepreneurs,visa advice,1,64,false,,,,64,970,false
+KW0699,international students in Hanoi healthcare,Hanoi,international students,healthcare,1,64,false,,,,64,971,false
+KW0702,international students in Hanoi motorbike,Hanoi,international students,motorbike,1,64,false,,,,64,972,false
+KW0701,international students in Hanoi pets,Hanoi,international students,pets,1,64,false,,,,64,973,false
+KW0700,international students in Hanoi schools,Hanoi,international students,schools,1,64,false,,,,64,974,false
+KW0698,international students in Hanoi visa advice,Hanoi,international students,visa advice,1,64,false,,,,64,975,false
+KW0187,international students in Vietnam healthcare,Vietnam,international students,healthcare,1,64,false,,,,64,976,false
+KW0190,international students in Vietnam motorbike,Vietnam,international students,motorbike,1,64,false,,,,64,977,false
+KW0189,international students in Vietnam pets,Vietnam,international students,pets,1,64,false,,,,64,978,false
+KW0188,international students in Vietnam schools,Vietnam,international students,schools,1,64,false,,,,64,979,false
+KW0186,international students in Vietnam visa advice,Vietnam,international students,visa advice,1,64,false,,,,64,980,false
+KW0923,backpackers in Hanoi healthcare,Hanoi,backpackers,healthcare,1,60,false,,,,60,981,false
+KW0926,backpackers in Hanoi motorbike,Hanoi,backpackers,motorbike,1,60,false,,,,60,982,false
+KW0925,backpackers in Hanoi pets,Hanoi,backpackers,pets,1,60,false,,,,60,983,false
+KW0924,backpackers in Hanoi schools,Hanoi,backpackers,schools,1,60,false,,,,60,984,false
+KW0922,backpackers in Hanoi visa advice,Hanoi,backpackers,visa advice,1,60,false,,,,60,985,false
+KW0411,backpackers in Vietnam healthcare,Vietnam,backpackers,healthcare,1,60,false,,,,60,986,false
+KW0414,backpackers in Vietnam motorbike,Vietnam,backpackers,motorbike,1,60,false,,,,60,987,false
+KW0413,backpackers in Vietnam pets,Vietnam,backpackers,pets,1,60,false,,,,60,988,false
+KW0412,backpackers in Vietnam schools,Vietnam,backpackers,schools,1,60,false,,,,60,989,false
+KW0410,backpackers in Vietnam visa advice,Vietnam,backpackers,visa advice,1,60,false,,,,60,990,false
+KW0955,retirees in Hanoi healthcare,Hanoi,retirees,healthcare,1,60,false,,,,60,991,false
+KW0958,retirees in Hanoi motorbike,Hanoi,retirees,motorbike,1,60,false,,,,60,992,false
+KW0957,retirees in Hanoi pets,Hanoi,retirees,pets,1,60,false,,,,60,993,false
+KW0956,retirees in Hanoi schools,Hanoi,retirees,schools,1,60,false,,,,60,994,false
+KW0954,retirees in Hanoi visa advice,Hanoi,retirees,visa advice,1,60,false,,,,60,995,false
+KW0443,retirees in Vietnam healthcare,Vietnam,retirees,healthcare,1,60,false,,,,60,996,false
+KW0446,retirees in Vietnam motorbike,Vietnam,retirees,motorbike,1,60,false,,,,60,997,false
+KW0445,retirees in Vietnam pets,Vietnam,retirees,pets,1,60,false,,,,60,998,false
+KW0444,retirees in Vietnam schools,Vietnam,retirees,schools,1,60,false,,,,60,999,false
+KW0442,retirees in Vietnam visa advice,Vietnam,retirees,visa advice,1,60,false,,,,60,1000,false

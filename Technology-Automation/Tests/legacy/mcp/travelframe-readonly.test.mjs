@@ -13,6 +13,9 @@ test("MCP source exposes read-only tools without write endpoints", async () => {
   assert.match(source, /get_instagram_profile/);
   assert.match(source, /list_instagram_media/);
   assert.match(source, /get_instagram_insights/);
+  assert.match(source, /list_facebook_post_comments/);
+  assert.match(source, /list_facebook_conversations/);
+  assert.match(source, /get_facebook_conversation_messages/);
   assert.match(source, /TRAVELFRAME_META_PAGE_ACCESS_TOKEN/);
   assert.match(source, /pageAccessToken/);
   assert.match(source, /fields: "id,message,created_time,permalink_url,shares"/);

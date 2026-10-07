@@ -83,6 +83,7 @@ campaign-brief
   -> creative-production-qa (Creative)
   -> Rocky Phê Duyệt
   -> Publish & Chạy Ads
+  -> Seed comments & engage 60 phút đầu (Seed Comment Playbook)
   -> campaign-performance-report (Data)
 ```
 
@@ -97,7 +98,19 @@ competitor-social-research HOẶC ad-library-teardown
   -> creative-production-qa (kiểm tra visual assets)
   -> Rocky Phê Duyệt
   -> Lên lịch xuất bản (Publish)
+  -> Seed comments & engage 60 phút đầu (Seed Comment Playbook)
 ```
+
+### Bước bắt buộc sau khi đăng: Seed comments & engage
+Áp dụng cho mọi Reel/Carousel trên Facebook và Instagram. Nguồn duy nhất:
+[Seed Comment Playbook](../../../../Marketing-Growth/Guidelines/2026-10-07-Seed-Comment-Playbook.md).
+1. Trong 5 phút: đăng C1 (câu hỏi mồi) bằng tài khoản Page và ghim.
+2. Sau 20–40 phút: đăng C2 (mẹo thêm + keyword trùng caption).
+3. Trả lời mọi comment trong 60 phút đầu: 1 lần/comment, đúng ngôn ngữ người viết.
+4. Sau 2–4 giờ, nếu ≥10 comment: đăng C3.
+5. Ghi vào [Seed-Comment-Tracker.csv](../../../../Data-Analytics/Seed-Comment-Tracker.csv) (reply vào C1, keyword comment, DM có ngày đi).
+Phạm vi: chỉ Facebook và Instagram, không áp dụng Threads.
+Không dùng tài khoản cá nhân giả làm khách.
 
 ## 8. Ví Dụ Một Nhiệm Vụ Hoàn Chỉnh (End-to-End Walkthrough)
 1. **Chiến dịch SEO:** Dùng `campaign-brief` khởi tạo `CMP-202610-AUTUMN-HANOI` với mục tiêu 50 bookings. Dùng `keyword-research` và `keyword-clustering` xác định cụm từ khóa "hanoi photographer". Dùng `content-writing` soạn bài viết theo brief, chuyển qua `humanizer` gọt giũa văn phong. Gửi sang Creative Production để kiểm định hình ảnh bằng `creative-production-qa`. Trình Rocky phê duyệt trước khi lên lịch xuất bản.
@@ -110,4 +123,5 @@ competitor-social-research HOẶC ad-library-teardown
 ## 10. Checklist Bàn Giao (Handoff Checklist)
 - [ ] Bài viết đạt chuẩn SEO, không còn từ ngữ AI sáo rỗng.
 - [ ] File brief có đủ 4 tài liệu thành phần.
+- [ ] Draft reel/carousel có `seed-comments.md` (C1 + C2, keyword trùng caption).
 - [ ] Không có liên kết hỏng (vượt qua `workspace:check`).

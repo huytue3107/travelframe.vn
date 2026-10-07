@@ -1,0 +1,244 @@
+<style>
+  .direction-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .direction-card {
+    cursor: pointer;
+    border: 2px solid transparent;
+    background: #fff;
+    box-shadow: 0 10px 28px rgba(24, 26, 29, 0.09);
+    transition: transform 160ms ease, border-color 160ms ease;
+    overflow: hidden;
+  }
+
+  .direction-card:hover {
+    transform: translateY(-3px);
+  }
+
+  .direction-card.selected {
+    border-color: #111;
+  }
+
+  .reel {
+    position: relative;
+    aspect-ratio: 9 / 13;
+    overflow: hidden;
+    background:
+      linear-gradient(25deg, rgba(0,0,0,.16), rgba(255,255,255,.12)),
+      url("https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=900&q=80") center/cover;
+  }
+
+  .reel::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,.38), transparent 48%);
+    pointer-events: none;
+  }
+
+  .label-stack {
+    position: absolute;
+    z-index: 2;
+    left: 8%;
+    right: 6%;
+    top: 13%;
+  }
+
+  .strip {
+    display: table;
+    padding: 5px 10px 6px;
+    margin-bottom: 7px;
+    line-height: .95;
+  }
+
+  .pop .kicker {
+    margin-left: 28%;
+    background: #f4d8eb;
+    font: 30px Georgia, serif;
+  }
+
+  .pop .headline {
+    background: #fffbd1;
+    color: #16120f;
+    font: 800 32px Arial, sans-serif;
+  }
+
+  .pop .subject {
+    margin-top: 4px;
+    background: #ff9cda;
+    color: #0d0b0c;
+    font: 800 38px Arial, sans-serif;
+    transform: rotate(-1.2deg);
+  }
+
+  .pop .episode {
+    position: absolute;
+    z-index: 2;
+    bottom: 8%;
+    left: 8%;
+    color: white;
+    font: 700 15px Arial, sans-serif;
+  }
+
+  .editorial {
+    background:
+      linear-gradient(180deg, rgba(0,138,163,.05), rgba(0,0,0,.2)),
+      url("https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=80") center/cover;
+  }
+
+  .editorial .label-stack {
+    top: 10%;
+    left: 7%;
+  }
+
+  .editorial .series {
+    color: #fff;
+    font: 600 13px Arial, sans-serif;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .editorial .headline {
+    max-width: 86%;
+    background: #f8f4ea;
+    color: #16191a;
+    font: 700 34px Georgia, serif;
+    line-height: .98;
+    padding: 10px 12px 12px;
+  }
+
+  .editorial .subject {
+    background: #ff9fcf;
+    color: #141414;
+    font: 800 27px Arial, sans-serif;
+    padding: 7px 11px;
+  }
+
+  .editorial .vj-tag {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 10%;
+    padding: 8px 13px;
+    color: #fff;
+    background: #008aa3;
+    font: 700 14px Arial, sans-serif;
+  }
+
+  .field {
+    filter: saturate(.82) contrast(1.08);
+    background:
+      linear-gradient(180deg, rgba(6,15,16,.1), rgba(6,15,16,.45)),
+      url("https://images.unsplash.com/photo-1557750255-c76072a7aad1?auto=format&fit=crop&w=900&q=80") center/cover;
+  }
+
+  .field .label-stack {
+    top: auto;
+    bottom: 12%;
+  }
+
+  .field .eyebrow {
+    color: #d7ff54;
+    font: 700 13px Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+  }
+
+  .field .headline {
+    color: #fff;
+    font: 800 34px Arial, sans-serif;
+    line-height: .93;
+    text-transform: uppercase;
+    text-shadow: 0 2px 12px rgba(0,0,0,.3);
+  }
+
+  .field .rule {
+    width: 62px;
+    height: 7px;
+    margin: 12px 0 9px;
+    background: #d7ff54;
+  }
+
+  .field .caption {
+    color: #fff;
+    font: 500 15px Arial, sans-serif;
+  }
+
+  .direction-copy {
+    padding: 15px 16px 17px;
+  }
+
+  .direction-copy h3 {
+    margin: 0 0 6px;
+  }
+
+  .direction-copy p {
+    margin: 0;
+    color: #5d6268;
+    line-height: 1.45;
+  }
+
+  @media (max-width: 900px) {
+    .direction-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .reel {
+      aspect-ratio: 4 / 3;
+    }
+  }
+</style>
+
+<h2>VJ Series: hướng hình ảnh nào đúng nhất?</h2>
+<p class="subtitle">Cả ba đều dùng được với một VJ chính và có thể mở rộng sang nhiều VJ. Hãy chọn theo cảm giác bạn muốn người xem nhớ về series.</p>
+
+<div class="direction-grid">
+  <div class="direction-card" data-choice="a-pop-field-notes" onclick="toggleSelect(this)">
+    <div class="reel pop">
+      <div class="label-stack">
+        <div class="strip kicker">Part 02</div>
+        <div class="strip headline">VIETNAM'S MOST<br>REMOTE STAY</div>
+        <div class="strip subject">Worth the trip?</div>
+      </div>
+      <div class="episode">TRAVELFRAME VJ / FIELD NOTE 02</div>
+    </div>
+    <div class="direction-copy">
+      <h3>A. Pop Field Notes</h3>
+      <p>Gần ảnh tham chiếu nhất: pastel, chữ lớn, vui, dễ dừng thumb. Mạnh về entertainment nhưng dễ giống creator trend.</p>
+    </div>
+  </div>
+
+  <div class="direction-card" data-choice="b-editorial-pop" onclick="toggleSelect(this)">
+    <div class="reel editorial">
+      <div class="label-stack">
+        <div class="series">TravelFrame / Seen by a local</div>
+        <div class="strip headline">A homestay<br>beyond the road</div>
+        <div class="strip subject">Would you stay here?</div>
+      </div>
+      <div class="vj-tag">WITH YOUR LOCAL VJ</div>
+    </div>
+    <div class="direction-copy">
+      <h3>B. Editorial Pop</h3>
+      <p>Kết hợp nhịp editorial của TravelFrame với pastel từ ảnh mẫu. Có cá tính riêng, rõ brand và dùng lâu dài tốt nhất.</p>
+    </div>
+  </div>
+
+  <div class="direction-card" data-choice="c-field-reporter" onclick="toggleSelect(this)">
+    <div class="reel field">
+      <div class="label-stack">
+        <div class="eyebrow">TravelFrame Field Report / 02</div>
+        <div class="headline">The road ends.<br>The story starts.</div>
+        <div class="rule"></div>
+        <div class="caption">A local VJ checks what the map leaves out.</div>
+      </div>
+    </div>
+    <div class="direction-copy">
+      <h3>C. Field Reporter</h3>
+      <p>Tài liệu, khám phá và đáng tin hơn. Phù hợp series kiểm chứng tại chỗ, nhưng ít playful và ít gần ảnh tham chiếu.</p>
+    </div>
+  </div>
+</div>

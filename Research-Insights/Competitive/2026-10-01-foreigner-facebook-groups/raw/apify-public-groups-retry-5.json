@@ -1,0 +1,25 @@
+[
+  {
+    "ok": false,
+    "recordType": "diagnostic",
+    "code": "RATE_LIMITED",
+    "charged": false,
+    "_uncharged": true,
+    "inputUrl": "https://www.facebook.com/groups/1085733898269545/",
+    "details": "Facebook did not answer for this group right now. No rows were charged for it. Try again in a few minutes."
+  },
+  {
+    "ok": false,
+    "recordType": "diagnostic",
+    "code": "RATE_LIMITED",
+    "charged": false,
+    "_uncharged": true,
+    "details": "Facebook was throttling this run, so the remaining 4 group(s) were skipped instead of being retried. Nothing was charged for them. Retry in a few minutes.",
+    "skippedUrls": [
+      "https://www.facebook.com/groups/hanoiexpat/",
+      "https://www.facebook.com/groups/hanoiexpatsshare/",
+      "https://www.facebook.com/groups/212623962481033/",
+      "https://www.facebook.com/groups/893271740798327/"
+    ]
+  }
+]

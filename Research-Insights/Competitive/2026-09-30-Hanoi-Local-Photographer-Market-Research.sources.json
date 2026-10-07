@@ -1,0 +1,172 @@
+{
+  "report": "2026-09-30-Hanoi-Local-Photographer-Market-Research.md",
+  "retrieved_at": "2026-09-30",
+  "status": "Review",
+  "scope": "Hanoi local photographer services for international travelers",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Năm 2025, du lịch Hà Nội đón trên 33,7 triệu lượt khách",
+      "url": "https://bvhttdl.gov.vn/Pages/chi-tiet.aspx?url=%2Fnam-2025-du-lich-ha-noi-don-tren-337-trieu-luot-khach-doanh-thu-dat-hon-134000-ty-dong-20251225145641446.htm",
+      "publisher": "Bộ Văn hóa, Thể thao và Du lịch",
+      "use": "2025 Hanoi international visitor base",
+      "limitations": "Visitor arrivals are not unique addressable customers."
+    },
+    {
+      "id": "S02",
+      "title": "Capital looks to welcome 36 million visitors in 2026",
+      "url": "https://thanglong.chinhphu.vn/english/capital-looks-to-welcome-36-million-visitors-in-2026-110260319150222343.htm",
+      "publisher": "Government News",
+      "use": "2026 Hanoi tourism target",
+      "limitations": "Target, not achieved result."
+    },
+    {
+      "id": "S03",
+      "title": "How Much Does a Hanoi Photographer Cost? (2026)",
+      "url": "https://www.localgrapher.com/hanoi-photographer-cost/",
+      "publisher": "Localgrapher",
+      "use": "Global marketplace pricing and package structure",
+      "limitations": "Provider-authored commercial page; claims and testimonials were not independently verified."
+    },
+    {
+      "id": "S04",
+      "title": "Hanoi Photoshoot Guide for Travelers",
+      "url": "https://gaonau.com/en/blog/hanoi-photoshoot-guide",
+      "publisher": "Gạo Nâu Photo Travel",
+      "use": "Local traveler-team pricing and route design",
+      "limitations": "Provider-authored commercial content."
+    },
+    {
+      "id": "S05",
+      "title": "Ao Dai Photoshoot, Makeup & Hair in Hanoi and Saigon",
+      "url": "https://vietnamphotoshoot.com/",
+      "publisher": "Cáo Studio",
+      "use": "Studio bundle pricing and inclusions",
+      "limitations": "Provider-authored commercial content; availability not checked."
+    },
+    {
+      "id": "S06",
+      "title": "Hanoi Cultural Photowalk",
+      "url": "https://www.airbnb.com/experiences/302596",
+      "publisher": "Airbnb Experiences",
+      "use": "Photography instruction/cultural-walk benchmark",
+      "limitations": "Displayed price, ratings and availability can vary."
+    },
+    {
+      "id": "S07",
+      "title": "Private Hanoi Photoshoot - Iconic Spots & Hidden Gems",
+      "url": "https://www.viator.com/tours/Hanoi/Enjoy-Hanoi-in-an-Ao-dai/d351-154375P2",
+      "publisher": "Viator",
+      "use": "OTA traveler photoshoot benchmark and recent review language",
+      "limitations": "OTA display can vary by date, locale and party size."
+    },
+    {
+      "id": "S08",
+      "title": "Top Hanoi Photography Tours",
+      "url": "https://www.viator.com/en-AU/Hanoi-tours/Photography-Tours/d351-g12-c26028",
+      "publisher": "Viator",
+      "use": "Broad category snapshot and low-price listing example",
+      "limitations": "Category mixes instruction tours, photoshoots and unrelated products."
+    },
+    {
+      "id": "S09",
+      "title": "Ao Dai Rental & Professional Photoshoot in Hanoi Old Quarter",
+      "url": "https://www.klook.com/activity/174757-ao-dai-rental-professional-photoshoot-in-hanoi-old-quarter/",
+      "publisher": "Klook",
+      "use": "Bundled cultural photoshoot, booking and review benchmark",
+      "limitations": "Package price was not reliably available in the captured page."
+    },
+    {
+      "id": "S10",
+      "title": "Hanoi Old Quarter: Ao Dai Rental and Professional Photoshoot",
+      "url": "https://www.asiabylocals.com/vietnam/hanoi/hanoi-old-quarter-ao-dai-rental-and-professional-photoshoot-by-local-operator",
+      "publisher": "AsiaByLocals",
+      "use": "Direct local operator package and pricing benchmark",
+      "limitations": "Aggregator page; operator availability was not independently confirmed."
+    },
+    {
+      "id": "S11",
+      "title": "Hanoi Makeup & Portrait Photoshoot Experience",
+      "url": "https://www.expedia.ie/things-to-do/hanoi-makeup-portrait-photoshoot-experience.a52959559.activity-details",
+      "publisher": "Expedia",
+      "use": "OTA package and price benchmark",
+      "limitations": "Currency, taxes and party-size pricing can change."
+    },
+    {
+      "id": "S12",
+      "title": "Hanoi City Photography Guide Tours",
+      "url": "https://www.klook.com/en-GB/activity/102380-hanoi-city-photography-guide-tours/",
+      "publisher": "Klook",
+      "use": "Dedicated photography instruction tour benchmark",
+      "limitations": "Price and availability can vary by locale and date."
+    },
+    {
+      "id": "S13",
+      "title": "Couples photoshoot",
+      "url": "https://www.reddit.com/r/hanoi/comments/1nybuvj/couples_photoshoot/",
+      "publisher": "Reddit r/hanoi",
+      "use": "English-speaking couple photographer demand language",
+      "limitations": "Small qualitative sample; self-promotional replies present."
+    },
+    {
+      "id": "S14",
+      "title": "Couple Photoshoot in Hanoi",
+      "url": "https://www.reddit.com/r/VietNam/comments/1w2exd9/couple_photoshoot_in_hanoi/",
+      "publisher": "Reddit r/VietNam",
+      "use": "Recent request for a few-hour city photoshoot and English communication",
+      "limitations": "Single thread; recommendations were not independently verified."
+    },
+    {
+      "id": "S15",
+      "title": "Any photographer available for travel photo in Hanoi?",
+      "url": "https://www.reddit.com/r/hanoi/comments/1jtibhx",
+      "publisher": "Reddit r/hanoi",
+      "use": "Solo traveler demand signal",
+      "limitations": "Single thread with limited engagement."
+    },
+    {
+      "id": "S16",
+      "title": "Finding a location and photographer to propose",
+      "url": "https://www.reddit.com/r/hanoi/comments/1k2xih0",
+      "publisher": "Reddit r/hanoi",
+      "use": "Proposal, weather and English-speaking photographer demand",
+      "limitations": "Single thread; supplier replies may be self-promotional."
+    },
+    {
+      "id": "S17",
+      "title": "Photography Studio Recommendations in Hanoi",
+      "url": "https://www.reddit.com/r/hanoi/comments/1vdtc1a/photography_studio_recommendations_in_hanoi/",
+      "publisher": "Reddit r/hanoi",
+      "use": "Engagement session demand for hair and makeup bundle",
+      "limitations": "Single thread with a small sample."
+    },
+    {
+      "id": "S18",
+      "title": "Hanoi Photography - Hanoi Forum",
+      "url": "https://www.tripadvisor.com/ShowTopic-g293924-i8595-k15516062-Hanoi_Photography-Hanoi.html",
+      "publisher": "Tripadvisor forum",
+      "use": "Demand for paid local street-photography guidance away from tourist crowds",
+      "limitations": "Forum advice is qualitative and may include undisclosed affiliations."
+    },
+    {
+      "id": "S19",
+      "title": "Recommendations for Photo Tour in Hanoi?",
+      "url": "https://www.tripadvisor.com/ShowTopic-g293921-i8432-k14108942-Recommendations_for_Photo_Tour_in_Hanoi-Vietnam.html",
+      "publisher": "Tripadvisor forum",
+      "use": "2-4 hour photography instruction demand",
+      "limitations": "Older qualitative discussion."
+    },
+    {
+      "id": "L01",
+      "title": "TravelFrame Competitor Website Research",
+      "path": "Research-Insights/Competitive/2026-09-27-TravelFrame-Competitor-Website-Research.md",
+      "use": "Existing direct-competitor and website-pattern baseline"
+    },
+    {
+      "id": "L02",
+      "title": "TravelFrame Marketplace Competitor Snapshot",
+      "path": "Research-Insights/Competitive/2026-09-28-TravelFrame-Marketplace-Competitor-Snapshot.md",
+      "use": "Existing marketplace category and domain-strength baseline"
+    }
+  ]
+}

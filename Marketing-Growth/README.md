@@ -27,7 +27,10 @@ Campaign manifest và `Published-Ledger.md`; render đơn lẻ không phải pub
 
 ## Workflow
 
-Brief -> draft -> claim check -> review -> approval -> production -> publish -> learn.
+Brief -> draft (kèm seed comments) -> claim check -> review -> approval -> production -> publish
+-> seed comments & engage 60 phút đầu -> learn.
+
+Bước seed comments: theo [Seed Comment Playbook](Guidelines/2026-10-07-Seed-Comment-Playbook.md).
 
 ## Approval requirements
 

@@ -30,8 +30,13 @@ Knowledge base chưa tồn tại → dừng, yêu cầu chạy `content-learning
 
 ### 3. Viết theo rubric
 Đúng format trong `references/content-rubrics.md` cho loại đã chọn:
-- **reel**: `reel-script.md` (hook 0-3s → beats → CTA) + `caption.md`
-- **carousel**: `slides-text.md` (5-7 slide, chỉ TEXT — slides.html là downstream)
+- **reel**: `reel-script.md` (hook 0-3s → beats → CTA) + `caption.md` + `seed-comments.md`
+- **carousel**: `slides-text.md` (5-7 slide, chỉ TEXT — slides.html là downstream) + `seed-comments.md`
+- **seed-comments.md** (bắt buộc với reel/carousel): theo
+  `Marketing-Growth/Guidelines/2026-10-07-Seed-Comment-Playbook.md` — ghi nhóm nội dung,
+  keyword (trùng CTA trong caption), C1 câu hỏi mồi (ghim), C2 mẹo thêm KHÔNG có trong
+  video + keyword, và 1 biến thể dự phòng cho mỗi comment. Tiếng Anh, ≤200 ký tự, ≤1 emoji,
+  không hashtag, không giả làm khách.
 - **video-package**: `scripts/<slug>.txt` (narration thuần, beat cách dòng trống)
   + `asset-plan.md` — khớp format series Hanoi để pipeline hyperframes dùng được
 Giọng: theo voice-playbook (warm local friend, câu ngắn, practical, lightly playful).

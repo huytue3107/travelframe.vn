@@ -1,0 +1,40 @@
+[
+  {
+    "ok": false,
+    "recordType": "diagnostic",
+    "code": "RATE_LIMITED",
+    "charged": false,
+    "_uncharged": true,
+    "inputUrl": "https://www.facebook.com/groups/hanoimassivegroup/",
+    "details": "Facebook did not answer for this group right now. No rows were charged for it. Try again in a few minutes."
+  },
+  {
+    "ok": false,
+    "recordType": "diagnostic",
+    "code": "RATE_LIMITED",
+    "charged": false,
+    "_uncharged": true,
+    "details": "Facebook was throttling this run, so the remaining 19 group(s) were skipped instead of being retried. Nothing was charged for them. Retry in a few minutes.",
+    "skippedUrls": [
+      "https://www.facebook.com/groups/1746408595605006/",
+      "https://www.facebook.com/groups/1756377981283928/",
+      "https://www.facebook.com/groups/hanoihousing/",
+      "https://www.facebook.com/groups/1060066574038256/",
+      "https://www.facebook.com/groups/HanoiMassiveHousing/",
+      "https://www.facebook.com/groups/hanoi.massive.housing.7749/",
+      "https://www.facebook.com/groups/184610462048940/",
+      "https://www.facebook.com/groups/711948694992123/",
+      "https://www.facebook.com/groups/hanoiexpathousing/",
+      "https://www.facebook.com/groups/1734978953428445/",
+      "https://www.facebook.com/groups/3367670773368706/",
+      "https://www.facebook.com/groups/534412180912999/",
+      "https://www.facebook.com/groups/224075254394614/",
+      "https://www.facebook.com/groups/1361915940525260/",
+      "https://www.facebook.com/groups/269382746748658/",
+      "https://www.facebook.com/groups/1834641453284890/",
+      "https://www.facebook.com/groups/HanoiMassiveJobsposting/",
+      "https://www.facebook.com/groups/1243292912734117/",
+      "https://www.facebook.com/groups/hanoimassivehousebikejob/"
+    ]
+  }
+]

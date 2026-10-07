@@ -1,0 +1,40 @@
+[
+  {
+    "ok": false,
+    "recordType": "diagnostic",
+    "code": "RATE_LIMITED",
+    "charged": false,
+    "_uncharged": true,
+    "inputUrl": "https://www.facebook.com/groups/1085733898269545/",
+    "details": "Facebook did not answer for this group right now. No rows were charged for it. Try again in a few minutes."
+  },
+  {
+    "ok": false,
+    "recordType": "diagnostic",
+    "code": "RATE_LIMITED",
+    "charged": false,
+    "_uncharged": true,
+    "details": "Facebook was throttling this run, so the remaining 19 group(s) were skipped instead of being retried. Nothing was charged for them. Retry in a few minutes.",
+    "skippedUrls": [
+      "https://www.facebook.com/groups/hanoiexpat/",
+      "https://www.facebook.com/groups/hanoiexpatsshare/",
+      "https://www.facebook.com/groups/212623962481033/",
+      "https://www.facebook.com/groups/893271740798327/",
+      "https://www.facebook.com/groups/810900925666443/",
+      "https://www.facebook.com/groups/hanoimassiveofficial/",
+      "https://www.facebook.com/groups/vietnamexpatsguide/",
+      "https://www.facebook.com/groups/massivehanoi/",
+      "https://www.facebook.com/groups/543549762461673/",
+      "https://www.facebook.com/groups/789908834478207/",
+      "https://www.facebook.com/groups/hanoimassiveanewera/",
+      "https://www.facebook.com/groups/279091522451287/",
+      "https://www.facebook.com/groups/1291788867879039/",
+      "https://www.facebook.com/groups/704314099635751/",
+      "https://www.facebook.com/groups/752743891923622/",
+      "https://www.facebook.com/groups/5668575546598740/",
+      "https://www.facebook.com/groups/479553442222597/",
+      "https://www.facebook.com/groups/3593264037576557/",
+      "https://www.facebook.com/groups/357069172943516/"
+    ]
+  }
+]

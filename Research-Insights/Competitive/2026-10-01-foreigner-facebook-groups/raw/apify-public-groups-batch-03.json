@@ -1,0 +1,28 @@
+[
+  {
+    "ok": false,
+    "recordType": "diagnostic",
+    "code": "RATE_LIMITED",
+    "charged": false,
+    "_uncharged": true,
+    "inputUrl": "https://www.facebook.com/groups/798786050678893/",
+    "details": "Facebook did not answer for this group right now. No rows were charged for it. Try again in a few minutes."
+  },
+  {
+    "ok": false,
+    "recordType": "diagnostic",
+    "code": "RATE_LIMITED",
+    "charged": false,
+    "_uncharged": true,
+    "details": "Facebook was throttling this run, so the remaining 7 group(s) were skipped instead of being retried. Nothing was charged for them. Retry in a few minutes.",
+    "skippedUrls": [
+      "https://www.facebook.com/groups/hanoidigitalnomadsgroup/",
+      "https://www.facebook.com/groups/167103623674639/",
+      "https://www.facebook.com/groups/8993218274100081/",
+      "https://www.facebook.com/groups/exploringvietnameseculture/",
+      "https://www.facebook.com/groups/2885405411686194/",
+      "https://www.facebook.com/groups/237450219401916/",
+      "https://www.facebook.com/groups/200571433459175/"
+    ]
+  }
+]
