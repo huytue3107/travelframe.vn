@@ -45,6 +45,14 @@ credential. Không đưa secret vào URL, ảnh chụp hoặc tài liệu.
 Stage đúng file thuộc batch; không dùng `git add .`. Không revert thay đổi không phải
 của mình. Không push nếu Rocky chưa yêu cầu. Mỗi migration batch phải có manifest,
 checksum, validation và rollback instruction.
+## Meta (Facebook + Instagram)
+
+Trước mọi việc về token Meta, MCP `travelframe-meta`, số liệu/comment FB-IG, đăng bài hoặc seed
+comment: đọc `Technology-Automation/Runbooks/Meta-Connection-And-Publishing-Runbook.md`.
+Kiểm tra kết nối bằng `Technology-Automation/Scripts/meta-automation-mcp/test-publish-capability.mjs`
+(không công khai, không in token). Token chuẩn: System User "Tue", app TravelFrame Automation, hạn Never;
+chỉ Rocky tạo và lưu token (`fix-token.sh`). Không thêm chức năng ghi vào `travelframe-readonly.mjs`.
+Sau mỗi bài đăng FB/IG: chạy Seed Comment Playbook (`Marketing-Growth/Guidelines/2026-10-07-Seed-Comment-Playbook.md`).
 <!-- SHARED-AGENT-POLICY:END -->
 
 ## Codex execution
