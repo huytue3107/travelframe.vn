@@ -1,0 +1,47 @@
+{
+  "status": "Draft; verify model consent and commercial usage for each source before publishing",
+  "source_policy": "All photographic pixels derive from TravelFrame-curated images; no stock or generated imagery.",
+  "series": "Hungry in Vietnam? · Bánh Mì Notes",
+  "frames": [
+    {
+      "file": "frame-01.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 210584,
+      "sha256": "c28753afb2fa1245d5bff01367742493ca71d5c87ee89ad90601a74d1d6dcf13",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/04-Friends-Family-Photo-Walk/3970699493554489771_3970699163221700081.jpg"
+    },
+    {
+      "file": "frame-02.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 267633,
+      "sha256": "b70d592c7d400568c1dd0b0132992e42155d24d4e6a9dc0788329833665b81c6",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/04-Friends-Family-Photo-Walk/3973639147949864967_3973639079962592471.jpg"
+    },
+    {
+      "file": "frame-03.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 301140,
+      "sha256": "c2ac8937bd32b335f25e49d0f9791087472365d3c100840f6c98639538300fe9",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/04-Friends-Family-Photo-Walk/3984309485528358710_3984308823124163760.jpg"
+    },
+    {
+      "file": "frame-04.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 321688,
+      "sha256": "7f2c06dbf440a150a77d52138fc70297861b2f8dcc45d99c48f359473a2bd525",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/01-Couple-Photo-Walk/After-Dark/3974335979642409216_3974335830025499009.jpg"
+    },
+    {
+      "file": "frame-05.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 272510,
+      "sha256": "ce27b9c43596df2205b708723ae01c87ebf1aa1dcd13daa217d0703141e02a13",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/04-Friends-Family-Photo-Walk/3970699493554489771_3970699175016087278.jpg"
+    }
+  ]
+}

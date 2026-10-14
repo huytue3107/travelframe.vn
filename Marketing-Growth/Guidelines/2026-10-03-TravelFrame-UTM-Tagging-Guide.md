@@ -30,14 +30,20 @@
 
 ---
 
-## 3. Trả Lời Bình Luận (Comment Reply trên FB & IG)
+## 3. Bình Luận & Tương Tác Mạng Xã Hội (Facebook Comments & Instagram Story)
 
-| Tình huống bình luận | Kênh | Link chuẩn có UTM |
+> **Lưu ý kỹ thuật quan trọng:** 
+> * **Facebook:** Cho phép chèn hyperlink bấm được trong bình luận. Dùng UTM `utm_medium=comment_reply` hoặc `utm_medium=comment_pin`.
+> * **Instagram:** **KHÔNG** hỗ trợ click link trong bình luận (hiển thị text thô). **Tuyệt đối không chèn link web vào comment IG.** Thay vào đó: mời khách gửi tin nhắn DM từ khóa `PHOTO` hoặc hướng dẫn click vào link trên Bio (`tinyurl.com/travelframe-tours`).
+> * **Instagram Story:** Dùng **Link Sticker** (đây là cách duy nhất ngoài Bio để khách bấm thẳng vào web từ Instagram).
+
+| Tình huống tương tác | Kênh / Vị trí | Định dạng / Link chuẩn có UTM (Copy dùng ngay) |
 |:---|:---|:---|
-| **Khách hỏi cẩm nang / bí kíp ăn chơi** | Facebook Reels | `https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive?utm_source=facebook&utm_medium=comment_reply&utm_campaign=viral_reels&utm_content=hanoi_guide` |
-| **Khách hỏi giá / dịch vụ chụp ảnh** | Facebook Reels | `https://travelframe.sidevn.com/tours?utm_source=facebook&utm_medium=comment_reply&utm_campaign=viral_reels&utm_content=tours_pricing` |
-| **Khách hỏi góc chụp ảnh đẹp** | Facebook Reels | `https://travelframe.sidevn.com/news/15-best-photo-spots-hanoi-local-photographers-field-guide-2026?utm_source=facebook&utm_medium=comment_reply&utm_campaign=viral_reels&utm_content=photo_spots` |
-| **Khách hỏi dịch vụ trên Instagram** | Instagram Reels | `https://travelframe.sidevn.com/tours?utm_source=instagram&utm_medium=comment_reply&utm_campaign=reels_outreach&utm_content=tours_pricing` |
+| **Bình luận ghim trên video/reel viral** | Facebook Reels (Pinned Comment) | `https://travelframe.sidevn.com/tours?utm_source=facebook&utm_medium=comment_pin&utm_campaign=viral_reels&utm_content=view_tours` |
+| **Khách hỏi cẩm nang / bí kíp ăn chơi** | Facebook Comments | `https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive?utm_source=facebook&utm_medium=comment_reply&utm_campaign=viral_reels&utm_content=hanoi_guide` |
+| **Khách hỏi giá / dịch vụ tour chụp ảnh** | Facebook Comments | `https://travelframe.sidevn.com/tours?utm_source=facebook&utm_medium=comment_reply&utm_campaign=viral_reels&utm_content=tours_pricing` |
+| **Story chia sẻ lại Reel / Video kèm Link** | Instagram Story (Link Sticker) | `https://travelframe.sidevn.com/tours?utm_source=instagram&utm_medium=story&utm_campaign=cafe_viral&utm_content=link_sticker` |
+| **Khách hỏi dịch vụ trên Instagram Comments** | Instagram Reels / Posts | **Không gửi link URL.** Mẫu trả lời: *"Send us a DM with ‘PHOTO’ or tap the link in our bio to check available dates and tour packages! 📸"* |
 
 ---
 

@@ -1,0 +1,39 @@
+{
+  "status": "Draft; verify model consent and commercial usage for each source before publishing",
+  "source_policy": "All photographic pixels derive from TravelFrame-curated images; no stock or generated imagery.",
+  "series": "Hanoi Photo Notes",
+  "frames": [
+    {
+      "file": "frame-01.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 395573,
+      "sha256": "60210985ab1bdba738ffcd6cbe23999992915484871d1d3e368cbac058892913",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/02-Solo-Photo-Walk/Daytime/3983581066717034879_3983580740620537335.jpg"
+    },
+    {
+      "file": "frame-02.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 314267,
+      "sha256": "19a167e5783276d98046f919691153db1ab844e1c269be7bfb59f6ed1536d6c8",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/02-Solo-Photo-Walk/Daytime/3983581066717034879_3983580763345235670.jpg"
+    },
+    {
+      "file": "frame-03.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 405920,
+      "sha256": "046dd735ce0758621fc9b2aaeae42ec384e63e417c33229b8e1184237be1b546",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/02-Solo-Photo-Walk/Daytime/3983581066717034879_3983580774116102361.jpg"
+    },
+    {
+      "file": "frame-04.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 324515,
+      "sha256": "d97a34a9abaaa48d7506845166b5e35b42d14bb31eac64e32bfc0bfdc40fa6d3",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/02-Solo-Photo-Walk/Daytime/3973632112181096274_3973631617372991195.jpg"
+    }
+  ]
+}

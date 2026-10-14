@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>travelframe.sidevn.com SEO review</title>
+<style>
+  :root {
+    --bg: #e2e9f3;
+    --ink: #122650;
+    --muted: #4f5f79;
+    --rule: #c2cddd;
+    --rule-strong: #122650;
+  }
+  html { background: var(--bg); color-scheme: light; }
+  body {
+    background: var(--bg); color: var(--ink);
+    font-family: Charter, Georgia, "Times New Roman", serif;
+    line-height: 1.55; margin: 0; padding: 3.5rem 1.5rem 5rem;
+  }
+  .page { max-width: 860px; margin: 0 auto; }
+  .mono {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
+  }
+  h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700; font-size: 1.6rem; letter-spacing: -0.01em;
+    margin: 0.75rem 0 0.25rem; text-wrap: balance;
+  }
+  .subtitle { color: var(--muted); margin: 0 0 2.5rem; font-size: 1.02rem; max-width: 46rem; }
+  .dateline { color: var(--muted); font-size: 0.92rem; margin: 0 0 1.1rem; }
+  h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700; font-size: 1.25rem; margin: 3rem 0 0.75rem;
+  }
+  .lede { font-size: 1.05rem; max-width: 46rem; }
+  section > p { max-width: 46rem; }
+  hr.heavy { border: 0; border-top: 2px solid var(--rule-strong); margin: 3rem 0 0; }
+  section .cols:first-of-type { border-top: 1px solid var(--rule); }
+  .cols {
+    display: grid; grid-template-columns: minmax(180px, 5fr) 8fr;
+    gap: 1.25rem; padding: 0.6rem 0; border-bottom: 1px solid var(--rule);
+  }
+  .row-title { font-size: 1.12rem; margin: 0; }
+  .row-title .tag { display: block; margin-top: 0.35rem; }
+  .cols > div p { margin: 0 0 0.6rem; color: var(--muted); font-size: 0.95rem; }
+  .cols > div p:last-child { margin-bottom: 0; }
+  .cols > div p.fix { color: var(--ink); }
+  .fix b { font-weight: 600; }
+  code {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.85em; word-break: break-word;
+  }
+  ol { padding-left: 1.3rem; max-width: 44rem; }
+  ol li { margin-bottom: 0.5rem; }
+  ul.plain { list-style: none; padding: 0; max-width: 46rem; }
+  ul.plain li { padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.98rem; }
+  ul.plain li:first-child { border-top: 1px solid var(--rule); }
+  ul.plain .why { color: var(--muted); }
+  footer { margin-top: 4rem; color: var(--muted); font-size: 0.88rem; max-width: 46rem; }
+  @media (max-width: 620px) {
+    .cols { grid-template-columns: 1fr; gap: 0.4rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>travelframe.sidevn.com</h1>
+    <p class="dateline">11 October 2026</p>
+    <p class="subtitle">The website is fast, responsive, and has 55 live pages with valid structured data, but it is currently building search rankings on a temporary staging subdomain instead of the official brand domain. Pointing DNS for travelframe.vn to the server IP this week ensures that Google credits all authority to your permanent web address. This report reviews domain migration, seven technical fixes including broken downloads and 404 redirects, four starting keyword opportunities, and six verified strengths.</p>
+  </header>
+
+  <section>
+    <h2>Where the site stands</h2>
+    <p class="lede">The website has a clean technical base: 55 public pages load in under 250 milliseconds, mobile viewport tags are correctly set across all screens, and sitemap.xml accurately reflects the live site structure. Over 50 pages already include structured data (schema markup, which is hidden background code that explicitly explains page details like articles and services to search engines).</p>
+    <p class="lede">The primary vulnerability is domain identity. The site currently serves on the temporary subdomain <code>travelframe.sidevn.com</code>, and every page uses a self-referential canonical tag (a hidden tag telling search engines that this subdomain address is the single official version). Meanwhile, the official domain <code>travelframe.vn</code> has no DNS records configured. The longer the temporary address stays live with canonical tags pointing to itself, the more Google treats the subdomain as the real home, requiring an avoidable migration cleanup later.</p>
+  </section>
+
+  <hr class="heavy">
+
+  <section>
+    <h2>If you only do one thing</h2>
+    <p class="lede">Point DNS records for travelframe.vn to server IP 137.59.105.30.</p>
+    <p>Every backlink, social click, and search crawler visit (an automated search engine robot that indexes web pages) currently accumulates on a staging subdomain. Mapping your primary domain now protects your brand identity and lets search engines attribute all organic signals directly to TravelFrame.</p>
+    <ol>
+      <li>Log into your domain registrar dashboard where <code>travelframe.vn</code> was purchased (such as Mat Bao, PA Vietnam, or Porkbun).</li>
+      <li>Navigate to DNS Management and create two records:
+        <br>An <b>A record</b>: Host <code>@</code> pointing to IP <code>137.59.105.30</code>
+        <br>A <b>CNAME record</b>: Host <code>www</code> pointing to <code>travelframe.vn</code>
+        <br><i>If contacting registrar support, send this message: "Please map my domain travelframe.vn with an A record pointing to IP 137.59.105.30 and a CNAME for www pointing to travelframe.vn."</i>
+      </li>
+      <li>After DNS propagates (typically 1 to 4 hours), verify by running <code>ping travelframe.vn</code> in terminal, then instruct hosting support to configure a 301 redirect (an automatic forward permanently sending visitors and crawlers from the old address to the new one) from <code>travelframe.sidevn.com</code> to <code>https://travelframe.vn</code>.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Small fixes, in order</h2>
+
+    <div class="cols">
+      <div><p class="row-title">Restore field guide PDF download <span class="mono tag">high</span></p></div>
+      <div>
+        <p>The link <code>https://travelframe.sidevn.com/guides/TravelFrame-Hanoi-Photographer-Tour-Guide.pdf</code> returns an HTTP 404 Not Found error. Google Analytics recorded five different visitors attempting to download this file and hitting a dead end.</p>
+        <p class="fix"><b>Fix:</b> Upload the compiled field guide PDF to the web server path <code>public/guides/TravelFrame-Hanoi-Photographer-Tour-Guide.pdf</code> so visitors and social leads receive the promised document immediately.</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div><p class="row-title">Redirect broken /tour to /tours <span class="mono tag">high</span></p></div>
+      <div>
+        <p>Visitors who omit the trailing "s" and type <code>https://travelframe.sidevn.com/tour</code> receive an HTTP 404 page. Three distinct visitors encountered this error in the past week.</p>
+        <p class="fix"><b>Fix:</b> Add a 301 redirect rule in your web server configuration mapping <code>/tour</code> permanently to <code>https://travelframe.sidevn.com/tours</code>.</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div><p class="row-title">Redirect missing digital tour page <span class="mono tag">medium</span></p></div>
+      <div>
+        <p>The URL <code>https://travelframe.sidevn.com/digital-tour</code> returns an HTTP 404 error, even though analytics recorded 29 pageviews from visitors seeking the interactive map.</p>
+        <p class="fix"><b>Fix:</b> Either re-publish the digital tour route or add a 301 redirect sending traffic from <code>/digital-tour</code> to the tours catalog at <code>/tours</code>.</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div><p class="row-title">Remove duplicate brand name in article titles <span class="mono tag">medium</span></p></div>
+      <div>
+        <p>Five blog articles contain a duplicated brand suffix in their title tag, for example: <code>Bun Cha Chan: A Local Culinary Guide | TravelFrame | TravelFrame Vietnam</code> on <code>/news/bun-cha-chan-local-culinary-guide</code>. This wastes title character space.</p>
+        <p class="fix"><b>Fix:</b> Edit the blog template in Drupal settings so the brand suffix appends only once as <code>| TravelFrame Vietnam</code>.</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div><p class="row-title">Trim titles exceeding 65 characters <span class="mono tag">medium</span></p></div>
+      <div>
+        <p>41 of 55 pages have title tags longer than 65 characters. For example, <code>15 Best Photo Spots in Hanoi: Local Photographer Guide (2026) | TravelFrame Vietnam</code> is 83 characters long, causing Google to truncate the end with an ellipsis on search result pages.</p>
+        <p class="fix"><b>Fix:</b> Shorten article titles to 50-60 characters so the core topic and brand remain fully visible in mobile and desktop search results.</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div><p class="row-title">Add alt text to 6 blog images <span class="mono tag">low</span></p></div>
+      <div>
+        <p>Six image elements across five articles (including Bat Trang pottery and Cam Phu Cau incense guides) lack alt text (a short written description helping search engines and visually impaired visitors understand the image content).</p>
+        <p class="fix"><b>Fix:</b> In Drupal admin, open each of the five articles and enter a concise 5-8 word description in the Image Alt field, such as "Artisan handcrafting ceramics at Bat Trang pottery village".</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div><p class="row-title">Expand tour schema with pricing and reviews <span class="mono tag">low</span></p></div>
+      <div>
+        <p>The seven private tour pages currently use generic <code>Service</code> schema markup. They omit structured data properties for price currency, starting rate, duration, and customer ratings.</p>
+        <p class="fix"><b>Fix:</b> Upgrade the structured data template on tour pages to include <code>TouristTrip</code> or <code>Product</code> schema with <code>offers</code> (price in USD/VND) and aggregate review scores to qualify for rich snippets in Google search results.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Where to focus first</h2>
+    <p>Focus content on private walking photography for solo female travellers and couples in Hanoi Old Quarter. This topic directly matches TravelFrame's core offering, carries low keyword difficulty against generic tour agencies, and attracts international visitors with immediate booking intent.</p>
+
+    <div class="cols">
+      <div><p class="row-title">solo female travel hanoi photo tour <span class="mono tag">90 searches/mo</span></p></div>
+      <div>
+        <p>Searched by independent women visiting Vietnam who want safe, natural vacation pictures without having to pose awkwardly. Very low competition from mainstream travel operators.</p>
+        <p class="fix"><b>Make:</b> Keep the published guide (<code>/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing</code>) refreshed with real photo examples, transparent rates, and a direct WhatsApp link.</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div><p class="row-title">private photo tour hanoi <span class="mono tag">140 searches/mo</span></p></div>
+      <div>
+        <p>High commercial intent from visitors seeking a local photographer who also acts as a friendly neighborhood guide. Highly winnable with focused on-page optimization.</p>
+        <p class="fix"><b>Make:</b> Ensure the homepage meta description (the summary text shown below the title in Google search results) explicitly states: "Private walking photo tours in Hanoi Old Quarter. Natural candid photography with 24h photo delivery."</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div><p class="row-title">couple photoshoot hanoi old quarter <span class="mono tag">110 searches/mo</span></p></div>
+      <div>
+        <p>Couples and honeymooners searching for unhurried portrait walks through historic alleyways. High willingness to book private premium slots.</p>
+        <p class="fix"><b>Make:</b> Add a dedicated portfolio section on <code>/tour/cinematic-hanoi-visual-storytelling-walk</code> highlighting candid couple photography sessions.</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div><p class="row-title">hanoi street photography walk <span class="mono tag">210 searches/mo</span></p></div>
+      <div>
+        <p>Popular search for creative tourists and photography enthusiasts wanting to explore authentic local life off the tourist trail.</p>
+        <p class="fix"><b>Make:</b> Feature the morning market route on <code>/tour/hanoi-early-bird-sunrise-local-markets</code> with tips on early morning lighting at Long Bien Bridge.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Already working</h2>
+    <ul class="plain">
+      <li>Fast server response time averaging 140 to 220 milliseconds. <span class="why">Allows search crawlers to scan the entire catalog without slowdowns.</span></li>
+      <li>Clean mobile-responsive architecture. <span class="why">All pages include proper viewport meta tags and adapt cleanly to smartphone screens.</span></li>
+      <li>Healthy sitemap with 55 working pages. <span class="why">Search engines can discover all published tours and articles through sitemap.xml.</span></li>
+      <li>Comprehensive Article schema markup. <span class="why">37 blog posts include valid author, headline, and datePublished structured data.</span></li>
+      <li>Clean robots.txt file. <span class="why">Standard allow-all directive correctly points search crawlers to the sitemap index.</span></li>
+      <li>High user dwell time from social channels. <span class="why">Organic social visitors spend over 4 minutes per session exploring tours and booking pages.</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Reviewed 11 October 2026. Data sourced from live HTTP crawling of 58 URLs on travelframe.sidevn.com, server response headers, HTML source verification, Google Analytics 4 traffic patterns, and OpenSEO project context.</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -70,3 +70,10 @@
 - **Top 5-10 Google Organic:** Đối với từ khóa chính `hanoi photo tour`.
 - **Technical Health Score:** Đạt trên 90 điểm trong báo cáo của `seo-audit`.
 - **Organic Traffic:** Tăng trưởng từ 2 organic sessions hiện tại lên 500+ sessions/tháng sau 6 tháng thực thi cụm bài Pillar.
+
+---
+
+## 6. Nhật Ký Nghiên Cứu (Research Log)
+
+- **2026-10-11:** Site audit: `travelframe.sidevn.com`. Verdict: Nền tảng kỹ thuật tốt (55 trang, tốc độ <250ms, đầy đủ Schema Article), nhưng rủi ro SEO lớn nhất là đang tích lũy tín hiệu trên subdomain tạm thời `sidevn.com` với self-canonical. Hành động số 1 tuần này: Trỏ bản ghi DNS của `travelframe.vn` về IP server `137.59.105.30` và cấu hình 301 redirect. Báo cáo chi tiết: `Marketing-Growth/Reports/20261011-travelframe-sidevn-com-seo-audit.html`.
+

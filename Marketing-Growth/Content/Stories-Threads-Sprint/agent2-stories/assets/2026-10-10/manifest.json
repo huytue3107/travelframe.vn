@@ -1,0 +1,47 @@
+{
+  "status": "Draft; verify model consent and commercial usage for each source before publishing",
+  "source_policy": "All photographic pixels derive from TravelFrame-curated images; no stock or generated imagery.",
+  "series": "Hanoi Packing Notes",
+  "frames": [
+    {
+      "file": "frame-01.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 264222,
+      "sha256": "d8454422ede3c36fd279fbc04b18532884710a61860ef54335b102e6b43e6539",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/02-Solo-Photo-Walk/Daytime/779866033_18089501228217614_6453596230385004110_n.jpg"
+    },
+    {
+      "file": "frame-02.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 331344,
+      "sha256": "ad097efa0e348b7bf714d4d9d692be31799b71fbb8a03599524420f6c464b2a6",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/02-Solo-Photo-Walk/Daytime/3973632112181096274_3973631617372991195.jpg"
+    },
+    {
+      "file": "frame-03.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 394805,
+      "sha256": "a874084006ffe3daa37ef6bdc78ef214a964d949a2105b425de96e1278548780",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/02-Solo-Photo-Walk/Daytime/3983581066717034879_3983580740620537335.jpg"
+    },
+    {
+      "file": "frame-04.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 336586,
+      "sha256": "7605727f287430953f1f582e380f5161cb623ac91f299db605839edddf9c704e",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/02-Solo-Photo-Walk/Daytime/3978798193986987259_3978798054261038483.jpg"
+    },
+    {
+      "file": "frame-05.jpg",
+      "width": 1080,
+      "height": 1920,
+      "bytes": 338571,
+      "sha256": "f12dc2a40ad2050126d18da35af493393eafce2c8fab2d38b987207cc223e338",
+      "source_photo": "Marketing-Growth/Content/viktor-travelframe/02-Solo-Photo-Walk/Daytime/3969091257663465543_3969090603253716510.jpg"
+    }
+  ]
+}

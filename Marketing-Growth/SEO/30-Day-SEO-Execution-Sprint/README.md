@@ -4,6 +4,7 @@
 - **Chủ trì:** Marketing-Growth
 - **Phối hợp:** Research-Insights & Creative-Production
 - **Trạng thái:** `Review`
+- **Lưu ý 2026-10-14:** Cấu trúc trang (landing riêng solo/couple/private photographer) đã được thay bằng [Top-1 Keyword Roadmap](../2026-10-14-Top1-Keyword-Roadmap.md): một money page `/hanoi-photoshoot`, các persona là section. Giữ file này làm tham khảo nội dung.
 - **Ngày khởi tạo:** 2026-09-30
 - **Cơ sở dữ liệu:** [`Marketing-Growth/SEO/2026-09-30-travelframe-1000-keywords-jev-classification.json`](file:///Users/macbook/Codex%20GPT/travelframe.vn/Marketing-Growth/SEO/2026-09-30-travelframe-1000-keywords-jev-classification.json) (1.307 từ khoá đã phân loại JEV)
 - **Báo cáo chiến lược:** [`Marketing-Growth/SEO/2026-09-30-travelframe-1000-keywords-jev-classification.md`](file:///Users/macbook/Codex%20GPT/travelframe.vn/Marketing-Growth/SEO/2026-09-30-travelframe-1000-keywords-jev-classification.md)

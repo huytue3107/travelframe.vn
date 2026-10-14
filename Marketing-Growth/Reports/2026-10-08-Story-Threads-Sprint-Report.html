@@ -1,0 +1,148 @@
+<title>Báo cáo Sprint Story Threads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: một cột đọc 760px, kết luận ở đầu, bảng điểm rồi danh sách việc chờ duyệt */
+:root{
+  --bg:#f6f5f2; --surface:#ffffff; --fg:#1d2321; --muted:#5d6763; --line:#dcdad3;
+  --accent:#0f6b63; --accent-soft:#dff0ed;
+  --ok:#2c7a3f; --ok-soft:#e1f1e4; --warn:#9a6200; --warn-soft:#faedd0; --bad:#a63a2c; --bad-soft:#f8e0dc;
+  --font-body:"Be Vietnam Pro",system-ui,sans-serif; --font-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141917; --surface:#1c2220; --fg:#e8ebe9; --muted:#9aa5a0; --line:#2f3835;
+  --accent:#5cc7bb; --accent-soft:#1d3733;
+  --ok:#7cd08f; --ok-soft:#1d3323; --warn:#e5b659; --warn-soft:#3a2f14; --bad:#f0907f; --bad-soft:#3d1f1a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141917; --surface:#1c2220; --fg:#e8ebe9; --muted:#9aa5a0; --line:#2f3835;
+  --accent:#5cc7bb; --accent-soft:#1d3733;
+  --ok:#7cd08f; --ok-soft:#1d3323; --warn:#e5b659; --warn-soft:#3a2f14; --bad:#f0907f; --bad-soft:#3d1f1a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.65;padding-inline:16px;padding-block:32px 64px}
+main{max-width:760px;margin-inline:auto;display:flex;flex-direction:column;gap:36px}
+h1,h2,h3{text-wrap:balance;line-height:1.25;margin:0}
+h1{font-size:1.9rem;font-weight:700}
+h2{font-size:1.25rem;font-weight:700}
+h3{font-size:1rem;font-weight:600}
+p{margin:0}
+.meta{font-family:var(--font-mono);font-size:.78rem;color:var(--muted);letter-spacing:.02em}
+.lead{background:var(--accent-soft);border-radius:10px;padding:18px 20px;font-size:1.05rem}
+.lead strong{color:var(--accent)}
+section{display:flex;flex-direction:column;gap:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.score{font-family:var(--font-mono);font-size:2rem;font-weight:500;line-height:1}
+.score small{font-size:1rem;color:var(--muted)}
+.pill{display:inline-block;font-size:.74rem;font-weight:600;padding:2px 10px;border-radius:99px;letter-spacing:.02em}
+.pill.ok{background:var(--ok-soft);color:var(--ok)}
+.pill.warn{background:var(--warn-soft);color:var(--warn)}
+.pill.bad{background:var(--bad-soft);color:var(--bad)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:.9rem}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font-size:.74rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+td.num{font-family:var(--font-mono);white-space:nowrap}
+ul,ol{margin:0;padding-left:1.2rem;display:flex;flex-direction:column;gap:6px}
+code{font-family:var(--font-mono);font-size:.82em;background:var(--accent-soft);padding:1px 6px;border-radius:4px;overflow-wrap:anywhere}
+.files{font-size:.86rem;color:var(--muted)}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<main>
+<header style="display:flex;flex-direction:column;gap:10px">
+  <p class="meta">TRAVELFRAME · MARKETING-GROWTH · 08/10/2026 · DRAFT CHO ROCKY</p>
+  <h1>Báo cáo Sprint Story Facebook, Instagram và Threads</h1>
+  <p class="meta">Trưởng nhóm điều phối: Claude · Agent 2 (Codex) · Agent 3 (Antigravity)</p>
+</header>
+
+<p class="lead"><strong>Kết luận:</strong> cả hai agent đã hoàn thành vòng đầu trong ngày, không có vi phạm quy tắc an toàn (không đăng, không like, không comment, không commit). Lô Story của Agent 2 đạt 7/10 và qua có điều kiện. Lô Threads của Agent 3 chỉ đạt 6/10 nên đã trả về sửa. Chưa có gì được đăng. Cần bạn quyết 3 việc ở mục 5 trước khi bắt đầu đăng.</p>
+
+<section>
+  <h2>1. Điểm theo thang 10</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Agent 2: Story FB + IG</h3>
+      <p class="score">7<small> / 10</small></p>
+      <span class="pill warn">Qua có điều kiện</span>
+      <p>Chuỗi 5 khung ảnh "solo Hanoi photo", có poll và lời mời DM từ khóa <code>PHOTO</code>. Hook còn hiền so với yêu cầu "clickbait nặng". Khung 5 dùng lại ảnh của khung 3.</p>
+    </div>
+    <div class="card">
+      <h3>Agent 3: Tương tác Threads</h3>
+      <p class="score">6<small> / 10</small></p>
+      <span class="pill bad">Trả về sửa</span>
+      <p>17 reply cho thread có URL thật cộng 2 bài gốc. Agent tự chấm 10/10, mình không chấp nhận vì nhiều số liệu thiếu nguồn và các reply lặp cùng một khuôn.</p>
+    </div>
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Tiêu chí (tối đa 2)</th><th>Agent 2</th><th>Agent 3</th></tr></thead>
+      <tbody>
+        <tr><td>Hook tạo tò mò</td><td class="num">1</td><td class="num">1</td></tr>
+        <tr><td>Đúng sự thật, có nguồn</td><td class="num">2</td><td class="num">1</td></tr>
+        <tr><td>Giá trị thực dụng cho khách quốc tế</td><td class="num">1</td><td class="num">2</td></tr>
+        <tr><td>Cơ chế tương tác tự nhiên</td><td class="num">2</td><td class="num">1</td></tr>
+        <tr><td>Giọng thương hiệu, không lặp khuôn</td><td class="num">1</td><td class="num">1</td></tr>
+        <tr><td><strong>Tổng</strong></td><td class="num"><strong>7</strong></td><td class="num"><strong>6</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>2. Agent 2: đã làm gì, còn thiếu gì</h2>
+  <ul>
+    <li>Nghiên cứu hook story: 10 tài khoản ứng viên và 20 hook mẫu. Đây là bản nháp, vì agent <strong>không xem được story thật</strong> của đối thủ (thiếu công cụ <code>agent-reach</code>, Computer Use bị từ chối). Danh sách chỉ là ứng viên, hook là mẫu mới viết, không phải trích dẫn.</li>
+    <li>Lô story 09/10: 5 khung 1080×1920 làm từ ảnh trong thư viện TravelFrame, có file <code>manifest.json</code> ghi nguồn và checksum. Khung 4 có poll nên phải đăng tay (MANUAL), 4 khung còn lại đăng qua API.</li>
+    <li>Script <code>publish-story.mjs</code>: chạy thử (dry-run) thành công, nhận đủ 5 khung. Không đọc token, không gọi mạng. <strong>Luồng đăng thật chưa được kiểm chứng</strong>, vì sprint cấm gọi API ghi.</li>
+  </ul>
+  <p><span class="pill bad">Chặn trước khi đăng</span> Thư viện ảnh ghi rõ việc phân loại không chứng minh có đồng ý của người mẫu. Chưa có bằng chứng consent trong workspace. Meta cần địa chỉ HTTPS công khai để tải ảnh, ảnh cục bộ không dùng được.</p>
+</section>
+
+<section>
+  <h2>3. Agent 3: đã làm gì, lỗi cần sửa</h2>
+  <ul>
+    <li>Nghiên cứu Threads: 30 tài khoản/chủ đề mục tiêu, 7 từ khóa, 30 comment tương tác cao và 6 mô-típ. Thu thập thụ động trên tab Threads của Orca, không tương tác. Kho tri thức <code>threads-high-engagement-comments.json</code> tăng từ 5 lên 35 mục.</li>
+    <li>Đóng băng runner <code>threads_interact.mjs</code> vì hai lỗi cũ chưa sửa (nhãn chủ đề lệch nội dung, lặp câu "Such a well planned route" 14 lần).</li>
+    <li>Lô 09/10: 17 reply và 2 bài gốc. Đề xuất đăng tay hai phiên: 11:45 đến 12:30 và 18:30 đến 19:30, cách 45 đến 75 giây mỗi lượt.</li>
+  </ul>
+  <h3>Lỗi mình yêu cầu sửa</h3>
+  <ul>
+    <li>Số liệu thiếu nguồn dẫn: 35 đến 40 USD mỗi ngày, quẩy 10.000đ, phở 35k đến 45k so với 80k đến 120k, cước xe 13k đến 15k cho 2 km, "nhúng quẩy đúng 3 giây".</li>
+    <li>Mục 4 tư vấn thủ tục nhập cảnh và giấy khai sinh, mục 10 nói "đảm bảo an toàn": cả hai là cam kết khó kiểm chứng dưới tên thương hiệu. Mục 10 còn xưng "As someone living in Hanoi".</li>
+    <li>Reply dài 3 đến 4 câu, mở bằng lời khen, nhồi <code>"plot twist"</code>, <code>"hidden gem"</code>, <code>"game changer"</code>. Đây chính là bệnh lặp khuôn của runner cũ, nay lặp ở dạng viết tay.</li>
+    <li>Chưa kiểm tra từng URL còn mở được và còn bình luận để reply.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Giới hạn cần biết</h2>
+  <ul>
+    <li><strong>Story không kéo reach mới.</strong> Story chủ yếu tới người đã follow. Tác dụng của nó là tạo reply, phản hồi sticker và DM. Báo cáo Fanpage 07/10 cho thấy reach giảm do mất các bài "mẹo thực dụng" bùng nổ, nên reach mới vẫn phải đến từ Threads và reel.</li>
+    <li>API đăng story không gắn được sticker (poll, quiz, câu hỏi, link). Khung nào cần sticker phải đăng tay.</li>
+    <li><strong>Agent 3 báo "Out of credits"</strong>. Nó hoàn tất vòng đầu nhưng vòng sửa có thể bị dừng giữa chừng.</li>
+    <li>Độ "clickbait" của cả hai lô còn thấp hơn mức bạn yêu cầu. Mình giữ ranh giới "tò mò mạnh nhưng đúng sự thật" theo lựa chọn của bạn, và đã yêu cầu Agent 2 nâng hook theo hướng plot twist.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>5. Việc chờ bạn quyết</h2>
+  <ol>
+    <li><strong>Consent ảnh người mẫu:</strong> xác nhận ảnh trong <code>02-Solo-Photo-Walk/Daytime</code> được phép dùng công khai và thương mại. Nếu không, Agent 2 phải đổi ảnh.</li>
+    <li><strong>Nơi đặt ảnh công khai (HTTPS)</strong> để Meta tải ảnh story, hoặc đồng ý đăng toàn bộ story tay qua Meta Business Suite trong tuần đầu.</li>
+    <li><strong>Credit của Agent 3:</strong> nạp thêm, hoặc để mình chuyển việc Threads sang một agent Claude.</li>
+    <li>Cấp lại một cách chỉ đọc để xem story của đối thủ (hiện bị chặn), nếu bạn muốn research có dữ liệu quan sát thật.</li>
+    <li>Sau khi hai lô được sửa và mình chấm lại từ 7 điểm, bạn ghi <code>APPROVED</code> vào file lô thì agent mới được đăng.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>6. Bước tiếp theo</h2>
+  <ul>
+    <li>Agent 2 viết thêm 2 chuỗi story cho 10/10 và 11/10 theo chủ đề đã chứng minh hiệu quả (đóng gói đồ, gọi bánh mì, tiền Việt), nâng hook, bỏ khung trùng ảnh.</li>
+    <li>Agent 3 sửa lô theo danh sách ở mục 3, rút reply còn tối đa 2 câu và kết bằng một câu hỏi mở.</li>
+    <li>Mình chấm lại và chuyển bạn duyệt. Chỉ số mục tiêu đo vào 16/10 theo kế hoạch.</li>
+  </ul>
+  <p class="files">Tài liệu gốc: <code>Marketing-Growth/Plans/2026-10-08-Story-Threads-Sprint-Orchestration.md</code> · điểm chi tiết: <code>Marketing-Growth/Content/Stories-Threads-Sprint/Lead-Evaluations.md</code> · lô: <code>agent2-stories/batches/2026-10-09-Story-Batch.md</code>, <code>agent3-threads/batches/2026-10-09-Threads-Batch.md</code></p>
+</section>
+</main>
