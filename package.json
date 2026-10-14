@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "npm run test:mcp",
-    "test:mcp": "node --test Technology-Automation/Tests/legacy/mcp/*.test.mjs",
+    "test:mcp": "node --test Technology-Automation/Tests/legacy/mcp/*.test.mjs Technology-Automation/Tests/mcp/meta-ads-*.test.mjs",
     "test:triage": "node --test Technology-Automation/Tests/typesafe_lead_triage.test.mjs",
     "test:classifier": "node --test Technology-Automation/Tests/typesafe_content_classifier.test.mjs",
     "triage": "node Technology-Automation/Scripts/typesafe_lead_triage.mjs",
@@ -23,7 +23,9 @@
     "openseo:info": "node -e \"console.log('OpenSEO Platform: Technology-Automation/Tools/open-seo | Runbook: Technology-Automation/Runbooks/OpenSEO-Runbook.md')\"",
     "openreply:info": "node -e \"console.log('OpenReply Platform: Technology-Automation/Tools/openreply | Runbook: Technology-Automation/Runbooks/OpenReply-Runbook.md')\"",
     "media:search": "node Technology-Automation/Scripts/fetch_media_asset.mjs search",
-    "media:download": "node Technology-Automation/Scripts/fetch_media_asset.mjs download"
+    "media:download": "node Technology-Automation/Scripts/fetch_media_asset.mjs download",
+    "test:meta-ads": "node --test Technology-Automation/Tests/mcp/meta-ads-*.test.mjs",
+    "mcp:meta-ads": "node Technology-Automation/MCP/travelframe-meta-ads.mjs"
   },
   "keywords": [],
   "author": "",
