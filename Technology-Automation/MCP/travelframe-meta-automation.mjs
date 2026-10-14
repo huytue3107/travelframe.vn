@@ -40,8 +40,27 @@ function redactSecrets(value) {
   return value;
 }
 
+let cachedEffectivePageToken = null;
+
+async function getEffectivePageToken() {
+  if (cachedEffectivePageToken) return cachedEffectivePageToken;
+  const base = pageAccessToken();
+  try {
+    const res = await fetch(`${GRAPH_BASE}/${PAGE_ID}?fields=access_token`, {
+      headers: { Authorization: `Bearer ${base}` },
+    });
+    const body = await res.json();
+    if (body?.access_token) {
+      cachedEffectivePageToken = body.access_token;
+      return cachedEffectivePageToken;
+    }
+  } catch {}
+  return base;
+}
+
 async function graphRequest(path, options = {}) {
-  const { method = "GET", params = {}, body = null, token = pageAccessToken() } = options;
+  const token = options.token || (await getEffectivePageToken());
+  const { method = "GET", params = {}, body = null } = options;
   const url = new URL(`${GRAPH_BASE}/${path.replace(/^\/+/, "")}`);
   
   if (method === "GET") {
@@ -369,6 +388,41 @@ server.registerTool(
       conversion_offer: analysis.conversionOffer,
       governance_rule: "Always review and approve before live publishing.",
     });
+  }
+);
+
+// Tool: Seed comment trên bài của Page (mặc định dry_run=true, cần Rocky duyệt trước khi live)
+server.registerTool(
+  "comment_facebook_post",
+  {
+    description: "Post a top-level comment as the TravelFrame Page on a Facebook post/reel (seed comment). Defaults to dry_run; set dry_run=false only after Rocky approved the exact text.",
+    inputSchema: {
+      post_id: z.string().describe("Facebook post/reel ID, e.g. 1409099405611405_122115581019479755"),
+      message: z.string().min(1).max(300).describe("Seed comment text (EN, <=200 chars recommended)"),
+      dry_run: z.boolean().optional().default(true),
+    },
+  },
+  async ({ post_id, message, dry_run }) => {
+    if (dry_run) return result({ action: "comment_facebook_post", post_id, dry_run: true, preview_message: message });
+    const response = await graphRequest(`${post_id}/comments`, { method: "POST", body: { message } });
+    return result({ action: "comment_facebook_post", post_id, success: true, created_id: response.id, posted_message: message, timestamp: new Date().toISOString() });
+  }
+);
+
+server.registerTool(
+  "comment_instagram_media",
+  {
+    description: "Post a top-level comment as the TravelFrame Instagram account on a media item (seed comment). Defaults to dry_run; set dry_run=false only after Rocky approved the exact text.",
+    inputSchema: {
+      media_id: z.string().describe("Instagram media ID"),
+      message: z.string().min(1).max(300),
+      dry_run: z.boolean().optional().default(true),
+    },
+  },
+  async ({ media_id, message, dry_run }) => {
+    if (dry_run) return result({ action: "comment_instagram_media", media_id, dry_run: true, preview_message: message });
+    const response = await graphRequest(`${media_id}/comments`, { method: "POST", body: { message } });
+    return result({ action: "comment_instagram_media", media_id, success: true, created_id: response.id, posted_message: message, timestamp: new Date().toISOString() });
   }
 );
 

@@ -25,7 +25,7 @@ const ORCA_ELECTRON = '/Applications/Orca.app/Contents/MacOS/Orca';
 const ORCA_CLI = '/Applications/Orca.app/Contents/Resources/app.asar.unpacked/out/cli/index.js';
 const LOG_FILE = path.resolve(process.cwd(), 'Marketing-Growth/Content/Meta-Messenger-All-Interactions-Log.md');
 const GUIDE_LOCAL_PATH = path.resolve(process.cwd(), 'Creative-Production/Deliverables/TravelFrame-Hanoi-Photographer-Tour-Guide.pdf');
-const GUIDE_WEB_URL = 'https://travelframe.sidevn.com/guides/TravelFrame-Hanoi-Photographer-Tour-Guide.pdf';
+const GUIDE_WEB_URL = 'https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive?utm_source=messenger&utm_medium=dm&utm_campaign=guide_inbox';
 
 function parseArgs() {
   const args = process.argv.slice(2);
