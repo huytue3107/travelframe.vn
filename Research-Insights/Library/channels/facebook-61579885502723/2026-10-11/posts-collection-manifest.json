@@ -1,0 +1,30 @@
+{
+  "source_url": "https://www.facebook.com/profile.php?id=61579885502723",
+  "verified_page_name": "That-Creative-CEO",
+  "page_id": "61579885502723",
+  "collected_at": "2026-10-11T04:45:19.802Z",
+  "target_unique_posts": 100,
+  "collected_unique_posts": 100,
+  "batches": [
+    {
+      "file": "posts-page1-raw.json",
+      "run_id": "9RIDxBLpmzQqTArGW",
+      "limit": 50,
+      "since": "2026-08-04",
+      "cost_usd": 0.226
+    },
+    {
+      "file": "posts-page2-raw.json",
+      "run_id": "twuDoPidlZzm2FKo3",
+      "limit": 50,
+      "only_posts_older_than": "2026-08-04",
+      "cost_usd": 0.316
+    }
+  ],
+  "unique_post_id_count": 1,
+  "duplicates_removed": 0,
+  "limitations": [
+    "caption-only JEV input; videos not visually reviewed or transcribed",
+    "public likes/comments/shares/views are not reach, saves, follows, DM, bookings or revenue"
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "source": {
+    "url": "https://www.facebook.com/profile.php?id=61579885502723",
+    "page_name": "That-Creative-CEO",
+    "page_id": "61579885502723",
+    "collection_date": "2026-10-11",
+    "sampled_posts": 100,
+    "date_from": "2026-06-09T16:59:42.000Z",
+    "date_to": "2026-10-09T19:32:44.000Z",
+    "all_video_posts": true,
+    "caption_coverage": 100,
+    "duplicates_removed": 0
+  },
+  "costs": {
+    "apify_profile_usd": 0,
+    "apify_posts_runs_usd": [
+      0.226,
+      0.316
+    ],
+    "apify_total_usd": 0.542,
+    "jev_requests": 100,
+    "jev_input_tokens": 169763,
+    "jev_output_tokens": 30808
+  },
+  "scoring": {
+    "dimensions": {
+      "audience_fit": {
+        "high": 30,
+        "medium": 15,
+        "low": 0
+      },
+      "practical_value": {
+        "high": 25,
+        "medium": 12.5,
+        "low": 0
+      },
+      "photo_bridge": {
+        "high": 15,
+        "medium": 7.5,
+        "low": 0
+      },
+      "hook": {
+        "high": 15,
+        "medium": 7.5,
+        "low": 0
+      },
+      "fact_check_readiness": {
+        "low_risk": 15,
+        "medium_risk": 10,
+        "high_risk": 5
+      }
+    },
+    "bands": {
+      "80-100": "strong direct fit",
+      "60-79": "adapt topic after fact check",
+      "40-59": "structure only",
+      "0-39": "skip"
+    },
+    "interpretation": "editorial triage rubric; not a platform metric or validated predictor"
+  },
+  "fit_score_distribution": {
+    "80-100": 0,
+    "60-79": 0,
+    "40-59": 0,
+    "0-39": 100
+  },
+  "jev_choices": {
+    "topic": {
+      "unrelated": 96,
+      "photography": 4
+    },
+    "audience_fit": {
+      "low": 100
+    },
+    "usefulness": {
+      "low": 100
+    },
+    "photo_bridge": {
+      "low": 100
+    },
+    "hook": {
+      "low": 96,
+      "high": 4
+    },
+    "fact_risk": {
+      "low": 93,
+      "high": 7
+    },
+    "adaptation": {
+      "skip": 100
+    }
+  },
+  "public_metric_medians": {
+    "views": {
+      "n": 100,
+      "value": 1637.5
+    },
+    "likes": {
+      "n": 100,
+      "value": 39.5
+    },
+    "comments": {
+      "n": 89,
+      "value": 7
+    },
+    "shares": {
+      "n": 100,
+      "value": 2
+    }
+  },
+  "closest_creative_mechanics": [
+    {
+      "post_id": "122149308302996183",
+      "published_at": "2026-07-08T22:07:09.000Z",
+      "score": 30,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "high",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.27,
+      "views": 73110,
+      "likes": 2860,
+      "comments": 71,
+      "shares": 184,
+      "caption_opening": "Your skin tone looks different in every single video you post and your audience notices even if you do not.\n\nAuto white balance is your camera guessing what color everything should be. And it guesses differently every time you hit record. T",
+      "url": "https://www.facebook.com/reel/1186662960325011/"
+    },
+    {
+      "post_id": "122157006998996183",
+      "published_at": "2026-09-22T00:50:58.000Z",
+      "score": 30,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "high",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.31,
+      "views": 43058,
+      "likes": 686,
+      "comments": 87,
+      "shares": 44,
+      "caption_opening": "Does size really matter? 👀\n\nWhen it comes to soft light… absolutely.\n\nA small softbox might look “soft,” but firing a light through a large scrim creates a much bigger light source - which means softer shadows, smoother skin, and a more fl",
+      "url": "https://www.facebook.com/reel/2050945445545196/"
+    },
+    {
+      "post_id": "122153241572996183",
+      "published_at": "2026-08-17T20:55:54.000Z",
+      "score": 30,
+      "topic": "photography",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "high",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.51,
+      "views": 8033,
+      "likes": 339,
+      "comments": 3,
+      "shares": 10,
+      "caption_opening": "Where you aim your bounce changes your entire face on camera. Low makes your eyes look puffy. Mid is better but not great. High at eye level is where it clicks. You are not just filling shadows. You are lighting the eyes. That is where the ",
+      "url": "https://www.facebook.com/reel/1096241519405572/"
+    },
+    {
+      "post_id": "122146725488996183",
+      "published_at": "2026-06-13T23:39:54.000Z",
+      "score": 30,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "high",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.25,
+      "views": 7284,
+      "likes": 140,
+      "comments": 6,
+      "shares": 8,
+      "caption_opening": "Which one is your go to?\n\nYour shutter speed is deciding how your video feels before you even start talking.\n\nSlow shutter speed adds motion blur. Your movements feel smooth and cinematic. Fast shutter speed freezes everything. Your movemen",
+      "url": "https://www.facebook.com/reel/1591371055667564/"
+    }
+  ],
+  "photography_topic_examples": [
+    {
+      "post_id": "122153241572996183",
+      "published_at": "2026-08-17T20:55:54.000Z",
+      "score": 30,
+      "topic": "photography",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "high",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.51,
+      "views": 8033,
+      "likes": 339,
+      "comments": 3,
+      "shares": 10,
+      "caption_opening": "Where you aim your bounce changes your entire face on camera. Low makes your eyes look puffy. Mid is better but not great. High at eye level is where it clicks. You are not just filling shadows. You are lighting the eyes. That is where the ",
+      "url": "https://www.facebook.com/reel/1096241519405572/"
+    },
+    {
+      "post_id": "122149739882996183",
+      "published_at": "2026-07-13T01:51:24.000Z",
+      "score": 15,
+      "topic": "photography",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "low",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.53,
+      "views": 26133,
+      "likes": 1130,
+      "comments": 17,
+      "shares": 41,
+      "caption_opening": "Lighting doesn’t need to be difficult. You just have to know how to use what you got. Don’t forget to shoot shadow side for that cinematic razzle dazzle. 😏\n\n#contentcreationtips #contentcreator #cinematiclighting #productionlife #podcast",
+      "url": "https://www.facebook.com/reel/1527600568857652/"
+    },
+    {
+      "post_id": "122153458874996183",
+      "published_at": "2026-08-20T01:53:13.000Z",
+      "score": 15,
+      "topic": "photography",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "low",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.25,
+      "views": 11904,
+      "likes": 583,
+      "comments": 14,
+      "shares": 28,
+      "caption_opening": "Stop buying new cameras when you haven’t mastered your lighting. 🔥🔥🔥💪🏼\n#contentcreator #contentcreationtips #cinematiclighting #productionlife #newcamera",
+      "url": "https://www.facebook.com/reel/1387047436856170/"
+    },
+    {
+      "post_id": "122149128722996183",
+      "published_at": "2026-07-07T00:45:43.000Z",
+      "score": 15,
+      "topic": "photography",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "low",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.19,
+      "views": 5356,
+      "likes": 243,
+      "comments": 1,
+      "shares": 11,
+      "caption_opening": "Stop pointing your light at your face. The center of any light is the harshest part. The edge is where the magic is. One aim adjustment and your whole image changes.\n\nSame light. Same room. Completely different face.\n\nTry this tonight.\n\n#co",
+      "url": "https://www.facebook.com/reel/2095640627714934/"
+    }
+  ],
+  "top_comment_posts": [
+    {
+      "post_id": "122146310672996183",
+      "published_at": "2026-06-09T16:59:42.000Z",
+      "score": 15,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "low",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.74,
+      "views": 26004,
+      "likes": 1024,
+      "comments": 729,
+      "shares": 82,
+      "caption_opening": "❗️Comment VFX and I’ll send you the link.❗️\n\nHollywood VFX are finally accessible to everyone. I made movie-grade transformations in my kitchen for thirty bucks outfit changes, environment swaps, new windows appearing, full scene transforma",
+      "url": "https://www.facebook.com/reel/1926416621401099/"
+    },
+    {
+      "post_id": "122146538654996183",
+      "published_at": "2026-06-12T01:36:42.000Z",
+      "score": 15,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "low",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.74,
+      "views": 11820,
+      "likes": 545,
+      "comments": 278,
+      "shares": 36,
+      "caption_opening": "❗️Comment “HELP” for the checklist ❗️\n\nKnowing your content is not performing is useless. Knowing WHY it is not performing is everything. Every metric is a symptom. Find the weakest one. Fix that first. Everything shifts.\n\n#socialmediagrowt",
+      "url": "https://www.facebook.com/reel/1512996467150328/"
+    },
+    {
+      "post_id": "122149938608996183",
+      "published_at": "2026-07-15T01:39:39.000Z",
+      "score": 15,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "low",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.85,
+      "views": 5681,
+      "likes": 200,
+      "comments": 133,
+      "shares": 13,
+      "caption_opening": "❗️Comment “HOOKS” and I’ll send you my hook vault!❗️\n\nThe hook is the most important part but not the only part that makes a viral video! Your energy, emotion, and being your true authentic self coupled with these hooks are a great place to",
+      "url": "https://www.facebook.com/reel/1034635095683013/"
+    },
+    {
+      "post_id": "122157006998996183",
+      "published_at": "2026-09-22T00:50:58.000Z",
+      "score": 30,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "high",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.31,
+      "views": 43058,
+      "likes": 686,
+      "comments": 87,
+      "shares": 44,
+      "caption_opening": "Does size really matter? 👀\n\nWhen it comes to soft light… absolutely.\n\nA small softbox might look “soft,” but firing a light through a large scrim creates a much bigger light source - which means softer shadows, smoother skin, and a more fl",
+      "url": "https://www.facebook.com/reel/2050945445545196/"
+    },
+    {
+      "post_id": "122150609648996183",
+      "published_at": "2026-07-22T02:44:30.000Z",
+      "score": 5,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "low",
+      "fact_risk": "high",
+      "adaptation": "skip",
+      "hook_confidence": 0.98,
+      "views": 1624,
+      "likes": 46,
+      "comments": 79,
+      "shares": 3,
+      "caption_opening": "❗️Comment “FREE” and I’ll send you the link❗️\n\nHiggsfield just took the limits off. Most top models - unlimited and FREE. Seedance 2.0, Kling 3.0, Seedream 5.0, Nano Banana 2. No credits. No caps. Nobody has ever done this.\n\nThe window open",
+      "url": "https://www.facebook.com/reel/3604315173040064/"
+    }
+  ],
+  "top_views_posts": [
+    {
+      "post_id": "122148454454996183",
+      "published_at": "2026-06-30T03:42:02.000Z",
+      "score": 15,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "low",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 1,
+      "views": 73664,
+      "likes": 3645,
+      "comments": 12,
+      "shares": 225,
+      "caption_opening": "The options are endless! Learn each one and use them wisely. \n\n#contentcreator #contentcreationtips #productionlife #filmmakingtips #cinematiclighting",
+      "url": "https://www.facebook.com/reel/2774961676211919/"
+    },
+    {
+      "post_id": "122149308302996183",
+      "published_at": "2026-07-08T22:07:09.000Z",
+      "score": 30,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "high",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.27,
+      "views": 73110,
+      "likes": 2860,
+      "comments": 71,
+      "shares": 184,
+      "caption_opening": "Your skin tone looks different in every single video you post and your audience notices even if you do not.\n\nAuto white balance is your camera guessing what color everything should be. And it guesses differently every time you hit record. T",
+      "url": "https://www.facebook.com/reel/1186662960325011/"
+    },
+    {
+      "post_id": "122157006998996183",
+      "published_at": "2026-09-22T00:50:58.000Z",
+      "score": 30,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "high",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.31,
+      "views": 43058,
+      "likes": 686,
+      "comments": 87,
+      "shares": 44,
+      "caption_opening": "Does size really matter? 👀\n\nWhen it comes to soft light… absolutely.\n\nA small softbox might look “soft,” but firing a light through a large scrim creates a much bigger light source - which means softer shadows, smoother skin, and a more fl",
+      "url": "https://www.facebook.com/reel/2050945445545196/"
+    },
+    {
+      "post_id": "122154253634996183",
+      "published_at": "2026-08-28T02:03:41.000Z",
+      "score": 15,
+      "topic": "unrelated",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "low",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.18,
+      "views": 28755,
+      "likes": 1268,
+      "comments": 8,
+      "shares": 57,
+      "caption_opening": "It’s the little things in lighting that make the biggest difference. \n\nIf you put your key light too high, it gives you raccoon eyes. If you put your key light just over eye level, that equals perfection. 👌🏻 \n\n#contentcreator #cinematicli",
+      "url": "https://www.facebook.com/reel/1404860978272586/"
+    },
+    {
+      "post_id": "122149739882996183",
+      "published_at": "2026-07-13T01:51:24.000Z",
+      "score": 15,
+      "topic": "photography",
+      "audience_fit": "low",
+      "usefulness": "low",
+      "photo_bridge": "low",
+      "hook": "low",
+      "fact_risk": "low",
+      "adaptation": "skip",
+      "hook_confidence": 0.53,
+      "views": 26133,
+      "likes": 1130,
+      "comments": 17,
+      "shares": 41,
+      "caption_opening": "Lighting doesn’t need to be difficult. You just have to know how to use what you got. Don’t forget to shoot shadow side for that cinematic razzle dazzle. 😏\n\n#contentcreationtips #contentcreator #cinematiclighting #productionlife #podcast",
+      "url": "https://www.facebook.com/reel/1527600568857652/"
+    }
+  ],
+  "limitations": [
+    "caption-only JEV input; no video playback or transcript",
+    "public likes/comments/shares/views are snapshots, not reach/saves/follows/DMs/bookings/revenue",
+    "post ages differ; public counts are not age-normalized",
+    "hook classifications are uncertain; human review needed before adapting"
+  ]
+}

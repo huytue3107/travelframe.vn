@@ -1,0 +1,15 @@
+{
+  "id": "twuDoPidlZzm2FKo3",
+  "actId": "KoJrdxJCTtpon81KY",
+  "status": "SUCCEEDED",
+  "startedAt": "2026-10-11T04:42:49.534Z",
+  "finishedAt": "2026-10-11T04:44:56.995Z",
+  "defaultDatasetId": "7J3zqHF7Pi7YiRsnt",
+  "usageTotalUsd": 0.316,
+  "chargedEventCounts": {
+    "post": 48,
+    "actor-start": 1,
+    "filter-applied": 48
+  },
+  "buildId": "635skUBdQ6A6knewv"
+}

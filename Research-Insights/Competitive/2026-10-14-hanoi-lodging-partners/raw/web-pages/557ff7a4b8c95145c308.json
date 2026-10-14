@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://m.bwt.com.tw/Hotel/HAN105",
+  "source_url": "https://www.bwt.com.tw/Hotel/HAN105",
+  "verified_date": "2026-10-14",
+  "status": "OK",
+  "text": "飯店餐盒說明 登入 登入後，才能在不同裝置查看\"最愛清單\" 使用Google帳戶登入 使用Facebook帳戶登入 使用Line帳號登入 或 以訪客身分繼續 不要再提醒我 其他登入方式 我們正在開發中，感謝您的支持！ {{DataInfo.HTL_CNM}} {{DataInfo.NATN_CNM}} {{DataInfo.HTL_CL_DR}} {{DataInfo.URL}} ') : ''\"> {{oData.IMG_DR}}",
+  "emails": [],
+  "links": [],
+  "http_status": 200,
+  "title": "飯店餐盒說明"
+}

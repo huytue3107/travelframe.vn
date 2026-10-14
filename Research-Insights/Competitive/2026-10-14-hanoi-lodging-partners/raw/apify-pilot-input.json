@@ -1,0 +1,18 @@
+{
+  "queries": "Hanoi hotel official contact\nHanoi homestay official email\nkhách sạn Hoàn Kiếm Hà Nội website\nhomestay Hoàn Kiếm Hà Nội\nkhách sạn Tây Hồ Hà Nội website\nhomestay Ba Vì Hà Nội\nhomestay Sóc Sơn Hà Nội\nkhách sạn Hà Đông Hà Nội\nsite:csdl.vietnamtourism.gov.vn Hà Nội khách sạn\nsite:hoankiemtourism.com hotels",
+  "maxPagesPerQuery": 2,
+  "countryCode": "vn",
+  "languageCode": "en",
+  "maximumLeadsEnrichmentRecords": 0,
+  "verifyLeadsEnrichmentEmails": false,
+  "focusOnPaidAds": false,
+  "aiOverview": {
+    "scrapeFullAiOverview": false
+  },
+  "aiModeSearch": {
+    "enableAiMode": false
+  },
+  "websiteContentScraper": {
+    "enable": false
+  }
+}

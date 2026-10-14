@@ -1,0 +1,24 @@
+{
+  "id": "AbVVyDgWOg0xePYbB",
+  "status": "SUCCEEDED",
+  "datasetId": "WwfGWiBIkcZNpU3a9",
+  "httpStatus": 201,
+  "maxTotalChargeUsd": 1.8,
+  "queries": 127,
+  "error": null,
+  "usageTotalUsd": 1.71005,
+  "chargedEventCounts": {
+    "search-page-scraped": 380,
+    "ai-overview-scraped": 0,
+    "ai-mode-result-scraped": 0,
+    "perplexity-ai-result-scraped": 0,
+    "chatgpt-result-scraped": 0,
+    "copilot-result-scraped": 0,
+    "gemini-result-scraped": 0,
+    "lead-scraped": 0,
+    "lead-email-verified": 0,
+    "ads-scraped": 0,
+    "website-content-scraped": 0,
+    "apify-actor-start": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "requested_url": "https://www.viamichelin.it/mappe-piantine/alberghi/poi/phu_thu-100000-66eebd0c?bounds=104.4799805~20.9025983~112.0530396~26.3855515&filters=%7B%22ACCOMMODATION_RATE%22%3A7%7D&itinerary=&page=505&poiCategories=7&selectedAddress=%7B%22address%22%3A%22Binzhou%22%2C%22entityType%22%3A%22CITY%22%2C%22coordinates%22%3A%7B%22lng%22%3A108.8066673%2C%22lat%22%3A23.2194233%7D%2C%22boundsSync%22%3Atrue%2C%22region%22%3A%22Gu%C7%8Engx%C4%AB%22%2C%22zipCode%22%3A%22%22%2C%22countryCode%22%3A%22CHN%22%2C%22city%22%3A%22Binzhou%22%7D&zoiSettings=~20",
+  "source_url": "https://www.viamichelin.it/mappe-piantine/alberghi/poi/phu_thu-100000-66eebd0c?bounds=104.4799805~20.9025983~112.0530396~26.3855515&filters=%7B%22ACCOMMODATION_RATE%22%3A7%7D&itinerary=&page=505&poiCategories=7&selectedAddress=%7B%22address%22%3A%22Binzhou%22%2C%22entityType%22%3A%22CITY%22%2C%22coordinates%22%3A%7B%22lng%22%3A108.8066673%2C%22lat%22%3A23.2194233%7D%2C%22boundsSync%22%3Atrue%2C%22region%22%3A%22Gu%C7%8Engx%C4%AB%22%2C%22zipCode%22%3A%22%22%2C%22countryCode%22%3A%22CHN%22%2C%22city%22%3A%22Binzhou%22%7D&zoiSettings=~20",
+  "verified_date": "2026-10-14",
+  "status": "HTTP 403; no bypass",
+  "text": "",
+  "emails": [],
+  "links": [],
+  "http_status": 403
+}

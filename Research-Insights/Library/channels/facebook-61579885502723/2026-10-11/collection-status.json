@@ -1,0 +1,30 @@
+{
+  "task_date": "2026-10-11",
+  "attempt_started_at": "2026-10-11T04:23:45.999Z",
+  "recorded_at": "2026-10-11T04:47:47Z",
+  "source_url": "https://www.facebook.com/profile.php?id=61579885502723",
+  "provider": "Apify",
+  "verified_page_name": "That-Creative-CEO",
+  "page_id": "61579885502723",
+  "failed_auth_attempts": [
+    { "started_at": "2026-10-11T04:23:45.999Z", "http_status": 401, "error_type": "user-or-token-not-found" },
+    { "started_at": "2026-10-11T04:29:47.446Z", "http_status": 401, "error_type": "user-or-token-not-found" },
+    { "started_at": "2026-10-11T04:34:10.125Z", "http_status": 401, "error_type": "user-or-token-not-found" }
+  ],
+  "authentication_status": "successful_after_local_token_update",
+  "actor_start_attempts": 6,
+  "successful_runs": [
+    { "actor": "apify/facebook-pages-scraper", "run_id": "PQwkEvX9U7vgH1Wx7", "dataset_id": "8waR7y2H4f4fb2z6i", "status": "SUCCEEDED", "rows": 1, "cost_usd": 0 },
+    { "actor": "apify/facebook-posts-scraper", "run_id": "9RIDxBLpmzQqTArGW", "dataset_id": "PqEfnjKz5oPZtojmk", "status": "SUCCEEDED", "rows": 50, "cost_usd": 0.226 },
+    { "actor": "apify/facebook-posts-scraper", "run_id": "twuDoPidlZzm2FKo3", "dataset_id": "7J3zqHF7Pi7YiRsnt", "status": "SUCCEEDED", "rows": 50, "cost_usd": 0.316, "only_posts_older_than": "2026-08-04" }
+  ],
+  "apify_total_cost_usd": 0.542,
+  "collected_posts": 100,
+  "unique_post_ids": 100,
+  "duplicates_removed": 0,
+  "jev_requests": 100,
+  "jev_typed_decisions_per_post": 7,
+  "status": "complete",
+  "automatic_retry": false,
+  "limitations": ["JEV used caption-only inputs; no video playback or transcript", "public metrics do not include reach, saves, follows, DMs, bookings, or revenue"]
+}

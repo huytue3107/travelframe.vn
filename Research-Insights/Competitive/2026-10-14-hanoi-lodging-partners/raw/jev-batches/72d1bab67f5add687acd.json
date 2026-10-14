@@ -1,0 +1,501 @@
+{
+  "response": {
+    "model": "jev-1.13.0",
+    "answers": {
+      "HN-D47D62AEBA34_scope": {
+        "type": "choice",
+        "choice": "hotel_homestay_hanoi",
+        "confidence": 0.94,
+        "probabilities": {
+          "hotel_homestay_hanoi": 0.95,
+          "other_lodging_hanoi": 0,
+          "outside_hanoi": 0,
+          "not_a_property": 0,
+          "uncertain": 0.05
+        }
+      },
+      "HN-D47D62AEBA34_fit": {
+        "type": "score",
+        "score": 1.38,
+        "confidence": 0.68,
+        "legend": {
+          "0": "Clear documented incompatibility, non-property or outside Hanoi.",
+          "1": "Insufficient evidence: named lodging/location only, without demonstrated audience or complementary guest services.",
+          "2": "Plausible fit: Hanoi lodging with documented tourist-oriented service or relevant local experience; important evidence gaps remain.",
+          "3": "Strong fit: clear international/travel audience and complementary local experience or concierge/tour support, with usable public business contact.",
+          "4": "Exceptional fit: multiple explicit audience, location, personalized local experience and referral-service signals, plus a property-associated contact."
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0.62,
+          "2": 0.38,
+          "3": 0,
+          "4": 0
+        }
+      },
+      "HN-D47D62AEBA34_reason": {
+        "type": "choice",
+        "choice": "location",
+        "confidence": 0.76,
+        "probabilities": {
+          "audience": 0,
+          "location": 0.8,
+          "local_experience": 0.01,
+          "concierge": 0,
+          "insufficient_evidence": 0.19,
+          "disqualifier": 0
+        }
+      },
+      "HN-E1D8ADE1DAB1_scope": {
+        "type": "choice",
+        "choice": "uncertain",
+        "confidence": 0.34,
+        "probabilities": {
+          "hotel_homestay_hanoi": 0.47,
+          "other_lodging_hanoi": 0.01,
+          "outside_hanoi": 0,
+          "not_a_property": 0.05,
+          "uncertain": 0.47
+        }
+      },
+      "HN-E1D8ADE1DAB1_fit": {
+        "type": "score",
+        "score": 1.17,
+        "confidence": 0.86,
+        "legend": {
+          "0": "Clear documented incompatibility, non-property or outside Hanoi.",
+          "1": "Insufficient evidence: named lodging/location only, without demonstrated audience or complementary guest services.",
+          "2": "Plausible fit: Hanoi lodging with documented tourist-oriented service or relevant local experience; important evidence gaps remain.",
+          "3": "Strong fit: clear international/travel audience and complementary local experience or concierge/tour support, with usable public business contact.",
+          "4": "Exceptional fit: multiple explicit audience, location, personalized local experience and referral-service signals, plus a property-associated contact."
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0.83,
+          "2": 0.17,
+          "3": 0,
+          "4": 0
+        }
+      },
+      "HN-E1D8ADE1DAB1_reason": {
+        "type": "choice",
+        "choice": "insufficient_evidence",
+        "confidence": 0.69,
+        "probabilities": {
+          "audience": 0,
+          "location": 0.26,
+          "local_experience": 0,
+          "concierge": 0,
+          "insufficient_evidence": 0.74,
+          "disqualifier": 0
+        }
+      },
+      "HN-3BFF395D82EA_scope": {
+        "type": "choice",
+        "choice": "hotel_homestay_hanoi",
+        "confidence": 0.49,
+        "probabilities": {
+          "hotel_homestay_hanoi": 0.59,
+          "other_lodging_hanoi": 0,
+          "outside_hanoi": 0,
+          "not_a_property": 0,
+          "uncertain": 0.41
+        }
+      },
+      "HN-3BFF395D82EA_fit": {
+        "type": "score",
+        "score": 1.5,
+        "confidence": 0.58,
+        "legend": {
+          "0": "Clear documented incompatibility, non-property or outside Hanoi.",
+          "1": "Insufficient evidence: named lodging/location only, without demonstrated audience or complementary guest services.",
+          "2": "Plausible fit: Hanoi lodging with documented tourist-oriented service or relevant local experience; important evidence gaps remain.",
+          "3": "Strong fit: clear international/travel audience and complementary local experience or concierge/tour support, with usable public business contact.",
+          "4": "Exceptional fit: multiple explicit audience, location, personalized local experience and referral-service signals, plus a property-associated contact."
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0.5,
+          "2": 0.5,
+          "3": 0,
+          "4": 0
+        }
+      },
+      "HN-3BFF395D82EA_reason": {
+        "type": "choice",
+        "choice": "insufficient_evidence",
+        "confidence": 0.36,
+        "probabilities": {
+          "audience": 0,
+          "location": 0.45,
+          "local_experience": 0.01,
+          "concierge": 0,
+          "insufficient_evidence": 0.47,
+          "disqualifier": 0.07
+        }
+      },
+      "HN-ACBA30F17BBC_scope": {
+        "type": "choice",
+        "choice": "hotel_homestay_hanoi",
+        "confidence": 0.47,
+        "probabilities": {
+          "hotel_homestay_hanoi": 0.58,
+          "other_lodging_hanoi": 0.03,
+          "outside_hanoi": 0,
+          "not_a_property": 0,
+          "uncertain": 0.39
+        }
+      },
+      "HN-ACBA30F17BBC_fit": {
+        "type": "score",
+        "score": 1.5,
+        "confidence": 0.59,
+        "legend": {
+          "0": "Clear documented incompatibility, non-property or outside Hanoi.",
+          "1": "Insufficient evidence: named lodging/location only, without demonstrated audience or complementary guest services.",
+          "2": "Plausible fit: Hanoi lodging with documented tourist-oriented service or relevant local experience; important evidence gaps remain.",
+          "3": "Strong fit: clear international/travel audience and complementary local experience or concierge/tour support, with usable public business contact.",
+          "4": "Exceptional fit: multiple explicit audience, location, personalized local experience and referral-service signals, plus a property-associated contact."
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0.49,
+          "2": 0.51,
+          "3": 0,
+          "4": 0
+        }
+      },
+      "HN-ACBA30F17BBC_reason": {
+        "type": "choice",
+        "choice": "insufficient_evidence",
+        "confidence": 0.6,
+        "probabilities": {
+          "audience": 0,
+          "location": 0.3,
+          "local_experience": 0.01,
+          "concierge": 0,
+          "insufficient_evidence": 0.67,
+          "disqualifier": 0.02
+        }
+      },
+      "HN-571263F9ACD8_scope": {
+        "type": "choice",
+        "choice": "uncertain",
+        "confidence": 0.44,
+        "probabilities": {
+          "hotel_homestay_hanoi": 0.44,
+          "other_lodging_hanoi": 0.01,
+          "outside_hanoi": 0,
+          "not_a_property": 0,
+          "uncertain": 0.55
+        }
+      },
+      "HN-571263F9ACD8_fit": {
+        "type": "score",
+        "score": 1.37,
+        "confidence": 0.69,
+        "legend": {
+          "0": "Clear documented incompatibility, non-property or outside Hanoi.",
+          "1": "Insufficient evidence: named lodging/location only, without demonstrated audience or complementary guest services.",
+          "2": "Plausible fit: Hanoi lodging with documented tourist-oriented service or relevant local experience; important evidence gaps remain.",
+          "3": "Strong fit: clear international/travel audience and complementary local experience or concierge/tour support, with usable public business contact.",
+          "4": "Exceptional fit: multiple explicit audience, location, personalized local experience and referral-service signals, plus a property-associated contact."
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0.63,
+          "2": 0.37,
+          "3": 0,
+          "4": 0
+        }
+      },
+      "HN-571263F9ACD8_reason": {
+        "type": "choice",
+        "choice": "insufficient_evidence",
+        "confidence": 0.76,
+        "probabilities": {
+          "audience": 0,
+          "location": 0.01,
+          "local_experience": 0.19,
+          "concierge": 0,
+          "insufficient_evidence": 0.8,
+          "disqualifier": 0
+        }
+      },
+      "HN-876B14899328_scope": {
+        "type": "choice",
+        "choice": "hotel_homestay_hanoi",
+        "confidence": 0.97,
+        "probabilities": {
+          "hotel_homestay_hanoi": 0.98,
+          "other_lodging_hanoi": 0,
+          "outside_hanoi": 0,
+          "not_a_property": 0,
+          "uncertain": 0.02
+        }
+      },
+      "HN-876B14899328_fit": {
+        "type": "score",
+        "score": 2.76,
+        "confidence": 0.76,
+        "legend": {
+          "0": "Clear documented incompatibility, non-property or outside Hanoi.",
+          "1": "Insufficient evidence: named lodging/location only, without demonstrated audience or complementary guest services.",
+          "2": "Plausible fit: Hanoi lodging with documented tourist-oriented service or relevant local experience; important evidence gaps remain.",
+          "3": "Strong fit: clear international/travel audience and complementary local experience or concierge/tour support, with usable public business contact.",
+          "4": "Exceptional fit: multiple explicit audience, location, personalized local experience and referral-service signals, plus a property-associated contact."
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0,
+          "2": 0.26,
+          "3": 0.71,
+          "4": 0.03
+        }
+      },
+      "HN-876B14899328_reason": {
+        "type": "choice",
+        "choice": "concierge",
+        "confidence": 0.51,
+        "probabilities": {
+          "audience": 0,
+          "location": 0.05,
+          "local_experience": 0.33,
+          "concierge": 0.59,
+          "insufficient_evidence": 0.03,
+          "disqualifier": 0
+        }
+      },
+      "HN-55E4A1663D1C_scope": {
+        "type": "choice",
+        "choice": "hotel_homestay_hanoi",
+        "confidence": 0.96,
+        "probabilities": {
+          "hotel_homestay_hanoi": 0.97,
+          "other_lodging_hanoi": 0,
+          "outside_hanoi": 0,
+          "not_a_property": 0.01,
+          "uncertain": 0.02
+        }
+      },
+      "HN-55E4A1663D1C_fit": {
+        "type": "score",
+        "score": 1.78,
+        "confidence": 0.68,
+        "legend": {
+          "0": "Clear documented incompatibility, non-property or outside Hanoi.",
+          "1": "Insufficient evidence: named lodging/location only, without demonstrated audience or complementary guest services.",
+          "2": "Plausible fit: Hanoi lodging with documented tourist-oriented service or relevant local experience; important evidence gaps remain.",
+          "3": "Strong fit: clear international/travel audience and complementary local experience or concierge/tour support, with usable public business contact.",
+          "4": "Exceptional fit: multiple explicit audience, location, personalized local experience and referral-service signals, plus a property-associated contact."
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0.3,
+          "2": 0.62,
+          "3": 0.08,
+          "4": 0
+        }
+      },
+      "HN-55E4A1663D1C_reason": {
+        "type": "choice",
+        "choice": "location",
+        "confidence": 0.84,
+        "probabilities": {
+          "audience": 0,
+          "location": 0.87,
+          "local_experience": 0.01,
+          "concierge": 0.01,
+          "insufficient_evidence": 0.11,
+          "disqualifier": 0
+        }
+      },
+      "HN-DA9FCED898FF_scope": {
+        "type": "choice",
+        "choice": "hotel_homestay_hanoi",
+        "confidence": 1,
+        "probabilities": {
+          "hotel_homestay_hanoi": 1,
+          "other_lodging_hanoi": 0,
+          "outside_hanoi": 0,
+          "not_a_property": 0,
+          "uncertain": 0
+        }
+      },
+      "HN-DA9FCED898FF_fit": {
+        "type": "score",
+        "score": 2.72,
+        "confidence": 0.72,
+        "legend": {
+          "0": "Clear documented incompatibility, non-property or outside Hanoi.",
+          "1": "Insufficient evidence: named lodging/location only, without demonstrated audience or complementary guest services.",
+          "2": "Plausible fit: Hanoi lodging with documented tourist-oriented service or relevant local experience; important evidence gaps remain.",
+          "3": "Strong fit: clear international/travel audience and complementary local experience or concierge/tour support, with usable public business contact.",
+          "4": "Exceptional fit: multiple explicit audience, location, personalized local experience and referral-service signals, plus a property-associated contact."
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0.01,
+          "2": 0.29,
+          "3": 0.67,
+          "4": 0.03
+        }
+      },
+      "HN-DA9FCED898FF_reason": {
+        "type": "choice",
+        "choice": "concierge",
+        "confidence": 0.41,
+        "probabilities": {
+          "audience": 0,
+          "location": 0.47,
+          "local_experience": 0,
+          "concierge": 0.51,
+          "insufficient_evidence": 0.02,
+          "disqualifier": 0
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 10851,
+      "output_tokens": 1561
+    }
+  },
+  "evaluations": [
+    {
+      "property_id": "HN-D47D62AEBA34",
+      "evidence_hash": "2682f1c7fdd0e08c2bbfa290c466d0ea08acd1b00aaa6b1af154ed99909338f6",
+      "model": "jev-1.13.0",
+      "scope": "hotel_homestay_hanoi",
+      "scope_confidence": 0.94,
+      "score100": 34.5,
+      "fit_confidence": 0.68,
+      "reason": "location",
+      "probabilities": {
+        "0": 0,
+        "1": 0.62,
+        "2": 0.38,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "property_id": "HN-E1D8ADE1DAB1",
+      "evidence_hash": "6132526000e3371829e9469be2661b170daa71797146a235bd2ffb18aa9766bf",
+      "model": "jev-1.13.0",
+      "scope": "uncertain",
+      "scope_confidence": 0.34,
+      "score100": 29.3,
+      "fit_confidence": 0.86,
+      "reason": "insufficient_evidence",
+      "probabilities": {
+        "0": 0,
+        "1": 0.83,
+        "2": 0.17,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "property_id": "HN-3BFF395D82EA",
+      "evidence_hash": "125a0bf9f6f4e6058192902b1c0f76839d059b07fb5954a2ac877041cc825d27",
+      "model": "jev-1.13.0",
+      "scope": "hotel_homestay_hanoi",
+      "scope_confidence": 0.49,
+      "score100": 37.5,
+      "fit_confidence": 0.58,
+      "reason": "insufficient_evidence",
+      "probabilities": {
+        "0": 0,
+        "1": 0.5,
+        "2": 0.5,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "property_id": "HN-ACBA30F17BBC",
+      "evidence_hash": "e7bbb43195249c250493d94702ddffbf200dc19b5069412fc40e496b4e917367",
+      "model": "jev-1.13.0",
+      "scope": "hotel_homestay_hanoi",
+      "scope_confidence": 0.47,
+      "score100": 37.5,
+      "fit_confidence": 0.59,
+      "reason": "insufficient_evidence",
+      "probabilities": {
+        "0": 0,
+        "1": 0.49,
+        "2": 0.51,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "property_id": "HN-571263F9ACD8",
+      "evidence_hash": "a72d27e331153ff24dd0b04b9e1394bf9b681660d2ec8252223620292897ac83",
+      "model": "jev-1.13.0",
+      "scope": "uncertain",
+      "scope_confidence": 0.44,
+      "score100": 34.3,
+      "fit_confidence": 0.69,
+      "reason": "insufficient_evidence",
+      "probabilities": {
+        "0": 0,
+        "1": 0.63,
+        "2": 0.37,
+        "3": 0,
+        "4": 0
+      }
+    },
+    {
+      "property_id": "HN-876B14899328",
+      "evidence_hash": "a3a330f93508386f1a92ab719546c0b039e9542bc9ec168f02b20e57404d6104",
+      "model": "jev-1.13.0",
+      "scope": "hotel_homestay_hanoi",
+      "scope_confidence": 0.97,
+      "score100": 69,
+      "fit_confidence": 0.76,
+      "reason": "concierge",
+      "probabilities": {
+        "0": 0,
+        "1": 0,
+        "2": 0.26,
+        "3": 0.71,
+        "4": 0.03
+      }
+    },
+    {
+      "property_id": "HN-55E4A1663D1C",
+      "evidence_hash": "d9ee0d62c9cbfd968af7c362da4612c34c84e91bddf8c6729e86336934eb8bf0",
+      "model": "jev-1.13.0",
+      "scope": "hotel_homestay_hanoi",
+      "scope_confidence": 0.96,
+      "score100": 44.5,
+      "fit_confidence": 0.68,
+      "reason": "location",
+      "probabilities": {
+        "0": 0,
+        "1": 0.3,
+        "2": 0.62,
+        "3": 0.08,
+        "4": 0
+      }
+    },
+    {
+      "property_id": "HN-DA9FCED898FF",
+      "evidence_hash": "4d0469bf6ba32b708722b82ae99cac5c05695b15f5c15f8c6e3ca8940de4b893",
+      "model": "jev-1.13.0",
+      "scope": "hotel_homestay_hanoi",
+      "scope_confidence": 1,
+      "score100": 68,
+      "fit_confidence": 0.72,
+      "reason": "concierge",
+      "probabilities": {
+        "0": 0,
+        "1": 0.01,
+        "2": 0.29,
+        "3": 0.67,
+        "4": 0.03
+      }
+    }
+  ]
+}

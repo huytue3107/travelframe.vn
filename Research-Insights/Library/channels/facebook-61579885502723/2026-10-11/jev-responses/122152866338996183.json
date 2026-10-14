@@ -1,0 +1,85 @@
+{
+  "research_id": "122152866338996183",
+  "model": "jev-latest",
+  "captured_at": "2026-10-11T04:45:39.706Z",
+  "answers": {
+    "topic": {
+      "type": "choice",
+      "choice": "unrelated",
+      "confidence": 0.96,
+      "probabilities": {
+        "utility": 0,
+        "food_cafe": 0,
+        "hanoi_discovery": 0,
+        "vietnam_discovery": 0,
+        "photography": 0,
+        "service_promo": 0.03,
+        "unrelated": 0.97
+      }
+    },
+    "audience_fit": {
+      "type": "choice",
+      "choice": "low",
+      "confidence": 1,
+      "probabilities": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      }
+    },
+    "usefulness": {
+      "type": "choice",
+      "choice": "low",
+      "confidence": 0.98,
+      "probabilities": {
+        "high": 0,
+        "medium": 0.01,
+        "low": 0.99
+      }
+    },
+    "photo_bridge": {
+      "type": "choice",
+      "choice": "low",
+      "confidence": 1,
+      "probabilities": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      }
+    },
+    "hook": {
+      "type": "choice",
+      "choice": "low",
+      "confidence": 0.94,
+      "probabilities": {
+        "high": 0.02,
+        "medium": 0.02,
+        "low": 0.96
+      }
+    },
+    "fact_risk": {
+      "type": "choice",
+      "choice": "low",
+      "confidence": 0.91,
+      "probabilities": {
+        "high": 0.04,
+        "medium": 0.02,
+        "low": 0.94
+      }
+    },
+    "adaptation": {
+      "type": "choice",
+      "choice": "skip",
+      "confidence": 0.74,
+      "probabilities": {
+        "adapt_topic": 0.02,
+        "structure_only": 0.15,
+        "skip": 0.83
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 1767,
+    "output_tokens": 308
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "status": 400,
+  "detail": "{\"detail\":{\"error_type\":\"api_usage_error\",\"message\":\"Request contains invalid Unicode text.\"}}",
+  "checked_at": "2026-10-14T08:35:19.122Z",
+  "request_id": "0eae8b9df61f409556e7"
+}

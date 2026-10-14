@@ -1,0 +1,13 @@
+{
+  "rate_usd_per_million_input_tokens": 0.042,
+  "rate_source": "https://docs.typesafe.ai/models",
+  "cap_usd": 0.12,
+  "known_input_tokens": 2623219,
+  "reserved_unknown_input_tokens": 137228,
+  "input_tokens_upper_bound": 2760447,
+  "known_cost_usd": 0.11017519800000002,
+  "estimated_cost_usd": 0.11593877400000001,
+  "assessed": 2055,
+  "candidates": 2055,
+  "missing_or_stale": []
+}

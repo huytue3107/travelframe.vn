@@ -1,0 +1,9 @@
+{
+  "status": "resolved",
+  "phase": "collect",
+  "captured_at": "2026-10-11T04:34:10.125Z",
+  "detail": "Apify HTTP 401; error-type=user-or-token-not-found",
+  "resolved_at": "2026-10-11T04:41:18.085Z",
+  "resolution": "Local APIFY_TOKEN updated; subsequent Apify actor runs succeeded.",
+  "automatic_retry": false
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-14",
+  "status": "Research / Review; no outreach",
+  "apify_cost_usd": 4.2302,
+  "jev_known_cost_usd": 0.11017519800000002,
+  "jev_cost_upper_bound_usd": 0.11593877400000001,
+  "candidates": 2055,
+  "jev_assessed_current": 2055,
+  "priorities": {
+    "P3": 899,
+    "Review": 504,
+    "P2": 83,
+    "P1": 50,
+    "Excluded": 519
+  },
+  "hanoi_properties": 1240,
+  "hotel_homestay_hanoi": 1083,
+  "properties_with_email_hanoi": 514,
+  "public_unique_emails_hanoi": 573,
+  "public_email_domains_with_mx": 490,
+  "shortlist": 133,
+  "unique_queries_all_stages": 672,
+  "coverage": [
+    {
+      "stage": "pilot",
+      "requested_unique": 10,
+      "returned_unique": 10,
+      "missing_queries": [],
+      "result_pages": 20,
+      "organic_rows": 189
+    },
+    {
+      "stage": "districts",
+      "requested_unique": 127,
+      "returned_unique": 127,
+      "missing_queries": [],
+      "result_pages": 380,
+      "organic_rows": 3662
+    },
+    {
+      "stage": "wards",
+      "requested_unique": 252,
+      "returned_unique": 252,
+      "missing_queries": [],
+      "result_pages": 252,
+      "organic_rows": 2311
+    },
+    {
+      "stage": "contacts",
+      "requested_unique": 288,
+      "returned_unique": 288,
+      "missing_queries": [],
+      "result_pages": 288,
+      "organic_rows": 1895
+    }
+  ],
+  "source_registry_count": 566,
+  "source_association_count": 90,
+  "ward_count": 126,
+  "jev_pending": 0,
+  "email_qa_suppressed_evidence_rows": 17
+}

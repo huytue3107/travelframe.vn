@@ -1,0 +1,51 @@
+{
+  "status": "Research / Review",
+  "date": "2026-10-14",
+  "files": {
+    "TravelFrame-Hanoi-Lodging-Partners.xlsx": {
+      "bytes": 428506,
+      "sha256": "c2fd5e581839305e6db1e8de8867a474941e55031649ffdff9aa2092bd2d6fc2"
+    },
+    "Hanoi-Lodging-All-Candidates.csv": {
+      "bytes": 1181507,
+      "sha256": "552f1d6f4fed87b8d56b368f057641f1e1fad95607b1edfd3a9498b7eb89b138"
+    },
+    "Hanoi-TravelFrame-Partner-Shortlist.csv": {
+      "bytes": 91005,
+      "sha256": "5a6e2a5103331956eae78890312a0166e12931526523e06f73e8f4a991dd483c"
+    },
+    "Hanoi-Partner-Public-Emails.csv": {
+      "bytes": 204759,
+      "sha256": "9ae8bc3c5c58d9c851f98858c001c9590922d914a61b8eca6369d0c4d13525c7"
+    },
+    "Hanoi-Jev-Pending.csv": {
+      "bytes": 263,
+      "sha256": "eacfb12c7cfffcdbeb745fd2b3f1fdab3661a578b939dec8e1720a4898d3294f"
+    },
+    "README.md": {
+      "bytes": 4963,
+      "sha256": "a98b00a219fa8e9a08c3e44fcc3dcf1f0330f1c7788dc59e2cae9ad5fb41e3ba"
+    },
+    "METHOD.md": {
+      "bytes": 5494,
+      "sha256": "f3208c94315584e417f35dbe31fad1df92a8fa0a7e53ef1f0cf5092a85ae6151"
+    }
+  },
+  "jev_pending": 0,
+  "verification": {
+    "data_provenance": "PASS",
+    "email_normalization": "PASS",
+    "workbook_integrity": "PASS; 4 sheets, reconciled summary, formula errors 0, visual previews reviewed",
+    "npm_test": "158 passed",
+    "test_skills": "15 passed",
+    "workspace_check": "Known baseline link and legacy-path failures; no new research file failures",
+    "jev_coverage": "2055/2055; pending 0",
+    "unicode_evidence": "PASS; all 2055 evidence records"
+  },
+  "jev_assessed": 2055,
+  "apify_cap_usd": 5,
+  "jev_cap_usd": 0.12,
+  "apify_cost_usd": 4.2302,
+  "jev_known_cost_usd": 0.11017519800000002,
+  "jev_cost_upper_bound_usd": 0.11593877400000001
+}

