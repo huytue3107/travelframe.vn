@@ -305,6 +305,13 @@ Quick replies:
 >
 > Your booking is only confirmed after the date, plan and inclusions are agreed
 > in writing.
+>
+> In the meantime, you can explore our tour packages, routes, and live price estimates here:
+> 🔗 https://travelframe.sidevn.com/tours?utm_source=instagram&utm_medium=dm&utm_campaign=inbound_pitch&utm_content=view_packages
+
+Button:
+
+`Explore Tours & Rates 📸` (URL: `https://travelframe.sidevn.com/tours?utm_source=instagram&utm_medium=dm&utm_campaign=inbound_pitch&utm_content=view_packages`)
 
 Actions:
 

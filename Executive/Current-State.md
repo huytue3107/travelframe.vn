@@ -4,6 +4,8 @@
 
 ## Approved
 
+- 2026-10-09: Rocky duyệt phương án Meta Ads photo walk 14 ngày, 300.000 VND/ngày, tổng trần media 4.200.000 VND; prospect 210.000 + warm 90.000 VND/ngày khi tệp khả dụng. Scope, điều chỉnh pilot cũ và điều kiện trước chạy: [DEC-20261009-WARM-PHOTO-DM](DEC-20261009-WARM-PHOTO-DM.md). Chưa kích hoạt live.
+
 - Company OS dùng folder English, không đánh số.
 - Side Agency vault tiếp tục là canonical source cho chiến lược TravelFrame.
 - Migration chạy theo batch, có checksum, validation và rollback.
