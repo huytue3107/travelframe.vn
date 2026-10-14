@@ -43,7 +43,7 @@ Cập nhật 2026-10-07 (MIG-20261007-META-ADS-MCP-RESTORE):
 ```json
 "travelframe-meta-ads": {
   "command": "/bin/zsh",
-  "args": ["/Users/macbook/Codex GPT/travelframe.vn/Technology-Automation/Scripts/meta-ads-mcp/run.sh"]
+  "args": ["<workspace>/Technology-Automation/Scripts/meta-ads-mcp/run.sh"]
 }
 ```
 
