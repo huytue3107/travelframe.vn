@@ -51,6 +51,32 @@ class WorkspaceCheckTests(unittest.TestCase):
             (root / "ok.md").write_text("[Target](target.md)\n", encoding="utf-8")
             self.assertEqual([], self.checker.check_markdown_links(root))
 
+    def test_vendored_skill_links_are_skipped(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            (root / "skills-lock.json").write_text(
+                '{"version": 1, "skills": {"vendor-skill": {}}}', encoding="utf-8"
+            )
+            vendor = root / ".agents" / "skills" / "vendor-skill"
+            vendor.mkdir(parents=True)
+            (vendor / "SKILL.md").write_text("[Docs](/features/x)\n", encoding="utf-8")
+            own = root / ".agents" / "skills" / "own-skill"
+            own.mkdir(parents=True)
+            (own / "SKILL.md").write_text("[Missing](missing.md)\n", encoding="utf-8")
+            errors = self.checker.check_markdown_links(root)
+            self.assertEqual(1, len(errors))
+            self.assertIn("own-skill", errors[0])
+
+    def test_local_only_and_scratch_paths_skip_legacy_check(self):
+        legacy = "/Users/macbook/Codex GPT/travelframe.vn/x\n"
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            (root / ".claude").mkdir()
+            (root / ".claude" / "settings.local.json").write_text(legacy, encoding="utf-8")
+            (root / "scratch").mkdir()
+            (root / "scratch" / "tool.py").write_text(legacy, encoding="utf-8")
+            self.assertEqual([], self.checker.check_legacy_absolute_paths(root))
+
     def test_skill_governance_files_exist(self):
         self.assertEqual([], self.checker.check_skill_governance_files(ROOT))
 

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import subprocess
 import sys
@@ -74,7 +75,38 @@ SKIP_PARTS = {
     ".pytest_cache",
     ".worktrees",  # sibling git worktrees: gitignored local checkouts, not workspace state
     "Tools",
+    "scratch",  # gitignored local scratch: ad-hoc scripts and dumps, not workspace state
+    "graphify-out",  # gitignored generated knowledge graph; manifest needs absolute paths
+    ".hyperframes",  # generated local video engine caches and render manifests
 }
+
+# Machine-local files that are never workspace state (permission caches etc.).
+LOCAL_ONLY_EXCLUDED = (
+    Path(".claude/settings.local.json"),
+)
+
+VENDORED_SKILL_ROOTS = (".agents/skills", ".claude/skills")
+
+
+def _vendored_skill_names(root: Path) -> set[str]:
+    """Skills synced from third-party packs (skills-lock.json); edits get overwritten on sync."""
+    lock = root / "skills-lock.json"
+    try:
+        data = json.loads(lock.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return set()
+    skills = data.get("skills", {}) if isinstance(data, dict) else {}
+    return set(skills) if isinstance(skills, dict) else set()
+
+
+def _is_vendored_skill_file(relative: Path, vendored: set[str]) -> bool:
+    parts = relative.parts
+    for skill_root in VENDORED_SKILL_ROOTS:
+        root_parts = Path(skill_root).parts
+        if parts[: len(root_parts)] == root_parts and len(parts) > len(root_parts):
+            if parts[len(root_parts)] in vendored:
+                return True
+    return False
 
 LEGACY_ABSOLUTE_ROOT = "/Users/macbook/Codex GPT/travelframe.vn/"
 POLICY_START = "<!-- SHARED-AGENT-POLICY:START -->"
@@ -148,7 +180,7 @@ def _iter_text_files(root: Path):
         if not path.is_file() or path.suffix.lower() not in TEXT_SUFFIXES:
             continue
         relative = path.relative_to(root)
-        if relative in LEGACY_CHECK_SELF_EXCLUDED:
+        if relative in LEGACY_CHECK_SELF_EXCLUDED or relative in LOCAL_ONLY_EXCLUDED:
             continue
         if any(part in SKIP_PARTS for part in relative.parts):
             continue
@@ -176,9 +208,12 @@ def check_legacy_absolute_paths(root: Path) -> list[str]:
 
 def check_markdown_links(root: Path) -> list[str]:
     errors = []
+    vendored = _vendored_skill_names(root)
     for path in root.rglob("*.md"):
         relative = path.relative_to(root)
         if any(part in SKIP_PARTS for part in relative.parts):
+            continue
+        if _is_vendored_skill_file(relative, vendored):
             continue
         try:
             text = path.read_text(encoding="utf-8")

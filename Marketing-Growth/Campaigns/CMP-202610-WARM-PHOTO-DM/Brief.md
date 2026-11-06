@@ -112,7 +112,7 @@ Nếu giữ chi phí hội thoại của CSV cũ, 4.200.000 / 66.216 ≈ 63 hộ
 
 - Tài liệu người dùng: /Users/macbook/.codex/attachments/65eaecc8-7d95-4395-94ed-aee4755e323e/Pasted text.txt.
 - [Pilot Approved](../../Plans/TravelFrame-Meta-Ads-300USD-Pilot-2026-09-15.md), [Strategy v2 Draft](../../Plans/2026-10-07-Meta-Ads-Strategy-v2.md).
-- [CSV report](../../../Data-Analytics/Reports/2026-10-05-TKQC-SIDE112-2-Meta-Ads-CSV-Report.md), [Executive report Review 09/10](../../../Data-Analytics/Reports/2026-10-09-TravelFrame-Executive-Performance-Update.md).
+- CSV report `2026-10-05-TKQC-SIDE112-2-Meta-Ads-CSV-Report.md` (đã gỡ khỏi workspace 21/10; bản gốc trong git commit `2d4835d5`), [Executive report Review 09/10](../../../Data-Analytics/Reports/2026-10-09-TravelFrame-Executive-Performance-Update.md).
 - Canonical: /Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/02-Audience-And-Funnel.md; 03-Product-And-Guest-Experience.md; 11-Proof-And-Approved-Claims.md.
 - [Meta Blueprint: Instagram Direct](https://agencies.facebookblueprint.com/student/page/631771): hỗ trợ hướng click-to-DM, không xác nhận cấu hình của tài khoản này.
 - [Meta: Reels ads](https://www.facebook.com/business/ads/facebook-instagram-reels-ads): video dọc, safe zones, existing post và placement customization; không suy ra mức cải thiện của TravelFrame.

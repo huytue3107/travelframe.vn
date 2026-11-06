@@ -13,6 +13,7 @@ build/
 .worktrees/
 .qa-docx/
 scratch/
+graphify-out/
 ~$*
 Technology-Automation/Tools/
 
@@ -42,3 +43,6 @@ Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/audio/
 Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/.hyperframes/
 Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/.thumbnails/
 Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/.waveform-cache/
+
+# Machine-local Claude permission cache
+.claude/settings.local.json
