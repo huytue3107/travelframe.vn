@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-23",
+  "url": "https://travelframe.sidevn.com/news/hanoi-old-quarter-photoshoot-harry-thin",
+  "anonymous_status": 200,
+  "title": "Hanoi Old Quarter Photoshoot: Thin With Harry | TravelFrame Vietnam",
+  "description": "Explore a Hanoi Old Quarter photoshoot through Thin's red-dress portraits with Harry at Dong Xuan Market, with posing ideas for your own photo walk.",
+  "canonical": "https://travelframe.sidevn.com/news/hanoi-old-quarter-photoshoot-harry-thin",
+  "robots": [],
+  "h1": [
+    "A Hanoi Old Quarter photoshoot with Harry: Thin in red"
+  ],
+  "h2": [
+    "Thin’s red dress meets the market’s everyday textures",
+    "A few changes in pose create a different picture",
+    "Let Hanoi’s daily life stay in the frame",
+    "Choose the mood you want to bring home",
+    "Plan your own photo walk with Harry",
+    "Want to taste it yourself?"
+  ],
+  "images": [
+    {
+      "src": "https://travelframe.sidevn.com/sites/default/files/2026-10/Dda473Fj_2F-08.webp",
+      "alt": "Thin in a red dress and sunglasses looking back toward the camera, with the Dong Xuan Market sign behind her",
+      "width": "1200",
+      "height": "1600"
+    },
+    {
+      "src": "https://travelframe.sidevn.com/sites/default/files/inline-images/DdYpZDHI8rM-01.jpg",
+      "alt": "Thin facing the camera in a red dress, with both arms extended against a silver metal shutter",
+      "width": "1200",
+      "height": "1600"
+    },
+    {
+      "src": "https://travelframe.sidevn.com/sites/default/files/inline-images/DdmLRD5I2Mk-05.jpg",
+      "alt": "Thin in sunglasses and a red dress beside stacked sacks and patterned bundles in the market setting",
+      "width": "1600",
+      "height": "1069"
+    },
+    {
+      "src": "https://travelframe.sidevn.com/sites/default/files/inline-images/DdmLRD5I2Mk-06.jpg",
+      "alt": "Thin on a market stairway, with metal gates, railings, bundles of goods, and another person behind her",
+      "width": "1600",
+      "height": "1069"
+    }
+  ],
+  "checks": [
+    {
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-10/Dda473Fj_2F-08.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": 208458,
+      "sha256": "a5dd0e69159f6b80e73e575388bc5c5ec262468cfec66d918e98c244ad46aea1"
+    },
+    {
+      "url": "https://travelframe.sidevn.com/sites/default/files/inline-images/DdYpZDHI8rM-01.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 385080,
+      "sha256": "681badbf38254134ca16efc8d0f52459b1c93d967e0733c3086bb34b9c2edcaa"
+    },
+    {
+      "url": "https://travelframe.sidevn.com/sites/default/files/inline-images/DdmLRD5I2Mk-05.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 406259,
+      "sha256": "0ac04113558d0d890426a7c486d17bf54d800a4558043052d8a64a64e07e9fc5"
+    },
+    {
+      "url": "https://travelframe.sidevn.com/sites/default/files/inline-images/DdmLRD5I2Mk-06.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 352459,
+      "sha256": "4516bc29f8540f7b22f8ebdae15312336b05a5e3112812a8324519d2b618bd04"
+    },
+    {
+      "url": "https://travelframe.sidevn.com/hanoi-photoshoot",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 18140,
+      "sha256": "c0ed6095ce5e66820fda9e4a9d2e45344aeb880ff89ed86ceda5e6907056f276"
+    }
+  ],
+  "links": [
+    "/news",
+    "https://travelframe.sidevn.com/hanoi-photoshoot",
+    "https://www.instagram.com/travelframe.vn/",
+    "/booking",
+    "/tours"
+  ],
+  "public_identifiers": [
+    [
+      "body",
+      {}
+    ]
+  ]
+}

@@ -15,6 +15,7 @@ Platform/API snapshot, publish ledger, CRM evidence và campaign IDs.
 ## Outputs
 
 Reports, results, caveats và decision inputs.
+Quy chuẩn báo cáo hằng ngày: `Daily-Reporting-Standard.md` (áp dụng từ 23/10/2026).
 
 ## Source of truth
 

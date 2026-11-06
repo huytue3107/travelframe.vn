@@ -1,0 +1,35 @@
+<template><style>/* FONTS_V04_START */
+@font-face{font-family:'HeritageDisplay';src:url('assets/fonts/HeritageDisplay-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:block}
+@font-face{font-family:'Montserrat';src:url('assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');font-style:normal;font-weight:800;font-display:block}
+@font-face{font-family:'Montserrat';src:url('assets/fonts/Montserrat-Black.ttf') format('truetype');font-style:normal;font-weight:900;font-display:block}
+/* FONTS_V04_END */#root{position:absolute;inset:0;font-family:'Montserrat',sans-serif}.head{position:absolute;left:90px;top:270px;width:870px;text-align:center}.title{font-family:'HeritageDisplay',sans-serif;font-size:72px;line-height:1.18;font-weight:400;font-synthesis:none;letter-spacing:0;color:#ae2a1d;-webkit-text-stroke:2px #161616;paint-order:stroke fill}.sub{font-size:30px;font-weight:800;margin-top:18px;line-height:1.15;color:#202020}.under{margin:18px auto 0;width:140px;height:7px;background:#ae2a1d;transform-origin:left center}.photo{position:absolute;padding:13px;background:white;box-shadow:0 8px 18px #0003;border-radius:3px}.window{height:100%;overflow:hidden}.window img{width:100%;height:100%;object-fit:cover;display:block}.tape{position:absolute;top:-12px;left:35%;width:30%;height:27px;background:#e4d9b7c9;z-index:2}.cat{position:absolute;object-fit:contain;object-position:bottom;z-index:5}.flash{position:absolute;inset:0;background:white;z-index:8;pointer-events:none;opacity:0}</style><div id="root" data-composition-id="hanoi13" data-width="1080" data-height="1920"><div id="hanoi13-head" class="head"><div id="hanoi13-title" class="title">NEXT:<br>THE OLD QUARTER.</div><div id="hanoi13-sub" class="sub">Let curiosity lead.</div><div id="hanoi13-line" class="under"></div></div><div id="hanoi13-a" class="photo" data-layout-allow-overlap style="left:335px;top:595px;width:540px;height:365px;z-index:1"><div class="tape"></div><div class="window" data-layout-allow-overflow><img id="hanoi13-a-img" src="assets/old-quarter.jpg" alt="old quarter" style="object-position:50% 50%"></div></div><div id="hanoi13-b" class="photo" data-layout-allow-overlap style="left:495px;top:845px;width:385px;height:275px;z-index:2"><div class="tape"></div><div class="window" data-layout-allow-overflow><img id="hanoi13-b-img" src="assets/street-cafe.jpg" alt="street cafe" style="object-position:50% 35%"></div></div><img id="hanoi13-cat" class="cat" src="assets/meme-cat-scream.png" alt="Expressive scream cat meme sticker" style="left:70px;top:795px;width:390px;height:360px"><div id="hanoi13-flash" class="flash"></div></div><script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#hanoi13-head',{scale:.94},{scale:1,duration:.27,ease:'back.out(1.25)'},0);
+tl.fromTo('#hanoi13-line',{scaleX:0},{scaleX:1,duration:.28,ease:'power3.out'},.22);
+tl.fromTo('#hanoi13-a',{opacity:0,x:130,y:20,rotation:-12},{opacity:1,x:0,y:0,rotation:-4,duration:.45,ease:'power4.out'},.12);
+tl.fromTo('#hanoi13-b',{opacity:0,y:100,scale:.78,rotation:-12},{opacity:1,y:0,scale:1,rotation:6,duration:.40,ease:'back.out(1.25)'},.66);
+
+
+
+
+/* STOPMOTION_START */
+tl.set('#hanoi13-cat',{"transformOrigin":"50% 100%","x":0,"y":0,"rotation":0,"scaleX":1,"scaleY":1,"opacity":0},0);
+tl.set('#hanoi13-cat',{"opacity":1,"scaleX":0.78,"scaleY":0.84,"y":16,"rotation":-7},0.2);
+tl.set('#hanoi13-cat',{"scaleX":1.06,"scaleY":1.04,"y":-8,"rotation":4},0.333333);
+tl.set('#hanoi13-cat',{"scaleX":1,"scaleY":1,"y":0,"rotation":0},0.466667);
+tl.set('#hanoi13-cat',{"opacity":1,"x":-6,"y":-16,"rotation":-7,"scaleX":0.98,"scaleY":1.04},0.519323);
+tl.set('#hanoi13-cat',{"opacity":1,"x":4,"y":-5,"rotation":4,"scaleX":1,"scaleY":1},0.652657);
+tl.set('#hanoi13-cat',{"opacity":1,"x":0,"y":1,"rotation":6,"scaleX":1.03,"scaleY":0.97},0.78599);
+tl.set('#hanoi13-cat',{"opacity":1,"x":-6,"y":-6,"rotation":-7,"scaleX":1,"scaleY":1.02},0.919323);
+tl.set('#hanoi13-cat',{"opacity":1,"x":6,"y":-16,"rotation":7,"scaleX":0.98,"scaleY":1.04},1.052657);
+tl.set('#hanoi13-cat',{"opacity":1,"x":-4,"y":-5,"rotation":-4,"scaleX":1,"scaleY":1},1.219323);
+tl.set('#hanoi13-cat',{"opacity":1,"x":0,"y":1,"rotation":-6,"scaleX":1.03,"scaleY":0.97},1.352657);
+tl.set('#hanoi13-cat',{"opacity":1,"x":6,"y":-6,"rotation":7,"scaleX":1,"scaleY":1.02},1.48599);
+tl.set('#hanoi13-cat',{"opacity":1,"x":-6,"y":-16,"rotation":-7,"scaleX":0.98,"scaleY":1.04},1.619323);
+tl.set('#hanoi13-cat',{"opacity":1,"x":4,"y":-5,"rotation":4,"scaleX":1,"scaleY":1},1.752657);
+tl.set('#hanoi13-cat',{"opacity":1,"x":0,"y":1,"rotation":6,"scaleX":1.03,"scaleY":0.97},1.88599);
+tl.set('#hanoi13-cat',{"opacity":1,"x":-6,"y":-6,"rotation":-7,"scaleX":1,"scaleY":1.02},2.052657);
+tl.set('#hanoi13-cat',{"opacity":1,"x":6,"y":-16,"rotation":7,"scaleX":0.98,"scaleY":1.04},2.18599);
+tl.set('#hanoi13-cat',{"x":0,"y":0,"rotation":0,"scaleX":1,"scaleY":1,"opacity":1},2.211);
+/* STOPMOTION_END */
+window.__timelines=window.__timelines||{};window.__timelines['hanoi13']=tl;</script></template>

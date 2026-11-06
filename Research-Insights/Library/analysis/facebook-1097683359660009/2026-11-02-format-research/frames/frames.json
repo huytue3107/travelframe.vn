@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "video": "/private/tmp/travelframe-format-research-20261102/1097683359660009/video.mp4",
+  "meta": {
+    "duration_seconds": 726.690295,
+    "width": 720,
+    "height": 1280,
+    "codec": "h264",
+    "size_bytes": 29709581,
+    "has_audio": true
+  },
+  "fps": 0.04403526539459289,
+  "target": 32,
+  "focused": false,
+  "dedup": true,
+  "deduped_count": 0,
+  "timestamp_note": "uniform-mode timestamps are fps-derived estimates, not frame-exact pts_time",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 0.0,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0001.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 22.71,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0002.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 45.42,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0003.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 68.13,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0004.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 90.84,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0005.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 113.55,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0006.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 6,
+      "timestamp_seconds": 136.25,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0007.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 7,
+      "timestamp_seconds": 158.96,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0008.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 8,
+      "timestamp_seconds": 181.67,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0009.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 9,
+      "timestamp_seconds": 204.38,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0010.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 10,
+      "timestamp_seconds": 227.09,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0011.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 11,
+      "timestamp_seconds": 249.8,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0012.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 12,
+      "timestamp_seconds": 272.51,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0013.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 13,
+      "timestamp_seconds": 295.22,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0014.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 14,
+      "timestamp_seconds": 317.93,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0015.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 15,
+      "timestamp_seconds": 340.64,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0016.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 16,
+      "timestamp_seconds": 363.35,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0017.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 17,
+      "timestamp_seconds": 386.05,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0018.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 18,
+      "timestamp_seconds": 408.76,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0019.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 19,
+      "timestamp_seconds": 431.47,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0020.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 20,
+      "timestamp_seconds": 454.18,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0021.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 21,
+      "timestamp_seconds": 476.89,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0022.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 22,
+      "timestamp_seconds": 499.6,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0023.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 23,
+      "timestamp_seconds": 522.31,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0024.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 24,
+      "timestamp_seconds": 545.02,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0025.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 25,
+      "timestamp_seconds": 567.73,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0026.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 26,
+      "timestamp_seconds": 590.44,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0027.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 27,
+      "timestamp_seconds": 613.14,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0028.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 28,
+      "timestamp_seconds": 635.85,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0029.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 29,
+      "timestamp_seconds": 658.56,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0030.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 30,
+      "timestamp_seconds": 681.27,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0031.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 31,
+      "timestamp_seconds": 703.98,
+      "path": "Research-Insights/Library/analysis/facebook-1097683359660009/2026-11-02-format-research/frames/frame_0032.jpg",
+      "reason": "uniform"
+    }
+  ]
+}

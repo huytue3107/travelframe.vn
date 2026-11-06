@@ -1,0 +1,52 @@
+<template><style>/* FONTS_V04_START */
+@font-face{font-family:'HeritageDisplay';src:url('assets/fonts/HeritageDisplay-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:block}
+@font-face{font-family:'Montserrat';src:url('assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');font-style:normal;font-weight:800;font-display:block}
+@font-face{font-family:'Montserrat';src:url('assets/fonts/Montserrat-Black.ttf') format('truetype');font-style:normal;font-weight:900;font-display:block}
+/* FONTS_V04_END */#root{position:absolute;inset:0;font-family:'Montserrat',sans-serif}.head{position:absolute;left:90px;top:270px;width:870px;text-align:center}.title{font-family:'HeritageDisplay',sans-serif;font-size:72px;line-height:1.18;font-weight:400;font-synthesis:none;letter-spacing:0;color:#ae2a1d;-webkit-text-stroke:2px #161616;paint-order:stroke fill}.sub{font-size:30px;font-weight:800;margin-top:18px;line-height:1.15;color:#202020}.under{margin:18px auto 0;width:140px;height:7px;background:#ae2a1d;transform-origin:left center}.photo{position:absolute;padding:13px;background:white;box-shadow:0 8px 18px #0003;border-radius:3px}.window{height:100%;overflow:hidden}.window img{width:100%;height:100%;object-fit:cover;display:block}.tape{position:absolute;top:-12px;left:35%;width:30%;height:27px;background:#e4d9b7c9;z-index:2}.cat{position:absolute;object-fit:contain;object-position:bottom;z-index:5}.flash{position:absolute;inset:0;background:white;z-index:8;pointer-events:none;opacity:0}</style><div id="root" data-composition-id="hanoi1" data-width="1080" data-height="1920"><div id="hanoi1-head" class="head"><div id="hanoi1-title" class="title">HANOI:<br>ONLY 3 THINGS?</div><div id="hanoi1-sub" class="sub">Food. Coffee. A little wandering.</div><div id="hanoi1-line" class="under"></div></div><div id="hanoi1-a" class="photo" data-layout-allow-overlap style="left:335px;top:595px;width:540px;height:365px;z-index:1"><div class="tape"></div><div class="window" data-layout-allow-overflow><img id="hanoi1-a-img" src="assets/pho.jpg" alt="pho" style="object-position:50% 50%"></div></div><div id="hanoi1-b" class="photo" data-layout-allow-overlap style="left:495px;top:845px;width:385px;height:275px;z-index:2"><div class="tape"></div><div class="window" data-layout-allow-overflow><img id="hanoi1-b-img" src="assets/lake.jpg" alt="lake" style="object-position:50% 50%"></div></div><img id="hanoi1-cat" class="cat" src="assets/meme-cat-shock.png" alt="Expressive shock cat meme sticker" style="left:70px;top:795px;width:390px;height:360px"><div id="hanoi1-flash" class="flash"></div></div><script>
+const tl=gsap.timeline({paused:true});
+
+tl.fromTo('#hanoi1-line',{scaleX:0},{scaleX:1,duration:.28,ease:'power3.out'},.22);
+tl.set('#hanoi1-a',{rotation:-4},0);
+tl.fromTo('#hanoi1-b',{opacity:0,y:100,scale:.78,rotation:-12},{opacity:1,y:0,scale:1,rotation:6,duration:.40,ease:'back.out(1.25)'},.66);
+
+tl.to('#hanoi1-a-img',{scale:1.12,duration:.24,ease:'power3.out'},1.65);
+tl.to('#hanoi1-b',{rotation:-3,duration:.22,ease:'power2.inOut'},2.823);
+tl.set('#hanoi1-flash',{opacity:.30},.65);tl.to('#hanoi1-flash',{opacity:0,duration:.10},.66);
+
+/* STOPMOTION_START */
+tl.set('#hanoi1-cat',{"transformOrigin":"50% 100%","x":0,"y":0,"rotation":0,"scaleX":1,"scaleY":1,"opacity":1},0);
+tl.set('#hanoi1-cat',{"opacity":1,"x":0,"y":1,"rotation":-5,"scaleX":1.03,"scaleY":0.97},0);
+tl.set('#hanoi1-cat',{"opacity":1,"x":6,"y":-4,"rotation":5,"scaleX":0.98,"scaleY":1.03},0.133323);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-6,"y":-10,"rotation":-6,"scaleX":1,"scaleY":1.04},0.266657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":4,"y":-3,"rotation":4,"scaleX":1,"scaleY":1},0.433323);
+tl.set('#hanoi1-cat',{"opacity":1,"x":0,"y":1,"rotation":5,"scaleX":1.03,"scaleY":0.97},0.566657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-6,"y":-5,"rotation":-5,"scaleX":0.98,"scaleY":1.03},0.69999);
+tl.set('#hanoi1-cat',{"opacity":1,"x":6,"y":-10,"rotation":6,"scaleX":1,"scaleY":1.04},0.833323);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-4,"y":-3,"rotation":-4,"scaleX":1,"scaleY":1},0.966657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":0,"y":1,"rotation":-5,"scaleX":1.03,"scaleY":0.97},1.09999);
+tl.set('#hanoi1-cat',{"opacity":1,"x":6,"y":-4,"rotation":5,"scaleX":0.98,"scaleY":1.03},1.266657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-6,"y":-10,"rotation":-6,"scaleX":1,"scaleY":1.04},1.39999);
+tl.set('#hanoi1-cat',{"opacity":1,"x":4,"y":-3,"rotation":4,"scaleX":1,"scaleY":1},1.533323);
+tl.set('#hanoi1-cat',{"opacity":1,"x":0,"y":1,"rotation":5,"scaleX":1.03,"scaleY":0.97},1.666657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-6,"y":-5,"rotation":-5,"scaleX":0.98,"scaleY":1.03},1.79999);
+tl.set('#hanoi1-cat',{"opacity":1,"x":6,"y":-10,"rotation":6,"scaleX":1,"scaleY":1.04},1.933323);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-4,"y":-3,"rotation":-4,"scaleX":1,"scaleY":1},2.09999);
+tl.set('#hanoi1-cat',{"opacity":1,"x":0,"y":1,"rotation":-5,"scaleX":1.03,"scaleY":0.97},2.233323);
+tl.set('#hanoi1-cat',{"opacity":1,"x":6,"y":-4,"rotation":5,"scaleX":0.98,"scaleY":1.03},2.366657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-6,"y":-10,"rotation":-6,"scaleX":1,"scaleY":1.04},2.49999);
+tl.set('#hanoi1-cat',{"opacity":1,"x":4,"y":-3,"rotation":4,"scaleX":1,"scaleY":1},2.633323);
+tl.set('#hanoi1-cat',{"opacity":1,"x":0,"y":1,"rotation":5,"scaleX":1.03,"scaleY":0.97},2.766657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-6,"y":-5,"rotation":-5,"scaleX":0.98,"scaleY":1.03},2.933323);
+tl.set('#hanoi1-cat',{"opacity":1,"x":6,"y":-10,"rotation":6,"scaleX":1,"scaleY":1.04},3.066657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-4,"y":-3,"rotation":-4,"scaleX":1,"scaleY":1},3.19999);
+tl.set('#hanoi1-cat',{"opacity":1,"x":0,"y":1,"rotation":-5,"scaleX":1.03,"scaleY":0.97},3.333323);
+tl.set('#hanoi1-cat',{"opacity":1,"x":6,"y":-4,"rotation":5,"scaleX":0.98,"scaleY":1.03},3.466657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-6,"y":-10,"rotation":-6,"scaleX":1,"scaleY":1.04},3.59999);
+tl.set('#hanoi1-cat',{"opacity":1,"x":4,"y":-3,"rotation":4,"scaleX":1,"scaleY":1},3.766657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":0,"y":1,"rotation":5,"scaleX":1.03,"scaleY":0.97},3.89999);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-6,"y":-5,"rotation":-5,"scaleX":0.98,"scaleY":1.03},4.033323);
+tl.set('#hanoi1-cat',{"opacity":1,"x":6,"y":-10,"rotation":6,"scaleX":1,"scaleY":1.04},4.166657);
+tl.set('#hanoi1-cat',{"opacity":1,"x":-4,"y":-3,"rotation":-4,"scaleX":1,"scaleY":1},4.29999);
+tl.set('#hanoi1-cat',{"x":0,"y":0,"rotation":0,"scaleX":1,"scaleY":1,"opacity":1},4.381);
+/* STOPMOTION_END */
+window.__timelines=window.__timelines||{};window.__timelines['hanoi1']=tl;</script></template>

@@ -1,0 +1,49 @@
+{
+  "status": "Draft",
+  "files": [
+    {
+      "file": "Dda473Fj_2F-08.webp",
+      "source": "../../Assets/Raw/Thin-Dong-Xuan-2026-10-23/Dda473Fj_2F-08.jpg",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 208458,
+      "sha256": "a5dd0e69159f6b80e73e575388bc5c5ec262468cfec66d918e98c244ad46aea1",
+      "operation": "Resize and compress only; no crop, color adjustment or content edit"
+    },
+    {
+      "file": "DdYpZDHI8rM-01.webp",
+      "source": "../../Assets/Raw/Thin-Dong-Xuan-2026-10-23/DdYpZDHI8rM-01.jpg",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 254114,
+      "sha256": "fd896e488079fd1f62c4c7aa39d64f7f0e485e98981f09bc08630bd7aec2733e",
+      "operation": "Resize and compress only; no crop, color adjustment or content edit"
+    },
+    {
+      "file": "DdmLRD5I2Mk-05.webp",
+      "source": "../../Assets/Raw/Thin-Dong-Xuan-2026-10-23/DdmLRD5I2Mk-05.jpg",
+      "dimensions": [
+        1600,
+        1069
+      ],
+      "bytes": 323558,
+      "sha256": "c31c60e7e4533cb07347c9b1d9fea519f6c91f1eae08620a9cdfcbeecc6195c1",
+      "operation": "Resize and compress only; no crop, color adjustment or content edit"
+    },
+    {
+      "file": "DdmLRD5I2Mk-06.webp",
+      "source": "../../Assets/Raw/Thin-Dong-Xuan-2026-10-23/DdmLRD5I2Mk-06.jpg",
+      "dimensions": [
+        1600,
+        1069
+      ],
+      "bytes": 258582,
+      "sha256": "599fd75b45b02a574c77c8a44f2f12d7969bdb90b574c20312aed8b4952b6a09",
+      "operation": "Resize and compress only; no crop, color adjustment or content edit"
+    }
+  ]
+}

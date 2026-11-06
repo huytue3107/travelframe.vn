@@ -1,0 +1,20 @@
+{
+  "status": {
+    "id": "72693e77-0497-4b63-a63e-5bb09ff14f82",
+    "startUrl": "https://travelframe.sidevn.com/",
+    "status": "completed",
+    "pagesCrawled": 100,
+    "pagesTotal": 100,
+    "lighthouseTotal": 0,
+    "lighthouseCompleted": 0,
+    "lighthouseFailed": 0,
+    "currentPhase": "completed",
+    "errorCode": null,
+    "startedAt": "2026-10-20T02:10:19.773Z",
+    "completedAt": "2026-10-20T02:12:14.501Z"
+  },
+  "meta": {
+    "projectId": "b97024a3-b095-44e9-9489-d5fce1361263",
+    "url": "https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/audit?auditId=72693e77-0497-4b63-a63e-5bb09ff14f82"
+  }
+}

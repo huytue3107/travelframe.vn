@@ -1,0 +1,48 @@
+{
+  "file": "TF-Hanoi-Three-Things-Heritage-v04.mp4",
+  "sizeBytes": 30480289,
+  "sha256": "284b2709745b54263aa578ac3999f2a93f0a2ba71e1a1dba1be8f593de4271e3",
+  "audioSha256": "450b83d53c719eed50ded5a61dc66c89eda65ea581ff3cb3c22ce7e80160eaa3",
+  "audioIdenticalToV03": true,
+  "sourceComparison": "source-comparison-v04.json",
+  "fontAudit": "font-audit-v04.json",
+  "status": "Review",
+  "published": false,
+  "durationSeconds": 53.466667,
+  "streams": [
+    {
+      "codec_name": "h264",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "30/1",
+      "nb_frames": "1604",
+      "sample_rate": null,
+      "channels": null
+    },
+    {
+      "codec_name": "aac",
+      "width": null,
+      "height": null,
+      "r_frame_rate": "0/0",
+      "nb_frames": "2508",
+      "sample_rate": "48000",
+      "channels": 2
+    }
+  ],
+  "fullDecodeExitCode": 0,
+  "decodeErrorLogBytes": 0,
+  "hyperframesCheckOk": true,
+  "fontAuditOk": true,
+  "checks": {
+    "npmTest": {
+      "passed": 158,
+      "failed": 0
+    },
+    "skills": {
+      "passed": 15,
+      "failed": 0
+    },
+    "workspace": "PASS"
+  },
+  "renderSeconds": 63.8
+}

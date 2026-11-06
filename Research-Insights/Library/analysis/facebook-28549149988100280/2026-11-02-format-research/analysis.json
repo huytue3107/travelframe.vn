@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "video_key": "facebook/28549149988100280",
+  "status": "analyzed_sampled",
+  "reviewed_frame_passes": [
+    "frames",
+    "hook",
+    "ending"
+  ],
+  "observations": [
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Hook dùng lưới video với số được khoanh để minh họa vấn đề.",
+      "evidence": {
+        "index_path": "hook/frames.json",
+        "frame_index": 0
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Bốn mốc màu trên một trục, kèm mèo chỉ tay.",
+      "evidence": {
+        "index_path": "hook/frames.json",
+        "frame_index": 4
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Clip thực hành cạnh danh sách các biến số minh họa.",
+      "evidence": {
+        "index_path": "frames/frames.json",
+        "frame_index": 11
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Danh sách quy trình xuất hiện trong khung kết.",
+      "evidence": {
+        "index_path": "ending/frames.json",
+        "frame_index": 0
+      }
+    }
+  ],
+  "secondary_audio_observations": [
+    {
+      "kind": "audio_machine_observation",
+      "timestamp_estimate": "~0:03",
+      "text": "Âm kiểu thud theo chữ nhấn.",
+      "evidence": {
+        "path": "gemini-answer.md",
+        "provider": "watch/Gemini; authorized in chat"
+      }
+    },
+    {
+      "kind": "audio_machine_observation",
+      "timestamp_estimate": "~0:04",
+      "text": "Âm kiểu whoosh theo chuyển sang sơ đồ.",
+      "evidence": {
+        "path": "gemini-answer.md",
+        "provider": "watch/Gemini; authorized in chat"
+      }
+    },
+    {
+      "kind": "audio_machine_observation",
+      "timestamp_estimate": "~1:23–1:25",
+      "text": "Gemini mô tả audio của đoạn meme.",
+      "evidence": {
+        "path": "gemini-answer.md",
+        "provider": "watch/Gemini; authorized in chat"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "kind": "inference",
+      "text": "Chuyển hướng dẫn du lịch thành vài bước có tiến trình và một thẻ tổng kết.",
+      "basis": [
+        "hook/0",
+        "hook/4",
+        "frames/11",
+        "ending/0"
+      ],
+      "reason": "Đề xuất chuyển chức năng giải thích bằng hình sang một câu hỏi du lịch."
+    }
+  ],
+  "asr_quality": "ASR chia đoạn 30 giây; một số từ ngành và từ lóng sai, không coi mốc là đồng bộ từng từ.",
+  "missing_data": [
+    "No platform subtitle track",
+    "No independent human listening validation of machine SFX observations",
+    "No editing project, exact font/plugin/audio asset identity"
+  ],
+  "approval": {
+    "research": "Requested by Rocky",
+    "paid_video_analysis": "Explicitly authorized for five supplied videos",
+    "creative_direction": "Proposed; not approved"
+  }
+}

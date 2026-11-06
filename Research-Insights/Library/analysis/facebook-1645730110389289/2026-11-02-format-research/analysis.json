@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "video_key": "facebook/1645730110389289",
+  "status": "analyzed_sampled",
+  "reviewed_frame_passes": [
+    "frames",
+    "hook",
+    "ending"
+  ],
+  "observations": [
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Hook và lưới thumbnail nằm trên nền giấy, mèo biểu cảm ở giữa.",
+      "evidence": {
+        "index_path": "hook/frames.json",
+        "frame_index": 0
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Ảnh lưới nhiều bài đăng được dùng làm ví dụ đối chiếu.",
+      "evidence": {
+        "index_path": "frames/frames.json",
+        "frame_index": 9
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Một thẻ video và chữ có phối cảnh nghiêng; Gemini đã bỏ sót chi tiết này khi mô tả không có xoay phức tạp.",
+      "evidence": {
+        "index_path": "frames/frames.json",
+        "frame_index": 15
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Khung kết dùng hình cắt nền và câu nhận diện của nguồn.",
+      "evidence": {
+        "index_path": "ending/frames.json",
+        "frame_index": 3
+      }
+    }
+  ],
+  "secondary_audio_observations": [
+    {
+      "kind": "audio_machine_observation",
+      "timestamp_estimate": "0–10s",
+      "text": "Không nhận diện SFX riêng rõ tại các lần đổi hình trong hook.",
+      "evidence": {
+        "path": "gemini-answer.md",
+        "provider": "watch/Gemini; authorized in chat"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "kind": "inference",
+      "text": "Dùng một vấn đề du lịch rõ, chỉ dẫn bằng ví dụ thật và chốt một hành động dễ nhớ.",
+      "basis": [
+        "hook/0",
+        "frames/9",
+        "frames/15",
+        "ending/3"
+      ],
+      "reason": "Đề xuất chuyển chức năng giải thích bằng hình sang một câu hỏi du lịch."
+    }
+  ],
+  "asr_quality": "Nhiều lỗi phiên âm từ lóng ở câu mở và kết; không dùng để trích dẫn nguyên văn.",
+  "missing_data": [
+    "No platform subtitle track",
+    "No independent human listening validation of machine SFX observations",
+    "No editing project, exact font/plugin/audio asset identity"
+  ],
+  "approval": {
+    "research": "Requested by Rocky",
+    "paid_video_analysis": "Explicitly authorized for five supplied videos",
+    "creative_direction": "Proposed; not approved"
+  }
+}

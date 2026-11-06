@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelFrame Vietnam — Operational Finance & Business Dashboard</title>
+  <!-- Allowlisted Antigravity Tailwind Script -->
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    :root {
+      --bg-canvas: #f8fafc;
+      --bg-card: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --accent: #0284c7;
+      --accent-hover: #0369a1;
+      --accent-light: #e0f2fe;
+      --border: #e2e8f0;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+    }
+    body {
+      background-color: var(--bg-canvas);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .badge-green { background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+    .badge-blue { background: #f0f9ff; color: #0284c7; border: 1px solid #bae6fd; }
+    .badge-amber { background: #fffbeb; color: #d97706; border: 1px solid #fde68a; }
+    .badge-red { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+    .badge-gray { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
+
+    .tab-btn.active {
+      background-color: var(--accent) !important;
+      color: #ffffff !important;
+      border-color: var(--accent) !important;
+    }
+    .chart-tooltip {
+      position: absolute;
+      pointer-events: none;
+      transition: all 0.15s ease-out;
+      background: #0f172a;
+      color: #ffffff;
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 12px;
+      z-index: 50;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    table { border-collapse: separate; border-spacing: 0; }
+    th, td { border-bottom: 1px solid var(--border); }
+    .drop-zone.dragover {
+      border-color: var(--accent);
+      background-color: var(--accent-light);
+    }
+  </style>
+</head>
+<body class="p-4 md:p-8 min-h-screen">
+  <div class="max-w-7xl mx-auto space-y-6">
+
+    <!-- Top Header -->
+    <header class="flex flex-col md:flex-row md:items-center justify-between pb-6 border-b border-slate-200 gap-4">
+      <div>
+        <div class="flex items-center gap-2.5 flex-wrap">
+          <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded bg-slate-100 text-slate-700 border border-slate-200">
+            TravelFrame Operations OS
+          </span>
+          <span class="text-xs font-semibold px-2.5 py-1 rounded badge-blue flex items-center gap-1">
+            <span class="w-2 h-2 rounded-full bg-sky-500 animate-pulse"></span> Currency: USD ($)
+          </span>
+          <span class="text-xs font-semibold px-2.5 py-1 rounded badge-green">
+            Validation: Strict Multi-Currency Guard
+          </span>
+        </div>
+        <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight mt-2 text-slate-900">
+          TravelFrame Vietnam — Dashboard Vận Hành & Tài Chính Thực Tế
+        </h1>
+        <p class="text-sm text-slate-500 mt-1">
+          Hệ thống theo dõi doanh thu thuần, quản lý đối soát giao dịch đảo/hoàn tiền và kiểm tra tính hợp lệ dữ liệu CSV theo chuẩn kế toán.
+        </p>
+      </div>
+
+      <!-- Action Buttons & Tabs -->
+      <div class="flex flex-wrap items-center gap-2">
+        <button onclick="openModal('guideModal')" class="px-3.5 py-2 text-sm font-semibold rounded-lg bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 shadow-sm flex items-center gap-1.5 transition">
+          <svg class="w-4 h-4 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          Hướng Dẫn Bắt Đầu
+        </button>
+        <button onclick="downloadSampleCSV()" class="px-3.5 py-2 text-sm font-semibold rounded-lg bg-sky-50 border border-sky-200 text-sky-700 hover:bg-sky-100 shadow-sm flex items-center gap-1.5 transition">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+          Tải CSV Mẫu
+        </button>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="flex border-b border-slate-200 space-x-2">
+      <button onclick="switchTab('overview')" id="tab-btn-overview" class="tab-btn active px-5 py-2.5 rounded-t-lg font-bold text-sm bg-sky-600 text-white border-t border-l border-r border-sky-600 transition flex items-center gap-2">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+        Overview (Tổng Quan)
+      </button>
+      <button onclick="switchTab('reports')" id="tab-btn-reports" class="tab-btn px-5 py-2.5 rounded-t-lg font-bold text-sm bg-white text-slate-600 border border-transparent hover:text-slate-900 transition flex items-center gap-2">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+        Reports (Báo Cáo)
+      </button>
+      <button onclick="switchTab('data')" id="tab-btn-data" class="tab-btn px-5 py-2.5 rounded-t-lg font-bold text-sm bg-white text-slate-600 border border-transparent hover:text-slate-900 transition flex items-center gap-2">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2 1.5 3 3.5 3h9c2 0 3.5-1 3.5-3V7c0-2-1.5-3-3.5-3h-9C5.5 4 4 5 4 7zm0 5h16M9 4v16"></path></svg>
+        Data (Dữ Liệu & Tải CSV)
+      </button>
+    </nav>
+
+    <!-- Global Error & Currency Warning Banner -->
+    <div id="validationAlert" class="hidden p-4 rounded-xl bg-red-50 border border-red-200 text-red-800 space-y-2">
+      <div class="flex items-center gap-2 font-bold text-base">
+        <svg class="w-5 h-5 text-red-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg>
+        <span id="validationAlertTitle">Phát hiện dữ liệu không hợp lệ!</span>
+      </div>
+      <ul id="validationAlertList" class="text-sm list-disc list-inside space-y-1 text-red-700 pl-2"></ul>
+      <div class="pt-2 flex gap-3">
+        <button onclick="dismissValidationAlert()" class="text-xs font-semibold px-3 py-1 bg-red-600 text-white rounded hover:bg-red-700 transition">Đóng thông báo</button>
+        <button onclick="resetToSampleData()" class="text-xs font-semibold px-3 py-1 bg-white border border-red-300 text-red-700 rounded hover:bg-red-50 transition">Khôi phục dữ liệu mẫu chuẩn</button>
+      </div>
+    </div>
+
+    <!-- ================= TAB 1: OVERVIEW ================= -->
+    <div id="tab-overview" class="space-y-6">
+      
+      <!-- Key KPI Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- Net Revenue Card (Hero Highlight) -->
+        <div class="bg-white p-5 rounded-xl border-2 border-sky-500 shadow-sm relative overflow-hidden">
+          <div class="absolute -right-6 -bottom-6 w-24 h-24 bg-sky-50 rounded-full pointer-events-none"></div>
+          <p class="text-xs font-bold uppercase tracking-wider text-sky-600">Doanh Thu Thuần (Net Revenue)</p>
+          <p id="kpiNetRevenue" class="text-3xl font-extrabold text-slate-900 mt-2">$0.00</p>
+          <div class="mt-2 text-xs text-slate-500 flex items-center justify-between">
+            <span>Gross − Giảm giá − Hoàn tiền − Thuế</span>
+            <span class="font-bold text-sky-600">USD ($)</span>
+          </div>
+        </div>
+
+        <!-- Gross Revenue Card -->
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex justify-between items-start">
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-500">Doanh Thu Gộp (Gross)</p>
+            <span class="text-xs px-2 py-0.5 rounded badge-blue font-semibold">100% Thu</span>
+          </div>
+          <p id="kpiGrossRevenue" class="text-2xl font-bold text-slate-800 mt-2">$0.00</p>
+          <p class="text-xs text-slate-400 mt-1">Tổng giá trị đơn trước trừ chi phí</p>
+        </div>
+
+        <!-- Deductions & Refunds Card -->
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex justify-between items-start">
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-500">Chiết Khấu & Hoàn Trả</p>
+            <span class="text-xs px-2 py-0.5 rounded badge-amber font-semibold">Khấu trừ</span>
+          </div>
+          <div class="flex items-baseline gap-2 mt-2">
+            <p id="kpiDeductions" class="text-2xl font-bold text-amber-600">-$0.00</p>
+          </div>
+          <div class="text-xs text-slate-500 mt-1 flex justify-between">
+            <span>Chiết khấu: <strong id="kpiDiscounts" class="text-slate-700">$0.00</strong></span>
+            <span>Hoàn tiền: <strong id="kpiRefunds" class="text-rose-600">-$0.00</strong></span>
+          </div>
+        </div>
+
+        <!-- Bookings & AOV Card -->
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex justify-between items-start">
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-500">Lượt Đơn & AOV</p>
+            <span class="text-xs px-2 py-0.5 rounded badge-green font-semibold">Quy mô</span>
+          </div>
+          <p id="kpiBookingCount" class="text-2xl font-bold text-slate-800 mt-2">0 bookings</p>
+          <p class="text-xs text-slate-500 mt-1">
+            Giá trị trung bình/đơn (AOV): <strong id="kpiAOV" class="text-slate-800 font-bold">$0.00</strong>
+          </p>
+        </div>
+      </div>
+
+      <!-- Charts & Funnel Breakdown Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        
+        <!-- Interactive Revenue Trend SVG Chart -->
+        <div class="lg:col-span-2 bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-slate-100 gap-2">
+            <div>
+              <h2 class="text-base font-bold text-slate-900">Biểu Đồ Xu Hướng Doanh Thu Theo Ngày</h2>
+              <p class="text-xs text-slate-500">Đối chiếu Doanh thu Gộp (Gross) vs Doanh thu Thuần (Net Revenue thực tế)</p>
+            </div>
+            <div class="flex items-center gap-4 text-xs font-semibold">
+              <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-slate-300"></span> Doanh thu Gộp</span>
+              <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-sky-600"></span> Doanh thu Thuần</span>
+            </div>
+          </div>
+
+          <!-- SVG Chart Canvas Container -->
+          <div class="relative w-full h-72 flex items-center justify-center" id="trendChartContainer">
+            <svg id="trendSvg" class="w-full h-full overflow-visible"></svg>
+            <div id="chartTooltip" class="chart-tooltip hidden"></div>
+          </div>
+        </div>
+
+        <!-- Channel Performance & Package Share -->
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-6">
+          <div>
+            <h2 class="text-base font-bold text-slate-900 mb-1">Cơ Cấu Doanh Thu Theo Kênh</h2>
+            <p class="text-xs text-slate-500 mb-4">Tỷ trọng đóng góp vào Doanh thu thuần</p>
+            <div id="channelBars" class="space-y-3.5">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-100">
+            <h2 class="text-base font-bold text-slate-900 mb-1">Gói Tour & Dịch Vụ Phổ Biến</h2>
+            <p class="text-xs text-slate-500 mb-3">Số lượng đặt tour theo danh mục</p>
+            <div id="packageShareList" class="space-y-2.5">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ================= TAB 2: REPORTS ================= -->
+    <div id="tab-reports" class="hidden space-y-6">
+      
+      <!-- Financial Breakdown Statement (P&L Audit) -->
+      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-200 gap-2">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Báo Cáo Đối Soát Tài Chính Thu Gọn (Financial Statement)</h2>
+            <p class="text-xs text-slate-500">Minh bạch dòng tiền: Gộp → Khấu trừ chiết khấu → Hoàn tiền/Đảo ngược → Thuế → Doanh thu thuần</p>
+          </div>
+          <button onclick="exportReportCSV()" class="px-3.5 py-1.5 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-300 transition flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+            Xuất Báo Cáo CSV
+          </button>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-slate-50 text-xs text-slate-500 uppercase tracking-wider">
+              <tr>
+                <th class="py-3 px-4 font-semibold">Chỉ Tiêu Tài Chính</th>
+                <th class="py-3 px-4 text-center font-semibold">Quy Tắc Định Khoản</th>
+                <th class="py-3 px-4 text-right font-semibold">Số Tiền (USD)</th>
+                <th class="py-3 px-4 text-right font-semibold">Tỷ Trọng / Gross</th>
+              </tr>
+            </thead>
+            <tbody id="statementTableBody" class="divide-y divide-slate-100">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Channel Breakdown Matrix -->
+      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+        <h2 class="text-lg font-bold text-slate-900">Báo Cáo Hiệu Quả Từng Kênh Khách Hàng (Channel Attribution)</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-slate-50 text-xs text-slate-500 uppercase tracking-wider">
+              <tr>
+                <th class="py-3 px-4 font-semibold">Kênh Phân Phối</th>
+                <th class="py-3 px-4 text-center font-semibold">Số Đơn</th>
+                <th class="py-3 px-4 text-right font-semibold">Doanh Thu Gộp</th>
+                <th class="py-3 px-4 text-right font-semibold">Chiết Khấu</th>
+                <th class="py-3 px-4 text-right font-semibold">Hoàn Tiền</th>
+                <th class="py-3 px-4 text-right font-semibold">Thuế Bán Hàng</th>
+                <th class="py-3 px-4 text-right font-semibold text-sky-700">Doanh Thu Thuần</th>
+                <th class="py-3 px-4 text-center font-semibold">AOV (Net)</th>
+              </tr>
+            </thead>
+            <tbody id="channelReportTableBody" class="divide-y divide-slate-100">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Reversals & Refunds Audit Log -->
+      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+        <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Nhật Ký Giao Dịch Đảo Ngược & Hoàn Nhập (Reversals & Refunds)</h2>
+            <p class="text-xs text-slate-500">Các giao dịch mang giá trị âm (-) ảnh hưởng trực tiếp đến Doanh thu thuần</p>
+          </div>
+          <span id="refundCountBadge" class="text-xs px-2.5 py-1 rounded badge-red font-semibold">0 giao dịch</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-slate-50 text-xs text-slate-500 uppercase tracking-wider">
+              <tr>
+                <th class="py-3 px-4 font-semibold">Mã Giao Dịch</th>
+                <th class="py-3 px-4 font-semibold">Ngày Phát Sinh</th>
+                <th class="py-3 px-4 font-semibold">Khách Hàng</th>
+                <th class="py-3 px-4 font-semibold">Kênh</th>
+                <th class="py-3 px-4 font-semibold">Gói Tour</th>
+                <th class="py-3 px-4 text-right font-semibold text-rose-600">Số Tiền Hoàn Nhập</th>
+                <th class="py-3 px-4 text-center font-semibold">Trạng Thái</th>
+              </tr>
+            </thead>
+            <tbody id="refundAuditTableBody" class="divide-y divide-slate-100">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================= TAB 3: DATA ================= -->
+    <div id="tab-data" class="hidden space-y-6">
+      
+      <!-- Upload & Controls Box -->
+      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-5">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+          <div>
+            <h2 class="text-lg font-bold text-slate-900">Tải Lên Tệp CSV & Quản Lý Dữ Liệu</h2>
+            <p class="text-xs text-slate-500">Hỗ trợ tệp CSV chuẩn với kiểm tra tính hợp lệ tự động (Strict Currency USD, Non-duplicate, Valid Dates)</p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <button onclick="downloadSampleCSV()" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-sky-50 border border-sky-300 text-sky-700 hover:bg-sky-100 transition flex items-center gap-1">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+              Tải CSV Mẫu (.csv)
+            </button>
+            <button onclick="resetToSampleData()" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 transition">
+              Nạp Lại Dữ Liệu Mẫu
+            </button>
+            <button onclick="clearAllData()" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-rose-50 border border-rose-200 text-rose-700 hover:bg-rose-100 transition">
+              Xoá Toàn Bộ Dữ Liệu
+            </button>
+          </div>
+        </div>
+
+        <!-- Drag and drop zone -->
+        <div id="dropZone" class="drop-zone border-2 border-dashed border-slate-300 rounded-xl p-6 text-center cursor-pointer hover:border-sky-500 hover:bg-slate-50 transition">
+          <input type="file" id="csvFileInput" accept=".csv" class="hidden" onchange="handleFileSelect(event)">
+          <div class="flex flex-col items-center justify-center space-y-2 pointer-events-none">
+            <div class="p-3 bg-sky-100 rounded-full text-sky-600">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+            </div>
+            <p class="text-sm font-semibold text-slate-700">Kéo & thả file CSV vào đây hoặc <span class="text-sky-600 underline">bấm để duyệt file</span></p>
+            <p class="text-xs text-slate-400">Yêu cầu tệp chuẩn UTF-8, cột tiền tệ bắt buộc chỉ chứa <strong class="text-slate-600">USD</strong></p>
+          </div>
+        </div>
+
+        <!-- Validation Rules Quick Badge Bar -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 pt-2 text-xs text-slate-600">
+          <div class="p-2.5 rounded bg-slate-50 border border-slate-200 flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            <span>Ngày: Định dạng YYYY-MM-DD</span>
+          </div>
+          <div class="p-2.5 rounded bg-slate-50 border border-slate-200 flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            <span>ID: Duy nhất, không trùng lặp</span>
+          </div>
+          <div class="p-2.5 rounded bg-slate-50 border border-slate-200 flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            <span>Hoàn tiền: Giá trị âm (-)</span>
+          </div>
+          <div class="p-2.5 rounded bg-slate-50 border border-slate-200 flex items-center gap-2">
+            <svg class="w-4 h-4 text-emerald-500 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            <span>Tiền tệ: Chỉ chấp nhận USD</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter, Search & Table Operations -->
+      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div class="flex flex-1 items-center gap-2 flex-wrap">
+            <!-- Search -->
+            <div class="relative w-full sm:w-64">
+              <input type="text" id="searchInput" placeholder="Tìm theo ID, Khách, Tour..." oninput="handleSearch(this.value)" class="w-full pl-9 pr-3 py-2 text-xs rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-sky-500">
+              <svg class="w-4 h-4 text-slate-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+
+            <!-- Channel Filter -->
+            <select id="filterChannel" onchange="handleChannelFilter(this.value)" class="py-2 px-3 text-xs rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500">
+              <option value="ALL">Tất cả Kênh</option>
+              <option value="Instagram">Instagram</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Website Direct">Website Direct</option>
+              <option value="WhatsApp">WhatsApp</option>
+              <option value="Referral">Referral</option>
+            </select>
+
+            <!-- Status Filter -->
+            <select id="filterStatus" onchange="handleStatusFilter(this.value)" class="py-2 px-3 text-xs rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500">
+              <option value="ALL">Tất cả Trạng Thái</option>
+              <option value="Completed">Completed</option>
+              <option value="Pending">Pending</option>
+              <option value="Refunded">Refunded</option>
+              <option value="Cancelled">Cancelled</option>
+            </select>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <span id="recordCountLabel" class="text-xs font-semibold text-slate-500">0 records</span>
+            <button onclick="openModal('addModal')" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-sky-600 text-white hover:bg-sky-700 transition flex items-center gap-1">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+              Thêm Giao Dịch
+            </button>
+          </div>
+        </div>
+
+        <!-- Master Interactive Data Table -->
+        <div class="overflow-x-auto border border-slate-200 rounded-lg">
+          <table class="w-full text-left text-xs whitespace-nowrap">
+            <thead class="bg-slate-50 uppercase text-slate-500 tracking-wider">
+              <tr>
+                <th onclick="handleSort('transaction_id')" class="py-3 px-3 cursor-pointer hover:bg-slate-100">Mã GD ↕</th>
+                <th onclick="handleSort('date')" class="py-3 px-3 cursor-pointer hover:bg-slate-100">Ngày ↕</th>
+                <th onclick="handleSort('customer_name')" class="py-3 px-3 cursor-pointer hover:bg-slate-100">Khách Hàng ↕</th>
+                <th class="py-3 px-3">Kênh</th>
+                <th class="py-3 px-3">Gói Dịch Vụ</th>
+                <th onclick="handleSort('gross_amount')" class="py-3 px-3 text-right cursor-pointer hover:bg-slate-100">Gross ($) ↕</th>
+                <th onclick="handleSort('discount')" class="py-3 px-3 text-right cursor-pointer hover:bg-slate-100">Giảm ($) ↕</th>
+                <th onclick="handleSort('refund_amount')" class="py-3 px-3 text-right cursor-pointer hover:bg-slate-100 text-rose-600">Hoàn Trả ($) ↕</th>
+                <th onclick="handleSort('tax')" class="py-3 px-3 text-right cursor-pointer hover:bg-slate-100">Thuế ($) ↕</th>
+                <th onclick="handleSort('net_revenue')" class="py-3 px-3 text-right cursor-pointer hover:bg-slate-100 font-bold text-sky-700">Net ($) ↕</th>
+                <th class="py-3 px-3 text-center">Tiền Tệ</th>
+                <th class="py-3 px-3 text-center">Trạng Thái</th>
+                <th class="py-3 px-3 text-center">Thao Tác</th>
+              </tr>
+            </thead>
+            <tbody id="masterDataTableBody" class="divide-y divide-slate-100">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination Controls -->
+        <div class="flex flex-col sm:flex-row items-center justify-between pt-3 gap-3 text-xs text-slate-500">
+          <div id="paginationInfo">Trang 1 / 1</div>
+          <div class="flex items-center space-x-1" id="paginationButtons">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Modal: Quick Start Guide -->
+  <div id="guideModal" class="hidden fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-2xl w-full p-6 shadow-2xl space-y-4 max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between pb-3 border-b border-slate-200">
+        <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2">
+          <svg class="w-5 h-5 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          Hướng Dẫn Bắt Đầu & Chuẩn Mực Dữ Liệu
+        </h3>
+        <button onclick="closeModal('guideModal')" class="text-slate-400 hover:text-slate-600">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+
+      <div class="space-y-4 text-xs text-slate-600 leading-relaxed">
+        <div class="p-3 bg-sky-50 rounded-lg border border-sky-200 text-sky-800">
+          <h4 class="font-bold text-sm text-sky-900 mb-1">1. Công Thức Doanh Thu Thuần (Net Revenue)</h4>
+          <p>$$\text{Doanh Thu Thuần} = \text{Doanh Thu Gộp} - \text{Chiết Khấu} - |\text{Hoàn Tiền / Giao Dịch Đảo}| - \text{Thuế Bán Hàng}$$</p>
+          <p class="mt-1">Khoản tiền bán tour thông thường là số dương (+). Bất kỳ khoản hủy cọc, hoàn tiền khách hoặc giao dịch đảo ngược bắt buộc phải nhập số âm (-) trong cột <code>refund_amount</code>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="font-bold text-sm text-slate-900">2. Các Cột Trong Tệp CSV Chuẩn Của TravelFrame</h4>
+          <ul class="list-disc list-inside space-y-1">
+            <li><code>transaction_id</code>: Mã duy nhất (ví dụ: <code>TXN-20261028-01</code>). Không được trùng lặp.</li>
+            <li><code>date</code>: Định dạng bắt buộc <code>YYYY-MM-DD</code> (ví dụ: <code>2026-10-28</code>).</li>
+            <li><code>customer_name</code>: Tên khách hàng đặt tour.</li>
+            <li><code>channel</code>: Kênh chuyển đổi (<code>Instagram</code>, <code>Facebook</code>, <code>Website Direct</code>, <code>WhatsApp</code>, <code>Referral</code>).</li>
+            <li><code>package_type</code>: Gói tour đã duyệt (<code>Basic Photo Walk ($30/h)</code>, <code>Premium Photo Walk ($60/h)</code>, <code>VIP Keepsake ($99/h)</code>, <code>Old Quarter Food Tour ($45)</code>, <code>Full Day Heritage ($180)</code>).</li>
+            <li><code>gross_amount</code>: Doanh thu gộp (Số thực dương &gt; 0).</li>
+            <li><code>discount</code>: Số tiền chiết khấu / voucher (Số thực &ge; 0).</li>
+            <li><code>refund_amount</code>: Hoàn trả / đảo ngược (Số âm &le; 0, ví dụ <code>-60.00</code>).</li>
+            <li><code>tax</code>: Thuế bán hàng (Số thực &ge; 0).</li>
+            <li><code>currency</code>: Bắt buộc duy nhất <code>USD</code>.</li>
+            <li><code>status</code>: Trạng thái (<code>Completed</code>, <code>Pending</code>, <code>Refunded</code>, <code>Cancelled</code>).</li>
+          </ul>
+        </div>
+
+        <div class="p-3 bg-red-50 rounded-lg border border-red-200 text-red-800">
+          <h4 class="font-bold text-sm text-red-900 mb-1">3. Kiểm Tra Tính Hợp Lệ & Bảo Vệ Đơn Vị Tiền Tệ</h4>
+          <p>Hệ thống tự động từ chối và cảnh báo nếu:</p>
+          <ul class="list-disc list-inside space-y-0.5 mt-1">
+            <li>File chứa nhiều loại tiền tệ khác nhau hoặc chứa tiền tệ ngoài <strong>USD</strong> (như VND, EUR).</li>
+            <li>Phát hiện mã giao dịch trùng lặp trong cùng một tập dữ liệu.</li>
+            <li>Thiếu ngày tháng hoặc định dạng ngày sai.</li>
+            <li>Số tiền bỏ trống hoặc không hợp lệ.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-3 border-t border-slate-200 flex justify-end">
+        <button onclick="closeModal('guideModal')" class="px-4 py-2 bg-sky-600 text-white rounded-lg text-xs font-semibold hover:bg-sky-700 transition">
+          Đã Hiểu, Quay Lại Dashboard
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Manual Quick Add Transaction -->
+  <div id="addModal" class="hidden fixed inset-0 z-50 bg-slate-900/50 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl space-y-4">
+      <div class="flex items-center justify-between pb-3 border-b border-slate-200">
+        <h3 class="text-base font-bold text-slate-900">Thêm Giao Dịch Thủ Công Mới</h3>
+        <button onclick="closeModal('addModal')" class="text-slate-400 hover:text-slate-600">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+
+      <form id="addTransactionForm" onsubmit="handleManualAdd(event)" class="space-y-3 text-xs">
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-700 mb-1">Mã Giao Dịch *</label>
+            <input type="text" id="addId" required placeholder="TXN-YYYYMMDD-XX" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-700 mb-1">Ngày Phát Sinh *</label>
+            <input type="date" id="addDate" required class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500">
+          </div>
+        </div>
+
+        <div>
+          <label class="block font-semibold text-slate-700 mb-1">Tên Khách Hàng *</label>
+          <input type="text" id="addCustomer" required placeholder="Tên đầy đủ của khách" class="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-700 mb-1">Kênh *</label>
+            <select id="addChannel" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+              <option value="Instagram">Instagram</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Website Direct">Website Direct</option>
+              <option value="WhatsApp">WhatsApp</option>
+              <option value="Referral">Referral</option>
+            </select>
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-700 mb-1">Gói Tour *</label>
+            <select id="addPackage" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+              <option value="Basic Photo Walk ($30/h)">Basic Photo Walk ($30/h)</option>
+              <option value="Premium Photo Walk ($60/h)">Premium Photo Walk ($60/h)</option>
+              <option value="VIP Keepsake ($99/h)">VIP Keepsake ($99/h)</option>
+              <option value="Old Quarter Food Tour ($45)">Old Quarter Food Tour ($45)</option>
+              <option value="Full Day Heritage ($180)">Full Day Heritage ($180)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-700 mb-1">Gross ($) *</label>
+            <input type="number" step="0.01" min="0" id="addGross" required value="60.00" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-700 mb-1">Chiết Khấu ($)</label>
+            <input type="number" step="0.01" min="0" id="addDiscount" value="0.00" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-700 mb-1">Hoàn Tiền ($) (Giá trị âm)</label>
+            <input type="number" step="0.01" max="0" id="addRefund" value="0.00" placeholder="-60.00" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-700 mb-1">Thuế Bán Hàng ($)</label>
+            <input type="number" step="0.01" min="0" id="addTax" value="3.00" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block font-semibold text-slate-700 mb-1">Tiền Tệ (Cố định USD)</label>
+            <input type="text" id="addCurrency" value="USD" readonly class="w-full px-3 py-2 border border-slate-200 bg-slate-50 text-slate-500 rounded-lg">
+          </div>
+          <div>
+            <label class="block font-semibold text-slate-700 mb-1">Trạng Thái</label>
+            <select id="addStatus" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+              <option value="Completed">Completed</option>
+              <option value="Pending">Pending</option>
+              <option value="Refunded">Refunded</option>
+              <option value="Cancelled">Cancelled</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="pt-3 border-t border-slate-200 flex justify-end gap-2">
+          <button type="button" onclick="closeModal('addModal')" class="px-4 py-2 border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-50 font-semibold">Hủy</button>
+          <button type="submit" class="px-4 py-2 bg-sky-600 text-white rounded-lg hover:bg-sky-700 font-semibold">Lưu Giao Dịch</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Core JavaScript Module -->
+  <script>
+    // ================= 1. SAMPLE REALISTIC DATASET =================
+    const INITIAL_SAMPLE_DATA = [
+      { transaction_id: "TXN-20261020-01", date: "2026-10-20", customer_name: "Bianca Alejo", channel: "Instagram", package_type: "Premium Photo Walk ($60/h)", gross_amount: 120.00, discount: 10.00, refund_amount: 0.00, tax: 5.50, currency: "USD", status: "Completed" },
+      { transaction_id: "TXN-20261021-02", date: "2026-10-21", customer_name: "Kasia Wierbicka", channel: "Facebook", package_type: "Basic Photo Walk ($30/h)", gross_amount: 60.00, discount: 0.00, refund_amount: 0.00, tax: 3.00, currency: "USD", status: "Completed" },
+      { transaction_id: "TXN-20261022-03", date: "2026-10-22", customer_name: "Henk Leenders", channel: "Website Direct", package_type: "Old Quarter Food Tour ($45)", gross_amount: 90.00, discount: 15.00, refund_amount: 0.00, tax: 3.75, currency: "USD", status: "Completed" },
+      { transaction_id: "TXN-20261023-04", date: "2026-10-23", customer_name: "Eileen Flores", channel: "Facebook", package_type: "VIP Keepsake ($99/h)", gross_amount: 198.00, discount: 0.00, refund_amount: 0.00, tax: 9.90, currency: "USD", status: "Completed" },
+      { transaction_id: "TXN-20261024-05", date: "2026-10-24", customer_name: "Marcus Vance", channel: "Instagram", package_type: "Premium Photo Walk ($60/h)", gross_amount: 120.00, discount: 0.00, refund_amount: -60.00, tax: 3.00, currency: "USD", status: "Refunded" },
+      { transaction_id: "TXN-20261025-06", date: "2026-10-25", customer_name: "Sarah Jenkins", channel: "Website Direct", package_type: "Full Day Heritage ($180)", gross_amount: 180.00, discount: 20.00, refund_amount: 0.00, tax: 8.00, currency: "USD", status: "Completed" },
+      { transaction_id: "TXN-20261026-07", date: "2026-10-26", customer_name: "Liam O'Connor", channel: "WhatsApp", package_type: "Basic Photo Walk ($30/h)", gross_amount: 60.00, discount: 5.00, refund_amount: 0.00, tax: 2.75, currency: "USD", status: "Completed" },
+      { transaction_id: "TXN-20261026-08", date: "2026-10-26", customer_name: "Chloe Dubois", channel: "Instagram", package_type: "Old Quarter Food Tour ($45)", gross_amount: 45.00, discount: 0.00, refund_amount: 0.00, tax: 2.25, currency: "USD", status: "Completed" },
+      { transaction_id: "TXN-20261027-09", date: "2026-10-27", customer_name: "Daniel Zhang", channel: "Referral", package_type: "VIP Keepsake ($99/h)", gross_amount: 198.00, discount: 25.00, refund_amount: 0.00, tax: 8.65, currency: "USD", status: "Completed" },
+      { transaction_id: "TXN-20261027-10", date: "2026-10-27", customer_name: "Emma Watson", channel: "Website Direct", package_type: "Premium Photo Walk ($60/h)", gross_amount: 120.00, discount: 0.00, refund_amount: 0.00, tax: 6.00, currency: "USD", status: "Completed" },
+      { transaction_id: "TXN-20261028-11", date: "2026-10-28", customer_name: "Oliver Schmidt", channel: "Facebook", package_type: "Basic Photo Walk ($30/h)", gross_amount: 60.00, discount: 0.00, refund_amount: 0.00, tax: 3.00, currency: "USD", status: "Pending" },
+      { transaction_id: "TXN-20261028-12", date: "2026-10-28", customer_name: "Sofia Rossi", channel: "Instagram", package_type: "Old Quarter Food Tour ($45)", gross_amount: 90.00, discount: 10.00, refund_amount: -45.00, tax: 1.75, currency: "USD", status: "Completed" }
+    ];
+
+    // ================= 2. APPLICATION STATE =================
+    let transactions = JSON.parse(JSON.stringify(INITIAL_SAMPLE_DATA));
+    let filters = {
+      search: "",
+      channel: "ALL",
+      status: "ALL"
+    };
+    let sortState = {
+      column: "date",
+      order: "desc"
+    };
+    let pagination = {
+      currentPage: 1,
+      pageSize: 8
+    };
+
+    // Calculate individual net revenue for a transaction
+    function computeNetRevenue(item) {
+      // Net = Gross - Discount - abs(Refund) - Tax
+      const gross = parseFloat(item.gross_amount) || 0;
+      const discount = parseFloat(item.discount) || 0;
+      const refund = Math.abs(parseFloat(item.refund_amount) || 0);
+      const tax = parseFloat(item.tax) || 0;
+      return +(gross - discount - refund - tax).toFixed(2);
+    }
+
+    // Format money helper
+    function fmtMoney(amount) {
+      const val = parseFloat(amount) || 0;
+      return (val < 0 ? "-$" : "$") + Math.abs(val).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+
+    // ================= 3. TAB CONTROLLER =================
+    function switchTab(tabId) {
+      document.querySelectorAll(".tab-btn").forEach(btn => {
+        btn.classList.remove("active", "bg-sky-600", "text-white", "border-sky-600");
+        btn.classList.add("bg-white", "text-slate-600", "border-transparent");
+      });
+      const activeBtn = document.getElementById("tab-btn-" + tabId);
+      if (activeBtn) {
+        activeBtn.classList.add("active", "bg-sky-600", "text-white", "border-sky-600");
+        activeBtn.classList.remove("bg-white", "text-slate-600", "border-transparent");
+      }
+
+      ["overview", "reports", "data"].forEach(id => {
+        const el = document.getElementById("tab-" + id);
+        if (el) el.classList.toggle("hidden", id !== tabId);
+      });
+
+      if (tabId === "overview") renderTrendChart();
+    }
+
+    // ================= 4. VALIDATION ENGINE =================
+    function validateCSV(rows) {
+      const errors = [];
+      const seenIds = new Set();
+      const ALLOWED_CHANNELS = ["Instagram", "Facebook", "Website Direct", "WhatsApp", "Referral"];
+      const ALLOWED_STATUSES = ["Completed", "Pending", "Refunded", "Cancelled"];
+
+      if (!rows || rows.length === 0) {
+        return { valid: false, errors: ["Tệp CSV không chứa dữ liệu."] };
+      }
+
+      // Check header
+      const headers = Object.keys(rows[0]).map(h => h.trim().toLowerCase());
+      const required = ["transaction_id", "date", "customer_name", "gross_amount", "currency"];
+      for (const req of required) {
+        if (!headers.includes(req)) {
+          errors.push(`Thiếu cột bắt buộc trong tiêu đề CSV: '${req}'`);
+        }
+      }
+      if (errors.length > 0) return { valid: false, errors };
+
+      // Multi-currency strict guard: check all rows
+      for (let i = 0; i < rows.length; i++) {
+        const r = rows[i];
+        const rowNum = i + 2; // header is row 1
+        const curr = (r.currency || "").trim().toUpperCase();
+
+        if (curr !== "USD") {
+          errors.push(`Dòng ${rowNum}: Đơn vị tiền tệ '${r.currency || "TRỐNG"}' bị từ chối. Hệ thống chỉ chấp nhận đơn vị tiền tệ duy nhất là 'USD'.`);
+        }
+
+        // Validate Transaction ID
+        const txId = (r.transaction_id || "").trim();
+        if (!txId) {
+          errors.push(`Dòng ${rowNum}: Mã giao dịch (transaction_id) không được bỏ trống.`);
+        } else if (seenIds.has(txId)) {
+          errors.push(`Dòng ${rowNum}: Mã giao dịch '${txId}' bị trùng lặp.`);
+        } else {
+          seenIds.add(txId);
+        }
+
+        // Validate Date format YYYY-MM-DD
+        const dateStr = (r.date || "").trim();
+        const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
+        if (!dateRegex.test(dateStr) || isNaN(Date.parse(dateStr))) {
+          errors.push(`Dòng ${rowNum}: Ngày tháng '${dateStr}' không hợp lệ (yêu cầu định dạng YYYY-MM-DD).`);
+        }
+
+        // Validate Gross Amount
+        const gross = parseFloat(r.gross_amount);
+        if (isNaN(gross) || gross < 0) {
+          errors.push(`Dòng ${rowNum}: Số tiền Doanh thu gộp (gross_amount) phải là số dương hợp lệ.`);
+        }
+
+        // Validate Refund Amount (must be negative or 0)
+        if (r.refund_amount !== undefined && r.refund_amount !== "") {
+          const refund = parseFloat(r.refund_amount);
+          if (isNaN(refund)) {
+            errors.push(`Dòng ${rowNum}: Số tiền hoàn tiền (refund_amount) không hợp lệ.`);
+          } else if (refund > 0) {
+            errors.push(`Dòng ${rowNum}: Giao dịch hoàn tiền/đảo ngược phải mang giá trị âm (-) (ví dụ: -${refund}).`);
+          }
+        }
+      }
+
+      return {
+        valid: errors.length === 0,
+        errors: errors
+      };
+    }
+
+    // ================= 5. CSV PARSER & EXPORTER =================
+    function parseCSV(text) {
+      const lines = text.split(/\r\n|\n/).filter(line => line.trim().length > 0);
+      if (lines.length < 2) return [];
+
+      const rawHeaders = splitCSVLine(lines[0]);
+      const headers = rawHeaders.map(h => h.trim());
+
+      const data = [];
+      for (let i = 1; i < lines.length; i++) {
+        const values = splitCSVLine(lines[i]);
+        if (values.length === headers.length) {
+          const entry = {};
+          headers.forEach((h, idx) => {
+            entry[h] = values[idx] !== undefined ? values[idx].trim() : "";
+          });
+          data.push(entry);
+        }
+      }
+      return data;
+    }
+
+    function splitCSVLine(line) {
+      const result = [];
+      let current = "";
+      let inQuotes = false;
+      for (let i = 0; i < line.length; i++) {
+        const c = line[i];
+        if (c === '"') {
+          inQuotes = !inQuotes;
+        } else if (c === ',' && !inQuotes) {
+          result.push(current);
+          current = "";
+        } else {
+          current += c;
+        }
+      }
+      result.push(current);
+      return result;
+    }
+
+    function downloadSampleCSV() {
+      const headers = ["transaction_id", "date", "customer_name", "channel", "package_type", "gross_amount", "discount", "refund_amount", "tax", "currency", "status"];
+      const csvRows = [headers.join(",")];
+
+      INITIAL_SAMPLE_DATA.forEach(row => {
+        const values = headers.map(h => {
+          const val = row[h] !== undefined ? String(row[h]) : "";
+          return val.includes(",") ? `"${val}"` : val;
+        });
+        csvRows.push(values.join(","));
+      });
+
+      const blob = new Blob(["\uFEFF" + csvRows.join("\n")], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "travelframe_sample_transactions.csv";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function exportReportCSV() {
+      const headers = ["transaction_id", "date", "customer_name", "channel", "package_type", "gross_amount", "discount", "refund_amount", "tax", "net_revenue", "currency", "status"];
+      const csvRows = [headers.join(",")];
+
+      transactions.forEach(row => {
+        const net = computeNetRevenue(row);
+        const values = headers.map(h => {
+          if (h === "net_revenue") return net.toFixed(2);
+          const val = row[h] !== undefined ? String(row[h]) : "";
+          return val.includes(",") ? `"${val}"` : val;
+        });
+        csvRows.push(values.join(","));
+      });
+
+      const blob = new Blob(["\uFEFF" + csvRows.join("\n")], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `travelframe_performance_report_${new Date().toISOString().slice(0, 10)}.csv`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    // ================= 6. DATA RENDERING & CONTROLLER =================
+    function updateAllViews() {
+      renderOverviewKPIs();
+      renderTrendChart();
+      renderChannelBars();
+      renderPackageShare();
+      renderReports();
+      renderDataTable();
+    }
+
+    function renderOverviewKPIs() {
+      let gross = 0;
+      let discounts = 0;
+      let refunds = 0;
+      let tax = 0;
+      let net = 0;
+
+      transactions.forEach(t => {
+        const g = parseFloat(t.gross_amount) || 0;
+        const d = parseFloat(t.discount) || 0;
+        const r = Math.abs(parseFloat(t.refund_amount) || 0);
+        const tx = parseFloat(t.tax) || 0;
+
+        gross += g;
+        discounts += d;
+        refunds += r;
+        tax += tx;
+        net += (g - d - r - tx);
+      });
+
+      const count = transactions.length;
+      const aov = count > 0 ? (net / count) : 0;
+
+      document.getElementById("kpiNetRevenue").innerText = fmtMoney(net);
+      document.getElementById("kpiGrossRevenue").innerText = fmtMoney(gross);
+      document.getElementById("kpiDeductions").innerText = "-" + fmtMoney(discounts + refunds + tax).replace("$", "$");
+      document.getElementById("kpiDiscounts").innerText = fmtMoney(discounts);
+      document.getElementById("kpiRefunds").innerText = "-" + fmtMoney(refunds);
+      document.getElementById("kpiBookingCount").innerText = `${count} bookings`;
+      document.getElementById("kpiAOV").innerText = fmtMoney(aov);
+    }
+
+    function renderTrendChart() {
+      const container = document.getElementById("trendChartContainer");
+      const svg = document.getElementById("trendSvg");
+      if (!svg || !container) return;
+
+      // Aggregate by date
+      const dateMap = {};
+      transactions.forEach(t => {
+        if (!dateMap[t.date]) {
+          dateMap[t.date] = { gross: 0, net: 0, count: 0 };
+        }
+        dateMap[t.date].gross += (parseFloat(t.gross_amount) || 0);
+        dateMap[t.date].net += computeNetRevenue(t);
+        dateMap[t.date].count += 1;
+      });
+
+      const dates = Object.keys(dateMap).sort();
+      if (dates.length === 0) {
+        svg.innerHTML = `<text x="50%" y="50%" text-anchor="middle" fill="#94a3b8" font-size="13">Chưa có dữ liệu để hiển thị biểu đồ</text>`;
+        return;
+      }
+
+      const rect = container.getBoundingClientRect();
+      const W = rect.width || 600;
+      const H = rect.height || 280;
+      const padL = 60, padR = 30, padT = 20, padB = 40;
+      const plotW = W - padL - padR;
+      const plotH = H - padT - padB;
+
+      let maxVal = 50;
+      dates.forEach(d => {
+        if (dateMap[d].gross > maxVal) maxVal = dateMap[d].gross;
+        if (dateMap[d].net > maxVal) maxVal = dateMap[d].net;
+      });
+      maxVal = Math.ceil((maxVal * 1.15) / 50) * 50;
+
+      const getX = (idx) => padL + (dates.length === 1 ? plotW / 2 : (idx / (dates.length - 1)) * plotW);
+      const getY = (val) => padT + plotH - (val / maxVal) * plotH;
+
+      // Build grid & labels
+      let svgHtml = ``;
+      const gridSteps = 4;
+      for (let s = 0; s <= gridSteps; s++) {
+        const val = (maxVal / gridSteps) * s;
+        const y = getY(val);
+        svgHtml += `<line x1="${padL}" y1="${y}" x2="${W - padR}" y2="${y}" stroke="#f1f5f9" stroke-width="1"/>`;
+        svgHtml += `<text x="${padL - 10}" y="${y + 4}" text-anchor="end" fill="#94a3b8" font-size="10">$${val}</text>`;
+      }
+
+      // X-axis labels
+      dates.forEach((d, idx) => {
+        const x = getX(idx);
+        const shortDate = d.slice(5); // MM-DD
+        svgHtml += `<text x="${x}" y="${H - 12}" text-anchor="middle" fill="#64748b" font-size="10">${shortDate}</text>`;
+      });
+
+      // Build Area for Net Revenue
+      let grossPoints = [];
+      let netPoints = [];
+      let areaD = `M ${getX(0)} ${getY(0)}`;
+
+      dates.forEach((d, idx) => {
+        const x = getX(idx);
+        const yGross = getY(dateMap[d].gross);
+        const yNet = getY(dateMap[d].net);
+
+        grossPoints.push(`${x},${yGross}`);
+        netPoints.push(`${x},${yNet}`);
+      });
+
+      const netLineD = `M ` + netPoints.join(" L ");
+      const grossLineD = `M ` + grossPoints.join(" L ");
+      const netAreaD = `M ${getX(0)},${getY(dateMap[dates[0]].net)} L ` + netPoints.join(" L ") + ` L ${getX(dates.length - 1)},${padT + plotH} L ${getX(0)},${padT + plotH} Z`;
+
+      // Draw Net Area with subtle gradient
+      svgHtml += `
+        <defs>
+          <linearGradient id="netAreaGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#0284c7" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#0284c7" stop-opacity="0.0"/>
+          </linearGradient>
+        </defs>
+        <path d="${netAreaD}" fill="url(#netAreaGrad)"/>
+        <path d="${grossLineD}" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4,4"/>
+        <path d="${netLineD}" fill="none" stroke="#0284c7" stroke-width="2.5"/>
+      `;
+
+      // Interactive Data Points
+      dates.forEach((d, idx) => {
+        const x = getX(idx);
+        const yNet = getY(dateMap[d].net);
+        const gVal = dateMap[d].gross;
+        const nVal = dateMap[d].net;
+        const count = dateMap[d].count;
+
+        svgHtml += `
+          <circle cx="${x}" cy="${yNet}" r="4.5" fill="#ffffff" stroke="#0284c7" stroke-width="2.5" class="cursor-pointer"
+            onmouseenter="showChartTooltip(event, '${d}', ${gVal}, ${nVal}, ${count})"
+            onmouseleave="hideChartTooltip()"
+          />
+        `;
+      });
+
+      svg.innerHTML = svgHtml;
+    }
+
+    function showChartTooltip(e, date, gross, net, count) {
+      const tt = document.getElementById("chartTooltip");
+      tt.innerHTML = `
+        <div class="font-bold border-b border-slate-700 pb-1 mb-1">${date}</div>
+        <div>Doanh thu Gộp: <span class="font-bold text-slate-300">$${gross.toFixed(2)}</span></div>
+        <div>Doanh thu Thuần: <span class="font-bold text-sky-400">$${net.toFixed(2)}</span></div>
+        <div class="text-[10px] text-slate-400 mt-0.5">Số lượng: ${count} đơn</div>
+      `;
+      tt.classList.remove("hidden");
+      const parentRect = document.getElementById("trendChartContainer").getBoundingClientRect();
+      tt.style.left = (e.clientX - parentRect.left - 50) + "px";
+      tt.style.top = (e.clientY - parentRect.top - 75) + "px";
+    }
+
+    function hideChartTooltip() {
+      document.getElementById("chartTooltip").classList.add("hidden");
+    }
+
+    function renderChannelBars() {
+      const container = document.getElementById("channelBars");
+      const totals = {};
+      let netSum = 0;
+
+      transactions.forEach(t => {
+        const ch = t.channel || "Khác";
+        const net = computeNetRevenue(t);
+        totals[ch] = (totals[ch] || 0) + net;
+        netSum += net;
+      });
+
+      const channels = Object.keys(totals).sort((a, b) => totals[b] - totals[a]);
+      if (channels.length === 0) {
+        container.innerHTML = `<p class="text-xs text-slate-400">Không có dữ liệu kênh.</p>`;
+        return;
+      }
+
+      let html = "";
+      channels.forEach(ch => {
+        const val = totals[ch];
+        const pct = netSum > 0 ? ((val / netSum) * 100).toFixed(1) : 0;
+        html += `
+          <div>
+            <div class="flex justify-between items-center text-xs mb-1">
+              <span class="font-semibold text-slate-700">${ch}</span>
+              <span class="font-bold text-slate-900">${fmtMoney(val)} <span class="text-slate-400 font-normal">(${pct}%)</span></span>
+            </div>
+            <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
+              <div class="h-full bg-sky-600 rounded-full transition-all duration-500" style="width: ${Math.max(pct, 2)}%"></div>
+            </div>
+          </div>
+        `;
+      });
+      container.innerHTML = html;
+    }
+
+    function renderPackageShare() {
+      const container = document.getElementById("packageShareList");
+      const counts = {};
+      let total = 0;
+
+      transactions.forEach(t => {
+        const pkg = t.package_type || "Chưa xác định";
+        counts[pkg] = (counts[pkg] || 0) + 1;
+        total += 1;
+      });
+
+      const packages = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+      if (packages.length === 0) {
+        container.innerHTML = `<p class="text-xs text-slate-400">Chưa có thông tin gói tour.</p>`;
+        return;
+      }
+
+      let html = "";
+      packages.forEach(pkg => {
+        const c = counts[pkg];
+        const pct = total > 0 ? ((c / total) * 100).toFixed(0) : 0;
+        html += `
+          <div class="flex items-center justify-between text-xs p-2 rounded-lg bg-slate-50 border border-slate-100">
+            <span class="font-medium text-slate-800 truncate mr-2">${pkg}</span>
+            <div class="flex items-center gap-1.5 shrink-0">
+              <span class="font-bold text-slate-900">${c} đơn</span>
+              <span class="text-[10px] px-1.5 py-0.5 rounded badge-gray font-semibold">${pct}%</span>
+            </div>
+          </div>
+        `;
+      });
+      container.innerHTML = html;
+    }
+
+    function renderReports() {
+      // 1. P&L Financial Statement
+      let gross = 0, discounts = 0, refunds = 0, tax = 0, net = 0;
+      transactions.forEach(t => {
+        gross += parseFloat(t.gross_amount) || 0;
+        discounts += parseFloat(t.discount) || 0;
+        refunds += Math.abs(parseFloat(t.refund_amount) || 0);
+        tax += parseFloat(t.tax) || 0;
+        net += computeNetRevenue(t);
+      });
+
+      const pnlRows = [
+        { name: "1. Tổng Doanh Thu Bán Hàng Gộp (Gross Sales)", rule: "Khoản thu dương từ booking (+)", amount: gross, pct: 100, class: "font-bold text-slate-900" },
+        { name: "2. Chiết Khấu Bán Hàng & Mã Khuyến Mãi (Discounts)", rule: "Khấu trừ từ doanh thu gộp (−)", amount: -discounts, pct: gross ? (discounts / gross) * 100 : 0, class: "text-amber-700" },
+        { name: "3. Hoàn Tiền, Trả Hàng & Giao Dịch Đảo (Refunds / Reversals)", rule: "Các giao dịch hoàn cọc hủy tour (−)", amount: -refunds, pct: gross ? (refunds / gross) * 100 : 0, class: "text-rose-700 font-semibold" },
+        { name: "4. Thuế Bán Hàng Phải Nộp (Sales Tax)", rule: "Khấu trừ nghĩa vụ thuế (−)", amount: -tax, pct: gross ? (tax / gross) * 100 : 0, class: "text-slate-600" },
+        { name: "5. DOANH THU THUẦN THỰC NHẬN (NET REVENUE)", rule: "Doanh thu sau loại trừ chiết khấu, hoàn cọc & thuế", amount: net, pct: gross ? (net / gross) * 100 : 0, class: "font-extrabold text-base text-sky-700 bg-sky-50" }
+      ];
+
+      const tbodyStatement = document.getElementById("statementTableBody");
+      tbodyStatement.innerHTML = pnlRows.map(r => `
+        <tr class="hover:bg-slate-50/80 transition ${r.name.includes('NET REVENUE') ? 'bg-sky-50/60' : ''}">
+          <td class="py-3 px-4 ${r.class}">${r.name}</td>
+          <td class="py-3 px-4 text-center text-xs text-slate-500">${r.rule}</td>
+          <td class="py-3 px-4 text-right font-mono font-bold ${r.amount < 0 ? 'text-rose-600' : 'text-slate-900'}">${fmtMoney(r.amount)}</td>
+          <td class="py-3 px-4 text-right text-xs text-slate-600 font-semibold">${r.pct.toFixed(1)}%</td>
+        </tr>
+      `).join("");
+
+      // 2. Channel Performance Matrix
+      const chMap = {};
+      transactions.forEach(t => {
+        const c = t.channel || "Khác";
+        if (!chMap[c]) {
+          chMap[c] = { count: 0, gross: 0, discount: 0, refund: 0, tax: 0, net: 0 };
+        }
+        const g = parseFloat(t.gross_amount) || 0;
+        const d = parseFloat(t.discount) || 0;
+        const rf = Math.abs(parseFloat(t.refund_amount) || 0);
+        const tx = parseFloat(t.tax) || 0;
+
+        chMap[c].count += 1;
+        chMap[c].gross += g;
+        chMap[c].discount += d;
+        chMap[c].refund += rf;
+        chMap[c].tax += tx;
+        chMap[c].net += (g - d - rf - tx);
+      });
+
+      const tbodyChannel = document.getElementById("channelReportTableBody");
+      tbodyChannel.innerHTML = Object.keys(chMap).map(ch => {
+        const item = chMap[ch];
+        const aov = item.count ? (item.net / item.count) : 0;
+        return `
+          <tr class="hover:bg-slate-50 transition">
+            <td class="py-3 px-4 font-bold text-slate-900">${ch}</td>
+            <td class="py-3 px-4 text-center font-semibold text-slate-700">${item.count}</td>
+            <td class="py-3 px-4 text-right font-mono text-slate-800">${fmtMoney(item.gross)}</td>
+            <td class="py-3 px-4 text-right font-mono text-amber-600">${fmtMoney(item.discount)}</td>
+            <td class="py-3 px-4 text-right font-mono text-rose-600">${item.refund > 0 ? "-" + fmtMoney(item.refund) : "$0.00"}</td>
+            <td class="py-3 px-4 text-right font-mono text-slate-500">${fmtMoney(item.tax)}</td>
+            <td class="py-3 px-4 text-right font-mono font-bold text-sky-700">${fmtMoney(item.net)}</td>
+            <td class="py-3 px-4 text-center font-mono font-semibold text-slate-700">${fmtMoney(aov)}</td>
+          </tr>
+        `;
+      }).join("");
+
+      // 3. Reversals & Refunds Log
+      const refundItems = transactions.filter(t => (parseFloat(t.refund_amount) || 0) < 0 || t.status === "Refunded");
+      document.getElementById("refundCountBadge").innerText = `${refundItems.length} giao dịch`;
+      const tbodyRefund = document.getElementById("refundAuditTableBody");
+
+      if (refundItems.length === 0) {
+        tbodyRefund.innerHTML = `<tr><td colspan="7" class="py-4 text-center text-xs text-slate-400">Không có giao dịch hoàn tiền hoặc đảo ngược nào.</td></tr>`;
+      } else {
+        tbodyRefund.innerHTML = refundItems.map(item => `
+          <tr class="hover:bg-rose-50/30 transition">
+            <td class="py-3 px-4 font-mono font-bold text-slate-800">${item.transaction_id}</td>
+            <td class="py-3 px-4 text-slate-600">${item.date}</td>
+            <td class="py-3 px-4 font-medium text-slate-900">${item.customer_name}</td>
+            <td class="py-3 px-4 text-slate-600">${item.channel}</td>
+            <td class="py-3 px-4 text-slate-700">${item.package_type}</td>
+            <td class="py-3 px-4 text-right font-mono font-bold text-rose-600">${fmtMoney(item.refund_amount)}</td>
+            <td class="py-3 px-4 text-center"><span class="px-2 py-0.5 rounded badge-red font-semibold text-xs">${item.status}</span></td>
+          </tr>
+        `).join("");
+      }
+    }
+
+    function renderDataTable() {
+      // 1. Filter
+      let filtered = transactions.filter(item => {
+        const matchesSearch = filters.search === "" ||
+          (item.transaction_id && item.transaction_id.toLowerCase().includes(filters.search.toLowerCase())) ||
+          (item.customer_name && item.customer_name.toLowerCase().includes(filters.search.toLowerCase())) ||
+          (item.package_type && item.package_type.toLowerCase().includes(filters.search.toLowerCase()));
+
+        const matchesChannel = filters.channel === "ALL" || item.channel === filters.channel;
+        const matchesStatus = filters.status === "ALL" || item.status === filters.status;
+
+        return matchesSearch && matchesChannel && matchesStatus;
+      });
+
+      // 2. Sort
+      filtered.sort((a, b) => {
+        let valA = a[sortState.column];
+        let valB = b[sortState.column];
+
+        if (sortState.column === "net_revenue") {
+          valA = computeNetRevenue(a);
+          valB = computeNetRevenue(b);
+        } else if (["gross_amount", "discount", "refund_amount", "tax"].includes(sortState.column)) {
+          valA = parseFloat(valA) || 0;
+          valB = parseFloat(valB) || 0;
+        }
+
+        if (valA < valB) return sortState.order === "asc" ? -1 : 1;
+        if (valA > valB) return sortState.order === "asc" ? 1 : -1;
+        return 0;
+      });
+
+      document.getElementById("recordCountLabel").innerText = `${filtered.length} / ${transactions.length} records`;
+
+      // 3. Pagination
+      const totalPages = Math.ceil(filtered.length / pagination.pageSize) || 1;
+      if (pagination.currentPage > totalPages) pagination.currentPage = totalPages;
+
+      const startIdx = (pagination.currentPage - 1) * pagination.pageSize;
+      const pageData = filtered.slice(startIdx, startIdx + pagination.pageSize);
+
+      const tbody = document.getElementById("masterDataTableBody");
+      if (pageData.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="13" class="py-6 text-center text-xs text-slate-400">Không tìm thấy giao dịch nào phù hợp với bộ lọc.</td></tr>`;
+      } else {
+        tbody.innerHTML = pageData.map(item => {
+          const net = computeNetRevenue(item);
+          let statusBadge = "badge-gray";
+          if (item.status === "Completed") statusBadge = "badge-green";
+          else if (item.status === "Pending") statusBadge = "badge-amber";
+          else if (item.status === "Refunded") statusBadge = "badge-red";
+
+          return `
+            <tr class="hover:bg-slate-50 transition">
+              <td class="py-2.5 px-3 font-mono font-bold text-slate-800">${item.transaction_id}</td>
+              <td class="py-2.5 px-3 text-slate-600">${item.date}</td>
+              <td class="py-2.5 px-3 font-semibold text-slate-900">${item.customer_name}</td>
+              <td class="py-2.5 px-3 text-slate-600">${item.channel || "—"}</td>
+              <td class="py-2.5 px-3 text-slate-700 max-w-xs truncate">${item.package_type || "—"}</td>
+              <td class="py-2.5 px-3 text-right font-mono font-semibold text-slate-800">${fmtMoney(item.gross_amount)}</td>
+              <td class="py-2.5 px-3 text-right font-mono text-amber-600">${parseFloat(item.discount) > 0 ? fmtMoney(item.discount) : "—"}</td>
+              <td class="py-2.5 px-3 text-right font-mono ${parseFloat(item.refund_amount) < 0 ? 'text-rose-600 font-bold' : 'text-slate-400'}">${parseFloat(item.refund_amount) < 0 ? fmtMoney(item.refund_amount) : "—"}</td>
+              <td class="py-2.5 px-3 text-right font-mono text-slate-500">${fmtMoney(item.tax)}</td>
+              <td class="py-2.5 px-3 text-right font-mono font-bold text-sky-700 bg-sky-50/50">${fmtMoney(net)}</td>
+              <td class="py-2.5 px-3 text-center"><span class="px-1.5 py-0.5 rounded badge-blue font-bold text-[10px]">${item.currency || "USD"}</span></td>
+              <td class="py-2.5 px-3 text-center"><span class="px-2 py-0.5 rounded ${statusBadge} font-semibold text-[11px]">${item.status}</span></td>
+              <td class="py-2.5 px-3 text-center">
+                <button onclick="deleteTransaction('${item.transaction_id}')" class="text-rose-600 hover:text-rose-800 font-bold px-1.5 py-0.5 rounded hover:bg-rose-50" title="Xoá dòng">
+                  ✕
+                </button>
+              </td>
+            </tr>
+          `;
+        }).join("");
+      }
+
+      // Render pagination UI
+      document.getElementById("paginationInfo").innerText = `Trang ${pagination.currentPage} / ${totalPages} (${filtered.length} kết quả)`;
+      const pBtns = document.getElementById("paginationButtons");
+      let btnsHtml = `
+        <button onclick="goToPage(1)" ${pagination.currentPage === 1 ? 'disabled class="opacity-40 cursor-not-allowed"' : 'class="hover:bg-slate-200"'} class="px-2 py-1 rounded bg-slate-100 border border-slate-300">«</button>
+        <button onclick="goToPage(${pagination.currentPage - 1})" ${pagination.currentPage === 1 ? 'disabled class="opacity-40 cursor-not-allowed"' : 'class="hover:bg-slate-200"'} class="px-2 py-1 rounded bg-slate-100 border border-slate-300">‹</button>
+      `;
+
+      for (let p = Math.max(1, pagination.currentPage - 2); p <= Math.min(totalPages, pagination.currentPage + 2); p++) {
+        btnsHtml += `
+          <button onclick="goToPage(${p})" class="px-2.5 py-1 rounded border font-semibold ${p === pagination.currentPage ? 'bg-sky-600 text-white border-sky-600' : 'bg-white border-slate-300 hover:bg-slate-100'}">${p}</button>
+        `;
+      }
+
+      btnsHtml += `
+        <button onclick="goToPage(${pagination.currentPage + 1})" ${pagination.currentPage === totalPages ? 'disabled class="opacity-40 cursor-not-allowed"' : 'class="hover:bg-slate-200"'} class="px-2 py-1 rounded bg-slate-100 border border-slate-300">›</button>
+        <button onclick="goToPage(${totalPages})" ${pagination.currentPage === totalPages ? 'disabled class="opacity-40 cursor-not-allowed"' : 'class="hover:bg-slate-200"'} class="px-2 py-1 rounded bg-slate-100 border border-slate-300">»</button>
+      `;
+      pBtns.innerHTML = btnsHtml;
+    }
+
+    function goToPage(p) {
+      const totalPages = Math.ceil(transactions.length / pagination.pageSize) || 1;
+      if (p < 1) p = 1;
+      if (p > totalPages) p = totalPages;
+      pagination.currentPage = p;
+      renderDataTable();
+    }
+
+    function handleSearch(val) {
+      filters.search = val;
+      pagination.currentPage = 1;
+      renderDataTable();
+    }
+
+    function handleChannelFilter(val) {
+      filters.channel = val;
+      pagination.currentPage = 1;
+      renderDataTable();
+    }
+
+    function handleStatusFilter(val) {
+      filters.status = val;
+      pagination.currentPage = 1;
+      renderDataTable();
+    }
+
+    function handleSort(col) {
+      if (sortState.column === col) {
+        sortState.order = sortState.order === "asc" ? "desc" : "asc";
+      } else {
+        sortState.column = col;
+        sortState.order = "desc";
+      }
+      renderDataTable();
+    }
+
+    function deleteTransaction(id) {
+      if (confirm(`Bạn có chắc muốn xoá giao dịch ${id}?`)) {
+        transactions = transactions.filter(t => t.transaction_id !== id);
+        updateAllViews();
+      }
+    }
+
+    function clearAllData() {
+      if (confirm("CẢNH BÁO: Thao tác này sẽ xoá toàn bộ dữ liệu giao dịch hiện có. Bạn có muốn tiếp tục?")) {
+        transactions = [];
+        updateAllViews();
+      }
+    }
+
+    function resetToSampleData() {
+      transactions = JSON.parse(JSON.stringify(INITIAL_SAMPLE_DATA));
+      dismissValidationAlert();
+      updateAllViews();
+    }
+
+    // ================= 7. MANUAL ADD & MODAL =================
+    function openModal(id) {
+      document.getElementById(id).classList.remove("hidden");
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).classList.add("hidden");
+    }
+
+    function handleManualAdd(e) {
+      e.preventDefault();
+      const id = document.getElementById("addId").value.trim();
+      const date = document.getElementById("addDate").value;
+      const customer = document.getElementById("addCustomer").value.trim();
+      const channel = document.getElementById("addChannel").value;
+      const pkg = document.getElementById("addPackage").value;
+      const gross = parseFloat(document.getElementById("addGross").value) || 0;
+      const discount = parseFloat(document.getElementById("addDiscount").value) || 0;
+      const refund = parseFloat(document.getElementById("addRefund").value) || 0;
+      const tax = parseFloat(document.getElementById("addTax").value) || 0;
+      const status = document.getElementById("addStatus").value;
+
+      // Duplicate check
+      if (transactions.some(t => t.transaction_id.toLowerCase() === id.toLowerCase())) {
+        alert(`Lỗi: Mã giao dịch '${id}' đã tồn tại! Vui lòng chọn mã khác.`);
+        return;
+      }
+
+      transactions.unshift({
+        transaction_id: id,
+        date: date,
+        customer_name: customer,
+        channel: channel,
+        package_type: pkg,
+        gross_amount: gross,
+        discount: discount,
+        refund_amount: refund,
+        tax: tax,
+        currency: "USD",
+        status: status
+      });
+
+      closeModal("addModal");
+      document.getElementById("addTransactionForm").reset();
+      updateAllViews();
+      switchTab("data");
+    }
+
+    // ================= 8. FILE UPLOAD & DROP ZONE =================
+    const dropZone = document.getElementById("dropZone");
+    const fileInput = document.getElementById("csvFileInput");
+
+    dropZone.addEventListener("click", () => fileInput.click());
+    dropZone.addEventListener("dragover", (e) => {
+      e.preventDefault();
+      dropZone.classList.add("dragover");
+    });
+    dropZone.addEventListener("dragleave", () => dropZone.classList.remove("dragover"));
+    dropZone.addEventListener("drop", (e) => {
+      e.preventDefault();
+      dropZone.classList.remove("dragover");
+      if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+        processUploadedFile(e.dataTransfer.files[0]);
+      }
+    });
+
+    function handleFileSelect(e) {
+      if (e.target.files && e.target.files.length > 0) {
+        processUploadedFile(e.target.files[0]);
+      }
+    }
+
+    function processUploadedFile(file) {
+      if (!file.name.toLowerCase().endsWith(".csv")) {
+        showValidationAlert("Định dạng tệp không được hỗ trợ", ["Vui lòng tải lên đúng tệp có phần mở rộng là .csv."]);
+        return;
+      }
+
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const text = e.target.result;
+        const parsed = parseCSV(text);
+        const validation = validateCSV(parsed);
+
+        if (!validation.valid) {
+          showValidationAlert("Tệp CSV bị từ chối do vi phạm quy chuẩn kiểm tra:", validation.errors);
+          fileInput.value = "";
+          return;
+        }
+
+        // Successfully validated
+        dismissValidationAlert();
+        transactions = parsed.map(r => ({
+          transaction_id: r.transaction_id,
+          date: r.date,
+          customer_name: r.customer_name,
+          channel: r.channel || "Website Direct",
+          package_type: r.package_type || "Basic Photo Walk ($30/h)",
+          gross_amount: parseFloat(r.gross_amount) || 0,
+          discount: parseFloat(r.discount) || 0,
+          refund_amount: parseFloat(r.refund_amount) || 0,
+          tax: parseFloat(r.tax) || 0,
+          currency: "USD",
+          status: r.status || "Completed"
+        }));
+
+        updateAllViews();
+        fileInput.value = "";
+        alert(`Tải lên thành công! Đã nạp ${transactions.length} giao dịch hợp lệ.`);
+      };
+      reader.readAsText(file);
+    }
+
+    function showValidationAlert(title, errorList) {
+      document.getElementById("validationAlertTitle").innerText = title;
+      const listEl = document.getElementById("validationAlertList");
+      listEl.innerHTML = errorList.map(err => `<li>${err}</li>`).join("");
+      document.getElementById("validationAlert").classList.remove("hidden");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function dismissValidationAlert() {
+      document.getElementById("validationAlert").classList.add("hidden");
+    }
+
+    // Set today default on manual add form
+    document.getElementById("addDate").value = new Date().toISOString().slice(0, 10);
+
+    // Initial render
+    window.addEventListener("DOMContentLoaded", () => {
+      updateAllViews();
+    });
+    window.addEventListener("resize", () => {
+      renderTrendChart();
+    });
+  </script>
+</body>
+</html>

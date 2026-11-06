@@ -1,0 +1,264 @@
+Window: "TravelFrame settings | TravelFrame Vietnam", App: Google Chrome.
+0 standard window TravelFrame settings | TravelFrame Vietnam - Google Chrome - Huy Tue, URL: travelframe.sidevn.com/admin/config/content/travelframe, Secondary Actions: Raise
+	1 container TravelFrame settings | TravelFrame Vietnam - Google Chrome - Huy Tue, URL: travelframe.sidevn.com/admin/config/content/travelframe
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 container
+					8 pop up button View site information
+					9 text field (settable) Address and search bar, Value: travelframe.sidevn.com/admin/config/content/travelframe, Placeholder: Ask Google or type a URL
+					10 button Bookmark this tab
+				11 container
+					12 pop up button Sticky Notes 3.8 - Super Quick & Personal
+					13 pop up button MetaMask
+Has access to this site
+					14 pop up button Zent Translate
+Has access to this site
+					15 pop up button Read Aloud: A Text to Speech Voice Reader
+Wants access to this site
+					16 pop up button Wordtune
+Has access to this site
+					17 pop up button Hotspot Shield Free VPN Proxy - Unlimited VPN
+Has access to this site
+					18 pop up button LINER
+Has access to this site
+					19 pop up button Extensions
+				20 button Control your music, videos, and more
+				21 button Open Gemini in Chrome
+				22 button Huy Tue
+				23 pop up button Chrome
+			24 toolbar Bookmarks
+				25 toolbar Saved Tab Groups
+					26 button Tab groups
+				27 splitter Separator
+				28 bookmark button Google
+				29 bookmark button DuckDuckGo — Privacy, simplified.
+				30 bookmark button Google Earth Studio
+				31 bookmark button YouTube
+				32 bookmark button Facebook
+				33 bookmark button Reddit - Dive into anything
+				34 bookmark button Quora
+				35 bookmark button Vietstock - Tin chứng khoán, bất động sản, kinh tế đầu tư, tài chính và tiêu dùng
+				36 bookmark button FireAnt - Dashboard
+				37 pop up button Menu containing hidden bookmarks
+			38 container
+				39 scroll area
+					40 HTML content TravelFrame settings | TravelFrame Vietnam, URL: travelframe.sidevn.com/admin/config/content/travelframe
+						41 container
+							42 link Skip to main content, Value: travelframe.sidevn.com/admin/config/content/travelframe#main-content
+							43 container Administrative sidebar
+								44 heading Administrative sidebar, Value: 2
+									45 text Administrative sidebar
+								46 container
+									47 link Home page, Value: travelframe.sidevn.com/
+									48 heading Content, Value: 3
+										49 text Content
+									50 content list
+										51 button Extend Create
+										52 link Blocks, Value: travelframe.sidevn.com/admin/content/block
+										53 link Content, Value: travelframe.sidevn.com/admin/content
+										54 link Files, Value: travelframe.sidevn.com/admin/content/files
+									55 heading Administration, Value: 3
+										56 text Administration
+									57 content list
+										58 button Extend Structure
+										59 link Appearance, Help: Select and configure themes., Value: travelframe.sidevn.com/admin/appearance
+										60 link Extend, Help: Add and install modules to extend site functionality., Value: travelframe.sidevn.com/admin/modules
+										61 button Collapse Configuration
+										62 link People, Help: Manage user accounts, roles, and permissions., Value: travelframe.sidevn.com/admin/people
+										63 button Extend Reports
+										64 link Announcements, Help: Displays announcements from the Drupal community., Value: travelframe.sidevn.com/admin/announcements_feed
+								65 container
+									66 heading Help, Value: 3
+										67 text Help
+									68 content list
+										69 link Help, Value: travelframe.sidevn.com/admin/help
+									70 heading User, Value: 3
+										71 text User
+									72 content list
+										73 button Extend admin
+									74 button Collapse sidebar
+							75 container
+								76 container Breadcrumb
+									77 heading Breadcrumb, Value: 2
+										78 text Breadcrumb
+									79 content list
+										80 link Home, Value: travelframe.sidevn.com/
+										81 container
+											82 image
+											83 link Administration, Value: travelframe.sidevn.com/admin
+										84 container
+											85 image
+											86 link Configuration, Value: travelframe.sidevn.com/admin/config
+										87 container
+											88 image
+											89 link Content authoring, Value: travelframe.sidevn.com/admin/config/content
+								90 heading TravelFrame settings, Value: 1
+									91 text TravelFrame settings
+							92 container Error message
+								93 container
+									94 heading Error message, Value: 2
+										95 text Error message
+									96 text There is a security update available for your version of Drupal. To ensure the security of your server, you should update immediately! See the 
+									97 link available updates, Value: travelframe.sidevn.com/admin/reports/updates
+									98 text  page for more information.
+							99 container
+								100 text Hero eyebrow
+								101 text field (settable) Hero eyebrow, Value: Private Walking Photo Tours in Hanoi
+								102 text Hero title
+								103 text field (settable) Hero title, Value: Experience Hanoi. Take home candid <span class="accent-corn">memories</span>.
+								104 text Hero description
+								105 text entry area (settable) Hero description, Value: Every tour comes with a guide who is also your photographer — you experience Hanoi, we capture and film the moments.
+								106 text Hero image alt
+								107 text field (settable) Hero image alt, Value: Traveler walking with local guide through historic yellow colonial streets in Hanoi Old Quarter
+								108 text Album banner title
+								109 text field (settable) Album banner title, Value: Photo & video album
+								110 text Album banner body
+								111 text entry area (settable) Album banner body, Value: Browse the photo sets and films we've produced for our guests.
+								112 text Contact title
+								113 text field (settable) Contact title, Value: Let's meet in the Old Quarter?
+								114 text Contact body
+								115 text entry area (settable) Contact body, Value: Send a message, call our hotline or drop by the tour office to plan your trip. We'll reply within 24 hours.
+								116 text Default SEO title
+								117 text field (settable) Default SEO title, Value: Private Hanoi Photo Tours & Vacation Photography
+								118 text Default SEO description
+								119 text entry area (settable) Default SEO description, Value: Book private walking photo tours in Hanoi with an English-speaking local companion. Candid vacation portraits, street food, and hidden gems delivered in 24 hours.
+								120 text Canonical site URL
+								121 text field (settable) Canonical site URL, Value: https://travelframe.sidevn.com
+								122 button Hero image
+								123 heading Thong tin tap tin, Value: 4
+									124 text Thong tin tap tin
+								125 container  hero.jpg
+									126 link hero.jpg, Value: travelframe.sidevn.com/themes/custom/travelframe/img/hero-desktop.webp
+								127 checkbox Xoa anh hien tai, Value: 0
+								128 container
+									129 text Tai anh moi
+									130 container
+										131 button Tai anh moi: No file chosen
+										132 button Tai len
+									133 text Anh banner trang chu. JPG/PNG se duoc xu ly thanh WebP khi luu.
+								134 button Marquee images (danh sach anh chay tren trang chu)
+								135 button Vietnamese content
+								136 button Homepage service cards (3)
+								137 button Homepage process steps (3)
+								138 text Step 1 title
+								139 text field (settable) Step 1 title, Value: You experience
+								140 text Step 1 body
+								141 text entry area (settable) Step 1 body, Value: Explore Hanoi your own way.
+								142 text Step 1 title VI
+								143 text field (settable) Step 1 title VI, Value: Bạn trải nghiệm
+								144 text Step 1 body VI
+								145 text entry area (settable) Step 1 body VI, Value: Khám phá Hà Nội theo cách của bạn.
+								146 text Step 2 title
+								147 text field (settable) Step 2 title, Value: Your guide shoots & films
+								148 text Step 2 body
+								149 text entry area (settable) Step 2 body, Value: Capturing natural moments all along.
+								150 text Step 2 title VI
+								151 text field (settable) Step 2 title VI, Value: Guide chụp & quay ẩn
+								152 text Step 2 body VI
+								153 text entry area (settable) Step 2 body VI, Value: Ghi lại khoảnh khắc tự nhiên suốt tour.
+								154 text Step 3 title
+								155 text field (settable) Step 3 title, Value: Receive photos & video
+								156 text Step 3 body
+								157 text entry area (settable) Step 3 body, Value: Color-graded, delivered in 24–48h.
+								158 text Step 3 title VI
+								159 text field (settable) Step 3 title VI, Value: Nhận ảnh & video
+								160 text Step 3 body VI
+								161 text entry area (settable) Step 3 body VI, Value: Chỉnh màu, gửi sau 24–48 giờ.
+								162 button Lists: add-ons, FAQ, guides, how-it-works, reviews, marquee, showcase
+								163 text Add-ons (name | price | icon | description, one per line)
+								164 text entry area (settable) Add-ons (name | price | icon | description, one per line)
+								165 text FAQ items (question || answer, one per line)
+								166 text entry area (settable) FAQ items (question || answer, one per line), Value: How do I book a tour? || Tap "Book a tour", fill in your details, choose a package and destinations, then confirm. We'll reach out and send a confirmation email.
+Can I cancel or reschedule? || Yes. Free cancellation up to 48 hours before. To reschedule, contact us by phone or email.
+How do I pay? || A 50% deposit holds your spot; the rest is paid before or at the meeting point. We support bank transfer and cash.
+I have allergies or eat vegetarian — is that ok? || Yes. When booking, note allergies or your diet (vegetarian, gluten-free…) and we'll adjust the menu.
+Can I choose the spice level? || Yes — from no spice to mild, medium or hot. Pick when booking.
+Are photos included in the price? || Yes, depending on your package. Your guide doubles as photographer; photos are sent after the tour — higher packages include color grading and short video.
+Can I request specific photo spots? || Yes. Note the spots you want when booking and your guide will route through them.
+Where is the meeting point? || Our office at 12 Hang Buom, Hoan Kiem, Hanoi — or we pick you up from your hotel in the centre.
+What if it rains? || Tours still run. Your guide adjusts the route to covered or indoor spots.
+Can children join? || Yes. Tours suit all ages; younger children often get a discount or go free depending on the package.
+								167 text FAQ items VI (question || answer, one per line)
+								168 text entry area (settable) FAQ items VI (question || answer, one per line), Value: Làm sao để đặt tour? || Bấm nút "Đặt tour", điền thông tin cá nhân, chọn gói dịch vụ và các địa điểm bạn muốn ghé, rồi xác nhận. Chúng tôi sẽ liên hệ và gửi email xác nhận.
+Tôi có thể hủy hoặc đổi lịch không? || Có. Bạn có thể hủy miễn phí trước 48 giờ. Để đổi lịch, vui lòng liên hệ hotline hoặc email.
+Thanh toán như thế nào? || Bạn đặt cọc 50% để giữ chỗ, thanh toán phần còn lại trước hoặc ngay tại điểm hẹn. Chúng tôi hỗ trợ chuyển khoản và tiền mặt.
+Tôi bị dị ứng hoặc ăn chay có được không? || Được. Khi đặt tour, bạn ghi rõ dị ứng hoặc chế độ ăn, chúng tôi sẽ điều chỉnh thực đơn phù hợp.
+Độ cay có thể chọn không? || Có. Từ không cay, ít cay, cay vừa đến cay nhiều — bạn chọn ở bước đặt tour.
+Ảnh chụp có bao gồm trong giá không? || Có, tùy gói bạn chọn. Guide kiêm nhiếp ảnh chụp cho bạn suốt tour; ảnh được gửi sau tour, gói cao hơn có chỉnh màu và video ngắn.
+Tôi có thể yêu cầu địa điểm chụp cụ thể không? || Có. Bạn ghi chú địa điểm muốn chụp khi đặt tour, guide sẽ sắp xếp lộ trình qua đó.
+Điểm hẹn ở đâu? || Văn phòng tour tại 12 Hàng Buồm, Hoàn Kiếm, Hà Nội — hoặc chúng tôi đón bạn tại khách sạn trong khu trung tâm.
+Trời mưa thì sao? || Tour vẫn diễn ra. Guide sẽ linh hoạt điều chỉnh lộ trình sang các điểm có mái che hoặc trong nhà.
+Trẻ em có tham gia được không? || Được. Tour phù hợp mọi lứa tuổi; trẻ nhỏ thường được giảm giá hoặc miễn phí tùy gói.
+								169 text How it works steps (title || body, one per line)
+								170 text entry area (settable) How it works steps (title || body, one per line), Value: Choose your tour || Start by picking one of three local experiences in Hanoi's Old Quarter.
+Choose package & duration || Browse packages and durations to fit your schedule — from a relaxed 3 hours to a full day.
+Book & share your taste || Tell us about spice level, allergies, preferences and the spots you want photographed.
+Matched with a guide beforehand || Based on what you share, we pair you with the right guide/photographer and introduce you before the day.
+Meet your guide & explore || On the day, meet your guide in the Old Quarter and explore Hanoi your way — with great photos.
+								171 text How it works steps VI (title || body, one per line)
+								172 text entry area (settable) How it works steps VI (title || body, one per line), Value: Chọn tour của bạn || Bắt đầu bằng việc chọn một trong ba trải nghiệm local ở phố cổ Hà Nội.
+Chọn gói & thời lượng || Duyệt các gói dịch vụ và thời lượng phù hợp lịch trình — từ 3 giờ thư thả đến cả ngày khám phá.
+Đặt tour & nói khẩu vị || Cho chúng tôi biết độ cay, dị ứng, sở thích và những địa điểm bạn muốn chụp ảnh.
+Ghép guide & làm quen trước || Dựa trên những gì bạn chia sẻ, chúng tôi ghép bạn với guide/nhiếp ảnh hợp gu và giới thiệu bạn trước ngày đi.
+Gặp guide & khám phá || Đúng ngày, bạn gặp guide tại điểm hẹn ở phố cổ, rồi cùng khám phá Hà Nội theo cách của riêng bạn — kèm ảnh đẹp.
+								173 text Reviews (text | meta, one per line)
+								174 text entry area (settable) Reviews (text | meta, one per line), Value: "Wonderful tour! My guide took so many beautiful photos in the Old Quarter and led me to the best food stalls." | Sarah M. · UK · Food Tour
+"Not like a normal tour. Felt like walking around with a local friend." | Kenji T. · Japan · Spiritual Tour
+"The photos were beautiful, color-graded after the tour. Worth every dong." | Emma L. · Australia · Craft Village Tour
+"Enthusiastic guide who knows hidden corners few tourists see. The food was surprisingly good." | Carlos R. · Spain · Food Tour
+"I'm gluten-intolerant but got my own menu. So thoughtful." | Anna K. · Germany · Craft Village Tour
+"Great night tour — the Old Quarter lanterns photograph beautifully. Will be back." | Liam O. · Ireland · Spiritual Tour
+								175 text Reviews VI (text | meta, one per line)
+								176 text entry area (settable) Reviews VI (text | meta, one per line), Value: "Tour tuyệt vời! Guide chụp cho mình rất nhiều ảnh đẹp ở phố cổ và dẫn tới những quán ăn ngon nhất." | Sarah M. · Anh Quốc · Tour Ẩm Thực
+"Không giống tour du lịch thông thường. Cảm giác như đi dạo cùng một người bạn địa phương." | Kenji T. · Nhật Bản · Tour Tâm Linh
+"Ảnh chụp rất đẹp, gửi sau tour có chỉnh màu. Đáng giá từng đồng." | Emma L. · Úc · Tour Làng Nghề
+"Guide nhiệt tình, biết nhiều góc khuất ít khách du lịch. Món ăn ngon bất ngờ." | Carlos R. · Tây Ban Nha · Tour Ẩm Thực
+"Tôi bị dị ứng gluten nhưng được điều chỉnh thực đơn riêng. Rất chu đáo." | Anna K. · Đức · Tour Làng Nghề
+"Tour đêm tuyệt, đèn lồng phố cổ lên hình cực đẹp. Sẽ quay lại." | Liam O. · Ireland · Tour Tâm Linh
+								177 button About page
+								178 button Save configuration
+						179 container
+							180 container
+							181 image
+			182 tab group
+				183 container
+					184 button Collapse Tabs (⇧⌘L)
+					185 pop up button Tab groups
+					186 pop up button Tab search
+				187 container
+					188 scroll area
+					189 scroll area
+						190 container
+							191 tab (settable, boolean) Meta Business Suite, Value: off
+							192 tab (settable, boolean) Ads Manager, Value: off
+							193 tab (settable, boolean) About Vietnam's value-added tax (VAT) | Meta Business Help Centre, Value: off
+							194 tab (settable, boolean) Facebook - Memory usage - 621 MB, Value: off
+							195 tab (settable, boolean) (2) Facebook, Value: off
+							196 tab (settable, boolean) (12) YouTube - Memory usage - 603 MB, Value: off
+							197 tab (settable, boolean) Home | ElevenLabs, Value: off
+							198 tab (settable, boolean) Value: off, GTAI-1/flow-mcp: Drive Google Flow from Claude, Codex or a local control panel, on Mac or Windows — using your Google AI subscription credits instead of the pay-per-use video API. No browser extension.
+							199 tab (settable, boolean) Hộp thư đến (194) - huytue3107@gmail.com - Gmail - Memory usage - 392 MB, Value: off
+							200 tab (settable, boolean) (2) Facebook - Memory usage - 571 MB, Value: off
+							201 tab (selected, settable, boolean) TravelFrame settings | TravelFrame Vietnam - Memory usage - 456 MB, Value: on
+								202 button Close
+				203 button New tab
+				204 slider Vertical Tab Strip Resize Handle (Draggable), Secondary Actions: Decrement, Increment
+	205 close button
+	206 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	207 minimize button
+208 menu bar
+	209 Chrome
+	210 File
+	211 Edit
+	212 View
+	213 History
+	214 Bookmarks
+	215 Profiles
+	216 Tab
+	217 Window
+	218 Help
+
+The focused UI element is 162 button Lists: add-ons, FAQ, guides, how-it-works, reviews, marquee, showcase

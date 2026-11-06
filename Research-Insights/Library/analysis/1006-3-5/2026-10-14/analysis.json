@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "status": "partial",
+  "video": "/Users/macbook/Downloads/1006(3)/1006(3)-5.mp4",
+  "observations": [
+    {
+      "kind": "visual",
+      "timestamp_estimate": "0–2",
+      "text": "Người ở bờ hồ, ánh đèn phản chiếu.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 0,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "0–2",
+      "text": "Because if we bring the flash...",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 0,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "3",
+      "text": "Góc nhìn gần người nói và camera.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 3,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "3",
+      "text": "Whoa!",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 3,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "4–6",
+      "text": "Tiếp tục trò chuyện về flash.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 4,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "4–6",
+      "text": "If we bring the flash, it's gonna look like this / It's still cool",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 4,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "7–9",
+      "text": "Ảnh bóng người trước bảng VNPT HÀ NỘI qua hồ.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 7,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "7–9",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 7,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "10–11",
+      "text": "Tháp Rùa sáng đèn giữa mặt hồ.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 10,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "10–11",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 10,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "12–13.4",
+      "text": "Bóng người tiền cảnh, Tháp Rùa hậu cảnh.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 12,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "12–13.4",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 12,
+        "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "kind": "inference",
+      "basis": [
+        {
+          "pass": "main",
+          "frame_index": 0,
+          "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 3,
+          "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 4,
+          "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 7,
+          "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 10,
+          "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 12,
+          "index": "Research-Insights/Library/analysis/1006-3-5/2026-10-14/frames/frames.json"
+        }
+      ],
+      "reason": "Photo bridge từ landmark đến ảnh có người; nhận diện hồ Hoàn Kiếm từ Tháp Rùa và signage, không dựa vào tên file."
+    }
+  ],
+  "asr_limitation": "ASR rút gọn câu flash và đổi still cool thành so cool. Hình cho thấy bóng người; không kết luận flash đã dùng trong từng ảnh.",
+  "missing": [
+    "post_caption",
+    "platform_subtitles"
+  ],
+  "coverage": {
+    "main": "approximately 1fps throughout",
+    "focused": [
+      "0–3s",
+      "last 3s"
+    ],
+    "focused_rate_fps": 2,
+    "reviewed": "all extracted frames through contact sheets",
+    "continuous_audio_review": false
+  },
+  "timestamp_note": "estimate, not frame-exact"
+}

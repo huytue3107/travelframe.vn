@@ -1,0 +1,32 @@
+[
+  {
+    "source": "Creative-Production/Assets/Raw/Hanna-Long-Bien-2026-10-22/hanna-long-bien-street-style-02.jpg",
+    "file": "hanna-long-bien-street-style-02.webp",
+    "dimensions": [
+      1600,
+      1066
+    ],
+    "bytes": 305940,
+    "sha256": "b44ccdc0a6390a1a32264558fed16a0d3f28c9220a1f8a1083989fece1131f2a"
+  },
+  {
+    "source": "Creative-Production/Assets/Raw/Hanna-Long-Bien-2026-10-22/hanna-long-bien-street-style-03.jpg",
+    "file": "hanna-long-bien-street-style-03.webp",
+    "dimensions": [
+      1600,
+      1066
+    ],
+    "bytes": 320312,
+    "sha256": "9c2291d48073edb8fb1e9fc69919feb764177569ef9cec05ac0dbc90e837a2ea"
+  },
+  {
+    "source": "Creative-Production/Assets/Raw/Hanna-Long-Bien-2026-10-22/hanna-long-bien-street-style-06.jpg",
+    "file": "hanna-long-bien-street-style-06.webp",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "bytes": 235850,
+    "sha256": "b38e20da539b9e62970471250ae103d364b633e891d133b2ee2be818a01aaa50"
+  }
+]

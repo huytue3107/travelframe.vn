@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "video_key": "facebook/1097683359660009",
+  "status": "partial",
+  "reviewed_frame_passes": [
+    "frames",
+    "hook",
+    "ending"
+  ],
+  "observations": [
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Tiêu đề mục tiêu và hình cắt nền mèo.",
+      "evidence": {
+        "index_path": "hook/frames.json",
+        "frame_index": 0
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Chuyển sang clip thao tác tại bàn làm việc.",
+      "evidence": {
+        "index_path": "hook/frames.json",
+        "frame_index": 7
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Bốn thẻ thông tin chia lưới rõ ràng.",
+      "evidence": {
+        "index_path": "frames/frames.json",
+        "frame_index": 1
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Sơ đồ dọc với mũi tên nối các ý.",
+      "evidence": {
+        "index_path": "frames/frames.json",
+        "frame_index": 25
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Bảng thông tin với các hàng và cột.",
+      "evidence": {
+        "index_path": "frames/frames.json",
+        "frame_index": 30
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Sơ đồ ba nấc tóm tắt lộ trình.",
+      "evidence": {
+        "index_path": "ending/frames.json",
+        "frame_index": 0
+      }
+    }
+  ],
+  "secondary_audio_observations": [
+    {
+      "kind": "audio_machine_observation",
+      "timestamp_estimate": "~0:00–0:01",
+      "text": "Gemini mô tả pop/boing khi hình và hook xuất hiện.",
+      "evidence": {
+        "path": "gemini-answer.md",
+        "provider": "watch/Gemini; authorized in chat"
+      }
+    },
+    {
+      "kind": "audio_machine_observation",
+      "timestamp_estimate": "~0:23–0:25",
+      "text": "Gemini mô tả typing ở thanh tìm kiếm.",
+      "evidence": {
+        "path": "gemini-answer.md",
+        "provider": "watch/Gemini; authorized in chat"
+      }
+    },
+    {
+      "kind": "audio_machine_observation",
+      "timestamp_estimate": "~0:30–0:33",
+      "text": "Gemini mô tả click/pop theo bốn thẻ.",
+      "evidence": {
+        "path": "gemini-answer.md",
+        "provider": "watch/Gemini; authorized in chat"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "kind": "inference",
+      "text": "Học cách dùng thẻ so sánh, mũi tên và checklist để giải thích menu/lộ trình; đặt hình ảnh du lịch thật vào ví dụ.",
+      "basis": [
+        "hook/0",
+        "hook/7",
+        "frames/1",
+        "frames/25",
+        "frames/30",
+        "ending/0"
+      ],
+      "reason": "Đề xuất chuyển chức năng giải thích bằng hình sang một câu hỏi du lịch."
+    }
+  ],
+  "asr_quality": "ASR lỗi nghiêm trọng ở đoạn cuối gần 720 giây: lặp từ không đáng tin. Không dùng đoạn này làm bằng chứng về lời kết; dùng focused ending cho chữ nhìn thấy.",
+  "missing_data": [
+    "No platform subtitle track",
+    "No independent human listening validation of machine SFX observations",
+    "No editing project, exact font/plugin/audio asset identity"
+  ],
+  "approval": {
+    "research": "Requested by Rocky",
+    "paid_video_analysis": "Explicitly authorized for five supplied videos",
+    "creative_direction": "Proposed; not approved"
+  }
+}

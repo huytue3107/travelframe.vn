@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Publishes the Instagram reel that is due (see publish-reels.mjs --due) every day at 11:00.
+     Install: cp to ~/Library/LaunchAgents/ && launchctl load ~/Library/LaunchAgents/vn.travelframe.instagram-reels.plist
+     Remove:  launchctl unload ~/Library/LaunchAgents/vn.travelframe.instagram-reels.plist && rm that file -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>vn.travelframe.instagram-reels</string>
+  <key>WorkingDirectory</key><string>/Users/macbook/Codex GPT/travelframe.vn</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/node</string>
+    <string>Technology-Automation/Scripts/meta-automation-mcp/publish-reels.mjs</string>
+    <string>--live</string>
+    <string>--platform</string><string>instagram</string>
+    <string>--due</string>
+    <string>--schedule</string><string>Marketing-Growth/Content/Drafts/2026-10-13-paul-first-time-model-bts/schedule.md</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>11</integer><key>Minute</key><integer>0</integer></dict>
+  <key>StandardOutPath</key><string>/Users/macbook/Library/Logs/travelframe-instagram-reels.log</string>
+  <key>StandardErrorPath</key><string>/Users/macbook/Library/Logs/travelframe-instagram-reels.log</string>
+</dict>
+</plist>

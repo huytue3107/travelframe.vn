@@ -1,0 +1,89 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Competitive Landscape — Nov 5, 2026</title><style>
+/* One light look, on screen and on paper. The report is read inside the app,
+   which has its own theme toggle, and a saved document has no way to hear about
+   it: a report that follows the OS scheme alone shows a black panel inside a
+   light app for anyone whose two settings disagree. */
+:root{--bg:#fff;--fg:#0a0a0a;--fg-2:#454545;--fg-3:#8f8f8f;--rule:#ebebeb;--rule-2:#dcdcdc;--sunk:#fafafa;
+  /* The one token a report template may change. Left as the text color, so a
+     report with no template looks exactly as it did before. */
+  --accent:var(--fg)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);margin:0;padding:0 24px 120px;font-size:18px;line-height:1.65;letter-spacing:-.003em;
+  font-family:Geist,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.shell{max-width:1100px;margin:0 auto}
+header{padding:40px 0 0;max-width:660px}
+h1{font-size:clamp(34px,6vw,56px);font-weight:700;line-height:1.03;letter-spacing:-.035em;margin:0;text-wrap:balance}
+.byline{margin:24px 0 0;font-size:16px;color:var(--fg-2)}
+.body{display:grid;grid-template-columns:minmax(0,660px) 1fr;gap:0 64px;margin:48px 0 0}
+/* Both explicitly in row 1: without it the rail auto-places into row 1 and
+   pushes the article down a whole row, opening an empty band above the text. */
+article{grid-column:1;grid-row:1;min-width:0}
+.rail{grid-column:2;grid-row:1;font-size:14px;color:var(--fg-3);padding-top:6px}
+.rail .sticky{position:sticky;top:40px}
+.toc-label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3);margin:0 0 10px}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li{margin:0 0 7px}
+.toc a{color:var(--fg-2);text-decoration:none}
+.toc a:hover{color:var(--fg)}
+/* Below 900px the rail is dropped rather than stacked: a contents list above
+   the report is a wall to scroll past on a phone, not a shortcut. */
+@media (max-width:900px){.body{grid-template-columns:1fr}.rail{display:none}}
+article p{margin:0 0 26px;text-wrap:pretty}
+h2{font-size:30px;font-weight:600;letter-spacing:-.025em;line-height:1.2;margin:60px 0 22px;text-wrap:balance}
+h3{font-size:20px;font-weight:600;letter-spacing:-.015em;margin:38px 0 14px}
+.finding{list-style:none;padding:0;margin:0 0 26px}
+.finding li{margin:0 0 8px;color:var(--fg-2)}
+.finding b{color:var(--accent);font-weight:600}
+a{color:var(--fg);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--rule-2)}
+strong{font-weight:600}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;background:var(--sunk);border:1px solid var(--rule);padding:1px 5px;border-radius:4px}
+ul,ol{margin:0 0 26px;padding-left:22px}li{margin:0 0 11px}li::marker{color:var(--fg-3)}
+.note{border-left:2px solid var(--fg);padding:2px 0 2px 22px;margin:0 0 26px}
+.note p{margin:0;color:var(--fg-2)}
+.note p+p{margin-top:14px}
+.tw{overflow-x:auto;margin:0 0 30px}
+table{border-collapse:collapse;width:100%;font-size:15.5px;min-width:440px}
+th{text-align:left;font-weight:500;color:var(--fg-3);padding:0 20px 10px 0;border-bottom:1px solid var(--rule-2);white-space:nowrap}
+td{padding:13px 20px 13px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--fg-2)}
+td:first-child{color:var(--fg)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td:last-child,th:last-child{padding-right:0}
+tr:last-child td{border-bottom:none}
+figure{margin:0 0 30px}
+figcaption{font-size:14px;color:var(--fg-3);margin-top:8px}
+.bars{display:grid;grid-template-columns:minmax(90px,170px) 1fr auto;gap:10px 12px;align-items:center;font-size:14px}
+.bars .label{color:var(--fg-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bars .track{display:block;height:20px;background:var(--sunk)}
+.bars .bar{display:block;height:100%;background:var(--accent);opacity:.16}
+.bars .value{font-variant-numeric:tabular-nums;min-width:3ch;text-align:right}
+svg{display:block;max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--rule);margin:60px 0}
+footer{max-width:660px;margin:64px 0 0;padding:26px 0 0;border-top:1px solid var(--rule);font-size:15px;color:var(--fg-3)}
+@media print{
+  /* A zero top margin hides the browser's own print header (date, tab title);
+     the bottom margin holds a page counter instead of the browser's URL line.
+     The body padding supplies the visible page margins. */
+  @page{margin:0 0 12mm 0;@bottom-center{content:counter(page) " of " counter(pages);font:10px -apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;color:#8f8f8f}}
+  body{background:#fff;color:#111;padding:14mm 16mm 6mm;font-size:11pt}
+  .shell,.body{display:block;max-width:none}
+  header{padding:0;max-width:none}
+  h1{font-size:26pt}
+  h2{font-size:15pt;margin:22pt 0 10pt}
+  h3{font-size:12pt;margin:14pt 0 6pt}
+  article,footer{max-width:none}
+  .rail{display:none}
+  h1,h2,h3{break-after:avoid}
+  table,figure,.note,svg{break-inside:avoid}
+  tr,td,th{break-inside:avoid}
+  p,li{orphans:3;widows:3}
+  thead{display:table-header-group}
+  .tw{overflow:visible}
+  table{font-size:10pt;min-width:0}
+  .byline,footer,figcaption{font-size:9.5pt}
+  svg,.bars .bar,.bars .track{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  a{text-decoration:none}
+}
+</style></head><body><div class="shell"><header><h1>Competitive Landscape — Nov 5, 2026</h1><p class="byline">Prepared for TravelFrame · November 5, 2026 · Review</p></header><div class="body"><aside class="rail"><div class="sticky"><p class="toc-label">Contents</p><nav class="toc" aria-label="Contents"><ol><li><a href="#the-market-read">The market read</a></li><li><a href="#who-is-winning">Who is winning</a></li><li><a href="#why-they-win">Why they win</a></li><li><a href="#gaps-and-openings">Gaps and openings</a></li><li><a href="#what-to-do-next">What to do next</a></li><li><a href="#how-this-report-was-made">How this report was made</a></li></ol></nav></div></aside><article><h2 id="the-market-read">The market read</h2><ul><li>SweetEscape và Localgrapher hiện diện lặp lại ở nhóm thuê thợ chụp; Very Dep nổi bật ở couple.</li><li>TravelFrame có cơ hội cụ thể ở ảnh Harry và trải nghiệm được hướng dẫn trước ống kính.</li><li>Mẫu năm query dịch vụ thành công chỉ cho định hướng, không đo thị phần toàn thị trường.</li></ul><h2 id="who-is-winning">Who is winning</h2><div class="tw"><table><thead><tr><th>Domain / loại</th><th>Hiện diện mẫu dịch vụ 04/11</th><th>Footprint US/en ước tính</th><th>Điểm học / khoảng trống</th></tr></thead><tbody><tr><td><a href="https://www.sweetescape.com/en/cities/hanoi" target="_blank" rel="noopener">sweetescape.com</a> · nền tảng chụp ảnh</td><td>3/5 queries; photoshoot #1</td><td>535 traffic/tháng;1,615 keywords</td><td>Trang theo thành phố; phần thân công cụ đọc chỉ trả shell, chưa audit quy trình đặt</td></tr><tr><td><a href="https://www.localgrapher.com/hanoi-photographer-cost/" target="_blank" rel="noopener">localgrapher.com</a> · nền tảng chụp ảnh</td><td>3/5; photographer in hanoi #5</td><td>3,167 traffic/tháng;4,643 keywords</td><td>Giải thích chi phí, inclusions và lựa chọn; TravelFrame cần offer tương ứng rõ</td></tr><tr><td><a href="https://verydep.com/" target="_blank" rel="noopener">verydep.com</a> · studio/ngoại cảnh</td><td>2/5; couple #1</td><td>unknown (provider không có data)</td><td>Portfolio, gói và bài chuẩn bị couple; khác trải nghiệm phố của TravelFrame</td></tr><tr><td><a href="https://www.hoatranphoto.com/" target="_blank" rel="noopener">hoatranphoto.com</a> · thợ chụp địa phương</td><td>3/5; couple #5</td><td>Không mua overview</td><td>Đáng theo dõi nhóm portrait/couple; chưa đánh giá toàn bộ funnel</td></tr><tr><td><a href="https://www.originvietnam.com/tours/hanoi-tours/hanoi-photography-tours/" target="_blank" rel="noopener">originvietnam.com</a> · công ty tour</td><td>1/5; photo tour #3</td><td>Tái dùng roster, không mua overview</td><td>Nội dung thiên hành trình cho người tự chụp; cần tách intent</td></tr><tr><td>Tripadvisor / Viator / GetYourGuide · marketplace</td><td>Xuất hiện trong các SERP mẫu; không gom các ccTLD thành một thị phần</td><td>Không so toàn-domain với TravelFrame</td><td>Giúp khách chọn hoạt động, đọc review; listing không đồng nghĩa đối thủ trực tiếp</td></tr><tr><td>vietnam.travel · nội dung du lịch quốc gia</td><td>Tái sử dụng nghiên cứu 29/10, chưa refresh toàn domain</td><td>Không dùng làm bảng so traffic hiện tại</td><td>Benchmark destination→route→experience; direct photoshoot rivalry chưa được xác nhận</td></tr></tbody></table></div><p class="note">Footprint là ước tính toàn domain trên thị trường Mỹ, không phải traffic Hanoi hay booking. Domain có thể xuất hiện nhiều lần; count tính mỗi query một lần. Null overview của Very Dep không chứng minh website không có traffic.</p><h2 id="why-they-win">Why they win</h2><h3>Giải thích việc mua trước khi yêu cầu khách liên hệ</h3><ul class="finding"><li><b>Quan sát:</b> <a href="https://www.localgrapher.com/hanoi-photographer-cost/" target="_blank" rel="noopener">Localgrapher cost guide</a> tổ chức package, inclusions, chi phí ngoài và liên kết portfolio.</li><li><b>Áp dụng:</b> Đồng bộ giá thực trên TravelFrame rồi thêm ảnh Harry và mẫu đầu ra.</li><li><b>Lợi ích giả thuyết:</b> Khách dễ so lựa chọn; thứ hạng quan sát không chứng minh cấu trúc này gây ra hiệu quả.</li></ul>
+<h3>Nối bài tư vấn với bộ ảnh cụ thể</h3><ul class="finding"><li><b>Quan sát:</b> <a href="https://verydep.com/blog/how-to-prepare-for-a-couples-photoshoot-in-hanoi/" target="_blank" rel="noopener">Very Dep couple preparation</a> nối hướng dẫn chuẩn bị, bộ ảnh và enquiry.</li><li><b>Áp dụng:</b> Dùng Hanna cho posing/street style, Thin cho Dong Xuan và phối màu, mỗi case một câu hỏi.</li><li><b>Giới hạn:</b> Không gọi case là khách trả phí hoặc câu chuyện chứng thực nếu thiếu xác nhận.</li></ul>
+<h3>Intent “photo tour” đang trộn hai nhu cầu</h3><ul class="finding"><li><b>Quan sát:</b> <a href="https://www.originvietnam.com/tours/hanoi-tours/hanoi-photography-tours/" target="_blank" rel="noopener">Origin Vietnam</a> mô tả hành trình qua ống kính của khách.</li><li><b>Áp dụng:</b> Ghi rõ TravelFrame chụp bạn, hỗ trợ tạo dáng và giao bộ ảnh; tránh hứa workshop nếu không bán.</li></ul><h2 id="gaps-and-openings">Gaps and openings</h2><div class="tw"><table><thead><tr><th>Theme</th><th>US searches/tháng ước tính</th><th>Chủ thể thấy trong mẫu</th><th>Hướng TravelFrame</th></tr></thead><tbody><tr><td>Thuê thợ chụp</td><td>photoshoot 140; photographer 20, biến thể chung bucket</td><td>SweetEscape, Localgrapher</td><td>Một trang dịch vụ có offer, ảnh thật, inquiry</td></tr><tr><td>Couple</td><td>10 (discovery 04/11);KDunknown</td><td>Very Dep, FramesbyBroccoli, Hoa Tran</td><td>Nâng guide couple, chỉ làm case khi có ảnh phù hợp</td></tr><tr><td>Map phố cổ</td><td>140 (snapshot 27/10)</td><td>ExploreToThrive, Maps-Hanoi, OstrichTrails</td><td>Bản đồ gốc trong pillar hiện có</td></tr><tr><td>Solo/posing/night</td><td>unknown cho các exactterm đã thử</td><td>Chưa xác lập demand riêng</td><td>Nội dung hỗ trợ mua, FAQ hoặc case; không nhận là volume 0</td></tr></tbody></table></div><p>Không cộng các query thành quy mô thị trường. National tourism và broadphoto content có lượng lớn nhưng chưa chứng minh dẫn khách đúng nhu cầu.</p><h2 id="what-to-do-next">What to do next</h2><ol><li>Chuẩn bị batch sửa trang dịch vụ: giá, gallery Harry, inclusions và inquiry.</li><li>Thực hiện map gốc trên guide hiện có; đo impressions và inquiry theo trang.</li><li>Chọn brief nâng service và case tiếp theo từ keyword mapping; không tạo trang cho từng biến thể.</li></ol><h2 id="how-this-report-was-made">How this report was made</h2><p>Generated by the <a href="https://openseo.so/docs/skills/competitive-landscape" target="_blank" rel="noopener">OpenSEO Competitive Landscape skill</a>, run by Codex on November 5, 2026.</p><p>OpenSEO find_serp_competitors trả rỗng; đối chiếu bằng SERP thực, không coi rỗng là thiếu đối thủ.9/10 query thành công,5 query trong nhóm dịch vụ; depth 40 mixed,23–36 organic/query. Không audit Google Maps.</p><details><summary>Evidence and methodology</summary><div class="tw"><table><thead><tr><th>Truy vấn</th><th>Organic trả về</th><th>TravelFrame, US/en/desktop, 04/11</th><th>Lưu ý</th></tr></thead><tbody><tr><td>hanoi photoshoot</td><td>31</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>photographer in hanoi</td><td>34</td><td>#15 (page 2)</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>hanoi couple photoshoot</td><td>31</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>hanoi photo tour</td><td>29</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>hanoi old quarter map</td><td>31</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>santorini park hanoi</td><td>23</td><td>#3 (page 1)</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>hanoi photographer</td><td>30</td><td>#28 (page 3)</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>private hanoi photo tour</td><td>unknown</td><td>unknown (provider error)</td><td>Không phải kết quả không tìm thấy</td></tr><tr><td>best photo spots hanoi</td><td>36</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>things to do in hanoi old quarter</td><td>34</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr></tbody></table></div><p>Query set: photoshoot, photographer in Hanoi, Hanoi photographer, couple, photo tour, private photo tour, map, Santorini, best photo spots, things to do Old Quarter. Private photo tour gặp provider error; không đánh dấu không xếp hạng. Domain do OpenSEO trả; nhiều URL kết quả là opaque Google goto. Không tự đoán slug hay chuẩn hoá ccTLD bằng tay để tăng số lần xuất hiện.</p><h3>Domain-level research</h3><p>Ba overviews và 30 ranked rows mỗi domain có dữ liệu: SweetEscape, Localgrapher; Very Dep trả rỗng. Top 30 sample theo estimated traffic, không phải toàn footprint. Labs SERP dates trong samples từ 20/07 đến 23/09/2026; rank_group là organic, rank_absolute gồm các khối. Không dùng historical rank làm vị trí 04/11.</p><div class="tw"><table><thead><tr><th>Domain</th><th>Phạm vi top 30</th><th>Góc nội dung để học</th></tr></thead><tbody><tr><td>SweetEscape</td><td>City pages và bài lifestyle/entertainment có trong sample</td><td>Học page thành phố; không đuổi keyword phim/địa điểm quốc tế</td></tr><tr><td>Localgrapher</td><td>Pose/theme/occasion guides chiếm nhiều dòng sample</td><td>Giải quyết câu hỏi chuẩn bị có ảnh gốc; không copy pose-content hàng loạt</td></tr></tbody></table></div><p>Không tính content-share từ 30 rows, không suy visits thành booking và không suy ranking từ backlink authority. Không mua backlinks overview mới; thông tinparent domain 27/10 không đại diện TravelFrame subdomain.</p><h3>Nguồn nội dung</h3><ul><li><a href="https://www.sweetescape.com/en/cities/hanoi" target="_blank" rel="noopener">SweetEscape Hanoi</a>: webreader chỉ trả shell; phân tích giới hạn ởSERP / Labs.</li><li><a href="https://www.localgrapher.com/hanoi-photographer-cost/" target="_blank" rel="noopener">Localgrapher cost guide</a> và <a href="https://verydep.com/" target="_blank" rel="noopener">Very Dep services</a>: claim do đối thủ tự công bố, chưa xác minh delivery hay chất lượng dịch vụ.</li><li><a href="https://verydep.com/blog/how-to-prepare-for-a-couples-photoshoot-in-hanoi/" target="_blank" rel="noopener">Very Dep preparation</a>, <a href="https://www.originvietnam.com/tours/hanoi-tours/hanoi-photography-tours/" target="_blank" rel="noopener">Origin Vietnam photo tours</a>: chỉ học cơ chế biên tập, không sao lại claim vé/giờ/travel.</li><li><a href="https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/reports/90fb880c-90cc-4b43-bbf1-5c524cafdd67" target="_blank" rel="noopener">Báo cáo vietnam.travel 29/10</a>: reuse dưới 30 ngày; không mua lại. IamLong không có domain trong mẫu này, chưa đủ bằng chứng loại khỏi roster; không đồng nhất account Instagram với domain.</li></ul><p>Tổng batch 282 credits theo balance 6881→6599; không bật tracker, gửi outreach hoặc sửawebsite. Các đề xuất là Review.</p></details></article></div><footer>Prepared with OpenSEO. Research retrieved November 4, 2026. Đề xuất Review, chưa triển khai website.</footer></div></body></html>

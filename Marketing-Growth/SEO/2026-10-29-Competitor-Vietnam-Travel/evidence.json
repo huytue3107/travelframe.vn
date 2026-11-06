@@ -1,0 +1,2595 @@
+{
+  "date": "2026-10-29",
+  "market": {
+    "locationCode": 2840,
+    "language": "en",
+    "device": "desktop"
+  },
+  "overview": {
+    "domain": "vietnam.travel",
+    "organicTraffic": 620185,
+    "organicKeywords": 7706,
+    "backlinks": null,
+    "referringDomains": null,
+    "hasData": true,
+    "fetchedAt": "2026-10-29T03:15:22.233Z",
+    "scope": "subdomains",
+    "displayTarget": "vietnam.travel",
+    "meta": {
+      "projectId": "b97024a3-b095-44e9-9489-d5fce1361263",
+      "url": "https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/domain?domain=vietnam.travel"
+    }
+  },
+  "rankedKeywords": [
+    {
+      "keyword": "vietnam",
+      "volume": 368000,
+      "kd": 54,
+      "organicRank": 2,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/node/1336",
+      "traffic": 59616,
+      "serpDate": "2026-07-30 03:42:16 +00:00",
+      "volumeDate": "2026-09-15 02:27:46 +00:00"
+    },
+    {
+      "keyword": "foodie vietnam",
+      "volume": 135000,
+      "kd": 6,
+      "organicRank": 1,
+      "mixedRank": 2,
+      "url": "https://vietnam.travel/things-to-do/vietnam-foodie-guide-region",
+      "traffic": 41040,
+      "serpDate": "2026-07-30 03:56:16 +00:00",
+      "volumeDate": "2026-09-12 02:20:00 +00:00"
+    },
+    {
+      "keyword": "ha noi vn",
+      "volume": 74000,
+      "kd": 55,
+      "organicRank": 1,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-noi",
+      "traffic": 22496,
+      "serpDate": "2026-07-30 04:14:58 +00:00",
+      "volumeDate": "2026-09-15 04:37:37 +00:00"
+    },
+    {
+      "keyword": "ha long bay",
+      "volume": 60500,
+      "kd": 26,
+      "organicRank": 1,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-long",
+      "traffic": 18392,
+      "serpDate": "2026-08-03 09:53:51 +00:00",
+      "volumeDate": "2026-09-12 00:34:28 +00:00"
+    },
+    {
+      "keyword": "ha long bay viet nam",
+      "volume": 60500,
+      "kd": 34,
+      "organicRank": 1,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-long",
+      "traffic": 18392,
+      "serpDate": "2026-08-03 09:41:19 +00:00",
+      "volumeDate": "2026-09-16 12:46:58 +00:00"
+    },
+    {
+      "keyword": "halong bay",
+      "volume": 60500,
+      "kd": 18,
+      "organicRank": 1,
+      "mixedRank": 5,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-long",
+      "traffic": 18392,
+      "serpDate": "2026-07-30 04:54:03 +00:00",
+      "volumeDate": "2026-09-12 21:57:45 +00:00"
+    },
+    {
+      "keyword": "vietnam halong bay",
+      "volume": 60500,
+      "kd": 24,
+      "organicRank": 1,
+      "mixedRank": 5,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-long",
+      "traffic": 18392,
+      "serpDate": "2026-07-30 04:34:39 +00:00",
+      "volumeDate": "2026-09-15 16:40:53 +00:00"
+    },
+    {
+      "keyword": "pù",
+      "volume": 90500,
+      "kd": 5,
+      "organicRank": 2,
+      "mixedRank": 5,
+      "url": "https://vietnam.travel/things-to-do/pu-luong-nature-lovers",
+      "traffic": 14661,
+      "serpDate": "2026-07-30 04:06:45 +00:00",
+      "volumeDate": "2026-09-17 19:28:40 +00:00"
+    },
+    {
+      "keyword": "vietnam foodies",
+      "volume": 135000,
+      "kd": 19,
+      "organicRank": 3,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/things-to-do/vietnam-foodie-guide-region",
+      "traffic": 13135.5,
+      "serpDate": "2026-07-30 03:54:08 +00:00",
+      "volumeDate": "2026-09-17 14:20:43 +00:00"
+    },
+    {
+      "keyword": "ha noi",
+      "volume": 74000,
+      "kd": 14,
+      "organicRank": 2,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-noi",
+      "traffic": 11988,
+      "serpDate": "2026-07-30 04:18:11 +00:00",
+      "volumeDate": "2026-09-14 02:34:43 +00:00"
+    },
+    {
+      "keyword": "ha long vietnam",
+      "volume": 60500,
+      "kd": 24,
+      "organicRank": 2,
+      "mixedRank": 7,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-long",
+      "traffic": 9801,
+      "serpDate": "2026-08-03 09:40:21 +00:00",
+      "volumeDate": "2026-09-12 18:05:27 +00:00"
+    },
+    {
+      "keyword": "hoi an",
+      "volume": 27100,
+      "kd": 12,
+      "organicRank": 1,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/places-to-go/central-vietnam/hoi-an",
+      "traffic": 8238.400390625,
+      "serpDate": "2026-07-30 06:13:55 +00:00",
+      "volumeDate": "2026-09-13 08:23:47 +00:00"
+    },
+    {
+      "keyword": "hội an",
+      "volume": 27100,
+      "kd": 52,
+      "organicRank": 1,
+      "mixedRank": 4,
+      "url": "https://vietnam.travel/places-to-go/central-vietnam/hoi-an",
+      "traffic": 8238.400390625,
+      "serpDate": "2026-08-03 10:00:43 +00:00",
+      "volumeDate": "2026-09-15 18:38:53 +00:00"
+    },
+    {
+      "keyword": "hanoi",
+      "volume": 74000,
+      "kd": 36,
+      "organicRank": 3,
+      "mixedRank": 9,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-noi",
+      "traffic": 7200.2001953125,
+      "serpDate": "2026-07-30 04:16:59 +00:00",
+      "volumeDate": "2026-09-12 20:09:27 +00:00"
+    },
+    {
+      "keyword": "hanoi in vietnamese",
+      "volume": 74000,
+      "kd": 17,
+      "organicRank": 3,
+      "mixedRank": 7,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-noi",
+      "traffic": 7200.2001953125,
+      "serpDate": "2026-07-30 04:02:19 +00:00",
+      "volumeDate": "2026-09-12 18:13:34 +00:00"
+    },
+    {
+      "keyword": "hcmc vietnam",
+      "volume": 74000,
+      "kd": 27,
+      "organicRank": 3,
+      "mixedRank": 8,
+      "url": "https://vietnam.travel/places-to-go/southern-vietnam/ho-chi-minh-city",
+      "traffic": 7200.2001953125,
+      "serpDate": "2026-07-30 04:13:50 +00:00",
+      "volumeDate": "2026-09-12 13:48:03 +00:00"
+    },
+    {
+      "keyword": "sai gon",
+      "volume": 74000,
+      "kd": 43,
+      "organicRank": 3,
+      "mixedRank": 10,
+      "url": "https://vietnam.travel/places-to-go/southern-vietnam/ho-chi-minh-city",
+      "traffic": 7200.2001953125,
+      "serpDate": "2026-07-30 04:03:28 +00:00",
+      "volumeDate": "2026-09-12 13:27:19 +00:00"
+    },
+    {
+      "keyword": "phu quoc",
+      "volume": 22200,
+      "kd": 8,
+      "organicRank": 1,
+      "mixedRank": 5,
+      "url": "https://vietnam.travel/places-to-go/southern-vietnam/phu-quoc",
+      "traffic": 6748.7998046875,
+      "serpDate": "2026-07-30 06:43:20 +00:00",
+      "volumeDate": "2026-09-16 23:28:48 +00:00"
+    },
+    {
+      "keyword": "food viet nam",
+      "volume": 135000,
+      "kd": 0,
+      "organicRank": 5,
+      "mixedRank": 11,
+      "url": "https://vietnam.travel/things-to-do/food",
+      "traffic": 6331.5,
+      "serpDate": "2026-07-30 03:57:07 +00:00",
+      "volumeDate": "2026-09-12 09:28:30 +00:00"
+    },
+    {
+      "keyword": "vietnam cuisine",
+      "volume": 135000,
+      "kd": 9,
+      "organicRank": 5,
+      "mixedRank": 12,
+      "url": "https://vietnam.travel/things-to-do/vietnam-foodie-guide-region",
+      "traffic": 6331.5,
+      "serpDate": "2026-07-30 03:54:21 +00:00",
+      "volumeDate": "2026-09-15 13:48:28 +00:00"
+    },
+    {
+      "keyword": "halong bay in vietnamese",
+      "volume": 60500,
+      "kd": 19,
+      "organicRank": 3,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-long",
+      "traffic": 5886.64990234375,
+      "serpDate": "2026-08-03 09:54:22 +00:00",
+      "volumeDate": "2026-09-14 17:34:54 +00:00"
+    },
+    {
+      "keyword": "vietnam the country",
+      "volume": 368000,
+      "kd": 38,
+      "organicRank": 9,
+      "mixedRank": 15,
+      "url": "https://vietnam.travel/",
+      "traffic": 5520,
+      "serpDate": "2026-09-02 09:28:34 +00:00",
+      "volumeDate": "2026-09-15 06:37:02 +00:00"
+    },
+    {
+      "keyword": "ha giang loop",
+      "volume": 18100,
+      "kd": 0,
+      "organicRank": 1,
+      "mixedRank": 2,
+      "url": "https://vietnam.travel/things-to-do/ha-giang-loop-four-day-road-trip",
+      "traffic": 5502.39990234375,
+      "serpDate": "2026-07-30 07:42:15 +00:00",
+      "volumeDate": "2026-09-12 11:35:34 +00:00"
+    },
+    {
+      "keyword": "ninh binh",
+      "volume": 18100,
+      "kd": 0,
+      "organicRank": 1,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ninh-binh",
+      "traffic": 5502.39990234375,
+      "serpDate": "2026-08-03 10:11:31 +00:00",
+      "volumeDate": "2026-09-14 23:32:35 +00:00"
+    },
+    {
+      "keyword": "da na hills",
+      "volume": 33100,
+      "kd": 3,
+      "organicRank": 2,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/things-to-do/10-ways-spend-day-ba-na-hills-danang",
+      "traffic": 5362.2001953125,
+      "serpDate": "2026-07-30 06:59:36 +00:00",
+      "volumeDate": "2026-09-12 16:16:02 +00:00"
+    },
+    {
+      "keyword": "tet",
+      "volume": 33100,
+      "kd": 20,
+      "organicRank": 2,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/things-to-do/tet-vietnam-lunar-new-year",
+      "traffic": 5362.2001953125,
+      "serpDate": "2026-07-30 05:28:37 +00:00",
+      "volumeDate": "2026-09-15 02:27:03 +00:00"
+    },
+    {
+      "keyword": "ho chi minh city",
+      "volume": 74000,
+      "kd": 43,
+      "organicRank": 4,
+      "mixedRank": 9,
+      "url": "https://vietnam.travel/places-to-go/southern-vietnam/ho-chi-minh-city",
+      "traffic": 4876.60009765625,
+      "serpDate": "2026-07-30 04:19:56 +00:00",
+      "volumeDate": "2026-09-12 09:25:36 +00:00"
+    },
+    {
+      "keyword": "ha long bay in vietnamese",
+      "volume": 60500,
+      "kd": 29,
+      "organicRank": 4,
+      "mixedRank": 7,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-long",
+      "traffic": 3986.949951171875,
+      "serpDate": "2026-08-03 09:41:05 +00:00",
+      "volumeDate": "2026-09-14 12:11:58 +00:00"
+    },
+    {
+      "keyword": "da nang",
+      "volume": 40500,
+      "kd": 11,
+      "organicRank": 3,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/places-to-go/central-vietnam/da-nang",
+      "traffic": 3940.64990234375,
+      "serpDate": "2026-07-30 05:13:34 +00:00",
+      "volumeDate": "2026-09-15 06:15:26 +00:00"
+    },
+    {
+      "keyword": "phú",
+      "volume": 40500,
+      "kd": 3,
+      "organicRank": 3,
+      "mixedRank": 7,
+      "url": "https://vietnam.travel/things-to-do/phu-yen-undiscovered-nature-and-remote-culture",
+      "traffic": 3940.64990234375,
+      "serpDate": "2026-07-30 04:59:41 +00:00",
+      "volumeDate": "2026-09-15 08:57:08 +00:00"
+    },
+    {
+      "keyword": "sapa",
+      "volume": 22200,
+      "kd": 23,
+      "organicRank": 2,
+      "mixedRank": 2,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/sapa",
+      "traffic": 3596.39990234375,
+      "serpDate": "2026-07-30 06:38:35 +00:00",
+      "volumeDate": "2026-09-13 16:19:33 +00:00"
+    },
+    {
+      "keyword": "hanoi capital vietnam",
+      "volume": 74000,
+      "kd": 21,
+      "organicRank": 5,
+      "mixedRank": 10,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-noi",
+      "traffic": 3470.60009765625,
+      "serpDate": "2026-07-30 04:25:23 +00:00",
+      "volumeDate": "2026-09-15 15:34:49 +00:00"
+    },
+    {
+      "keyword": "pho",
+      "volume": 1500000,
+      "kd": 12,
+      "organicRank": 25,
+      "mixedRank": 33,
+      "url": "https://vietnam.travel/things-to-do/history-pho",
+      "traffic": 3150,
+      "serpDate": "2026-07-30 03:39:27 +00:00",
+      "volumeDate": "2026-09-15 04:21:44 +00:00"
+    },
+    {
+      "keyword": "currency of vietnam money",
+      "volume": 18100,
+      "kd": 1,
+      "organicRank": 2,
+      "mixedRank": 4,
+      "url": "https://vietnam.travel/things-to-do/currency-and-payments-vietnam",
+      "traffic": 2932.199951171875,
+      "serpDate": "2026-07-30 06:59:13 +00:00",
+      "volumeDate": "2026-09-13 14:00:36 +00:00"
+    },
+    {
+      "keyword": "nha trang",
+      "volume": 18100,
+      "kd": 7,
+      "organicRank": 2,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/things-to-do/7-reasons-visit-nha-trang",
+      "traffic": 2932.199951171875,
+      "serpDate": "2026-07-30 07:29:37 +00:00",
+      "volumeDate": "2026-09-13 19:40:15 +00:00"
+    },
+    {
+      "keyword": "vietnam new year",
+      "volume": 18100,
+      "kd": 3,
+      "organicRank": 2,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/things-to-do/tet-vietnam-lunar-new-year",
+      "traffic": 2932.199951171875,
+      "serpDate": "2026-07-30 05:04:41 +00:00",
+      "volumeDate": "2026-09-15 17:22:38 +00:00"
+    },
+    {
+      "keyword": "ho chi minh city vietnam",
+      "volume": 74000,
+      "kd": 19,
+      "organicRank": 6,
+      "mixedRank": 12,
+      "url": "https://vietnam.travel/places-to-go/southern-vietnam/ho-chi-minh-city",
+      "traffic": 2501.199951171875,
+      "serpDate": "2026-07-30 04:16:24 +00:00",
+      "volumeDate": "2026-09-12 19:19:24 +00:00"
+    },
+    {
+      "keyword": "ha long bay vietnam",
+      "volume": 8100,
+      "kd": 14,
+      "organicRank": 1,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-long",
+      "traffic": 2462.39990234375,
+      "serpDate": "2026-07-30 12:51:47 +00:00",
+      "volumeDate": "2026-09-12 13:17:11 +00:00"
+    },
+    {
+      "keyword": "hanoi old quarter vietnam",
+      "volume": 8100,
+      "kd": 21,
+      "organicRank": 1,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/things-to-do/explore-old-quarter-your-way",
+      "traffic": 2462.39990234375,
+      "serpDate": "2026-08-03 10:28:18 +00:00",
+      "volumeDate": "2026-09-14 19:52:41 +00:00"
+    },
+    {
+      "keyword": "old quarter hanoi",
+      "volume": 8100,
+      "kd": 8,
+      "organicRank": 1,
+      "mixedRank": 2,
+      "url": "https://vietnam.travel/things-to-do/explore-old-quarter-your-way",
+      "traffic": 2462.39990234375,
+      "serpDate": "2026-07-30 11:02:47 +00:00",
+      "volumeDate": "2026-09-15 04:17:45 +00:00"
+    },
+    {
+      "keyword": "vietnam #dalat",
+      "volume": 8100,
+      "kd": 1,
+      "organicRank": 1,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/places-to-go/central-vietnam/dalat",
+      "traffic": 2462.39990234375,
+      "serpDate": "2026-07-12 08:41:20 +00:00",
+      "volumeDate": "2026-09-15 14:48:57 +00:00"
+    },
+    {
+      "keyword": "vietnam hanoi old quarter",
+      "volume": 8100,
+      "kd": 10,
+      "organicRank": 1,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/things-to-do/explore-old-quarter-your-way",
+      "traffic": 2462.39990234375,
+      "serpDate": "2026-07-30 10:51:39 +00:00",
+      "volumeDate": "2026-09-16 15:44:46 +00:00"
+    },
+    {
+      "keyword": "ba na",
+      "volume": 14800,
+      "kd": 0,
+      "organicRank": 2,
+      "mixedRank": 4,
+      "url": "https://vietnam.travel/things-to-do/10-ways-spend-day-ba-na-hills-danang",
+      "traffic": 2397.60009765625,
+      "serpDate": "2026-07-30 09:10:18 +00:00",
+      "volumeDate": "2026-09-14 17:01:51 +00:00"
+    },
+    {
+      "keyword": "ba na hills",
+      "volume": 14800,
+      "kd": 10,
+      "organicRank": 2,
+      "mixedRank": 5,
+      "url": "https://vietnam.travel/things-to-do/10-ways-spend-day-ba-na-hills-danang",
+      "traffic": 2397.60009765625,
+      "serpDate": "2026-07-30 09:10:41 +00:00",
+      "volumeDate": "2026-09-13 13:23:53 +00:00"
+    },
+    {
+      "keyword": "evisa vietnam",
+      "volume": 33100,
+      "kd": 30,
+      "organicRank": 4,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application",
+      "traffic": 2181.2900390625,
+      "serpDate": "2026-07-30 05:39:42 +00:00",
+      "volumeDate": "2026-09-12 04:10:40 +00:00"
+    },
+    {
+      "keyword": "vietnam evisa",
+      "volume": 33100,
+      "kd": 21,
+      "organicRank": 4,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/plan-your-trip/official-vietnam-evisa-application",
+      "traffic": 2181.2900390625,
+      "serpDate": "2026-07-30 05:23:56 +00:00",
+      "volumeDate": "2026-09-12 14:19:17 +00:00"
+    },
+    {
+      "keyword": "vietnam capital city",
+      "volume": 22200,
+      "kd": 42,
+      "organicRank": 3,
+      "mixedRank": 6,
+      "url": "https://vietnam.travel/places-to-go/northern-vietnam/ha-noi",
+      "traffic": 2160.06005859375,
+      "serpDate": "2026-07-30 07:14:47 +00:00",
+      "volumeDate": "2026-09-13 03:45:03 +00:00"
+    },
+    {
+      "keyword": "vietnam food",
+      "volume": 135000,
+      "kd": 7,
+      "organicRank": 9,
+      "mixedRank": 14,
+      "url": "https://vietnam.travel/things-to-do/vietnam-foodie-guide-region",
+      "traffic": 2025,
+      "serpDate": "2026-07-30 03:54:43 +00:00",
+      "volumeDate": "2026-10-15 08:20:51 +00:00"
+    },
+    {
+      "keyword": "lunar new year vietnam",
+      "volume": 6600,
+      "kd": 6,
+      "organicRank": 1,
+      "mixedRank": 3,
+      "url": "https://vietnam.travel/things-to-do/tet-vietnam-lunar-new-year",
+      "traffic": 2006.4000244140625,
+      "serpDate": "2026-07-30 14:41:15 +00:00",
+      "volumeDate": "2026-09-13 05:25:30 +00:00"
+    },
+    {
+      "keyword": "hue city",
+      "volume": 12100,
+      "kd": 12,
+      "organicRank": 2,
+      "mixedRank": 5,
+      "url": "https://vietnam.travel/places-to-go/central-vietnam/hue",
+      "traffic": 1960.199951171875,
+      "serpDate": "2026-07-30 09:59:58 +00:00",
+      "volumeDate": "2026-09-15 19:16:04 +00:00"
+    }
+  ],
+  "rankedKeywordsNote": "organicRank from raw rank_group; mixedRank from rank_absolute; Labs rows are historical, not live checks.",
+  "backlinks": {
+    "target": "vietnam.travel",
+    "scope": "subdomains",
+    "overview": {
+      "overview": {
+        "target": "vietnam.travel",
+        "displayTarget": "vietnam.travel",
+        "scope": "subdomains",
+        "summary": {
+          "rank": 62,
+          "backlinks": 49988,
+          "referringPages": 41853,
+          "referringDomains": 7026,
+          "brokenBacklinks": 3156,
+          "brokenPages": 4168,
+          "backlinksSpamScore": 9,
+          "targetSpamScore": 0,
+          "newBacklinks": null,
+          "lostBacklinks": null,
+          "newReferringDomains": null,
+          "lostReferringDomains": null
+        },
+        "trends": [
+          {
+            "date": "2025-10-31",
+            "backlinks": 69456,
+            "referringDomains": 5798,
+            "rank": 64
+          },
+          {
+            "date": "2025-11-30",
+            "backlinks": 68802,
+            "referringDomains": 6044,
+            "rank": 64
+          },
+          {
+            "date": "2025-12-31",
+            "backlinks": 67841,
+            "referringDomains": 6120,
+            "rank": 64
+          },
+          {
+            "date": "2026-01-31",
+            "backlinks": 61116,
+            "referringDomains": 6156,
+            "rank": 63
+          },
+          {
+            "date": "2026-02-28",
+            "backlinks": 55779,
+            "referringDomains": 6241,
+            "rank": 63
+          },
+          {
+            "date": "2026-03-31",
+            "backlinks": 52695,
+            "referringDomains": 6219,
+            "rank": 63
+          },
+          {
+            "date": "2026-04-30",
+            "backlinks": 51764,
+            "referringDomains": 6307,
+            "rank": 63
+          },
+          {
+            "date": "2026-05-31",
+            "backlinks": 42505,
+            "referringDomains": 6297,
+            "rank": 63
+          },
+          {
+            "date": "2026-06-30",
+            "backlinks": 34201,
+            "referringDomains": 6233,
+            "rank": 62
+          },
+          {
+            "date": "2026-07-31",
+            "backlinks": 34671,
+            "referringDomains": 6232,
+            "rank": 62
+          },
+          {
+            "date": "2026-08-31",
+            "backlinks": 29357,
+            "referringDomains": 6239,
+            "rank": 62
+          },
+          {
+            "date": "2026-09-30",
+            "backlinks": 31068,
+            "referringDomains": 6398,
+            "rank": 62
+          }
+        ],
+        "newLostTrends": [
+          {
+            "date": "2025-10-31",
+            "newBacklinks": 2358,
+            "lostBacklinks": 1943,
+            "newReferringDomains": 309,
+            "lostReferringDomains": 144
+          },
+          {
+            "date": "2025-11-30",
+            "newBacklinks": 1342,
+            "lostBacklinks": 1329,
+            "newReferringDomains": 310,
+            "lostReferringDomains": 117
+          },
+          {
+            "date": "2025-12-31",
+            "newBacklinks": 3164,
+            "lostBacklinks": 3905,
+            "newReferringDomains": 223,
+            "lostReferringDomains": 144
+          },
+          {
+            "date": "2026-01-31",
+            "newBacklinks": 1375,
+            "lostBacklinks": 12355,
+            "newReferringDomains": 201,
+            "lostReferringDomains": 96
+          },
+          {
+            "date": "2026-02-28",
+            "newBacklinks": 1286,
+            "lostBacklinks": 928,
+            "newReferringDomains": 201,
+            "lostReferringDomains": 148
+          },
+          {
+            "date": "2026-03-31",
+            "newBacklinks": 1281,
+            "lostBacklinks": 4178,
+            "newReferringDomains": 133,
+            "lostReferringDomains": 150
+          },
+          {
+            "date": "2026-04-30",
+            "newBacklinks": 1118,
+            "lostBacklinks": 2009,
+            "newReferringDomains": 194,
+            "lostReferringDomains": 148
+          },
+          {
+            "date": "2026-05-31",
+            "newBacklinks": 1467,
+            "lostBacklinks": 5691,
+            "newReferringDomains": 224,
+            "lostReferringDomains": 160
+          },
+          {
+            "date": "2026-06-30",
+            "newBacklinks": 668,
+            "lostBacklinks": 6544,
+            "newReferringDomains": 80,
+            "lostReferringDomains": 72
+          },
+          {
+            "date": "2026-07-31",
+            "newBacklinks": 1621,
+            "lostBacklinks": 861,
+            "newReferringDomains": 116,
+            "lostReferringDomains": 93
+          },
+          {
+            "date": "2026-08-31",
+            "newBacklinks": 2027,
+            "lostBacklinks": 1050,
+            "newReferringDomains": 289,
+            "lostReferringDomains": 218
+          },
+          {
+            "date": "2026-09-30",
+            "newBacklinks": 3291,
+            "lostBacklinks": 1356,
+            "newReferringDomains": 306,
+            "lostReferringDomains": 112
+          }
+        ],
+        "fetchedAt": "2026-10-29T03:15:25.590Z"
+      }
+    },
+    "referringDomains": {
+      "rows": [
+        {
+          "domain": "asiavela.com",
+          "backlinks": 5518,
+          "referringPages": 5497,
+          "rank": 35,
+          "spamScore": 9,
+          "firstSeen": "2026-10-28 00:53:34 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "travelreadyguide.com",
+          "backlinks": 4303,
+          "referringPages": 334,
+          "rank": 29,
+          "spamScore": 11,
+          "firstSeen": "2026-10-28 00:04:48 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "365travel.asia",
+          "backlinks": 1765,
+          "referringPages": 1762,
+          "rank": 0,
+          "spamScore": 0,
+          "firstSeen": "2025-12-01 22:15:16 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "medijump.com",
+          "backlinks": 1374,
+          "referringPages": 1374,
+          "rank": 36,
+          "spamScore": 0,
+          "firstSeen": "2024-06-03 01:02:53 +00:00",
+          "brokenBacklinks": 687,
+          "brokenPages": 1
+        },
+        {
+          "domain": "stayinvietnamtravel.github.io",
+          "backlinks": 1273,
+          "referringPages": 1273,
+          "rank": 37,
+          "spamScore": 11,
+          "firstSeen": "2026-10-21 01:34:02 +00:00",
+          "brokenBacklinks": 39,
+          "brokenPages": 1
+        },
+        {
+          "domain": "itdr.org.vn",
+          "backlinks": 1139,
+          "referringPages": 1132,
+          "rank": 40,
+          "spamScore": 11,
+          "firstSeen": "2023-09-16 06:13:57 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "vietnam-immi.org.vn",
+          "backlinks": 717,
+          "referringPages": 714,
+          "rank": 33,
+          "spamScore": 0,
+          "firstSeen": "2024-01-24 03:44:26 +00:00",
+          "brokenBacklinks": 714,
+          "brokenPages": 3
+        },
+        {
+          "domain": "autourasia.fr",
+          "backlinks": 687,
+          "referringPages": 686,
+          "rank": 36,
+          "spamScore": 7,
+          "firstSeen": "2026-10-27 17:55:19 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "mohazi.net",
+          "backlinks": 636,
+          "referringPages": 150,
+          "rank": 25,
+          "spamScore": 0,
+          "firstSeen": "2026-09-10 04:18:29 +00:00",
+          "brokenBacklinks": 9,
+          "brokenPages": 2
+        },
+        {
+          "domain": "parkingcupid.com",
+          "backlinks": 614,
+          "referringPages": 614,
+          "rank": 29,
+          "spamScore": 0,
+          "firstSeen": "2025-09-27 01:59:25 +00:00",
+          "brokenBacklinks": 198,
+          "brokenPages": 31
+        },
+        {
+          "domain": "vietsim.com",
+          "backlinks": 578,
+          "referringPages": 578,
+          "rank": 0,
+          "spamScore": 0,
+          "firstSeen": "2026-10-05 06:20:17 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "topasiantravel.com",
+          "backlinks": 529,
+          "referringPages": 434,
+          "rank": 35,
+          "spamScore": 0,
+          "firstSeen": "2026-07-27 00:20:36 +00:00",
+          "brokenBacklinks": 64,
+          "brokenPages": 1
+        },
+        {
+          "domain": "nishitetsutravel.jp",
+          "backlinks": 516,
+          "referringPages": 516,
+          "rank": 21,
+          "spamScore": 25,
+          "firstSeen": "2025-10-02 13:01:25 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "dtu-hti.edu.vn",
+          "backlinks": 475,
+          "referringPages": 475,
+          "rank": 31,
+          "spamScore": 0,
+          "firstSeen": "2024-02-04 13:52:34 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "goasia.cc",
+          "backlinks": 474,
+          "referringPages": 402,
+          "rank": 35,
+          "spamScore": 1,
+          "firstSeen": "2026-10-11 21:57:52 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "tammysclub.com",
+          "backlinks": 449,
+          "referringPages": 279,
+          "rank": 18,
+          "spamScore": 17,
+          "firstSeen": "2025-10-03 04:11:45 +00:00",
+          "brokenBacklinks": 34,
+          "brokenPages": 1
+        },
+        {
+          "domain": "emarket-vietnam.com",
+          "backlinks": 440,
+          "referringPages": 440,
+          "rank": 33,
+          "spamScore": 1,
+          "firstSeen": "2026-08-11 01:37:36 +00:00",
+          "brokenBacklinks": 69,
+          "brokenPages": 3
+        },
+        {
+          "domain": "tourism.com.de",
+          "backlinks": 416,
+          "referringPages": 208,
+          "rank": 0,
+          "spamScore": 0,
+          "firstSeen": "2026-10-23 05:42:40 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "vietadvisor.travel",
+          "backlinks": 331,
+          "referringPages": 304,
+          "rank": 18,
+          "spamScore": 0,
+          "firstSeen": "2025-09-29 03:56:45 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "grokipedia.com",
+          "backlinks": 258,
+          "referringPages": 257,
+          "rank": 13,
+          "spamScore": 25,
+          "firstSeen": "2025-10-28 21:55:14 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "anvuitravel.com",
+          "backlinks": 252,
+          "referringPages": 138,
+          "rank": 23,
+          "spamScore": 1,
+          "firstSeen": "2025-06-20 23:25:38 +00:00",
+          "brokenBacklinks": 24,
+          "brokenPages": 4
+        },
+        {
+          "domain": "kiwi.com",
+          "backlinks": 249,
+          "referringPages": 247,
+          "rank": 0,
+          "spamScore": 6,
+          "firstSeen": "2026-01-23 04:39:35 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "gollaba.com",
+          "backlinks": 236,
+          "referringPages": 236,
+          "rank": 36,
+          "spamScore": 0,
+          "firstSeen": "2026-09-25 05:25:28 +00:00",
+          "brokenBacklinks": 15,
+          "brokenPages": 1
+        },
+        {
+          "domain": "spbtours.online",
+          "backlinks": 213,
+          "referringPages": 159,
+          "rank": 22,
+          "spamScore": 3,
+          "firstSeen": "2026-09-30 10:05:41 +00:00",
+          "brokenBacklinks": 4,
+          "brokenPages": 2
+        },
+        {
+          "domain": "vietlongtravel.com",
+          "backlinks": 188,
+          "referringPages": 188,
+          "rank": 0,
+          "spamScore": 0,
+          "firstSeen": "2025-06-13 15:23:15 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "vietinfodesk.com",
+          "backlinks": 182,
+          "referringPages": 124,
+          "rank": 6,
+          "spamScore": 0,
+          "firstSeen": "2026-06-19 01:17:55 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "hef.gov.vn",
+          "backlinks": 182,
+          "referringPages": 181,
+          "rank": 39,
+          "spamScore": 0,
+          "firstSeen": "2025-09-03 15:34:31 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "mofa.gov.vn",
+          "backlinks": 177,
+          "referringPages": 136,
+          "rank": 18,
+          "spamScore": 19,
+          "firstSeen": "2021-10-03 08:45:51 +00:00",
+          "brokenBacklinks": 24,
+          "brokenPages": 1
+        },
+        {
+          "domain": "duyanhmotorbikes.com",
+          "backlinks": 173,
+          "referringPages": 172,
+          "rank": 0,
+          "spamScore": 0,
+          "firstSeen": "2026-07-28 21:39:12 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "theonlyvietnamguide.com",
+          "backlinks": 168,
+          "referringPages": 62,
+          "rank": 15,
+          "spamScore": 14,
+          "firstSeen": "2026-10-16 04:59:37 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "infotravel.lt",
+          "backlinks": 166,
+          "referringPages": 162,
+          "rank": 25,
+          "spamScore": 0,
+          "firstSeen": "2025-09-22 14:21:49 +00:00",
+          "brokenBacklinks": 91,
+          "brokenPages": 70
+        },
+        {
+          "domain": "autour.asia",
+          "backlinks": 162,
+          "referringPages": 160,
+          "rank": 25,
+          "spamScore": 11,
+          "firstSeen": "2026-07-15 01:41:07 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "levnocestovani.cz",
+          "backlinks": 160,
+          "referringPages": 90,
+          "rank": 22,
+          "spamScore": 7,
+          "firstSeen": "2025-04-02 03:30:45 +00:00",
+          "brokenBacklinks": 1,
+          "brokenPages": 1
+        },
+        {
+          "domain": "vietnamguide.net",
+          "backlinks": 154,
+          "referringPages": 130,
+          "rank": 22,
+          "spamScore": 0,
+          "firstSeen": "2026-09-11 11:09:15 +00:00",
+          "brokenBacklinks": 6,
+          "brokenPages": 2
+        },
+        {
+          "domain": "yohomobile.com",
+          "backlinks": 152,
+          "referringPages": 151,
+          "rank": 28,
+          "spamScore": 0,
+          "firstSeen": "2025-05-25 17:29:51 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "vietnamspot.ru",
+          "backlinks": 150,
+          "referringPages": 150,
+          "rank": 25,
+          "spamScore": 0,
+          "firstSeen": "2026-06-19 01:20:06 +00:00",
+          "brokenBacklinks": 4,
+          "brokenPages": 1
+        },
+        {
+          "domain": "dulichtudo.vn",
+          "backlinks": 148,
+          "referringPages": 110,
+          "rank": 16,
+          "spamScore": 0,
+          "firstSeen": "2026-10-26 03:31:00 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "whatnextholiday.com",
+          "backlinks": 148,
+          "referringPages": 148,
+          "rank": 25,
+          "spamScore": 0,
+          "firstSeen": "2026-10-13 21:20:09 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "vietnamesetrain.com",
+          "backlinks": 140,
+          "referringPages": 140,
+          "rank": 26,
+          "spamScore": 0,
+          "firstSeen": "2026-09-29 03:40:26 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "bkj.com",
+          "backlinks": 140,
+          "referringPages": 140,
+          "rank": 0,
+          "spamScore": 4,
+          "firstSeen": "2026-09-18 19:00:19 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "startbooker.com",
+          "backlinks": 125,
+          "referringPages": 125,
+          "rank": 16,
+          "spamScore": 1,
+          "firstSeen": "2026-10-21 11:21:07 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "hankyu-travel.com",
+          "backlinks": 119,
+          "referringPages": 119,
+          "rank": 23,
+          "spamScore": 7,
+          "firstSeen": "2025-06-02 14:44:24 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "raiyai.com",
+          "backlinks": 116,
+          "referringPages": 116,
+          "rank": 37,
+          "spamScore": 20,
+          "firstSeen": "2026-08-20 16:50:50 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "tripfieldbook.com",
+          "backlinks": 111,
+          "referringPages": 111,
+          "rank": 22,
+          "spamScore": 2,
+          "firstSeen": "2026-10-28 00:01:25 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "makeanid.com",
+          "backlinks": 111,
+          "referringPages": 74,
+          "rank": 17,
+          "spamScore": 22,
+          "firstSeen": "2026-10-17 08:33:18 +00:00",
+          "brokenBacklinks": 74,
+          "brokenPages": 1
+        },
+        {
+          "domain": "autourasia.it",
+          "backlinks": 104,
+          "referringPages": 104,
+          "rank": 26,
+          "spamScore": 8,
+          "firstSeen": "2026-10-27 18:04:18 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "tipzip.shop",
+          "backlinks": 103,
+          "referringPages": 37,
+          "rank": 28,
+          "spamScore": 1,
+          "firstSeen": "2025-11-05 10:43:00 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "vietnamtourism.com",
+          "backlinks": 98,
+          "referringPages": 9,
+          "rank": 10,
+          "spamScore": 0,
+          "firstSeen": "2026-05-21 23:28:11 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "esimfo.com",
+          "backlinks": 96,
+          "referringPages": 48,
+          "rank": 15,
+          "spamScore": 0,
+          "firstSeen": "2026-10-11 09:37:50 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "gozzzy.com",
+          "backlinks": 90,
+          "referringPages": 82,
+          "rank": 23,
+          "spamScore": 14,
+          "firstSeen": "2026-10-28 00:47:00 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "searchlabz.com",
+          "backlinks": 88,
+          "referringPages": 85,
+          "rank": 31,
+          "spamScore": 0,
+          "firstSeen": "2025-06-29 17:26:39 +00:00",
+          "brokenBacklinks": 14,
+          "brokenPages": 11
+        },
+        {
+          "domain": "getyourguide.com",
+          "backlinks": 85,
+          "referringPages": 85,
+          "rank": 18,
+          "spamScore": 0,
+          "firstSeen": "2026-04-11 05:46:02 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "movenpickresortcamranh.com",
+          "backlinks": 84,
+          "referringPages": 81,
+          "rank": 22,
+          "spamScore": 0,
+          "firstSeen": "2026-09-25 07:53:23 +00:00",
+          "brokenBacklinks": 4,
+          "brokenPages": 1
+        },
+        {
+          "domain": "fun-vietnam.com",
+          "backlinks": 84,
+          "referringPages": 30,
+          "rank": 17,
+          "spamScore": 0,
+          "firstSeen": "2026-08-22 10:37:20 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "d2ti8td6k9avcw.cloudfront.net",
+          "backlinks": 84,
+          "referringPages": 42,
+          "rank": 0,
+          "spamScore": 15,
+          "firstSeen": "2026-01-01 14:00:44 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "rosycruise.com",
+          "backlinks": 84,
+          "referringPages": 84,
+          "rank": 23,
+          "spamScore": 0,
+          "firstSeen": "2025-06-02 23:55:00 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "sixt.vn",
+          "backlinks": 82,
+          "referringPages": 34,
+          "rank": 0,
+          "spamScore": 0,
+          "firstSeen": "2025-04-30 00:39:06 +00:00",
+          "brokenBacklinks": 7,
+          "brokenPages": 4
+        },
+        {
+          "domain": "anilau.com",
+          "backlinks": 81,
+          "referringPages": 55,
+          "rank": 15,
+          "spamScore": 0,
+          "firstSeen": "2026-09-08 19:56:15 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "destinoviajes.com",
+          "backlinks": 79,
+          "referringPages": 20,
+          "rank": 0,
+          "spamScore": 0,
+          "firstSeen": "2026-10-23 01:36:27 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "vietnamfocusguide.com",
+          "backlinks": 76,
+          "referringPages": 76,
+          "rank": 0,
+          "spamScore": 2,
+          "firstSeen": "2025-09-03 12:44:41 +00:00",
+          "brokenBacklinks": 2,
+          "brokenPages": 1
+        },
+        {
+          "domain": "vietnamprivatetours.com",
+          "backlinks": 74,
+          "referringPages": 74,
+          "rank": 25,
+          "spamScore": 0,
+          "firstSeen": "2026-05-24 03:03:48 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "aruru.co.jp",
+          "backlinks": 74,
+          "referringPages": 34,
+          "rank": 16,
+          "spamScore": 0,
+          "firstSeen": "2026-04-13 19:20:57 +00:00",
+          "brokenBacklinks": 14,
+          "brokenPages": 6
+        },
+        {
+          "domain": "palanla.com",
+          "backlinks": 74,
+          "referringPages": 74,
+          "rank": 21,
+          "spamScore": 0,
+          "firstSeen": "2023-02-04 02:02:20 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "worldtravelawards.com",
+          "backlinks": 71,
+          "referringPages": 71,
+          "rank": 16,
+          "spamScore": 0,
+          "firstSeen": "2019-11-18 01:40:57 +00:00",
+          "brokenBacklinks": 15,
+          "brokenPages": 1
+        },
+        {
+          "domain": "mecrawl.com",
+          "backlinks": 69,
+          "referringPages": 69,
+          "rank": 17,
+          "spamScore": 2,
+          "firstSeen": "2026-09-18 18:25:53 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "dinolingo.com",
+          "backlinks": 69,
+          "referringPages": 69,
+          "rank": 17,
+          "spamScore": 0,
+          "firstSeen": "2025-06-25 17:27:10 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "internationaldriversassociation.com",
+          "backlinks": 68,
+          "referringPages": 68,
+          "rank": 20,
+          "spamScore": 0,
+          "firstSeen": "2026-03-16 17:12:46 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "infinite-solutions.pt",
+          "backlinks": 68,
+          "referringPages": 16,
+          "rank": 0,
+          "spamScore": 10,
+          "firstSeen": "2024-11-28 03:12:58 +00:00",
+          "brokenBacklinks": 2,
+          "brokenPages": 1
+        },
+        {
+          "domain": "bing.com",
+          "backlinks": 67,
+          "referringPages": 63,
+          "rank": 8,
+          "spamScore": 27,
+          "firstSeen": "2025-10-11 05:17:43 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "relaxandwriteretreats.blog",
+          "backlinks": 63,
+          "referringPages": 21,
+          "rank": 5,
+          "spamScore": 6,
+          "firstSeen": "2023-10-03 08:11:02 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "iufroacacia2026.com",
+          "backlinks": 62,
+          "referringPages": 62,
+          "rank": 25,
+          "spamScore": 28,
+          "firstSeen": "2026-08-01 10:30:32 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "valentinaphuquoc.com",
+          "backlinks": 61,
+          "referringPages": 52,
+          "rank": 23,
+          "spamScore": 0,
+          "firstSeen": "2026-10-22 01:44:18 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "southeastasiahub.com",
+          "backlinks": 59,
+          "referringPages": 59,
+          "rank": 32,
+          "spamScore": 0,
+          "firstSeen": "2025-06-08 05:42:11 +00:00",
+          "brokenBacklinks": 1,
+          "brokenPages": 1
+        },
+        {
+          "domain": "kakapo.travel",
+          "backlinks": 58,
+          "referringPages": 58,
+          "rank": 25,
+          "spamScore": 0,
+          "firstSeen": "2026-05-21 08:20:38 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "articlesfactory.com",
+          "backlinks": 58,
+          "referringPages": 57,
+          "rank": 0,
+          "spamScore": 0,
+          "firstSeen": "2025-11-22 03:07:37 +00:00",
+          "brokenBacklinks": 20,
+          "brokenPages": 14
+        },
+        {
+          "domain": "odycairn.com",
+          "backlinks": 57,
+          "referringPages": 19,
+          "rank": 2,
+          "spamScore": 11,
+          "firstSeen": "2026-09-27 08:32:52 +00:00",
+          "brokenBacklinks": 2,
+          "brokenPages": 1
+        },
+        {
+          "domain": "worldnomads.com",
+          "backlinks": 57,
+          "referringPages": 57,
+          "rank": 11,
+          "spamScore": 12,
+          "firstSeen": "2025-09-12 09:04:35 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "golladream.com",
+          "backlinks": 56,
+          "referringPages": 56,
+          "rank": 0,
+          "spamScore": 0,
+          "firstSeen": "2026-09-10 06:23:45 +00:00",
+          "brokenBacklinks": 2,
+          "brokenPages": 1
+        },
+        {
+          "domain": "vietnamwithme.com",
+          "backlinks": 54,
+          "referringPages": 53,
+          "rank": 16,
+          "spamScore": 0,
+          "firstSeen": "2026-09-17 21:53:32 +00:00",
+          "brokenBacklinks": 1,
+          "brokenPages": 1
+        },
+        {
+          "domain": "lotuscharmtravel.com",
+          "backlinks": 54,
+          "referringPages": 12,
+          "rank": 9,
+          "spamScore": 3,
+          "firstSeen": "2026-01-19 00:26:43 +00:00",
+          "brokenBacklinks": 1,
+          "brokenPages": 1
+        },
+        {
+          "domain": "res-tour.com",
+          "backlinks": 54,
+          "referringPages": 52,
+          "rank": 22,
+          "spamScore": 0,
+          "firstSeen": "2024-05-24 14:39:45 +00:00",
+          "brokenBacklinks": 5,
+          "brokenPages": 3
+        },
+        {
+          "domain": "officialatlas.com",
+          "backlinks": 52,
+          "referringPages": 43,
+          "rank": 29,
+          "spamScore": 18,
+          "firstSeen": "2026-09-25 17:45:17 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "whaleislandresort.com",
+          "backlinks": 52,
+          "referringPages": 52,
+          "rank": 23,
+          "spamScore": 0,
+          "firstSeen": "2026-04-09 18:31:26 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "vietnamtravelers.com",
+          "backlinks": 51,
+          "referringPages": 50,
+          "rank": 12,
+          "spamScore": 0,
+          "firstSeen": "2026-06-19 01:51:12 +00:00",
+          "brokenBacklinks": 9,
+          "brokenPages": 4
+        },
+        {
+          "domain": "glarity.app",
+          "backlinks": 51,
+          "referringPages": 32,
+          "rank": 0,
+          "spamScore": 5,
+          "firstSeen": "2024-06-10 13:43:48 +00:00",
+          "brokenBacklinks": 4,
+          "brokenPages": 4
+        },
+        {
+          "domain": "focusasiatravel.com",
+          "backlinks": 50,
+          "referringPages": 35,
+          "rank": 12,
+          "spamScore": 0,
+          "firstSeen": "2026-08-15 12:43:07 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "karlobag.eu",
+          "backlinks": 50,
+          "referringPages": 50,
+          "rank": 19,
+          "spamScore": 0,
+          "firstSeen": "2026-02-04 07:56:45 +00:00",
+          "brokenBacklinks": 6,
+          "brokenPages": 1
+        },
+        {
+          "domain": "cooldudecycling.com",
+          "backlinks": 50,
+          "referringPages": 50,
+          "rank": 16,
+          "spamScore": 0,
+          "firstSeen": "2024-09-16 14:54:17 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "decoupage-paper.com",
+          "backlinks": 49,
+          "referringPages": 49,
+          "rank": 0,
+          "spamScore": 6,
+          "firstSeen": "2026-04-18 11:33:54 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "lunoo.com",
+          "backlinks": 49,
+          "referringPages": 32,
+          "rank": 1,
+          "spamScore": 0,
+          "firstSeen": "2026-03-07 04:13:33 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "travelweatherfairy.com",
+          "backlinks": 48,
+          "referringPages": 25,
+          "rank": 20,
+          "spamScore": 0,
+          "firstSeen": "2026-09-25 18:39:25 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "hotelsvetted.com",
+          "backlinks": 48,
+          "referringPages": 48,
+          "rank": 15,
+          "spamScore": 0,
+          "firstSeen": "2026-06-06 16:42:22 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "roavara.com",
+          "backlinks": 48,
+          "referringPages": 46,
+          "rank": 27,
+          "spamScore": 0,
+          "firstSeen": "2026-04-20 03:05:30 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "edwinashaw.com",
+          "backlinks": 48,
+          "referringPages": 16,
+          "rank": 7,
+          "spamScore": 0,
+          "firstSeen": "2023-10-07 06:23:57 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "mhtravel.vn",
+          "backlinks": 46,
+          "referringPages": 28,
+          "rank": 14,
+          "spamScore": 0,
+          "firstSeen": "2026-10-19 23:13:37 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "esimdang.com",
+          "backlinks": 45,
+          "referringPages": 36,
+          "rank": 19,
+          "spamScore": 0,
+          "firstSeen": "2026-10-06 12:36:53 +00:00",
+          "brokenBacklinks": 3,
+          "brokenPages": 2
+        },
+        {
+          "domain": "edu.ag",
+          "backlinks": 45,
+          "referringPages": 45,
+          "rank": 25,
+          "spamScore": 5,
+          "firstSeen": "2026-10-02 13:13:44 +00:00",
+          "brokenBacklinks": 5,
+          "brokenPages": 5
+        },
+        {
+          "domain": "mangotiger.com",
+          "backlinks": 45,
+          "referringPages": 42,
+          "rank": 10,
+          "spamScore": 0,
+          "firstSeen": "2024-10-27 14:46:01 +00:00",
+          "brokenBacklinks": 2,
+          "brokenPages": 1
+        },
+        {
+          "domain": "asiavespatours.com",
+          "backlinks": 44,
+          "referringPages": 17,
+          "rank": 18,
+          "spamScore": 0,
+          "firstSeen": "2026-08-19 06:09:34 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        },
+        {
+          "domain": "vietgreentravel.com",
+          "backlinks": 44,
+          "referringPages": 44,
+          "rank": 11,
+          "spamScore": 0,
+          "firstSeen": "2022-09-11 15:16:55 +00:00",
+          "brokenBacklinks": 0,
+          "brokenPages": 0
+        }
+      ],
+      "totalCount": 5202,
+      "hasMore": true,
+      "page": 1,
+      "pageSize": 100,
+      "fetchedAt": "2026-10-29T03:15:26.078Z"
+    },
+    "meta": {
+      "projectId": "b97024a3-b095-44e9-9489-d5fce1361263",
+      "url": "https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/backlinks?target=vietnam.travel&scope=subdomains"
+    }
+  },
+  "serps": [
+    {
+      "keyword": "hanoi photoshoot",
+      "result": {
+        "results": [
+          {
+            "keyword": "hanoi photoshoot",
+            "ok": true,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank": 1,
+                "organicRank": null,
+                "title": null,
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 2,
+                "organicRank": 1,
+                "title": "Photographer in Hanoi for traditional photoshoot?",
+                "url": "https://www.facebook.com/groups/vietnamtravelguideofficial/posts/1216158970699631/",
+                "domain": "www.facebook.com",
+                "description": "Looking for a photographer located in Ha Noi. \n\nI am looking to do a traditional photoshoot so the photographer would need to help me find a shop ..."
+              },
+              {
+                "type": "local_pack",
+                "rank": 3,
+                "organicRank": null,
+                "title": "Gạo Nâu Chụp Ảnh",
+                "url": "https://gaonauchupanh.vn/co-so/ha-noi",
+                "domain": "gaonauchupanh.vn",
+                "description": "3+ years in business · Ha Noi, Vietnam \nOpen · Closes 9 PM \n\"Wonderful service, nice photoshoot concepts and amazing quality pictures.\" \n"
+              },
+              {
+                "type": "local_pack",
+                "rank": 4,
+                "organicRank": null,
+                "title": "Linh Chi’s Ao Dai Rental | Make up & Photoshoot in Hanoi Old Quarter",
+                "url": "https://linhchiaodai.com/",
+                "domain": "linhchiaodai.com",
+                "description": "Ha Noi, Vietnam \nOpen · Closes 8 PM \n\"10/10 would recommend this unforgettable experience when coming to Hanoi\" \n"
+              },
+              {
+                "type": "local_pack",
+                "rank": 5,
+                "organicRank": null,
+                "title": "Thamera Studio - Ao Dai Rental & Photoshoot Hanoi",
+                "url": "https://www.thamerastudio.com/official",
+                "domain": "www.thamerastudio.com",
+                "description": "Ha Noi, Vietnam \nOpen · Closes 9 PM \n\"Great service, friendly staff, and beautiful traditional Vietnamese outfits.\" \n"
+              },
+              {
+                "type": "organic",
+                "rank": 6,
+                "organicRank": 2,
+                "title": "Hanoi Photography - Professional Photographers for Hire",
+                "url": "https://www.sweetescape.com/en/cities/hanoi",
+                "domain": "www.sweetescape.com",
+                "description": "Plan the perfect Hanoi photoshoot. Hire Hanoi photographers with SweetEscape. Affordable and easy booking. Quality photos. Book now!"
+              },
+              {
+                "type": "organic",
+                "rank": 7,
+                "organicRank": 3,
+                "title": "10 Best Hanoi Photo Spots - From Our Local ...",
+                "url": "https://www.localgrapher.com/hanoi-photo-spots/",
+                "domain": "www.localgrapher.com",
+                "description": "Apr 28, 2026 — 1. Hoan Kiem Lake: The One Frame Everyone Gets Wrong · 2. Hanoi Old Quarter: Where the Real Street Photography Happens · 3. Train Street (Ngo 224 ... Read more"
+              },
+              {
+                "type": "images",
+                "rank": 8,
+                "organicRank": null,
+                "title": "Images",
+                "url": "https://www.google.com/search?sca_esv=8a1c28d8bb15b391&hl=en&gl=US&sxsrf=AKL5yDiuCtYpDaseJ5KUBounUPrEAGRKCw:1793243749921&q=hanoi+photoshoot&udm=2&source=univ&fir=ssDst_JkeijXOM%252CYkIbKHjwAZwBBM%252C_%253BE64Qf2gzPM1WLM%252Cq8ef8tTC6Z4IaM%252C_%253BFtb-PFdETKzyAM%252CmdIKy90b7iihKM%252C_%253BlS04Cc91Jl1FDM%252CYkIbKHjwAZwBBM%252C_%253B4CYiPJNw6BO4eM%252CSvJFL3ET_VGCnM%252C_%253BJncO1WYfojHtjM%252CaEBy_oPoRmDeNM%252C_%253BctcXH61lAbHIHM%252CeNV4cVlbswzr8M%252C_%253Bz_jyI8EwLuzTBM%252CmdIKy90b7iihKM%252C_%253BNabkLadupXvSnM%252C_Umv05Nw2QUZ7M%252C_%253Bkl3yIKFRvxZ_OM%252CSvJFL3ET_VGCnM%252C_%253BBIplECCUxs6GwM%252C0A7pub1fzQ5I5M%252C_%253BoTb5Jl0IEwcXHM%252CeNV4cVlbswzr8M%252C_&usg=AI4_-kTlhH5XP4hZ29SAum3aih8qXyRSsw&sa=X&ved=2ahUKEwjpk9bFod6XAxUHQzABHaU-M7QQ7Al6BAhlEAU",
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 9,
+                "organicRank": 4,
+                "title": "THE BEST 10 Hanoi Photography Tours in 2026 ...",
+                "url": "https://www.viator.com/Hanoi-tours/Photography-Tours/d351-g12-c26028",
+                "domain": "www.viator.com",
+                "description": "Capture the essence of Hanoi with a private photoshoot that unfolds at the iconic Train Street, where trains glide past vibrant cafés and traditional homes. Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 10,
+                "organicRank": 5,
+                "title": "Wedding • Ao Dai • Couple 🇻🇳 (@hanoi.photoshoot)",
+                "url": "https://www.instagram.com/hanoi.photoshoot/",
+                "domain": "www.instagram.com",
+                "description": "+84 965214535. Turn your trip to Hanoi into a beautiful pre-wedding photoshoot — with everything taken care of for you Professional photographer 🌸 Beautiful  ..."
+              },
+              {
+                "type": "organic",
+                "rank": 11,
+                "organicRank": 6,
+                "title": "Best Hanoi Photoshoot with Local Photographer 2026",
+                "url": "https://www.trip.com/things-to-do/experiences/hanoi-photoshoot/",
+                "domain": "www.trip.com",
+                "description": "Book a professional photoshoot in Hanoi with a trusted local photographer. 1 to 3 hours. From US$13.45 per person, with an average total of US$93.20."
+              },
+              {
+                "type": "organic",
+                "rank": 12,
+                "organicRank": 7,
+                "title": "Hanoi Engagement & Prewedding Photography",
+                "url": "https://www.phanquockhastudio.com/blog/romantic-couple-prewedding-photoshoot-in-hanoi/",
+                "domain": "www.phanquockhastudio.com",
+                "description": "Oct 8, 2025 — Discover the best spots for romantic prewedding and couple photoshoots in Hanoi. Tips, locations, and ideas for a memorable experience."
+              },
+              {
+                "type": "organic",
+                "rank": 13,
+                "organicRank": 8,
+                "title": "Hanoi photoshoot experience for travelers",
+                "url": "https://www.facebook.com/groups/vietnam.travel.planning/posts/1191411386426818/",
+                "domain": "www.facebook.com",
+                "description": "A 1-hour professional photoshoot at any location of your choice in Hanoi • 25 professionally edited images delivered to you within a few days"
+              },
+              {
+                "type": "related_searches",
+                "rank": 14,
+                "organicRank": null,
+                "title": null,
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 15,
+                "organicRank": 9,
+                "title": "Photographers in Hanoi - Ha Noi - Airbnb",
+                "url": "https://www.airbnb.com/hanoi-vietnam/services/photographers",
+                "domain": "www.airbnb.com",
+                "description": "Combine your Hanoi trip with a pre-wedding photoshoot at iconic locations. Our package includes makeup, wedding outfits, accessories, professional photography ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 16,
+                "organicRank": 10,
+                "title": "Private Professional Photoshoot in Hanoi (with Reviews)",
+                "url": "https://www.tripadvisor.com/AttractionProductReview-g293924-d26901398-Private_Professional_Photoshoot_in_Hanoi-Hanoi.html",
+                "domain": "www.tripadvisor.com",
+                "description": "We'll be strolling through Hanoi's vibrant streets, highlighting its unique charm and capturing those picture-perfect moments that you'll treasure forever. Hold ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 17,
+                "organicRank": 11,
+                "title": "A photoshoot across 7 locations around Hanoi ...",
+                "url": "https://www.facebook.com/rossophotohouse/posts/a-photoshoot-across-7-locations-around-hanoirossophotohousevietnam-hanoi-viral-%E3%83%AD/799661479798466/",
+                "domain": "www.facebook.com",
+                "description": "A moment never to be replicated. Hanoi Vietnam is a ripe location for street photography. This city is rich with culture and history that are ..."
+              },
+              {
+                "type": "organic",
+                "rank": 18,
+                "organicRank": 12,
+                "title": "Top Hanoi Photo Spots",
+                "url": "https://locallens.com/top-hanoi-photo-spots/",
+                "domain": "locallens.com",
+                "description": "The spots · 1. Hoan Kiem Lake & The Huc Bridge · 2. Old Quarter (36 streets) · 3. Temple of Literature · 4. St Joseph's Cathedral · 5. Long Bien Bridge · 6. Train ... Read more"
+              },
+              {
+                "type": "images",
+                "rank": 19,
+                "organicRank": null,
+                "title": "Images",
+                "url": "https://www.google.com/search?sa=N&hl=en&gl=US&sca_esv=8a1c28d8bb15b391&sxsrf=AKL5yDjMAoB9xjCWmi13CVxplGfz05XGgQ:1793243750831&q=hanoi+photoshoot&udm=2&source=univ&fir=uGQ79hAi3uFMUM%252Cq8ef8tTC6Z4IaM%252C_%253BH0JOtrg0tRFd0M%252C2lF71PwhfjEilM%252C_%253BPJVXxe25CvONGM%252CmdIKy90b7iihKM%252C_%253BMgPNW5cpOORRlM%252C_Umv05Nw2QUZ7M%252C_%253BZnEzjQ4ggTLb7M%252CYkIbKHjwAZwBBM%252C_%253B8y97nweT0zZdFM%252CjOnd-VUbxiTDLM%252C_%253BBcDnv0R_pkEBQM%252CaEBy_oPoRmDeNM%252C_%253Bnw8mtJygo5WHjM%252C_Umv05Nw2QUZ7M%252C_%253B8jfkyOC-VwSgRM%252Cq8ef8tTC6Z4IaM%252C_%253BwLy7oq8ktmBjWM%252CmdIKy90b7iihKM%252C_%253ByxmpjKnrCB_CYM%252CeNV4cVlbswzr8M%252C_%253BATEhuPLY9eMmsM%252CSvJFL3ET_VGCnM%252C_&usg=AI4_-kRwGacKnN6zxzQvRtYsDYmzt4FJEg&ved=2ahUKEwiI6Y3God6XAxWCQTABHWw3I7Y4ChDsCXoECBcQBQ",
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 20,
+                "organicRank": 13,
+                "title": "found the ultimate \"treat yourself\" photoshoot spot in hanoi  i' ...",
+                "url": "https://www.facebook.com/votrechoixc/posts/found-the-ultimate-treat-yourself-photoshoot-spot-in-hanoi-ive-been-wanting-to-d/1345008747652798/",
+                "domain": "www.facebook.com",
+                "description": "Hotline: 0345060726 (Ms. Lien) ✓ Easily searchable on Grab App My Package: 1,800,000 VND / ₱4200 + ✨ Hair & makeup included ✨2 outfits ✨2 ..."
+              }
+            ],
+            "locationCode": 2840,
+            "languageCode": "en",
+            "device": "desktop"
+          }
+        ],
+        "meta": {
+          "projectId": "b97024a3-b095-44e9-9489-d5fce1361263",
+          "url": "https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/keywords"
+        }
+      }
+    },
+    {
+      "keyword": "hanoi photographer",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "tool call error: tool call failed for `openseo/get_serp_results`\n\nCaused by:\n    Transport send error: Transport [codex_rmcp_client::tool_list_changes::ToolListChanges<rmcp::transport::worker::WorkerTransport<rmcp::transport::streamable_http_client::StreamableHttpClientWorker<rmcp::transport::auth::AuthClient<codex_rmcp_client::http_client_adapter::StreamableHttpClientAdapter>>>>] error: Deserialize error: unexpected end of hex escape at line 1 column 1895"
+          }
+        ],
+        "isError": true
+      }
+    },
+    {
+      "keyword": "hanoi old quarter",
+      "result": {
+        "results": [
+          {
+            "keyword": "hanoi old quarter",
+            "ok": true,
+            "items": [
+              {
+                "type": "knowledge_graph",
+                "rank": 1,
+                "organicRank": null,
+                "title": "Old Quarter",
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "ai_overview",
+                "rank": 2,
+                "organicRank": null,
+                "title": null,
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 3,
+                "organicRank": 1,
+                "title": "Old Quarter - All You SHOULD Know Before Going (2026 ...",
+                "url": "https://en.tripadvisor.com.hk/Attraction_Review-g293924-d317503-Reviews-Old_Quarter-Hanoi.html",
+                "domain": "en.tripadvisor.com.hk",
+                "description": "The Old Quarter of Hanoi, also known as \"36 Streets of Hanoi,\" is located north and west of Hoan Kiem Lake."
+              },
+              {
+                "type": "people_also_ask",
+                "rank": 4,
+                "organicRank": null,
+                "title": null,
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 5,
+                "organicRank": 2,
+                "title": "Hanoi Old Quarter: What to Eat, What to Do, and Where ...",
+                "url": "https://www.vietjetair.com/en/news/travel-guides-1665635013747/hanoi-old-quarter-what-to-eat-what-to-do-and-where-to-check-in-1749545291815",
+                "domain": "www.vietjetair.com",
+                "description": "The Old Quarter is beautiful year-round, but the best time is autumn (September–November) and spring (February–April) when the weather is cool and pleasant – ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 6,
+                "organicRank": 3,
+                "title": "Exploring Hanoi's old quarter",
+                "url": "https://www.facebook.com/groups/VietnamIsAwesome/posts/3456516447838810/",
+                "domain": "www.facebook.com",
+                "description": "The Old Quarter / Phố cổ Hà Nội is the name commonly given to the historical civic urban core of Hanoi, Vietnam, located outside the Imperial ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 7,
+                "organicRank": 4,
+                "title": "15 Best Things To Do In Hanoi Old Quarter",
+                "url": "https://thesensiblefay.com/blog/things-to-do-in-hanoi-old-quarter",
+                "domain": "thesensiblefay.com",
+                "description": "Jan 18, 2025 — Hanoi Old Quarter is made up of the most eclectic 36 streets that you will ever see. From ancient imperial temples to charming butter-yellow ..."
+              },
+              {
+                "type": "organic",
+                "rank": 8,
+                "organicRank": 5,
+                "title": "Visiting: Hanoi's Old Quarter | A Destination Near ...",
+                "url": "https://thelapishotel.com/service/visiting-hanois-old-quarter/",
+                "domain": "thelapishotel.com",
+                "description": "Hanoi's Old Quarter was established in the 11th century ... The blend of past and present has made the Old Quarter a vibrant heritage, always attracting tourists, ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 9,
+                "organicRank": 6,
+                "title": "The Hanoi Old Quarter",
+                "url": "https://theterribletourguide.com/the-hanoi-old-quarter/",
+                "domain": "theterribletourguide.com",
+                "description": "Hanoi old quater was formed in early 15th century, limited by Hang Dau street to the north, Phung Hung street to the west, Tran Nhat Duat and Tran Quang ..."
+              },
+              {
+                "type": "organic",
+                "rank": 10,
+                "organicRank": 7,
+                "title": "Old Quarter - All You SHOULD Know Before Going (2026 ...",
+                "url": "https://www.tripadvisor.com/Attraction_Review-g293924-d317503-Reviews-or10-Old_Quarter-Hanoi.html",
+                "domain": "www.tripadvisor.com",
+                "description": "Hanoi's lively Old Quarter comprises nearly 40 streets packed with shops selling all kinds of goods, each street named for its primary good or service. Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 11,
+                "organicRank": 8,
+                "title": "The street corners in Hanoi Old Quarter",
+                "url": "https://www.facebook.com/VietnamTravelAgencyintheNorth/posts/the-street-corners-in-hanoi-old-quarter/1025684676333549/",
+                "domain": "www.facebook.com",
+                "description": "The Old Quarter, also known as the “36 Streets,” is the historic heart of Hanoi and a vibrant symbol of the city's rich cultural heritage."
+              },
+              {
+                "type": "short_videos",
+                "rank": 12,
+                "organicRank": null,
+                "title": "Things to know",
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "related_searches",
+                "rank": 13,
+                "organicRank": null,
+                "title": null,
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 14,
+                "organicRank": 9,
+                "title": "Detailed A-Z Hanoi Old Quarter Travel Guide",
+                "url": "https://sovaba.travel/en/blog/explore-hanoi-old-quarter",
+                "domain": "sovaba.travel",
+                "description": "Hanoi Old Quarter is located in Hoan Kiem District, to the north and west of Hoan Kiem Lake (Sword Lake). Covering an area of about 100 hectares, the quarter ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 15,
+                "organicRank": 10,
+                "title": "Hanoi's Old Quarter: where Vietnam's culinary soul endures",
+                "url": "https://e.vnexpress.net/news/travel/food-recipes/hanoi-s-old-quarter-where-vietnam-s-culinary-soul-endures-5055596.html",
+                "domain": "e.vnexpress.net",
+                "description": "Apr 25, 2026 — From Mama to Hang Gai, Pho Hue to Lan Ong, these banh mi stalls draw queues of locals and tourists daily for their traditional fillings such as ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 16,
+                "organicRank": 11,
+                "title": "Old Quarter Hanoi: A Complete Guide to the Heart ...",
+                "url": "https://www.tripoto.com/hanoi/places-to-visit/old-quarter-hanoi",
+                "domain": "www.tripoto.com",
+                "description": "Discover the charm and diversity of the Old Quarter Hanoi, the historic and cultural heart of Vietnam's capital. Learn how to get there, what to see and do, ..."
+              },
+              {
+                "type": "organic",
+                "rank": 17,
+                "organicRank": 12,
+                "title": "Hanoi Old Quarter Tours and Tickets",
+                "url": "https://www.viator.com/en-PH/Hanoi-attractions/Hanoi-Old-Quarter/d351-a1676",
+                "domain": "www.viator.com",
+                "description": "Main attractions within Hanoi's Old Quarter include Hoan Kiem Lake, Temple of the Jade Mountain (Ngoc Son Temple), Bach Ma Temple, Thang Long Puppet Theater, St ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 18,
+                "organicRank": 13,
+                "title": "The main street of Old quarter - Hanoi",
+                "url": "https://www.tripadvisor.com/ShowUserReviews-g293924-d311058-r620005996-Hanoi_Old_Quarter_Vietnam-Hanoi.html",
+                "domain": "www.tripadvisor.com",
+                "description": "Hang Gai street and the area surrounding the St Joseph Cathedral have quaint shops and cafes with unique characteristics. Best area in the Old Quarter for us. Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 19,
+                "organicRank": 14,
+                "title": "Shopping in Hanoi Old Quarter: A Complete Guide to ...",
+                "url": "https://www.vietnamtravelers.com/blog/shopping-hanoi-old-quarter/",
+                "domain": "www.vietnamtravelers.com",
+                "description": "Apr 8, 2025 — Hanoi's Old Quarter has been the commercial heart of the capital for over 1000 years. With its maze of 36 ancient streets, each historically ..."
+              },
+              {
+                "type": "organic",
+                "rank": 20,
+                "organicRank": 15,
+                "title": "Hanoi Old Quarter: Guide to the 36 Old Streets",
+                "url": "https://www.hissonghanvietnam.com/hanoi-old-quarter-guide-to-the-36-old-streets",
+                "domain": "www.hissonghanvietnam.com",
+                "description": "8 days ago — The Hanoi Old Quarter is a 1,000-year-old commercial district north and west of Hoan Kiem Lake, famously known as \"36 Old Streets. Read more"
+              }
+            ],
+            "locationCode": 2840,
+            "languageCode": "en",
+            "device": "desktop"
+          }
+        ],
+        "meta": {
+          "projectId": "b97024a3-b095-44e9-9489-d5fce1361263",
+          "url": "https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/keywords"
+        }
+      }
+    },
+    {
+      "keyword": "things to do in hanoi old quarter",
+      "result": {
+        "results": [
+          {
+            "keyword": "things to do in hanoi old quarter",
+            "ok": true,
+            "items": [
+              {
+                "type": "ai_overview",
+                "rank": 1,
+                "organicRank": null,
+                "title": null,
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 2,
+                "organicRank": 1,
+                "title": "📍13 Best Things To Do In Hanoi Old Quarter (Tours, ...",
+                "url": "https://journeydiscover.com/things-to-do-in-hanoi-old-quarter/",
+                "domain": "journeydiscover.com",
+                "description": "Aug 7, 2024 — 1. Walk Across The Iconic Red Bridge To A Holy Place.Ngoc Son Temple. – $. 2. Enjoy A Stroll Around The Lake Of The Return Sword.Hoan Kiem Lake ..."
+              },
+              {
+                "type": "organic",
+                "rank": 3,
+                "organicRank": 2,
+                "title": "Old Quarter in Hanoi | What to Do, See and Eat",
+                "url": "https://www.holidify.com/places/hanoi/old-quarter-sightseeing-121902.html",
+                "domain": "www.holidify.com",
+                "description": "Old Quarter Highlights · 1. Thang Long Water Puppet Theater · 2. Dong Xuan Market · 3. Ngoc Son Temple · 4. Hoa Lo Prison Museum · 5. St Joseph's Cathedral · 6. Read more"
+              },
+              {
+                "type": "people_also_ask",
+                "rank": 4,
+                "organicRank": null,
+                "title": null,
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 5,
+                "organicRank": 3,
+                "title": "What to see in Hanoi Old Quarter?",
+                "url": "https://www.facebook.com/groups/vietnamtravelguideofficial/posts/733861825596017/",
+                "domain": "www.facebook.com",
+                "description": "Cultural Landmarks: Visit Hoan Kiem Lake and Ngoc Son Temple, St. Joseph's Cathedral, and Bach Ma Temple for a taste of local history and ..."
+              },
+              {
+                "type": "organic",
+                "rank": 6,
+                "organicRank": 4,
+                "title": "Things to do in Hanoi Old Quarter - Vietnam",
+                "url": "https://www.klook.com/en-HK/destination/p50194824-hanoi-old-quarter/1-things-to-do/",
+                "domain": "www.klook.com",
+                "description": "Things to do in Hanoi Old Quarter · Hanoi Michelin Selected Street Food Walking Tour with Train Street · Hanoi Spa: Premium Massage & Holistic ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 7,
+                "organicRank": 5,
+                "title": "Hanoi Old Quarter Tours and Tickets",
+                "url": "https://www.viator.com/en-PH/Hanoi-attractions/Hanoi-Old-Quarter/d351-a1676",
+                "domain": "www.viator.com",
+                "description": "Main attractions within Hanoi's Old Quarter include Hoan Kiem Lake, Temple of the Jade Mountain (Ngoc Son Temple), Bach Ma Temple, Thang Long Puppet Theater,"
+              },
+              {
+                "type": "organic",
+                "rank": 8,
+                "organicRank": 6,
+                "title": "Best Things to See in Hanoi's Old Quarter - taytrum travels",
+                "url": "https://taytrumtravels.com/2024/01/01/best-things-to-see-in-hanois-old-quarter/",
+                "domain": "taytrumtravels.com",
+                "description": "Jan 1, 2024 — From night markets to cathedrals, ting maze of narrow alleys, French-colonial buildings, pagodas, and bustling markets. 1. Hanoi Train Street ..."
+              },
+              {
+                "type": "video",
+                "rank": 9,
+                "organicRank": null,
+                "title": null,
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 10,
+                "organicRank": 7,
+                "title": "Hanoi Old Quarter travel guide: Plan your perfect trip 2025",
+                "url": "https://www.asiatouradvisor.com/get-inspired/vietnam/hanoi-old-quarter-travel-guide/",
+                "domain": "www.asiatouradvisor.com",
+                "description": "Nov 11, 2025 — Hoan Kiem Lake (Lake of the Restored Sword) · Ngoc Son Temple (Temple of the Jade Mountain) · The Turtle Tower (Thap Rua) · St. Joseph's Cathedral. Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 11,
+                "organicRank": 8,
+                "title": "Vietnam Hanoi Travel Guide: A Perfect One-Day Itinerary for ...",
+                "url": "https://costabitaitabi.com/en/2026/08/01/vietnam-hanoi-travel-guide-a-perfect-one-day-itinerary-for-exploring-the-old-quarter/",
+                "domain": "costabitaitabi.com",
+                "description": "Aug 1, 2026 — Hanoi Old Quarter Model Course｜Recommended Attractions · Hoan Kiem Lake · St. Joseph's Cathedral · Train Street · Dong Xuan Market · Thang Long ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 12,
+                "organicRank": 9,
+                "title": "Things to do near Hanoi Old Quarter Vietnam",
+                "url": "https://www.tripadvisor.com/AttractionsNear-g293924-d311058-Hanoi_Old_Quarter_Vietnam-Hanoi.html",
+                "domain": "www.tripadvisor.com",
+                "description": "Things to do near Hanoi Old Quarter Vietnam on Tripadvisor: See 381885 reviews and 53594 candid photos of things to do near Hanoi Old ..."
+              },
+              {
+                "type": "organic",
+                "rank": 13,
+                "organicRank": 10,
+                "title": "Hanoi Old Quarter, Vietnam: Best Things to Do with Photos",
+                "url": "https://www.indochinatravelpackages.com/destinations/attraction/hanoi-old-quarter-hanoi-vietnam-best-things-to-do-with-photos/",
+                "domain": "www.indochinatravelpackages.com",
+                "description": "The second place you should not miss on your trip to Hanoi is Ngoc Son Temple, which is located on a small island in Hoan Kiem Lake, to arrive at Ngoc Son ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 14,
+                "organicRank": 11,
+                "title": "Top Attractions And Local Travel Tips In Hanoi Old Quarter",
+                "url": "https://seniworld.com/hanoi-old-quarter/",
+                "domain": "seniworld.com",
+                "description": "Nov 21, 2025 — 3 Cultural Experiences You Shouldn't Miss · Try Local Street Food At Dong Xuan Market · Watch A Water Puppet Show At Thang Long Theatre. Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 15,
+                "organicRank": 12,
+                "title": "The Ultimate Guide to the Hanoi Old Quarter",
+                "url": "http://asiamystika.com/blog/hanoi-old-quarter",
+                "domain": "asiamystika.com",
+                "description": "Discover Hanoi Old Quarter 2026 with a detailed guide on history, culture, food, and unique local experiences to fully enjoy the capital's charm."
+              },
+              {
+                "type": "organic",
+                "rank": 16,
+                "organicRank": 13,
+                "title": "THE 10 BEST Things to Do Near Old Quarter (2026)",
+                "url": "https://www.tripadvisor.com/AttractionsNear-g293924-d317503-oa2460-Old_Quarter-Hanoi.html",
+                "domain": "www.tripadvisor.com",
+                "description": "Things to do near Old Quarter on Tripadvisor: See 382733 reviews and 53714 candid photos of things to do near Old Quarter in Hanoi, Vietnam."
+              },
+              {
+                "type": "organic",
+                "rank": 17,
+                "organicRank": 14,
+                "title": "Discover Hanoi Old Quarter: A Journey Through Time",
+                "url": "https://www.asiakingtravel.com/attraction/hanoi-old-quarter",
+                "domain": "www.asiakingtravel.com",
+                "description": "Hanoi Old Quarter · 1. Stroll around Hoan Kiem Lake. Sword Lake, also called Hoan Kiem Lake, is a city center lake that is linked to the myth of the turtle god ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 18,
+                "organicRank": 15,
+                "title": "Hanoi Old Town Travel Guide: Itinerary and Experiences",
+                "url": "https://hanoifreeprivatetourguide.com/hanoi-old-town-travel-guide-itinerary-experiences/",
+                "domain": "hanoifreeprivatetourguide.com",
+                "description": "Sep 15, 2026 — Must-do: Cyclo ride, Dong Xuan Market, water puppet show, night market, Ta Hien Street; Must-eat: Pho bo, bun cha, egg coffee, bia hoi, boiled ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 19,
+                "organicRank": 16,
+                "title": "Things not to be missed in Hanoi Old Quarter: A complete ...",
+                "url": "https://hoabinhtourist.com/en/blog/hanoi-old-quarter",
+                "domain": "hoabinhtourist.com",
+                "description": "Jan 22, 2025 — Unique features of Hanoi Old Quarter. Traditional tube houses; Traditional craft streets; The everyday life of Hanoi people; Street food ; Hanoi ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 20,
+                "organicRank": 17,
+                "title": "Hanoi Old Quarter: Travel Guide, Things to Do & Attractions",
+                "url": "https://avianexperiences.com/attractions/hanoi-old-quarter",
+                "domain": "avianexperiences.com",
+                "description": "Explore Hanoi Old Quarter in Vietnam. Discover historic streets, local markets, street food, cultural landmarks, and tips for an immersive travel ..."
+              }
+            ],
+            "locationCode": 2840,
+            "languageCode": "en",
+            "device": "desktop"
+          }
+        ],
+        "meta": {
+          "projectId": "b97024a3-b095-44e9-9489-d5fce1361263",
+          "url": "https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/keywords"
+        }
+      }
+    },
+    {
+      "keyword": "hanoi photography tour",
+      "result": {
+        "results": [
+          {
+            "keyword": "hanoi photography tour",
+            "ok": true,
+            "items": [
+              {
+                "type": "organic",
+                "rank": 1,
+                "organicRank": 1,
+                "title": "Photography Tours of Vietnam and Angkor",
+                "url": "https://indochinatravel.com/country/vietnam/vietnam-photography-tour",
+                "domain": "indochinatravel.com",
+                "description": "Explore Vietnam through a camera lens on our unique photography tours. (415) 418-6800 (USA) Hanoi's Old Quarter. Call us in San Francisco at (415) 418-6800"
+              },
+              {
+                "type": "ai_overview",
+                "rank": 2,
+                "organicRank": null,
+                "title": null,
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 3,
+                "organicRank": 2,
+                "title": "Vietnam Photo Tour Workshop w",
+                "url": "https://luminousjourneys.net/luminous-vietnam-photo-tour/",
+                "domain": "luminousjourneys.net",
+                "description": "Tour Price – $6995 USD (only $466 per day) Single Supplement – $985 USD Minimum Deposit – $750 USD … 4 Cabins Available Locations – Hanoi & Environs"
+              },
+              {
+                "type": "organic",
+                "rank": 4,
+                "organicRank": 3,
+                "title": "Hanoi Street photography courses with Mark Seymour.",
+                "url": "https://shootthestreet.co.uk/street-photography/hanoi-street/",
+                "domain": "shootthestreet.co.uk",
+                "description": "Hanoi Street Photography courses with National Geographic photographer Mark Seymour where he will guide you as you explore the streets of Hanoi … 24 hours a day"
+              },
+              {
+                "type": "organic",
+                "rank": 5,
+                "organicRank": 4,
+                "title": "Photo Tours and Workshops",
+                "url": "https://www.vietnaminfocus.com/tour-type/workshops/",
+                "domain": "www.vietnaminfocus.com",
+                "description": "A 10-day photography adventure through Saigon and the Mekong Delta, featuring floating markets, traditional crafts, ethnic minority communities, vibrant street ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 6,
+                "organicRank": 5,
+                "title": "Hanoi by dawn Photo Tour",
+                "url": "https://activities.marriott.com/asia/vietnam/hanoi/activities/hanoi_by_dawn_photo_tour-XO2J3R",
+                "domain": "activities.marriott.com",
+                "description": "Hanoi by dawn Photo Tour Hanoi, Vietnam 4 hours 30 minutes E-Ticket 5.0 (7) Art & Culture | Walking Tours | Bus & Driving Tours | Photography On-board restrooms"
+              },
+              {
+                "type": "organic",
+                "rank": 7,
+                "organicRank": 6,
+                "title": "THE 10 BEST Hanoi Photography Tours (with Prices)",
+                "url": "https://www.tripadvisor.com.sg/Attractions-g293924-Activities-c42-t269-Hanoi.html",
+                "domain": "www.tripadvisor.com.sg",
+                "description": "Photography Tours in Hanoi · 1. Hanoi Street Photography with a Pro – Phone & Camera · 2. Hanoi On the Tracks Photo Tour · 3. Photo Tour to ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 8,
+                "organicRank": 7,
+                "title": "Street Photography Experience in Hanoi",
+                "url": "https://secret-experiences.com/experiences/hanoi-street-photography-experience",
+                "domain": "secret-experiences.com",
+                "description": "Experience the vibrant energy of Hanoi's streets during this immersive morning photography experience. This 2.5-hour experience starts at 7 am to ensure we ..."
+              },
+              {
+                "type": "local_pack",
+                "rank": 9,
+                "organicRank": null,
+                "title": "Vietnam Photo Tours",
+                "url": "https://vietnamphototours.com/",
+                "domain": "vietnamphototours.com",
+                "description": "15+ years in business · 1 Đ. Nghiêm Xuân Yêm · +84 386 633 355 \nOpen 24 hours \n\"A fantastic photography tour with breathtaking locations and great guidance.\" \n"
+              },
+              {
+                "type": "local_pack",
+                "rank": 10,
+                "organicRank": null,
+                "title": "Momentlives",
+                "url": "https://www.momentlives.com/",
+                "domain": "www.momentlives.com",
+                "description": "15+ years in business · 18 Lane 167/3, St · +84 983 309 484 \nOpen 24 hours \n\"Amazing Vietnam Photo Tours with Momentlives to Mu Cang Chai!\" \n"
+              },
+              {
+                "type": "local_pack",
+                "rank": 11,
+                "organicRank": null,
+                "title": "Vietnam in Focus",
+                "url": "https://www.vietnaminfocus.com/",
+                "domain": "www.vietnaminfocus.com",
+                "description": "10+ years in business · Kim Khi Thang Long Building, no 1 P. Lương Yên · +84 375 658 914 \nOpen 24 hours \n\"Despite the early wake-up and the intense heat, this tour was 100% worth it.\" \n"
+              },
+              {
+                "type": "top_sights",
+                "rank": 12,
+                "organicRank": null,
+                "title": "Activities and tours",
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 13,
+                "organicRank": 8,
+                "title": "Vietnam + Cambodia Photo Workshop",
+                "url": "https://catherinekarnow.com/vietnam-cambodia-photo-workshop",
+                "domain": "catherinekarnow.com",
+                "description": "INTRODUCTION. I am excited to invite you to my 18-day Vietnam + Cambodia Luxury Photo Workshop, the crown jewel of all my photography workshops. Read more"
+              },
+              {
+                "type": "images",
+                "rank": 14,
+                "organicRank": null,
+                "title": "Images",
+                "url": "https://www.google.com/search?sca_esv=8a1c28d8bb15b391&hl=en&gl=US&sxsrf=AKL5yDhZHJlu-066D8VnnkhSX-lIvwmGkg:1793243749940&q=hanoi+photography+tour&udm=2&source=univ&fir=kicixUdYlIpiMM%252CxQsg9_kYu32mmM%252C_%253B9R1z-p9sWiRCrM%252Cwk9k0sQSaMELTM%252C_%253BMgPNW5cpOORRlM%252C_Umv05Nw2QUZ7M%252C_%253BR09emtWX4qwv7M%252CxQsg9_kYu32mmM%252C_%253BDDcmh1tNa6MbXM%252Cwk9k0sQSaMELTM%252C_%253Bwnt-7DW-SQzBJM%252CxQsg9_kYu32mmM%252C_%253B5MtcMr7QRwBAKM%252C_Umv05Nw2QUZ7M%252C_%253BwockXxI4jgB74M%252Cwk9k0sQSaMELTM%252C_%253B_VJO7lCeXYG_oM%252CxQsg9_kYu32mmM%252C_&usg=AI4_-kT3Gu_Zath31hD7Kfyqfen7ai8fkg&sa=X&ved=2ahUKEwixsdfFod6XAxUGDHkGHcuvF3wQ7Al6BAhCEAU",
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "related_searches",
+                "rank": 15,
+                "organicRank": null,
+                "title": null,
+                "url": null,
+                "domain": null,
+                "description": null
+              },
+              {
+                "type": "organic",
+                "rank": 16,
+                "organicRank": 9,
+                "title": "Really \"experiencing\" Vietnam: Photo tour with Momentlives",
+                "url": "https://www.tripadvisor.com/ShowTopic-g293924-i8595-k15352071-Really_experiencing_Vietnam_Photo_tour_with_Momentlives-Hanoi.html",
+                "domain": "www.tripadvisor.com",
+                "description": "Momentlives is a must-do experience for anyone considering a photography tour in Vietnam. All levels of experience and equipment are welcome"
+              },
+              {
+                "type": "organic",
+                "rank": 17,
+                "organicRank": 10,
+                "title": "Recommendations for Photo Tour in Hanoi? - Vietnam Forum",
+                "url": "https://www.tripadvisor.com/ShowTopic-g293921-i8432-k14108942-Recommendations_for_Photo_Tour_in_Hanoi-Vietnam.html",
+                "domain": "www.tripadvisor.com",
+                "description": "Sep 13, 2022 — Can anyone recommend a photography tour guide for Hanoi? We will be visiting in January, my husband is an amateur photographer and would ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 18,
+                "organicRank": 11,
+                "title": "Vietnam photo tours | Hanoi",
+                "url": "https://www.facebook.com/MomentlivesPhotoTours/",
+                "domain": "www.facebook.com",
+                "description": "Join our “Frames of Hanoi” Photo Tour and experience the city through your lens, one frame at a time. #VietnamPhotoTours #HanoiPhotoTour #VietnamPhotography # ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 19,
+                "organicRank": 12,
+                "title": "Travel - HANOI PHOTO TOURS by Xuan Phuong",
+                "url": "https://xuanphuongle.com/category/travel/",
+                "domain": "xuanphuongle.com",
+                "description": "From misty mountain landscapes in the north to vibrant floating markets in the south, the country offers an incredible diversity of subjects. If you're serious ... Read more"
+              },
+              {
+                "type": "organic",
+                "rank": 20,
+                "organicRank": 13,
+                "title": "Hanoi Photography - Private Day Tour - Tripadvisor",
+                "url": "https://en.tripadvisor.com.hk/Attraction_Review-g293924-d5022436-Reviews-Hanoi_Photography_Private_Day_Tour-Hanoi.html",
+                "domain": "en.tripadvisor.com.hk",
+                "description": "Hanoi is a place for constant photography ! Highly recommended for photographers who love taking shoots of people in their daily routines! The tour was pricey ... Read more"
+              }
+            ],
+            "locationCode": 2840,
+            "languageCode": "en",
+            "device": "desktop"
+          }
+        ],
+        "meta": {
+          "projectId": "b97024a3-b095-44e9-9489-d5fce1361263",
+          "url": "https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/keywords"
+        }
+      }
+    }
+  ],
+  "credits": {
+    "balanceBefore": 7199,
+    "balanceAfter": 7050,
+    "difference": 149,
+    "note": "Observed account balance difference, not sum of per-call invoices."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-02",
+  "research_status": "partial",
+  "completed_scope": "Fresh Facebook/Instagram post and selected comment analysis; deterministic Instagram outlier ranking; practical recommendations with caveats.",
+  "artifact_checks": {
+    "unique_instagram_ids": 201,
+    "mature_ranked_reels": 93,
+    "median_engagement": 12,
+    "exact_lifts": "pass",
+    "csv_parity": "pass",
+    "food_keyword_comments_excluding_page": 13,
+    "local_report_links": "pass"
+  },
+  "workspace_checks": {
+    "npm test": "pass: 158 tests, 0 failures",
+    "npm run test:skills": "pass: 15 tests",
+    "npm run workspace:check": "pass"
+  },
+  "unavailable": [
+    "Post-level Instagram views, saves, shares, retention, attribution and paid/organic separation",
+    "Independent public permalink fetch: cache miss",
+    "Meta Business Suite export file: download timed out; file not used",
+    "Local publish-capability diagnostic: token not found in local Keychain; connector read-only worked",
+    "Video visual analysis and full dual-pass creative rubric",
+    "Threads, TikTok, YouTube and Stories ranking"
+  ],
+  "live_content_mutations": "none",
+  "source_files_changed": "none; only new research bundle created",
+  "notes": "No paid scrape, public posting, comments, DMs, automation edits, staging, commit or push. Existing workspace changes preserved."
+}

@@ -1,0 +1,6812 @@
+{
+  "captured_at": "2026-10-21T02:50:45.658Z",
+  "property": "552867189",
+  "queries": {
+    "previous-daily_sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-07",
+            "endDate": "2026-10-13"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "date"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "bounceRate"
+          },
+          {
+            "name": "averageSessionDuration"
+          }
+        ],
+        "limit": 10000
+      },
+      "response": {
+        "dimensionHeaders": [
+          {
+            "name": "date"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metricHeaders": [
+          {
+            "name": "sessions",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "activeUsers",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "bounceRate",
+            "type": "TYPE_FLOAT"
+          },
+          {
+            "name": "averageSessionDuration",
+            "type": "TYPE_SECONDS"
+          }
+        ],
+        "rows": [
+          {
+            "dimensionValues": [
+              {
+                "value": "20261013",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "90",
+                "oneValue": "value"
+              },
+              {
+                "value": "85",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.88888888888888884",
+                "oneValue": "value"
+              },
+              {
+                "value": "88.534550955555545",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261009",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "14",
+                "oneValue": "value"
+              },
+              {
+                "value": "7",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.14285714285714285",
+                "oneValue": "value"
+              },
+              {
+                "value": "833.58987021428572",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261011",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "9",
+                "oneValue": "value"
+              },
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.22222222222222221",
+                "oneValue": "value"
+              },
+              {
+                "value": "731.08760344444443",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261007",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "8",
+                "oneValue": "value"
+              },
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.375",
+                "oneValue": "value"
+              },
+              {
+                "value": "211.75783125",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261010",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "7",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5714285714285714",
+                "oneValue": "value"
+              },
+              {
+                "value": "797.30354214285728",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261009",
+                "oneValue": "value"
+              },
+              {
+                "value": "tagassistant.google.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.16666666666666666",
+                "oneValue": "value"
+              },
+              {
+                "value": "220.0535255",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261012",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.16666666666666666",
+                "oneValue": "value"
+              },
+              {
+                "value": "203.83865",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261012",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.2",
+                "oneValue": "value"
+              },
+              {
+                "value": "51.648789799999996",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261008",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "711.5895115",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261009",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.25",
+                "oneValue": "value"
+              },
+              {
+                "value": "131.48497425",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261011",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.25",
+                "oneValue": "value"
+              },
+              {
+                "value": "14.8934795",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261011",
+                "oneValue": "value"
+              },
+              {
+                "value": "tagassistant.google.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.25",
+                "oneValue": "value"
+              },
+              {
+                "value": "128.8738955",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261012",
+                "oneValue": "value"
+              },
+              {
+                "value": "tagassistant.google.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.25",
+                "oneValue": "value"
+              },
+              {
+                "value": "543.54066125",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261012",
+                "oneValue": "value"
+              },
+              {
+                "value": "threads / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "56.178281250000005",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261013",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "181.19413075",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261008",
+                "oneValue": "value"
+              },
+              {
+                "value": "tagassistant.google.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.33333333333333331",
+                "oneValue": "value"
+              },
+              {
+                "value": "934.34478966666666",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261009",
+                "oneValue": "value"
+              },
+              {
+                "value": "l.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.66666666666666663",
+                "oneValue": "value"
+              },
+              {
+                "value": "504.091615",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261010",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.33333333333333331",
+                "oneValue": "value"
+              },
+              {
+                "value": "15.368798333333332",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261011",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.33333333333333331",
+                "oneValue": "value"
+              },
+              {
+                "value": "22.945774333333333",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261012",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.33333333333333331",
+                "oneValue": "value"
+              },
+              {
+                "value": "45.458074",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261013",
+                "oneValue": "value"
+              },
+              {
+                "value": "tagassistant.google.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "812.18181133333337",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261007",
+                "oneValue": "value"
+              },
+              {
+                "value": "tagassistant.google.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "561.309472",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261008",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "189.147412",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261008",
+                "oneValue": "value"
+              },
+              {
+                "value": "l.instagram.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261009",
+                "oneValue": "value"
+              },
+              {
+                "value": "m.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "119.4716925",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261010",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "32.386277",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261010",
+                "oneValue": "value"
+              },
+              {
+                "value": "tagassistant.google.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "700.4116715",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261011",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "7.3954475",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261012",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "38.376127",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261007",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "9.637616",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261007",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261007",
+                "oneValue": "value"
+              },
+              {
+                "value": "instagram / bio",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "21.77306",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261007",
+                "oneValue": "value"
+              },
+              {
+                "value": "instagram.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261007",
+                "oneValue": "value"
+              },
+              {
+                "value": "m.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "10.112006",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261007",
+                "oneValue": "value"
+              },
+              {
+                "value": "threads / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261008",
+                "oneValue": "value"
+              },
+              {
+                "value": "lm.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261008",
+                "oneValue": "value"
+              },
+              {
+                "value": "m.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261008",
+                "oneValue": "value"
+              },
+              {
+                "value": "threads / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "40.75849",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261009",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "32.393932",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261009",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "14.806668",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261009",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "58.318758",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261010",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "48.413238",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261011",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261013",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "6.409503",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261013",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "4.850072",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261013",
+                "oneValue": "value"
+              },
+              {
+                "value": "instagram / bio",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          }
+        ],
+        "totals": [],
+        "maximums": [],
+        "minimums": [],
+        "rowCount": 46,
+        "metadata": {
+          "samplingMetadatas": [],
+          "dataLossFromOtherRow": false,
+          "currencyCode": "USD",
+          "_currencyCode": "currencyCode",
+          "timeZone": "Asia/Saigon",
+          "_timeZone": "timeZone"
+        },
+        "propertyQuota": null,
+        "kind": "analyticsData#runReport"
+      }
+    },
+    "previous-pages": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-07",
+            "endDate": "2026-10-13"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 10000
+      },
+      "response": {
+        "dimensionHeaders": [
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metricHeaders": [
+          {
+            "name": "screenPageViews",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "activeUsers",
+            "type": "TYPE_INTEGER"
+          }
+        ],
+        "rows": [
+          {
+            "dimensionValues": [
+              {
+                "value": "/",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "97",
+                "oneValue": "value"
+              },
+              {
+                "value": "65",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tours",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "82",
+                "oneValue": "value"
+              },
+              {
+                "value": "27",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/booking",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "61",
+                "oneValue": "value"
+              },
+              {
+                "value": "16",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/spiritual-west-lake-breeze",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "32",
+                "oneValue": "value"
+              },
+              {
+                "value": "9",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/digital-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "30",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/wheel",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "24",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "22",
+                "oneValue": "value"
+              },
+              {
+                "value": "7",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/french-colonial-historical-footsteps",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "19",
+                "oneValue": "value"
+              },
+              {
+                "value": "6",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/food-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "17",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/bills",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "15",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/gallery",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "14",
+                "oneValue": "value"
+              },
+              {
+                "value": "8",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/ebooks",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "14",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "13",
+                "oneValue": "value"
+              },
+              {
+                "value": "5",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/about",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "11",
+                "oneValue": "value"
+              },
+              {
+                "value": "10",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/hanoi-photographer-tour-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "11",
+                "oneValue": "value"
+              },
+              {
+                "value": "10",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/hanoi-pho-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "11",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/ebooks",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "10",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/content/tours",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "10",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/customers",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "10",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/content/news",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "9",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/checkout",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "8",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/ebooks/vietnam-with-a-local-sense",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "8",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/wheel/prizes/1/edit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "8",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/guides",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "5",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/egg-coffee-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/catalog/tour-packages",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/login",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/hanoi-early-bird-sunrise-local-markets",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "5",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/hanoi-unfiltered-local-life-documentary",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/guides/TravelFrame-Hanoi-Photographer-Tour-Guide.pdf",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/colors-delta-craft-villages-expedition",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/catalog/tour-items",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/catalog/tour-packages/2/edit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/guides",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/login",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/wheel/prizes/2/edit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/faq",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/hanoi-photoshoot",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/reviews",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/cinematic-hanoi-visual-storytelling-walk",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/about",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/settings",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/admin/config/development/performance",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/contact",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/hanoi-old-quarter-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/taste-hanoi-culinary-delights-street-vibes",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/booking-terms",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/catalog/tour-items/5/edit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/catalog/tour-packages/1/edit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/content/news/categories",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/ebooks/orders/279",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/admin/config/search/robotstxt",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/admin/config/services/google-tag",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/archive/hanois-train-street-rhythm-time",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/ebook",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/ebooks/order/q194J_tJQLc48NbusJbw6wXca-XE_uTZAyiygQ9Fajg",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/ebooks/order/zGYtzmdagpCjAGQJ9r93b7aAQF5vsyY9DkiUfU6g5N4",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/how-it-works",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/5-old-quarter-alleys-slow-down",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/bat-trang-pottery-museum-photography-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/bun-cha-chan-local-culinary-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/cam-phu-cau-incense-village-photography-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/hanoi-egg-coffee-cafe-giang-photography-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/hanoi-post-office",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/hanoi-post-office-three-centuries-flowing-through-name",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/hanois-train-street-rhythm-time",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/ho-chi-minh-mausoleum-heart-vietnamese-nation",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/imperial-citadel-thang-long-photography-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/red-river-dyke-flower-park-hot-spots-photography-camping-and-picnics-hanoi",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/santorini-park-lovely-photo-spot-right-outside-hanoi",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/st-josephs-cathedral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/ta-hien-street-where-hanoi-nights-come-alive",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/temple-literature-what-does-vietnams-first-university-have-offer",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/trang-tien-street-hanoi-opera-house-locals-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/node/2/edit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/spiritual-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/admin/config/development/performance",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/bills/11",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/catalog/categories",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/catalog/tour-items/1/edit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/catalog/tour-items/4/edit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/catalog/tour-items/add",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/catalog/visual-packages",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/ebooks/2/edit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/ebooks/orders/280",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/ebooks/settings",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/travelframe-admin/tours/categories",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          }
+        ],
+        "totals": [],
+        "maximums": [],
+        "minimums": [],
+        "rowCount": 93,
+        "metadata": {
+          "samplingMetadatas": [],
+          "dataLossFromOtherRow": false,
+          "currencyCode": "USD",
+          "_currencyCode": "currencyCode",
+          "timeZone": "Asia/Saigon",
+          "_timeZone": "timeZone"
+        },
+        "propertyQuota": null,
+        "kind": "analyticsData#runReport"
+      }
+    },
+    "previous-events": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-07",
+            "endDate": "2026-10-13"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "eventName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 10000
+      },
+      "response": {
+        "dimensionHeaders": [
+          {
+            "name": "eventName"
+          }
+        ],
+        "metricHeaders": [
+          {
+            "name": "eventCount",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "keyEvents",
+            "type": "TYPE_FLOAT"
+          }
+        ],
+        "rows": [
+          {
+            "dimensionValues": [
+              {
+                "value": "page_view",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "676",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "user_engagement",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "430",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "scroll",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "333",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "session_start",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "229",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "first_visit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "128",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "view_tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "31",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "form_start",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "13",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "form_submit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "9",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "click",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "7",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "begin_booking",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "add_to_cart",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "booking_step_view",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          }
+        ],
+        "totals": [],
+        "maximums": [],
+        "minimums": [],
+        "rowCount": 12,
+        "metadata": {
+          "samplingMetadatas": [],
+          "dataLossFromOtherRow": false,
+          "currencyCode": "USD",
+          "_currencyCode": "currencyCode",
+          "timeZone": "Asia/Saigon",
+          "_timeZone": "timeZone"
+        },
+        "propertyQuota": null,
+        "kind": "analyticsData#runReport"
+      }
+    },
+    "previous-sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-07",
+            "endDate": "2026-10-13"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 10000
+      },
+      "response": {
+        "dimensionHeaders": [
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metricHeaders": [
+          {
+            "name": "sessions",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "activeUsers",
+            "type": "TYPE_INTEGER"
+          }
+        ],
+        "rows": [
+          {
+            "dimensionValues": [
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "137",
+                "oneValue": "value"
+              },
+              {
+                "value": "102",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "tagassistant.google.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "24",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "19",
+                "oneValue": "value"
+              },
+              {
+                "value": "6",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "14",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "7",
+                "oneValue": "value"
+              },
+              {
+                "value": "7",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "threads / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "6",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "m.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "l.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "instagram / bio",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "l.instagram.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "instagram.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "lm.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          }
+        ],
+        "totals": [],
+        "maximums": [],
+        "minimums": [],
+        "rowCount": 13,
+        "metadata": {
+          "samplingMetadatas": [],
+          "dataLossFromOtherRow": false,
+          "currencyCode": "USD",
+          "_currencyCode": "currencyCode",
+          "timeZone": "Asia/Saigon",
+          "_timeZone": "timeZone"
+        },
+        "propertyQuota": null,
+        "kind": "analyticsData#runReport"
+      }
+    },
+    "previous-countries": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-07",
+            "endDate": "2026-10-13"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "country"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "bounceRate"
+          }
+        ],
+        "limit": 10000
+      },
+      "response": {
+        "dimensionHeaders": [
+          {
+            "name": "country"
+          }
+        ],
+        "metricHeaders": [
+          {
+            "name": "sessions",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "activeUsers",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "bounceRate",
+            "type": "TYPE_FLOAT"
+          }
+        ],
+        "rows": [
+          {
+            "dimensionValues": [
+              {
+                "value": "Vietnam",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "160",
+                "oneValue": "value"
+              },
+              {
+                "value": "75",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.44375",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "United States",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "43",
+                "oneValue": "value"
+              },
+              {
+                "value": "43",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.90697674418604646",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "India",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "7",
+                "oneValue": "value"
+              },
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5714285714285714",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Australia",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.33333333333333331",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "(not set)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Austria",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Canada",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Germany",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Iran",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Ireland",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Philippines",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Singapore",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "United Arab Emirates",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          }
+        ],
+        "totals": [],
+        "maximums": [],
+        "minimums": [],
+        "rowCount": 13,
+        "metadata": {
+          "samplingMetadatas": [],
+          "dataLossFromOtherRow": false,
+          "currencyCode": "USD",
+          "_currencyCode": "currencyCode",
+          "timeZone": "Asia/Saigon",
+          "_timeZone": "timeZone"
+        },
+        "propertyQuota": null,
+        "kind": "analyticsData#runReport"
+      }
+    },
+    "current-pages": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-14",
+            "endDate": "2026-10-20"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 10000
+      },
+      "response": {
+        "dimensionHeaders": [
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metricHeaders": [
+          {
+            "name": "screenPageViews",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "activeUsers",
+            "type": "TYPE_INTEGER"
+          }
+        ],
+        "rows": [
+          {
+            "dimensionValues": [
+              {
+                "value": "/",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "166",
+                "oneValue": "value"
+              },
+              {
+                "value": "138",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tours",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "91",
+                "oneValue": "value"
+              },
+              {
+                "value": "29",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/spiritual-west-lake-breeze",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "82",
+                "oneValue": "value"
+              },
+              {
+                "value": "10",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/french-colonial-historical-footsteps",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "44",
+                "oneValue": "value"
+              },
+              {
+                "value": "9",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/booking",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "34",
+                "oneValue": "value"
+              },
+              {
+                "value": "13",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/food-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "31",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/hanoi-early-bird-sunrise-local-markets",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "29",
+                "oneValue": "value"
+              },
+              {
+                "value": "12",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/cinematic-hanoi-visual-storytelling-walk",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "27",
+                "oneValue": "value"
+              },
+              {
+                "value": "13",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/hanoi-pho-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "20",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/taste-hanoi-culinary-delights-street-vibes",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "19",
+                "oneValue": "value"
+              },
+              {
+                "value": "8",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/colors-delta-craft-villages-expedition",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "17",
+                "oneValue": "value"
+              },
+              {
+                "value": "10",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/hanoi-unfiltered-local-life-documentary",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "16",
+                "oneValue": "value"
+              },
+              {
+                "value": "6",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/gallery",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "11",
+                "oneValue": "value"
+              },
+              {
+                "value": "8",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/about",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "10",
+                "oneValue": "value"
+              },
+              {
+                "value": "6",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/booking/packages",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/guides",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/admin/config/development/performance",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/ebooks",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/hanoi-old-quarter-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/ebooks/vietnam-with-a-local-sense",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/egg-coffee-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/booking/details",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/checkout",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/contact",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/15-best-photo-spots-hanoi-local-guide-light-timing-and-uncrowded-angles-2026",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/hiring-private-photographer-hanoi-rates-routes-and-what-expect-2026-guide",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/santorini-park-lovely-photo-spot-right-outside-hanoi",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/spiritual-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/admin/content",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/news/ta-hien-street-where-hanoi-nights-come-alive",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/node/85/edit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/temples-shrines-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/van-phuc-silk-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "/tour/bun-cha-grill-tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          }
+        ],
+        "totals": [],
+        "maximums": [],
+        "minimums": [],
+        "rowCount": 35,
+        "metadata": {
+          "samplingMetadatas": [],
+          "dataLossFromOtherRow": false,
+          "currencyCode": "USD",
+          "_currencyCode": "currencyCode",
+          "timeZone": "Asia/Saigon",
+          "_timeZone": "timeZone"
+        },
+        "propertyQuota": null,
+        "kind": "analyticsData#runReport"
+      }
+    },
+    "current-sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-14",
+            "endDate": "2026-10-20"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 10000
+      },
+      "response": {
+        "dimensionHeaders": [
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metricHeaders": [
+          {
+            "name": "sessions",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "activeUsers",
+            "type": "TYPE_INTEGER"
+          }
+        ],
+        "rows": [
+          {
+            "dimensionValues": [
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "167",
+                "oneValue": "value"
+              },
+              {
+                "value": "139",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "24",
+                "oneValue": "value"
+              },
+              {
+                "value": "6",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "instagram / bio",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "24",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "17",
+                "oneValue": "value"
+              },
+              {
+                "value": "15",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "(not set)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "tagassistant.google.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "l.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "lm.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "localhost:8093 / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          }
+        ],
+        "totals": [],
+        "maximums": [],
+        "minimums": [],
+        "rowCount": 11,
+        "metadata": {
+          "samplingMetadatas": [],
+          "dataLossFromOtherRow": false,
+          "currencyCode": "USD",
+          "_currencyCode": "currencyCode",
+          "timeZone": "Asia/Saigon",
+          "_timeZone": "timeZone"
+        },
+        "propertyQuota": null,
+        "kind": "analyticsData#runReport"
+      }
+    },
+    "current-events": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-14",
+            "endDate": "2026-10-20"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "eventName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 10000
+      },
+      "response": {
+        "dimensionHeaders": [
+          {
+            "name": "eventName"
+          }
+        ],
+        "metricHeaders": [
+          {
+            "name": "eventCount",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "keyEvents",
+            "type": "TYPE_FLOAT"
+          }
+        ],
+        "rows": [
+          {
+            "dimensionValues": [
+              {
+                "value": "page_view",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "650",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "view_tour",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "323",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "session_start",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "245",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "user_engagement",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "209",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "scroll",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "199",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "first_visit",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "154",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "booking_step_view",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "60",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "begin_booking",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "28",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "add_to_cart",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "24",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "click",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "8",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "begin_checkout",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "7",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "contact_click",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          }
+        ],
+        "totals": [],
+        "maximums": [],
+        "minimums": [],
+        "rowCount": 12,
+        "metadata": {
+          "samplingMetadatas": [],
+          "dataLossFromOtherRow": false,
+          "currencyCode": "USD",
+          "_currencyCode": "currencyCode",
+          "timeZone": "Asia/Saigon",
+          "_timeZone": "timeZone"
+        },
+        "propertyQuota": null,
+        "kind": "analyticsData#runReport"
+      }
+    },
+    "current-countries": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-14",
+            "endDate": "2026-10-20"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "country"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "bounceRate"
+          }
+        ],
+        "limit": 10000
+      },
+      "response": {
+        "dimensionHeaders": [
+          {
+            "name": "country"
+          }
+        ],
+        "metricHeaders": [
+          {
+            "name": "sessions",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "activeUsers",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "bounceRate",
+            "type": "TYPE_FLOAT"
+          }
+        ],
+        "rows": [
+          {
+            "dimensionValues": [
+              {
+                "value": "Vietnam",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "231",
+                "oneValue": "value"
+              },
+              {
+                "value": "151",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.683982683982684",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "United States",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.4",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "India",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.33333333333333331",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Philippines",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "(not set)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Germany",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Malaysia",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "Serbia",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "United Kingdom",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          }
+        ],
+        "totals": [],
+        "maximums": [],
+        "minimums": [],
+        "rowCount": 9,
+        "metadata": {
+          "samplingMetadatas": [],
+          "dataLossFromOtherRow": false,
+          "currencyCode": "USD",
+          "_currencyCode": "currencyCode",
+          "timeZone": "Asia/Saigon",
+          "_timeZone": "timeZone"
+        },
+        "propertyQuota": null,
+        "kind": "analyticsData#runReport"
+      }
+    },
+    "current-daily_sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-14",
+            "endDate": "2026-10-20"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "date"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "bounceRate"
+          },
+          {
+            "name": "averageSessionDuration"
+          }
+        ],
+        "limit": 10000
+      },
+      "response": {
+        "dimensionHeaders": [
+          {
+            "name": "date"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metricHeaders": [
+          {
+            "name": "sessions",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "activeUsers",
+            "type": "TYPE_INTEGER"
+          },
+          {
+            "name": "bounceRate",
+            "type": "TYPE_FLOAT"
+          },
+          {
+            "name": "averageSessionDuration",
+            "type": "TYPE_SECONDS"
+          }
+        ],
+        "rows": [
+          {
+            "dimensionValues": [
+              {
+                "value": "20261014",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "128",
+                "oneValue": "value"
+              },
+              {
+                "value": "125",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.9453125",
+                "oneValue": "value"
+              },
+              {
+                "value": "6.9545640546875",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261015",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "12",
+                "oneValue": "value"
+              },
+              {
+                "value": "9",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.58333333333333337",
+                "oneValue": "value"
+              },
+              {
+                "value": "197.80482475",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261016",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "10",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.1",
+                "oneValue": "value"
+              },
+              {
+                "value": "254.144161",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261016",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "8",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.25",
+                "oneValue": "value"
+              },
+              {
+                "value": "417.975036375",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261016",
+                "oneValue": "value"
+              },
+              {
+                "value": "instagram / bio",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "8",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.375",
+                "oneValue": "value"
+              },
+              {
+                "value": "382.639767375",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261019",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "7",
+                "oneValue": "value"
+              },
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "1761.5127187142857",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261015",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "1114.195202",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261020",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "6",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.33333333333333331",
+                "oneValue": "value"
+              },
+              {
+                "value": "547.84432966666668",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261014",
+                "oneValue": "value"
+              },
+              {
+                "value": "instagram / bio",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.8",
+                "oneValue": "value"
+              },
+              {
+                "value": "9.8478652",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261015",
+                "oneValue": "value"
+              },
+              {
+                "value": "instagram / bio",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "244.55870839999997",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261018",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "5",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.4",
+                "oneValue": "value"
+              },
+              {
+                "value": "18.4559936",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261014",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "6.25891175",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261014",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.25",
+                "oneValue": "value"
+              },
+              {
+                "value": "44.89108775",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261018",
+                "oneValue": "value"
+              },
+              {
+                "value": "(direct) / (none)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "4",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "56.99447675",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261014",
+                "oneValue": "value"
+              },
+              {
+                "value": "tagassistant.google.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.66666666666666663",
+                "oneValue": "value"
+              },
+              {
+                "value": "404.21536",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261015",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.66666666666666663",
+                "oneValue": "value"
+              },
+              {
+                "value": "37.983077",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261020",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.33333333333333331",
+                "oneValue": "value"
+              },
+              {
+                "value": "54.004860333333333",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261020",
+                "oneValue": "value"
+              },
+              {
+                "value": "instagram / bio",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "3",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.66666666666666663",
+                "oneValue": "value"
+              },
+              {
+                "value": "11.185843333333333",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261017",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "82.116737",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261017",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "205.7965335",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261019",
+                "oneValue": "value"
+              },
+              {
+                "value": "instagram / bio",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "1793.1013225",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261020",
+                "oneValue": "value"
+              },
+              {
+                "value": "(not set)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "854.492904",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261020",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "2",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0.5",
+                "oneValue": "value"
+              },
+              {
+                "value": "403.6047755",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261014",
+                "oneValue": "value"
+              },
+              {
+                "value": "l.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "6.975925",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261015",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "4.093669",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261015",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "17.700579",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261015",
+                "oneValue": "value"
+              },
+              {
+                "value": "l.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "1185.067475",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261016",
+                "oneValue": "value"
+              },
+              {
+                "value": "(not set)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "5.803138",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261016",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "4.929658",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261017",
+                "oneValue": "value"
+              },
+              {
+                "value": "facebook / page_button",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261018",
+                "oneValue": "value"
+              },
+              {
+                "value": "(not set)",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1227.743706",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261018",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "258.41237",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261018",
+                "oneValue": "value"
+              },
+              {
+                "value": "instagram / bio",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "1781.893226",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261019",
+                "oneValue": "value"
+              },
+              {
+                "value": "google / organic",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "11.14862",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261019",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "4.843795",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261019",
+                "oneValue": "value"
+              },
+              {
+                "value": "localhost:8093 / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261020",
+                "oneValue": "value"
+              },
+              {
+                "value": "ig / social",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "49.686735",
+                "oneValue": "value"
+              }
+            ]
+          },
+          {
+            "dimensionValues": [
+              {
+                "value": "20261020",
+                "oneValue": "value"
+              },
+              {
+                "value": "lm.facebook.com / referral",
+                "oneValue": "value"
+              }
+            ],
+            "metricValues": [
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "1",
+                "oneValue": "value"
+              },
+              {
+                "value": "0",
+                "oneValue": "value"
+              },
+              {
+                "value": "21.769297",
+                "oneValue": "value"
+              }
+            ]
+          }
+        ],
+        "totals": [],
+        "maximums": [],
+        "minimums": [],
+        "rowCount": 38,
+        "metadata": {
+          "samplingMetadatas": [],
+          "dataLossFromOtherRow": false,
+          "currencyCode": "USD",
+          "_currencyCode": "currencyCode",
+          "timeZone": "Asia/Saigon",
+          "_timeZone": "timeZone"
+        },
+        "propertyQuota": null,
+        "kind": "analyticsData#runReport"
+      }
+    }
+  }
+}

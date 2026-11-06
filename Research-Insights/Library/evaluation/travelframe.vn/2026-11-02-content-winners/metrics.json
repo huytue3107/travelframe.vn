@@ -1,0 +1,1564 @@
+{
+  "as_of": "2026-11-02T11:01:49+07:00",
+  "primary_window": "2026-10-01 through 2026-10-31 Asia/Ho_Chi_Minh; lifetime counts at capture",
+  "instagram_observed_n": 201,
+  "instagram_profile_media_count": 203,
+  "october": {
+    "followers_used": 595,
+    "n_posts": 105,
+    "n_pinned": 0,
+    "median_er": 0.020168,
+    "median_er_without_pinned": 0.020168,
+    "median_likes": 10,
+    "median_likes_without_pinned": 10,
+    "median_views_video": null,
+    "cadence": {
+      "span_days": 30.4,
+      "posts_per_week": 24.17,
+      "median_gap_days": 0.1
+    },
+    "formats": {
+      "Image": {
+        "count": 6,
+        "median_likes": 3.5,
+        "median_er": 0.005882,
+        "median_views": null
+      },
+      "Sidecar": {
+        "count": 2,
+        "median_likes": 14.0,
+        "median_er": 0.02605,
+        "median_views": null
+      },
+      "Video": {
+        "count": 97,
+        "median_likes": 11,
+        "median_er": 0.021849,
+        "median_views": null
+      }
+    },
+    "top_by_rel_er": [
+      {
+        "id": "18093120194454177",
+        "shortCode": "DeRw7HjNeRB",
+        "rel_er": 507.752,
+        "type": "Video"
+      },
+      {
+        "id": "17867689176660377",
+        "shortCode": "Dd_kM_OpQ5l",
+        "rel_er": 25.083,
+        "type": "Video"
+      },
+      {
+        "id": "18090085205676842",
+        "shortCode": "DeHIWwDJygU",
+        "rel_er": 12.167,
+        "type": "Video"
+      }
+    ],
+    "bottom_by_rel_er": [
+      {
+        "id": "18423508834145838",
+        "shortCode": "DelvKO6thc0",
+        "rel_er": 0.083,
+        "type": "Video"
+      },
+      {
+        "id": "18205195090370860",
+        "shortCode": "Dd7rer_CICe",
+        "rel_er": 0.167,
+        "type": "Image"
+      },
+      {
+        "id": "18162736903440739",
+        "shortCode": "Dd82_tTAZTS",
+        "rel_er": 0.167,
+        "type": "Image"
+      }
+    ],
+    "flags": [],
+    "median_engagement": 12
+  },
+  "september_reference": {
+    "followers_used": 595,
+    "n_posts": 96,
+    "n_pinned": 0,
+    "median_er": 0.038655,
+    "median_er_without_pinned": 0.038655,
+    "median_likes": 20.5,
+    "median_likes_without_pinned": 20.5,
+    "median_views_video": null,
+    "cadence": {
+      "span_days": 28.1,
+      "posts_per_week": 23.88,
+      "median_gap_days": 0.1
+    },
+    "formats": {
+      "Image": {
+        "count": 4,
+        "median_likes": 5.0,
+        "median_er": 0.008403,
+        "median_views": null
+      },
+      "Sidecar": {
+        "count": 11,
+        "median_likes": 6,
+        "median_er": 0.010084,
+        "median_views": null
+      },
+      "Video": {
+        "count": 81,
+        "median_likes": 27,
+        "median_er": 0.045378,
+        "median_views": null
+      }
+    },
+    "top_by_rel_er": [
+      {
+        "id": "18112987073005604",
+        "shortCode": "DdBMK_sN3yx",
+        "rel_er": 16.174,
+        "type": "Video"
+      },
+      {
+        "id": "18099113018637456",
+        "shortCode": "DdOwJkMJ3BC",
+        "rel_er": 13.913,
+        "type": "Video"
+      },
+      {
+        "id": "18007072184779210",
+        "shortCode": "DdUOzsgNcCk",
+        "rel_er": 13.087,
+        "type": "Video"
+      }
+    ],
+    "bottom_by_rel_er": [
+      {
+        "id": "18175361440432033",
+        "shortCode": "Ddn0u1qoN5X",
+        "rel_er": 0.043,
+        "type": "Sidecar"
+      },
+      {
+        "id": "18116569108751421",
+        "shortCode": "DdLpJxhtOjb",
+        "rel_er": 0.087,
+        "type": "Video"
+      },
+      {
+        "id": "18036419135835952",
+        "shortCode": "DdO6e8npU0n",
+        "rel_er": 0.087,
+        "type": "Video"
+      }
+    ],
+    "flags": [],
+    "median_engagement": 23.0
+  },
+  "october_video": {
+    "followers_used": 595,
+    "n_posts": 97,
+    "n_pinned": 0,
+    "median_er": 0.021849,
+    "median_er_without_pinned": 0.021849,
+    "median_likes": 11,
+    "median_likes_without_pinned": 11,
+    "median_views_video": null,
+    "cadence": {
+      "span_days": 30.2,
+      "posts_per_week": 22.48,
+      "median_gap_days": 0.1
+    },
+    "formats": {
+      "Video": {
+        "count": 97,
+        "median_likes": 11,
+        "median_er": 0.021849,
+        "median_views": null
+      }
+    },
+    "top_by_rel_er": [
+      {
+        "id": "18093120194454177",
+        "shortCode": "DeRw7HjNeRB",
+        "rel_er": 468.687,
+        "type": "Video"
+      },
+      {
+        "id": "17867689176660377",
+        "shortCode": "Dd_kM_OpQ5l",
+        "rel_er": 23.154,
+        "type": "Video"
+      },
+      {
+        "id": "18090085205676842",
+        "shortCode": "DeHIWwDJygU",
+        "rel_er": 11.231,
+        "type": "Video"
+      }
+    ],
+    "bottom_by_rel_er": [
+      {
+        "id": "18423508834145838",
+        "shortCode": "DelvKO6thc0",
+        "rel_er": 0.077,
+        "type": "Video"
+      },
+      {
+        "id": "18120692500890108",
+        "shortCode": "Dd_JwoGtVeP",
+        "rel_er": 0.231,
+        "type": "Video"
+      },
+      {
+        "id": "17971413426176482",
+        "shortCode": "DeEMAhRtJYo",
+        "rel_er": 0.231,
+        "type": "Video"
+      }
+    ],
+    "flags": [],
+    "median_engagement": 13
+  },
+  "october_video_mature_72h": {
+    "followers_used": 595,
+    "n_posts": 93,
+    "n_pinned": 0,
+    "median_er": 0.020168,
+    "median_er_without_pinned": 0.020168,
+    "median_likes": 10,
+    "median_likes_without_pinned": 10,
+    "median_views_video": null,
+    "cadence": {
+      "span_days": 28.3,
+      "posts_per_week": 22.99,
+      "median_gap_days": 0.1
+    },
+    "formats": {
+      "Video": {
+        "count": 93,
+        "median_likes": 10,
+        "median_er": 0.020168,
+        "median_views": null
+      }
+    },
+    "top_by_rel_er": [
+      {
+        "id": "18093120194454177",
+        "shortCode": "DeRw7HjNeRB",
+        "rel_er": 507.752,
+        "type": "Video"
+      },
+      {
+        "id": "17867689176660377",
+        "shortCode": "Dd_kM_OpQ5l",
+        "rel_er": 25.083,
+        "type": "Video"
+      },
+      {
+        "id": "18090085205676842",
+        "shortCode": "DeHIWwDJygU",
+        "rel_er": 12.167,
+        "type": "Video"
+      }
+    ],
+    "bottom_by_rel_er": [
+      {
+        "id": "18423508834145838",
+        "shortCode": "DelvKO6thc0",
+        "rel_er": 0.083,
+        "type": "Video"
+      },
+      {
+        "id": "18120692500890108",
+        "shortCode": "Dd_JwoGtVeP",
+        "rel_er": 0.25,
+        "type": "Video"
+      },
+      {
+        "id": "17971413426176482",
+        "shortCode": "DeEMAhRtJYo",
+        "rel_er": 0.25,
+        "type": "Video"
+      }
+    ],
+    "flags": [],
+    "median_engagement": 12
+  },
+  "october_video_7days": {
+    "followers_used": 595,
+    "n_posts": 83,
+    "n_pinned": 0,
+    "median_er": 0.021849,
+    "median_er_without_pinned": 0.021849,
+    "median_likes": 11,
+    "median_likes_without_pinned": 11,
+    "median_views_video": null,
+    "cadence": {
+      "span_days": 24.4,
+      "posts_per_week": 23.86,
+      "median_gap_days": 0.1
+    },
+    "formats": {
+      "Video": {
+        "count": 83,
+        "median_likes": 11,
+        "median_er": 0.021849,
+        "median_views": null
+      }
+    },
+    "top_by_rel_er": [
+      {
+        "id": "18093120194454177",
+        "shortCode": "DeRw7HjNeRB",
+        "rel_er": 468.687,
+        "type": "Video"
+      },
+      {
+        "id": "17867689176660377",
+        "shortCode": "Dd_kM_OpQ5l",
+        "rel_er": 23.154,
+        "type": "Video"
+      },
+      {
+        "id": "18090085205676842",
+        "shortCode": "DeHIWwDJygU",
+        "rel_er": 11.231,
+        "type": "Video"
+      }
+    ],
+    "bottom_by_rel_er": [
+      {
+        "id": "18423508834145838",
+        "shortCode": "DelvKO6thc0",
+        "rel_er": 0.077,
+        "type": "Video"
+      },
+      {
+        "id": "18120692500890108",
+        "shortCode": "Dd_JwoGtVeP",
+        "rel_er": 0.231,
+        "type": "Video"
+      },
+      {
+        "id": "17971413426176482",
+        "shortCode": "DeEMAhRtJYo",
+        "rel_er": 0.231,
+        "type": "Video"
+      }
+    ],
+    "flags": [],
+    "median_engagement": 13
+  },
+  "series_exploratory": [
+    {
+      "series": "Vietnamese practical phrases",
+      "selected_ids": [
+        "18117523631071005",
+        "18138430624715706",
+        "18030709367908870",
+        "18090085205676842",
+        "18124605712926786",
+        "18086863082300412",
+        "18341820118256635",
+        "17987156576880157",
+        "18146779159600913",
+        "18086455706311861",
+        "17885926743687529",
+        "18569801488076978"
+      ],
+      "n_mature": 12,
+      "median_engagement": 18.0,
+      "n_ge_2x_baseline": 5
+    },
+    {
+      "series": "Food and cafe discovery (curated examples, not exhaustive)",
+      "selected_ids": [
+        "18114014786107837",
+        "18129130069696217",
+        "17955193068031405",
+        "17864121744693389",
+        "17945664102086205",
+        "18034435691892656",
+        "18502267930103922",
+        "18120778249937807",
+        "18013986920761016",
+        "18105629447198404"
+      ],
+      "n_mature": 9,
+      "median_engagement": 34,
+      "n_ge_2x_baseline": 6
+    },
+    {
+      "series": "Hanoi everyday walk (curated examples, not exhaustive)",
+      "selected_ids": [
+        "18126343265496473",
+        "18107485910212911",
+        "17925895557203457",
+        "18415203073091440",
+        "17857826808697182"
+      ],
+      "n_mature": 5,
+      "median_engagement": 53,
+      "n_ge_2x_baseline": 4
+    }
+  ],
+  "facebook_n": 100,
+  "facebook_posts_with_reported_shares": 26,
+  "comment_counts": [
+    {
+      "url": "https://www.facebook.com/reel/1712979013491826/",
+      "returned_comments": 15,
+      "audience_comments": 14,
+      "page_comments": 1,
+      "food_keyword_comments": 13,
+      "hanoi_keyword_comments": 0
+    },
+    {
+      "url": "https://www.facebook.com/reel/2536749556792980/",
+      "returned_comments": 4,
+      "audience_comments": 2,
+      "page_comments": 2,
+      "food_keyword_comments": 0,
+      "hanoi_keyword_comments": 2
+    },
+    {
+      "url": "https://www.facebook.com/reel/1124162584009599/",
+      "returned_comments": 8,
+      "audience_comments": 7,
+      "page_comments": 1,
+      "food_keyword_comments": 0,
+      "hanoi_keyword_comments": 0
+    }
+  ],
+  "ranked_mature_reels": [
+    {
+      "id": "18093120194454177",
+      "date_ict": "2026-10-09T21:51:33+07:00",
+      "url": "https://www.instagram.com/reel/DeRw7HjNeRB/",
+      "caption": "POV: You randomly walked into a café in Hanoi at 2 PM… and everyone started dancing. ☕️💃😂\n\nCame for the coffee, stayed for the unexpected dance party. Only in Hanoi can a random afternoon turn into a whole vibe. 🇻🇳✨\n\n💬 Comment “HANOI” for more unexpected experiences in the city!\n\n💗 video source: @d_a_r_r_i_o_o on tiktok\n\n#TravelFrame #Hanoi #HanoiCafe #VietnamTravel #HanoiLife",
+      "likes": 5995,
+      "comments": 98,
+      "engagement": 6093,
+      "engagement_lift": 507.75,
+      "lift_vs_7day_baseline": 468.69,
+      "age_hours": 565.2
+    },
+    {
+      "id": "17867689176660377",
+      "date_ict": "2026-10-02T20:14:14+07:00",
+      "url": "https://www.instagram.com/reel/Dd_kM_OpQ5l/",
+      "caption": "Coming to Hanoi for BIGBANG? Your trip doesn’t have to stop at the concert. 🇻🇳👑\n\nBIGBANG is taking over My Dinh Stadium on October 24–25, but while you’re here, make some time for Hanoi too. \n\nGrab an egg coffee, get lost in the Old Quarter, try the street food, take some Hanoi photos — then get ready for the night you came all this way for.\n\nCome for BIGBANG. Stay for Hanoi. 🇻🇳\n\n📌 Save this before your trip.\n💬 Comment “BIGBANG” and we’ll send you our local Hanoi guide.\n\n#travelframe #BIGBANG #BIGBANG2026 #BIGBANGinHanoi",
+      "likes": 296,
+      "comments": 5,
+      "engagement": 301,
+      "engagement_lift": 25.08,
+      "lift_vs_7day_baseline": 23.15,
+      "age_hours": 734.8
+    },
+    {
+      "id": "18090085205676842",
+      "date_ict": "2026-10-05T18:44:34+07:00",
+      "url": "https://www.instagram.com/reel/DeHIWwDJygU/",
+      "caption": "Hungry in Vietnam? Let’s put that Vietnamese lesson to work 😋🇻🇳\n\n“Cho mình một bánh mì” = “I’d like one bánh mì.” 🥖\nNot sure what it’s called? Point and say “Cho mình cái này” — “I’d like this!”\n\nA few words, a smile, and you’re ready to order 💛\n\nSave this for your next food stop!\n\n#TravelFrameVietnam #LearnVietnamese #VietnamTravel #VietnameseFood",
+      "likes": 141,
+      "comments": 5,
+      "engagement": 146,
+      "engagement_lift": 12.17,
+      "lift_vs_7day_baseline": 11.23,
+      "age_hours": 664.3
+    },
+    {
+      "id": "18114014786107837",
+      "date_ict": "2026-10-06T14:15:59+07:00",
+      "url": "https://www.instagram.com/reel/DeJOZXZNPBJ/",
+      "caption": "Crispy on the outside, warm and flavorful on the inside — bánh mì is a must-try when exploring Hanoi. 🤤\n\nPerfect for a quick breakfast, a late-night snack, or honestly… any time of the day.\n\n📍 Hanoi, Vietnam\n\n💬 Comment “HANOI” to get more food spots & travel tips!\n\n#Hanoi #BanhMi #HanoiFood #VietnameseFood #HanoiTravel VietnamTravel",
+      "likes": 140,
+      "comments": 1,
+      "engagement": 141,
+      "engagement_lift": 11.75,
+      "lift_vs_7day_baseline": 10.85,
+      "age_hours": 644.8
+    },
+    {
+      "id": "18034435691892656",
+      "date_ict": "2026-10-22T00:17:46+07:00",
+      "url": "https://www.instagram.com/reel/Dew7ECmSuNq/",
+      "caption": "Prettiest restaurant I've found in Hanoi, 2 minutes from Hoan Kiem Lake. Glass roof, lanterns, and an apple cinnamon flatbread worth the trip. Go at sunset for photos.\n\n___________\n📍 Flambé, 23 Gia Ngu, Hoan Kiem\nWant photos of yourself here? Link in bio.\n\n#hanoi #hanoifood #hanoioldquarter #vietnamtravel #travelframe",
+      "likes": 120,
+      "comments": 1,
+      "engagement": 121,
+      "engagement_lift": 10.08,
+      "lift_vs_7day_baseline": 9.31,
+      "age_hours": 274.7
+    },
+    {
+      "id": "18107485910212911",
+      "date_ict": "2026-10-19T13:51:14+07:00",
+      "url": "https://www.instagram.com/reel/Deqp6I-tMWb/",
+      "caption": "Mornings in Hanoi’s Old Quarter hit different. 🥟🇻🇳\n\nBefore the streets get busy, the sound of vendors delivering fresh steamed buns fills the quiet morning air. Motorbikes pass by, shop doors slowly open, and the city begins to wake up — one little street at a time. ☀️\n\nIt’s these simple, everyday moments that make Hanoi so special. No fancy plans, just the authentic rhythm of local life. ❤️\n\nWould you wake up early to experience this side of Hanoi? 👀\n\nVideo source: @d1_my on tiktok\n\n#TravelFrame #HanoiOldQuarter #HanoiLife #VietnamCulture #VietnamTravel",
+      "likes": 74,
+      "comments": 3,
+      "engagement": 77,
+      "engagement_lift": 6.42,
+      "lift_vs_7day_baseline": 5.92,
+      "age_hours": 333.2
+    },
+    {
+      "id": "18091886198678295",
+      "date_ict": "2026-10-06T18:50:25+07:00",
+      "url": "https://www.instagram.com/reel/DeJtdsmNxQp/",
+      "caption": "It's literally living rent-free in our heads fr fr #travelframe #hanoi #hanoitravel #travelmoments #travelmoments",
+      "likes": 72,
+      "comments": 5,
+      "engagement": 77,
+      "engagement_lift": 6.42,
+      "lift_vs_7day_baseline": 5.92,
+      "age_hours": 640.2
+    },
+    {
+      "id": "18146779159600913",
+      "date_ict": "2026-10-12T17:02:30+07:00",
+      "url": "https://www.instagram.com/reel/DeY-Pi2NYVz/",
+      "caption": "How to say “NO, THANK YOU” in Vietnamese 🇻🇳✨\n\nNot every situation needs a long explanation! Here are a few simple ways to politely say no in Vietnam:\n\n👋 “Không, cảm ơn!” — No, thank you.\n🙏 “Thôi, cảm ơn nhé!” — No thanks, I’m good.\n😊 “Mình không cần đâu, cảm ơn bạn!” — I don’t need it, thank you.\n🚶 “Không sao, mình tự đi được!” — It’s okay, I can manage on my own.\n\nSave this for your next trip to Vietnam — a little Vietnamese goes a long way! 💛\n\n#TravelFrame #VietnamTravel #VietnamesePhrases #HanoiTravel #TravelTips",
+      "likes": 66,
+      "comments": 5,
+      "engagement": 71,
+      "engagement_lift": 5.92,
+      "lift_vs_7day_baseline": 5.46,
+      "age_hours": 498.0
+    },
+    {
+      "id": "17857826808697182",
+      "date_ict": "2026-10-29T19:59:42+07:00",
+      "url": "https://www.instagram.com/reel/DfFECG5yYXY/",
+      "caption": "The best way to discover Hanoi? Get lost on foot. 🚶🏻‍♀️🤎\n\nWander through the little streets of the Old Quarter, watch the city come alive, stumble upon hidden cafés, and fall in love with the little moments along the way. Sometimes, the best travel memories are made when you have nowhere to be. ✨🇻🇳\n\n📍 Hanoi Old Quarter, Vietnam\n\n#TravelFrame #HanoiOldQuarter #HanoiVietnam #VietnamTravel #SlowTravel",
+      "likes": 64,
+      "comments": 3,
+      "engagement": 67,
+      "engagement_lift": 5.58,
+      "lift_vs_7day_baseline": 5.15,
+      "age_hours": 87.0
+    },
+    {
+      "id": "18117523631071005",
+      "date_ict": "2026-10-01T18:56:33+07:00",
+      "url": "https://www.instagram.com/reel/Dd82h9CJIth/",
+      "caption": "You learned “Xin chào”… but locals don’t always say it like that. 👀🇻🇳\n\nIn Vietnamese, the way we say hello often changes depending on who we’re talking to — chào anh, chào chị, chào em, or con chào cô/chú when speaking to someone older.\n\nIt’s a small detail, but it can make your Vietnamese sound much more natural.\n\n📌 Save this for your Vietnam trip.\n💬 Comment “HANOI” and we’ll send you our local Hanoi guide.\n\n#travelframe #vietnamese #learnvietnamese #vietnamculture #hanoi",
+      "likes": 57,
+      "comments": 1,
+      "engagement": 58,
+      "engagement_lift": 4.83,
+      "lift_vs_7day_baseline": 4.46,
+      "age_hours": 760.1
+    },
+    {
+      "id": "17925895557203457",
+      "date_ict": "2026-10-22T14:43:06+07:00",
+      "url": "https://www.instagram.com/reel/DeyeKo2tOKs/",
+      "caption": "POV: You took a wrong turn in Hanoi’s Old Quarter… and found the real Hanoi. 🇻🇳✨\n\nForget the busy streets for a moment. The real magic might be hiding down a tiny alley. 👀\n\nNarrow pathways, old houses, hidden cafés, and little glimpses of everyday local life. 🏮☕\n\nNo tourist crowds. No fancy attractions. Just the charm of Hanoi tucked away in places you’d probably walk right past.\n\nSometimes, the best way to explore Hanoi is to get a little lost. ❤️\n\n📍 Hanoi Old Quarter, Vietnam\n\n📌 Save this for your next Hanoi adventure!\n👯 Tag someone you’d love to explore these hidden alleys with!\n💬 Comment “HANOI” and we’ll send you our local Hanoi guide!\n\n🎥 Video credit: @vietnamcreativetravel on TikTok\n\n#travelframe #hanoi #hanoioldquarter #hiddenhanoi #hanoitravel",
+      "likes": 47,
+      "comments": 6,
+      "engagement": 53,
+      "engagement_lift": 4.42,
+      "lift_vs_7day_baseline": 4.08,
+      "age_hours": 260.3
+    },
+    {
+      "id": "18114614177165417",
+      "date_ict": "2026-10-14T14:35:41+07:00",
+      "url": "https://www.instagram.com/reel/Ded27S5N-Zp/",
+      "caption": "Did you really go to Vietnam if you didn’t buy an Arc’teryx jacket? 😂🇻🇳\n\nForget souvenirs — apparently, the real Vietnam travel checklist includes finding an Arc’teryx jacket at the local market. 👀🧥\n\nWhether you’re here for the street food, the culture, or the shopping adventures, Vietnam always has a surprise waiting for you.\n\nSo… did you get yours yet? 😂👇\n\n💗video source: @matthew.dentistry on tiktok\n\n#TravelFrame #VietnamTravel #HanoiShopping #VietnamShopping",
+      "likes": 45,
+      "comments": 7,
+      "engagement": 52,
+      "engagement_lift": 4.33,
+      "lift_vs_7day_baseline": 4.0,
+      "age_hours": 452.4
+    },
+    {
+      "id": "17864121744693389",
+      "date_ict": "2026-10-17T15:12:47+07:00",
+      "url": "https://www.instagram.com/reel/DelponOtq4w/",
+      "caption": "POV: You found the cutest little coffee shop in Hanoi. ☕💌🇻🇳\n\nWelcome to The Note Coffee — where every wall is covered in colorful sticky notes, little messages, and memories left by travelers from all over the world. 📝❤️\n\nGrab a coffee, find a cozy corner, and leave a little piece of your story behind.\n\nWho knows? Your note might make a stranger’s day. 🥹\n\n📍 The Note Coffee, near Hoan Kiem Lake, Hanoi\n\n💌 Tag someone you’d love to leave a note with!\n📌 Save this hidden gem for your Hanoi trip.\n\nvideo source: @justinmyflow on tiktok\n\n#travelframe #thenotecoffee #hanoi #hanoicafe #hanoicoffee",
+      "likes": 50,
+      "comments": 1,
+      "engagement": 51,
+      "engagement_lift": 4.25,
+      "lift_vs_7day_baseline": 3.92,
+      "age_hours": 379.8
+    },
+    {
+      "id": "17955193068031405",
+      "date_ict": "2026-10-14T13:14:36+07:00",
+      "url": "https://www.instagram.com/reel/Dedtp_zNQVf/",
+      "caption": "Tiny plastic stools, low tables, and the best food you’ll ever try. 🇻🇳🍜\n\nIn Vietnam, some of the most memorable meals happen on the sidewalk, sitting on little plastic stools with motorbikes passing by and the smell of sizzling street food in the air.\n\nIt’s more than just a way to eat — it’s a part of Vietnamese street culture. No fancy restaurant, no dress code, just delicious food, lively streets, and people coming together over a meal. ❤️\n\nWould you try Vietnam’s famous sidewalk dining experience? 👀\n\n💗 Video source: @lauracrackle1 on tiktok\n\n#TravelFrame #VietnamStreetFood #VietnamCulture #HanoiFood VietnamTravel",
+      "likes": 43,
+      "comments": 2,
+      "engagement": 45,
+      "engagement_lift": 3.75,
+      "lift_vs_7day_baseline": 3.46,
+      "age_hours": 453.8
+    },
+    {
+      "id": "18115111634016207",
+      "date_ict": "2026-10-22T17:44:00+07:00",
+      "url": "https://www.instagram.com/reel/Deyy868Np94/",
+      "caption": "Hanoi looks different when you have a local walking with you, and so do your photos. Old Quarter streets, hidden cafés, golden hour by the lake.\n📸 Private photo walks in Hanoi, from $8/h\nLink in bio to book.\n#hanoi #hanoiphotographer #vietnamtravel #hanoioldquarter #travelframe",
+      "likes": 36,
+      "comments": 1,
+      "engagement": 37,
+      "engagement_lift": 3.08,
+      "lift_vs_7day_baseline": 2.85,
+      "age_hours": 257.3
+    },
+    {
+      "id": "17945664102086205",
+      "date_ict": "2026-10-21T21:23:59+07:00",
+      "url": "https://www.instagram.com/reel/DewnVEZyxdP/",
+      "caption": "POV: You came to Hanoi for pho… but Bun Rieu stole your heart. 🍜😭🇻🇳\n\nMeet Bún Riêu — Vietnam’s underrated noodle soup that deserves WAY more hype! 🔥\n\nRich tomato broth, soft rice noodles, crab-based toppings, fresh herbs, and that perfect balance of sweet, sour, and savory flavors. 🤤\n\nAnd the best part? Eating it on a tiny plastic stool while Hanoi’s streets come alive around you.\n\nForget fancy restaurants. THIS is the real Hanoi experience. ❤️\n\n📌 Save this for your Hanoi food bucket list!\n👀 Tag someone who NEEDS to try Bún Riêu!\n💬 Comment “FOOD” for more Hanoi food recommendations!\n\n🎥 Video credit: @lorrainechen on TikTok\n\n#travelframe #hanoi #bunrieu #vietnamesefood #hanoifood streetfood vietnamtravel hanoitravel foodie",
+      "likes": 33,
+      "comments": 1,
+      "engagement": 34,
+      "engagement_lift": 2.83,
+      "lift_vs_7day_baseline": 2.62,
+      "age_hours": 277.6
+    },
+    {
+      "id": "18138430624715706",
+      "date_ict": "2026-10-03T12:51:30+07:00",
+      "url": "https://www.instagram.com/reel/DeBWVxntSKE/",
+      "caption": "A little “cảm ơn” goes a long way in Vietnam 🇻🇳💛\n\nTry “cảm ơn anh,” “cảm ơn chị,” or “cảm ơn em” to make your thank-you more personal. Add “ạ” at the end for an extra touch of politeness ✨\n\nYour next coffee order is a perfect chance to practise ☕️\n\nSave this for your Vietnam trip & follow @travelframe.vietnam for more useful Vietnamese!\n\n#TravelFrameVietnam #LearnVietnamese #VietnamTravel #VietnameseForBeginners",
+      "likes": 29,
+      "comments": 3,
+      "engagement": 32,
+      "engagement_lift": 2.67,
+      "lift_vs_7day_baseline": 2.46,
+      "age_hours": 718.2
+    },
+    {
+      "id": "18105629447198404",
+      "date_ict": "2026-10-28T14:16:57+07:00",
+      "url": "https://www.instagram.com/reel/DfB38W2NZJi/",
+      "caption": "POV: You’re a tourist in Hanoi, following little streets and getting lost just to find this hidden café. ☕️🖤\n\nSometimes, the best places aren’t the easiest to find — but that’s part of the adventure. ✨\n\n📍 @darklight.lab\n\n#TravelFrame #HiddenCafe #HanoiVietnam #HanoiCafe #VietnamTravel",
+      "likes": 28,
+      "comments": 3,
+      "engagement": 31,
+      "engagement_lift": 2.58,
+      "lift_vs_7day_baseline": 2.38,
+      "age_hours": 116.7
+    },
+    {
+      "id": "18086863082300412",
+      "date_ict": "2026-10-09T09:52:46+07:00",
+      "url": "https://www.instagram.com/reel/DeQeq0JjYVz/",
+      "caption": "Understood nothing? Save these 3 lines before your next trip to Vietnam.\n\n1. \"Mình không hiểu\" = I don't understand\n2. \"Bạn có thể nói chậm một chút được không?\" = Could you speak a little slower?\n3. \"Mình đang học tiếng Việt\" = I'm still learning Vietnamese\n\nSay them with a smile. It goes a long way.\nSend this to the friend who's about to land in Hanoi ✈️\nWhat should we learn to say next? Tell us below 👇\n\nTravelFrame, your local friend in Hanoi\n_____________\n#travelframe #learnvietnamese #vietnamesephrases #hanoi #vietnamtravel #traveltips",
+      "likes": 30,
+      "comments": 1,
+      "engagement": 31,
+      "engagement_lift": 2.58,
+      "lift_vs_7day_baseline": 2.38,
+      "age_hours": 577.2
+    },
+    {
+      "id": "18415203073091440",
+      "date_ict": "2026-10-24T16:02:36+07:00",
+      "url": "https://www.instagram.com/reel/De3w7gZNrHi/",
+      "caption": "There’s a quiet kind of beauty in Hanoi. 🍃🇻🇳\n\nEarly morning walks, tiny street-side cafés, the sound of bicycles passing by, and locals enjoying their slow mornings. Amid the busy streets, Hanoi always has little moments that remind you to slow down and simply enjoy life. ☕️🚲\n\nMaybe Hanoi isn’t always quiet, but somehow, it knows how to make you feel at peace. 🤍\n\n📍 Hanoi, Vietnam\n\n#TravelFrame #Hanoi #HanoiLife #VietnamTravel #SlowLiving",
+      "likes": 26,
+      "comments": 1,
+      "engagement": 27,
+      "engagement_lift": 2.25,
+      "lift_vs_7day_baseline": 2.08,
+      "age_hours": 211.0
+    },
+    {
+      "id": "17925105066441040",
+      "date_ict": "2026-10-21T13:19:51+07:00",
+      "url": "https://www.instagram.com/reel/DevvY2ktjPA/",
+      "caption": "Coffee with a side of train spotting? Only in Hanoi. ☕️🚂🇻🇳\n\nTucked between narrow streets and railway tracks, Hanoi’s famous Train Street is where everyday life meets an unforgettable travel experience. Sip Vietnamese coffee, watch the trains pass by from designated safe spots, and soak up the unique charm of the city. ✨\n\nIt’s not just a coffee stop — it’s a little piece of Hanoi you won’t find anywhere else. 💛\n\n📍 Hanoi Train Street, Vietnam\n\nWould you add this spot to your Hanoi bucket list? 👀\n\nVideo source: @alo.unfolding on tiktok \n\n#TravelFrame #HanoiTrainStreet #HanoiCafe #VietnamTravel #VisitHanoi",
+      "likes": 24,
+      "comments": 2,
+      "engagement": 26,
+      "engagement_lift": 2.17,
+      "lift_vs_7day_baseline": 2.0,
+      "age_hours": 285.7
+    },
+    {
+      "id": "17872548579639695",
+      "date_ict": "2026-10-16T11:00:34+07:00",
+      "url": "https://www.instagram.com/reel/Dein_TDioWc/",
+      "caption": "One boat. That's all we were waiting for. ⛵\n\nHang on, hold it like that... and there it is. Worth the wait.\n\nPatience is the cheapest photo trick we know. Which one are you: the one who waits, or the one who says \"good enough\"?\n\nComment PHOTO with your travel month and we'll send you our shoot route and prices.\n\nTravelFrame — your local friend in Vietnam ✈️\n#travelframe #vietnam #behindthescenes #photography #goldenhour",
+      "likes": 21,
+      "comments": 5,
+      "engagement": 26,
+      "engagement_lift": 2.17,
+      "lift_vs_7day_baseline": 2.0,
+      "age_hours": 408.0
+    },
+    {
+      "id": "18132309556671457",
+      "date_ict": "2026-10-03T15:05:52+07:00",
+      "url": "https://www.instagram.com/reel/DeBlrEkNV_n/",
+      "caption": "Don’t know how to pose? That’s our job. 📸\n\nYou don’t need to be a model or know what to do in front of the camera. We’ll guide you through the poses, movements, and little details so everything feels natural and still looks like you.\n\nJust enjoy Hanoi. We’ll take care of the photos. 🇻🇳\n\n💬 Comment “PHOTO” to plan your Hanoi photoshoot with TravelFrame.\n\n#travelframe #hanoi #hanoiphotoshoot #hanoiphotographer #travelphotography",
+      "likes": 22,
+      "comments": 2,
+      "engagement": 24,
+      "engagement_lift": 2.0,
+      "lift_vs_7day_baseline": 1.85,
+      "age_hours": 715.9
+    },
+    {
+      "id": "18117624041325064",
+      "date_ict": "2026-10-16T19:00:55+07:00",
+      "url": "https://www.instagram.com/reel/Deje9Z4jXZr/",
+      "caption": "Shooting fashion in Hanoi's midday sun ☀️\n\nHarsh light? Add a flash and dial it down until it feels natural. That's the whole trick.\n\nShooting near rail lines? Stay behind the barriers and follow local security. No shot is worth it.\n\nSave this for your next bright, harsh-light day.\n\nTravelFrame, your local friend in Hanoi\n\n#travelframe #hanoi #fashionphotography #flashphotography #behindthescenes #hanoiphotography #vietnamtravel",
+      "likes": 22,
+      "comments": 1,
+      "engagement": 23,
+      "engagement_lift": 1.92,
+      "lift_vs_7day_baseline": 1.77,
+      "age_hours": 400.0
+    },
+    {
+      "id": "18129130069696217",
+      "date_ict": "2026-10-06T16:14:05+07:00",
+      "url": "https://www.instagram.com/reel/DeJb7xxN-Ir/",
+      "caption": "Crispy tofu, fresh herbs, noodles, and that unforgettable shrimp paste. 🤤\n\nBún đậu mắm tôm — one of those Vietnamese dishes you simply have to try at least once when visiting Hanoi.\n\n💬 Comment “HANOI” to get the best food spots & details!\n\n#Hanoi #BunDauMamTom #HanoiFood #VietnameseFood",
+      "likes": 19,
+      "comments": 3,
+      "engagement": 22,
+      "engagement_lift": 1.83,
+      "lift_vs_7day_baseline": 1.69,
+      "age_hours": 642.8
+    },
+    {
+      "id": "18411544087087414",
+      "date_ict": "2026-10-11T19:01:30+07:00",
+      "url": "https://www.instagram.com/reel/DeWnDL7jHyf/",
+      "caption": "How to cross the road in Hanoi 🛵\n\nTip 1: go slow. Walk at a steady pace, don't stop and don't dash. Riders read your pace and go around you.\n\nTip 2: the plate tells you the city. 29 and 30 are Hanoi. 34 is Hải Dương.\n\nSave this for your first day, and send it to the friend who's still scared of the traffic.\n\nTravelFrame, your local friend in Hanoi\n\n#travelframe #hanoi #hanoitravel #vietnamtraveltips #crossingtheroad #firsttimeinvietnam",
+      "likes": 21,
+      "comments": 0,
+      "engagement": 21,
+      "engagement_lift": 1.75,
+      "lift_vs_7day_baseline": 1.62,
+      "age_hours": 520.0
+    },
+    {
+      "id": "18126343265496473",
+      "date_ict": "2026-10-03T12:04:11+07:00",
+      "url": "https://www.instagram.com/reel/DeBQ6GiNY5N/",
+      "caption": "Old streets, colorful storefronts, passing motorbikes, and those little everyday moments that make Hanoi feel like Hanoi.\n\nNo studio. No complicated poses.\nJust you, the city, and memories worth taking home.\n\n📍 Hanoi Old Quarter\n📸 Shot with TravelFrame Vietnam\n\n💬 Comment “PHOTO” to plan your own Hanoi photoshoot with us.\n\n#travelframe #hanoi #hanoioldquarter #hanoiphotoshoot",
+      "likes": 19,
+      "comments": 2,
+      "engagement": 21,
+      "engagement_lift": 1.75,
+      "lift_vs_7day_baseline": 1.62,
+      "age_hours": 719.0
+    },
+    {
+      "id": "18341820118256635",
+      "date_ict": "2026-10-10T17:13:15+07:00",
+      "url": "https://www.instagram.com/reel/DeT14I3t0wZ/",
+      "caption": "POV: You’re in a taxi in Vietnam and want to say “Can you drop me off here?” 🚕🇻🇳\n\nJust say: “Cho mình xuống đây với ạ!” 📍\n\nA little Vietnamese goes a long way when you’re traveling! Save this for your next trip to Hanoi. ✨\n\n#TravelFrame #VietnamTravel #HanoiTravel #VietnamesePhrases #TravelTips",
+      "likes": 17,
+      "comments": 3,
+      "engagement": 20,
+      "engagement_lift": 1.67,
+      "lift_vs_7day_baseline": 1.54,
+      "age_hours": 545.8
+    },
+    {
+      "id": "18045911333830038",
+      "date_ict": "2026-10-21T20:21:08+07:00",
+      "url": "https://www.instagram.com/reel/DewgIddt-wE/",
+      "caption": "POV: You just unlocked the ultimate Vietnam travel challenge. 💀🛵🇻🇳\n\nForget bungee jumping. Forget skydiving.\n\nTry crossing the street in Hanoi. 😭\n\n🚦 Difficulty: EXTREME\n🛵 Obstacles: 1,000 motorbikes\n💀 Anxiety level: 999+\n🏆 Reward: Making it to the other side\n\nWelcome to Vietnam, where crossing the street feels like a real-life video game. 🎮😂\n\nWould YOU survive this challenge? 👀\n\n👇 Tag a friend you’d challenge to cross the street with you!\n\n📌 Save this before your Vietnam trip!\n\n🎥 Video credit: @patriciarivas686 on TikTok\n\n#travelframe #hanoi #vietnam #hanoitraffic #crossingthestreet vietnamtravel travelhumor hanoitravel visitvietnam",
+      "likes": 18,
+      "comments": 1,
+      "engagement": 19,
+      "engagement_lift": 1.58,
+      "lift_vs_7day_baseline": 1.46,
+      "age_hours": 278.7
+    },
+    {
+      "id": "18193215652396153",
+      "date_ict": "2026-10-25T16:01:24+07:00",
+      "url": "https://www.instagram.com/reel/De6VmZBtZU6/",
+      "caption": "🚨 STOP SCROLLING! YOUR HANOI SURVIVAL GUIDE IS HERE! 🇻🇳👀\n\nVisiting Hanoi for the first time? You NEED to screenshot this! 📸\n\n💸 MONEY HACKS — Cash is king at many local spots!\n\n🚦 STREET SMARTS — Hanoi traffic is a whole different adventure. 😭\n\n📸 PHOTO SECRETS — From the Old Quarter to Phan Dinh Phung Street, every corner is a photo opportunity!\n\n☕ COFFEE CULTURE — Egg coffee, coconut coffee, and tiny plastic stools? Welcome to Hanoi!\n\nHanoi might look chaotic at first, but once you know the little tricks, you’ll fall in love with every corner of this city. ❤️\n\n📌 SAVE this cheat sheet before your trip!\n👯 TAG your travel buddy!\n💬 COMMENT “HANOI” and we’ll send you our local Hanoi travel guide!\n\n#travelframe #hanoi #hanoitravel #vietnamtravel #hanoiguide",
+      "likes": 16,
+      "comments": 2,
+      "engagement": 18,
+      "engagement_lift": 1.5,
+      "lift_vs_7day_baseline": 1.38,
+      "age_hours": 187.0
+    },
+    {
+      "id": "18502267930103922",
+      "date_ict": "2026-10-25T14:10:50+07:00",
+      "url": "https://www.instagram.com/reel/De6I8UCt8Mu/",
+      "caption": "POV: You walked into a clothing store in Hanoi… and somehow ended up at a restaurant. 😭🍜🇻🇳\n\nWait… is this a fashion store or a restaurant?! 👀\n\nWelcome to Hello Hanoi Restaurant — a hidden dining spot with one of the most unexpected entrances in the city!\n\nTo get there, you literally have to walk THROUGH a clothing store. 👗🚪\n\nAnd just when you think you’re in the wrong place… surprise! There’s a restaurant waiting to be discovered.\n\nBecause in Hanoi, sometimes the best places are hiding right in front of you. ✨\n\n📍 Hello Hanoi Restaurant, Hanoi, Vietnam\n\n📌 SAVE this hidden gem for your Hanoi food adventure!\n👯 TAG someone who would totally walk past the entrance!\n💌 COMMENT “HANOI” and we’ll send you our Hanoi travel guide!\n\n🎥 Video credit: @shannon.wills on TikTok\n\n#travelframe #hanoi #hanoifood #hiddengemshanoi #vietnamtravel",
+      "likes": 16,
+      "comments": 2,
+      "engagement": 18,
+      "engagement_lift": 1.5,
+      "lift_vs_7day_baseline": 1.38,
+      "age_hours": 188.8
+    },
+    {
+      "id": "18141132199716224",
+      "date_ict": "2026-10-21T16:10:12+07:00",
+      "url": "https://www.instagram.com/reel/DewDZbyNDk0/",
+      "caption": "POV: The world feels like chaos, but Vietnam feels like peace. 🇻🇳🕊️\n\nWhile headlines are filled with protests, conflicts, and uncertainty, life here moves at its own peaceful rhythm.\n\nMorning coffee on the sidewalk, bicycles passing through quiet streets, strangers sharing smiles, and sunsets that make you forget the noise for a moment. ☕🌿\n\nNo rush. No drama. Just the beauty of everyday life.\n\nSometimes, peace isn’t a place. It’s a feeling. And Vietnam has a way of making you feel it. ❤️\n\n📍 Vietnam, where the little moments mean everything.\n\nVideo source: @whynotthailand on facebook\n\n#travelframe #vietnam #peacefulvietnam #vietnamtravel #slowtravel hanoi visitvietnam vietnamvibes",
+      "likes": 16,
+      "comments": 2,
+      "engagement": 18,
+      "engagement_lift": 1.5,
+      "lift_vs_7day_baseline": 1.38,
+      "age_hours": 282.9
+    },
+    {
+      "id": "18233312893323620",
+      "date_ict": "2026-10-18T20:01:03+07:00",
+      "url": "https://www.instagram.com/reel/DeovcJwDCvR/",
+      "caption": "Bright lights, a little flare, and the final portrait. 📸\n\nBTS vs The Shot: the camera comes up, the crew spots the flare, and the finished photos reveal a different view of the same night scene.\n\nPro move: if a bright lamp washes out your photo, try a slightly different angle. Check the result before taking another frame.\n\nSave this tip for your next night shoot. Exploring Hanoi with your camera? Comment PHOTO and tell us your travel month.\n\nTravelFrame — your local friend in Hanoi ✈️\n#travelframe #hanoi #nightphotography #hanoiphotography #behindthescenes",
+      "likes": 15,
+      "comments": 3,
+      "engagement": 18,
+      "engagement_lift": 1.5,
+      "lift_vs_7day_baseline": 1.38,
+      "age_hours": 351.0
+    },
+    {
+      "id": "18015552182976791",
+      "date_ict": "2026-10-17T19:01:25+07:00",
+      "url": "https://www.instagram.com/reel/DemD00kD55z/",
+      "caption": null,
+      "likes": 15,
+      "comments": 2,
+      "engagement": 17,
+      "engagement_lift": 1.42,
+      "lift_vs_7day_baseline": 1.31,
+      "age_hours": 376.0
+    },
+    {
+      "id": "18106703741210547",
+      "date_ict": "2026-10-13T13:57:31+07:00",
+      "url": "https://www.instagram.com/reel/DebNzXLtyJ4/",
+      "caption": "Am i trying my best 😤#travelframe #hanoi #hanoitravel #vietnamtravel",
+      "likes": 17,
+      "comments": 0,
+      "engagement": 17,
+      "engagement_lift": 1.42,
+      "lift_vs_7day_baseline": 1.31,
+      "age_hours": 477.1
+    },
+    {
+      "id": "18117557566791184",
+      "date_ict": "2026-10-18T11:00:31+07:00",
+      "url": "https://www.instagram.com/reel/Denxk9bDAU4/",
+      "caption": "Our client asked: \"Have you been to India?\" She said she hasn't even been abroad yet. 🌍\n\nHer first trip abroad is still ahead of her. India, see you someday.\n\nWhere is the first place you'd go abroad? Tell us below.\n\nTravelFrame — your local friend in Vietnam ✈️\n#travelframe #vietnam #behindthescenes #traveldreams #photoshoot",
+      "likes": 13,
+      "comments": 3,
+      "engagement": 16,
+      "engagement_lift": 1.33,
+      "lift_vs_7day_baseline": 1.23,
+      "age_hours": 360.0
+    },
+    {
+      "id": "18030709367908870",
+      "date_ict": "2026-10-04T13:16:12+07:00",
+      "url": "https://www.instagram.com/reel/DeD95vhNX28/",
+      "caption": "Found something cute in Vietnam… but have no idea what it costs? 👀🛍️\n\n“Cái này bao nhiêu tiền?” = “How much is this?” 🇻🇳\n\nAnd no, 50K doesn’t mean 50,000 dollars 😭 It’s 50,000 Vietnamese dong!\n\nDidn’t catch the answer? Let the seller type the price on your phone 📱\n\nSave this for your Vietnam shopping adventures 💛\n\n#TravelFrameVietnam #VietnamTravel #LearnVietnamese #HanoiTravel",
+      "likes": 15,
+      "comments": 1,
+      "engagement": 16,
+      "engagement_lift": 1.33,
+      "lift_vs_7day_baseline": 1.23,
+      "age_hours": 693.8
+    },
+    {
+      "id": "18141817780719256",
+      "date_ict": "2026-10-21T11:00:36+07:00",
+      "url": "https://www.instagram.com/reel/Devf-CcDPgP/",
+      "caption": "The moment our client saw her photos. 😍\n\n\"Yeah, that's crazy!\" And the boat shot too. Then she let us tag her in a story.\n\nThis is the part of the job we love the most. Comment PHOTO with your travel month and let's plan yours.\n\nTravelFrame — your local friend in Vietnam ✈️\n#travelframe #vietnam #behindthescenes #clientreaction #photoshoot",
+      "likes": 11,
+      "comments": 4,
+      "engagement": 15,
+      "engagement_lift": 1.25,
+      "lift_vs_7day_baseline": 1.15,
+      "age_hours": 288.0
+    },
+    {
+      "id": "17923634100430956",
+      "date_ict": "2026-10-12T18:59:55+07:00",
+      "url": "https://www.instagram.com/reel/DeZLqvnJxRl/",
+      "caption": "POV: You get lost in Vietnam… 🇻🇳🗺️\n\nWrong turn? No problem! Sometimes getting lost is the best way to discover hidden cafés, local street food, and little corners you’d never find on a map. ✨\n\nAnd if you really need help, just ask a local — a little kindness goes a long way in Vietnam. ❤️\n\n📌 Save this for your next Vietnam adventure!\n\n#TravelFrame #VietnamTravel #HanoiTravel #TravelTips #ExploreVietnam",
+      "likes": 13,
+      "comments": 2,
+      "engagement": 15,
+      "engagement_lift": 1.25,
+      "lift_vs_7day_baseline": 1.15,
+      "age_hours": 496.0
+    },
+    {
+      "id": "17926190319432527",
+      "date_ict": "2026-10-24T15:20:42+07:00",
+      "url": "https://www.instagram.com/reel/De3sH9nNdQG/",
+      "caption": "FREE PHOTO SPOTS IN HANOI? YES, PLEASE! 📸🇻🇳\n\nYou don’t need a fancy photoshoot or an expensive café to get the perfect Hanoi pictures. From charming Old Quarter streets to French-inspired architecture and beautiful lakeside views, Hanoi is full of photogenic corners waiting to be discovered. ✨\n\nSave this for your next Hanoi photo walk and get those dreamy travel shots without spending a fortune! 🤍\n\n💬 Comment “HANOI” for more photo spots and local travel tips!\n\n#TravelFrame #Hanoi #HanoiPhotoSpots #VietnamTravel #VisitHanoi",
+      "likes": 13,
+      "comments": 1,
+      "engagement": 14,
+      "engagement_lift": 1.17,
+      "lift_vs_7day_baseline": 1.08,
+      "age_hours": 211.7
+    },
+    {
+      "id": "18044940041830092",
+      "date_ict": "2026-10-28T19:45:51+07:00",
+      "url": "https://www.instagram.com/reel/DfCdqe6yEfn/",
+      "caption": "🚨 DON’T GO BACK TO YOUR HOTEL YET! Hanoi is just getting started. 😭🌙🇻🇳\n\nThink Hanoi is beautiful during the day? Wait until the sun goes down! 👀✨\n\n🏮 Lantern-lit streets and hidden little alleys\n🍜 Late-night street food that tastes even better after dark\n☕ Cozy cafés and unforgettable coffee stops\n📸 Neon lights, cinematic corners, and dreamy night photos\n🌃 The Old Quarter buzzing with energy!\n\nFrom tiny plastic stools to glowing streets, Hanoi after dark is a whole different kind of magic. ❤️\n\nAnd the best part? Some of the most unforgettable travel memories happen when there’s no itinerary at all.\n\n📍 Hanoi Old Quarter, Vietnam\n\n📌 SAVE this guide before your next Hanoi night out!\n\n👯 TAG someone you’d explore Hanoi at night with!\n\n💬 COMMENT “HANOI” and we’ll send you our local travel guide!\n\n📸 Want your own cinematic Hanoi photos? Comment “PHOTO” to explore a TravelFrame photo tour!\n\n#travelframe #hanoi #hanoinightlife #hanoitravel #vietnamtravel",
+      "likes": 9,
+      "comments": 4,
+      "engagement": 13,
+      "engagement_lift": 1.08,
+      "lift_vs_7day_baseline": 1.0,
+      "age_hours": 111.3
+    },
+    {
+      "id": "18089372231288463",
+      "date_ict": "2026-10-26T14:25:34+07:00",
+      "url": "https://www.instagram.com/reel/De8va1GtW_s/",
+      "caption": "A little glimpse into the vibrant heart of Hanoi — Dong Xuan Market. 🛍️🇻🇳\n\nFrom bustling aisles to local treasures and the everyday rhythm of Vietnamese market life, this is where you can feel the city’s authentic energy. ✨\n\n🎥 Video credit: @mysteresetmerveilles on TikTok\n\n#TravelFrame #DongXuanMarket #Hanoi #VietnamTravel #HanoiLife",
+      "likes": 11,
+      "comments": 2,
+      "engagement": 13,
+      "engagement_lift": 1.08,
+      "lift_vs_7day_baseline": 1.0,
+      "age_hours": 164.6
+    },
+    {
+      "id": "17967143313317152",
+      "date_ict": "2026-10-25T21:26:55+07:00",
+      "url": "https://www.instagram.com/reel/De66gwCy2l2/",
+      "caption": "Be honest… how many GOOD photos of yourself do you actually have from your last trip? 😭📸\n\nYou traveled all the way to Hanoi, explored the cutest streets, found the dreamiest cafés… and somehow ended up with 500 photos of buildings and 3 blurry selfies. 💀🇻🇳\n\nNOT THIS TIME!\n\nHere’s your HANOI PHOTO CHEAT SHEET to level up your travel photos! ✨\n\n☀️ Find the perfect lighting\n📍 Discover picture-perfect spots\n💃 Learn easy, natural poses\n📱 Master simple photo hacks\n\nBecause Hanoi deserves to be photographed… and so do YOU! ❤️\n\n📌 SAVE this cheat sheet for your next Hanoi adventure!\n\n👯 TAG that friend who always takes the worst photos of you!\n\n💬 COMMENT “PHOTO” and we’ll help you capture your Hanoi story with TravelFrame!\n\n#travelframe #hanoi #hanoiphototour #vietnamtravel #travelphotography",
+      "likes": 11,
+      "comments": 2,
+      "engagement": 13,
+      "engagement_lift": 1.08,
+      "lift_vs_7day_baseline": 1.0,
+      "age_hours": 181.6
+    },
+    {
+      "id": "18086455706311861",
+      "date_ict": "2026-10-13T12:37:32+07:00",
+      "url": "https://www.instagram.com/reel/DebEt_PNppH/",
+      "caption": "POV: You’re in Vietnam, trying to make a decision, but need a little more time. 😅🇻🇳\n\nJust say: “Đợi mình một chút nhé!” — “Give me a moment, please.”\n\nOr if you’re still deciding, say: “Để mình suy nghĩ một chút!” — “Let me think about it for a moment.”\n\nNo rush, take your time! ✨ Save these useful Vietnamese phrases for your next trip.\n\n#TravelFrame #VietnamTravel #VietnamesePhrases #HanoiTravel #TravelTips",
+      "likes": 11,
+      "comments": 2,
+      "engagement": 13,
+      "engagement_lift": 1.08,
+      "lift_vs_7day_baseline": 1.0,
+      "age_hours": 478.4
+    },
+    {
+      "id": "18350468875252072",
+      "date_ict": "2026-10-12T13:06:46+07:00",
+      "url": "https://www.instagram.com/reel/DeYjROxN_uf/",
+      "caption": "Planning a trip to Vietnam? Here’s your ultimate travel cheat sheet! 🇻🇳✈️\n\nFrom the mountains of the North to the beaches of Central Vietnam and the vibrant streets of the South, there’s so much to discover!\n\n🏔️ North: Hanoi, Sapa, Ha Giang & Ha Long Bay\n🏮 Central: Hue, Da Nang, Hoi An & Da Lat\n🌴 South: Ho Chi Minh City, Mekong Delta & Phu Quoc\n\nNot sure where to start? This visual guide covers everything from must-visit destinations and local food to transportation, travel essentials, and cultural tips.\n\nOne country. Endless adventures. ❤️\n\n📌 Save this guide before your Vietnam trip!\n💬 Comment “VIETNAM” and we’ll help you explore like a local.\n\n#travelframe #vietnamtravel #visitvietnam #vietnamtravelguide #vietnamtips",
+      "likes": 13,
+      "comments": 0,
+      "engagement": 13,
+      "engagement_lift": 1.08,
+      "lift_vs_7day_baseline": 1.0,
+      "age_hours": 501.9
+    },
+    {
+      "id": "18557924989075680",
+      "date_ict": "2026-10-01T16:03:50+07:00",
+      "url": "https://www.instagram.com/reel/Dd8iy3Mtq5p/",
+      "caption": "Hanoi street food comes with its own little rules. 🍜🇻🇳\n\nFind a busy stall, grab a tiny chair, order simply, and don’t overthink it. Some of the most memorable meals in Hanoi happen on the sidewalk.\n\n📌 Save this before your food adventure.\n💬 Comment “FOOD” and we’ll send you our local Hanoi food guide.\n\n#travelframe #hanoi #hanoifood",
+      "likes": 13,
+      "comments": 0,
+      "engagement": 13,
+      "engagement_lift": 1.08,
+      "lift_vs_7day_baseline": 1.0,
+      "age_hours": 763.0
+    },
+    {
+      "id": "17903492568376066",
+      "date_ict": "2026-10-26T17:31:51+07:00",
+      "url": "https://www.instagram.com/reel/De9Euoutp6w/",
+      "caption": "POV: You’re packing 10 outfits for a 3-day trip to Hanoi… and somehow, it’s still not enough. 😭👗🇻🇳\n\nWAIT! Before you pack your entire wardrobe, you NEED this HANOI OUTFIT CHEAT SHEET! 📸✨\n\n🎨 COLOR HACKS — Match your outfit with Hanoi’s iconic backdrops!\n\n👗 PHOTO-PERFECT FITS — Flowy dresses, linen outfits, and effortless street style.\n\n🚫 OUTFIT MISTAKES — Cute shoes are great… until you’ve walked 20,000 steps. 💀\n\n👜 LITTLE DETAILS — Flowers, sunglasses, and a coffee cup can turn a simple photo into a whole Pinterest moment!\n\nBecause in Hanoi, every little street can become your personal runway. 💃\n\nAnd remember: Hanoi is the backdrop. YOU are the main character! ❤️\n\n📌 SAVE this before packing for Hanoi!\n\n💬 COMMENT: Are you a minimalist packer or an overpacker? 👀\n\n📸 COMMENT “PHOTO” if you want TravelFrame to capture your best Hanoi moments!\n\n#travelframe #hanoi #hanoioutfit #hanoiphototour #vietnamtravel",
+      "likes": 10,
+      "comments": 2,
+      "engagement": 12,
+      "engagement_lift": 1.0,
+      "lift_vs_7day_baseline": 0.92,
+      "age_hours": 161.5
+    },
+    {
+      "id": "18074320403756942",
+      "date_ict": "2026-10-23T13:25:40+07:00",
+      "url": "https://www.instagram.com/reel/De06DE_Nitj/",
+      "caption": "POV: You stepped onto Phan Dinh Phung Street and became the main character in a Vietnamese romance movie. 🍂🇻🇳\n\nGolden sunlight filtering through the trees, dreamy outfits, flower bouquets, and girls turning every corner into their own little photoshoot. 🌸✨\n\nWelcome to Phan Dinh Phung Street — where Hanoi’s autumn muses (nàng thơ) come to life.\n\nNo fancy studio. No dramatic poses. Just beautiful streets, soft sunlight, and a little bit of Hanoi magic. ❤️\n\nBecause in Hanoi, sometimes all you need is the right street to feel like the main character.\n\n📍 Phan Dinh Phung Street, Hanoi\n\n📌 Save this dreamy photo spot for your Hanoi trip!\n👯 Tag someone who would absolutely LOVE a photoshoot here!\n💬 Comment “PHOTO” and let TravelFrame capture your Hanoi moments!\n\n#travelframe #hanoi #phandinhphung #hanoiphotography #hanoiautumn",
+      "likes": 10,
+      "comments": 2,
+      "engagement": 12,
+      "engagement_lift": 1.0,
+      "lift_vs_7day_baseline": 0.92,
+      "age_hours": 237.6
+    },
+    {
+      "id": "17992867461074591",
+      "date_ict": "2026-10-19T18:35:14+07:00",
+      "url": "https://www.instagram.com/reel/DerKajly6Jz/",
+      "caption": "Hanoi after dark just hits different. 🍸🌙🇻🇳\n\nLooking for the perfect spot to grab a drink in Hanoi? Say less, we got you! 👀\n\nFrom hidden cocktail bars and cozy speakeasies to rooftop views and lively nightlife spots, Hanoi has a little something for every mood.\n\n🍸 The Haflington — Classy cocktails & vintage vibes\n🌃 Summit Lounge — Skyline views & chill nights\n🍹 Track 61 — Hidden gem energy\n✨ The Alchemist — Creative cocktails & mysterious vibes\n🍻 Standing Bar — Good drinks & social vibes\n\n5 bars. 5 different vibes. Which one’s your pick? 👀\n\n📌 Save this for your next night out in Hanoi!\n👯 Tag your drinking buddy!\n💬 Comment “HANOI” and we’ll send you our local Hanoi guide.\n\n#travelframe #hanoi #hano nightlife #hanoibars #hanoitravel vietnamtravel cocktailbars hanoiguide hanoiby night",
+      "likes": 10,
+      "comments": 2,
+      "engagement": 12,
+      "engagement_lift": 1.0,
+      "lift_vs_7day_baseline": 0.92,
+      "age_hours": 328.4
+    },
+    {
+      "id": "18011818646952171",
+      "date_ict": "2026-10-09T09:34:57+07:00",
+      "url": "https://www.instagram.com/reel/DeQcSVKNME-/",
+      "caption": "POV: how we got this shot 📸 One leaning tree, a little flash, and a lot of \"hold that, almost there.\"\n\nThat's a TravelFrame photo walk. No stiff poses. We find the spot, you lean, we shoot.\n\n Planning a solo photo walk in Hanoi? DM us \"PHOTO\" and tell us your dates ✈️\nTravelFrame, your local friend in Hanoi\n\n#travelframe #hanoi #hanoiphotography #behindthescenes #soloTravelVietnam vietnamtravel",
+      "likes": 11,
+      "comments": 1,
+      "engagement": 12,
+      "engagement_lift": 1.0,
+      "lift_vs_7day_baseline": 0.92,
+      "age_hours": 577.4
+    },
+    {
+      "id": "17976089085153994",
+      "date_ict": "2026-10-15T11:00:33+07:00",
+      "url": "https://www.instagram.com/reel/DegDMMbimwZ/",
+      "caption": "She told us she only does selfies. Then we showed her the back of the camera. 📸\n\nHer first pro photoshoot. Nailed it.\n\nTip: if you freeze in front of a lens, ask to see the screen after the first few shots. It changes everything.\n\nPlanning a shoot in Vietnam? Comment PHOTO with your travel month.\n\nTravelFrame — your local friend in Vietnam ✈️\n#travelframe #vietnam #behindthescenes #photoshoot #firsttimemodel",
+      "likes": 9,
+      "comments": 2,
+      "engagement": 11,
+      "engagement_lift": 0.92,
+      "lift_vs_7day_baseline": 0.85,
+      "age_hours": 432.0
+    },
+    {
+      "id": "17987156576880157",
+      "date_ict": "2026-10-11T14:41:36+07:00",
+      "url": "https://www.instagram.com/reel/DeWJQKdtPIA/",
+      "caption": "POV: You’re in a taxi in Vietnam and spot the perfect place to stop, but how do you tell the driver? 🚕🇻🇳\n\nJust say: “Cho mình xuống đây với ạ!” 📍\n\nYour little Vietnamese phrase for a smoother trip around Hanoi. Save this for your next Vietnam adventure! ✨\n\n#TravelFrame #HanoiTravel #VietnamTravel #TravelTips #VietnamesePhrases",
+      "likes": 10,
+      "comments": 1,
+      "engagement": 11,
+      "engagement_lift": 0.92,
+      "lift_vs_7day_baseline": 0.85,
+      "age_hours": 524.3
+    },
+    {
+      "id": "18113807779841504",
+      "date_ict": "2026-10-19T20:01:04+07:00",
+      "url": "https://www.instagram.com/reel/DerUPneDAqG/",
+      "caption": "Hoan Kiem Lake after dark, with you in the frame. 🌙\n\nBTS vs The Shot by the water. A conversation about flash leads into dark silhouettes, rippling reflections, and Turtle Tower glowing across the lake.\n\nPro move: try a silhouette when you want the city lights to lead the photo. Ask first before photographing someone else.\n\nSave this for your Hanoi evening walk. Want photos by the lake on your trip? Comment PHOTO with your travel month.\n\nTravelFrame — your local friend in Hanoi ✈️\n#travelframe #hanoi #hoankiemlake #nightphotography #behindthescenes",
+      "likes": 9,
+      "comments": 1,
+      "engagement": 10,
+      "engagement_lift": 0.83,
+      "lift_vs_7day_baseline": 0.77,
+      "age_hours": 327.0
+    },
+    {
+      "id": "18377547568242698",
+      "date_ict": "2026-10-17T11:00:35+07:00",
+      "url": "https://www.instagram.com/reel/DelMygtj4Gb/",
+      "caption": "We asked for \"some interaction\" between them. They gave us this. 😂\n\nA cool shot, a quick look at the screen, and one very happy client. Campaign-level couple.\n\nTag the person you'd take photos like this with.\n\nComment PHOTO with your travel month for your own shoot in Vietnam.\n\nTravelFrame — your local friend in Vietnam ✈️\n#travelframe #vietnam #couplephotography #behindthescenes #travelphotography",
+      "likes": 9,
+      "comments": 1,
+      "engagement": 10,
+      "engagement_lift": 0.83,
+      "lift_vs_7day_baseline": 0.77,
+      "age_hours": 384.0
+    },
+    {
+      "id": "18054493934807728",
+      "date_ict": "2026-10-16T17:33:06+07:00",
+      "url": "https://www.instagram.com/reel/DejU1_-txSo/",
+      "caption": "Tag someone who needs to see this before coming to Vietnam 💀🛵\n\nBestie, crossing the street in Hanoi is NOT for the weak 😭\n\nLook both ways, use the crosswalk when possible, and stay predictable.\n\nYour vacation is supposed to be an adventure, not your final episode 💀🙏\n\n🇻🇳 Tag your travel buddy and remind them to stay safe!\n\n#travelframe #hanoi #vietnamtravel #hanoitraffic #travelhumor travelmemes hanoitravel fyp",
+      "likes": 9,
+      "comments": 1,
+      "engagement": 10,
+      "engagement_lift": 0.83,
+      "lift_vs_7day_baseline": 0.77,
+      "age_hours": 401.5
+    },
+    {
+      "id": "18133489024739019",
+      "date_ict": "2026-10-13T19:01:11+07:00",
+      "url": "https://www.instagram.com/reel/DebwmjTFQuT/",
+      "caption": null,
+      "likes": 10,
+      "comments": 0,
+      "engagement": 10,
+      "engagement_lift": 0.83,
+      "lift_vs_7day_baseline": 0.77,
+      "age_hours": 472.0
+    },
+    {
+      "id": "18203490487373473",
+      "date_ict": "2026-10-02T13:41:20+07:00",
+      "url": "https://www.instagram.com/reel/Dd-3P5aN4jj/",
+      "caption": "Visiting temples in Hanoi? A little respect goes a long way. 🛕🇻🇳\n\nDress modestly, keep your voice low, check the photo rules, and remember that these are active places of worship — not just sightseeing spots.\n\n📌 Save this before your Hanoi trip.\n💬 Comment “HANOI” and we’ll send you our local Hanoi guide.\n\n#travelframe #hanoi #hanoiculture #hanoitravel",
+      "likes": 7,
+      "comments": 3,
+      "engagement": 10,
+      "engagement_lift": 0.83,
+      "lift_vs_7day_baseline": 0.77,
+      "age_hours": 741.3
+    },
+    {
+      "id": "18120734143947311",
+      "date_ict": "2026-10-18T15:47:01+07:00",
+      "url": "https://www.instagram.com/reel/DeoSV78tTTG/",
+      "caption": "5 Hanoi photo spots that deserve a place in your camera roll! 📸🍂🇻🇳\n\nHanoi is basically one giant photo opportunity — you just need to know where to look! 👀\n\n📍 Phan Dinh Phung Street — Dreamy tree-lined streets\n📍 Hoan Kiem Lake — Iconic Hanoi views\n📍 Old Quarter — Colorful streets & local life\n📍 Hanoi Train Street — Unique railway scenery\n📍 Truc Bach Lake — Peaceful lakeside vibes\n\nFrom golden autumn mornings to romantic sunsets, every corner of Hanoi has a story worth capturing. 🍁\n\n✨ Want the photos without worrying about the perfect angles? Let TravelFrame capture your Hanoi memories!\n\n📌 Save this map for your next Hanoi adventure!\n💬 Comment “PHOTO” to explore our Hanoi photo tours.\n\n#travelframe #hanoi #hanoiphotospots #hanoiphotography #hanoiphotoshoot",
+      "likes": 8,
+      "comments": 1,
+      "engagement": 9,
+      "engagement_lift": 0.75,
+      "lift_vs_7day_baseline": 0.69,
+      "age_hours": 355.2
+    },
+    {
+      "id": "18112535410891480",
+      "date_ict": "2026-10-18T14:23:56+07:00",
+      "url": "https://www.instagram.com/reel/DeoI3TyN2N9/",
+      "caption": "First time in Hanoi? Don’t make these rookie mistakes! 🇻🇳💀\n\nHanoi is amazing… until you realize you forgot cash, trusted the wrong price, or planned 10 places in one afternoon. 😭\n\nBut don’t worry, we’ve got you!\n\nFrom navigating the chaotic streets to discovering hidden cafés and dealing with unpredictable weather, these 5 simple tips will save you a lot of trouble.\n\nTravel smarter, stress less, and enjoy Hanoi like a local. 🛵❤️\n\n📌 Save this before your Hanoi trip!\n👀 Tag your travel buddy who NEEDS to see this.\n💬 Comment “HANOI” and we’ll send you our local Hanoi guide!\n\n#travelframe #hanoi #hanoitravel #vietnamtravel #hanoitips",
+      "likes": 8,
+      "comments": 1,
+      "engagement": 9,
+      "engagement_lift": 0.75,
+      "lift_vs_7day_baseline": 0.69,
+      "age_hours": 356.6
+    },
+    {
+      "id": "18079306655439618",
+      "date_ict": "2026-10-14T18:33:21+07:00",
+      "url": "https://www.instagram.com/reel/DeeSPlhSmhN/",
+      "caption": "Nahhh AI is getting WAY too realistic these days 💀😭\n\nTell me why there’s literally footage of me crossing the streets of Hanoi to shoot a night photo tour with TravelFrame… when I JUST called in sick at work??? 💀📸\n\nLike bro, I was supposed to be in bed fighting for my life 😭🙏\n\nAI really out here ruining careers 💀\n\n#travelframe #hanoi #hanoiphotoshoot #nightphototour #travelvietnam aigonewild officehumor pov fyp travelmemes",
+      "likes": 7,
+      "comments": 2,
+      "engagement": 9,
+      "engagement_lift": 0.75,
+      "lift_vs_7day_baseline": 0.69,
+      "age_hours": 448.5
+    },
+    {
+      "id": "18622891516050899",
+      "date_ict": "2026-10-01T14:13:48+07:00",
+      "url": "https://www.instagram.com/reel/Dd8WMCwNGjF/",
+      "caption": "Neon lights, narrow tracks, tiny cafés, and the sound of the city moving around you — Train Street feels completely different after dark.\n\nCome for the photos.\nStay for the atmosphere.\n\n📌 Save this for your Hanoi trip.\n💬 Comment “HANOI” and we’ll send you our local Hanoi guide.\n\n#travelframe #hanoi #hanoitrainstreet #trainstreet",
+      "likes": 9,
+      "comments": 0,
+      "engagement": 9,
+      "engagement_lift": 0.75,
+      "lift_vs_7day_baseline": 0.69,
+      "age_hours": 764.8
+    },
+    {
+      "id": "18031330175675150",
+      "date_ict": "2026-10-01T13:01:39+07:00",
+      "url": "https://www.instagram.com/reel/Dd8N8muNSaw/",
+      "caption": "Packing for Hanoi? You probably need less than you think. 🎒🇻🇳\n\nComfortable shoes, light clothes, something for sudden rain, and a few everyday essentials will get you through most days in the city.\n\nPack light — Hanoi is better when you can just walk and explore.\n\n📌 Save this before your trip.\n💬 Comment “HANOI” and we’ll send you our local Hanoi guide.\n\n#travelframe #hanoi #hanoitravel #vietnamtravel",
+      "likes": 9,
+      "comments": 0,
+      "engagement": 9,
+      "engagement_lift": 0.75,
+      "lift_vs_7day_baseline": 0.69,
+      "age_hours": 766.0
+    },
+    {
+      "id": "18013986920761016",
+      "date_ict": "2026-10-27T20:07:50+07:00",
+      "url": "https://www.instagram.com/reel/De_7XVaynvu/",
+      "caption": "POV: Tourists came to explore Hanoi’s Old Quarter… but the street food had other plans. 😭🍜🇻🇳\n\nOne food stall turns into five. One quick snack turns into a full-on food adventure! 🤤\n\nFrom crowded food stalls to tiny plastic stools, tourists are discovering that some of Hanoi’s best memories are made around a table. ❤️\n\nThe real Hanoi itinerary? EAT. WALK. REPEAT. 💀✨\n\n📍 Hanoi Old Quarter, Vietnam\n\n💬 Which Vietnamese dish deserves the #1 spot? 👀\n\n📌 SAVE this for a Hanoi food adventure!\n\n💌 Comment “FOOD” for more local food recommendations!\n\n#travelframe #hanoi #hanoifood #hanoioldquarter vietnamtravel",
+      "likes": 6,
+      "comments": 2,
+      "engagement": 8,
+      "engagement_lift": 0.67,
+      "lift_vs_7day_baseline": 0.62,
+      "age_hours": 134.9
+    },
+    {
+      "id": "18074313488765104",
+      "date_ict": "2026-10-29T18:07:39+07:00",
+      "url": "https://www.instagram.com/reel/DfE3NhcyqNE/",
+      "caption": "I owe myself a life full of beautiful places, spontaneous adventures, and memories that will make me smile years from now. 🌍🤍\n\nSo here’s to saying yes to new experiences, collecting moments instead of things, and becoming the person I’ve always dreamed of being. ✨\n\n#TravelFrame #TravelMore #LifeIsAnAdventure #CollectMoments #DreamLife",
+      "likes": 4,
+      "comments": 3,
+      "engagement": 7,
+      "engagement_lift": 0.58,
+      "lift_vs_7day_baseline": 0.54,
+      "age_hours": 88.9
+    },
+    {
+      "id": "18111082097464643",
+      "date_ict": "2026-10-17T20:00:58+07:00",
+      "url": "https://www.instagram.com/reel/DemKoizDFLi/",
+      "caption": "A little wandering. A little chatting. A few photos to take home. 📸\n\nThis BTS vs The Shot starts with an easy conversation under the trees. Then come the warm lamps, relaxed portraits, and a black-and-white finish.\n\nIf posing feels awkward, start with a chat. Give yourself a moment to settle in before the next frame.\n\nSave this for a slower evening in Hanoi. Would you add a photo walk to your trip? Comment PHOTO and your travel month.\n\nTravelFrame — your local friend in Hanoi ✈️\n#travelframe #hanoi #hanoiphotography #photowalk #behindthescenes",
+      "likes": 6,
+      "comments": 1,
+      "engagement": 7,
+      "engagement_lift": 0.58,
+      "lift_vs_7day_baseline": 0.54,
+      "age_hours": 375.0
+    },
+    {
+      "id": "18139109638617229",
+      "date_ict": "2026-10-16T19:51:07+07:00",
+      "url": "https://www.instagram.com/reel/DejkpkMyvD1/",
+      "caption": "When the bells of St. Joseph’s Cathedral ring, Hanoi feels a little more magical. 🔔⛪️💙\n\nAs the city rushes by, the sound of the church bells drifts through the streets, blending with the everyday rhythm of Hanoi. A little moment of peace in the heart of the capital — timeless, beautiful, and unforgettable. ✨\n\n📍 St. Joseph’s Cathedral, Hanoi, Vietnam 🇻🇳\n\nHave you ever stopped to listen to the bells of Hanoi? 🤍\n \nVideo source: @swaggytravels on tiktok\n#TravelFrame #Hanoi #StJosephsCathedral #VietnamTravel #VisitHanoi",
+      "likes": 6,
+      "comments": 1,
+      "engagement": 7,
+      "engagement_lift": 0.58,
+      "lift_vs_7day_baseline": 0.54,
+      "age_hours": 399.2
+    },
+    {
+      "id": "17885926743687529",
+      "date_ict": "2026-10-16T13:41:42+07:00",
+      "url": "https://www.instagram.com/reel/Dei6bjitY19/",
+      "caption": "How do you ask for the time in Vietnamese? ⏰🇻🇳\n\nSuch a simple question, but knowing how to say it can make your trip feel a little more local!\n\nNext time you’re in Vietnam, try saying “Mấy giờ rồi?” instead of “What time is it?” 👀\n\nA little Vietnamese goes a long way! ❤️\n\n📌 Save this for your Vietnam trip.\n💬 Comment “HANOI” for more local tips!\n\n#travelframe #learnvietnamese #vietnamese #hanoi #vietnamtravel",
+      "likes": 6,
+      "comments": 1,
+      "engagement": 7,
+      "engagement_lift": 0.58,
+      "lift_vs_7day_baseline": 0.54,
+      "age_hours": 405.3
+    },
+    {
+      "id": "18424214338151406",
+      "date_ict": "2026-10-12T19:01:16+07:00",
+      "url": "https://www.instagram.com/reel/DeZLzbzkWDx/",
+      "caption": "How I direct someone who has never posed before 📸\n\n1. Lean toward me\n2. Play with your hair\n3. Turn your back\n4. Lower your body and lean in\n\nFour small directions, no stiff poses. Which one would you try first? Tell us below 👇\n\nPlanning a solo photo walk in Hanoi? DM us \"PHOTO\" and tell us your dates.\n\nTravelFrame, your local friend in Hanoi\n\n#travelframe #hanoi #hanoiphotography #posingtips #behindthescenes #phototour #vietnamtravel",
+      "likes": 5,
+      "comments": 2,
+      "engagement": 7,
+      "engagement_lift": 0.58,
+      "lift_vs_7day_baseline": 0.54,
+      "age_hours": 496.0
+    },
+    {
+      "id": "17938695024401564",
+      "date_ict": "2026-10-29T20:37:57+07:00",
+      "url": "https://www.instagram.com/reel/DfFIa_Qy59O/",
+      "caption": "Chasing sunsets in Hanoi, where the sky turns golden and the world seems to slow down for a little while. 🌅🧡\n\nSometimes, all you need is a beautiful view, a quiet moment, and nowhere else to be. ✨\n\n📍 139, Alley 464 Au Co Street, Hanoi, Vietnam\n\n#TravelFrame #HanoiSunset #HanoiVietnam #VietnamTravel #GoldenHour",
+      "likes": 4,
+      "comments": 2,
+      "engagement": 6,
+      "engagement_lift": 0.5,
+      "lift_vs_7day_baseline": 0.46,
+      "age_hours": 86.4
+    },
+    {
+      "id": "18129330823875039",
+      "date_ict": "2026-10-28T18:40:27+07:00",
+      "url": "https://www.instagram.com/reel/DfCWL0tyHB8/",
+      "caption": "A little walk through history at Ô Quan Chưởng — Hanoi’s last surviving ancient city gate. 🏛️🇻🇳\n\nTucked among the busy streets of the Old Quarter, this centuries-old gate is a beautiful reminder of Hanoi’s past, where history and everyday life meet. ✨\n\n📍 Ô Quan Chưởng, Hanoi, Vietnam\n\n#TravelFrame #OQuanChuong #HanoiVietnam #HanoiOldQuarter #VietnamTravel",
+      "likes": 3,
+      "comments": 3,
+      "engagement": 6,
+      "engagement_lift": 0.5,
+      "lift_vs_7day_baseline": 0.46,
+      "age_hours": 112.4
+    },
+    {
+      "id": "18138468559729972",
+      "date_ict": "2026-10-15T19:01:04+07:00",
+      "url": "https://www.instagram.com/reel/Deg6L4pD8Sp/",
+      "caption": null,
+      "likes": 6,
+      "comments": 0,
+      "engagement": 6,
+      "engagement_lift": 0.5,
+      "lift_vs_7day_baseline": 0.46,
+      "age_hours": 424.0
+    },
+    {
+      "id": "18092088332679696",
+      "date_ict": "2026-10-13T15:27:40+07:00",
+      "url": "https://www.instagram.com/reel/DebYKgWtcZb/",
+      "caption": "Booked a flight for Hanoi’s golden autumn… got 50 shades of grey instead. 🍂🌧️😭\n\nCame for golden leaves, romantic streets, and dreamy coffee dates.\n\nGot wet shoes, cloudy skies, and an umbrella as my new travel buddy. ☔💀\n\nBut hey, even rainy Hanoi has its own kind of charm… right? 🥲🇻🇳\n\nExpectation: Autumn in a K-drama 🍁\nReality: Free shower in Vietnam 💦\n\n📌 Save this if Hanoi’s weather has ever betrayed you.\n💬 Comment “HANOI” for our local travel guide!\n\n#travelframe #hanoi #hanoiautumn #hanoitravel #vietnamtravel",
+      "likes": 4,
+      "comments": 2,
+      "engagement": 6,
+      "engagement_lift": 0.5,
+      "lift_vs_7day_baseline": 0.46,
+      "age_hours": 475.6
+    },
+    {
+      "id": "18117817525802310",
+      "date_ict": "2026-10-13T14:23:25+07:00",
+      "url": "https://www.instagram.com/reel/DebQ0XrNdfD/",
+      "caption": "POV: You found the perfect photo spot in Vietnam, but you’re traveling solo. 📸🇻🇳\n\nDon’t be shy! Just walk up to someone and say: “Bạn chụp ảnh giúp mình được không?” — “Could you take a photo of me, please?”\n\nA little Vietnamese, a friendly smile, and hopefully… the perfect travel photo! 🤳✨\n\nSave this phrase for your next Vietnam adventure!\n\n#TravelFrame #VietnamTravel #HanoiTravel #VietnamesePhrases #TravelTips",
+      "likes": 4,
+      "comments": 2,
+      "engagement": 6,
+      "engagement_lift": 0.5,
+      "lift_vs_7day_baseline": 0.46,
+      "age_hours": 476.6
+    },
+    {
+      "id": "18149871862558455",
+      "date_ict": "2026-10-05T12:20:25+07:00",
+      "url": "https://www.instagram.com/reel/DeGcYYXNf7S/",
+      "caption": "Muslim traveler coming to Hanoi? ☪️🇻🇳\n\nYes, you can explore Hanoi while keeping your trip Muslim-friendly. From visiting Al-Noor Mosque and wandering through the Old Quarter to finding Halal food and discovering Hanoi’s culture — a little planning goes a long way.\n\nOne important tip: “No pork” doesn’t always mean Halal, so always check the ingredients or look for Halal-certified options before ordering.\n\nSave this guide before your Hanoi trip. 🇻🇳\n💬 Comment “MUSLIM” and we’ll send you our local Hanoi guide.\n\n#travelframe #muslimtravel #muslimfriendly #halaltravel",
+      "likes": 5,
+      "comments": 1,
+      "engagement": 6,
+      "engagement_lift": 0.5,
+      "lift_vs_7day_baseline": 0.46,
+      "age_hours": 670.7
+    },
+    {
+      "id": "18073695932740047",
+      "date_ict": "2026-10-04T18:01:13+07:00",
+      "url": "https://www.instagram.com/reel/DeEei2ENHhR/",
+      "caption": "Your phone is enough. Your eye does the rest 📱✨\n\nSoft light, little details, everyday moments — Hanoi gives you plenty to work with. No expensive camera needed.\n\nAnd wipe your lens first… that dreamy blur might just be fingerprints 😭\n\nSave this for your next Hanoi photo walk 🇻🇳💛\n\n#TravelFrameVietnam #HanoiTravel #PhonePhotography #VietnamTravel",
+      "likes": 5,
+      "comments": 1,
+      "engagement": 6,
+      "engagement_lift": 0.5,
+      "lift_vs_7day_baseline": 0.46,
+      "age_hours": 689.0
+    },
+    {
+      "id": "18125079415917107",
+      "date_ict": "2026-10-02T18:31:57+07:00",
+      "url": "https://www.instagram.com/reel/Dd_YgBqpMH4/",
+      "caption": "Every great photoshoot starts with a conversation. 📸\n\nBefore the camera comes out, we take time to meet, talk, and understand what our guests want to remember from Hanoi.\n\nThe places, the mood, the little details — we plan it together so the photos feel personal, not just posed.\n\nBecause at TravelFrame, it’s not just about taking beautiful photos.\nIt’s about capturing your Hanoi story. 🇻🇳\n\n💬 Comment “PHOTO” to plan your Hanoi photoshoot with us.\n\n#travelframe #hanoi #hanoiphotoshoot #hanoiphotographer #travelphotography hanoitravel",
+      "likes": 5,
+      "comments": 1,
+      "engagement": 6,
+      "engagement_lift": 0.5,
+      "lift_vs_7day_baseline": 0.46,
+      "age_hours": 736.5
+    },
+    {
+      "id": "18569801488076978",
+      "date_ict": "2026-10-19T16:12:05+07:00",
+      "url": "https://www.instagram.com/reel/Deq6CbrNxeO/",
+      "caption": "POV: You’re shopping at a local market in Vietnam and need to ask, “How much is this?” 🛍️🇻🇳\n\nJust say: “Cái này bao nhiêu tiền ạ?” 💬\n\n🗣️ “How much is this?”\n\nA simple phrase that will make your market adventures a little easier! And don’t forget to smile — bargaining can be part of the fun. 😉✨\n\n📌 Save this for your next trip to Vietnam!\n\n#TravelFrame #VietnamTravel #VietnamesePhrases #HanoiMarket #TravelTips",
+      "likes": 4,
+      "comments": 1,
+      "engagement": 5,
+      "engagement_lift": 0.42,
+      "lift_vs_7day_baseline": 0.38,
+      "age_hours": 330.8
+    },
+    {
+      "id": "18073934000743181",
+      "date_ict": "2026-10-16T20:01:16+07:00",
+      "url": "https://www.instagram.com/reel/Dejl4IgjuUA/",
+      "caption": "The city keeps moving. Your portrait can hold the moment. 📸\n\nBTS vs The Shot: a quick change of angle, passing lights, and a whole new background. The finished frames keep that evening street energy.\n\nPro move: compose from a safe spot on the pavement. Let the movement happen in the background.\n\nSend this to the friend who loves city-night photos. Planning your own Hanoi shoot? Comment PHOTO with your travel month.\n\nTravelFrame — your local friend in Hanoi ✈️\n#travelframe #hanoi #hanoiphotography #streetportraits #behindthescenes",
+      "likes": 4,
+      "comments": 1,
+      "engagement": 5,
+      "engagement_lift": 0.42,
+      "lift_vs_7day_baseline": 0.38,
+      "age_hours": 399.0
+    },
+    {
+      "id": "17972990841159597",
+      "date_ict": "2026-10-14T19:01:24+07:00",
+      "url": "https://www.instagram.com/reel/DeeVaqPAeYI/",
+      "caption": null,
+      "likes": 5,
+      "comments": 0,
+      "engagement": 5,
+      "engagement_lift": 0.42,
+      "lift_vs_7day_baseline": 0.38,
+      "age_hours": 448.0
+    },
+    {
+      "id": "18138194776714606",
+      "date_ict": "2026-10-10T15:37:43+07:00",
+      "url": "https://www.instagram.com/reel/DeTq90Etm3K/",
+      "caption": "October 10th — A special day for Hanoi. 🇻🇳❤️\n\nOn this day in 1954, Hanoi was liberated, marking a new chapter in the city’s history.\n\n72 years later, Hanoi continues to grow, but its spirit, traditions, and stories remain alive in every corner.\n\nFrom historic landmarks to the little streets we walk every day, there’s so much more to Hanoi than meets the eye.\n\nDon’t just visit Hanoi. Discover its story. 🇻🇳\n\n📌 Save this for your next Hanoi adventure.\n💬 Comment “HANOI” and we’ll send you our local Hanoi guide.\n\n#travelframe #hanoi #hanoiliberationday #october10 #hanoihistory",
+      "likes": 4,
+      "comments": 1,
+      "engagement": 5,
+      "engagement_lift": 0.42,
+      "lift_vs_7day_baseline": 0.38,
+      "age_hours": 547.4
+    },
+    {
+      "id": "18120436645952106",
+      "date_ict": "2026-10-25T18:50:08+07:00",
+      "url": "https://www.instagram.com/reel/De6o3WbS1qk/",
+      "caption": "POV: It’s an autumn afternoon in Hanoi, and suddenly, everything feels a little more beautiful. 🍂🤎\n\nGolden sunlight falling through the trees, gentle breezes drifting along the old streets, the smell of coffee from little sidewalk cafés…\n\nThere’s something magical about Hanoi in autumn. ☕✨\n\nNo rush. No plans. Just wandering through the city, watching the leaves fall, and falling in love with every little corner.\n\nSome places are beautiful in photos. But Hanoi in autumn? It’s even more beautiful when you’re there. ❤️\n\n📍 Hanoi, Vietnam\n\n📸 Don’t just capture Hanoi. Be part of the picture.\n\n💌 Comment “PHOTO” and let TravelFrame capture your Hanoi story!\n\n🎥 Video credit: @hannahkristravel on tiktok\n\n#travelframe #hanoi #hanoiautumn #hanoiphototour #vietnamtravel",
+      "likes": 3,
+      "comments": 1,
+      "engagement": 4,
+      "engagement_lift": 0.33,
+      "lift_vs_7day_baseline": 0.31,
+      "age_hours": 184.2
+    },
+    {
+      "id": "18009820601775856",
+      "date_ict": "2026-10-16T15:14:22+07:00",
+      "url": "https://www.instagram.com/reel/DejFBB9NY7X/",
+      "caption": "Nobody warned me that crossing the street in Vietnam comes with a boss battle 💀🛵\n\nBro, I just wanted to get to the other side, not unlock a new survival skill 😭🙏\n\nThe motorbikes? EVERYWHERE.\nMy confidence? GONE.\nMy heart rate? 200 BPM. 💀\n\n10/10 travel experience. Would panic again. 🇻🇳😂\n\n📌 Save this for your first trip to Vietnam!\n💬 Comment “HANOI” for our local travel guide.\n\n#travelframe #hanoi #vietnamtravel #hanoitraffic #travelhumor pov travelmemes visitvietnam fyp",
+      "likes": 3,
+      "comments": 1,
+      "engagement": 4,
+      "engagement_lift": 0.33,
+      "lift_vs_7day_baseline": 0.31,
+      "age_hours": 403.8
+    },
+    {
+      "id": "17933806857144976",
+      "date_ict": "2026-10-15T20:01:56+07:00",
+      "url": "https://www.instagram.com/reel/DehBJOkjfa5/",
+      "caption": "A street corner, a little night light, and a portrait worth keeping. 📸\n\nBTS vs The Shot, Hanoi edition. A quick chat beside the camera, then the finished frames. Warm windows, a relaxed pose, and the city in the background.\n\nPro move: keep your shoulders loose and give your hands something simple to do.\n\nSave this for your next evening photo walk. Planning photos in Hanoi? Comment PHOTO and tell us your travel month.\n\nTravelFrame — your local friend in Hanoi ✈️\n#travelframe #hanoi #hanoiphotography #behindthescenes #nightportraits",
+      "likes": 3,
+      "comments": 1,
+      "engagement": 4,
+      "engagement_lift": 0.33,
+      "lift_vs_7day_baseline": 0.31,
+      "age_hours": 423.0
+    },
+    {
+      "id": "18144341731574665",
+      "date_ict": "2026-10-11T19:16:52+07:00",
+      "url": "https://www.instagram.com/reel/DeWoyWVpzGR/",
+      "caption": "POV: You got lost in Vietnam… and found the best part of your trip. 🇻🇳📍\n\nOne wrong turn, a random little street, a hidden café, and suddenly you’re somewhere you never planned to be.\n\nSometimes, the best travel memories aren’t on Google Maps. They’re the ones you discover by accident. ❤️\n\nSo don’t be afraid to wander a little. Just keep your phone charged and enjoy the adventure!\n\n📌 Save this for your Vietnam trip.\n💬 Comment “HANOI” and we’ll send you our local Hanoi guide.\n\n#travelframe #vietnamtravel #hanoi #hanoitravel #explorevietnam",
+      "likes": 4,
+      "comments": 0,
+      "engagement": 4,
+      "engagement_lift": 0.33,
+      "lift_vs_7day_baseline": 0.31,
+      "age_hours": 519.7
+    },
+    {
+      "id": "17924513373430677",
+      "date_ict": "2026-10-05T18:47:46+07:00",
+      "url": "https://www.instagram.com/reel/DeHIvLtJ8oh/",
+      "caption": "Muslim-friendly Hanoi in one day? Here’s how. ☪️🇻🇳\n\nStart your morning with prayer, wander through the Old Quarter and Hoan Kiem Lake, spend the afternoon discovering Hanoi’s culture and coffee, then finish the day with a water puppet show and a Halal dinner.\n\nYou don’t have to miss out on Hanoi — you just need to know where to go and plan ahead.\n\n📌 Save this itinerary for your trip.\n💬 Comment “MUSLIM” and we’ll send you our local Hanoi guide.\n\n#travelframe #muslimtravel #muslimfriendly",
+      "likes": 3,
+      "comments": 1,
+      "engagement": 4,
+      "engagement_lift": 0.33,
+      "lift_vs_7day_baseline": 0.31,
+      "age_hours": 664.2
+    },
+    {
+      "id": "18182829451435585",
+      "date_ict": "2026-10-27T16:35:05+07:00",
+      "url": "https://www.instagram.com/reel/De_jB2ftu_P/",
+      "caption": "POV: Hanoi has a photo spot for EVERY personality… but which one is YOUR vibe? 👀📸🇻🇳\n\nForget boring travel photos! Your Hanoi camera roll deserves a whole Pinterest makeover. ✨\n\n🌸 1 — THE ROMANTIC: Phan Dinh Phung Street, dreamy trees & flower bouquets.\n\n🎞️ 2 — THE VINTAGE SOUL: Hanoi Old Quarter, nostalgic streets & cinematic corners.\n\n🍃 3 — THE SOFT TRAVELER: Hoan Kiem Lake, peaceful walks & golden sunlight.\n\n🖤 4 — THE CITY CHIC: St. Joseph’s Cathedral, iconic architecture & effortless style.\n\nDifferent vibes. Same beautiful Hanoi. ❤️\n\n💬 COMMENT 1, 2, 3 OR 4! Which one matches your personality?\n\n👯 TAG your travel bestie and see if you pick the same one!\n\n📌 SAVE this cheat sheet for your next Hanoi adventure!\n\n📸 Want photos like these? Comment “PHOTO” and let TravelFrame capture your Hanoi story!\n\n#travelframe #hanoi #hanoiphotospots #hanoiphototour #vietnamtravel",
+      "likes": 2,
+      "comments": 1,
+      "engagement": 3,
+      "engagement_lift": 0.25,
+      "lift_vs_7day_baseline": 0.23,
+      "age_hours": 138.4
+    },
+    {
+      "id": "18504704884102132",
+      "date_ict": "2026-10-22T18:40:23+07:00",
+      "url": "https://www.instagram.com/reel/Dey5Z25SgAW/",
+      "caption": "POV: You found the most iconic railway in Vietnam! 🚂🇻🇳\n\nWelcome to Hanoi Train Street — where tiny cafés, colorful buildings, and railway tracks create one of the city’s most unforgettable experiences! ☕✨\n\nImagine sipping Vietnamese egg coffee, soaking up the atmosphere, and watching everyday Hanoi life unfold around you.\n\nBut before you go, there are a few things you should know! 👀\n\nFrom the best times to visit to what to order and how to explore safely, we’ve got your Hanoi Train Street cheat sheet covered!\n\n⚠️ Always follow local safety rules, respect restricted areas, and keep a safe distance from the tracks.\n\n📌 Save this guide for your Hanoi trip!\n👯 Tag someone you’d love to explore Hanoi with!\n💬 Comment “HANOI” and we’ll send you our local Hanoi guide!\n\n#travelframe #hanoi #hanoitrainstreet #hanoitravel #vietnamtravel",
+      "likes": 2,
+      "comments": 1,
+      "engagement": 3,
+      "engagement_lift": 0.25,
+      "lift_vs_7day_baseline": 0.23,
+      "age_hours": 256.4
+    },
+    {
+      "id": "18096040874676974",
+      "date_ict": "2026-10-21T19:03:54+07:00",
+      "url": "https://www.instagram.com/reel/DewXTD3tWbt/",
+      "caption": "POV: You came to Hanoi for a vacation but ended up playing GTA: Vietnam Edition. 💀🎮🇻🇳\n\nCrossing streets like it’s a final boss fight. 🛵\n\nEating on chairs designed for toddlers. 🍜\n\nGetting addicted to egg coffee after ONE sip. ☕\n\nGetting lost in the Old Quarter and somehow finding the best café ever. 🗺️\n\nHanoi isn’t just a destination. It’s an open-world game with unlimited side quests. 😂\n\n🏆 How many Hanoi side quests have you unlocked?\n\n👇 Drop your score: 0/4, 1/4, 2/4, 3/4 or 4/4!\n\n📌 Save this for your Hanoi trip!\n👯 Tag your travel buddy who needs to complete these missions.\n\n#travelframe #hanoi #hanoitravel #vietnamtravel #hanoisidequests",
+      "likes": 1,
+      "comments": 2,
+      "engagement": 3,
+      "engagement_lift": 0.25,
+      "lift_vs_7day_baseline": 0.23,
+      "age_hours": 280.0
+    },
+    {
+      "id": "17868741093661273",
+      "date_ict": "2026-10-11T12:45:52+07:00",
+      "url": "https://www.instagram.com/reel/DeV8FIMNaxV/",
+      "caption": "Craving Indian food in Hanoi? 🇮🇳🍛🇻🇳\n\nGood news! You don’t have to travel far to find a taste of home.\n\nFrom rich, flavorful curries and freshly baked naan to biryani and vegetarian-friendly dishes, Hanoi has plenty to offer Indian food lovers!\n\nWe’ve put together 5 Indian restaurants to check out in Hanoi so you can spend less time searching and more time enjoying your trip.\n\n🌱 Vegetarian or Jain traveler? Always check the ingredients and dietary options with the restaurant before ordering.\n\n📌 Save this list for your Hanoi trip!\n💬 Comment “INDIA” and we’ll send you our local Hanoi guide.\n\n#travelframe #hanoi #indianfood #indianrestaurants #indiansinvietnam hanoifood hanoitravel vietnamtravel vegetariantravel hanoiguide",
+      "likes": 2,
+      "comments": 1,
+      "engagement": 3,
+      "engagement_lift": 0.25,
+      "lift_vs_7day_baseline": 0.23,
+      "age_hours": 526.3
+    },
+    {
+      "id": "18124605712926786",
+      "date_ict": "2026-10-07T14:08:32+07:00",
+      "url": "https://www.instagram.com/reel/DeLyXEuN6UA/",
+      "caption": "Ordering food in Vietnam doesn’t have to be complicated 🇻🇳\n\nJust remember: “Cho mình…” = “I’d like…”\n\n🍜 “Cho mình một phở.”\n☕ “Cho mình một cà phê sữa đá.”\n🥖 “Cho mình hai bánh mì.”\n\nAnd if you’re not sure what to order, just point at the menu:\n\n“Cho mình cái này.” 👀\n\nOne simple phrase, and you’re ready to order like a local.\n\nSave this for your next food stop in Vietnam!\n\n#LearnVietnamese #VietnameseLanguage #VietnamTravel #TravelVietnam #VietnameseFood",
+      "likes": 3,
+      "comments": 0,
+      "engagement": 3,
+      "engagement_lift": 0.25,
+      "lift_vs_7day_baseline": 0.23,
+      "age_hours": 620.9
+    },
+    {
+      "id": "17971413426176482",
+      "date_ict": "2026-10-04T15:19:01+07:00",
+      "url": "https://www.instagram.com/reel/DeEMAhRtJYo/",
+      "caption": "Sometimes the best photos start with simply waiting. ☕🚆\n\nSitting by the tracks, having coffee, talking, laughing, and waiting for the train to arrive — no rush, no forced poses.\n\nJust enjoying the moment before we capture it. 📸🇻🇳\n\n📍 Hanoi Train Street\n📸 Shot with TravelFrame Vietnam\n\n💬 Comment “PHOTO” to plan your Hanoi photoshoot with us.\n\n#travelframe #hanoi #hanoitrainstreet #trainstreet #hanoiphotoshoot hanoiphotographer",
+      "likes": 2,
+      "comments": 1,
+      "engagement": 3,
+      "engagement_lift": 0.25,
+      "lift_vs_7day_baseline": 0.23,
+      "age_hours": 691.7
+    },
+    {
+      "id": "18120692500890108",
+      "date_ict": "2026-10-02T16:22:50+07:00",
+      "url": "https://www.instagram.com/reel/Dd_JwoGtVeP/",
+      "caption": "Coming to Hanoi from India? 🇮🇳🇻🇳\n\nFrom old streets and temples to Train Street, egg coffee, local food, and easy day trips — Hanoi has a lot to explore even on your first visit.\n\nVegetarian traveler? Look for the word “chay” when ordering, and if you follow a Jain diet, it’s best to confirm ingredients directly with the restaurant.\n\n📌 Save this for your Hanoi trip.\n💬 Comment “INDIA” and we’ll send you our local Hanoi guide.\n\n#travelframe #hanoi #indiatravel #indiansinvietnam #hanoitravel",
+      "likes": 3,
+      "comments": 0,
+      "engagement": 3,
+      "engagement_lift": 0.25,
+      "lift_vs_7day_baseline": 0.23,
+      "age_hours": 738.6
+    },
+    {
+      "id": "18423508834145838",
+      "date_ict": "2026-10-17T16:00:49+07:00",
+      "url": "https://www.instagram.com/reel/DelvKO6thc0/",
+      "caption": "Hanoi in autumn is basically a photographer’s dream. 🍂📸🇻🇳\n\nGolden sunlight, flower-filled bicycles, charming old streets, and those little everyday moments that make Hanoi feel like a movie.\n\nBut getting the perfect shot? It’s all about knowing when and where to look. 👀\n\nHere are 5 simple photography tips to help you capture the magic of Hanoi this autumn!\n\n✨ Catch the golden hour\n🍁 Look for the little details\n📸 Play with angles and leading lines\n🚲 Capture everyday local life\n🌧️ Turn rainy days into beautiful reflections\n\nAnd if you’d rather enjoy the moment while someone captures it for you… we’ve got you! 😉\n\n📌 Save this for your Hanoi autumn trip!\n💬 Comment “PHOTO” to plan your Hanoi photoshoot with TravelFrame.\n\n#travelframe #hanoi #hanoiautumn #hanoiphotography #hanoiphotoshoot hanoitravel vietnamtravel photographytips autumnvibes",
+      "likes": 0,
+      "comments": 1,
+      "engagement": 1,
+      "engagement_lift": 0.08,
+      "lift_vs_7day_baseline": 0.08,
+      "age_hours": 379.0
+    }
+  ],
+  "likes_share_top_reel_pct": 73.84,
+  "limitations": [
+    "Pinned status unavailable; the upstream metric helper defaults missing isPinned to false. No claim of zero pinned posts.",
+    "Views/saves/shares per Instagram post unavailable. Main ranking uses likes+comments, including potential seed comments.",
+    "Series groups are manually selected exploratory cohorts and cannot establish causal effect.",
+    "September posts had more time to accumulate lifetime engagement. Do not treat month differences as equal-age performance change.",
+    "Facebook shares missing objects are not zero; no Facebook lift calculated.",
+    "Current follows do not represent follower count at publication; ER is not used for recommendations.",
+    "201 observed IG media versus profile count 203: complete coverage is not established."
+  ]
+}

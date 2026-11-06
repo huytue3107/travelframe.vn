@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "partial",
+  "video": "/Users/macbook/Downloads/1006(3)/1006(3)-2.mp4",
+  "observations": [
+    {
+      "kind": "visual",
+      "timestamp_estimate": "0–2",
+      "text": "Người nói với crew; đường phố và xe phía sau.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 0,
+        "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "0–2",
+      "text": "I wanna catch that thing",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 0,
+        "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "2–4",
+      "text": "Camera quay về mặt phố.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 2,
+        "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "2–4",
+      "text": "instead of just waiting for it",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 2,
+        "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "5–6",
+      "text": "Người mẫu đứng xa hơn; crew bố trí góc.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 5,
+        "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "5–6",
+      "text": "Just move",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 5,
+        "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "7",
+      "text": "Crew/camera đổi hướng.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 7,
+        "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "7",
+      "text": "Yeah, right here!",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 7,
+        "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "8–13.1",
+      "text": "Ảnh thành phẩm toàn thân và cận cảnh.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 8,
+        "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "8–13.1",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 8,
+        "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "kind": "inference",
+      "basis": [
+        {
+          "pass": "main",
+          "frame_index": 0,
+          "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 2,
+          "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 5,
+          "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 7,
+          "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 8,
+          "index": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames/frames.json"
+        }
+      ],
+      "reason": "Đổi góc nhìn và hậu cảnh chuyển động; caption giữ lời khuyên chụp từ vị trí an toàn."
+    }
+  ],
+  "asr_limitation": "ASR ghi capture thay catch và thiếu Just move/right here. Không biến chỉ dẫn di chuyển trong clip thành lời khuyên bước ra đường.",
+  "missing": [
+    "post_caption",
+    "platform_subtitles"
+  ],
+  "coverage": {
+    "main": "approximately 1fps throughout",
+    "focused": [
+      "0–3s",
+      "last 3s"
+    ],
+    "focused_rate_fps": 2,
+    "reviewed": "all extracted frames through contact sheets",
+    "continuous_audio_review": false
+  },
+  "timestamp_note": "estimate, not frame-exact"
+}

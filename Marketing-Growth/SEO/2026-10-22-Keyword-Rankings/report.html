@@ -1,0 +1,85 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Keyword Rankings — Oct 22, 2026</title><style>/* One light look, on screen and on paper. The report is read inside the app,
+   which has its own theme toggle, and a saved document has no way to hear about
+   it: a report that follows the OS scheme alone shows a black panel inside a
+   light app for anyone whose two settings disagree. */
+:root{--bg:#fff;--fg:#0a0a0a;--fg-2:#454545;--fg-3:#8f8f8f;--rule:#ebebeb;--rule-2:#dcdcdc;--sunk:#fafafa;
+  /* The one token a report template may change. Left as the text color, so a
+     report with no template looks exactly as it did before. */
+  --accent:var(--fg)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);margin:0;padding:0 24px 120px;font-size:18px;line-height:1.65;letter-spacing:-.003em;
+  font-family:Geist,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.shell{max-width:1100px;margin:0 auto}
+header{padding:40px 0 0;max-width:660px}
+h1{font-size:clamp(34px,6vw,56px);font-weight:700;line-height:1.03;letter-spacing:-.035em;margin:0;text-wrap:balance}
+.byline{margin:24px 0 0;font-size:16px;color:var(--fg-2)}
+.body{display:grid;grid-template-columns:minmax(0,660px) 1fr;gap:0 64px;margin:48px 0 0}
+/* Both explicitly in row 1: without it the rail auto-places into row 1 and
+   pushes the article down a whole row, opening an empty band above the text. */
+article{grid-column:1;grid-row:1;min-width:0}
+.rail{grid-column:2;grid-row:1;font-size:14px;color:var(--fg-3);padding-top:6px}
+.rail .sticky{position:sticky;top:40px}
+.toc-label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3);margin:0 0 10px}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li{margin:0 0 7px}
+.toc a{color:var(--fg-2);text-decoration:none}
+.toc a:hover{color:var(--fg)}
+/* Below 900px the rail is dropped rather than stacked: a contents list above
+   the report is a wall to scroll past on a phone, not a shortcut. */
+@media (max-width:900px){.body{grid-template-columns:1fr}.rail{display:none}}
+article p{margin:0 0 26px;text-wrap:pretty}
+h2{font-size:30px;font-weight:600;letter-spacing:-.025em;line-height:1.2;margin:60px 0 22px;text-wrap:balance}
+h3{font-size:20px;font-weight:600;letter-spacing:-.015em;margin:38px 0 14px}
+.finding{list-style:none;padding:0;margin:0 0 26px}
+.finding li{margin:0 0 8px;color:var(--fg-2)}
+.finding b{color:var(--accent);font-weight:600}
+a{color:var(--fg);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--rule-2)}
+strong{font-weight:600}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;background:var(--sunk);border:1px solid var(--rule);padding:1px 5px;border-radius:4px}
+ul,ol{margin:0 0 26px;padding-left:22px}li{margin:0 0 11px}li::marker{color:var(--fg-3)}
+.note{border-left:2px solid var(--fg);padding:2px 0 2px 22px;margin:0 0 26px}
+.note p{margin:0;color:var(--fg-2)}
+.note p+p{margin-top:14px}
+.tw{overflow-x:auto;margin:0 0 30px}
+table{border-collapse:collapse;width:100%;font-size:15.5px;min-width:440px}
+th{text-align:left;font-weight:500;color:var(--fg-3);padding:0 20px 10px 0;border-bottom:1px solid var(--rule-2);white-space:nowrap}
+td{padding:13px 20px 13px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--fg-2)}
+td:first-child{color:var(--fg)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td:last-child,th:last-child{padding-right:0}
+tr:last-child td{border-bottom:none}
+figure{margin:0 0 30px}
+figcaption{font-size:14px;color:var(--fg-3);margin-top:8px}
+.bars{display:grid;grid-template-columns:minmax(90px,170px) 1fr auto;gap:10px 12px;align-items:center;font-size:14px}
+.bars .label{color:var(--fg-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bars .track{display:block;height:20px;background:var(--sunk)}
+.bars .bar{display:block;height:100%;background:var(--accent);opacity:.16}
+.bars .value{font-variant-numeric:tabular-nums;min-width:3ch;text-align:right}
+svg{display:block;max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--rule);margin:60px 0}
+footer{max-width:660px;margin:64px 0 0;padding:26px 0 0;border-top:1px solid var(--rule);font-size:15px;color:var(--fg-3)}
+@media print{
+  /* A zero top margin hides the browser's own print header (date, tab title);
+     the bottom margin holds a page counter instead of the browser's URL line.
+     The body padding supplies the visible page margins. */
+  @page{margin:0 0 12mm 0;@bottom-center{content:counter(page) " of " counter(pages);font:10px -apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;color:#8f8f8f}}
+  body{background:#fff;color:#111;padding:14mm 16mm 6mm;font-size:11pt}
+  .shell,.body{display:block;max-width:none}
+  header{padding:0;max-width:none}
+  h1{font-size:26pt}
+  h2{font-size:15pt;margin:22pt 0 10pt}
+  h3{font-size:12pt;margin:14pt 0 6pt}
+  article,footer{max-width:none}
+  .rail{display:none}
+  h1,h2,h3{break-after:avoid}
+  table,figure,.note,svg{break-inside:avoid}
+  tr,td,th{break-inside:avoid}
+  p,li{orphans:3;widows:3}
+  thead{display:table-header-group}
+  .tw{overflow:visible}
+  table{font-size:10pt;min-width:0}
+  .byline,footer,figcaption{font-size:9.5pt}
+  svg,.bars .bar,.bars .track{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  a{text-decoration:none}
+}</style></head><body><div class="shell"><header><h1>Keyword Rankings — Oct 22, 2026</h1><p class="byline">Prepared for TravelFrame · October 22, 2026 · US / en / desktop</p></header><div class="body"><aside class="rail"><div class="sticky"><p class="toc-label">Nội dung</p><nav class="toc" aria-label="Nội dung"><ol><li><a href="#ranking-snapshot">Tổng quan</a></li><li><a href="#keyword-rankings">18 từ khóa</a></li><li><a href="#read-the-results">Cách đọc</a></li><li><a href="#search-console-comparison">Search Console</a></li><li><a href="#how-this-report-was-made">Phương pháp</a></li></ol></nav></div></aside><article><h2 id="ranking-snapshot">Thứ hạng hiện tại</h2><ul><li>8/18 từ khóa có URL TravelFrame xuất hiện trong kết quả OpenSEO trả về.</li><li>Hai từ khóa ở trang 2: hanoi photoshoot #18 và photographer in hanoi #19.</li><li>Chưa ghi nhận từ khóa nào ở top 10 trong mẫu Mỹ/en trên máy tính này.</li></ul><h2 id="keyword-rankings">Từng từ khóa</h2><p>Ngày kiểm tra 22/10/2026, Google tại Mỹ, tiếng Anh, desktop. Vị trí chỉ đếm kết quả tự nhiên, không đếm quảng cáo hoặc khối tính năng.</p><div class="tw"><table><thead><tr><th>Từ khóa</th><th>Vị trí</th><th>URL Google trả về</th></tr></thead><tbody><tr><td>hanoi photoshoot</td><td>#18 (trang 2)</td><td><a href="https://travelframe.sidevn.com/hanoi-photoshoot" target="_blank" rel="noopener">/hanoi-photoshoot</a></td></tr><tr><td>photographer in hanoi</td><td>#19 (trang 2)</td><td><a href="https://travelframe.sidevn.com/hanoi-photoshoot" target="_blank" rel="noopener">/hanoi-photoshoot</a></td></tr><tr><td>hanoi photographer</td><td>#28 (trang 3)</td><td><a href="https://travelframe.sidevn.com/hanoi-photoshoot" target="_blank" rel="noopener">/hanoi-photoshoot</a></td></tr><tr><td>hanoi couple photoshoot</td><td>#71 (trang 8)</td><td><a href="https://travelframe.sidevn.com/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026" target="_blank" rel="noopener">/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026</a></td></tr><tr><td>private hanoi photo tour</td><td>#80 (trang 8)</td><td><a href="https://travelframe.sidevn.com/hanoi-photoshoot" target="_blank" rel="noopener">/hanoi-photoshoot</a></td></tr><tr><td>santorini park hanoi</td><td>Chưa thấy trong 52 organic</td><td>Chưa có URL khớp trong mẫu</td></tr><tr><td>vietnam photographer</td><td>Chưa thấy trong 82 organic</td><td>Chưa có URL khớp trong mẫu</td></tr><tr><td>things to do in hanoi old quarter</td><td>#75 (trang 8)</td><td><a href="https://travelframe.sidevn.com/news/hanoi-old-quarter-guide" target="_blank" rel="noopener">/news/hanoi-old-quarter-guide</a></td></tr><tr><td>hanoi old quarter attractions</td><td>#82 (trang 9)</td><td><a href="https://travelframe.sidevn.com/news/hanoi-old-quarter-guide" target="_blank" rel="noopener">/news/hanoi-old-quarter-guide</a></td></tr><tr><td>is hanoi train street open</td><td>#82 (trang 9)</td><td><a href="https://travelframe.sidevn.com/news/hanois-train-street-rhythm-time" target="_blank" rel="noopener">/news/hanois-train-street-rhythm-time</a></td></tr><tr><td>hanoi airport to old quarter</td><td>Chưa thấy trong 73 organic</td><td>Chưa có URL khớp trong mẫu</td></tr><tr><td>hanoi old quarter map</td><td>Chưa thấy trong 77 organic</td><td>Chưa có URL khớp trong mẫu</td></tr><tr><td>hanoi old quarter night market</td><td>Chưa thấy trong 87 organic</td><td>Chưa có URL khớp trong mẫu</td></tr><tr><td>hanoi or ho chi minh</td><td>Chưa thấy trong 86 organic</td><td>Chưa có URL khớp trong mẫu</td></tr><tr><td>hanoi old quarter</td><td>Chưa thấy trong 54 organic</td><td>Chưa có URL khớp trong mẫu</td></tr><tr><td>hanoi old quarter walking tour</td><td>Chưa thấy trong 89 organic</td><td>Chưa có URL khớp trong mẫu</td></tr><tr><td>hanoi walking tour</td><td>Chưa thấy trong 83 organic</td><td>Chưa có URL khớp trong mẫu</td></tr><tr><td>train street hanoi</td><td>Chưa thấy trong 85 organic</td><td>Chưa có URL khớp trong mẫu</td></tr></tbody></table></div><p>“Trang” quy ước 10 kết quả tự nhiên mỗi trang; Google có thể hiển thị cuộn liên tục. Chưa thấy trong mẫu không có nghĩa hạng trên 100 hoặc website chưa được index.</p><h2 id="read-the-results">Cách đọc kết quả</h2><ul><li>Photoshoot đang có vị trí cho ba cụm gần nhau: #18, #19 và #28, nhưng chưa vào top 10 của mẫu.</li><li>Từ khóa couple hiện đưa tới bài guide, không phải trang dịch vụ. Chưa đủ dữ liệu kết luận các trang tự cạnh tranh.</li><li>Giữ ảnh chụp lần kiểm tra này làm mốc; so sánh sau bằng cùng quốc gia, ngôn ngữ, thiết bị và độ sâu.</li></ul><div class="note"><p>Audit trước chỉ lấy 20 phần tử kết quả hỗn hợp; lần này lấy sâu hơn. Các thứ hạng mới nhìn thấy không chứng minh website vừa tăng tương ứng.</p></div><h2 id="search-console-comparison">Vị trí trung bình Search Console</h2><p>Trong 18 từ khóa, chỉ “santorini park hanoi” có dòng khớp ở dữ liệu query kỳ 22/09–19/10/2026 Pacific Time: vị trí trung bình <strong>4,5</strong>, 8 lần hiển thị, 0 click. Dữ liệu này gộp mọi quốc gia và thiết bị, khác kiểm tra Mỹ/en desktop hiện tại.</p><p>Trong mẫu Mỹ/en desktop cho Santorini, OpenSEO trả 52 kết quả tự nhiên và không có URL TravelFrame. Hai kết quả này không mâu thuẫn vì khác phạm vi và thời gian. Các từ khóa không có dòng GSC là không có dữ liệu query trả về, không phải vị trí 0 hay bằng chứng không được tìm kiếm.</p><h2 id="how-this-report-was-made">How this report was made</h2><p>Generated by the <a href="https://openseo.so/docs/skills/keyword-research" target="_blank" rel="noopener">OpenSEO Keyword Research skill</a>, run by Codex on October 22, 2026.</p><p>Đọc đủ 18 từ khóa đã lưu theo roadmap. Dùng OpenSEO get_serp_results trực tiếp, location2840, en, desktop; lấy cả travelframe.sidevn.com và travelframe.vn làm tên miền khớp chính xác. Không dùng ước tính ranking của provider hoặc GSC trung bình để thay vị trí hiện tại.</p><details><summary>Phạm vi kiểm tra và giới hạn dữ liệu</summary><div class="tw"><table><thead><tr><th>Từ khóa</th><th class="n">Độ sâu yêu cầu</th><th class="n">Phần tử trả về</th><th class="n">Organic trả về</th></tr></thead><tbody><tr><td>hanoi photoshoot</td><td class="n">100</td><td class="n">100</td><td class="n">84</td></tr><tr><td>photographer in hanoi</td><td class="n">100</td><td class="n">90</td><td class="n">78</td></tr><tr><td>hanoi photographer</td><td class="n">40</td><td class="n">40</td><td class="n">33</td></tr><tr><td>hanoi couple photoshoot</td><td class="n">100</td><td class="n">100</td><td class="n">86</td></tr><tr><td>private hanoi photo tour</td><td class="n">100</td><td class="n">100</td><td class="n">89</td></tr><tr><td>santorini park hanoi</td><td class="n">100</td><td class="n">67</td><td class="n">52</td></tr><tr><td>vietnam photographer</td><td class="n">100</td><td class="n">100</td><td class="n">82</td></tr><tr><td>things to do in hanoi old quarter</td><td class="n">100</td><td class="n">91</td><td class="n">87</td></tr><tr><td>hanoi old quarter attractions</td><td class="n">100</td><td class="n">99</td><td class="n">93</td></tr><tr><td>is hanoi train street open</td><td class="n">100</td><td class="n">100</td><td class="n">88</td></tr><tr><td>hanoi airport to old quarter</td><td class="n">100</td><td class="n">83</td><td class="n">73</td></tr><tr><td>hanoi old quarter map</td><td class="n">100</td><td class="n">90</td><td class="n">77</td></tr><tr><td>hanoi old quarter night market</td><td class="n">100</td><td class="n">100</td><td class="n">87</td></tr><tr><td>hanoi or ho chi minh</td><td class="n">100</td><td class="n">98</td><td class="n">86</td></tr><tr><td>hanoi old quarter</td><td class="n">100</td><td class="n">76</td><td class="n">54</td></tr><tr><td>hanoi old quarter walking tour</td><td class="n">100</td><td class="n">100</td><td class="n">89</td></tr><tr><td>hanoi walking tour</td><td class="n">100</td><td class="n">100</td><td class="n">83</td></tr><tr><td>train street hanoi</td><td class="n">100</td><td class="n">100</td><td class="n">85</td></tr></tbody></table></div><ul><li>17 từ khóa yêu cầu100 phần tử; hanoi photographer yêu cầu100 gặp lỗi giải mã phản hồi, truy vấn40 thành công và tìm thấy #28.</li><li>100 phần tử hỗn hợp không phải 100 kết quả tự nhiên. Số organic thực nhận 33–93; không báo các dòng thiếu là ngoài top100.</li><li>photographer in hanoi có cùng URL ở #19 và #26 trong dữ liệu; bảng lấy vị trí tốt nhất #19. Đã đối chiếu organicRank với số thứ tự organic tự đếm.</li><li>Những phản hồi bị mất được đọc lại từ cache theo cùng market/device/depth; không coi đó là nhiều lần quan sát độc lập.</li><li>Vị trí GSC là số trung bình trên impressions trong cửa sổ lịch sử; không chuyển thành thứ hạng hiện tại tại Mỹ.</li><li>Không bật hoặc sửa lịch rank tracker. Hai tracker hiện có chưa có lastCheckedAt; báo cáo dựa vào kiểm tra SERP thủ công.</li><li>Không sửa website hoặc gửi booking. Kết quả này không dự báo traffic, booking hay doanh thu.</li></ul><p>Nguồn: <a href="https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/saved" target="_blank" rel="noopener">18 từ khóa đã lưu</a>, <a href="https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/search-performance" target="_blank" rel="noopener">Search Console qua OpenSEO</a> và <a href="https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/reports/35493e4e-d0bc-4641-af8a-ed829b0e9385" target="_blank" rel="noopener">audit 22/10</a>.</p></details></article></div><footer>Prepared with OpenSEO. Data as of October 22, 2026.</footer></div></body></html>

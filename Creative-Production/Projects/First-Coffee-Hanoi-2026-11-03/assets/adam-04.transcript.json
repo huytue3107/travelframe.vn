@@ -1,0 +1,54 @@
+{
+  "audio": "assets/adam-04.wav",
+  "language": "en",
+  "words": [
+    {
+      "text": "Prefer",
+      "start": 0.08,
+      "end": 0.38,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "it",
+      "start": 0.42,
+      "end": 0.54,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "less",
+      "start": 0.58,
+      "end": 0.78,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "sweet?",
+      "start": 0.84,
+      "end": 1.18,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "Ask",
+      "start": 1.96,
+      "end": 2.22,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "before",
+      "start": 2.26,
+      "end": 2.6,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "you",
+      "start": 2.64,
+      "end": 2.76,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "order",
+      "start": 2.84,
+      "end": 3.12,
+      "speaker": "speaker_0"
+    }
+  ]
+}

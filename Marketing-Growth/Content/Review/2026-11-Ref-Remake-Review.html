@@ -1,0 +1,564 @@
+<!DOCTYPE html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TravelFrame — Review 22 bài remake tháng 11</title><style>
+:root{--bg:#f6f3ee;--card:#fff;--ink:#1f2328;--mut:#646b73;--line:#e4ded4;--P:#b4532a;--U:#1f6f8b;--D:#3f7d4e;--O:#7a4fa3}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14.5px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:1320px;margin:0 auto;padding:24px}h1{font-size:23px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 14px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:12px 0}.panel ul{margin:6px 0;padding-left:18px}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center;border-bottom:1px solid var(--line)}
+.bar button{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;cursor:pointer}.bar button.on{background:var(--ink);color:#fff}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:14px 0;overflow:hidden}
+.card header{display:flex;gap:14px;padding:14px 16px;border-bottom:1px solid var(--line)}.date{font-weight:700;min-width:62px}.date small{display:block;color:var(--mut);font-weight:400}
+h3{margin:4px 0 2px;font-size:17px}h4{margin:10px 0 4px;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut)}
+.tag{color:#fff;font-size:12px;font-weight:700;border-radius:6px;padding:1px 7px;margin-right:6px}.t-P{background:var(--P)}.t-U{background:var(--U)}.t-D{background:var(--D)}.t-O{background:var(--O)}
+.fmt,.kw,.st{font-size:12px;border:1px solid var(--line);border-radius:6px;padding:0 6px;margin-right:6px}.kw{font-weight:700}
+.st-drafted{color:#1a7f37;border-color:#1a7f37}.st-drafted_flagged{color:#9a6700;border-color:#9a6700}.st-blocked{color:#b42318;border-color:#b42318}
+.blk{color:#b42318;margin:4px 0 0}code{color:var(--mut);font-size:12px}
+.grid{display:grid;grid-template-columns:1fr 1.1fr 1.1fr;gap:0}.grid section{padding:6px 16px 14px;border-right:1px solid var(--line)}.grid section:last-child{border-right:none}
+pre{white-space:pre-wrap;font:13.5px/1.5 inherit;font-family:inherit;background:#fbfaf7;border:1px solid var(--line);border-radius:8px;padding:10px;margin:0}
+mark{background:#fff1c2;padding:0 2px;border-radius:3px}.note{color:var(--mut);font-size:13px}.refs{padding-left:16px;margin:4px 0}.m{color:var(--mut);font-size:12px}
+table{border-collapse:collapse;width:100%;font-size:13px}td{border-top:1px solid var(--line);padding:4px 6px;vertical-align:top}
+.dec{display:block;margin-top:10px;font-weight:600}.dec select{font:inherit;margin-left:6px}textarea{width:100%;margin-top:6px;font:inherit;font-size:13px;border:1px solid var(--line);border-radius:6px;padding:6px}
+#out{display:none;width:100%;min-height:140px;font:13px ui-monospace,Menlo,monospace}
+@media(max-width:980px){.grid{grid-template-columns:1fr}.grid section{border-right:none;border-bottom:1px solid var(--line)}}
+</style></head><body><div class="wrap">
+<h1>Review 22 bài remake theo ref đã duyệt — tháng 11/2026</h1>
+<p class="sub">Trạng thái: Draft/Review · Lập 06/11/2026 · Folder: <code>Marketing-Growth/Content/Drafts/</code> · drafted 5 · drafted_flagged 12 · blocked 5</p>
+<div class="panel"><b>Cần anh biết trước khi duyệt</b><ul>
+<li>Bài Tết chuyển lên <b>10/11</b> theo ghi chú "làm sớm". <b>16/11</b> và <b>23/11</b> đang trống (ref bị bỏ / bài đã chuyển).</li>
+<li>Sửa sai trong kế hoạch: bộ Paul (thực ra là một khách nữ, đã lên lịch 15–21/10), bộ Hanna (đã lên lịch 11–17/10), BTS flare (~18/10) đã đăng → các bài dùng chúng được viết thành bản dựng mới từ footage gốc, hook mới.</li>
+<li>Keyword giữ theo Seed Comment Playbook đã duyệt (PHOTO / SAFE / FOOD / MAP / WORDS). Chỗ tô vàng <mark>[VERIFY]</mark> phải kiểm và xóa trước khi đăng.</li>
+<li>Mọi draft đã qua checker <code>check_draft.py</code>: không có lỗi chép nguyên văn ≥8 từ từ ref.</li></ul></div>
+<div class="bar"><button class="on" data-f="all">Tất cả</button><button data-f="P">P</button><button data-f="U">U</button><button data-f="D">D</button><button data-f="O">O</button><button data-f="blocked">Blocked</button><button id="ex">Xuất quyết định</button></div>
+<textarea id="out" readonly></textarea>
+
+<article class="card" data-p="P" data-st="drafted">
+ <header><div class="date">07/11<small>T7</small></div>
+  <div><span class="tag t-P">P · Proof</span><span class="fmt">reel</span><span class="kw">PHOTO</span><span class="st st-drafted">drafted</span>
+  <h3>First pro shoot: minute 1 vs minute 30</h3><code>Drafts/2026-11-07-first-shoot-before-after/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/@kienquancreates/video/7387440182527577387' target='_blank' rel='noopener'>@kienquancreates</a> <span class='m'>16,2K like · 151 cmt</span></li></ul><p>Câu mở đặt người xem vào tình huống của nhân vật (cô ấy tưởng đã đứng đúng chỗ) → thợ chụp can thiệp, chỉnh 1–2 lần → vài nhịp bấm máy → lật ảnh thành phẩm, giữ khung cuối 2 giây. Không thoại dài, âm thanh gốc + tiếng shutter.</p><h4>Làm lại cho TravelFrame</h4><p>Đổi tình huống thành: khách chưa từng chụp chuyên nghiệp, chỉ quen selfie. Dùng mốc thời gian (phút 1 → phút 10 → phút 30) làm xương sống để người xem thấy thay đổi. Kết bằng khoảnh khắc khách xem màn hình máy ảnh.</p><p class="note"><b>Asset:</b> Dựng lại từ footage gốc bộ Paul (post-1, post-5, post-7). Bộ này đã lên lịch FB 15–21/10 → không đăng lại nguyên clip; phải là bản dựng mới, hook mới. Không nêu tên địa điểm (chưa xác nhận).</p></section>
+  <section><h4>Hook (0–3s)</h4><p>She only ever took selfies. This was her first real photoshoot.</p><h4>Beats</h4><ol><li>Minute 1. Arms stiff, eyes locked on the lens, a nervous laugh. Overlay: Minute 1.</li><li>Minute 10. One direction at a time: turn your back, touch your hair, soften the hand. Overlay: Minute 10.</li><li>Minute 30. She stops posing and starts moving. The photos change with her. Overlay: Minute 30.</li><li>The reveal. She sees the back of the camera and goes quiet, then laughs. Hold the final frame. Pro move: if you freeze, ask to see the screen after the first few shots.</li></ol><h4>CTA</h4><p>Never done a real photoshoot either? Comment PHOTO with your travel month and we will plan yours.</p><p class='note'><b>Shot notes:</b> 0–3s: clip cứng đơ nhất của khách. 3–12s: Harry chỉ dáng (giữ tiếng nói gốc). 12–20s: khách tự nhiên. 20–28s: khách xem màn hình + 3 ảnh thành phẩm (1,5s/ảnh). Overlay chỉ 3 chữ mốc thời gian.</p></section>
+  <section><h4>Caption</h4><pre>She only ever took selfies. This was her first real photoshoot. 📸
+
+Minute 1: stiff arms, eyes on the lens.
+Minute 10: one small direction at a time.
+Minute 30: she stopped posing and started moving.
+
+Pro move: if you freeze in front of a camera, ask to see the screen after the first few shots. It resets everything.
+
+Never done a real photoshoot either? Comment PHOTO with your travel month and we will plan yours.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #behindthescenes #firstphotoshoot #travelphotography #vietnamtravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Be honest: would your first photo look more like minute 1 or minute 30? 😅</p><p><b>C2:</b> Extra tip not in the video: wear shoes you can walk in. Moving shots fix most stiff poses. Comment PHOTO for our route and prices.</p>
+   <details><summary>Claims cần kiểm (2)</summary><table><tr><td>Khách là client thật, đồng ý dùng hình cho bản dựng mới</td><td><mark>[VERIFY]</mark> consent register</td></tr><tr><td>Mốc phút 1/10/30</td><td>Cấu trúc dựng, không phải số đo thời gian thực — ghi rõ khi dựng</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-07-first-shoot-before-after"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-07-first-shoot-before-after" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="D" data-st="drafted">
+ <header><div class="date">08/11<small>CN</small></div>
+  <div><span class="tag t-D">D · Discovery</span><span class="fmt">reel</span><span class="kw">PHOTO</span><span class="st st-drafted">drafted</span>
+  <h3>Sunday morning at Hoàn Kiếm, on foot</h3><code>Drafts/2026-11-08-hoan-kiem-sunday-morning-pov/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.instagram.com/reel/DfFECG5yYXY/' target='_blank' rel='noopener'>TravelFrame · Get lost on foot</a> <span class='m'>65 like · 14 share FB</span></li><li><a href='https://www.instagram.com/reel/De3w7gZNrHi/' target='_blank' rel='noopener'>TravelFrame · Quiet kind of beauty</a> <span class='m'>26 like</span></li></ul><p>Công thức thắng của chính TravelFrame: 12–17 giây, POV đi bộ, không lời dẫn, âm thanh phố + nhạc nhẹ; caption 2–3 câu cảm xúc + 1 dòng địa điểm; không nhồi CTA.</p><h4>Làm lại cho TravelFrame</h4><p>Giữ nguyên độ dài và nhịp. Khác ở chỗ: quay riêng buổi sáng Chủ nhật quanh hồ (tập thể dục, sương sớm, quán vỉa hè) thay vì phố cổ chung chung. Thêm 1 dòng CTA mềm để chạy được seed comment.</p><p class="note"><b>Asset:</b> Quay mới sáng CN 08/11, 6:00–7:00, gimbal hoặc cầm tay chậm, 4K 30fps.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Sunday, 6:30 AM. The lake belongs to the locals.</p><h4>Beats</h4><ol><li>Feet walking along the lake edge, mist on the water.</li><li>Groups exercising, a bicycle passing, someone stretching by a tree.</li><li>A tiny sidewalk stool, a glass of tea, steam rising.</li><li>Pull back wide: the lake, the bridge, the city still waking up.</li></ol><h4>CTA</h4><p>Save this for your first morning in Hanoi. Want a slow morning photo walk like this? Comment PHOTO.</p><p class='note'><b>Shot notes:</b> Không overlay ngoài dòng đầu. 4 cảnh, mỗi cảnh 3–4 giây. Không quay cận mặt người lạ khi chưa xin phép; ưu tiên dáng xa, bóng lưng.</p></section>
+  <section><h4>Caption</h4><pre>Sunday, 6:30 AM. Before the scooters, the lake belongs to the locals. 🍃
+
+Slow steps, a bench, a hot tea, and nowhere to be.
+
+📍 Hoàn Kiếm Lake, Hanoi
+
+Save this for your first morning in Hanoi. Want a slow morning photo walk like this? Comment PHOTO.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #hoankiemlake #slowtravel #hanoimorning #vietnamtravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Sunrise walk or sleep in on vacation? Be honest.</p><p><b>C2:</b> Small tip: the lake is calmest before 7 AM on weekends. Comment PHOTO and we will share our sunrise route.</p>
+   <details><summary>Claims cần kiểm (1)</summary><table><tr><td>Hồ yên nhất trước 7h sáng cuối tuần</td><td><mark>[VERIFY]</mark> quan sát thực tế khi quay</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-08-hoan-kiem-sunday-morning-pov"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-08-hoan-kiem-sunday-morning-pov" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="U" data-st="drafted_flagged">
+ <header><div class="date">09/11<small>T2</small></div>
+  <div><span class="tag t-U">U · Utility</span><span class="fmt">reel</span><span class="kw">SAFE</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>3 mistakes that cost first-timers their first day in Hanoi</h3><code>Drafts/2026-11-09-hanoi-first-day-mistakes/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/@global.and.beyond.travel/video/7485908526817135880' target='_blank' rel='noopener'>@global.and.beyond.travel</a> <span class='m'>—</span></li><li><a href='https://www.tiktok.com/discover/how-to-travel-to-hanoi' target='_blank' rel='noopener'>@itshelenmelon (Discover)</a> <span class='m'>3.328 like · 38 cmt</span></li><li><a href='https://www.instagram.com/reel/DbyLu2hJ0VA/' target='_blank' rel='noopener'>@itshelenmelon · ultimate guide</a> <span class='m'>research 17/09</span></li></ul><p>Hook cảnh báo gắn đúng thời điểm (trước khi hạ cánh / ngày đầu) + đánh số đúng 3 lỗi, lỗi cuối là lỗi tốn tiền nhất để giữ người xem đến hết; mỗi lỗi: lỗi → cách sửa trong 1–2 câu; kết bằng lời mời lưu.</p><h4>Làm lại cho TravelFrame</h4><p>Thu hẹp từ Việt Nam xuống Hà Nội ngày đầu. Giọng bạn địa phương, không dọa. Lỗi chọn từ I-007 và chỉ giữ lỗi có thể kiểm chứng. Thêm host TravelFrame xuất hiện ở lỗi số 2 (hỏi trước khi chụp) để nối với dịch vụ.</p><p class="note"><b>Asset:</b> Quay mới: host nói ra camera 3 đoạn ngắn + B-roll quầy đổi tiền, chụp người bán hàng (có xin phép), quán có bảng giá.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Landing in Hanoi soon? Three mistakes that waste your first day. Number three costs money.</p><h4>Beats</h4><ol><li>Mistake one: changing all your cash at the airport. Change a small amount for the ride, then compare rates in town. <mark>[VERIFY]</mark></li><li>Mistake two: photographing people without asking. A smile and a pointed camera usually gets a yes. Some vendors may ask for a small fee, so agree first.</li><li>Mistake three: ordering where no price is shown. Point at the menu or ask the price before you sit. Pro move: learn bao nhiêu, which means how much.</li></ol><h4>CTA</h4><p>Save this before your flight and send it to the friend who always wings it. Comment SAFE for our full first-day checklist.</p><p class='note'><b>Shot notes:</b> Overlay số 1/2/3 lớn ở góc. Lỗi 3 kết bằng cận bảng giá. Không nêu tên quầy đổi tiền hay quán cụ thể.</p></section>
+  <section><h4>Caption</h4><pre>Landing in Hanoi soon? Three mistakes that waste your first day. Number three costs money. 🇻🇳
+
+1. Changing all your cash at the airport. Change a little for the ride, then compare rates in town. <mark>[VERIFY]</mark>
+2. Photographing people without asking. Smile, point at the camera, wait for a yes.
+3. Ordering where no price is shown. Ask first, or point at the menu.
+
+Pro move: learn bao nhiêu (how much). It solves half your problems.
+
+Save this before your flight and send it to the friend who always wings it. Comment SAFE for our full first-day checklist.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #hanoitravel #vietnamtraveltips #firsttimeinvietnam #traveltips</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Which one have you done before: 1, 2 or 3? No judgment.</p><p><b>C2:</b> Extra tip that is not in the video: download Grab before you land so the airport ride price is clear. Comment SAFE for our checklist.</p>
+   <details><summary>Claims cần kiểm (3)</summary><table><tr><td>Tỷ giá ở sân bay thường kém hơn trong phố</td><td><mark>[VERIFY]</mark> 2 nguồn gần ngày đăng</td></tr><tr><td>Một số người bán hàng có thể xin phí chụp ảnh</td><td>Nguồn: Hanoi Times / VietNamNet (bài bán trái cây + nón lá) — <mark>[VERIFY]</mark> lại gần ngày đăng</td></tr><tr><td>Grab hiển thị giá trước khi đi</td><td><mark>[VERIFY]</mark></td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-09-hanoi-first-day-mistakes"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-09-hanoi-first-day-mistakes" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="U" data-st="drafted_flagged">
+ <header><div class="date">10/11<small>T3</small></div>
+  <div><span class="tag t-U">U · Utility</span><span class="fmt">reel</span><span class="kw">SAFE</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>Should you visit Hanoi during Tết 2027?</h3><code>Drafts/2026-11-10-should-you-visit-hanoi-during-tet/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.youtube.com/watch?v=kHiUrBx493Y' target='_blank' rel='noopener'>DON&#x27;T COME TO VIETNAM DURING TET 2027?!</a> <span class='m'>—</span></li><li><a href='https://www.tiktok.com/@two_peas_abroad/video/7606703496028622102' target='_blank' rel='noopener'>@two_peas_abroad · where to go during Tết</a> <span class='m'>832 like</span></li></ul><p>Hook nghịch (đừng đến dịp Tết?!) tạo tò mò → trả lời không tuyệt đối → danh sách tip thực tế: ở thành phố lớn, có phụ phí, chợ Tết nên đi, cư xử tử tế với người làm việc ngày Tết.</p><h4>Làm lại cho TravelFrame</h4><p>Rocky ghi chú làm sớm → chuyển từ 23/11 lên 10/11 để khách Mỹ kịp đặt vé tháng 2. Trả lời rõ: nên đến, nếu lên lịch theo 3 giai đoạn (trước Tết / giao thừa / mùng 1–3). Đóng vai người địa phương giải thích, không phải khách than phiền.</p><p class="note"><b>Asset:</b> B-roll chợ hoa Tết năm ngoái (nếu có quyền dùng) hoặc ảnh tự sản xuất; host nói 3 đoạn. Không dùng footage của kênh khác.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Everyone says don&#x27;t visit Vietnam during Tết. Here&#x27;s the local answer.</p><h4>Beats</h4><ol><li>Come the week before. Flower markets, kumquat trees on scooters, the whole city shopping. The best photo week of the year. <mark>[VERIFY]</mark></li><li>New Year&#x27;s Eve is for the streets. Fireworks and crowds around the lake. Plan your ride home early. <mark>[VERIFY]</mark></li><li>Days one to three are quiet. Many family shops close and some services charge a holiday surcharge. Book food and transport ahead. <mark>[VERIFY]</mark></li><li>Tết 2027 falls in early February. Check the exact date before you book. <mark>[VERIFY]</mark></li></ol><h4>CTA</h4><p>Planning a February trip? Save this and send it to your travel buddy. Comment SAFE for our Tết checklist.</p><p class='note'><b>Shot notes:</b> Overlay 3 nhãn: BEFORE TẾT / NEW YEAR&#x27;S EVE / DAYS 1–3. Hook mở bằng chữ đỏ trên nền phố vắng.</p></section>
+  <section><h4>Caption</h4><pre>Everyone says don&#x27;t visit Vietnam during Tết. Here&#x27;s the local answer: come, just plan around three phases. 🏮
+
+Before Tết: flower markets and kumquat trees on scooters. Our favourite photo week. <mark>[VERIFY]</mark>
+New Year&#x27;s Eve: crowds and fireworks near the lake. Plan your ride home early. <mark>[VERIFY]</mark>
+Days one to three: quiet streets, many family shops closed, some holiday surcharges. Book ahead. <mark>[VERIFY]</mark>
+
+Tết 2027 falls in early February. Check the exact date before you book flights. <mark>[VERIFY]</mark>
+
+Planning a February trip? Save this and send it to your travel buddy. Comment SAFE for our Tết checklist.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #tet2027 #lunarnewyear #vietnamtravel #hanoitravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Would you rather see Hanoi busy before Tết or quiet right after?</p><p><b>C2:</b> Extra tip not in the video: book your airport ride for Tết week in advance. Comment SAFE and we will DM our Tết checklist.</p>
+   <details><summary>Claims cần kiểm (4)</summary><table><tr><td>Ngày Tết 2027 (đầu tháng 2)</td><td><mark>[VERIFY]</mark> lịch chính thức</td></tr><tr><td>Nhiều cửa hàng gia đình đóng cửa mùng 1–3</td><td><mark>[VERIFY]</mark></td></tr><tr><td>Có phụ phí dịch vụ dịp Tết</td><td><mark>[VERIFY]</mark> — ref nói khoảng 10%, không đưa con số khi chưa kiểm chứng</td></tr><tr><td>Chợ hoa / quất trên xe máy tuần trước Tết; pháo hoa giao thừa quanh hồ</td><td><mark>[VERIFY]</mark> kế hoạch pháo hoa năm 2027</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-10-should-you-visit-hanoi-during-tet"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-10-should-you-visit-hanoi-during-tet" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="D" data-st="drafted_flagged">
+ <header><div class="date">11/11<small>T4</small></div>
+  <div><span class="tag t-D">D · Discovery</span><span class="fmt">reel</span><span class="kw">PHOTO</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>Hanoi only gets this for about three weeks a year</h3><code>Drafts/2026-11-11-hanoi-daisy-season/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.youtube.com/watch?v=GANGd0GMK5A' target='_blank' rel='noopener'>VTV Digital · Cúc họa mi đầu mùa</a> <span class='m'>—</span></li></ul><p>Tin mùa + khan hiếm (chỉ nở 2–3 tuần) → cảnh xe hoa trên phố → người dân và thiếu nữ chụp ảnh → lời giục đi nhanh.</p><h4>Làm lại cho TravelFrame</h4><p>Dịch sự khan hiếm sang ngôn ngữ khách quốc tế: chỉ khách đến Hà Nội đúng tháng 11 mới thấy. Thay người mẫu nội địa bằng khách/host TravelFrame tạo dáng cạnh xe hoa. Thêm phép lịch sự: mua hoa, hỏi trước khi chụp.</p><p class="note"><b>Asset:</b> Quay mới GẤP trong tuần 09–12/11 (mùa ngắn). Cần 1 người mặc tông trơn, 1 bó cúc họa mi mua của người bán.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Hanoi only gets this for about three weeks a year. <mark>[VERIFY]</mark></p><h4>Beats</h4><ol><li>Bicycles loaded with tiny white daisies roll into the Old Quarter. Locals call them cúc họa mi.</li><li>People stop, buy a bunch, and carry winter home under their arm.</li><li>Pro move: buy a small bunch from the vendor first, then ask before you take photos with the bike.</li><li>One bouquet, one quiet street, one photo you will keep.</li></ol><h4>CTA</h4><p>Visiting Hanoi in November? Comment PHOTO with your dates and we will tell you if you will catch them.</p><p class='note'><b>Shot notes:</b> Hook: cận xe đạp chở hoa đi qua khung hình. Không quay cận mặt người bán khi chưa xin phép. Kết bằng ảnh tĩnh người cầm bó hoa.</p></section>
+  <section><h4>Caption</h4><pre>Hanoi only gets this for about three weeks a year. <mark>[VERIFY]</mark> 🤍
+
+When the first cold days arrive, bicycles full of tiny white daisies (cúc họa mi) roll into the Old Quarter.
+
+Pro move: buy a small bunch from the vendor first, then ask before taking photos with the bike. <mark>[VERIFY]</mark>
+
+Visiting Hanoi in November? Comment PHOTO with your dates and we will tell you if you will catch them.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #cuchoami #hanoiautumn #hanoiwinter #vietnamtravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Would you take this bouquet home or give it away on the street? 🤍</p><p><b>C2:</b> Small tip: the carts are easiest to find in the morning. Comment PHOTO with your dates and we will plan a daisy walk.</p>
+   <details><summary>Claims cần kiểm (3)</summary><table><tr><td>Mùa cúc họa mi kéo dài khoảng 2–3 tuần, tháng 11</td><td>Nguồn: VTV Digital, SGGP, VietNamNet — <mark>[VERIFY]</mark> đầu mùa năm 2026 bằng footage thực</td></tr><tr><td>Giá một bó hoa</td><td><mark>[VERIFY]</mark> hỏi trực tiếp người bán</td></tr><tr><td>Xe hoa dễ gặp buổi sáng</td><td><mark>[VERIFY]</mark></td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-11-hanoi-daisy-season"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-11-hanoi-daisy-season" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="U" data-st="drafted_flagged">
+ <header><div class="date">12/11<small>T5</small></div>
+  <div><span class="tag t-U">U · Utility</span><span class="fmt">reel</span><span class="kw">WORDS</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>5 Vietnamese phrases that make Hanoi easier</h3><code>Drafts/2026-11-12-five-vietnamese-phrases/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/@levion.learnvietnamese/video/7275704383998856450' target='_blank' rel='noopener'>@levion.learnvietnamese</a> <span class='m'>19,9K like · 212 cmt</span></li><li><a href='https://www.tiktok.com/discover/vietnamese-phrases?lang=en' target='_blank' rel='noopener'>@vietnamese.with.chau (Discover)</a> <span class='m'>3.088 like · 89 cmt</span></li><li><a href='https://www.tiktok.com/discover/vietnamese-phrases?lang=en' target='_blank' rel='noopener'>@nguyenfoodstall (Auntie Sylvia)</a> <span class='m'>30,4K like · 276 cmt</span></li></ul><p>Ghép 3 ref: (1) danh sách câu cơ bản cho người mới, mỗi câu có phiên âm trên màn hình; (2) nhân vật có cá tính (cô/dì nghiêm mà dễ thương) làm người xem cười và comment thử phát âm; (3) cuối video: comment từ khóa để nhận cheat sheet miễn phí.</p><h4>Làm lại cho TravelFrame</h4><p>Host TravelFrame đóng vai dì Hà Nội dạy 5 câu, mỗi câu kèm 1 cảnh dùng thật (quán cà phê, chợ, gọi tính tiền). Từ khóa theo Seed Playbook: WORDS. Cheat sheet phải có sẵn trước ngày đăng.</p><p class="note"><b>Asset:</b> Có thể dựng lại từ survival-vietnamese_v02_denoised.mp4 (chưa thấy bằng chứng đã đăng — [VERIFY]) hoặc quay mới với host.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Five Vietnamese phrases. Your Hanoi auntie will check your pronunciation.</p><h4>Beats</h4><ol><li>Cảm ơn: thank you. Say it like gahm uhn. Use it everywhere.</li><li>Bao nhiêu: how much? Bow nyew. Point, then ask.</li><li>Ít ngọt: less sweet. Your coffee will thank you.</li><li>Không cay: not spicy. Khom kai. Unless you are brave.</li><li>Tính tiền: the bill, please. Ting tee-en. Auntie approves.</li></ol><h4>CTA</h4><p>Comment your best try below. Comment WORDS and we will send you our one-page cheat sheet.</p><p class='note'><b>Shot notes:</b> Phiên âm hiển thị to ở giữa màn hình. Dì gật đầu / lắc đầu sau mỗi câu (nhịp hài). Không chế giễu khách nước ngoài.</p></section>
+  <section><h4>Caption</h4><pre>Five Vietnamese phrases that make Hanoi easier. Your Hanoi auntie is listening. 👀
+
+Cảm ơn: thank you (gahm uhn)
+Bao nhiêu: how much? (bow nyew)
+Ít ngọt: less sweet
+Không cay: not spicy (khom kai)
+Tính tiền: the bill, please (ting tee-en)
+
+Pronunciation guides are approximate. Locals love the effort more than perfect tones.
+
+Comment your best try below, and comment WORDS for our one-page cheat sheet.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #learnvietnamese #vietnamesephrases #vietnamtravel #traveltips</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Which one will you use first: thank you, how much, or the bill please?</p><p><b>C2:</b> Bonus phrase not in the video: ngon quá means so delicious. Vendors love hearing it. Comment WORDS for the cheat sheet.</p>
+   <details><summary>Claims cần kiểm (2)</summary><table><tr><td>Phiên âm gần đúng</td><td>Ghi rõ approximate trong caption</td></tr><tr><td>Cheat sheet WORDS có sẵn để gửi DM</td><td><mark>[VERIFY]</mark> tài liệu phải sẵn trước ngày đăng</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-12-five-vietnamese-phrases"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-12-five-vietnamese-phrases" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="O" data-st="blocked">
+ <header><div class="date">13/11<small>T6</small></div>
+  <div><span class="tag t-O">O · Offer</span><span class="fmt">carousel</span><span class="kw">PHOTO</span><span class="st st-blocked">blocked</span>
+  <h3>How a Hanoi photo walk works</h3><code>Drafts/2026-11-13-how-a-photo-walk-works/</code><p class="blk">⛔ Chờ chốt Delivery SLA, thời gian phản hồi DM (Open P0).</p></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.flytographer.com/gift-cards/' target='_blank' rel='noopener'>Flytographer · Gift cards / packages</a> <span class='m'>$325–$715</span></li><li><a href='https://www.tiktok.com/discover/engagement-photoshoot-vietnam' target='_blank' rel='noopener'>Hội An quick photoshoot (Discover)</a> <span class='m'>—</span></li></ul><p>Flytographer: mỗi gói ghi theo thứ tự cố định thời lượng → số ảnh → số địa điểm → file số, khách so sánh trong 2 giây. Ref Hội An: khách tìm thợ trên mạng, nhắn trước 2 ngày vẫn chụp được → quy trình nhanh là điểm bán.</p><h4>Làm lại cho TravelFrame</h4><p>Chuyển thành 4 bước rõ ràng và một slide nói về đặt gấp. Thông số (thời gian phản hồi, số ảnh, số ngày giao) để [VERIFY] vì Delivery SLA đang là P0 chưa chốt. Bài này BLOCKED tới khi Rocky chốt SLA.</p><p class="note"><b>Asset:</b> Ảnh tự sản xuất có consent cho từng slide (DM, route map, BTS, gallery).</p></section>
+  <section><h4>Slides</h4><ol><li><b>How a Hanoi photo walk works</b><br>No studio. No stiff poses. Four simple steps.</li><li><b>1. Send us a DM</b><br>Comment or DM PHOTO with your dates. We reply within <mark>[VERIFY]</mark> hours.</li><li><b>2. Pick your vibe</b><br>Old Quarter streets, lake views or night lights. We plan a walkable route around you.</li><li><b>3. Walk and talk</b><br>Most guests book two hours <mark>[VERIFY]</mark>. Your host directs every pose and knows where the light is.</li><li><b>4. Get your photos</b><br>Edited photos in <mark>[VERIFY]</mark> days, ready to share before you fly home.</li><li><b>Booking last minute?</b><br>Message us even two days before. We will tell you honestly if we can make it. <mark>[VERIFY]</mark></li><li><b>DM PHOTO to start</b><br>TravelFrame — your local friend in Hanoi</li></ol></section>
+  <section><h4>Caption</h4><pre>How a Hanoi photo walk works, in four simple steps. 📸
+
+1. DM us PHOTO with your dates
+2. Pick your vibe: streets, lake or night lights
+3. Walk for about two hours while your host directs every pose <mark>[VERIFY]</mark>
+4. Get your edited photos in <mark>[VERIFY]</mark> days
+
+Booking last minute? Message us anyway. We will tell you honestly if we can make it.
+
+Save this for your trip planning and DM PHOTO to start.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #hanoiphotographer #photowalk #vietnamtravel #travelphotography</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Which vibe would you pick: Old Quarter streets, lake views or night lights?</p><p><b>C2:</b> Tip not in the post: tell us what you will wear and we will match the backdrop. Comment PHOTO for routes and prices.</p>
+   <details><summary>Claims cần kiểm (4)</summary><table><tr><td>Thời gian phản hồi DM</td><td><mark>[VERIFY]</mark> — chưa có SLA</td></tr><tr><td>Phần lớn khách đặt 2 giờ</td><td><mark>[VERIFY]</mark> — DEC-20261021 chỉ quy định tối thiểu 2h cho Premium/VIP</td></tr><tr><td>Số ngày giao ảnh</td><td><mark>[VERIFY]</mark> — Delivery SLA là Open P0</td></tr><tr><td>Nhận đặt gấp 2 ngày</td><td><mark>[VERIFY]</mark> capacity Harry/host</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-13-how-a-photo-walk-works"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-13-how-a-photo-walk-works" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="P" data-st="drafted_flagged">
+ <header><div class="date">14/11<small>T7</small></div>
+  <div><span class="tag t-P">P · Proof</span><span class="fmt">reel</span><span class="kw">PHOTO</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>Couple golden hour: the BTS vs the photo</h3><code>Drafts/2026-11-14-couple-golden-hour-bts/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/discover/engagement-photoshoot-vietnam' target='_blank' rel='noopener'>@candace.nini (Discover)</a> <span class='m'>3.526 like · 18 cmt</span></li></ul><p>Bản thân video hậu trường đã đẹp → chiếu BTS góc rộng quay bằng điện thoại, ghép ngay với ảnh thành phẩm cùng khoảnh khắc. Người xem thấy cả trải nghiệm lẫn kết quả.</p><h4>Làm lại cho TravelFrame</h4><p>Dùng bộ Sunset Couple Stroll (Harry). Bản FB 27/10 là album ảnh tĩnh → bản này là reel BTS ghép ảnh, format mới. Match-cut 3 cặp BTS → ảnh.</p><p class="note"><b>Asset:</b> Footage BTS điện thoại của buổi Sunset Couple Stroll ([VERIFY] có quay BTS không) + ảnh thành phẩm đã duyệt.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>The behind-the-scenes was already this pretty. Wait for the photos.</p><h4>Beats</h4><ol><li>Wide phone clip: they walk, laugh, the light turns gold. Match-cut to the finished photo.</li><li>Harry asks them to whisper something silly. Match-cut to the candid laugh.</li><li>They stop at the edge of the light. Match-cut to the final portrait, held for two seconds.</li></ol><h4>CTA</h4><p>Travelling as a couple? Comment PHOTO and we will share our sunset route.</p><p class='note'><b>Shot notes:</b> Chia màn hình không cần; dùng match-cut cùng tư thế. Credit Harry trong caption. Không nêu tên địa điểm nếu chưa xác nhận.</p></section>
+  <section><h4>Caption</h4><pre>The behind-the-scenes was already this pretty. Wait for the photos. 🌅
+
+No stiff poses. One silly whisper, one walk into the light, and the frames took care of themselves.
+
+📸 Shot by Harry for TravelFrame
+
+Travelling as a couple? Save this for your trip and comment PHOTO for our sunset route.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #couplephotography #goldenhour #behindthescenes #honeymoon</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> BTS or final photos: which one did you like more?</p><p><b>C2:</b> Tip not in the video: golden hour moves fast, so we arrive 30 minutes early to find the light. Comment PHOTO for the route.</p>
+   <details><summary>Claims cần kiểm (2)</summary><table><tr><td>Có footage BTS điện thoại của buổi couple</td><td><mark>[VERIFY]</mark></td></tr><tr><td>Cặp đôi đồng ý dùng hình</td><td><mark>[VERIFY]</mark> consent register</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-14-couple-golden-hour-bts"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-14-couple-golden-hour-bts" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="D" data-st="drafted">
+ <header><div class="date">15/11<small>CN</small></div>
+  <div><span class="tag t-D">D · Discovery</span><span class="fmt">reel</span><span class="kw">MAP</span><span class="st st-drafted">drafted</span>
+  <h3>POV: your coffee standard is a café nobody can find</h3><code>Drafts/2026-11-15-guess-the-hidden-cafe/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/@ntmlovekafe/video/7417765971559075080' target='_blank' rel='noopener'>@ntmlovekafe</a> <span class='m'>9.415 like · 56 cmt</span></li></ul><p>Hook POV về gu của người xem (gu của bạn là quán ẩn) → đi xuyên ngõ, lên cầu thang → mở ra không gian vintage → không nói tên, để người xem tò mò.</p><h4>Làm lại cho TravelFrame</h4><p>Chuyển POV sang tiếng Anh cho khách quốc tế và biến thành trò đoán tên quán (mồi comment số 2 của Seed Playbook). Page trả lời người đoán đúng trong 60 phút đầu. Từ khóa MAP để gửi pin.</p><p class="note"><b>Asset:</b> Quay mới 1 quán trong ngõ phố cổ (chọn quán + xin phép quay). Không dùng lại DarkLight / Café Phố Cổ đã đăng.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>POV: your coffee standard is a café nobody can find.</p><h4>Beats</h4><ol><li>A narrow alley between two shops. You almost walk past it.</li><li>A steep staircase, a hand on the old rail, a little door.</li><li>Inside: wooden shutters, a balcony seat, the street noise suddenly far away.</li><li>No name, no sign in the video. Can you guess where this is?</li></ol><h4>CTA</h4><p>Guess the café in the comments. Comment MAP and we will DM you the pin.</p><p class='note'><b>Shot notes:</b> POV ngang tầm mắt, chuyển cảnh theo bước chân. Không quay mặt khách trong quán. Không hiện biển hiệu.</p></section>
+  <section><h4>Caption</h4><pre>POV: your coffee standard is a café nobody can find. ☕
+
+An alley you almost walk past. A staircase that tests your legs. Then a quiet balcony above the Old Quarter.
+
+We are not telling you the name. Guess it in the comments.
+
+Comment MAP and we will DM you the pin.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #hiddencafe #hanoicoffee #oldquarterhanoi #vietnamtravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Guess the café: first right answer gets a shout-out. 👀</p><p><b>C2:</b> Hint not in the video: it is on a street named after something sold there. Comment MAP for the pin.</p>
+   <details><summary>Claims cần kiểm (2)</summary><table><tr><td>Tên và vị trí quán</td><td><mark>[VERIFY]</mark> chọn quán + xin phép quay</td></tr><tr><td>Gợi ý: phố mang tên mặt hàng</td><td><mark>[VERIFY]</mark> đúng với quán được chọn</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-15-guess-the-hidden-cafe"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-15-guess-the-hidden-cafe" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="P" data-st="drafted_flagged">
+ <header><div class="date">17/11<small>T3</small></div>
+  <div><span class="tag t-P">P · Proof</span><span class="fmt">reel</span><span class="kw">PHOTO</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>Solo trip, and still got photos of me</h3><code>Drafts/2026-11-17-solo-trip-still-got-photos/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/@shainadenniz/video/7565116093350563090' target='_blank' rel='noopener'>@shainadenniz</a> <span class='m'>224,8K like · 477 cmt</span></li></ul><p>Khách tự nói ra camera, giọng gọi thẳng người xem (thôi selfie mờ đi) → liệt kê nhanh 3–4 điều thợ làm được (tiếng Anh tốt, cổ vũ, chỉ từng dáng, dẫn tới chỗ đẹp) → dồn ảnh kết quả → giá + không tài trợ → lưu và tag bạn.</p><h4>Làm lại cho TravelFrame</h4><p>Kênh brand không thể tự nói không tài trợ → phải là lời thật của khách (quote hoặc voice) có consent; nếu không có, dùng giọng Page và bỏ phần review. Bộ Hanna đã đăng 11–17/10 → chỉ dùng nếu dựng lại từ footage gốc với cấu trúc mới; ưu tiên quay khách solo nữ mới trong tháng 11.</p><p class="note"><b>Asset:</b> Ưu tiên: buổi chụp khách solo nữ mới (xin quay POV 10–15 giây cuối buổi). Dự phòng: dựng lại từ footage gốc Hanna (/Volumes/KINGSTON), [VERIFY] Hanna là khách hay mẫu.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Solo trip. No tripod. Still came home with photos of me.</p><h4>Beats</h4><ol><li>The usual solo travel photo: arm&#x27;s length, half a face, a blurry landmark.</li><li>Then a local host who speaks English, cheers you on, and tells you exactly what to do with your hands.</li><li>He walks you to the light, not to the crowd.</li><li>Results montage, then the guest in her own words. <mark>[VERIFY]</mark></li></ol><h4>CTA</h4><p>Travelling solo? Save this and comment PHOTO with your travel month.</p><p class='note'><b>Shot notes:</b> 0–2s: clip selfie tay dài (tự quay hoặc khách cung cấp). Montage ảnh 6–8 tấm, 0,7s/tấm. Kết bằng 1 câu của khách (phụ đề).</p></section>
+  <section><h4>Caption</h4><pre>Solo trip. No tripod. Still came home with photos of me. 📸
+
+The usual solo travel photo is half a face and a blurry landmark. This time there was a local host who spoke English, cheered her on, and told her exactly what to do with her hands.
+
+Pro move: tell your photographer what you will wear the night before. They will pick backdrops that match.
+
+Travelling solo? Save this and comment PHOTO with your travel month.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #solofemaletravel #solotravel #travelphotography #vietnamtravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Solo travellers: how many good photos of yourself did you bring home last trip? 0, 3 or 10+?</p><p><b>C2:</b> Tip not in the video: book your shoot early in the trip, then you know the city better afterwards. Comment PHOTO for routes and prices.</p>
+   <details><summary>Claims cần kiểm (3)</summary><table><tr><td>Quote của khách</td><td><mark>[VERIFY]</mark> lời thật + consent</td></tr><tr><td>Host nói tiếng Anh</td><td>Đúng với Harry — <mark>[VERIFY]</mark> host khác nếu dùng</td></tr><tr><td>Nhân vật là khách solo</td><td><mark>[VERIFY]</mark> — Hanna có thể là mẫu, không gọi là khách nếu không đúng</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-17-solo-trip-still-got-photos"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-17-solo-trip-still-got-photos" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="U" data-st="drafted_flagged">
+ <header><div class="date">18/11<small>T4</small></div>
+  <div><span class="tag t-U">U · Utility</span><span class="fmt">carousel</span><span class="kw">SAFE</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>What a full day in Hanoi actually costs</h3><code>Drafts/2026-11-18-what-a-day-in-hanoi-costs/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/discover/hanoi-vietnam?lang=en' target='_blank' rel='noopener'>@digital_bromad · best $17 (Discover)</a> <span class='m'>1,3M like · 4.307 cmt</span></li><li><a href='https://www.youtube.com/watch?v=zP0qd-UBGLk' target='_blank' rel='noopener'>How much does EVERYTHING cost (2026)</a> <span class='m'>—</span></li></ul><p>Mở bằng MỘT con số tổng gây bất ngờ cho người Mỹ (cả ngày chỉ vài chục đô) → bóc tách từng khoản → kết bằng thứ không rẻ để giữ độ tin cậy. Ref YouTube: giá thực tế VND + quy đổi.</p><h4>Làm lại cho TravelFrame</h4><p>Giữ con số tổng làm hook nhưng chỉ dùng dải giá có nhãn Indicative + 2 nguồn gần ngày đăng (V-08). Thêm slide thứ không rẻ để tránh câu chuyện mọi thứ đều rẻ (P-039).</p><p class="note"><b>Asset:</b> Ảnh tự chụp từng món + hóa đơn thật trong 1 ngày đi thử (khuyến nghị host đi thực tế 1 ngày và giữ hóa đơn).</p></section>
+  <section><h4>Slides</h4><ol><li><b>A full day in Hanoi for about $20?</b><br>We added it up, bowl by bowl. Indicative, Nov 2026 <mark>[VERIFY]</mark></li><li><b>Breakfast: phở</b><br>50,000–65,000 VND at a street stall. Indicative <mark>[VERIFY]</mark></li><li><b>Coffee break</b><br>Iced milk coffee about 25,000–40,000 VND. Indicative <mark>[VERIFY]</mark></li><li><b>Lunch on the go: bánh mì</b><br>About 20,000–35,000 VND at the spots we love. Indicative <mark>[VERIFY]</mark></li><li><b>Getting around</b><br>A short motorbike ride on an app is often under 30,000 VND. Indicative <mark>[VERIFY]</mark></li><li><b>What is not cheap</b><br>Hotels in the Old Quarter, guided tours and imported drinks add up fast. Plan for those.</li><li><b>Save this budget</b><br>Comment SAFE for our money checklist. TravelFrame — your local friend in Hanoi</li></ol></section>
+  <section><h4>Caption</h4><pre>A full day in Hanoi for about $20? We added it up, bowl by bowl. 💸 Indicative <mark>[VERIFY]</mark>
+
+Phở for breakfast, iced coffee, bánh mì for lunch, a couple of short rides. Swipe for the breakdown.
+
+What is not cheap: hotels in the Old Quarter, tours and imported drinks. Plan for those.
+
+Save this for your budget and comment SAFE for our money checklist.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #hanoibudget #vietnamtravel #budgettravel #traveltips</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Guess: how many dong is $20 right now? Closest answer wins bragging rights.</p><p><b>C2:</b> Tip not in the post: carry small notes, many street stalls cannot break big ones. Comment SAFE for our money checklist.</p>
+   <details><summary>Claims cần kiểm (5)</summary><table><tr><td>Phở 50.000–65.000đ</td><td>Nguồn 1: pholio (04/2026). <mark>[VERIFY]</mark> nguồn 2</td></tr><tr><td>Cà phê sữa đá 25.000–40.000đ</td><td><mark>[VERIFY]</mark> 2 nguồn</td></tr><tr><td>Bánh mì 20.000–35.000đ</td><td>Bài TravelFrame 04/11 (Lan, 25, Phố) — <mark>[VERIFY]</mark> lại</td></tr><tr><td>Xe ôm app chặng ngắn &lt;30.000đ</td><td><mark>[VERIFY]</mark></td></tr><tr><td>Tổng ~$20/ngày</td><td><mark>[VERIFY]</mark> tính lại theo tỷ giá ngày đăng</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-18-what-a-day-in-hanoi-costs"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-18-what-a-day-in-hanoi-costs" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="D" data-st="drafted">
+ <header><div class="date">19/11<small>T5</small></div>
+  <div><span class="tag t-D">D · Discovery</span><span class="fmt">reel</span><span class="kw">PHOTO</span><span class="st st-drafted">drafted</span>
+  <h3>Old Quarter after dark: the remake</h3><code>Drafts/2026-11-19-old-quarter-after-dark/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.instagram.com/reel/DfCdqe6yEfn/' target='_blank' rel='noopener'>TravelFrame · Don&#x27;t go back to your hotel yet</a> <span class='m'>9 like · 5 cmt</span></li></ul><p>Bài cũ: hook mạnh (nhiều comment) nhưng hình là montage chung chung và caption dài nhiều emoji → like thấp. Giữ hook, sửa phần thân.</p><h4>Làm lại cho TravelFrame</h4><p>Giữ ý hook nhưng viết lại câu chữ. Thân video chỉ 3 cảnh tự quay, có người thật trong ảnh (chân dung đêm). Caption ngắn ≤60 từ, ≤3 emoji.</p><p class="note"><b>Asset:</b> Dựng lại từ footage gốc BTS flare/night lights (đã đăng ~18/10 dạng BTS vs The Shot) với cấu trúc mới, hoặc quay mới 1 buổi tối.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Still heading back to your hotel at 8 PM? Hanoi is just warming up.</p><h4>Beats</h4><ol><li>Lanterns switch on, scooters slow down, the sidewalks fill with stools.</li><li>A street lamp throws a little flare. Perfect light for a portrait.</li><li>One frame, one face, the whole city glowing behind it.</li></ol><h4>CTA</h4><p>Night owl? Comment PHOTO and tell us your travel month.</p><p class='note'><b>Shot notes:</b> 3 cảnh, tổng 12–15 giây. Không text card dạng listicle. Kết bằng ảnh chân dung tĩnh 2 giây.</p></section>
+  <section><h4>Caption</h4><pre>Still heading back to your hotel at 8 PM? Hanoi is just warming up. 🌙
+
+Lanterns on, stools out, and street lamps doing all the work for your portrait.
+
+Night owl? Save this and comment PHOTO with your travel month.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #hanoibynight #nightphotography #oldquarterhanoi #vietnamtravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Early night or out until midnight on vacation? Be honest.</p><p><b>C2:</b> Tip not in the video: the best night portraits happen right after sunset, while the sky still has colour. Comment PHOTO for our route.</p>
+   <details><summary>Claims cần kiểm (1)</summary><table><tr><td>Tối tháng 11 se lạnh</td><td><mark>[VERIFY]</mark> dự báo gần ngày đăng</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-19-old-quarter-after-dark"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-19-old-quarter-after-dark" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="D" data-st="drafted_flagged">
+ <header><div class="date">20/11<small>T6</small></div>
+  <div><span class="tag t-D">D · Discovery</span><span class="fmt">reel</span><span class="kw">FOOD</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>Hanoi gets cold. This is what locals eat on the sidewalk</h3><code>Drafts/2026-11-20-hanoi-winter-street-snacks/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.facebook.com/reel/1712979013491826/' target='_blank' rel='noopener'>TravelFrame · Old Quarter food POV</a> <span class='m'>22 share FB</span></li><li><a href='https://e.vnexpress.net/photo/food-recipes/hanois-winter-street-food-scene-10-popular-items-4690304.html' target='_blank' rel='noopener'>VnExpress · 10 winter street food items</a> <span class='m'>—</span></li></ul><p>Bài food POV của chính TravelFrame (22 share FB): POV khách, nhiều món nối nhau, nhịp nhanh, câu kết vui. VnExpress: danh sách món mùa đông làm nguồn chọn món.</p><h4>Làm lại cho TravelFrame</h4><p>Thu về 4 món mùa đông theo kiểu đếm ngược (P-003), mỗi món 1 cảnh cận hơi nóng + 1 câu. Từ khóa FOOD.</p><p class="note"><b>Asset:</b> Quay mới tối 17–19/11: bếp than ngô/khoai nướng, bánh trôi tàu hoặc chè nóng, bánh đúc nóng.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Hanoi gets cold. Here is what locals eat on the sidewalk.</p><h4>Beats</h4><ol><li>Number four: grilled corn over charcoal, brushed while you wait.</li><li>Number three: sweet potato from the same fire. Burn your fingers, worth it.</li><li>Number two: hot sweet soup with sticky rice balls and ginger. <mark>[VERIFY]</mark></li><li>Number one: bánh đúc nóng, a warm rice pudding with savoury toppings. The cold-weather breakfast. <mark>[VERIFY]</mark></li></ol><h4>CTA</h4><p>Which one would you try first? Comment FOOD for our winter snack map.</p><p class='note'><b>Shot notes:</b> Cận lửa than, hơi nóng, tay cầm món ăn. Mỗi món 3 giây. Hỏi người bán trước khi quay.</p></section>
+  <section><h4>Caption</h4><pre>Hanoi gets cold. Here is what locals eat on the sidewalk. 🔥
+
+4. Grilled corn over charcoal
+3. Grilled sweet potato from the same fire
+2. Hot sweet soup with sticky rice balls and ginger
+1. Bánh đúc nóng: warm rice pudding with savoury toppings
+
+Prices and stalls change every season, so check before you go. <mark>[VERIFY]</mark>
+
+Which one would you try first? Comment FOOD for our winter snack map.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #hanoifood #hanoistreetfood #hanoiwinter #vietnamesefood</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Corn or sweet potato: which one are you grabbing first? 🔥</p><p><b>C2:</b> Tip not in the video: the charcoal stalls usually set up after dark. Comment FOOD for our winter snack map.</p>
+   <details><summary>Claims cần kiểm (2)</summary><table><tr><td>Danh sách món mùa đông</td><td>Nguồn: VnExpress (12/2023), VNS (12/2024) — <mark>[VERIFY]</mark> quán cụ thể</td></tr><tr><td>Quầy than bán sau khi trời tối</td><td><mark>[VERIFY]</mark> quan sát khi quay</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-20-hanoi-winter-street-snacks"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-20-hanoi-winter-street-snacks" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="P" data-st="drafted">
+ <header><div class="date">21/11<small>T7</small></div>
+  <div><span class="tag t-P">P · Proof</span><span class="fmt">reel</span><span class="kw">PHOTO</span><span class="st st-drafted">drafted</span>
+  <h3>Pose Like a Local, ep.1: 3 fixes for I&#x27;m not photogenic</h3><code>Drafts/2026-11-21-pose-like-a-local-ep1/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/@lookgoodinphotos/video/7547917300939214111' target='_blank' rel='noopener'>@lookgoodinphotos (Christine Buzan)</a> <span class='m'>1.651 like (video tiêu biểu)</span></li><li><a href='https://www.tiktok.com/discover/how-to-pose-in-pictures?lang=en' target='_blank' rel='noopener'>@lordenzo__ · easy poses for beginners</a> <span class='m'>189,4K like · 388 cmt</span></li></ul><p>Christine: khung cố định THE ISSUE ❌ → THE SOLUTION ✅, mỗi lỗi một lần, before/after đặt cạnh nhau, dưới 30 giây. Lordenzo: dáng cho người mới (dồn trọng tâm hông, dùng túi làm đạo cụ, góc nghiêng, ảnh đang đi).</p><h4>Làm lại cho TravelFrame</h4><p>Đặt tên series Pose Like a Local, quay ở phố Hà Nội với khách/host. 3 lỗi, mỗi lỗi một before/after, overlay ✗ / ✓. Đây là kiến thức thợ chụp tự có, không chép mẹo của ref.</p><p class="note"><b>Asset:</b> Quay mới: 1 người không chuyên + Harry hướng dẫn, 3 cặp ảnh before/after cùng vị trí.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Think you are not photogenic? Three fixes we use with every guest.</p><h4>Beats</h4><ol><li>Problem: weight on both feet, standing like a soldier. Fix: shift your weight to the back leg.</li><li>Problem: hands hanging with nowhere to go. Fix: give them a job. A coffee cup, a bag strap, your hat.</li><li>Problem: staring at the lens. Fix: look at the street, then glance back on three.</li></ol><h4>CTA</h4><p>Save this for your next trip. Comment PHOTO and tell us your travel month.</p><p class='note'><b>Shot notes:</b> Overlay ✗ PROBLEM / ✓ FIX. Before/after cùng khung, cùng ánh sáng. Tổng ≤30 giây.</p></section>
+  <section><h4>Caption</h4><pre>Think you are not photogenic? Three fixes we use with every guest. 📸
+
+✗ Weight on both feet → ✓ shift to the back leg
+✗ Hands with nowhere to go → ✓ give them a job: coffee, bag strap, hat
+✗ Staring at the lens → ✓ look at the street, glance back on three
+
+Pose Like a Local, episode 1.
+
+Save this for your next trip and comment PHOTO with your travel month.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #posingtips #howtopose #travelphotography #photographytips</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Which one is you: soldier stance, lost hands or lens stare?</p><p><b>C2:</b> Bonus fix not in the video: if your smile feels fake, laugh at something then hold it. Comment PHOTO for a guided walk.</p>
+   <details><summary>Claims cần kiểm (1)</summary><table><tr><td>Mẹo tạo dáng</td><td>Kiến thức nghề của TravelFrame/Harry — không cần nguồn ngoài</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-21-pose-like-a-local-ep1"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-21-pose-like-a-local-ep1" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="D" data-st="drafted_flagged">
+ <header><div class="date">22/11<small>CN</small></div>
+  <div><span class="tag t-D">D · Discovery</span><span class="fmt">reel</span><span class="kw">MAP</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>A slow Hanoi morning, hour by hour</h3><code>Drafts/2026-11-22-slow-hanoi-morning-route/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.youtube.com/watch?v=TMs0sknkVa8' target='_blank' rel='noopener'>Early Morning Walk Around Hoan Kiem (Part 2)</a> <span class='m'>—</span></li></ul><p>Đi bộ theo một lộ trình liên tục quanh hồ, từng đoạn nối nhau theo mốc địa điểm; người xem cảm giác đi cùng.</p><h4>Làm lại cho TravelFrame</h4><p>Nén thành reel lộ trình theo giờ (P-002): mỗi mốc giờ một cảnh + 1 câu. Khác bài 08/11: bài này là lộ trình có thể làm theo, có pin MAP; bài 08/11 là cảm xúc.</p><p class="note"><b>Asset:</b> Quay mới sáng 15/11 hoặc 22/11 (CN), giữ mốc giờ thật trên overlay.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Steal this slow Hanoi morning. Hour by hour.</p><h4>Beats</h4><ol><li>6:00. Start at the red bridge by the lake while the mist is still there. <mark>[VERIFY]</mark></li><li>6:30. Walk the east side and watch the morning exercise crowd.</li><li>7:15. Phở at a small stall. Point, smile, sit on the tiny stool.</li><li>8:00. Coffee upstairs with a view over the street.</li><li>8:30. Into the Old Quarter before the shops open.</li></ol><h4>CTA</h4><p>Save this for your first morning and comment MAP for the pins.</p><p class='note'><b>Shot notes:</b> Overlay giờ lớn ở góc trên. Không nêu tên quán phở/cà phê trong video (gửi qua MAP).</p></section>
+  <section><h4>Caption</h4><pre>Steal this slow Hanoi morning, hour by hour. ☕
+
+6:00 Red bridge by the lake <mark>[VERIFY]</mark>
+6:30 The morning exercise crowd
+7:15 Phở on a tiny stool
+8:00 Coffee with a street view
+8:30 The Old Quarter before the shops open
+
+Save this for your first morning and comment MAP for the pins.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #slowtravel #hanoiitinerary #hoankiemlake #vietnamtravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Would you actually wake up at 6 on vacation? Yes, no or only for phở?</p><p><b>C2:</b> Tip not in the video: weekend mornings around the lake feel calmer before 7. Comment MAP and we will DM all five pins.</p>
+   <details><summary>Claims cần kiểm (2)</summary><table><tr><td>Mốc giờ sương sớm / đông người tập</td><td><mark>[VERIFY]</mark> quan sát khi quay</td></tr><tr><td>Quán phở, cà phê</td><td><mark>[VERIFY]</mark> chọn quán, gửi qua MAP</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-22-slow-hanoi-morning-route"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-22-slow-hanoi-morning-route" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="P" data-st="drafted_flagged">
+ <header><div class="date">24/11<small>T3</small></div>
+  <div><span class="tag t-P">P · Proof</span><span class="fmt">reel</span><span class="kw">PHOTO</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>One street, one model, 15 minutes after dark</h3><code>Drafts/2026-11-24-night-shoot-in-15-minutes/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/@kienquancreates/video/7387440182527577387' target='_blank' rel='noopener'>@kienquancreates (stranger shoot)</a> <span class='m'>16,2K like</span></li></ul><p>Thợ thấy một khung cảnh/nhân vật → hỏi → chụp nhanh có hướng dẫn → đưa màn hình máy ảnh cho người được chụp xem → phản ứng thật.</p><h4>Làm lại cho TravelFrame</h4><p>Không giả làm chụp người lạ: Wuchr là người mẫu, nói thẳng như vậy. Giữ nhịp thử thách thời gian (15 phút, một con phố) và khoảnh khắc xem màn hình. Dùng chất liệu buổi Tràng Tiền.</p><p class="note"><b>Asset:</b> Footage BTS buổi Wuchr × Harry ([VERIFY] có video BTS) + ảnh bài web node/111. Nếu không có video BTS → quay mới buổi đêm.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>One street. Fifteen minutes. No studio lights.</p><h4>Beats</h4><ol><li>Minute 0: a busy street, traffic lights and a bus rolling past.</li><li>Harry waits for the bus, not against it. The headlights become the backdrop.</li><li>Minute 15: Wuchr checks the camera screen. That reaction.</li><li>Three final frames.</li></ol><h4>CTA</h4><p>Want night portraits like these? Comment PHOTO with your travel month.</p><p class='note'><b>Shot notes:</b> Timer overlay 00:00 → 15:00. Đứng trên vỉa hè, không đứng giữa đường; ghi chú an toàn trong caption.</p></section>
+  <section><h4>Caption</h4><pre>One street. Fifteen minutes. No studio lights. 🌃
+
+Model Wuchr, a busy street after dark, and Harry waiting for the bus to roll past instead of fighting it.
+
+Safety first: we shoot from the sidewalk, never in traffic.
+
+Want night portraits like these? Comment PHOTO with your travel month.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #nightphotography #streetportrait #hanoibynight #behindthescenes</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Which frame would you print: the bus one or the headlight one?</p><p><b>C2:</b> Tip not in the video: dark outfits plus city lights look sharper than bright colours at night. Comment PHOTO for our night route.</p>
+   <details><summary>Claims cần kiểm (2)</summary><table><tr><td>Thời lượng 15 phút</td><td><mark>[VERIFY]</mark> đúng với buổi chụp hoặc đổi con số</td></tr><tr><td>Wuchr là người mẫu</td><td>Brief 23/10 — đúng; không gọi là khách</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-24-night-shoot-in-15-minutes"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-24-night-shoot-in-15-minutes" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="O" data-st="blocked">
+ <header><div class="date">25/11<small>T4</small></div>
+  <div><span class="tag t-O">O · Offer</span><span class="fmt">carousel</span><span class="kw">PHOTO</span><span class="st st-blocked">blocked</span>
+  <h3>What does a private photographer in Hanoi cost?</h3><code>Drafts/2026-11-25-what-a-hanoi-photographer-costs/</code><p class="blk">⛔ Chờ Rocky duyệt công khai bảng giá giờ trên social; nêu tên đối thủ hay không.</p></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.flytographer.com/gift-cards/' target='_blank' rel='noopener'>Flytographer · package pricing</a> <span class='m'>$325 (30&#x27;) → $715 (2h)</span></li><li><a href='https://www.tiktok.com/@shainadenniz/video/7565116093350563090' target='_blank' rel='noopener'>@shainadenniz · ~350k VND</a> <span class='m'>224,8K like</span></li></ul><p>Hai mốc giá ở hai đầu: nền tảng quốc tế (đắt, minh bạch, gói rõ) và studio local rất rẻ (khách tự công bố giá). Người xem tự đặt TravelFrame vào giữa nếu giá trị được giải thích rõ.</p><h4>Làm lại cho TravelFrame</h4><p>Không nêu tên đối thủ (chờ Rocky trả lời Q2). Dùng bảng giá giờ đã duyệt DEC-20261021. Thêm slide cách so sánh bất kỳ thợ nào để bài hữu ích kể cả khi người xem không đặt TravelFrame. BLOCKED tới khi Rocky duyệt công khai giá.</p><p class="note"><b>Asset:</b> Graphic bảng giá + 2 ảnh mẫu từ mỗi tier (nếu có).</p></section>
+  <section><h4>Slides</h4><ol><li><b>What does a Hanoi photographer cost?</b><br>Honest numbers, so you can compare anyone.</li><li><b>The range you will see</b><br>Budget studios can be very cheap. International booking platforms often start above $300 for 30 minutes. Indicative <mark>[VERIFY]</mark></li><li><b>Our hourly pricing</b><br>Basic $30/h · Premium $60/h (2h min) · VIP $99/h (2h min). Up to 2 guests. VERIFIED (DEC-20261021)</li><li><b>What changes between tiers</b><br>Route planning, number of edited photos and delivery speed. <mark>[VERIFY]</mark></li><li><b>What you are really paying for</b><br>A local who plans the light, directs every pose and helps you order lunch after.</li><li><b>How to compare any photographer</b><br>Ask three things: how many edited photos, how many days to deliver, where you meet.</li><li><b>DM PHOTO for availability</b><br>TravelFrame — your local friend in Hanoi</li></ol></section>
+  <section><h4>Caption</h4><pre>What does a private photographer in Hanoi cost? Honest numbers, so you can compare anyone. 💬
+
+Swipe for the range you will see, our hourly pricing, and three questions to ask any photographer before you book.
+
+Save this for your trip planning and DM PHOTO for availability.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #hanoiphotographer #vacationphotographer #vietnamtravel #travelphotography</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> What would you pay for photos you actually love from a trip: under $50, $50 to $150, or more?</p><p><b>C2:</b> Tip not in the post: always ask if edited photos are included in the price. Comment PHOTO for our tier details.</p>
+   <details><summary>Claims cần kiểm (3)</summary><table><tr><td>Bảng giá Basic $30/h, Premium $60/h (tối thiểu 2h), VIP $99/h (tối thiểu 2h), tối đa 2 khách</td><td>VERIFIED — DEC-20261021. Cần Rocky duyệt công khai; website chưa cập nhật</td></tr><tr><td>Nền tảng quốc tế &gt;$300/30 phút</td><td>Flytographer gift card page đọc 06/11/2026 ($325/30 phút) — <mark>[VERIFY]</mark> gần ngày đăng</td></tr><tr><td>Khác biệt giữa các tier</td><td><mark>[VERIFY]</mark> — DEC chỉ có giá, chưa có inclusions</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-25-what-a-hanoi-photographer-costs"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-25-what-a-hanoi-photographer-costs" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="P" data-st="blocked">
+ <header><div class="date">26/11<small>T5</small></div>
+  <div><span class="tag t-P">P · Proof</span><span class="fmt">reel</span><span class="kw">PHOTO</span><span class="st st-blocked">blocked</span>
+  <h3>Thanksgiving: thank you for trusting us with your Hanoi story</h3><code>Drafts/2026-11-26-thanksgiving-thank-you/</code><p class="blk">⛔ Cần ≥4 khách thật có consent + quote thật.</p></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/discover/engagement-photoshoot-vietnam' target='_blank' rel='noopener'>@candace.nini · BTS (Discover)</a> <span class='m'>3.526 like</span></li><li><a href='https://www.flytographer.com/blog/why-flytographer-is-the-best-gift-for-travellers/' target='_blank' rel='noopener'>Flytographer · #1 gift for travellers (tham khảo)</a> <span class='m'>—</span></li></ul><p>Candace: chính khách đăng BTS và khen ekip → sức thuyết phục đến từ người thật. Flytographer (tham khảo): testimonial kể một khoảnh khắc cụ thể (người ghét chụp ảnh lại cười suốt buổi).</p><h4>Làm lại cho TravelFrame</h4><p>Reel cảm ơn, không bán: ghép 1–2 giây cười của từng khách thật + 1 câu của khách lấy từ tin nhắn thật. Chỉ dùng người là khách thật và có consent. BLOCKED nếu chưa đủ 4 khách có consent.</p><p class="note"><b>Asset:</b> Clip/ảnh khách thật có consent; quote lấy nguyên văn từ tin nhắn khách (đã cho phép).</p></section>
+  <section><h4>Hook (0–3s)</h4><p>To everyone who let a stranger with a camera walk them around Hanoi: thank you.</p><h4>Beats</h4><ol><li>One laugh per guest, one to two seconds each.</li><li>A line from a real guest message, as a subtitle. <mark>[VERIFY]</mark></li><li>Back to the city, lights on, the team waving.</li></ol><h4>CTA</h4><p>Share this with someone you travelled with this year. Planning next year? Comment PHOTO.</p><p class='note'><b>Shot notes:</b> Không nhạc buồn; nhạc ấm. Không chèn giá hay offer.</p></section>
+  <section><h4>Caption</h4><pre>Happy Thanksgiving. 🧡
+
+To everyone who let a stranger with a camera walk them around Hanoi this year: thank you for the laughs, the patience and the trust.
+
+Share this with someone you travelled with this year. Planning next year? Comment PHOTO.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #thanksgiving #travelmemories #vietnamtravel #grateful</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Who is the one person you would travel anywhere with? Tag them.</p><p><b>C2:</b> Small note: if you shot with us this year, we would love to hear how the photos feel now. Comment PHOTO to plan your next one.</p>
+   <details><summary>Claims cần kiểm (2)</summary><table><tr><td>Có ≥4 khách thật có consent</td><td><mark>[VERIFY]</mark> consent register — Current-State: chưa có testimonial/consent register hoàn chỉnh</td></tr><tr><td>Quote khách</td><td><mark>[VERIFY]</mark> nguyên văn + đồng ý</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-26-thanksgiving-thank-you"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-26-thanksgiving-thank-you" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="O" data-st="blocked">
+ <header><div class="date">27/11<small>T6</small></div>
+  <div><span class="tag t-O">O · Offer</span><span class="fmt">reel</span><span class="kw">PHOTO</span><span class="st st-blocked">blocked</span>
+  <h3>Save this and send it to whoever buys your gifts</h3><code>Drafts/2026-11-27-gift-a-hanoi-photo-walk/</code><p class="blk">⛔ Chờ Rocky chọn voucher quà tặng hay mở lịch tháng 12 + điều khoản.</p></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/@cassidylynnephoto/video/7443845032739851566' target='_blank' rel='noopener'>@cassidylynnephoto · gift guide</a> <span class='m'>3.433 like · 21 cmt</span></li></ul><p>Hook gọi hành động lưu và gửi cho gia đình/bạn bè → người xem không cần mua, chỉ cần chuyển cho người sẽ mua quà. Danh sách quà ngắn, nhạc Giáng sinh.</p><h4>Làm lại cho TravelFrame</h4><p>Biến TravelFrame thành món quà trải nghiệm: Gift a Hanoi photo walk. Nhắm người thân của khách sắp đi Việt Nam. BLOCKED: Rocky chưa chọn voucher hay mở lịch tháng 12, chưa chốt điều khoản.</p><p class="note"><b>Asset:</b> Graphic thẻ quà tặng (thiết kế tự làm) + ảnh khách có consent.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Save this and send it to whoever is buying your Christmas gift.</p><h4>Beats</h4><ol><li>You do not need another mug. You need photos of you, in Hanoi.</li><li>A Hanoi photo walk gift: a local host, a walkable route, edited photos. <mark>[VERIFY]</mark></li><li>They pick the date when they land. <mark>[VERIFY]</mark></li></ol><h4>CTA</h4><p>Save this, send it to your gift buyer, and DM PHOTO for gift details.</p><p class='note'><b>Shot notes:</b> Hook chữ to trên nền ảnh khách. Không nhạc có bản quyền nếu không có trong thư viện IG.</p></section>
+  <section><h4>Caption</h4><pre>Save this and send it to whoever is buying your Christmas gift. 🎁
+
+You do not need another mug. You need photos of you, in Hanoi.
+
+A Hanoi photo walk gift: a local host, a walkable route and edited photos. They choose the date when they land. <mark>[VERIFY]</mark>
+
+Save this, send it to your gift buyer, and DM PHOTO for gift details.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #giftideas #experiencegift #christmasgift #vietnamtravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Experience gifts or things you can unwrap? Pick a side. 🎁</p><p><b>C2:</b> Tip not in the video: gifts work best for someone with a Vietnam trip already booked. Comment PHOTO for gift details.</p>
+   <details><summary>Claims cần kiểm (3)</summary><table><tr><td>Có sản phẩm voucher quà tặng</td><td><mark>[VERIFY]</mark> — chờ Rocky quyết (A voucher / B mở lịch)</td></tr><tr><td>Điều khoản: hạn dùng, chuyển nhượng, gửi email</td><td><mark>[VERIFY]</mark></td></tr><tr><td>Thành phần voucher (host, route, ảnh đã chỉnh)</td><td><mark>[VERIFY]</mark> theo tier</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-27-gift-a-hanoi-photo-walk"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-27-gift-a-hanoi-photo-walk" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="D" data-st="drafted_flagged">
+ <header><div class="date">28/11<small>T7</small></div>
+  <div><span class="tag t-D">D · Discovery</span><span class="fmt">reel</span><span class="kw">MAP</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>Everyone says Eiffel built this bridge. Did he?</h3><code>Drafts/2026-11-28-long-bien-bridge-myth/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.youtube.com/watch?v=7ejVf_7UjBk' target='_blank' rel='noopener'>Walking Vietnam&#x27;s Most Historic Long Biên Bridge</a> <span class='m'>—</span></li><li><a href='https://www.youtube.com/watch?v=gkbPR_NmTdM' target='_blank' rel='noopener'>Gustave Eiffel and Long Bien Bridge</a> <span class='m'>—</span></li><li><a href='https://www.tiktok.com/discover/b%E1%BA%BFn-%C4%91%C3%B2-ng%E1%BB%8Dc-l%C3%A2m-view-ho%C3%A0ng-h%C3%B4n-c%E1%BA%A7u-long-bi%C3%AAn' target='_blank' rel='noopener'>@linhtravelcamping · hoàng hôn Long Biên</a> <span class='m'>4.233 like · 181 cmt</span></li></ul><p>(1) Đi bộ trên cầu cổ, góc hơi sợ khi nhìn xuống → cảm xúc. (2) Câu chuyện Eiffel gây tò mò mạnh. (3) Điểm ngắm hoàng hôn bao trọn cầu, ít người biết → địa điểm cụ thể để lưu.</p><h4>Làm lại cho TravelFrame</h4><p>Rocky chọn dùng ref Eiffel → dùng nó làm hook kiểm chứng huyền thoại, không khẳng định là thật. Câu chuyện nhà thầu thật để [VERIFY]. Kết bằng điểm ngắm hoàng hôn, gửi pin qua MAP.</p><p class="note"><b>Asset:</b> Quay mới: đi bộ trên lối người đi bộ của cầu (an toàn), tàu chạy qua, hoàng hôn từ bờ Long Biên.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>Everyone says Eiffel built this bridge. The real story is better.</p><h4>Beats</h4><ol><li>Long Biên Bridge, opened in the early 1900s. One of the oldest steel bridges in Hanoi. <mark>[VERIFY]</mark></li><li>The Eiffel story is everywhere online. Historians credit a different French firm. <mark>[VERIFY]</mark></li><li>It survived the war and has been patched again and again. That is why it looks like this. <mark>[VERIFY]</mark></li><li>Pro move: watch the sunset from the riverbank on the far side and keep the whole bridge in your frame. <mark>[VERIFY]</mark></li></ol><h4>CTA</h4><p>Save this for a golden hour walk and comment MAP for the sunset spot.</p><p class='note'><b>Shot notes:</b> An toàn: chỉ đi trên lối dành cho người đi bộ, không đứng trên đường ray. Hook: chữ EIFFEL? có dấu hỏi lớn.</p></section>
+  <section><h4>Caption</h4><pre>Everyone says Eiffel built this bridge. The real story is better. 🌉
+
+Long Biên Bridge opened in the early 1900s and has been patched again and again since the war. <mark>[VERIFY]</mark>
+
+The Eiffel story is everywhere online, but historians credit a different French firm. <mark>[VERIFY]</mark>
+
+Stay on the pedestrian lane when you walk it, never on the tracks.
+
+Save this for a golden hour walk and comment MAP for our sunset spot.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #longbienbridge #hanoihistory #hanoisunset #vietnamtravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Did you believe the Eiffel story too? Yes or no, be honest. 🌉</p><p><b>C2:</b> Tip not in the video: trains still cross the bridge, so keep to the walkway and enjoy the rumble. Comment MAP for our sunset spot.</p>
+   <details><summary>Claims cần kiểm (4)</summary><table><tr><td>Năm khánh thành (khoảng 1902–1903)</td><td><mark>[VERIFY]</mark> — ref YouTube ghi 1903, nguồn khác ghi 1902</td></tr><tr><td>Không phải Eiffel thiết kế; nhà thầu Pháp khác</td><td><mark>[VERIFY]</mark> — tên nhà thầu theo tư liệu lịch sử, kiểm chứng trước khi nêu tên</td></tr><tr><td>Cầu bị đánh bom trong chiến tranh và sửa nhiều lần</td><td><mark>[VERIFY]</mark></td></tr><tr><td>Điểm ngắm hoàng hôn bờ Long Biên (bến đò Ngọc Lâm)</td><td><mark>[VERIFY]</mark> khảo sát thực tế</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-28-long-bien-bridge-myth"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-28-long-bien-bridge-myth" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="P" data-st="blocked">
+ <header><div class="date">29/11<small>CN</small></div>
+  <div><span class="tag t-P">P · Proof</span><span class="fmt">carousel</span><span class="kw">PHOTO</span><span class="st st-blocked">blocked</span>
+  <h3>November in Hanoi, through our lens</h3><code>Drafts/2026-11-29-november-in-hanoi-recap/</code><p class="blk">⛔ Cần số buổi/số ảnh thật tháng 11 + consent ảnh.</p></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.facebook.com/1409099405611405_122123563659479755' target='_blank' rel='noopener'>TravelFrame · Sunset Couple Stroll album</a> <span class='m'>Album 11 ảnh</span></li><li><a href='https://www.tiktok.com/discover/engagement-photoshoot-vietnam' target='_blank' rel='noopener'>@hianthonyngo (Discover)</a> <span class='m'>—</span></li></ul><p>Album ảnh đẹp nhất của chính TravelFrame (format FB đã duyệt 27/10) + ref khách đếm khối lượng (bao nhiêu ảnh, bao nhiêu địa điểm) như bằng chứng giá trị.</p><h4>Làm lại cho TravelFrame</h4><p>Recap tháng: slide 1 có con số thật (số buổi chụp, số ảnh đã giao), mỗi slide sau một khoảnh khắc + 1 dòng. Không gọi là guests nếu nhân vật là mẫu. Số liệu phải là số thật.</p><p class="note"><b>Asset:</b> Ảnh tháng 11 có consent; số buổi/số ảnh lấy từ Lead-Pipeline-Tracker/booking thực.</p></section>
+  <section><h4>Slides</h4><ol><li><b>November in Hanoi, through our lens</b><br><mark>[VERIFY]</mark> walks · <mark>[VERIFY]</mark> photos delivered</li><li><b>The daisy week</b><br>White flowers on every bicycle, for about three weeks. <mark>[VERIFY]</mark></li><li><b>The slow mornings</b><br>Mist on the lake and nowhere to be.</li><li><b>The night walks</b><br>Street lamps doing all the work.</li><li><b>The first-timers</b><br>From stiff arms to laughing in thirty minutes.</li><li><b>Your turn in December?</b><br>DM PHOTO with your dates. TravelFrame — your local friend in Hanoi</li></ol></section>
+  <section><h4>Caption</h4><pre>November in Hanoi, through our lens. 🍂
+
+Daisy carts, misty mornings, night walks and a few people who said they were not photogenic. They were wrong.
+
+Which slide is your favourite? Tell us below, and DM PHOTO with your dates if December is your month.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #hanoiphotography #hanoiautumn #travelphotography #vietnamtravel</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> Pick your favourite slide: 2, 3, 4 or 5?</p><p><b>C2:</b> Tip not in the post: December mornings get cooler, so the light stays soft longer. Comment PHOTO for December dates.</p>
+   <details><summary>Claims cần kiểm (3)</summary><table><tr><td>Số buổi chụp / số ảnh đã giao tháng 11</td><td><mark>[VERIFY]</mark> số thật từ tracker</td></tr><tr><td>Ảnh có consent</td><td><mark>[VERIFY]</mark></td></tr><tr><td>Mùa cúc họa mi ~3 tuần</td><td>Nguồn: VTV/SGGP — <mark>[VERIFY]</mark></td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-29-november-in-hanoi-recap"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-29-november-in-hanoi-recap" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+<article class="card" data-p="O" data-st="drafted_flagged">
+ <header><div class="date">30/11<small>T2</small></div>
+  <div><span class="tag t-O">O · Offer</span><span class="fmt">reel</span><span class="kw">MAP</span><span class="st st-drafted_flagged">drafted_flagged</span>
+  <h3>The 48-hour Hanoi cheat sheet we wish we had</h3><code>Drafts/2026-11-30-free-48h-hanoi-cheat-sheet/</code></div></header>
+ <div class="grid">
+  <section><h4>Công thức của ref</h4><ul class="refs"><li><a href='https://www.tiktok.com/discover/vietnamese-phrases?lang=en' target='_blank' rel='noopener'>@vietnamese.with.chau · free cheat sheet</a> <span class='m'>3.088 like · 89 cmt</span></li><li><a href='https://www.tiktok.com/discover/hanoi-insta-spots' target='_blank' rel='noopener'>@two_peas_abroad · MUSTS Guide</a> <span class='m'>12,3K like (video 4 spots)</span></li></ul><p>Nội dung hữu ích trước (vài điểm/câu thật sự dùng được) → tặng tài liệu đầy đủ miễn phí qua comment từ khóa hoặc link bio → người xem đổi một comment lấy giá trị.</p><h4>Làm lại cho TravelFrame</h4><p>Lật nhanh 3 trang cheat sheet 48h trên màn hình (không đọc hết) để chứng minh tài liệu có thật. Từ khóa MAP (lịch trình + pin). Rocky chưa chốt miễn phí hay $10 → bản này viết theo hướng miễn phí đổi comment/email, đánh dấu [VERIFY].</p><p class="note"><b>Asset:</b> Cheat sheet 48h (nền: Drafts/Lead-Magnet-24h-Hanoi.md) phải được thiết kế xong trước 28/11.</p></section>
+  <section><h4>Hook (0–3s)</h4><p>48 hours in Hanoi? We made the cheat sheet we wish we had.</p><h4>Beats</h4><ol><li>Page one: where to sleep, eat and walk on day one.</li><li>Page two: the phrases, the prices and the traffic rules.</li><li>Page three: day two, plus the spots we only tell friends about.</li></ol><h4>CTA</h4><p>Comment MAP and we will DM it to you, free. <mark>[VERIFY]</mark></p><p class='note'><b>Shot notes:</b> Quay tay lật bản in hoặc màn hình iPad. Không để chữ đọc được toàn bộ (giữ giá trị khi nhận).</p></section>
+  <section><h4>Caption</h4><pre>48 hours in Hanoi? We made the cheat sheet we wish we had. 🗺️
+
+Day one, day two, the phrases, the prices, the traffic rules and the spots we only tell friends about.
+
+Comment MAP and we will DM it to you, free. <mark>[VERIFY]</mark>
+
+Save this so you remember to grab it before your flight.
+
+TravelFrame — your local friend in Hanoi ✈️
+
+#travelframe #hanoi #hanoiitinerary #hanoiguide #vietnamtravel #traveltips</pre><h4>Seed comments</h4><p><b>C1 (ghim):</b> How long are you staying in Hanoi: 2 days, 3 to 4, or a week?</p><p><b>C2:</b> Small note: the cheat sheet includes our sunset spot by Long Biên Bridge. Comment MAP and we will send it.</p>
+   <details><summary>Claims cần kiểm (3)</summary><table><tr><td>Cheat sheet tồn tại và gửi được</td><td><mark>[VERIFY]</mark> thiết kế xong trước 28/11</td></tr><tr><td>Miễn phí</td><td><mark>[VERIFY]</mark> Rocky chốt miễn phí hay $10</td></tr><tr><td>Dùng offline</td><td><mark>[VERIFY]</mark> định dạng PDF</td></tr></table></details>
+   <label class="dec">Quyết định: <select data-s="2026-11-30-free-48h-hanoi-cheat-sheet"><option value="">—</option><option>Duyệt</option><option>Sửa</option><option>Bỏ</option></select></label>
+   <textarea data-n="2026-11-30-free-48h-hanoi-cheat-sheet" placeholder="Ghi chú sửa…"></textarea></section>
+ </div>
+</article>
+</div><script>
+const K="tf-nov-remake-v1";let S={};try{S=JSON.parse(localStorage.getItem(K)||"{}")}catch(e){}
+const sv=()=>{try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}};
+document.querySelectorAll("select[data-s]").forEach(el=>{const k=el.dataset.s;if(S[k]&&S[k].d)el.value=S[k].d;el.onchange=()=>{S[k]=S[k]||{};S[k].d=el.value;sv()}});
+document.querySelectorAll("textarea[data-n]").forEach(el=>{const k=el.dataset.n;if(S[k]&&S[k].n)el.value=S[k].n;el.oninput=()=>{S[k]=S[k]||{};S[k].n=el.value;sv()}});
+document.querySelectorAll(".bar button[data-f]").forEach(b=>b.onclick=()=>{document.querySelectorAll(".bar button[data-f]").forEach(x=>x.classList.remove("on"));b.classList.add("on");const f=b.dataset.f;
+document.querySelectorAll(".card").forEach(c=>c.style.display=(f==="all"||c.dataset.p===f||c.dataset.st===f)?"":"none")});
+document.getElementById("ex").onclick=()=>{const L=["TravelFrame — quyết định remake tháng 11"];Object.keys(S).sort().forEach(k=>{const v=S[k];if(v.d||v.n)L.push(k+" → "+(v.d||"chưa chọn")+(v.n?" · "+v.n:""))});
+if(L.length===1)L.push("(chưa có quyết định)");const o=document.getElementById("out");o.style.display="block";o.value=L.join("\n");o.select();
+try{const pr=navigator.clipboard&&navigator.clipboard.writeText(o.value);if(pr&&pr.catch)pr.catch(()=>{})}catch(e){}};
+</script></body></html>

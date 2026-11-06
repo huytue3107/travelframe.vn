@@ -1,0 +1,11 @@
+{
+  "text": "Only have time for three things in Hanoi?\n\nHere’s how I’d spend it.\n\nFirst, find a little local food spot.\n\nStart your morning with a warm bowl of phở, or try bún chả for lunch. Take your time, watch the street outside, and enjoy the little details around you.\n\nSecond, stop for Vietnamese coffee.\n\nTry an egg coffee, or order your favourite and find a seat where you can watch Hanoi go by. Sometimes the best part of exploring is taking a break.\n\nAnd third, discover the city on foot.\n\nWalk around Hoàn Kiếm Lake, then wander into the Old Quarter. Look up at the old balconies, peek down the little alleys, and let yourself take the scenic route.\n\nWant to be in the photos too? Explore Hanoi with a local photographer and take home memories of your day.\n\nSave this for your Hanoi trip.",
+  "model_id": "eleven_multilingual_v2",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true,
+    "speed": 1
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "video": "/Users/macbook/Downloads/1006(3)/1006(3)-2.mp4",
+  "meta": {
+    "duration_seconds": 13.1,
+    "width": 4320,
+    "height": 7680,
+    "codec": "hevc",
+    "size_bytes": 118382938,
+    "has_audio": true
+  },
+  "fps": 2.0,
+  "target": 6,
+  "focused": true,
+  "dedup": false,
+  "deduped_count": 0,
+  "timestamp_note": "uniform-mode timestamps are fps-derived estimates, not frame-exact pts_time",
+  "frames": [
+    {
+      "index": 0,
+      "timestamp_seconds": 0.0,
+      "path": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames-hook/frame_0001.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 1,
+      "timestamp_seconds": 0.5,
+      "path": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames-hook/frame_0002.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 2,
+      "timestamp_seconds": 1.0,
+      "path": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames-hook/frame_0003.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 3,
+      "timestamp_seconds": 1.5,
+      "path": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames-hook/frame_0004.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 4,
+      "timestamp_seconds": 2.0,
+      "path": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames-hook/frame_0005.jpg",
+      "reason": "uniform"
+    },
+    {
+      "index": 5,
+      "timestamp_seconds": 2.5,
+      "path": "Research-Insights/Library/analysis/1006-3-2/2026-10-14/frames-hook/frame_0006.jpg",
+      "reason": "uniform"
+    }
+  ]
+}

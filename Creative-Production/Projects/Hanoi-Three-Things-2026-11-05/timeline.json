@@ -1,0 +1,225 @@
+{
+  "duration": 53.46666666666667,
+  "voiceEnd": 52.152018,
+  "scenes": [
+    {
+      "id": "hanoi1",
+      "start": 0,
+      "title": "HANOI:<br>ONLY 3 THINGS?",
+      "sub": "Food. Coffee. A little wandering.",
+      "images": [
+        "pho.jpg",
+        "lake.jpg"
+      ],
+      "cat": "cat-surprised.png",
+      "length": 4.481
+    },
+    {
+      "id": "hanoi2",
+      "start": 4.481,
+      "title": "01 /<br>EAT LOCAL.",
+      "sub": "Find a little neighbourhood spot.",
+      "images": [
+        "pho.jpg",
+        "old-quarter.jpg"
+      ],
+      "cat": "cat-chubby.png",
+      "length": 2.694
+    },
+    {
+      "id": "hanoi3",
+      "start": 7.175,
+      "title": "A WARM BOWL.<br>A GOOD START.",
+      "sub": "Phở for the morning.",
+      "images": [
+        "pho.jpg",
+        "street-cafe.jpg"
+      ],
+      "cat": "cat-cream.png",
+      "length": 2.252
+    },
+    {
+      "id": "hanoi4",
+      "start": 9.427,
+      "title": "LUNCH PLANS?<br>BÚN CHẢ.",
+      "sub": "Grilled pork, noodles, fresh herbs.",
+      "images": [
+        "bun-cha.jpg",
+        "pho.jpg"
+      ],
+      "cat": "cat-chubby.png",
+      "length": 1.974
+    },
+    {
+      "id": "hanoi5",
+      "start": 11.401,
+      "title": "SLOW BITES.<br>STREET VIEWS.",
+      "sub": "Watch Hanoi happen around you.",
+      "images": [
+        "old-quarter.jpg",
+        "bun-cha.jpg"
+      ],
+      "cat": "cat.png",
+      "length": 2.728
+    },
+    {
+      "id": "hanoi6",
+      "start": 14.129,
+      "title": "THE LITTLE<br>DETAILS COUNT.",
+      "sub": "Take it all in.",
+      "images": [
+        "street-cafe.jpg",
+        "cathedral.jpg"
+      ],
+      "cat": "cat-cream.png",
+      "length": 2.856
+    },
+    {
+      "id": "hanoi7",
+      "start": 16.985,
+      "title": "02 /<br>COFFEE TIME.",
+      "sub": "A Vietnamese coffee pause.",
+      "images": [
+        "coffee.jpg",
+        "balcony-cafe.jpg"
+      ],
+      "cat": "cat-sun.png",
+      "length": 2.682
+    },
+    {
+      "id": "hanoi8",
+      "start": 19.667,
+      "title": "EGG COFFEE?<br>YES, PLEASE.",
+      "sub": "A little cup of Hanoi.",
+      "images": [
+        "egg-coffee.jpg",
+        "coffee.jpg"
+      ],
+      "cat": "cat-chubby.png",
+      "length": 2.345
+    },
+    {
+      "id": "hanoi9",
+      "start": 22.012,
+      "title": "PICK A SEAT.<br>WATCH HANOI.",
+      "sub": "Your favourite coffee. A street view.",
+      "images": [
+        "coffee-break.jpg",
+        "street-cafe.jpg"
+      ],
+      "cat": "cat.png",
+      "length": 3.471
+    },
+    {
+      "id": "hanoi10",
+      "start": 25.483,
+      "title": "A BREAK IS<br>PART OF THE TRIP.",
+      "sub": "Pause. Sip. Look around.",
+      "images": [
+        "balcony-cafe.jpg",
+        "egg-coffee.jpg"
+      ],
+      "cat": "cat-cream.png",
+      "length": 3.437
+    },
+    {
+      "id": "hanoi11",
+      "start": 28.92,
+      "title": "03 /<br>EXPLORE ON FOOT.",
+      "sub": "The scenic route starts here.",
+      "images": [
+        "lake-bridge.jpg",
+        "old-quarter.jpg"
+      ],
+      "cat": "cat-surprised.png",
+      "length": 3.495
+    },
+    {
+      "id": "hanoi12",
+      "start": 32.415,
+      "title": "HOÀN KIẾM<br>LAKE WALKS.",
+      "sub": "Start by the water.",
+      "images": [
+        "lake.jpg",
+        "lake-bridge.jpg"
+      ],
+      "cat": "cat.png",
+      "length": 1.799
+    },
+    {
+      "id": "hanoi13",
+      "start": 34.214,
+      "title": "NEXT:<br>THE OLD QUARTER.",
+      "sub": "Let curiosity lead.",
+      "images": [
+        "old-quarter.jpg",
+        "street-cafe.jpg"
+      ],
+      "cat": "cat-sun.png",
+      "length": 2.311
+    },
+    {
+      "id": "hanoi14",
+      "start": 36.525,
+      "title": "LOOK UP.<br>PEEK DOWN THE ALLEYS.",
+      "sub": "Balconies above. Little lanes below.",
+      "images": [
+        "balcony-cafe.jpg",
+        "old-quarter.jpg"
+      ],
+      "cat": "cat-surprised.png",
+      "length": 3.97
+    },
+    {
+      "id": "hanoi15",
+      "start": 40.495,
+      "title": "TAKE THE<br>SCENIC ROUTE.",
+      "sub": "Leave room for a little wandering.",
+      "images": [
+        "cathedral.jpg",
+        "lake-walk.jpg"
+      ],
+      "cat": "cat-cream.png",
+      "length": 2.461
+    },
+    {
+      "id": "hanoi16",
+      "start": 42.956,
+      "title": "YOU.<br>IN THE FRAME.",
+      "sub": "Your own Hanoi story.",
+      "images": [
+        "couple.jpg",
+        "lake-walk.jpg"
+      ],
+      "cat": "cat-chubby.png",
+      "length": 1.986
+    },
+    {
+      "id": "hanoi17",
+      "start": 44.942,
+      "title": "YOUR DAY.<br>YOUR HANOI STORY.",
+      "sub": "With a local photographer.",
+      "images": [
+        "hanoi-portrait.jpg",
+        "coffee-break.jpg"
+      ],
+      "cat": "cat.png",
+      "length": 5.132
+    },
+    {
+      "id": "hanoi18",
+      "start": 50.074,
+      "title": "SAVE THIS<br>FOR YOUR HANOI TRIP.",
+      "sub": "Eat local. Sip slowly. Wander more.",
+      "images": [
+        "bun-cha.jpg",
+        "egg-coffee.jpg"
+      ],
+      "cat": "cat-chubby.png",
+      "length": 3.393
+    }
+  ],
+  "captionGroups": 42,
+  "photoFrames": 36,
+  "uniquePhotos": 14
+}

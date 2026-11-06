@@ -1,0 +1,7758 @@
+{
+  "version": "v03",
+  "fps": 30,
+  "bpm": 108,
+  "musicPhaseSeconds": 0,
+  "poseChangesPerSecond": 7.2,
+  "beats": [
+    {
+      "quarterIndex": 0,
+      "frame": 0,
+      "time": 0,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 1,
+      "frame": 4,
+      "time": 0.13333333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 2,
+      "frame": 8,
+      "time": 0.26666666666666666,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 3,
+      "frame": 13,
+      "time": 0.43333333333333335,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 4,
+      "frame": 17,
+      "time": 0.5666666666666667,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 5,
+      "frame": 21,
+      "time": 0.7,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 6,
+      "frame": 25,
+      "time": 0.8333333333333334,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 7,
+      "frame": 29,
+      "time": 0.9666666666666667,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 8,
+      "frame": 33,
+      "time": 1.1,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 9,
+      "frame": 38,
+      "time": 1.2666666666666666,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 10,
+      "frame": 42,
+      "time": 1.4,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 11,
+      "frame": 46,
+      "time": 1.5333333333333334,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 12,
+      "frame": 50,
+      "time": 1.6666666666666667,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 13,
+      "frame": 54,
+      "time": 1.8,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 14,
+      "frame": 58,
+      "time": 1.9333333333333333,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 15,
+      "frame": 63,
+      "time": 2.1,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 16,
+      "frame": 67,
+      "time": 2.2333333333333334,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 17,
+      "frame": 71,
+      "time": 2.3666666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 18,
+      "frame": 75,
+      "time": 2.5,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 19,
+      "frame": 79,
+      "time": 2.6333333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 20,
+      "frame": 83,
+      "time": 2.7666666666666666,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 21,
+      "frame": 88,
+      "time": 2.933333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 22,
+      "frame": 92,
+      "time": 3.066666666666667,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 23,
+      "frame": 96,
+      "time": 3.2,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 24,
+      "frame": 100,
+      "time": 3.3333333333333335,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 25,
+      "frame": 104,
+      "time": 3.466666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 26,
+      "frame": 108,
+      "time": 3.6,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 27,
+      "frame": 113,
+      "time": 3.7666666666666666,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 28,
+      "frame": 117,
+      "time": 3.9,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 29,
+      "frame": 121,
+      "time": 4.033333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 30,
+      "frame": 125,
+      "time": 4.166666666666667,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 31,
+      "frame": 129,
+      "time": 4.3,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 32,
+      "frame": 133,
+      "time": 4.433333333333334,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 33,
+      "frame": 138,
+      "time": 4.6,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 34,
+      "frame": 142,
+      "time": 4.733333333333333,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 35,
+      "frame": 146,
+      "time": 4.866666666666666,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 36,
+      "frame": 150,
+      "time": 5,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 37,
+      "frame": 154,
+      "time": 5.133333333333334,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 38,
+      "frame": 158,
+      "time": 5.266666666666667,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 39,
+      "frame": 163,
+      "time": 5.433333333333334,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 40,
+      "frame": 167,
+      "time": 5.566666666666666,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 41,
+      "frame": 171,
+      "time": 5.7,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 42,
+      "frame": 175,
+      "time": 5.833333333333333,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 43,
+      "frame": 179,
+      "time": 5.966666666666667,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 44,
+      "frame": 183,
+      "time": 6.1,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 45,
+      "frame": 188,
+      "time": 6.266666666666667,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 46,
+      "frame": 192,
+      "time": 6.4,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 47,
+      "frame": 196,
+      "time": 6.533333333333333,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 48,
+      "frame": 200,
+      "time": 6.666666666666667,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 49,
+      "frame": 204,
+      "time": 6.8,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 50,
+      "frame": 208,
+      "time": 6.933333333333334,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 51,
+      "frame": 213,
+      "time": 7.1,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 52,
+      "frame": 217,
+      "time": 7.233333333333333,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 53,
+      "frame": 221,
+      "time": 7.366666666666666,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 54,
+      "frame": 225,
+      "time": 7.5,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 55,
+      "frame": 229,
+      "time": 7.633333333333334,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 56,
+      "frame": 233,
+      "time": 7.766666666666667,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 57,
+      "frame": 238,
+      "time": 7.933333333333334,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 58,
+      "frame": 242,
+      "time": 8.066666666666666,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 59,
+      "frame": 246,
+      "time": 8.2,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 60,
+      "frame": 250,
+      "time": 8.333333333333334,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 61,
+      "frame": 254,
+      "time": 8.466666666666667,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 62,
+      "frame": 258,
+      "time": 8.6,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 63,
+      "frame": 263,
+      "time": 8.766666666666667,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 64,
+      "frame": 267,
+      "time": 8.9,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 65,
+      "frame": 271,
+      "time": 9.033333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 66,
+      "frame": 275,
+      "time": 9.166666666666666,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 67,
+      "frame": 279,
+      "time": 9.3,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 68,
+      "frame": 283,
+      "time": 9.433333333333334,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 69,
+      "frame": 288,
+      "time": 9.6,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 70,
+      "frame": 292,
+      "time": 9.733333333333333,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 71,
+      "frame": 296,
+      "time": 9.866666666666667,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 72,
+      "frame": 300,
+      "time": 10,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 73,
+      "frame": 304,
+      "time": 10.133333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 74,
+      "frame": 308,
+      "time": 10.266666666666667,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 75,
+      "frame": 313,
+      "time": 10.433333333333334,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 76,
+      "frame": 317,
+      "time": 10.566666666666666,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 77,
+      "frame": 321,
+      "time": 10.7,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 78,
+      "frame": 325,
+      "time": 10.833333333333334,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 79,
+      "frame": 329,
+      "time": 10.966666666666667,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 80,
+      "frame": 333,
+      "time": 11.1,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 81,
+      "frame": 338,
+      "time": 11.266666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 82,
+      "frame": 342,
+      "time": 11.4,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 83,
+      "frame": 346,
+      "time": 11.533333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 84,
+      "frame": 350,
+      "time": 11.666666666666666,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 85,
+      "frame": 354,
+      "time": 11.8,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 86,
+      "frame": 358,
+      "time": 11.933333333333334,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 87,
+      "frame": 363,
+      "time": 12.1,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 88,
+      "frame": 367,
+      "time": 12.233333333333333,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 89,
+      "frame": 371,
+      "time": 12.366666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 90,
+      "frame": 375,
+      "time": 12.5,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 91,
+      "frame": 379,
+      "time": 12.633333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 92,
+      "frame": 383,
+      "time": 12.766666666666667,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 93,
+      "frame": 388,
+      "time": 12.933333333333334,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 94,
+      "frame": 392,
+      "time": 13.066666666666666,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 95,
+      "frame": 396,
+      "time": 13.2,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 96,
+      "frame": 400,
+      "time": 13.333333333333334,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 97,
+      "frame": 404,
+      "time": 13.466666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 98,
+      "frame": 408,
+      "time": 13.6,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 99,
+      "frame": 413,
+      "time": 13.766666666666667,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 100,
+      "frame": 417,
+      "time": 13.9,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 101,
+      "frame": 421,
+      "time": 14.033333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 102,
+      "frame": 425,
+      "time": 14.166666666666666,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 103,
+      "frame": 429,
+      "time": 14.3,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 104,
+      "frame": 433,
+      "time": 14.433333333333334,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 105,
+      "frame": 438,
+      "time": 14.6,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 106,
+      "frame": 442,
+      "time": 14.733333333333333,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 107,
+      "frame": 446,
+      "time": 14.866666666666667,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 108,
+      "frame": 450,
+      "time": 15,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 109,
+      "frame": 454,
+      "time": 15.133333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 110,
+      "frame": 458,
+      "time": 15.266666666666667,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 111,
+      "frame": 463,
+      "time": 15.433333333333334,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 112,
+      "frame": 467,
+      "time": 15.566666666666666,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 113,
+      "frame": 471,
+      "time": 15.7,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 114,
+      "frame": 475,
+      "time": 15.833333333333334,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 115,
+      "frame": 479,
+      "time": 15.966666666666667,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 116,
+      "frame": 483,
+      "time": 16.1,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 117,
+      "frame": 488,
+      "time": 16.266666666666666,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 118,
+      "frame": 492,
+      "time": 16.4,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 119,
+      "frame": 496,
+      "time": 16.533333333333335,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 120,
+      "frame": 500,
+      "time": 16.666666666666668,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 121,
+      "frame": 504,
+      "time": 16.8,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 122,
+      "frame": 508,
+      "time": 16.933333333333334,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 123,
+      "frame": 513,
+      "time": 17.1,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 124,
+      "frame": 517,
+      "time": 17.233333333333334,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 125,
+      "frame": 521,
+      "time": 17.366666666666667,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 126,
+      "frame": 525,
+      "time": 17.5,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 127,
+      "frame": 529,
+      "time": 17.633333333333333,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 128,
+      "frame": 533,
+      "time": 17.766666666666666,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 129,
+      "frame": 538,
+      "time": 17.933333333333334,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 130,
+      "frame": 542,
+      "time": 18.066666666666666,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 131,
+      "frame": 546,
+      "time": 18.2,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 132,
+      "frame": 550,
+      "time": 18.333333333333332,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 133,
+      "frame": 554,
+      "time": 18.466666666666665,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 134,
+      "frame": 558,
+      "time": 18.6,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 135,
+      "frame": 563,
+      "time": 18.766666666666666,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 136,
+      "frame": 567,
+      "time": 18.9,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 137,
+      "frame": 571,
+      "time": 19.033333333333335,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 138,
+      "frame": 575,
+      "time": 19.166666666666668,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 139,
+      "frame": 579,
+      "time": 19.3,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 140,
+      "frame": 583,
+      "time": 19.433333333333334,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 141,
+      "frame": 588,
+      "time": 19.6,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 142,
+      "frame": 592,
+      "time": 19.733333333333334,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 143,
+      "frame": 596,
+      "time": 19.866666666666667,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 144,
+      "frame": 600,
+      "time": 20,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 145,
+      "frame": 604,
+      "time": 20.133333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 146,
+      "frame": 608,
+      "time": 20.266666666666666,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 147,
+      "frame": 613,
+      "time": 20.433333333333334,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 148,
+      "frame": 617,
+      "time": 20.566666666666666,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 149,
+      "frame": 621,
+      "time": 20.7,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 150,
+      "frame": 625,
+      "time": 20.833333333333332,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 151,
+      "frame": 629,
+      "time": 20.966666666666665,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 152,
+      "frame": 633,
+      "time": 21.1,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 153,
+      "frame": 638,
+      "time": 21.266666666666666,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 154,
+      "frame": 642,
+      "time": 21.4,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 155,
+      "frame": 646,
+      "time": 21.533333333333335,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 156,
+      "frame": 650,
+      "time": 21.666666666666668,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 157,
+      "frame": 654,
+      "time": 21.8,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 158,
+      "frame": 658,
+      "time": 21.933333333333334,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 159,
+      "frame": 663,
+      "time": 22.1,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 160,
+      "frame": 667,
+      "time": 22.233333333333334,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 161,
+      "frame": 671,
+      "time": 22.366666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 162,
+      "frame": 675,
+      "time": 22.5,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 163,
+      "frame": 679,
+      "time": 22.633333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 164,
+      "frame": 683,
+      "time": 22.766666666666666,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 165,
+      "frame": 688,
+      "time": 22.933333333333334,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 166,
+      "frame": 692,
+      "time": 23.066666666666666,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 167,
+      "frame": 696,
+      "time": 23.2,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 168,
+      "frame": 700,
+      "time": 23.333333333333332,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 169,
+      "frame": 704,
+      "time": 23.466666666666665,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 170,
+      "frame": 708,
+      "time": 23.6,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 171,
+      "frame": 713,
+      "time": 23.766666666666666,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 172,
+      "frame": 717,
+      "time": 23.9,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 173,
+      "frame": 721,
+      "time": 24.033333333333335,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 174,
+      "frame": 725,
+      "time": 24.166666666666668,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 175,
+      "frame": 729,
+      "time": 24.3,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 176,
+      "frame": 733,
+      "time": 24.433333333333334,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 177,
+      "frame": 738,
+      "time": 24.6,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 178,
+      "frame": 742,
+      "time": 24.733333333333334,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 179,
+      "frame": 746,
+      "time": 24.866666666666667,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 180,
+      "frame": 750,
+      "time": 25,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 181,
+      "frame": 754,
+      "time": 25.133333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 182,
+      "frame": 758,
+      "time": 25.266666666666666,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 183,
+      "frame": 763,
+      "time": 25.433333333333334,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 184,
+      "frame": 767,
+      "time": 25.566666666666666,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 185,
+      "frame": 771,
+      "time": 25.7,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 186,
+      "frame": 775,
+      "time": 25.833333333333332,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 187,
+      "frame": 779,
+      "time": 25.966666666666665,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 188,
+      "frame": 783,
+      "time": 26.1,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 189,
+      "frame": 788,
+      "time": 26.266666666666666,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 190,
+      "frame": 792,
+      "time": 26.4,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 191,
+      "frame": 796,
+      "time": 26.533333333333335,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 192,
+      "frame": 800,
+      "time": 26.666666666666668,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 193,
+      "frame": 804,
+      "time": 26.8,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 194,
+      "frame": 808,
+      "time": 26.933333333333334,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 195,
+      "frame": 813,
+      "time": 27.1,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 196,
+      "frame": 817,
+      "time": 27.233333333333334,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 197,
+      "frame": 821,
+      "time": 27.366666666666667,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 198,
+      "frame": 825,
+      "time": 27.5,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 199,
+      "frame": 829,
+      "time": 27.633333333333333,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 200,
+      "frame": 833,
+      "time": 27.766666666666666,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 201,
+      "frame": 838,
+      "time": 27.933333333333334,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 202,
+      "frame": 842,
+      "time": 28.066666666666666,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 203,
+      "frame": 846,
+      "time": 28.2,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 204,
+      "frame": 850,
+      "time": 28.333333333333332,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 205,
+      "frame": 854,
+      "time": 28.466666666666665,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 206,
+      "frame": 858,
+      "time": 28.6,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 207,
+      "frame": 863,
+      "time": 28.766666666666666,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 208,
+      "frame": 867,
+      "time": 28.9,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 209,
+      "frame": 871,
+      "time": 29.033333333333335,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 210,
+      "frame": 875,
+      "time": 29.166666666666668,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 211,
+      "frame": 879,
+      "time": 29.3,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 212,
+      "frame": 883,
+      "time": 29.433333333333334,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 213,
+      "frame": 888,
+      "time": 29.6,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 214,
+      "frame": 892,
+      "time": 29.733333333333334,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 215,
+      "frame": 896,
+      "time": 29.866666666666667,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 216,
+      "frame": 900,
+      "time": 30,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 217,
+      "frame": 904,
+      "time": 30.133333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 218,
+      "frame": 908,
+      "time": 30.266666666666666,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 219,
+      "frame": 913,
+      "time": 30.433333333333334,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 220,
+      "frame": 917,
+      "time": 30.566666666666666,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 221,
+      "frame": 921,
+      "time": 30.7,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 222,
+      "frame": 925,
+      "time": 30.833333333333332,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 223,
+      "frame": 929,
+      "time": 30.966666666666665,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 224,
+      "frame": 933,
+      "time": 31.1,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 225,
+      "frame": 938,
+      "time": 31.266666666666666,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 226,
+      "frame": 942,
+      "time": 31.4,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 227,
+      "frame": 946,
+      "time": 31.533333333333335,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 228,
+      "frame": 950,
+      "time": 31.666666666666668,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 229,
+      "frame": 954,
+      "time": 31.8,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 230,
+      "frame": 958,
+      "time": 31.933333333333334,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 231,
+      "frame": 963,
+      "time": 32.1,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 232,
+      "frame": 967,
+      "time": 32.233333333333334,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 233,
+      "frame": 971,
+      "time": 32.36666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 234,
+      "frame": 975,
+      "time": 32.5,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 235,
+      "frame": 979,
+      "time": 32.63333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 236,
+      "frame": 983,
+      "time": 32.766666666666666,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 237,
+      "frame": 988,
+      "time": 32.93333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 238,
+      "frame": 992,
+      "time": 33.06666666666667,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 239,
+      "frame": 996,
+      "time": 33.2,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 240,
+      "frame": 1000,
+      "time": 33.333333333333336,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 241,
+      "frame": 1004,
+      "time": 33.46666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 242,
+      "frame": 1008,
+      "time": 33.6,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 243,
+      "frame": 1013,
+      "time": 33.766666666666666,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 244,
+      "frame": 1017,
+      "time": 33.9,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 245,
+      "frame": 1021,
+      "time": 34.03333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 246,
+      "frame": 1025,
+      "time": 34.166666666666664,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 247,
+      "frame": 1029,
+      "time": 34.3,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 248,
+      "frame": 1033,
+      "time": 34.43333333333333,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 249,
+      "frame": 1038,
+      "time": 34.6,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 250,
+      "frame": 1042,
+      "time": 34.733333333333334,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 251,
+      "frame": 1046,
+      "time": 34.86666666666667,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 252,
+      "frame": 1050,
+      "time": 35,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 253,
+      "frame": 1054,
+      "time": 35.13333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 254,
+      "frame": 1058,
+      "time": 35.266666666666666,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 255,
+      "frame": 1063,
+      "time": 35.43333333333333,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 256,
+      "frame": 1067,
+      "time": 35.56666666666667,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 257,
+      "frame": 1071,
+      "time": 35.7,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 258,
+      "frame": 1075,
+      "time": 35.833333333333336,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 259,
+      "frame": 1079,
+      "time": 35.96666666666667,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 260,
+      "frame": 1083,
+      "time": 36.1,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 261,
+      "frame": 1088,
+      "time": 36.266666666666666,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 262,
+      "frame": 1092,
+      "time": 36.4,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 263,
+      "frame": 1096,
+      "time": 36.53333333333333,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 264,
+      "frame": 1100,
+      "time": 36.666666666666664,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 265,
+      "frame": 1104,
+      "time": 36.8,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 266,
+      "frame": 1108,
+      "time": 36.93333333333333,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 267,
+      "frame": 1113,
+      "time": 37.1,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 268,
+      "frame": 1117,
+      "time": 37.233333333333334,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 269,
+      "frame": 1121,
+      "time": 37.36666666666667,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 270,
+      "frame": 1125,
+      "time": 37.5,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 271,
+      "frame": 1129,
+      "time": 37.63333333333333,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 272,
+      "frame": 1133,
+      "time": 37.766666666666666,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 273,
+      "frame": 1138,
+      "time": 37.93333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 274,
+      "frame": 1142,
+      "time": 38.06666666666667,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 275,
+      "frame": 1146,
+      "time": 38.2,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 276,
+      "frame": 1150,
+      "time": 38.333333333333336,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 277,
+      "frame": 1154,
+      "time": 38.46666666666667,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 278,
+      "frame": 1158,
+      "time": 38.6,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 279,
+      "frame": 1163,
+      "time": 38.766666666666666,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 280,
+      "frame": 1167,
+      "time": 38.9,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 281,
+      "frame": 1171,
+      "time": 39.03333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 282,
+      "frame": 1175,
+      "time": 39.166666666666664,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 283,
+      "frame": 1179,
+      "time": 39.3,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 284,
+      "frame": 1183,
+      "time": 39.43333333333333,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 285,
+      "frame": 1188,
+      "time": 39.6,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 286,
+      "frame": 1192,
+      "time": 39.733333333333334,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 287,
+      "frame": 1196,
+      "time": 39.86666666666667,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 288,
+      "frame": 1200,
+      "time": 40,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 289,
+      "frame": 1204,
+      "time": 40.13333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 290,
+      "frame": 1208,
+      "time": 40.266666666666666,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 291,
+      "frame": 1213,
+      "time": 40.43333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 292,
+      "frame": 1217,
+      "time": 40.56666666666667,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 293,
+      "frame": 1221,
+      "time": 40.7,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 294,
+      "frame": 1225,
+      "time": 40.833333333333336,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 295,
+      "frame": 1229,
+      "time": 40.96666666666667,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 296,
+      "frame": 1233,
+      "time": 41.1,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 297,
+      "frame": 1238,
+      "time": 41.266666666666666,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 298,
+      "frame": 1242,
+      "time": 41.4,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 299,
+      "frame": 1246,
+      "time": 41.53333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 300,
+      "frame": 1250,
+      "time": 41.666666666666664,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 301,
+      "frame": 1254,
+      "time": 41.8,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 302,
+      "frame": 1258,
+      "time": 41.93333333333333,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 303,
+      "frame": 1263,
+      "time": 42.1,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 304,
+      "frame": 1267,
+      "time": 42.233333333333334,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 305,
+      "frame": 1271,
+      "time": 42.36666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 306,
+      "frame": 1275,
+      "time": 42.5,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 307,
+      "frame": 1279,
+      "time": 42.63333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 308,
+      "frame": 1283,
+      "time": 42.766666666666666,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 309,
+      "frame": 1288,
+      "time": 42.93333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 310,
+      "frame": 1292,
+      "time": 43.06666666666667,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 311,
+      "frame": 1296,
+      "time": 43.2,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 312,
+      "frame": 1300,
+      "time": 43.333333333333336,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 313,
+      "frame": 1304,
+      "time": 43.46666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 314,
+      "frame": 1308,
+      "time": 43.6,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 315,
+      "frame": 1313,
+      "time": 43.766666666666666,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 316,
+      "frame": 1317,
+      "time": 43.9,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 317,
+      "frame": 1321,
+      "time": 44.03333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 318,
+      "frame": 1325,
+      "time": 44.166666666666664,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 319,
+      "frame": 1329,
+      "time": 44.3,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 320,
+      "frame": 1333,
+      "time": 44.43333333333333,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 321,
+      "frame": 1338,
+      "time": 44.6,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 322,
+      "frame": 1342,
+      "time": 44.733333333333334,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 323,
+      "frame": 1346,
+      "time": 44.86666666666667,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 324,
+      "frame": 1350,
+      "time": 45,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 325,
+      "frame": 1354,
+      "time": 45.13333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 326,
+      "frame": 1358,
+      "time": 45.266666666666666,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 327,
+      "frame": 1363,
+      "time": 45.43333333333333,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 328,
+      "frame": 1367,
+      "time": 45.56666666666667,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 329,
+      "frame": 1371,
+      "time": 45.7,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 330,
+      "frame": 1375,
+      "time": 45.833333333333336,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 331,
+      "frame": 1379,
+      "time": 45.96666666666667,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 332,
+      "frame": 1383,
+      "time": 46.1,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 333,
+      "frame": 1388,
+      "time": 46.266666666666666,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 334,
+      "frame": 1392,
+      "time": 46.4,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 335,
+      "frame": 1396,
+      "time": 46.53333333333333,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 336,
+      "frame": 1400,
+      "time": 46.666666666666664,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 337,
+      "frame": 1404,
+      "time": 46.8,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 338,
+      "frame": 1408,
+      "time": 46.93333333333333,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 339,
+      "frame": 1413,
+      "time": 47.1,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 340,
+      "frame": 1417,
+      "time": 47.233333333333334,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 341,
+      "frame": 1421,
+      "time": 47.36666666666667,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 342,
+      "frame": 1425,
+      "time": 47.5,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 343,
+      "frame": 1429,
+      "time": 47.63333333333333,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 344,
+      "frame": 1433,
+      "time": 47.766666666666666,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 345,
+      "frame": 1438,
+      "time": 47.93333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 346,
+      "frame": 1442,
+      "time": 48.06666666666667,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 347,
+      "frame": 1446,
+      "time": 48.2,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 348,
+      "frame": 1450,
+      "time": 48.333333333333336,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 349,
+      "frame": 1454,
+      "time": 48.46666666666667,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 350,
+      "frame": 1458,
+      "time": 48.6,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 351,
+      "frame": 1463,
+      "time": 48.766666666666666,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 352,
+      "frame": 1467,
+      "time": 48.9,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 353,
+      "frame": 1471,
+      "time": 49.03333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 354,
+      "frame": 1475,
+      "time": 49.166666666666664,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 355,
+      "frame": 1479,
+      "time": 49.3,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 356,
+      "frame": 1483,
+      "time": 49.43333333333333,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 357,
+      "frame": 1488,
+      "time": 49.6,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 358,
+      "frame": 1492,
+      "time": 49.733333333333334,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 359,
+      "frame": 1496,
+      "time": 49.86666666666667,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 360,
+      "frame": 1500,
+      "time": 50,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 361,
+      "frame": 1504,
+      "time": 50.13333333333333,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 362,
+      "frame": 1508,
+      "time": 50.266666666666666,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 363,
+      "frame": 1513,
+      "time": 50.43333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 364,
+      "frame": 1517,
+      "time": 50.56666666666667,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 365,
+      "frame": 1521,
+      "time": 50.7,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 366,
+      "frame": 1525,
+      "time": 50.833333333333336,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 367,
+      "frame": 1529,
+      "time": 50.96666666666667,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 368,
+      "frame": 1533,
+      "time": 51.1,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 369,
+      "frame": 1538,
+      "time": 51.266666666666666,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 370,
+      "frame": 1542,
+      "time": 51.4,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 371,
+      "frame": 1546,
+      "time": 51.53333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 372,
+      "frame": 1550,
+      "time": 51.666666666666664,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 373,
+      "frame": 1554,
+      "time": 51.8,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 374,
+      "frame": 1558,
+      "time": 51.93333333333333,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 375,
+      "frame": 1563,
+      "time": 52.1,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 376,
+      "frame": 1567,
+      "time": 52.233333333333334,
+      "phase": 0
+    },
+    {
+      "quarterIndex": 377,
+      "frame": 1571,
+      "time": 52.36666666666667,
+      "phase": 1
+    },
+    {
+      "quarterIndex": 378,
+      "frame": 1575,
+      "time": 52.5,
+      "phase": 2
+    },
+    {
+      "quarterIndex": 379,
+      "frame": 1579,
+      "time": 52.63333333333333,
+      "phase": 3
+    },
+    {
+      "quarterIndex": 380,
+      "frame": 1583,
+      "time": 52.766666666666666,
+      "phase": 4
+    },
+    {
+      "quarterIndex": 381,
+      "frame": 1588,
+      "time": 52.93333333333333,
+      "phase": 5
+    },
+    {
+      "quarterIndex": 382,
+      "frame": 1592,
+      "time": 53.06666666666667,
+      "phase": 6
+    },
+    {
+      "quarterIndex": 383,
+      "frame": 1596,
+      "time": 53.2,
+      "phase": 7
+    },
+    {
+      "quarterIndex": 384,
+      "frame": 1600,
+      "time": 53.333333333333336,
+      "phase": 0
+    }
+  ],
+  "scenes": [
+    {
+      "scene": "hanoi1",
+      "cat": "shock",
+      "start": 0,
+      "end": 4.481,
+      "length": 4.481,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -5,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 0,
+          "quarterIndex": 0
+        },
+        {
+          "time": 0.133323,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -4,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 4,
+          "quarterIndex": 1
+        },
+        {
+          "time": 0.266657,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -10,
+            "rotation": -6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 8,
+          "quarterIndex": 2
+        },
+        {
+          "time": 0.433323,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -3,
+            "rotation": 4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 13,
+          "quarterIndex": 3
+        },
+        {
+          "time": 0.566657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 5,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 17,
+          "quarterIndex": 4
+        },
+        {
+          "time": 0.69999,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -5,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 21,
+          "quarterIndex": 5
+        },
+        {
+          "time": 0.833323,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -10,
+            "rotation": 6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 25,
+          "quarterIndex": 6
+        },
+        {
+          "time": 0.966657,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -3,
+            "rotation": -4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 29,
+          "quarterIndex": 7
+        },
+        {
+          "time": 1.09999,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -5,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 33,
+          "quarterIndex": 8
+        },
+        {
+          "time": 1.266657,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -4,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 38,
+          "quarterIndex": 9
+        },
+        {
+          "time": 1.39999,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -10,
+            "rotation": -6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 42,
+          "quarterIndex": 10
+        },
+        {
+          "time": 1.533323,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -3,
+            "rotation": 4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 46,
+          "quarterIndex": 11
+        },
+        {
+          "time": 1.666657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 5,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 50,
+          "quarterIndex": 12
+        },
+        {
+          "time": 1.79999,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -5,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 54,
+          "quarterIndex": 13
+        },
+        {
+          "time": 1.933323,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -10,
+            "rotation": 6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 58,
+          "quarterIndex": 14
+        },
+        {
+          "time": 2.09999,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -3,
+            "rotation": -4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 63,
+          "quarterIndex": 15
+        },
+        {
+          "time": 2.233323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -5,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 67,
+          "quarterIndex": 16
+        },
+        {
+          "time": 2.366657,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -4,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 71,
+          "quarterIndex": 17
+        },
+        {
+          "time": 2.49999,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -10,
+            "rotation": -6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 75,
+          "quarterIndex": 18
+        },
+        {
+          "time": 2.633323,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -3,
+            "rotation": 4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 79,
+          "quarterIndex": 19
+        },
+        {
+          "time": 2.766657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 5,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 83,
+          "quarterIndex": 20
+        },
+        {
+          "time": 2.933323,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -5,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 88,
+          "quarterIndex": 21
+        },
+        {
+          "time": 3.066657,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -10,
+            "rotation": 6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 92,
+          "quarterIndex": 22
+        },
+        {
+          "time": 3.19999,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -3,
+            "rotation": -4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 96,
+          "quarterIndex": 23
+        },
+        {
+          "time": 3.333323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -5,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 100,
+          "quarterIndex": 24
+        },
+        {
+          "time": 3.466657,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -4,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 104,
+          "quarterIndex": 25
+        },
+        {
+          "time": 3.59999,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -10,
+            "rotation": -6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 108,
+          "quarterIndex": 26
+        },
+        {
+          "time": 3.766657,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -3,
+            "rotation": 4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 113,
+          "quarterIndex": 27
+        },
+        {
+          "time": 3.89999,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 5,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 117,
+          "quarterIndex": 28
+        },
+        {
+          "time": 4.033323,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -5,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 121,
+          "quarterIndex": 29
+        },
+        {
+          "time": 4.166657,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -10,
+            "rotation": 6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 125,
+          "quarterIndex": 30
+        },
+        {
+          "time": 4.29999,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -3,
+            "rotation": -4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 129,
+          "quarterIndex": 31
+        },
+        {
+          "time": 4.381,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi2",
+      "cat": "hungry",
+      "start": 4.481,
+      "end": 7.175,
+      "length": 2.694,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.51899,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 3,
+            "scaleX": 1.05,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 150,
+          "quarterIndex": 36
+        },
+        {
+          "time": 0.652323,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -2,
+            "rotation": 0,
+            "scaleX": 1.02,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 154,
+          "quarterIndex": 37
+        },
+        {
+          "time": 0.785657,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": -8,
+            "rotation": -4,
+            "scaleX": 0.97,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 158,
+          "quarterIndex": 38
+        },
+        {
+          "time": 0.952323,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 163,
+          "quarterIndex": 39
+        },
+        {
+          "time": 1.085657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.05,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 167,
+          "quarterIndex": 40
+        },
+        {
+          "time": 1.21899,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -2,
+            "rotation": 0,
+            "scaleX": 1.02,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 171,
+          "quarterIndex": 41
+        },
+        {
+          "time": 1.352323,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": -8,
+            "rotation": 4,
+            "scaleX": 0.97,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 175,
+          "quarterIndex": 42
+        },
+        {
+          "time": 1.485657,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 179,
+          "quarterIndex": 43
+        },
+        {
+          "time": 1.61899,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 3,
+            "scaleX": 1.05,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 183,
+          "quarterIndex": 44
+        },
+        {
+          "time": 1.785657,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -2,
+            "rotation": 0,
+            "scaleX": 1.02,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 188,
+          "quarterIndex": 45
+        },
+        {
+          "time": 1.91899,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": -8,
+            "rotation": -4,
+            "scaleX": 0.97,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 192,
+          "quarterIndex": 46
+        },
+        {
+          "time": 2.052323,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 196,
+          "quarterIndex": 47
+        },
+        {
+          "time": 2.185657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.05,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 200,
+          "quarterIndex": 48
+        },
+        {
+          "time": 2.31899,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -2,
+            "rotation": 0,
+            "scaleX": 1.02,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 204,
+          "quarterIndex": 49
+        },
+        {
+          "time": 2.452323,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": -8,
+            "rotation": 4,
+            "scaleX": 0.97,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 208,
+          "quarterIndex": 50
+        },
+        {
+          "time": 2.594,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi3",
+      "cat": "laugh",
+      "start": 7.175,
+      "end": 9.427,
+      "length": 2.252,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.591657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.04,
+            "scaleY": 0.95
+          },
+          "kind": "beat-pose",
+          "globalFrame": 233,
+          "quarterIndex": 56
+        },
+        {
+          "time": 0.758323,
+          "props": {
+            "opacity": 1,
+            "x": 1,
+            "y": -4,
+            "rotation": 3,
+            "scaleX": 1.01,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 238,
+          "quarterIndex": 57
+        },
+        {
+          "time": 0.891657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -11,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 242,
+          "quarterIndex": 58
+        },
+        {
+          "time": 1.02499,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -4,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 246,
+          "quarterIndex": 59
+        },
+        {
+          "time": 1.158323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 3,
+            "scaleX": 1.04,
+            "scaleY": 0.95
+          },
+          "kind": "beat-pose",
+          "globalFrame": 250,
+          "quarterIndex": 60
+        },
+        {
+          "time": 1.291657,
+          "props": {
+            "opacity": 1,
+            "x": -1,
+            "y": -4,
+            "rotation": -3,
+            "scaleX": 1.01,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 254,
+          "quarterIndex": 61
+        },
+        {
+          "time": 1.42499,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -11,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 258,
+          "quarterIndex": 62
+        },
+        {
+          "time": 1.591657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -4,
+            "rotation": -1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 263,
+          "quarterIndex": 63
+        },
+        {
+          "time": 1.72499,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.04,
+            "scaleY": 0.95
+          },
+          "kind": "beat-pose",
+          "globalFrame": 267,
+          "quarterIndex": 64
+        },
+        {
+          "time": 1.858323,
+          "props": {
+            "opacity": 1,
+            "x": 1,
+            "y": -4,
+            "rotation": 3,
+            "scaleX": 1.01,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 271,
+          "quarterIndex": 65
+        },
+        {
+          "time": 1.991657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -11,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 275,
+          "quarterIndex": 66
+        },
+        {
+          "time": 2.12499,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -4,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 279,
+          "quarterIndex": 67
+        },
+        {
+          "time": 2.152,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi4",
+      "cat": "hungry",
+      "start": 9.427,
+      "end": 11.401,
+      "length": 1.974,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.57299,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.05,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 300,
+          "quarterIndex": 72
+        },
+        {
+          "time": 0.706323,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -2,
+            "rotation": 0,
+            "scaleX": 1.02,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 304,
+          "quarterIndex": 73
+        },
+        {
+          "time": 0.839657,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": -8,
+            "rotation": 4,
+            "scaleX": 0.97,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 308,
+          "quarterIndex": 74
+        },
+        {
+          "time": 1.006323,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 313,
+          "quarterIndex": 75
+        },
+        {
+          "time": 1.139657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 3,
+            "scaleX": 1.05,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 317,
+          "quarterIndex": 76
+        },
+        {
+          "time": 1.27299,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -2,
+            "rotation": 0,
+            "scaleX": 1.02,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 321,
+          "quarterIndex": 77
+        },
+        {
+          "time": 1.406323,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": -8,
+            "rotation": -4,
+            "scaleX": 0.97,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 325,
+          "quarterIndex": 78
+        },
+        {
+          "time": 1.539657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 329,
+          "quarterIndex": 79
+        },
+        {
+          "time": 1.67299,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.05,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 333,
+          "quarterIndex": 80
+        },
+        {
+          "time": 1.839657,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -2,
+            "rotation": 0,
+            "scaleX": 1.02,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 338,
+          "quarterIndex": 81
+        },
+        {
+          "time": 1.874,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi5",
+      "cat": "sideeye",
+      "start": 11.401,
+      "end": 14.129,
+      "length": 2.728,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.532323,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 358,
+          "quarterIndex": 86
+        },
+        {
+          "time": 0.69899,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -2,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 363,
+          "quarterIndex": 87
+        },
+        {
+          "time": 0.832323,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 367,
+          "quarterIndex": 88
+        },
+        {
+          "time": 0.965657,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 371,
+          "quarterIndex": 89
+        },
+        {
+          "time": 1.09899,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 375,
+          "quarterIndex": 90
+        },
+        {
+          "time": 1.232323,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -2,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 379,
+          "quarterIndex": 91
+        },
+        {
+          "time": 1.365657,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 383,
+          "quarterIndex": 92
+        },
+        {
+          "time": 1.532323,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 388,
+          "quarterIndex": 93
+        },
+        {
+          "time": 1.665657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 392,
+          "quarterIndex": 94
+        },
+        {
+          "time": 1.79899,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -2,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 396,
+          "quarterIndex": 95
+        },
+        {
+          "time": 1.932323,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 400,
+          "quarterIndex": 96
+        },
+        {
+          "time": 2.065657,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 404,
+          "quarterIndex": 97
+        },
+        {
+          "time": 2.19899,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 408,
+          "quarterIndex": 98
+        },
+        {
+          "time": 2.365657,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -2,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 413,
+          "quarterIndex": 99
+        },
+        {
+          "time": 2.49899,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 417,
+          "quarterIndex": 100
+        },
+        {
+          "time": 2.628,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi6",
+      "cat": "scream",
+      "start": 14.129,
+      "end": 16.985,
+      "length": 2.856,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.604323,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -16,
+            "rotation": -7,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 442,
+          "quarterIndex": 106
+        },
+        {
+          "time": 0.737657,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -5,
+            "rotation": 4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 446,
+          "quarterIndex": 107
+        },
+        {
+          "time": 0.87099,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 6,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 450,
+          "quarterIndex": 108
+        },
+        {
+          "time": 1.004323,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -6,
+            "rotation": -7,
+            "scaleX": 1,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 454,
+          "quarterIndex": 109
+        },
+        {
+          "time": 1.137657,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -16,
+            "rotation": 7,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 458,
+          "quarterIndex": 110
+        },
+        {
+          "time": 1.304323,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -5,
+            "rotation": -4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 463,
+          "quarterIndex": 111
+        },
+        {
+          "time": 1.437657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -6,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 467,
+          "quarterIndex": 112
+        },
+        {
+          "time": 1.57099,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -6,
+            "rotation": 7,
+            "scaleX": 1,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 471,
+          "quarterIndex": 113
+        },
+        {
+          "time": 1.704323,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -16,
+            "rotation": -7,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 475,
+          "quarterIndex": 114
+        },
+        {
+          "time": 1.837657,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -5,
+            "rotation": 4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 479,
+          "quarterIndex": 115
+        },
+        {
+          "time": 1.97099,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 6,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 483,
+          "quarterIndex": 116
+        },
+        {
+          "time": 2.137657,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -6,
+            "rotation": -7,
+            "scaleX": 1,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 488,
+          "quarterIndex": 117
+        },
+        {
+          "time": 2.27099,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -16,
+            "rotation": 7,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 492,
+          "quarterIndex": 118
+        },
+        {
+          "time": 2.404323,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -5,
+            "rotation": -4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 496,
+          "quarterIndex": 119
+        },
+        {
+          "time": 2.537657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -6,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 500,
+          "quarterIndex": 120
+        },
+        {
+          "time": 2.67099,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -6,
+            "rotation": 7,
+            "scaleX": 1,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 504,
+          "quarterIndex": 121
+        },
+        {
+          "time": 2.756,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi7",
+      "cat": "excited",
+      "start": 16.985,
+      "end": 19.666999999999998,
+      "length": 2.682,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.51499,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -18,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 525,
+          "quarterIndex": 126
+        },
+        {
+          "time": 0.648323,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -8,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 529,
+          "quarterIndex": 127
+        },
+        {
+          "time": 0.781657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -4,
+            "scaleX": 1.04,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 533,
+          "quarterIndex": 128
+        },
+        {
+          "time": 0.948323,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -8,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 538,
+          "quarterIndex": 129
+        },
+        {
+          "time": 1.081657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -18,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 542,
+          "quarterIndex": 130
+        },
+        {
+          "time": 1.21499,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -8,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 546,
+          "quarterIndex": 131
+        },
+        {
+          "time": 1.348323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 4,
+            "scaleX": 1.04,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 550,
+          "quarterIndex": 132
+        },
+        {
+          "time": 1.481657,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -8,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 554,
+          "quarterIndex": 133
+        },
+        {
+          "time": 1.61499,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -18,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 558,
+          "quarterIndex": 134
+        },
+        {
+          "time": 1.781657,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -8,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 563,
+          "quarterIndex": 135
+        },
+        {
+          "time": 1.91499,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -4,
+            "scaleX": 1.04,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 567,
+          "quarterIndex": 136
+        },
+        {
+          "time": 2.048323,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -8,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 571,
+          "quarterIndex": 137
+        },
+        {
+          "time": 2.181657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -18,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 575,
+          "quarterIndex": 138
+        },
+        {
+          "time": 2.31499,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -8,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 579,
+          "quarterIndex": 139
+        },
+        {
+          "time": 2.448323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 4,
+            "scaleX": 1.04,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 583,
+          "quarterIndex": 140
+        },
+        {
+          "time": 2.582,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi8",
+      "cat": "love",
+      "start": 19.667,
+      "end": 22.012,
+      "length": 2.345,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.599657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -10,
+            "rotation": 3,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 608,
+          "quarterIndex": 146
+        },
+        {
+          "time": 0.766323,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 613,
+          "quarterIndex": 147
+        },
+        {
+          "time": 0.899657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 3,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 617,
+          "quarterIndex": 148
+        },
+        {
+          "time": 1.03299,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 621,
+          "quarterIndex": 149
+        },
+        {
+          "time": 1.166323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -10,
+            "rotation": -3,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 625,
+          "quarterIndex": 150
+        },
+        {
+          "time": 1.299657,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 629,
+          "quarterIndex": 151
+        },
+        {
+          "time": 1.43299,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -3,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 633,
+          "quarterIndex": 152
+        },
+        {
+          "time": 1.599657,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 638,
+          "quarterIndex": 153
+        },
+        {
+          "time": 1.73299,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -10,
+            "rotation": 3,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 642,
+          "quarterIndex": 154
+        },
+        {
+          "time": 1.866323,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 646,
+          "quarterIndex": 155
+        },
+        {
+          "time": 1.999657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 3,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 650,
+          "quarterIndex": 156
+        },
+        {
+          "time": 2.13299,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 654,
+          "quarterIndex": 157
+        },
+        {
+          "time": 2.245,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi9",
+      "cat": "sideeye",
+      "start": 22.012,
+      "end": 25.483,
+      "length": 3.471,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.621323,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -2,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 679,
+          "quarterIndex": 163
+        },
+        {
+          "time": 0.754657,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 683,
+          "quarterIndex": 164
+        },
+        {
+          "time": 0.921323,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 688,
+          "quarterIndex": 165
+        },
+        {
+          "time": 1.054657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 692,
+          "quarterIndex": 166
+        },
+        {
+          "time": 1.18799,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -2,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 696,
+          "quarterIndex": 167
+        },
+        {
+          "time": 1.321323,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 700,
+          "quarterIndex": 168
+        },
+        {
+          "time": 1.454657,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 704,
+          "quarterIndex": 169
+        },
+        {
+          "time": 1.58799,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 708,
+          "quarterIndex": 170
+        },
+        {
+          "time": 1.754657,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -2,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 713,
+          "quarterIndex": 171
+        },
+        {
+          "time": 1.88799,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 717,
+          "quarterIndex": 172
+        },
+        {
+          "time": 2.021323,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 721,
+          "quarterIndex": 173
+        },
+        {
+          "time": 2.154657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 725,
+          "quarterIndex": 174
+        },
+        {
+          "time": 2.28799,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -2,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 729,
+          "quarterIndex": 175
+        },
+        {
+          "time": 2.421323,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 733,
+          "quarterIndex": 176
+        },
+        {
+          "time": 2.58799,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 738,
+          "quarterIndex": 177
+        },
+        {
+          "time": 2.721323,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 742,
+          "quarterIndex": 178
+        },
+        {
+          "time": 2.854657,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -2,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 746,
+          "quarterIndex": 179
+        },
+        {
+          "time": 2.98799,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 750,
+          "quarterIndex": 180
+        },
+        {
+          "time": 3.121323,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 754,
+          "quarterIndex": 181
+        },
+        {
+          "time": 3.254657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 758,
+          "quarterIndex": 182
+        },
+        {
+          "time": 3.371,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi10",
+      "cat": "love",
+      "start": 25.483,
+      "end": 28.92,
+      "length": 3.437,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.61699,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 3,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 783,
+          "quarterIndex": 188
+        },
+        {
+          "time": 0.783657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 788,
+          "quarterIndex": 189
+        },
+        {
+          "time": 0.91699,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -10,
+            "rotation": -3,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 792,
+          "quarterIndex": 190
+        },
+        {
+          "time": 1.050323,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 796,
+          "quarterIndex": 191
+        },
+        {
+          "time": 1.183657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -3,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 800,
+          "quarterIndex": 192
+        },
+        {
+          "time": 1.31699,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 804,
+          "quarterIndex": 193
+        },
+        {
+          "time": 1.450323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -10,
+            "rotation": 3,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 808,
+          "quarterIndex": 194
+        },
+        {
+          "time": 1.61699,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 813,
+          "quarterIndex": 195
+        },
+        {
+          "time": 1.750323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 3,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 817,
+          "quarterIndex": 196
+        },
+        {
+          "time": 1.883657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 821,
+          "quarterIndex": 197
+        },
+        {
+          "time": 2.01699,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -10,
+            "rotation": -3,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 825,
+          "quarterIndex": 198
+        },
+        {
+          "time": 2.150323,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 829,
+          "quarterIndex": 199
+        },
+        {
+          "time": 2.283657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -3,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 833,
+          "quarterIndex": 200
+        },
+        {
+          "time": 2.450323,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 838,
+          "quarterIndex": 201
+        },
+        {
+          "time": 2.583657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -10,
+            "rotation": 3,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 842,
+          "quarterIndex": 202
+        },
+        {
+          "time": 2.71699,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 846,
+          "quarterIndex": 203
+        },
+        {
+          "time": 2.850323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 3,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 850,
+          "quarterIndex": 204
+        },
+        {
+          "time": 2.983657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 854,
+          "quarterIndex": 205
+        },
+        {
+          "time": 3.11699,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -10,
+            "rotation": -3,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 858,
+          "quarterIndex": 206
+        },
+        {
+          "time": 3.283657,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 863,
+          "quarterIndex": 207
+        },
+        {
+          "time": 3.337,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi11",
+      "cat": "excited",
+      "start": 28.92,
+      "end": 32.415,
+      "length": 3.495,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.513323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 4,
+            "scaleX": 1.04,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 883,
+          "quarterIndex": 212
+        },
+        {
+          "time": 0.67999,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -8,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 888,
+          "quarterIndex": 213
+        },
+        {
+          "time": 0.813323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -18,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 892,
+          "quarterIndex": 214
+        },
+        {
+          "time": 0.946657,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -8,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 896,
+          "quarterIndex": 215
+        },
+        {
+          "time": 1.07999,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -4,
+            "scaleX": 1.04,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 900,
+          "quarterIndex": 216
+        },
+        {
+          "time": 1.213323,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -8,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 904,
+          "quarterIndex": 217
+        },
+        {
+          "time": 1.346657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -18,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 908,
+          "quarterIndex": 218
+        },
+        {
+          "time": 1.513323,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -8,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 913,
+          "quarterIndex": 219
+        },
+        {
+          "time": 1.646657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 4,
+            "scaleX": 1.04,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 917,
+          "quarterIndex": 220
+        },
+        {
+          "time": 1.77999,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -8,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 921,
+          "quarterIndex": 221
+        },
+        {
+          "time": 1.913323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -18,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 925,
+          "quarterIndex": 222
+        },
+        {
+          "time": 2.046657,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -8,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 929,
+          "quarterIndex": 223
+        },
+        {
+          "time": 2.17999,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -4,
+            "scaleX": 1.04,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 933,
+          "quarterIndex": 224
+        },
+        {
+          "time": 2.346657,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -8,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 938,
+          "quarterIndex": 225
+        },
+        {
+          "time": 2.47999,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -18,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 942,
+          "quarterIndex": 226
+        },
+        {
+          "time": 2.613323,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -8,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 946,
+          "quarterIndex": 227
+        },
+        {
+          "time": 2.746657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 4,
+            "scaleX": 1.04,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 950,
+          "quarterIndex": 228
+        },
+        {
+          "time": 2.87999,
+          "props": {
+            "opacity": 1,
+            "x": 5,
+            "y": -8,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 954,
+          "quarterIndex": 229
+        },
+        {
+          "time": 3.013323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -18,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 958,
+          "quarterIndex": 230
+        },
+        {
+          "time": 3.17999,
+          "props": {
+            "opacity": 1,
+            "x": -5,
+            "y": -8,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 963,
+          "quarterIndex": 231
+        },
+        {
+          "time": 3.313323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -4,
+            "scaleX": 1.04,
+            "scaleY": 0.94
+          },
+          "kind": "beat-pose",
+          "globalFrame": 967,
+          "quarterIndex": 232
+        },
+        {
+          "time": 3.395,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi12",
+      "cat": "happycry",
+      "start": 32.415,
+      "end": 34.214,
+      "length": 1.799,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.518323,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -3,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 988,
+          "quarterIndex": 237
+        },
+        {
+          "time": 0.651657,
+          "props": {
+            "opacity": 1,
+            "x": 2,
+            "y": -12,
+            "rotation": -4,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 992,
+          "quarterIndex": 238
+        },
+        {
+          "time": 0.78499,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 996,
+          "quarterIndex": 239
+        },
+        {
+          "time": 0.918323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.04,
+            "scaleY": 0.96
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1000,
+          "quarterIndex": 240
+        },
+        {
+          "time": 1.051657,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -3,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1004,
+          "quarterIndex": 241
+        },
+        {
+          "time": 1.18499,
+          "props": {
+            "opacity": 1,
+            "x": -2,
+            "y": -12,
+            "rotation": 4,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1008,
+          "quarterIndex": 242
+        },
+        {
+          "time": 1.351657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1013,
+          "quarterIndex": 243
+        },
+        {
+          "time": 1.48499,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 3,
+            "scaleX": 1.04,
+            "scaleY": 0.96
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1017,
+          "quarterIndex": 244
+        },
+        {
+          "time": 1.618323,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -3,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1021,
+          "quarterIndex": 245
+        },
+        {
+          "time": 1.699,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi13",
+      "cat": "scream",
+      "start": 34.214,
+      "end": 36.525,
+      "length": 2.311,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.519323,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -16,
+            "rotation": -7,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1042,
+          "quarterIndex": 250
+        },
+        {
+          "time": 0.652657,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -5,
+            "rotation": 4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1046,
+          "quarterIndex": 251
+        },
+        {
+          "time": 0.78599,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 6,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1050,
+          "quarterIndex": 252
+        },
+        {
+          "time": 0.919323,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -6,
+            "rotation": -7,
+            "scaleX": 1,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1054,
+          "quarterIndex": 253
+        },
+        {
+          "time": 1.052657,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -16,
+            "rotation": 7,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1058,
+          "quarterIndex": 254
+        },
+        {
+          "time": 1.219323,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -5,
+            "rotation": -4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1063,
+          "quarterIndex": 255
+        },
+        {
+          "time": 1.352657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -6,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1067,
+          "quarterIndex": 256
+        },
+        {
+          "time": 1.48599,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -6,
+            "rotation": 7,
+            "scaleX": 1,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1071,
+          "quarterIndex": 257
+        },
+        {
+          "time": 1.619323,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -16,
+            "rotation": -7,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1075,
+          "quarterIndex": 258
+        },
+        {
+          "time": 1.752657,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -5,
+            "rotation": 4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1079,
+          "quarterIndex": 259
+        },
+        {
+          "time": 1.88599,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 6,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1083,
+          "quarterIndex": 260
+        },
+        {
+          "time": 2.052657,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -6,
+            "rotation": -7,
+            "scaleX": 1,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1088,
+          "quarterIndex": 261
+        },
+        {
+          "time": 2.18599,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -16,
+            "rotation": 7,
+            "scaleX": 0.98,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1092,
+          "quarterIndex": 262
+        },
+        {
+          "time": 2.211,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi14",
+      "cat": "sideeye",
+      "start": 36.525,
+      "end": 40.495,
+      "length": 3.97,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.57499,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -2,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1113,
+          "quarterIndex": 267
+        },
+        {
+          "time": 0.708323,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1117,
+          "quarterIndex": 268
+        },
+        {
+          "time": 0.841657,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1121,
+          "quarterIndex": 269
+        },
+        {
+          "time": 0.97499,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1125,
+          "quarterIndex": 270
+        },
+        {
+          "time": 1.108323,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -2,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1129,
+          "quarterIndex": 271
+        },
+        {
+          "time": 1.241657,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1133,
+          "quarterIndex": 272
+        },
+        {
+          "time": 1.408323,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1138,
+          "quarterIndex": 273
+        },
+        {
+          "time": 1.541657,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1142,
+          "quarterIndex": 274
+        },
+        {
+          "time": 1.67499,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -2,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1146,
+          "quarterIndex": 275
+        },
+        {
+          "time": 1.808323,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1150,
+          "quarterIndex": 276
+        },
+        {
+          "time": 1.941657,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1154,
+          "quarterIndex": 277
+        },
+        {
+          "time": 2.07499,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1158,
+          "quarterIndex": 278
+        },
+        {
+          "time": 2.241657,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -2,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1163,
+          "quarterIndex": 279
+        },
+        {
+          "time": 2.37499,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1167,
+          "quarterIndex": 280
+        },
+        {
+          "time": 2.508323,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1171,
+          "quarterIndex": 281
+        },
+        {
+          "time": 2.641657,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1175,
+          "quarterIndex": 282
+        },
+        {
+          "time": 2.77499,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -2,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1179,
+          "quarterIndex": 283
+        },
+        {
+          "time": 2.908323,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1183,
+          "quarterIndex": 284
+        },
+        {
+          "time": 3.07499,
+          "props": {
+            "opacity": 1,
+            "x": 8,
+            "y": 0,
+            "rotation": 4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1188,
+          "quarterIndex": 285
+        },
+        {
+          "time": 3.208323,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1192,
+          "quarterIndex": 286
+        },
+        {
+          "time": 3.341657,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -2,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1196,
+          "quarterIndex": 287
+        },
+        {
+          "time": 3.47499,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1200,
+          "quarterIndex": 288
+        },
+        {
+          "time": 3.608323,
+          "props": {
+            "opacity": 1,
+            "x": -8,
+            "y": 0,
+            "rotation": -4,
+            "scaleX": 1.02,
+            "scaleY": 0.99
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1204,
+          "quarterIndex": 289
+        },
+        {
+          "time": 3.741657,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1208,
+          "quarterIndex": 290
+        },
+        {
+          "time": 3.87,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi15",
+      "cat": "laugh",
+      "start": 40.495,
+      "end": 42.955999999999996,
+      "length": 2.461,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.60499,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.04,
+            "scaleY": 0.95
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1233,
+          "quarterIndex": 296
+        },
+        {
+          "time": 0.771657,
+          "props": {
+            "opacity": 1,
+            "x": 1,
+            "y": -4,
+            "rotation": 3,
+            "scaleX": 1.01,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1238,
+          "quarterIndex": 297
+        },
+        {
+          "time": 0.90499,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -11,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1242,
+          "quarterIndex": 298
+        },
+        {
+          "time": 1.038323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -4,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1246,
+          "quarterIndex": 299
+        },
+        {
+          "time": 1.171657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 3,
+            "scaleX": 1.04,
+            "scaleY": 0.95
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1250,
+          "quarterIndex": 300
+        },
+        {
+          "time": 1.30499,
+          "props": {
+            "opacity": 1,
+            "x": -1,
+            "y": -4,
+            "rotation": -3,
+            "scaleX": 1.01,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1254,
+          "quarterIndex": 301
+        },
+        {
+          "time": 1.438323,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -11,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1258,
+          "quarterIndex": 302
+        },
+        {
+          "time": 1.60499,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -4,
+            "rotation": -1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1263,
+          "quarterIndex": 303
+        },
+        {
+          "time": 1.738323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.04,
+            "scaleY": 0.95
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1267,
+          "quarterIndex": 304
+        },
+        {
+          "time": 1.871657,
+          "props": {
+            "opacity": 1,
+            "x": 1,
+            "y": -4,
+            "rotation": 3,
+            "scaleX": 1.01,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1271,
+          "quarterIndex": 305
+        },
+        {
+          "time": 2.00499,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -11,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1275,
+          "quarterIndex": 306
+        },
+        {
+          "time": 2.138323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": -4,
+            "rotation": 1,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1279,
+          "quarterIndex": 307
+        },
+        {
+          "time": 2.271657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 3,
+            "scaleX": 1.04,
+            "scaleY": 0.95
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1283,
+          "quarterIndex": 308
+        },
+        {
+          "time": 2.361,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi16",
+      "cat": "shock",
+      "start": 42.956,
+      "end": 44.942,
+      "length": 1.986,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.510657,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -4,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1304,
+          "quarterIndex": 313
+        },
+        {
+          "time": 0.64399,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -10,
+            "rotation": -6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1308,
+          "quarterIndex": 314
+        },
+        {
+          "time": 0.810657,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -3,
+            "rotation": 4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1313,
+          "quarterIndex": 315
+        },
+        {
+          "time": 0.94399,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": 5,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1317,
+          "quarterIndex": 316
+        },
+        {
+          "time": 1.077323,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -5,
+            "rotation": -5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1321,
+          "quarterIndex": 317
+        },
+        {
+          "time": 1.210657,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -10,
+            "rotation": 6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1325,
+          "quarterIndex": 318
+        },
+        {
+          "time": 1.34399,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -3,
+            "rotation": -4,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1329,
+          "quarterIndex": 319
+        },
+        {
+          "time": 1.477323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 1,
+            "rotation": -5,
+            "scaleX": 1.03,
+            "scaleY": 0.97
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1333,
+          "quarterIndex": 320
+        },
+        {
+          "time": 1.64399,
+          "props": {
+            "opacity": 1,
+            "x": 6,
+            "y": -4,
+            "rotation": 5,
+            "scaleX": 0.98,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1338,
+          "quarterIndex": 321
+        },
+        {
+          "time": 1.777323,
+          "props": {
+            "opacity": 1,
+            "x": -6,
+            "y": -10,
+            "rotation": -6,
+            "scaleX": 1,
+            "scaleY": 1.04
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1342,
+          "quarterIndex": 322
+        },
+        {
+          "time": 1.886,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi17",
+      "cat": "cool",
+      "start": 44.942,
+      "end": 50.074,
+      "length": 5.132,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.624657,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": 1,
+            "rotation": -5,
+            "scaleX": 1.03,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1367,
+          "quarterIndex": 328
+        },
+        {
+          "time": 0.75799,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1371,
+          "quarterIndex": 329
+        },
+        {
+          "time": 0.891323,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -7,
+            "rotation": 2,
+            "scaleX": 0.99,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1375,
+          "quarterIndex": 330
+        },
+        {
+          "time": 1.024657,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": -3,
+            "rotation": 5,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1379,
+          "quarterIndex": 331
+        },
+        {
+          "time": 1.15799,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": 1,
+            "rotation": 5,
+            "scaleX": 1.03,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1383,
+          "quarterIndex": 332
+        },
+        {
+          "time": 1.324657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1388,
+          "quarterIndex": 333
+        },
+        {
+          "time": 1.45799,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -7,
+            "rotation": -2,
+            "scaleX": 0.99,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1392,
+          "quarterIndex": 334
+        },
+        {
+          "time": 1.591323,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": -3,
+            "rotation": -5,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1396,
+          "quarterIndex": 335
+        },
+        {
+          "time": 1.724657,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": 1,
+            "rotation": -5,
+            "scaleX": 1.03,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1400,
+          "quarterIndex": 336
+        },
+        {
+          "time": 1.85799,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1404,
+          "quarterIndex": 337
+        },
+        {
+          "time": 1.991323,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -7,
+            "rotation": 2,
+            "scaleX": 0.99,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1408,
+          "quarterIndex": 338
+        },
+        {
+          "time": 2.15799,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": -3,
+            "rotation": 5,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1413,
+          "quarterIndex": 339
+        },
+        {
+          "time": 2.291323,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": 1,
+            "rotation": 5,
+            "scaleX": 1.03,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1417,
+          "quarterIndex": 340
+        },
+        {
+          "time": 2.424657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1421,
+          "quarterIndex": 341
+        },
+        {
+          "time": 2.55799,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -7,
+            "rotation": -2,
+            "scaleX": 0.99,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1425,
+          "quarterIndex": 342
+        },
+        {
+          "time": 2.691323,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": -3,
+            "rotation": -5,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1429,
+          "quarterIndex": 343
+        },
+        {
+          "time": 2.824657,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": 1,
+            "rotation": -5,
+            "scaleX": 1.03,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1433,
+          "quarterIndex": 344
+        },
+        {
+          "time": 2.991323,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1438,
+          "quarterIndex": 345
+        },
+        {
+          "time": 3.124657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -7,
+            "rotation": 2,
+            "scaleX": 0.99,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1442,
+          "quarterIndex": 346
+        },
+        {
+          "time": 3.25799,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": -3,
+            "rotation": 5,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1446,
+          "quarterIndex": 347
+        },
+        {
+          "time": 3.391323,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": 1,
+            "rotation": 5,
+            "scaleX": 1.03,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1450,
+          "quarterIndex": 348
+        },
+        {
+          "time": 3.524657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1454,
+          "quarterIndex": 349
+        },
+        {
+          "time": 3.65799,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -7,
+            "rotation": -2,
+            "scaleX": 0.99,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1458,
+          "quarterIndex": 350
+        },
+        {
+          "time": 3.824657,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": -3,
+            "rotation": -5,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1463,
+          "quarterIndex": 351
+        },
+        {
+          "time": 3.95799,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": 1,
+            "rotation": -5,
+            "scaleX": 1.03,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1467,
+          "quarterIndex": 352
+        },
+        {
+          "time": 4.091323,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -3,
+            "rotation": -3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1471,
+          "quarterIndex": 353
+        },
+        {
+          "time": 4.224657,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -7,
+            "rotation": 2,
+            "scaleX": 0.99,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1475,
+          "quarterIndex": 354
+        },
+        {
+          "time": 4.35799,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": -3,
+            "rotation": 5,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1479,
+          "quarterIndex": 355
+        },
+        {
+          "time": 4.491323,
+          "props": {
+            "opacity": 1,
+            "x": 7,
+            "y": 1,
+            "rotation": 5,
+            "scaleX": 1.03,
+            "scaleY": 0.98
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1483,
+          "quarterIndex": 356
+        },
+        {
+          "time": 4.65799,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -3,
+            "rotation": 3,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1488,
+          "quarterIndex": 357
+        },
+        {
+          "time": 4.791323,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -7,
+            "rotation": -2,
+            "scaleX": 0.99,
+            "scaleY": 1.02
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1492,
+          "quarterIndex": 358
+        },
+        {
+          "time": 4.924657,
+          "props": {
+            "opacity": 1,
+            "x": -7,
+            "y": -3,
+            "rotation": -5,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1496,
+          "quarterIndex": 359
+        },
+        {
+          "time": 5.032,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    },
+    {
+      "scene": "hanoi18",
+      "cat": "happycry",
+      "start": 50.074,
+      "end": 53.467,
+      "length": 3.393,
+      "poses": [
+        {
+          "time": 0,
+          "props": {
+            "transformOrigin": "50% 100%",
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 0
+          },
+          "kind": "initial"
+        },
+        {
+          "time": 0.2,
+          "props": {
+            "opacity": 1,
+            "scaleX": 0.78,
+            "scaleY": 0.84,
+            "y": 16,
+            "rotation": -7
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.333333,
+          "props": {
+            "scaleX": 1.06,
+            "scaleY": 1.04,
+            "y": -8,
+            "rotation": 4
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.466667,
+          "props": {
+            "scaleX": 1,
+            "scaleY": 1,
+            "y": 0,
+            "rotation": 0
+          },
+          "kind": "entrance"
+        },
+        {
+          "time": 0.62599,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -3,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1521,
+          "quarterIndex": 365
+        },
+        {
+          "time": 0.759323,
+          "props": {
+            "opacity": 1,
+            "x": 2,
+            "y": -12,
+            "rotation": -4,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1525,
+          "quarterIndex": 366
+        },
+        {
+          "time": 0.892657,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1529,
+          "quarterIndex": 367
+        },
+        {
+          "time": 1.02599,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.04,
+            "scaleY": 0.96
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1533,
+          "quarterIndex": 368
+        },
+        {
+          "time": 1.192657,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -3,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1538,
+          "quarterIndex": 369
+        },
+        {
+          "time": 1.32599,
+          "props": {
+            "opacity": 1,
+            "x": -2,
+            "y": -12,
+            "rotation": 4,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1542,
+          "quarterIndex": 370
+        },
+        {
+          "time": 1.459323,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1546,
+          "quarterIndex": 371
+        },
+        {
+          "time": 1.592657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 3,
+            "scaleX": 1.04,
+            "scaleY": 0.96
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1550,
+          "quarterIndex": 372
+        },
+        {
+          "time": 1.72599,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -3,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1554,
+          "quarterIndex": 373
+        },
+        {
+          "time": 1.859323,
+          "props": {
+            "opacity": 1,
+            "x": 2,
+            "y": -12,
+            "rotation": -4,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1558,
+          "quarterIndex": 374
+        },
+        {
+          "time": 2.02599,
+          "props": {
+            "opacity": 1,
+            "x": -3,
+            "y": -4,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1563,
+          "quarterIndex": 375
+        },
+        {
+          "time": 2.159323,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": -3,
+            "scaleX": 1.04,
+            "scaleY": 0.96
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1567,
+          "quarterIndex": 376
+        },
+        {
+          "time": 2.292657,
+          "props": {
+            "opacity": 1,
+            "x": -4,
+            "y": -3,
+            "rotation": -2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1571,
+          "quarterIndex": 377
+        },
+        {
+          "time": 2.42599,
+          "props": {
+            "opacity": 1,
+            "x": -2,
+            "y": -12,
+            "rotation": 4,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1575,
+          "quarterIndex": 378
+        },
+        {
+          "time": 2.559323,
+          "props": {
+            "opacity": 1,
+            "x": 3,
+            "y": -4,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1579,
+          "quarterIndex": 379
+        },
+        {
+          "time": 2.692657,
+          "props": {
+            "opacity": 1,
+            "x": 0,
+            "y": 2,
+            "rotation": 3,
+            "scaleX": 1.04,
+            "scaleY": 0.96
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1583,
+          "quarterIndex": 380
+        },
+        {
+          "time": 2.859323,
+          "props": {
+            "opacity": 1,
+            "x": 4,
+            "y": -3,
+            "rotation": 2,
+            "scaleX": 1,
+            "scaleY": 1
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1588,
+          "quarterIndex": 381
+        },
+        {
+          "time": 2.992657,
+          "props": {
+            "opacity": 1,
+            "x": 2,
+            "y": -12,
+            "rotation": -4,
+            "scaleX": 0.99,
+            "scaleY": 1.03
+          },
+          "kind": "beat-pose",
+          "globalFrame": 1592,
+          "quarterIndex": 382
+        },
+        {
+          "time": 3.053,
+          "props": {
+            "x": 0,
+            "y": 0,
+            "rotation": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "opacity": 1
+          },
+          "kind": "settle"
+        }
+      ]
+    }
+  ]
+}

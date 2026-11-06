@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "video_key": "facebook/1412336217200297",
+  "status": "analyzed_sampled",
+  "reviewed_frame_passes": [
+    "frames",
+    "hook",
+    "ending"
+  ],
+  "observations": [
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Tiêu đề hook và hình mèo cắt nền.",
+      "evidence": {
+        "index_path": "hook/frames.json",
+        "frame_index": 0
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Thẻ khóa học xuất hiện rất sớm.",
+      "evidence": {
+        "index_path": "hook/frames.json",
+        "frame_index": 3
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Tại mốc focused gần 9 giây vẫn còn thẻ khóa học, chưa khớp mốc đổi hình Gemini nêu.",
+      "evidence": {
+        "index_path": "hook/frames.json",
+        "frame_index": 9
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Khung giới thiệu công thức đặt tiêu đề.",
+      "evidence": {
+        "index_path": "frames/frames.json",
+        "frame_index": 18
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Checklist quy trình ở cuối.",
+      "evidence": {
+        "index_path": "ending/frames.json",
+        "frame_index": 0
+      }
+    }
+  ],
+  "secondary_audio_observations": [
+    {
+      "kind": "audio_machine_observation",
+      "timestamp_estimate": "~0:03",
+      "text": "Gemini mô tả pop khi thẻ xuất hiện.",
+      "evidence": {
+        "path": "gemini-report-excerpt.md",
+        "provider": "watch/Gemini; authorized in chat"
+      }
+    },
+    {
+      "kind": "audio_machine_observation",
+      "timestamp_estimate": "~3:42–3:46",
+      "text": "Gemini mô tả chuỗi click/pop theo các dòng công thức.",
+      "evidence": {
+        "path": "gemini-report-excerpt.md",
+        "provider": "watch/Gemini; authorized in chat"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "kind": "inference",
+      "text": "Lấy câu hỏi của khách làm hook; giữ phần minh họa và checklist nhưng cung cấp giá trị sớm cho mục tiêu hướng dẫn.",
+      "basis": [
+        "hook/0",
+        "hook/3",
+        "hook/9",
+        "frames/18",
+        "ending/0"
+      ],
+      "reason": "Đề xuất chuyển chức năng giải thích bằng hình sang một câu hỏi du lịch."
+    }
+  ],
+  "asr_quality": "ASR có lỗi từ ngành và phân đoạn thô. Không dùng các câu máy ghi như lời hứa đúng của tác giả.",
+  "missing_data": [
+    "No platform subtitle track",
+    "No independent human listening validation of machine SFX observations",
+    "No editing project, exact font/plugin/audio asset identity"
+  ],
+  "approval": {
+    "research": "Requested by Rocky",
+    "paid_video_analysis": "Explicitly authorized for five supplied videos",
+    "creative_direction": "Proposed; not approved"
+  }
+}

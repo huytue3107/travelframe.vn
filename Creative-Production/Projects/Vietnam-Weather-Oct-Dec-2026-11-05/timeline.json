@@ -1,0 +1,204 @@
+{
+  "duration": 67.16666666666667,
+  "voiceEnd": 65.851,
+  "scenes": [
+    {
+      "id": "weather1",
+      "start": 0,
+      "title": "VIETNAM TRIP?<br>OCTOBER–DECEMBER",
+      "sub": "CHECK BEFORE YOU PACK",
+      "cat": "cat-surprised.png",
+      "kind": "calendar",
+      "value": "OCT · NOV · DEC",
+      "end": 3.46,
+      "length": 3.46
+    },
+    {
+      "id": "weather2",
+      "start": 3.46,
+      "title": "SAME COUNTRY.<br>DIFFERENT WEATHER.",
+      "sub": "NORTH → CENTRAL → SOUTH",
+      "cat": "cat.png",
+      "kind": "regions",
+      "value": "THREE REGIONS",
+      "end": 9.114,
+      "length": 5.654
+    },
+    {
+      "id": "weather3",
+      "start": 9.114,
+      "title": "NORTHERN VIETNAM",
+      "sub": "HANOI IN AUTUMN",
+      "cat": "cat-scarf.png",
+      "kind": "photo",
+      "value": "old-quarter.jpg",
+      "end": 13.862,
+      "length": 4.748
+    },
+    {
+      "id": "weather4",
+      "start": 13.862,
+      "title": "SLOW DOWN.<br>LOOK AROUND.",
+      "sub": "OLD QUARTER · HANOI",
+      "cat": "cat-cream.png",
+      "kind": "photo",
+      "value": "old-quarter.jpg",
+      "end": 16.242,
+      "length": 2.38
+    },
+    {
+      "id": "weather5",
+      "start": 16.242,
+      "title": "COFFEE BREAK?<br>YES, PLEASE.",
+      "sub": "BRING YOUR CAMERA",
+      "cat": "cat-chubby.png",
+      "kind": "photo",
+      "value": "coffee.jpg",
+      "end": 18.959,
+      "length": 2.717
+    },
+    {
+      "id": "weather6",
+      "start": 18.959,
+      "title": "DECEMBER?<br>PACK LAYERS.",
+      "sub": "A JACKET GOES IN THE BAG",
+      "cat": "cat-scarf.png",
+      "kind": "card",
+      "value": "LAYERS + JACKET",
+      "end": 21.444,
+      "length": 2.485
+    },
+    {
+      "id": "weather7",
+      "start": 21.444,
+      "title": "HEADING TO<br>THE MOUNTAINS?",
+      "sub": "PACK WARMER CLOTHING",
+      "cat": "cat-scarf.png",
+      "kind": "card",
+      "value": "WARMER LAYERS",
+      "end": 24.311,
+      "length": 2.867
+    },
+    {
+      "id": "weather8",
+      "start": 24.311,
+      "title": "CENTRAL VIETNAM",
+      "sub": "HUẾ · ĐÀ NẴNG · HỘI AN",
+      "cat": "cat-umbrella.png",
+      "kind": "rain",
+      "value": "LATE-YEAR WEATHER",
+      "end": 28.607,
+      "length": 4.296
+    },
+    {
+      "id": "weather9",
+      "start": 28.607,
+      "title": "HEAVY RAIN<br>AND STORMS",
+      "sub": "LATER MONTHS OF THE YEAR",
+      "cat": "cat-umbrella.png",
+      "kind": "rain",
+      "value": "KEEP PLANS FLEXIBLE",
+      "end": 32.821,
+      "length": 4.214
+    },
+    {
+      "id": "weather10",
+      "start": 32.821,
+      "title": "KEEP YOUR<br>PLANS FLEXIBLE",
+      "sub": "HAVE AN INDOOR BACKUP",
+      "cat": "cat.png",
+      "kind": "photo",
+      "value": "coffee.jpg",
+      "end": 38.046,
+      "length": 5.225
+    },
+    {
+      "id": "weather11",
+      "start": 38.046,
+      "title": "RAIN CAN CONTINUE<br>INTO DECEMBER",
+      "sub": "CHECK THE LOCAL FORECAST",
+      "cat": "cat-umbrella.png",
+      "kind": "rain",
+      "value": "CHECK BEFORE YOU GO",
+      "end": 42.875,
+      "length": 4.829
+    },
+    {
+      "id": "weather12",
+      "start": 42.875,
+      "title": "SOUTHERN VIETNAM",
+      "sub": "IT STAYS WARM",
+      "cat": "cat-sun.png",
+      "kind": "sun",
+      "value": "WARM YEAR-ROUND",
+      "end": 45.87,
+      "length": 2.995
+    },
+    {
+      "id": "weather13",
+      "start": 45.87,
+      "title": "OCTOBER + NOVEMBER",
+      "sub": "SHOWERS CAN STILL HAPPEN",
+      "cat": "cat-umbrella.png",
+      "kind": "rain",
+      "value": "BRING A RAIN LAYER",
+      "end": 48.936,
+      "length": 3.066
+    },
+    {
+      "id": "weather14",
+      "start": 48.936,
+      "title": "DECEMBER IS<br>GENERALLY DRIER",
+      "sub": "SEASONAL PATTERNS CAN VARY",
+      "cat": "cat-sun.png",
+      "kind": "sun",
+      "value": "GENERALLY DRIER",
+      "end": 51.977,
+      "length": 3.041
+    },
+    {
+      "id": "weather15",
+      "start": 51.977,
+      "title": "CHECK CLOSE<br>TO YOUR TRIP",
+      "sub": "LOCAL FORECAST > GENERAL GUIDE",
+      "cat": "cat-surprised.png",
+      "kind": "card",
+      "value": "CHECK YOUR DATES",
+      "end": 56.134,
+      "length": 4.157
+    },
+    {
+      "id": "weather16",
+      "start": 56.134,
+      "title": "HANOI ON<br>YOUR LIST?",
+      "sub": "MAKE TIME TO SLOW DOWN",
+      "cat": "cat-cream.png",
+      "kind": "photo",
+      "value": "lake.jpg",
+      "end": 60.22,
+      "length": 4.086
+    },
+    {
+      "id": "weather17",
+      "start": 60.22,
+      "title": "EXPLORE.<br>CAPTURE THE IN-BETWEEN.",
+      "sub": "A LITTLE HANOI STORY",
+      "cat": "cat.png",
+      "kind": "photo",
+      "value": "old-quarter.jpg",
+      "end": 63.715,
+      "length": 3.495
+    },
+    {
+      "id": "weather18",
+      "start": 63.715,
+      "title": "SAVE THIS FOR<br>YOUR VIETNAM TRIP",
+      "sub": "TRAVELFRAME · TRAVEL WITH CURIOSITY",
+      "cat": "cat-chubby.png",
+      "kind": "calendar",
+      "value": "OCT · NOV · DEC",
+      "end": 67.16666666666667,
+      "length": 3.452
+    }
+  ]
+}

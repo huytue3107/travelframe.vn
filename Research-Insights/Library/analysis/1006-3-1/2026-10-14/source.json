@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "video_key": "local/c6625de973ac9fac",
+  "platform": "local",
+  "native_id": "c6625de973ac9fac",
+  "source_url": null,
+  "author": null,
+  "source_upload_time": null,
+  "media": {
+    "path": "/Users/macbook/Downloads/1006(3)/1006(3)-1.mp4",
+    "fingerprint_sha256": "c6625de973ac9fac2374df53f347842a83eacb132facdfa95fbc8d520f0c9914",
+    "status": "ok",
+    "error": null,
+    "container_probe": "ffprobe",
+    "duration_seconds": 13.9,
+    "width": 4320,
+    "height": 7680,
+    "codec": "hevc",
+    "size_bytes": 114559149,
+    "has_audio": true
+  },
+  "texts": {
+    "post_caption": {
+      "status": "missing",
+      "reason": "no posts dataset provided",
+      "value": null,
+      "matched_by": null,
+      "posts_path": null
+    },
+    "platform_subtitles": {
+      "status": "missing",
+      "reason": "no metadata provided",
+      "paths": []
+    },
+    "asr_transcript": {
+      "paths": [
+        "Research-Insights/Library/transcripts/1006-3-1-2026-10-14/1006(3)-1.json",
+        "Research-Insights/Library/transcripts/1006-3-1-2026-10-14/1006(3)-1.srt",
+        "Research-Insights/Library/transcripts/1006-3-1-2026-10-14/1006(3)-1.tsv",
+        "Research-Insights/Library/transcripts/1006-3-1-2026-10-14/1006(3)-1.txt",
+        "Research-Insights/Library/transcripts/1006-3-1-2026-10-14/1006(3)-1.vtt"
+      ],
+      "verified": true,
+      "provenance": {
+        "schema_version": 1,
+        "created_at": "2026-10-14T15:09:18.972027+00:00",
+        "video": {
+          "path": "/Users/macbook/Downloads/1006(3)/1006(3)-1.mp4",
+          "fingerprint_sha256": "c6625de973ac9fac2374df53f347842a83eacb132facdfa95fbc8d520f0c9914"
+        },
+        "transcript": {
+          "source": "local_whisper",
+          "engine": "openai-whisper",
+          "model": "small",
+          "language": "en (auto-detected)",
+          "output_formats": [
+            "txt",
+            "srt",
+            "vtt",
+            "tsv",
+            "json"
+          ]
+        }
+      },
+      "status": "present",
+      "source": "local_whisper",
+      "reason": null
+    },
+    "on_screen_text": {
+      "status": "read_sampled_frames",
+      "reason": "Read main, hook and ending contact sheets; exact transcription in analysis.json."
+    }
+  },
+  "missing": [
+    "post_caption: no posts dataset provided",
+    "platform_subtitles: no metadata provided"
+  ],
+  "unverified": [],
+  "notes": [
+    "no --posts passed: caption cannot be matched against an Apify dataset",
+    "Local Whisper provenance verifies source/engine, not transcript accuracy. Screen subtitles kept separate; ASR omitted/mistranscribed words in several clips."
+  ]
+}

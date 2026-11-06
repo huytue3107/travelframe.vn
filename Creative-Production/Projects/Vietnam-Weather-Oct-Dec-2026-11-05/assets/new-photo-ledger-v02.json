@@ -1,0 +1,74 @@
+[
+  {
+    "id": 32979923,
+    "file": "hoi-an-street.jpg",
+    "photographer": "Mare Collantes",
+    "source": "https://www.pexels.com/photo/charming-streetscape-of-h-i-an-ancient-town-32979923/",
+    "description": "Hoi An street",
+    "license": "Pexels Free License, source page checked 2026-11-05",
+    "download_url": "https://images.pexels.com/photos/32979923/pexels-photo-32979923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "id": 38190221,
+    "file": "hoi-an-river.jpg",
+    "photographer": "Tuan Vy",
+    "source": "https://www.pexels.com/photo/colorful-riverside-buildings-in-hoi-an-vietnam-38190221/",
+    "description": "Hoi An riverside",
+    "license": "Pexels Free License, source page checked 2026-11-05",
+    "download_url": "https://images.pexels.com/photos/38190221/pexels-photo-38190221.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "id": 33908279,
+    "file": "sapa-terraces.jpg",
+    "photographer": "Son Hoa Nguyen",
+    "source": "https://www.pexels.com/photo/stunning-rice-terraces-in-sapa-vietnam-33908279/",
+    "description": "Sa Pa terraces; geography illustration, not December conditions",
+    "license": "Pexels Free License, source page checked 2026-11-05",
+    "download_url": "https://images.pexels.com/photos/33908279/pexels-photo-33908279.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "id": 26619997,
+    "file": "saigon-river.jpg",
+    "photographer": "Theodore Nguyen",
+    "source": "https://www.pexels.com/photo/a-river-with-buildings-in-the-background-26619997/",
+    "description": "Ho Chi Minh City skyline",
+    "license": "Pexels Free License, source page checked 2026-11-05",
+    "download_url": "https://images.pexels.com/photos/26619997/pexels-photo-26619997.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "id": 33101039,
+    "file": "saigon-sunset.jpg",
+    "photographer": "Felix Schickel",
+    "source": "https://www.pexels.com/photo/stunning-ho-chi-minh-city-skyline-at-sunset-33101039/",
+    "description": "Ho Chi Minh City sunset; not a forecast",
+    "license": "Pexels Free License, source page checked 2026-11-05",
+    "download_url": "https://images.pexels.com/photos/33101039/pexels-photo-33101039.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "id": 16408712,
+    "file": "rain-detail.jpg",
+    "photographer": "Darya Grey_Owl",
+    "source": "https://www.pexels.com/photo/close-up-of-raindrops-on-umbrella-16408712/",
+    "description": "Generic raindrops on umbrella; no geographic claim",
+    "license": "Pexels Free License, source page checked 2026-11-05",
+    "download_url": "https://images.pexels.com/photos/16408712/pexels-photo-16408712.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "id": 9186152,
+    "file": "packing.jpg",
+    "photographer": "Timur Weber",
+    "source": "https://www.pexels.com/photo/packing-suitcase-for-traveling-9186152/",
+    "description": "Generic travel packing",
+    "license": "Pexels Free License, source page checked 2026-11-05",
+    "download_url": "https://images.pexels.com/photos/9186152/pexels-photo-9186152.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "id": 9185832,
+    "file": "warm-clothes.jpg",
+    "photographer": "Timur Weber",
+    "source": "https://www.pexels.com/photo/hands-of-a-woman-packing-clothes-into-a-suitcase-9185832/",
+    "description": "Generic packing warm clothes",
+    "license": "Pexels Free License, source page checked 2026-11-05",
+    "download_url": "https://images.pexels.com/photos/9185832/pexels-photo-9185832.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  }
+]

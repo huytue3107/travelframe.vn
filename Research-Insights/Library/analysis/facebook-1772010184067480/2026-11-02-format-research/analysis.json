@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "video_key": "facebook/1772010184067480",
+  "status": "analyzed_sampled",
+  "reviewed_frame_passes": [
+    "frames",
+    "hook",
+    "ending"
+  ],
+  "observations": [
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Tiêu đề và mèo ngậm hoa trên nền giấy.",
+      "evidence": {
+        "index_path": "hook/frames.json",
+        "frame_index": 0
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Lưới hình minh họa tình huống thay cho đoạn chữ dài.",
+      "evidence": {
+        "index_path": "hook/frames.json",
+        "frame_index": 5
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Danh sách ba bước với nhãn ngắn.",
+      "evidence": {
+        "index_path": "frames/frames.json",
+        "frame_index": 5
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "See frame index; approximate, especially uniform pass",
+      "text": "Khung quay về chủ đề ban đầu để khép mạch giải thích.",
+      "evidence": {
+        "index_path": "frames/frames.json",
+        "frame_index": 24
+      }
+    }
+  ],
+  "secondary_audio_observations": [
+    {
+      "kind": "audio_machine_observation",
+      "timestamp_estimate": "0–10s",
+      "text": "Không nhận diện SFX riêng rõ theo Gemini.",
+      "evidence": {
+        "path": "gemini-answer.md",
+        "provider": "watch/Gemini; authorized in chat"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "kind": "inference",
+      "text": "Giải quyết nhu cầu đi chơi phổ biến trước, rồi nối về Hà Nội và photography khi có liên quan.",
+      "basis": [
+        "hook/0",
+        "hook/5",
+        "frames/5",
+        "frames/24"
+      ],
+      "reason": "Đề xuất chuyển chức năng giải thích bằng hình sang một câu hỏi du lịch."
+    }
+  ],
+  "asr_quality": "ASR có lỗi từ, phân đoạn thô 30 giây. Chỉ sử dụng để kiểm tra chủ đề và hướng lập luận.",
+  "missing_data": [
+    "No platform subtitle track",
+    "No independent human listening validation of machine SFX observations",
+    "No editing project, exact font/plugin/audio asset identity"
+  ],
+  "approval": {
+    "research": "Requested by Rocky",
+    "paid_video_analysis": "Explicitly authorized for five supplied videos",
+    "creative_direction": "Proposed; not approved"
+  }
+}

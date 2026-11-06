@@ -203,3 +203,180 @@
    - Comment đang live và hiển thị rõ ràng ở vị trí nổi bật trong danh sách bình luận (chụp màn hình tại `instagram-reel-comment-posted.png`).
    - Đã kiểm tra menu tùy chọn của comment trên web (chụp màn hình tại `instagram-reel-comment-options-menu.png`): Giao diện web của Instagram chỉ có `Delete` và `Cancel`, do tính năng Ghim (Pin) comment được Instagram thiết kế độc quyền cho app di động. Kính nhờ anh Rocky mở app Instagram trên điện thoại, vuốt nhẹ sang trái tại comment này để bật icon Ghim (Pin) trong 2 giây.
 
+---
+
+## 5. Cập nhật Nhiệm vụ Đăng Reel Instagram (03/11/2026) — `REEL SCHEDULED 22:00`
+
+- **Tệp video nguồn:** `/Users/macbook/Downloads/paper-red-v01_2026-11-03_10-37-31.mp4` (1080x1920, 35.7s, HyperFrames theme paper-red).
+- **Chủ đề video:** "5 THINGS YOU SHOULDN'T DO IN HANOI" (Cà phê Việt, Phố Cổ, Phở, Hồ Hoàn Kiếm, Đi chụp ảnh cùng local photographer).
+- **Nền tảng & Kênh:** Instagram `@travelframe.vn` (thực hiện trực tiếp trên Orca browser).
+- **Lịch hẹn đăng:** **22:00 tối nay (03/11/2026, tức 10:00 PM ICT)**.
+- **Trạng thái:** **`REEL SCHEDULED 22:00 DONE`** (Đã lên lịch thành công 100% qua tính năng Schedule Content của Instagram Web).
+- **Location gắn kèm:** `Hanoi, Vietnam`.
+- **Caption đã lên lịch:**
+  ```text
+  5 things you shouldn’t do in Hanoi 🇻🇳
+
+  1. Don’t order Vietnamese coffee — one cup can easily become a daily ritual ☕
+  2. Don’t wander the Old Quarter — you might lose track of time in its little streets 🏮
+  3. Don’t stop for phở — before you finish, you’ll already be thinking about your next bowl 🍜
+  4. Don’t take a walk around Hoàn Kiếm Lake — your camera roll may never recover 📸
+  5. And finally, don’t explore Hanoi with a local photographer… unless you want to take home a story that feels like yours ✨
+
+  Which one is your biggest guilty pleasure in Hanoi? Tell us below 👇
+
+  Planning your own photo walk in Hanoi? Send us a DM or comment “PHOTO” to craft your private tour.
+
+  TravelFrame, your local friend in Hanoi
+
+  #travelframe #hanoi #hanoitravel #vietnamtravel #hanoiphotography #photowalk #oldquarterhanoi #hoankiemlake #vietnamtraveltips #streetphotography #travelgram
+  ```
+- **Bằng chứng xác nhận:**
+  * Preview trước khi bấm Schedule: `scratch/instagram_schedule_22h_preview.png`
+  * Modal xác nhận "Your reel has been scheduled": `scratch/instagram_reel_scheduled_confirmation.png`
+  * Trang lịch nội dung `https://www.instagram.com/scheduled_content/`: `scratch/instagram_scheduled_content_calendar.png`
+
+---
+
+## 6. Xử lý toàn bộ Inbound Lead & Comment trên Facebook Reels (03/11/2026) — `ALL LEADS REPLIED`
+
+- **Trạng thái thực thi:** **ĐÃ HOÀN TẤT 100%** (Đã reply trực tiếp công khai toàn bộ 4 comment trong ảnh chụp màn hình + 2 comment Food tồn đọng).
+- **Chi tiết các phản hồi đã xuất bản live:**
+  1. **Ariel C Cuenca** ([Reel Train Street Café](https://www.facebook.com/reel/2051854625441797/)):
+     - Comment gốc: *"Perhaps anyone dares to have drinking spree there are extraordinary 🤩"*
+     - Reply ID: `122108374119479755_2686455085091440` *(Lúc 22:16 ICT)*
+     - Nội dung: *"Haha definitely an adrenaline rush having cold beers right as the train rushes by! Just remember to keep your elbows tucked in when the horn blows 🚂🍻"*
+  2. **Kraig Richard** ([Reel Food Crawl Phố Cổ](https://www.facebook.com/reel/1712979013491826/)):
+     - Comment gốc: *"15 Hang Hom Street in the Old Quarter....Chicken Pho. Secret tip...there's an air-con space upstairs."*
+     - Reply ID: `122123567499479755_2794990837568782` *(Lúc 22:17 ICT)*
+     - Nội dung: *"Gold tip, Kraig! Phở gà on Hàng Hòm is top-tier, and that air-con upstairs is an absolute lifesaver on hot afternoons. Thanks for sharing the gem! 🍜✨"*
+  3. **Amel Bouhouita** ([Reel Get lost on foot](https://www.facebook.com/reel/1145540444830655/)):
+     - Comment gốc: *"Old quater wonderful🥰"*
+     - Reply ID: `122124098817479755_1134335366110430` *(Lúc 22:18 ICT)*
+     - Nội dung: *"It truly is magical! Every little alley has its own story. What was your favorite spot or moment while exploring? 🏮✨"*
+  4. **Susey Tse** ([Reel Food Crawl Phố Cổ](https://www.facebook.com/reel/1712979013491826/)):
+     - Comment gốc: *"Food"*
+     - Reply ID: `122123567499479755_1850387176409823` *(Lúc 22:19 ICT)*
+     - Nội dung: *"On its way to your inbox, Susey! Sending our curated Hanoi Old Quarter food map & hidden alley gems straight to your DMs 🍜✨"*
+  5. **2 khách Food khác** (IDs: `1640207854551217`, `1743582127126366` lúc 22:20–22:21 ICT): Đã gửi phản hồi tương tự, không bỏ sót bất kỳ lead nào.
+
+---
+
+## 7. Cập nhật Nhiệm vụ Đăng Reel Instagram (05/11/2026) — `REEL PUBLISHED LIVE`
+
+- **Nguồn video:** Tải từ TikTok `@its.thuha` qua `xgetter` (`https://www.tiktok.com/@its.thuha/video/7697093505725861142`).
+- **Xử lý metadata & encoding:**
+  * File hoàn thiện: `scratch/travelframe_hanoi_wine_bar.mp4` (1080x1920, 10.7s, H.264 High Profile, CRF 18, AAC 192k stereo).
+  * Làm sạch toàn bộ TikTok tracking headers (`aigc_info`, `vid_md5`, `comment: vid:v...`).
+  * Ghi metadata thương hiệu TravelFrame: Title `"Autumn Wine Nights in Hanoi | TravelFrame"`, Artist `"TravelFrame Vietnam"`, Album `"TravelFrame Hanoi Night Life"`, Comment & Description `"Outdoor wine nights at La Vigne Hanoi. Turning Vietnam into timeless memories."`, Copyright `"TravelFrame Vietnam | Original credit @its.thuha"`.
+- **Nội dung đăng tải:**
+  * Chủ đề: Quán rượu vang ngoài trời mùa thu Hà Nội (La Vigne - Greenarch Cafe & Lounge).
+  * Kênh xuất bản: Instagram `@travelframe.vn` qua Orca Browser.
+  * Location: `Hanoi, Vietnam`.
+  * Caption: Giới thiệu trải nghiệm buổi tối mùa thu se lạnh tại Hà Nội, ngồi ngoài trời nhâm nhi ly vang bên nến ấm; ghi nhận bản quyền tác giả `@its.thuha`; kêu gọi tương tác lưu bài và DM "PHOTO".
+- **Trạng thái xuất bản:** **`PUBLISHED LIVE`** vào lúc 22:35 ICT (05/11/2026).
+  * Media ID: `18122064799946299`
+  * Live URL: `https://www.instagram.com/reel/DfXXZhINF9M/`
+- **Seed Comment Playbook:**
+  * Đã đăng seed comment C1 lúc 22:38 ICT (trong vòng 3 phút sau khi đăng).
+  * Mã template: `F-C1-couple-solo`
+  * Comment ID: `18117747350323976`
+  * Nội dung: *"Solo trip or couple trip — who are you sharing a bottle of wine with in Hanoi? 🍷"*
+  * Nhật ký theo dõi: Đã ghi nhận vào `Data-Analytics/Seed-Comment-Tracker.csv`.
+- **Bằng chứng xác nhận (Platform Evidence):**
+  * Staging & Form preview: `scratch/instagram_wine_bar_staging_preview.png`
+  * Xác nhận đăng thành công từ Instagram Web: `scratch/instagram_reel_shared_confirmation.png`
+  * Ảnh chụp màn hình Reel đang live: `scratch/instagram_wine_bar_live_reel.png`
+
+---
+
+## 8. Cập nhật Nhiệm vụ Đăng Reel Instagram: Three Things in Hanoi (05/11/2026) — `REEL PUBLISHED LIVE`
+
+- **Tệp video nguồn:** `Creative-Production/Projects/Hanoi-Three-Things-2026-11-05/TF-Hanoi-Three-Things-Heritage-v04.mp4` (53.47s, 1080x1920 9:16 vertical, 30 fps, HyperFrames paper-red theme với HeritageDisplay & Montserrat).
+- **Chủ đề video:** "Three Things to Do in Hanoi" (1. Quán ăn địa phương phở/bún chả, 2. Cà phê trứng/cà phê sữa đá, 3. Đi bộ quanh Hồ Hoàn Kiếm và Phố Cổ; CTA: Đi cùng local photographer).
+- **Xử lý metadata & encoding:**
+  * File hoàn thiện: `scratch/TF-Hanoi-Three-Things-Heritage-v04-ready.mp4`
+  * Faststart enabled cho tối ưu streaming và playback trên Instagram.
+  * Metadata thương hiệu: Title `"Three Things To Do in Hanoi | TravelFrame"`, Artist `"TravelFrame Vietnam"`, Album `"TravelFrame Hanoi Heritage Series"`, Copyright `"TravelFrame Vietnam"`.
+- **Nội dung đăng tải:**
+  * Kênh xuất bản: Instagram `@travelframe.vn` qua Orca Browser.
+  * Location: `Hanoi, Vietnam`.
+  * Caption: Hướng dẫn trải nghiệm 3 việc nên làm tại Hà Nội dành cho khách du lịch lần đầu hoặc có ít thời gian (ăn quán địa phương, uống cà phê ngắm phố, đi bộ phố cổ và hồ Hoàn Kiếm); CTA lưu bài và nhắn "PHOTO" để đặt photo walk.
+- **Trạng thái xuất bản:** **`PUBLISHED LIVE`** vào lúc 23:25 ICT (05/11/2026).
+  * Media ID: `18075150965771399`
+  * Live URL: `https://www.instagram.com/reel/DfXdGBotndN/`
+- **Seed Comment Playbook:**
+  * Đã đăng seed comment C1 lúc 23:27 ICT (trong vòng 2 phút sau khi đăng).
+  * Mã template: `D-C1-three-things`
+  * Comment ID: `18132703022500241`
+  * Nội dung: *"Phở in the morning or an egg coffee break in the afternoon: which one are you heading to first? 🍜☕"*
+  * Nhật ký theo dõi: Đã ghi nhận vào `Data-Analytics/Seed-Comment-Tracker.csv`.
+- **Bằng chứng xác nhận (Platform Evidence):**
+  * Staging & Form preview: `scratch/instagram_three_things_staging_preview.png`
+  * Xác nhận đăng thành công từ Instagram Web: `scratch/instagram_three_things_shared_confirmation.png`
+  * Ảnh chụp màn hình Reel đang live: `scratch/instagram_three_things_live_reel.png`
+
+---
+
+## 9. Cập nhật Nhiệm vụ Đăng Reel Instagram: Top 5 Michelin Street Food Spots (06/11/2026) — `REEL PUBLISHED LIVE (9:16 VERTICAL)`
+
+- **Tệp video nguồn:** `/Users/macbook/Codex GPT/travel-frame-5-micheline-restaurent.mp4` (15.1s, 1080x1920 9:16 vertical, 30 fps).
+- **Chủ đề video:** Top 5 quán ăn đường phố Hà Nội được Michelin vinh danh (Bib Gourmand / Michelin Selected) với mức giá bình dân dưới $5 (Phở 10 Lý Quốc Sư, Tuyết Bún Chả 34, Phở Gà Nguyệt, Miến Lươn Chân Cầm, Bánh Cuốn Bà Hoành).
+- **Xử lý metadata & encoding:**
+  * File hoàn thiện: `scratch/TF-Hanoi-5-Michelin-Restaurants-ready.mp4`
+  * Chuẩn hóa H.264 (AVC) Main Profile, AAC 192k stereo, faststart enabled.
+  * Metadata thương hiệu TravelFrame: Title `"Top 5 Michelin Street Food Spots in Hanoi | TravelFrame"`, Artist `"TravelFrame Vietnam"`, Album `"TravelFrame Hanoi Food Series"`, Copyright `"TravelFrame Vietnam"`.
+- **Nội dung đăng tải:**
+  * Kênh xuất bản: Instagram `@travelframe.vn`.
+  * Phương thức xuất bản: Meta Graph API Resumable Reel Upload (`publish-instagram-reel.mjs`) đảm bảo giữ nguyên 100% tỉ lệ khung hình gốc 9:16 (720x1280 vertical video stream).
+  * Caption: Chi tiết tên quán, địa chỉ chính xác, mức giá quy đổi USD & VND, mô tả món ăn đặc trưng từng quán; CTA comment "FOOD" nhận trọn bộ Hanoi Street Food Map có ghim Google Maps và DM "PHOTO" đặt private food & photo walk.
+- **Trạng thái xuất bản:** **`PUBLISHED LIVE`** vào lúc 17:16 ICT (06/11/2026).
+  * Media ID: `17942777112392424`
+  * Live URL: `https://www.instagram.com/reel/DfZXpqKJh9x/`
+  * Video stream dimensions: `720x1280` (chuẩn vertical 9:16, không bị crop vuông 1:1).
+- **Seed Comment Playbook:**
+  * Đã đăng seed comment C1 lúc 17:16 ICT (ngay sau khi xuất bản).
+  * Mã template: `C-C1-michelin-pick`
+  * Comment ID: `18146882728608063`
+  * Nội dung: *"Which of these 5 Michelin spots are you trying first: Phở, Bún Chả, or Bánh Cuốn? 🍜"*
+  * Nhật ký theo dõi: Đã ghi nhận vào `Data-Analytics/Seed-Comment-Tracker.csv`.
+- **Bằng chứng xác nhận (Platform Evidence):**
+  * Script publishing output: `task-4861.log` (Container ID `18106688960275750`, Media ID `17942777112392424`)
+  * Ảnh chụp màn hình Reel 9:16 đang live: `scratch/instagram_michelin_5_live_reel_9_16.png`
+
+---
+
+## 10. Cập nhật Nhiệm vụ Đăng Reel Instagram: Vietnam Culture is Food (06/11/2026) — `REEL PUBLISHED LIVE (9:16 VERTICAL)`
+
+- **Tệp video nguồn:** `/Users/macbook/Codex GPT/travelframe-culture-hanoi-food.mp4` (18.03s, 1080x1920 9:16 vertical, 30 fps).
+- **Chủ đề video:** Viral hook *"I'm going to Vietnam for the culture"* chuyển cảnh sang *"The culture:"* với loạt món ăn đường phố biểu tượng của Việt Nam và Hà Nội (Bún chả nướng than hoa, Bánh cuốn Bà Hoành hành phi giòn, Bò né chảo gang xèo xèo, Phở trộn gà xé lạc rang, Bánh mì kẹp đầy nhân).
+- **Yêu cầu & ràng buộc từ Rocky:**
+  * Nội dung phù hợp với thông điệp ẩm thực là nét văn hóa sống động nhất tại Việt Nam.
+  * Chỉ dùng chính xác 5 hashtag: `#travelframe #vietnamtravel #hanoifood #vietnamesefood #streetfood`.
+  * Tỉ lệ dọc 9:16 chuẩn native.
+  * Đăng trực tiếp ngay lập tức.
+- **Xử lý metadata & encoding:**
+  * File hoàn thiện: `scratch/TF-Hanoi-Culture-Food-9-16.mp4` (1080x1920, H.264 High Profile, AAC 192k stereo, faststart enabled).
+  * Metadata nhúng: Title `"Going to Vietnam for the Culture | TravelFrame"`, Artist `"TravelFrame Vietnam"`, Album `"TravelFrame Hanoi Food & Culture Series"`, Copyright `"TravelFrame Vietnam"`.
+- **Nội dung đăng tải:**
+  * Kênh xuất bản: Instagram `@travelframe.vn`.
+  * Phương thức xuất bản: Meta Graph API Resumable Reel Upload (`publish-instagram-reel.mjs`).
+  * Caption: Nhấn mạnh văn hóa Việt Nam không chỉ nằm sau tủ kính viện bảo tàng mà sống động trên từng góc phố, từng nồi nước dùng và ghế nhựa vỉa hè; CTA comment "FOOD" nhận bản đồ ẩm thực và DM "PHOTO" đặt photo walk.
+  * Số lượng hashtag: Đúng 5 hashtag theo yêu cầu.
+- **Trạng thái xuất bản:** **`PUBLISHED LIVE`** vào lúc 18:45 ICT (06/11/2026).
+  * Media ID: `17909431518579517`
+  * Live URL: `https://www.instagram.com/reel/DfZh4KQJ3t7/`
+  * Video stream dimensions: `720x1280` (native vertical 9:16, 0% crop).
+- **Seed Comment Playbook:**
+  * Đã đăng seed comment C1 lúc 18:46 ICT (trong vòng 1 phút sau khi đăng).
+  * Mã template: `C-C1-culture-dish`
+  * Comment ID: `17992095429095676`
+  * Nội dung: *"Bún chả, bánh cuốn, or crispy bánh mì: which one are you heading to first? 🤤"*
+  * Nhật ký theo dõi: Đã ghi nhận vào `Data-Analytics/Seed-Comment-Tracker.csv`.
+- **Bằng chứng xác nhận (Platform Evidence):**
+  * Script publishing output: `task-4951.log` (Container ID `18106701272275750`, Media ID `17909431518579517`)
+  * Ảnh chụp màn hình Reel 9:16 đang live: `scratch/instagram_culture_food_live_reel.png`
+
+
+
+

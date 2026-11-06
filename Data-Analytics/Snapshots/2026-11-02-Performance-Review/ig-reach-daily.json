@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "id": "17841438272497512/insights/reach/day",
+      "name": "reach",
+      "period": "day",
+      "values": [
+        {
+          "value": 9085,
+          "end_time": "2026-10-25T07:00:00+0000"
+        },
+        {
+          "value": 5282,
+          "end_time": "2026-10-26T07:00:00+0000"
+        },
+        {
+          "value": 2307,
+          "end_time": "2026-10-27T07:00:00+0000"
+        },
+        {
+          "value": 3690,
+          "end_time": "2026-10-28T07:00:00+0000"
+        },
+        {
+          "value": 2917,
+          "end_time": "2026-10-29T07:00:00+0000"
+        },
+        {
+          "value": 4032,
+          "end_time": "2026-10-30T07:00:00+0000"
+        },
+        {
+          "value": 2427,
+          "end_time": "2026-10-31T07:00:00+0000"
+        },
+        {
+          "value": 1637,
+          "end_time": "2026-11-01T07:00:00+0000"
+        }
+      ],
+      "title": "Reach",
+      "description": "The total number of times that the business account's media objects have been uniquely viewed."
+    }
+  ]
+}

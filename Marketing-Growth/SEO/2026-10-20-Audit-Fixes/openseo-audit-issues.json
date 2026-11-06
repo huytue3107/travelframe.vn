@@ -1,0 +1,2063 @@
+{
+  "summary": [
+    {
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "severity": "warning",
+      "count": 32
+    },
+    {
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "severity": "warning",
+      "count": 30
+    },
+    {
+      "issueType": "thin-content",
+      "title": "Thin content",
+      "severity": "warning",
+      "count": 3
+    },
+    {
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "severity": "info",
+      "count": 54
+    },
+    {
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "severity": "info",
+      "count": 38
+    },
+    {
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "severity": "info",
+      "count": 10
+    },
+    {
+      "issueType": "canonicalized-page",
+      "title": "Canonicalized to another URL",
+      "severity": "info",
+      "count": 3
+    },
+    {
+      "issueType": "meta-description-too-long",
+      "title": "Meta description too long",
+      "severity": "info",
+      "count": 3
+    },
+    {
+      "issueType": "meta-description-too-short",
+      "title": "Meta description too short",
+      "severity": "info",
+      "count": 1
+    },
+    {
+      "issueType": "noindex-page",
+      "title": "Page is noindex",
+      "severity": "info",
+      "count": 1
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news",
+      "details": {
+        "groupSize": 4,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news?page=1",
+          "https://travelframe.sidevn.com/news?page=2",
+          "https://travelframe.sidevn.com/news?page=3"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news?page=1",
+      "details": {
+        "groupSize": 4,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news",
+          "https://travelframe.sidevn.com/news?page=2",
+          "https://travelframe.sidevn.com/news?page=3"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news?page=2",
+      "details": {
+        "groupSize": 4,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news",
+          "https://travelframe.sidevn.com/news?page=1",
+          "https://travelframe.sidevn.com/news?page=3"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news?page=3",
+      "details": {
+        "groupSize": 4,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news",
+          "https://travelframe.sidevn.com/news?page=1",
+          "https://travelframe.sidevn.com/news?page=2"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/5-old-quarter-alleys-slow-down",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/5-old-quarter-alleys-slow-down?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/5-old-quarter-alleys-slow-down?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/5-old-quarter-alleys-slow-down"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/bun-cha-chan-local-culinary-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/bun-cha-chan-local-culinary-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/bun-cha-chan-local-culinary-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/bun-cha-chan-local-culinary-guide"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/ta-hien-street-where-hanoi-nights-come-alive",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/ta-hien-street-where-hanoi-nights-come-alive?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/ta-hien-street-where-hanoi-nights-come-alive?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/ta-hien-street-where-hanoi-nights-come-alive"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-meta-description",
+      "title": "Duplicate meta description",
+      "url": "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide"
+        ]
+      },
+      "howToFix": "Write a unique meta description per page, or remove the duplicated one entirely — search engines will generate a snippet from page content, which beats a wrong duplicate."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news",
+      "details": {
+        "groupSize": 4,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news?page=1",
+          "https://travelframe.sidevn.com/news?page=2",
+          "https://travelframe.sidevn.com/news?page=3"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news?page=1",
+      "details": {
+        "groupSize": 4,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news",
+          "https://travelframe.sidevn.com/news?page=2",
+          "https://travelframe.sidevn.com/news?page=3"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news?page=2",
+      "details": {
+        "groupSize": 4,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news",
+          "https://travelframe.sidevn.com/news?page=1",
+          "https://travelframe.sidevn.com/news?page=3"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news?page=3",
+      "details": {
+        "groupSize": 4,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news",
+          "https://travelframe.sidevn.com/news?page=1",
+          "https://travelframe.sidevn.com/news?page=2"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/5-old-quarter-alleys-slow-down",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/5-old-quarter-alleys-slow-down?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/5-old-quarter-alleys-slow-down?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/5-old-quarter-alleys-slow-down"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/bun-cha-chan-local-culinary-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/bun-cha-chan-local-culinary-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/bun-cha-chan-local-culinary-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/bun-cha-chan-local-culinary-guide"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide?lang=vi"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "duplicate-title",
+      "title": "Duplicate title",
+      "url": "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide?lang=vi",
+      "details": {
+        "groupSize": 2,
+        "otherUrls": [
+          "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide"
+        ]
+      },
+      "howToFix": "Write a unique title for each page describing its specific content. For templated pages, include the distinguishing attribute (name, category, location) in the template."
+    },
+    {
+      "severity": "warning",
+      "issueType": "thin-content",
+      "title": "Thin content",
+      "url": "https://travelframe.sidevn.com/about",
+      "details": {
+        "wordCount": 123
+      },
+      "howToFix": "Either expand the page with genuinely useful content, noindex it, or consolidate it into a stronger page. If the content exists but is rendered by JavaScript, ensure it is server-rendered or pre-rendered."
+    },
+    {
+      "severity": "warning",
+      "issueType": "thin-content",
+      "title": "Thin content",
+      "url": "https://travelframe.sidevn.com/guides",
+      "details": {
+        "wordCount": 140
+      },
+      "howToFix": "Either expand the page with genuinely useful content, noindex it, or consolidate it into a stronger page. If the content exists but is rendered by JavaScript, ensure it is server-rendered or pre-rendered."
+    },
+    {
+      "severity": "warning",
+      "issueType": "thin-content",
+      "title": "Thin content",
+      "url": "https://travelframe.sidevn.com/tours?lang=vi",
+      "details": {
+        "wordCount": 126
+      },
+      "howToFix": "Either expand the page with genuinely useful content, noindex it, or consolidate it into a stronger page. If the content exists but is rendered by JavaScript, ensure it is server-rendered or pre-rendered."
+    },
+    {
+      "severity": "info",
+      "issueType": "canonicalized-page",
+      "title": "Canonicalized to another URL",
+      "url": "https://travelframe.sidevn.com/news?category=6",
+      "details": {
+        "canonicalUrl": "https://travelframe.sidevn.com/news"
+      },
+      "howToFix": "If this page should rank on its own, set its canonical to itself. Otherwise no action is needed."
+    },
+    {
+      "severity": "info",
+      "issueType": "canonicalized-page",
+      "title": "Canonicalized to another URL",
+      "url": "https://travelframe.sidevn.com/news?category=4",
+      "details": {
+        "canonicalUrl": "https://travelframe.sidevn.com/news"
+      },
+      "howToFix": "If this page should rank on its own, set its canonical to itself. Otherwise no action is needed."
+    },
+    {
+      "severity": "info",
+      "issueType": "canonicalized-page",
+      "title": "Canonicalized to another URL",
+      "url": "https://travelframe.sidevn.com/news?category=5",
+      "details": {
+        "canonicalUrl": "https://travelframe.sidevn.com/news"
+      },
+      "howToFix": "If this page should rank on its own, set its canonical to itself. Otherwise no action is needed."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/bun-cha-chan-local-culinary-guide",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/st-josephs-cathedral",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/red-river-dyke-flower-park-hot-spots-photography-camping-and-picnics-hanoi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/quan-thanh-temple-renowned-historical-and-cultural-relic-hanoi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/one-pillar-pagoda-one-kind-architectural-work-hanoi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/hanoi-sunrise-photography-walk-long-bien-bridge-flower-markets-and-morning-light-2026",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/ngoc-son-temple-renowned-spiritual-and-cultural-symbol-hanoi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/la-vong-grilled-fish-origins-and-authentic-ways-eat-it",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/huyen-huong-chicken-noodles-soup-one-priciest-chicken-pho-spots-hanoi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/huong-mai-pho-cuon-preserving-vietnamese-flavors-future",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/hoi-bread-best-banh-mi-world",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/hoa-lo-prison-witness-history-heart-capital",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/ho-chi-minh-mausoleum-heart-vietnamese-nation",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/hanoi-post-office-three-centuries-flowing-through-name",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/how-cross-street-hanoi-practical-survival-guide-traffic-scooters-and-staying-calm-2026",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/bun-cha-chan-local-culinary-guide?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "heading-order-skip",
+      "title": "Heading levels skip",
+      "url": "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer?lang=vi",
+      "details": null,
+      "howToFix": "Adjust heading levels so they descend one step at a time (H1 → H2 → H3) without skipping."
+    },
+    {
+      "severity": "info",
+      "issueType": "meta-description-too-long",
+      "title": "Meta description too long",
+      "url": "https://travelframe.sidevn.com/ebooks",
+      "details": {
+        "length": 178,
+        "max": 160,
+        "description": "Practical digital field guides for travelling Vietnam with confidence: local context, real prices an…"
+      },
+      "howToFix": "Trim the description to roughly 70–160 characters while keeping the core message and call to action."
+    },
+    {
+      "severity": "info",
+      "issueType": "meta-description-too-long",
+      "title": "Meta description too long",
+      "url": "https://travelframe.sidevn.com/about",
+      "details": {
+        "length": 243,
+        "max": 160,
+        "description": "TravelFrame Vietnam was born from a love of Hanoi's old streets, street food and local stories. We t…"
+      },
+      "howToFix": "Trim the description to roughly 70–160 characters while keeping the core message and call to action."
+    },
+    {
+      "severity": "info",
+      "issueType": "meta-description-too-long",
+      "title": "Meta description too long",
+      "url": "https://travelframe.sidevn.com/about?lang=vi",
+      "details": {
+        "length": 246,
+        "max": 160,
+        "description": "TravelFrame Vietnam ra đời từ tình yêu với Hà Nội — những con phố cổ, gánh hàng rong và câu chuyện đ…"
+      },
+      "howToFix": "Trim the description to roughly 70–160 characters while keeping the core message and call to action."
+    },
+    {
+      "severity": "info",
+      "issueType": "meta-description-too-short",
+      "title": "Meta description too short",
+      "url": "https://travelframe.sidevn.com/ebooks/resend",
+      "details": {
+        "length": 49,
+        "min": 70,
+        "description": "Get a fresh download link for a guide you bought."
+      },
+      "howToFix": "Expand the description to roughly 70–160 characters that summarize the page and give a reason to click."
+    },
+    {
+      "severity": "info",
+      "issueType": "noindex-page",
+      "title": "Page is noindex",
+      "url": "https://travelframe.sidevn.com/ebooks/resend",
+      "details": {
+        "robotsMeta": "noindex, nofollow",
+        "xRobotsTag": null
+      },
+      "howToFix": "If this page should rank, remove the noindex directive. If it's intentional (admin, thank-you, filter pages), no action is needed."
+    },
+    {
+      "severity": "info",
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-09/DSC00179.webp",
+      "details": {
+        "responseTimeMs": 2000
+      },
+      "howToFix": "Investigate server/database time and caching for this route; serving cached or statically generated HTML usually fixes it."
+    },
+    {
+      "severity": "info",
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-09/DSC08962.webp",
+      "details": {
+        "responseTimeMs": 3718
+      },
+      "howToFix": "Investigate server/database time and caching for this route; serving cached or statically generated HTML usually fixes it."
+    },
+    {
+      "severity": "info",
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-09/DSC08896.webp",
+      "details": {
+        "responseTimeMs": 3718
+      },
+      "howToFix": "Investigate server/database time and caching for this route; serving cached or statically generated HTML usually fixes it."
+    },
+    {
+      "severity": "info",
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-09/DSC09172.webp",
+      "details": {
+        "responseTimeMs": 2194
+      },
+      "howToFix": "Investigate server/database time and caching for this route; serving cached or statically generated HTML usually fixes it."
+    },
+    {
+      "severity": "info",
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-08/DSC01246-Edit-2.webp",
+      "details": {
+        "responseTimeMs": 2160
+      },
+      "howToFix": "Investigate server/database time and caching for this route; serving cached or statically generated HTML usually fixes it."
+    },
+    {
+      "severity": "info",
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-09/DSC00297-Edit.webp",
+      "details": {
+        "responseTimeMs": 4361
+      },
+      "howToFix": "Investigate server/database time and caching for this route; serving cached or statically generated HTML usually fixes it."
+    },
+    {
+      "severity": "info",
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-08/DSC00484-2.webp",
+      "details": {
+        "responseTimeMs": 2251
+      },
+      "howToFix": "Investigate server/database time and caching for this route; serving cached or statically generated HTML usually fixes it."
+    },
+    {
+      "severity": "info",
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-08/DSC02001_0.webp",
+      "details": {
+        "responseTimeMs": 2167
+      },
+      "howToFix": "Investigate server/database time and caching for this route; serving cached or statically generated HTML usually fixes it."
+    },
+    {
+      "severity": "info",
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-08/DSC04903-2.webp",
+      "details": {
+        "responseTimeMs": 2803
+      },
+      "howToFix": "Investigate server/database time and caching for this route; serving cached or statically generated HTML usually fixes it."
+    },
+    {
+      "severity": "info",
+      "issueType": "slow-response",
+      "title": "Slow server response",
+      "url": "https://travelframe.sidevn.com/sites/default/files/2026-08/DSC05626_1.webp",
+      "details": {
+        "responseTimeMs": 2825
+      },
+      "howToFix": "Investigate server/database time and caching for this route; serving cached or statically generated HTML usually fixes it."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/tours",
+      "details": {
+        "length": 61,
+        "max": 60,
+        "title": "Private Hanoi Tours & Local Experiences | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/ebooks",
+      "details": {
+        "length": 66,
+        "max": 60,
+        "title": "Vietnam Field Guides — Digital Travel Ebooks | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive",
+      "details": {
+        "length": 103,
+        "max": 60,
+        "title": "The Complete Hanoi Travel Guide 2026: What to Do, Eat, and Know Before You Arrive | TravelFrame Viet…"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local",
+      "details": {
+        "length": 117,
+        "max": 60,
+        "title": "The Honest Hanoi Street Food Guide 2026: What to Eat, Where to Sit, and How to Eat Like a Local | Tr…"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/",
+      "details": {
+        "length": 70,
+        "max": 60,
+        "title": "Private Hanoi Photo Tours & Vacation Photography | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide",
+      "details": {
+        "length": 72,
+        "max": 60,
+        "title": "Hanoi Egg Coffee (Cafe Giang): A Photography Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide",
+      "details": {
+        "length": 70,
+        "max": 60,
+        "title": "Cam Phu Cau Incense Village: A Photography Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide",
+      "details": {
+        "length": 67,
+        "max": 60,
+        "title": "Bat Trang Pottery Museum: A Photography Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots",
+      "details": {
+        "length": 100,
+        "max": 60,
+        "title": "Hanoi Train Street in 2026: Is It Open, Is It Safe, and Where to Photograph It | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide",
+      "details": {
+        "length": 73,
+        "max": 60,
+        "title": "Imperial Citadel of Thang Long: A Photography Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide",
+      "details": {
+        "length": 84,
+        "max": 60,
+        "title": "The Slow Hanoi 48-Hour Itinerary: A Calm Two-Day Walking Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide",
+      "details": {
+        "length": 76,
+        "max": 60,
+        "title": "Trang Tien Street & Hanoi Opera House: A Local's Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho",
+      "details": {
+        "length": 73,
+        "max": 60,
+        "title": "Phở Thìn Lò Đúc: Hanoi's Famous Stir-Fried Beef Pho | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer",
+      "details": {
+        "length": 96,
+        "max": 60,
+        "title": "Temple of Literature - What does Vietnam's first university have to offer? | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/ta-hien-street-where-hanoi-nights-come-alive",
+      "details": {
+        "length": 68,
+        "max": 60,
+        "title": "Ta Hien Street - Where Hanoi Nights Come Alive | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing",
+      "details": {
+        "length": 99,
+        "max": 60,
+        "title": "Solo Female Travel in Hanoi: How to Get Natural Photos Without Awkward Posing | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/red-river-dyke-flower-park-hot-spots-photography-camping-and-picnics-hanoi",
+      "details": {
+        "length": 109,
+        "max": 60,
+        "title": "Red River Dyke / Flower Park - Hot spots for photography, camping, and picnics in Hanoi | TravelFram…"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/quan-thanh-temple-renowned-historical-and-cultural-relic-hanoi",
+      "details": {
+        "length": 91,
+        "max": 60,
+        "title": "Quan Thanh Temple - A renowned historical and cultural relic of Hanoi | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/santorini-park-lovely-photo-spot-right-outside-hanoi",
+      "details": {
+        "length": 78,
+        "max": 60,
+        "title": "Santorini Park - A Lovely Photo Spot Right outside Hanoi | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/one-pillar-pagoda-one-kind-architectural-work-hanoi",
+      "details": {
+        "length": 83,
+        "max": 60,
+        "title": "One Pillar Pagoda - One-of-a-kind architectural work in Hanoi | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/15-best-photo-spots-hanoi-local-guide-light-timing-and-uncrowded-angles-2026",
+      "details": {
+        "length": 111,
+        "max": 60,
+        "title": "15 Best Photo Spots in Hanoi: A Local Guide to Light, Timing, and Uncrowded Angles (2026) | TravelFr…"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/hiring-private-photographer-hanoi-rates-routes-and-what-expect-2026-guide",
+      "details": {
+        "length": 79,
+        "max": 60,
+        "title": "Private Photographer in Hanoi: Rates, Routes & 2026 Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026",
+      "details": {
+        "length": 92,
+        "max": 60,
+        "title": "Couple & Honeymoon Photoshoot in Hanoi: A Relaxed, Candid Guide (2026) | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/hanoi-sunrise-photography-walk-long-bien-bridge-flower-markets-and-morning-light-2026",
+      "details": {
+        "length": 112,
+        "max": 60,
+        "title": "Hanoi Sunrise Photography Walk: Long Bien Bridge, Flower Markets, and Morning Light (2026) | TravelF…"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/ngoc-son-temple-renowned-spiritual-and-cultural-symbol-hanoi",
+      "details": {
+        "length": 89,
+        "max": 60,
+        "title": "Ngoc Son Temple - A renowned spiritual and cultural symbol of Hanoi | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/la-vong-grilled-fish-origins-and-authentic-ways-eat-it",
+      "details": {
+        "length": 81,
+        "max": 60,
+        "title": "La Vong grilled fish - Origins and authentic ways to eat it | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/huyen-huong-chicken-noodles-soup-one-priciest-chicken-pho-spots-hanoi",
+      "details": {
+        "length": 103,
+        "max": 60,
+        "title": "Huyen Huong chicken noodles soup - One of the priciest chicken pho spots in Hanoi | TravelFrame Viet…"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/huong-mai-pho-cuon-preserving-vietnamese-flavors-future",
+      "details": {
+        "length": 87,
+        "max": 60,
+        "title": "Huong Mai Pho Cuon - Preserving Vietnamese flavors for the future | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/hoi-bread-best-banh-mi-world",
+      "details": {
+        "length": 66,
+        "max": 60,
+        "title": "Hoi An Bread - The best banh mi in the world | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/hoa-lo-prison-witness-history-heart-capital",
+      "details": {
+        "length": 86,
+        "max": 60,
+        "title": "Hoa Lo Prison - A Witness to History in the Heart of the Capital | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/ho-chi-minh-mausoleum-heart-vietnamese-nation",
+      "details": {
+        "length": 80,
+        "max": 60,
+        "title": "Ho Chi Minh Mausoleum - The Heart of the Vietnamese Nation | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/hanoi-post-office-three-centuries-flowing-through-name",
+      "details": {
+        "length": 82,
+        "max": 60,
+        "title": "Hanoi Post Office - Three centuries ‘flowing’ through a name | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/hanoi-photoshoot",
+      "details": {
+        "length": 72,
+        "max": 60,
+        "title": "Hanoi Photoshoot with a Private Local Photographer | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/hanoi-old-quarter-guide",
+      "details": {
+        "length": 102,
+        "max": 60,
+        "title": "Hanoi Old Quarter Guide (2026): Map, Things to Do, Night Market and Where to Eat | TravelFrame Vietn…"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/tour/cinematic-hanoi-visual-storytelling-walk",
+      "details": {
+        "length": 69,
+        "max": 60,
+        "title": "The Cinematic Hanoi: A Visual Storytelling Walk | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/tour/taste-hanoi-culinary-delights-street-vibes",
+      "details": {
+        "length": 72,
+        "max": 60,
+        "title": "A Taste of Hanoi: Culinary Delights & Street Vibes | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/tour/hanoi-unfiltered-local-life-documentary",
+      "details": {
+        "length": 66,
+        "max": 60,
+        "title": "Hanoi Unfiltered: The Local Life Documentary | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/tour/colors-delta-craft-villages-expedition",
+      "details": {
+        "length": 68,
+        "max": 60,
+        "title": "Colors of the Delta: Craft Villages Expedition | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/tour/hanoi-early-bird-sunrise-local-markets",
+      "details": {
+        "length": 63,
+        "max": 60,
+        "title": "Hanoi Early Bird: Sunrise & Local Markets | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/how-cross-street-hanoi-practical-survival-guide-traffic-scooters-and-staying-calm-2026",
+      "details": {
+        "length": 128,
+        "max": 60,
+        "title": "How to Cross the Street in Hanoi: A Practical Survival Guide to Traffic, Scooters, and Staying Calm …"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/tours?lang=vi",
+      "details": {
+        "length": 68,
+        "max": 60,
+        "title": "Tour riêng tại Hà Nội & trải nghiệm địa phương | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news?lang=vi",
+      "details": {
+        "length": 61,
+        "max": 60,
+        "title": "Câu chuyện & kinh nghiệm du lịch Hà Nội | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive?lang=vi",
+      "details": {
+        "length": 103,
+        "max": 60,
+        "title": "The Complete Hanoi Travel Guide 2026: What to Do, Eat, and Know Before You Arrive | TravelFrame Viet…"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local?lang=vi",
+      "details": {
+        "length": 117,
+        "max": 60,
+        "title": "The Honest Hanoi Street Food Guide 2026: What to Eat, Where to Sit, and How to Eat Like a Local | Tr…"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/hanoi-egg-coffee-cafe-giang-photography-guide?lang=vi",
+      "details": {
+        "length": 72,
+        "max": 60,
+        "title": "Hanoi Egg Coffee (Cafe Giang): A Photography Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide?lang=vi",
+      "details": {
+        "length": 70,
+        "max": 60,
+        "title": "Cam Phu Cau Incense Village: A Photography Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/bat-trang-pottery-museum-photography-guide?lang=vi",
+      "details": {
+        "length": 67,
+        "max": 60,
+        "title": "Bat Trang Pottery Museum: A Photography Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots?lang=vi",
+      "details": {
+        "length": 100,
+        "max": 60,
+        "title": "Hanoi Train Street in 2026: Is It Open, Is It Safe, and Where to Photograph It | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/imperial-citadel-thang-long-photography-guide?lang=vi",
+      "details": {
+        "length": 73,
+        "max": 60,
+        "title": "Imperial Citadel of Thang Long: A Photography Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide?lang=vi",
+      "details": {
+        "length": 84,
+        "max": 60,
+        "title": "The Slow Hanoi 48-Hour Itinerary: A Calm Two-Day Walking Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/trang-tien-street-hanoi-opera-house-locals-guide?lang=vi",
+      "details": {
+        "length": 76,
+        "max": 60,
+        "title": "Trang Tien Street & Hanoi Opera House: A Local's Guide | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/pho-thin-lo-duc-hanois-famous-stir-fried-beef-pho?lang=vi",
+      "details": {
+        "length": 73,
+        "max": 60,
+        "title": "Phở Thìn Lò Đúc: Hanoi's Famous Stir-Fried Beef Pho | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/temple-literature-what-does-vietnams-first-university-have-offer?lang=vi",
+      "details": {
+        "length": 96,
+        "max": 60,
+        "title": "Temple of Literature - What does Vietnam's first university have to offer? | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    },
+    {
+      "severity": "info",
+      "issueType": "title-too-long",
+      "title": "Title too long",
+      "url": "https://travelframe.sidevn.com/news/ta-hien-street-where-hanoi-nights-come-alive?lang=vi",
+      "details": {
+        "length": 79,
+        "max": 60,
+        "title": "Ta Hien Street Hanoi: Beer Street By Night, Quiet By Dawn | TravelFrame Vietnam"
+      },
+      "howToFix": "Shorten the title to roughly 50–60 characters, front-loading the most important words."
+    }
+  ],
+  "meta": {
+    "projectId": "b97024a3-b095-44e9-9489-d5fce1361263",
+    "url": "https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/audit?auditId=72693e77-0497-4b63-a63e-5bb09ff14f82"
+  }
+}

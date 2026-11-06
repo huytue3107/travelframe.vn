@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-02T15:56:18.717321+00:00",
+  "video": {
+    "path": "/private/tmp/travelframe-format-research-20261102/1412336217200297/video.mp4",
+    "fingerprint_sha256": "5659c3658d3c03cf23892af38c96097f756d85ee914cfcccec2194a04f1cc782"
+  },
+  "transcript": {
+    "source": "local_whisper",
+    "engine": "faster-whisper/BatchedInferencePipeline; FFmpeg PCM input; 30s explicit chunks",
+    "model": "small cached; cpu int8; beam_size=1",
+    "language": "vi (pinned)",
+    "output_formats": [
+      "txt",
+      "srt",
+      "json"
+    ],
+    "caveat": "ASR draft; no human word-by-word verification; does not identify SFX"
+  }
+}

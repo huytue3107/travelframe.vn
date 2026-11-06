@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Competitor Analysis: vietnam.travel — Oct 29, 2026</title>
+<style>
+/* One light look, on screen and on paper. The report is read inside the app,
+   which has its own theme toggle, and a saved document has no way to hear about
+   it: a report that follows the OS scheme alone shows a black panel inside a
+   light app for anyone whose two settings disagree. */
+:root{--bg:#fff;--fg:#0a0a0a;--fg-2:#454545;--fg-3:#8f8f8f;--rule:#ebebeb;--rule-2:#dcdcdc;--sunk:#fafafa;
+  /* The one token a report template may change. Left as the text color, so a
+     report with no template looks exactly as it did before. */
+  --accent:var(--fg)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);margin:0;padding:0 24px 120px;font-size:18px;line-height:1.65;letter-spacing:-.003em;
+  font-family:Geist,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.shell{max-width:1100px;margin:0 auto}
+header{padding:40px 0 0;max-width:660px}
+h1{font-size:clamp(34px,6vw,56px);font-weight:700;line-height:1.03;letter-spacing:-.035em;margin:0;text-wrap:balance}
+.byline{margin:24px 0 0;font-size:16px;color:var(--fg-2)}
+.body{display:grid;grid-template-columns:minmax(0,660px) 1fr;gap:0 64px;margin:48px 0 0}
+/* Both explicitly in row 1: without it the rail auto-places into row 1 and
+   pushes the article down a whole row, opening an empty band above the text. */
+article{grid-column:1;grid-row:1;min-width:0}
+.rail{grid-column:2;grid-row:1;font-size:14px;color:var(--fg-3);padding-top:6px}
+.rail .sticky{position:sticky;top:40px}
+.toc-label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3);margin:0 0 10px}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li{margin:0 0 7px}
+.toc a{color:var(--fg-2);text-decoration:none}
+.toc a:hover{color:var(--fg)}
+/* Below 900px the rail is dropped rather than stacked: a contents list above
+   the report is a wall to scroll past on a phone, not a shortcut. */
+@media (max-width:900px){.body{grid-template-columns:1fr}.rail{display:none}}
+article p{margin:0 0 26px;text-wrap:pretty}
+h2{font-size:30px;font-weight:600;letter-spacing:-.025em;line-height:1.2;margin:60px 0 22px;text-wrap:balance}
+h3{font-size:20px;font-weight:600;letter-spacing:-.015em;margin:38px 0 14px}
+.finding{list-style:none;padding:0;margin:0 0 26px}
+.finding li{margin:0 0 8px;color:var(--fg-2)}
+.finding b{color:var(--accent);font-weight:600}
+a{color:var(--fg);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--rule-2)}
+strong{font-weight:600}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;background:var(--sunk);border:1px solid var(--rule);padding:1px 5px;border-radius:4px}
+ul,ol{margin:0 0 26px;padding-left:22px}li{margin:0 0 11px}li::marker{color:var(--fg-3)}
+.note{border-left:2px solid var(--fg);padding:2px 0 2px 22px;margin:0 0 26px}
+.note p{margin:0;color:var(--fg-2)}
+.note p+p{margin-top:14px}
+.tw{overflow-x:auto;margin:0 0 30px}
+table{border-collapse:collapse;width:100%;font-size:15.5px;min-width:440px}
+th{text-align:left;font-weight:500;color:var(--fg-3);padding:0 20px 10px 0;border-bottom:1px solid var(--rule-2);white-space:nowrap}
+td{padding:13px 20px 13px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--fg-2)}
+td:first-child{color:var(--fg)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td:last-child,th:last-child{padding-right:0}
+tr:last-child td{border-bottom:none}
+figure{margin:0 0 30px}
+figcaption{font-size:14px;color:var(--fg-3);margin-top:8px}
+.bars{display:grid;grid-template-columns:minmax(90px,170px) 1fr auto;gap:10px 12px;align-items:center;font-size:14px}
+.bars .label{color:var(--fg-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bars .track{display:block;height:20px;background:var(--sunk)}
+.bars .bar{display:block;height:100%;background:var(--accent);opacity:.16}
+.bars .value{font-variant-numeric:tabular-nums;min-width:3ch;text-align:right}
+svg{display:block;max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--rule);margin:60px 0}
+footer{max-width:660px;margin:64px 0 0;padding:26px 0 0;border-top:1px solid var(--rule);font-size:15px;color:var(--fg-3)}
+@media print{
+  /* A zero top margin hides the browser's own print header (date, tab title);
+     the bottom margin holds a page counter instead of the browser's URL line.
+     The body padding supplies the visible page margins. */
+  @page{margin:0 0 12mm 0;@bottom-center{content:counter(page) " of " counter(pages);font:10px -apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;color:#8f8f8f}}
+  body{background:#fff;color:#111;padding:14mm 16mm 6mm;font-size:11pt}
+  .shell,.body{display:block;max-width:none}
+  header{padding:0;max-width:none}
+  h1{font-size:26pt}
+  h2{font-size:15pt;margin:22pt 0 10pt}
+  h3{font-size:12pt;margin:14pt 0 6pt}
+  article,footer{max-width:none}
+  .rail{display:none}
+  h1,h2,h3{break-after:avoid}
+  table,figure,.note,svg{break-inside:avoid}
+  tr,td,th{break-inside:avoid}
+  p,li{orphans:3;widows:3}
+  thead{display:table-header-group}
+  .tw{overflow:visible}
+  table{font-size:10pt;min-width:0}
+  .byline,footer,figcaption{font-size:9.5pt}
+  svg,.bars .bar,.bars .track{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  a{text-decoration:none}
+}
+</style></head><body><div class="shell">
+<header><h1>Competitor Analysis: vietnam.travel — Oct 29, 2026</h1><p class="byline">Dành cho TravelFrame · Codex · 29/10/2026 · Review</p></header>
+<div class="body"><aside class="rail"><div class="sticky"><nav class="toc"><p class="toc-label">Nội dung</p><ol>
+<li><a href="#snapshot">Kết luận và quy mô</a></li><li><a href="#lesson">Bài học lớn nhất</a></li><li><a href="#openings">Cơ hội cho TravelFrame</a></li><li><a href="#keywords">Cụm từ khóa</a></li><li><a href="#patterns">Nội dung và nguồn giới thiệu</a></li><li><a href="#what-to-do-next">Làm tiếp</a></li><li><a href="#how-this-report-was-made">Phương pháp</a></li></ol></nav></div></aside><article>
+<h2 id="snapshot">Kết luận và quy mô</h2>
+<ul><li>vietnam.travel là benchmark nội dung du lịch cấp quốc gia; website tự xác định là cổng chính thức của Viet Nam National Authority of Tourism. Đây là đối thủ giành sự chú ý của người lên kế hoạch du lịch, chưa được xác nhận là đối thủ trực tiếp mạnh cho dịch vụ thuê Harry chụp chân dung.</li>
+<li>TravelFrame nên học cách nối điểm đến → trải nghiệm → hướng dẫn cụ thể, rồi đi sâu vào nhu cầu khách muốn xuất hiện trong ảnh.</li><li>Không nên mở rộng sang phủ toàn Việt Nam chỉ để chạy theo tổng lượng truy cập của cổng quốc gia.</li></ul>
+<div class="tw"><table><thead><tr><th>Chỉ số đối thủ</th><th class="n">Kết quả</th><th>Phạm vi và giới hạn</th></tr></thead><tbody>
+<tr><td>Traffic organic ước tính/tháng</td><td class="n">620.185</td><td>OpenSEO/DataForSEO, Mỹ/en; không phải Analytics hoặc số khách đặt dịch vụ</td></tr>
+<tr><td>Từ khóa trong cơ sở dữ liệu</td><td class="n">7.706</td><td>Mỹ/en; lấy mẫu50 dòng, không phân tích đủ7.706</td></tr>
+<tr><td>Backlinks, liên kết từ website khác</td><td class="n">49.988</td><td>Toàn hồ sơ domain và subdomain; không giới hạn riêng Mỹ</td></tr>
+<tr><td>Referring domains, tên miền dẫn link</td><td class="n">7.026</td><td>Summary; bảng tên miền hideSpam trả tổng5.202, khác tập lọc nên không đồng nhất</td></tr>
+</tbody></table></div>
+<p>Nguồn nhận diện: <a href="https://vietnam.travel/" target="_blank" rel="noopener">trang chủ vietnam.travel</a>. Chưa truy cập Analytics/GSC của đối thủ; không quy traffic thành doanh thu, không đo tỷ lệ chuyển đổi.</p>
+<div class="note"><p>Ngày lấy dữ liệu29/10 khác ngày dữ liệu nền. Trong50 dòng Labs, ngày cập nhật SERP từ12/07 đến02/09/2026, volume phần lớn cập nhật tháng9; số trong bảng từ khóa lịch sử không phải thứ hạng live hôm nay.</p></div>
+
+<h2 id="lesson">Bài học lớn nhất: kết nối các quyết định của khách</h2>
+<ul><li><b>Quan sát:</b> Trang chủ cho khám phá theo vùng, sở thích và lịch trình. Trang Hà Nội dẫn sang bài điểm tham quan, tuyến đi bộ và lịch cuối tuần; người đọc có đường đi từ câu hỏi rộng đến kế hoạch cụ thể.</li>
+<li><b>Áp dụng:</b> Giữ guide Old Quarter làm điểm bắt đầu, nối tới route chụp, ảnh thật của Harry và trang dịch vụ. Mỗi trang giải quyết một câu hỏi mới, tránh lặp lại cùng danh sách địa điểm.</li>
+<li><b>Lợi ích kỳ vọng:</b> Người đọc hiểu phong cách và cách sắp buổi chụp trước khi hỏi ngày; chưa có đo lường cho thấy chuỗi này tăng inquiry bao nhiêu.</li></ul>
+<p>Đối chiếu <a href="https://vietnam.travel/places-to-go/red-river-delta/ha-noi/" target="_blank" rel="noopener">trang Hà Nội</a> và <a href="https://vietnam.travel/things-to-do/3-walking-tours-hanoi/" target="_blank" rel="noopener">bài ba tuyến đi bộ</a>. Đây là nhận xét cấu trúc nội dung, không phải kiểm tra toàn bộ trải nghiệm giao diện.</p>
+
+<h2 id="openings">Cơ hội cho TravelFrame, theo độ phù hợp</h2>
+<h3>1. Làm rõ “được chụp” thay vì “đi chụp”</h3>
+<ul class="finding"><li><b>Bằng chứng:</b> Bài photography tour đã đọc giới thiệu hành trình chụp phong cảnh/văn hóa, một người chụp dẫn đoàn và hỗ trợ kỹ thuật. Nhu cầu này khác khách cần chân dung du lịch và hướng dẫn tạo dáng.</li>
+<li><b>Việc đề xuất:</b> Dùng ảnh Harry chụp nhân vật, minh họa dáng và môi trường, giải thích khách cần chuẩn bị gì; dẫn về /hanoi-photoshoot. Không gán nhân vật là khách trả tiền hoặc “lần đầu chụp” nếu chưa có xác nhận.</li>
+<li><b>Khả năng thắng:</b> Phù hợp sản phẩm hơn việc tranh từ khóa quốc gia; chưa có metrics mới chứng minh các từ khóa dài này có volume hoặc dễ lên top.</li></ul>
+<p>Nguồn: <a href="https://vietnam.travel/things-to-do/vietnam-photography-tours-journey-through-lens" target="_blank" rel="noopener">Vietnam Photography Tours: A Journey Through the Lens</a>. Không suy từ một bài rằng cả site không phục vụ vacation photography.</p>
+<h3>2. Biến route tham khảo thành kế hoạch chụp có thể dùng</h3>
+<ul class="finding"><li><b>Bằng chứng:</b> Bài ba tuyến có chỉ dẫn nối các điểm, chợ và cầu; phần chính đã đọc không tổ chức thành bảng thời gian chụp chân dung, độ dài đoạn đi bộ và phương án mưa.</li>
+<li><b>Việc đề xuất:</b> Bổ sung vào pillar TravelFrame một bản đồ gốc và route mẫu đã đi thử: điểm gặp, khoảng đi bộ, nghỉ, cách xin phép và phương án đổi điểm. Chỉ ghi thời lượng/điều kiện sau xác minh thực địa.</li>
+<li><b>Khả năng thắng:</b> Cung cấp chi tiết phù hợp người cân nhắc buổi chụp; đây là khoảng mở trong các trang đã xem, không phải kết luận đối thủ thiếu toàn website.</li></ul>
+<h3>3. Dùng kiểm chứng mới làm lợi thế biên tập</h3>
+<ul class="finding"><li><b>Bằng chứng:</b> Old Quarter guide còn mô tả Train Street như nơi khách tới chụp. Nội dung đối thủ không tự bảo đảm quyền tiếp cận hiện hành.</li>
+<li><b>Việc đề xuất:</b> Ghi ngày kiểm tra, nguồn và điều kiện cho các tuyến/venue TravelFrame sử dụng. Không bán tour/buổi chụp gắn hành lang đường sắt Train Street theo guardrail đã lưu của dự án.</li>
+<li><b>Khả năng thắng:</b> Giảm kỳ vọng sai và giúp khách lựa chọn; chưa có bằng chứng đây là nguyên nhân thứ hạng hoặc lỗi an toàn được điều tra ở đối thủ.</li></ul>
+
+<h2 id="keywords">Cụm từ khóa: mạnh rộng, chỉ chọn phần đúng sản phẩm</h2>
+<p>Ví dụ từ50 dòng đầu, sắp theo traffic ước tính. Vị trí dưới đây lấy organic rank_group trong payload, không lấy rank_absolute của mọi thành phần SERP; volume các biến thể có thể dùng chung, không cộng lại.</p>
+<div class="tw"><table><thead><tr><th>Chủ đề / keyword mẫu</th><th class="n">Volume/tháng</th><th class="n">Organic lịch sử</th><th>TravelFrame nên tham gia?</th></tr></thead><tbody>
+<tr><td>Hà Nội: hanoi</td><td class="n">74.000</td><td class="n">3</td><td>Không ưu tiên keyword rộng; dẫn người đọc vào kế hoạch chụp</td></tr>
+<tr><td>Phố cổ: old quarter hanoi</td><td class="n">8.100</td><td class="n">1</td><td>Có liên quan, nhưng chọn route/map và tình huống cụ thể</td></tr>
+<tr><td>Ẩm thực: foodie vietnam</td><td class="n">135.000</td><td class="n">1</td><td>Chỉ dùng trải nghiệm thật liên quan tuyến; không đuổi theo volume quốc gia</td></tr>
+<tr><td>Hành trình: ha giang loop</td><td class="n">18.100</td><td class="n">1</td><td>Không phải ưu tiên khi sản phẩm trọng tâm là Hà Nội</td></tr>
+<tr><td>Chuẩn bị chuyến đi: vietnam evisa</td><td class="n">33.100</td><td class="n">4</td><td>Dẫn nguồn chính thức khi cần; không thành trụ cột dịch vụ chụp</td></tr>
+</tbody></table></div>
+<p>Ngày SERP nền của năm ví dụ:30/07/2026. Bảng không nói website giữ các vị trí đó ngày29/10; không dùng KD thấp ở một dòng làm lý do bảo đảm top1.</p>
+<h3>Kiểm tra Google hiện tại: Mỹ/en/desktop, depth20 mixed</h3>
+<div class="tw"><table><thead><tr><th>Query</th><th class="n">Organic trả về</th><th>vietnam.travel / TravelFrame</th></tr></thead><tbody>
+<tr><td>hanoi photoshoot</td><td class="n">13</td><td>Chưa thấy cả hai trong mẫu</td></tr>
+<tr><td>hanoi old quarter</td><td class="n">15</td><td>Chưa thấy cả hai trong mẫu</td></tr>
+<tr><td>things to do in hanoi old quarter</td><td class="n">17</td><td>Chưa thấy cả hai trong mẫu</td></tr>
+<tr><td>hanoi photography tour</td><td class="n">13</td><td>Chưa thấy cả hai trong mẫu</td></tr>
+<tr><td>hanoi photographer</td><td class="n">—</td><td>Lỗi giải mã phản hồi; không có kết quả dùng được</td></tr>
+</tbody></table></div>
+<div class="note"><p>Kiểm tra hiện tại chưa xác nhận đối thủ xuất hiện ở bốn query trên, dù Labs lịch sử có vị trí tốt cho biến thể Old Quarter. Khác query, ngày và độ sâu; không kết luận traffic sụt, mất hạng toàn site hoặc domain nằm ngoài top100. Không lấy ranking TravelFrame22/10 làm rank hiện tại hoặc suy xu hướng từ hai mẫu khác độ sâu.</p></div>
+
+<h2 id="patterns">Nội dung và nguồn giới thiệu: học cơ chế, giữ bản sắc</h2>
+<div class="tw"><table><thead><tr><th>Điều quan sát</th><th>Cách áp dụng phù hợp</th></tr></thead><tbody>
+<tr><td>Old Quarter guide chia theo hành động: kiến trúc, hồ, ăn, mua sắm, buổi tối; xen ảnh và tip</td><td>Chia bài chụp theo quyết định của khách: muốn ảnh nào, ngại dáng gì, thích nền nào; ảnh chứng minh ngay cạnh đoạn</td></tr>
+<tr><td>Walking guide kể đường đi bằng các điểm nối cụ thể</td><td>Thêm route gốc đã kiểm tra, không chép tuyến hoặc giả vờ đã đi thử</td></tr>
+<tr><td>Bài photography tour có người dẫn cụ thể và link sang nhà cung cấp</td><td>Chuẩn bị hồ sơ Harry và câu chuyện có bằng chứng; đây là ví dụ biên tập, không phải lời mời hợp tác hoặc backlink chắc chắn</td></tr>
+</tbody></table></div>
+<p>Bài <a href="https://vietnam.travel/things-to-do/explore-old-quarter-your-way" target="_blank" rel="noopener">Explore the Old Quarter your way</a> cho thấy cách gắn chi tiết đời thường với hành động du lịch. TravelFrame nên phát triển ảnh và quan sát riêng, không sao chép giọng/câu chữ.</p>
+<p>Hồ sơ backlink có7.026 tên miền; bảng nguồn đã lọc có cả mofa.gov.vn, itdr.org.vn, kiwi.com, getyourguide.com và nhiều travel site. Đây là dấu hiệu phạm vi nguồn giới thiệu rộng; chưa kiểm từng link/vị trí đặt link nên không gọi toàn bộ là liên kết uy tín hoặc nguyên nhân gây thứ hạng.</p>
+<p>Không đặt mục tiêu bắt kịp tổng49.988 link, không mua link theo danh sách. Tư cách cổng quốc gia là lợi thế khác bản chất với một dịch vụ địa phương; chưa định lượng phần đóng góp vào traffic.</p>
+
+<hr><h2 id="what-to-do-next">What to do next</h2>
+<ol><li><b>Ưu tiên1 — Chuẩn bị batch trang dịch vụ:</b> rà /hanoi-photoshoot và hồ sơ publish Thin/Hanna, chọn ảnh hợp lệ, thêm mô tả người chụp và hỗ trợ tạo dáng, liên kết case tới dịch vụ. Kiểm tra giá/SLA với quyết định Approved mới nhất; không tự đổi live. Nghiệm thu: nguồn rõ, đủ quyền ảnh, CTA đúng và bản preview để Rocky duyệt.</li>
+<li><b>Ưu tiên2 — Hoàn thiện một tài sản route:</b> cập nhật Old Quarter guide hiện có bằng map gốc và kế hoạch linh hoạt đã kiểm tra. Nghiệm thu: route đọc được trên điện thoại, link/pin đúng và ngày kiểm tra; không tạo pillar trùng.</li>
+<li><b>Ưu tiên3 — Chọn bài theo tư liệu:</b> brief tiếp theo có thể là “A first Hanoi portrait session: what to expect” hoặc “What to wear for an Old Quarter photoshoot”. Đây là đề xuất keyword/chủ đề chưa đo volume/KD; chọn sau khi rà trang đã có và tư liệu thực tế, không tự phát sinh quota bài.</li>
+<li><b>Đo sau batch được duyệt:</b> GSC query×page, click vào CTA và inquiry có ngày chụp; dùng cửa sổ hoàn chỉnh. Chưa tạo tracking, chưa cam kết traffic/booking hoặc top1.</li></ol>
+
+<h2 id="how-this-report-was-made">How this report was made</h2>
+<p>Generated by the <a href="https://openseo.so/docs/skills/competitor-analysis" target="_blank" rel="noopener">OpenSEO Competitor Analysis skill</a>, run by Codex on Oct 29, 2026.</p>
+<ul class="finding"><li><b>OpenSEO:</b> identity/project/context và research log kiểm tra trước khi nghiên cứu; không thấy nghiên cứu vietnam.travel trong30 ngày. Dùng domain overview,50 organic ranked-keyword rows, backlink overview và5 query Google;4 trả dữ liệu dùng được.</li>
+<li><b>Kiểm chứng nội dung:</b> đọc text trang chủ, Hà Nội, Cities, visa, Old Quarter, ba walking tour và photography-tour article qua web. Chỉ dùng quan sát nội dung cho phân tích; không audit toàn site, không chạy test booking hay kiểm giao diện thực tế.</li>
+<li><b>Lỗi và dữ liệu:</b> batch SERP lỗi transport/deserialize; lặp cùng batch và sau đó đọc riêng cùng query/market/depth. Các lần đọc cache không được coi là quan sát độc lập; query photographer vẫn lỗi. Phân biệt rank_group organic với rank_absolute trong bản trả định dạng text.</li>
+<li><b>Chi phí:</b> số dư tài khoản từ7.199 xuống7.050, chênh149 credits trong lượt nghiên cứu; đây là đối chiếu số dư, không phải hóa đơn từng tool. Không bật schedule, AI check hoặc mua thêm credit.</li>
+<li><b>Phạm vi:</b> phân tích đối thủ với hàm ý cho TravelFrame, không audit/định giá lại site mình. Chưa lấy GSC mới hoặc overview của TravelFrame; không làm bảng so sánh traffic hai site bằng dữ liệu khác nguồn.</li>
+<li><b>Trạng thái:</b> báo cáo Review; không thay roadmap Approved, không publish website, outreach, đổi DNS hoặc cập nhật giá. Số liệu và payload được lưu kèm hồ sơ local để đối chiếu.</li></ul>
+<footer>Prepared with OpenSEO · Research retrieved Oct 29, 2026 · Historical data labeled separately.</footer>
+</article></div></div></body></html>

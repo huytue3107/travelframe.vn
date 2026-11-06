@@ -1,0 +1,122 @@
+[
+  {
+    "card": 1,
+    "source": "/Users/macbook/Downloads/829507803_18100118699217614_8657453606628423510_n.jpg",
+    "source_sha256": "3c60c2727a21df02d487aecaccd1fded2cb7b2ab46de0740823b2527eaa11cca",
+    "output": "TF-HANOI-TIPS-01-v02.png",
+    "sha256": "fb457f7021b03213780bef5369971a2e3a038e86ec882b532cceed59437f7fc9",
+    "size": [
+      1080,
+      1350
+    ],
+    "headline": [
+      "YOUR HANOI",
+      "photo walk"
+    ],
+    "category": "A LITTLE PREP. A BETTER PHOTO STORY.",
+    "tips": [
+      "Wear something you feel good in.",
+      "Bring water. Leave room for little discoveries."
+    ]
+  },
+  {
+    "card": 2,
+    "source": "/Users/macbook/Downloads/829941228_18100118744217614_577863110685873324_n.jpg",
+    "source_sha256": "dd09313bf6db5708f0e91e2f2d8f0962ce5b205a638232cf6130020bbe09d095",
+    "output": "TF-HANOI-TIPS-02-v02.png",
+    "sha256": "23cb02f07ec1172322743db117d0709dbc18497109449ecdbf903f957439a6ca",
+    "size": [
+      1080,
+      1350
+    ],
+    "headline": [
+      "KEEP IT",
+      "comfortable"
+    ],
+    "category": "WHAT TO WEAR",
+    "tips": [
+      "Choose clothes you can move in.",
+      "One simple accessory can tell your story."
+    ]
+  },
+  {
+    "card": 3,
+    "source": "/Users/macbook/Downloads/830572775_18100118792217614_6094730540638961114_n.jpg",
+    "source_sha256": "e7aed02aafd576d28ffeba37e65f418317c60d9fd9cd793fc09e92fef6a2e25b",
+    "output": "TF-HANOI-TIPS-03-v02.png",
+    "sha256": "38689b9f3f1e0bb430bdf615379599b37236f31d3d7a4c3cf7452bd0ad3a298b",
+    "size": [
+      1080,
+      1350
+    ],
+    "headline": [
+      "PAUSE. LOOK.",
+      "take it in"
+    ],
+    "category": "A LITTLE PHOTO ETIQUETTE",
+    "tips": [
+      "Choose permitted pedestrian areas.",
+      "Keep railway tracks clear. Follow local signs."
+    ]
+  },
+  {
+    "card": 4,
+    "source": "/Users/macbook/Downloads/830695322_18100118708217614_5484071910853353928_n.jpg",
+    "source_sha256": "b7a465ff9e3c1a9801957548d4ee4b7e578874491fd4c6537a3a9060e835acef",
+    "output": "TF-HANOI-TIPS-04-v02.png",
+    "sha256": "015f7f21dabbb686d8952e2b53aa68a0c2e4ce58b08463c7a213de33237db5c4",
+    "size": [
+      1080,
+      1350
+    ],
+    "headline": [
+      "LET THE CITY",
+      "frame you"
+    ],
+    "category": "COMPOSITION NOTES",
+    "tips": [
+      "Look for lines, layers and little details.",
+      "Keep paths clear while taking photos."
+    ]
+  },
+  {
+    "card": 5,
+    "source": "/Users/macbook/Downloads/831340261_18100118735217614_8295756362089996179_n.jpg",
+    "source_sha256": "b1989b98fc3e3904e687a50e5f526c53a6f9d59a2eeb1f76bded322cdd35c360",
+    "output": "TF-HANOI-TIPS-05-v02.png",
+    "sha256": "8d10616c5fa249aaa041a1145b6da72d016eb68b5cbcd67e0adad61cf21bc055",
+    "size": [
+      1080,
+      1350
+    ],
+    "headline": [
+      "FIND YOUR",
+      "own rhythm"
+    ],
+    "category": "POSING NOTES",
+    "tips": [
+      "Relax your shoulders. Keep it natural.",
+      "Choose a safe, permitted place to pause."
+    ]
+  },
+  {
+    "card": 6,
+    "source": "/Users/macbook/Downloads/831568064_18100118672217614_5666467836984100281_n.jpg",
+    "source_sha256": "d94a4285d7f7ee44eb1d0a9a486d1204262d82dc2301e9f097b9cb06f6c6c439",
+    "output": "TF-HANOI-TIPS-06-v02.png",
+    "sha256": "015ef956f7d01b60cd78d8c42362b8ceb739b597642bbfa01c8c2f65b274abe4",
+    "size": [
+      1080,
+      1350
+    ],
+    "headline": [
+      "TAKE HOME",
+      "a little Hanoi"
+    ],
+    "category": "YOUR PHOTO WALK CHECKLIST",
+    "tips": [
+      "Water, comfortable shoes and a curious eye.",
+      "Your everyday moments are worth keeping."
+    ]
+  }
+]

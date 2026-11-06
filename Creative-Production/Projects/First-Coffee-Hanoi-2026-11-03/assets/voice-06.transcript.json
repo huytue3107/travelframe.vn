@@ -1,0 +1,48 @@
+{
+  "audio": "assets/voice-06.wav",
+  "language": "en",
+  "words": [
+    {
+      "text": "Save",
+      "start": 0.1,
+      "end": 0.3,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "this",
+      "start": 0.34,
+      "end": 0.5,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "for",
+      "start": 0.54,
+      "end": 0.64,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "your",
+      "start": 0.68,
+      "end": 0.84,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "first",
+      "start": 0.88,
+      "end": 1.1,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "coffee",
+      "start": 1.2,
+      "end": 1.5,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "stop",
+      "start": 1.62,
+      "end": 1.94,
+      "speaker": "speaker_0"
+    }
+  ]
+}

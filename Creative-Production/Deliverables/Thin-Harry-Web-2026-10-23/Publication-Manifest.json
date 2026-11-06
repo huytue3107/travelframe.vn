@@ -1,0 +1,48 @@
+{
+  "status": "Published",
+  "date": "2026-10-23",
+  "article": "https://travelframe.sidevn.com/news/hanoi-old-quarter-photoshoot-harry-thin",
+  "node": 110,
+  "files": [
+    {
+      "file": "Dda473Fj_2F-08.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 208458,
+      "sha256": "a5dd0e69159f6b80e73e575388bc5c5ec262468cfec66d918e98c244ad46aea1",
+      "public_path": "/sites/default/files/2026-10/Dda473Fj_2F-08.webp"
+    },
+    {
+      "file": "DdYpZDHI8rM-01.jpg",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 385080,
+      "sha256": "681badbf38254134ca16efc8d0f52459b1c93d967e0733c3086bb34b9c2edcaa",
+      "public_path": "/sites/default/files/inline-images/DdYpZDHI8rM-01.jpg"
+    },
+    {
+      "file": "DdmLRD5I2Mk-05.jpg",
+      "dimensions": [
+        1600,
+        1069
+      ],
+      "bytes": 406259,
+      "sha256": "0ac04113558d0d890426a7c486d17bf54d800a4558043052d8a64a64e07e9fc5",
+      "public_path": "/sites/default/files/inline-images/DdmLRD5I2Mk-05.jpg"
+    },
+    {
+      "file": "DdmLRD5I2Mk-06.jpg",
+      "dimensions": [
+        1600,
+        1069
+      ],
+      "bytes": 352459,
+      "sha256": "4516bc29f8540f7b22f8ebdae15312336b05a5e3112812a8324519d2b618bd04",
+      "public_path": "/sites/default/files/inline-images/DdmLRD5I2Mk-06.jpg"
+    }
+  ]
+}

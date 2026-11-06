@@ -1,0 +1,37 @@
+<template><style>/* FONTS_V04_START */
+@font-face{font-family:'HeritageDisplay';src:url('assets/fonts/HeritageDisplay-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:block}
+@font-face{font-family:'Montserrat';src:url('assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');font-style:normal;font-weight:800;font-display:block}
+@font-face{font-family:'Montserrat';src:url('assets/fonts/Montserrat-Black.ttf') format('truetype');font-style:normal;font-weight:900;font-display:block}
+/* FONTS_V04_END */#root{position:absolute;inset:0;font-family:'Montserrat',sans-serif}.head{position:absolute;left:90px;top:270px;width:870px;text-align:center}.title{font-family:'HeritageDisplay',sans-serif;font-size:72px;line-height:1.18;font-weight:400;font-synthesis:none;letter-spacing:0;color:#ae2a1d;-webkit-text-stroke:2px #161616;paint-order:stroke fill}.sub{font-size:30px;font-weight:800;margin-top:18px;line-height:1.15;color:#202020}.under{margin:18px auto 0;width:140px;height:7px;background:#ae2a1d;transform-origin:left center}.photo{position:absolute;padding:13px;background:white;box-shadow:0 8px 18px #0003;border-radius:3px}.window{height:100%;overflow:hidden}.window img{width:100%;height:100%;object-fit:cover;display:block}.tape{position:absolute;top:-12px;left:35%;width:30%;height:27px;background:#e4d9b7c9;z-index:2}.cat{position:absolute;object-fit:contain;object-position:bottom;z-index:5}.flash{position:absolute;inset:0;background:white;z-index:8;pointer-events:none;opacity:0}</style><div id="root" data-composition-id="hanoi5" data-width="1080" data-height="1920"><div id="hanoi5-head" class="head"><div id="hanoi5-title" class="title">SLOW BITES.<br>STREET VIEWS.</div><div id="hanoi5-sub" class="sub">Watch Hanoi happen around you.</div><div id="hanoi5-line" class="under"></div></div><div id="hanoi5-a" class="photo" data-layout-allow-overlap style="left:115px;top:590px;width:540px;height:370px;z-index:1"><div class="tape"></div><div class="window" data-layout-allow-overflow><img id="hanoi5-a-img" src="assets/old-quarter.jpg" alt="old quarter" style="object-position:50% 50%"></div></div><div id="hanoi5-b" class="photo" data-layout-allow-overlap style="left:570px;top:825px;width:345px;height:285px;z-index:2"><div class="tape"></div><div class="window" data-layout-allow-overflow><img id="hanoi5-b-img" src="assets/bun-cha.jpg" alt="bun cha" style="object-position:50% 50%"></div></div><img id="hanoi5-cat" class="cat" src="assets/meme-cat-sideeye.png" alt="Expressive sideeye cat meme sticker" style="left:80px;top:820px;width:380px;height:325px"><div id="hanoi5-flash" class="flash"></div></div><script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#hanoi5-head',{scale:.94},{scale:1,duration:.27,ease:'back.out(1.25)'},0);
+tl.fromTo('#hanoi5-line',{scaleX:0},{scaleX:1,duration:.28,ease:'power3.out'},.22);
+tl.fromTo('#hanoi5-a',{opacity:0,x:130,y:20,rotation:12},{opacity:1,x:0,y:0,rotation:4,duration:.45,ease:'power4.out'},.12);
+tl.fromTo('#hanoi5-b',{opacity:0,y:100,scale:.78,rotation:10},{opacity:1,y:0,scale:1,rotation:-5,duration:.40,ease:'back.out(1.25)'},.66);
+
+
+
+
+/* STOPMOTION_START */
+tl.set('#hanoi5-cat',{"transformOrigin":"50% 100%","x":0,"y":0,"rotation":0,"scaleX":1,"scaleY":1,"opacity":0},0);
+tl.set('#hanoi5-cat',{"opacity":1,"scaleX":0.78,"scaleY":0.84,"y":16,"rotation":-7},0.2);
+tl.set('#hanoi5-cat',{"scaleX":1.06,"scaleY":1.04,"y":-8,"rotation":4},0.333333);
+tl.set('#hanoi5-cat',{"scaleX":1,"scaleY":1,"y":0,"rotation":0},0.466667);
+tl.set('#hanoi5-cat',{"opacity":1,"x":3,"y":-3,"rotation":1,"scaleX":1,"scaleY":1},0.532323);
+tl.set('#hanoi5-cat',{"opacity":1,"x":-4,"y":-2,"rotation":-3,"scaleX":1,"scaleY":1},0.69899);
+tl.set('#hanoi5-cat',{"opacity":1,"x":-8,"y":0,"rotation":-4,"scaleX":1.02,"scaleY":0.99},0.832323);
+tl.set('#hanoi5-cat',{"opacity":1,"x":-8,"y":0,"rotation":-4,"scaleX":1.02,"scaleY":0.99},0.965657);
+tl.set('#hanoi5-cat',{"opacity":1,"x":-3,"y":-3,"rotation":-1,"scaleX":1,"scaleY":1},1.09899);
+tl.set('#hanoi5-cat',{"opacity":1,"x":4,"y":-2,"rotation":3,"scaleX":1,"scaleY":1},1.232323);
+tl.set('#hanoi5-cat',{"opacity":1,"x":8,"y":0,"rotation":4,"scaleX":1.02,"scaleY":0.99},1.365657);
+tl.set('#hanoi5-cat',{"opacity":1,"x":8,"y":0,"rotation":4,"scaleX":1.02,"scaleY":0.99},1.532323);
+tl.set('#hanoi5-cat',{"opacity":1,"x":3,"y":-3,"rotation":1,"scaleX":1,"scaleY":1},1.665657);
+tl.set('#hanoi5-cat',{"opacity":1,"x":-4,"y":-2,"rotation":-3,"scaleX":1,"scaleY":1},1.79899);
+tl.set('#hanoi5-cat',{"opacity":1,"x":-8,"y":0,"rotation":-4,"scaleX":1.02,"scaleY":0.99},1.932323);
+tl.set('#hanoi5-cat',{"opacity":1,"x":-8,"y":0,"rotation":-4,"scaleX":1.02,"scaleY":0.99},2.065657);
+tl.set('#hanoi5-cat',{"opacity":1,"x":-3,"y":-3,"rotation":-1,"scaleX":1,"scaleY":1},2.19899);
+tl.set('#hanoi5-cat',{"opacity":1,"x":4,"y":-2,"rotation":3,"scaleX":1,"scaleY":1},2.365657);
+tl.set('#hanoi5-cat',{"opacity":1,"x":8,"y":0,"rotation":4,"scaleX":1.02,"scaleY":0.99},2.49899);
+tl.set('#hanoi5-cat',{"x":0,"y":0,"rotation":0,"scaleX":1,"scaleY":1,"opacity":1},2.628);
+/* STOPMOTION_END */
+window.__timelines=window.__timelines||{};window.__timelines['hanoi5']=tl;</script></template>

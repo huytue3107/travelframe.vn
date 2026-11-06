@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "README.md": "c8fef6c14c1af69efd39a8d5bf2f02a9364b1c0901243866b1a0abf9c4b7f704",
+    "evidence.json": "661b10e8f55e4d47b80d222e02add4f1b1651766903eef403fbc5944f921c338",
+    "opportunities.md": "723f4f47061a0bf3aeeee9cb96272c385f2157d4fb289a8108533b849baf1aea",
+    "photoshoot-first-screen.png": "e26d593da7ecb6640781fa7a4b524d6c8263e73ead5e6d44572568fa88c8b31f",
+    "report.html": "8e956471937497036ae07fc5ad2925ff3ee3dacf7b6bb674de6026bf81b354e4"
+  }
+}

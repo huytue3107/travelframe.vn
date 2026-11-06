@@ -1,0 +1,43 @@
+{
+  "created": "2026-10-23",
+  "owner": "Technology-Automation",
+  "scope": "Claude handoff documents only; no credentials or media",
+  "compiled_from": [
+    "README.md",
+    "Knowledge-And-Methods.md",
+    "Snapshot-And-Sources.md",
+    "Prompt-For-Claude.md"
+  ],
+  "files": [
+    {
+      "name": "Knowledge-And-Methods.md",
+      "bytes": 22003,
+      "sha256": "8b2795be70c2f3b4d887bb8bb48ed968bddfb0e0f32150e5a3858464b0757d80"
+    },
+    {
+      "name": "Prompt-For-Claude.md",
+      "bytes": 4322,
+      "sha256": "349277d0f0f4b803ed6c27594716adbd1748ff7edeffd05a1d157852ee13d4bc"
+    },
+    {
+      "name": "README.md",
+      "bytes": 3635,
+      "sha256": "265d243d3fad175face47167aa21d8edaa626ed62525ff89c9ae99d928b3b882"
+    },
+    {
+      "name": "Snapshot-And-Sources.md",
+      "bytes": 13554,
+      "sha256": "4d4933288615ca5992e287b666e74188bfea6c7c07ae22bd2cba074717c6b2fc"
+    },
+    {
+      "name": "TravelFrame-Claude-Complete.md",
+      "bytes": 43160,
+      "sha256": "8d9d9c6a784147448179f2f740fcaf5246554eded2899808636e580fc9d13c74"
+    },
+    {
+      "name": "Validation.md",
+      "bytes": 1856,
+      "sha256": "0298d4437820fc3b275c9de5c0b36bde11a73e059841a397afb13be3c3274f43"
+    }
+  ]
+}

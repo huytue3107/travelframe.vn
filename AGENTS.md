@@ -53,6 +53,7 @@ Kiểm tra kết nối bằng `Technology-Automation/Scripts/meta-automation-mcp
 (không công khai, không in token). Token chuẩn: System User "Tue", app TravelFrame Automation, hạn Never;
 chỉ Rocky tạo và lưu token (`fix-token.sh`). Không thêm chức năng ghi vào `travelframe-readonly.mjs`.
 Sau mỗi bài đăng FB/IG: chạy Seed Comment Playbook (`Marketing-Growth/Guidelines/2026-10-07-Seed-Comment-Playbook.md`).
+`Scheduled` chỉ xác nhận lịch; không ghi là `Published` trước khi có platform evidence sau giờ đăng.
 <!-- SHARED-AGENT-POLICY:END -->
 
 ## Codex execution
@@ -60,5 +61,14 @@ Sau mỗi bài đăng FB/IG: chạy Seed Comment Playbook (`Marketing-Growth/Gui
 - Dùng `rg` để tìm file và text.
 - Dùng `apply_patch` cho thay đổi nội dung thủ công.
 - Đọc skill liên quan trong `Technology-Automation/Skills/Departments/<owner>/` trước khi thực hiện workflow chuyên biệt.
+- Với báo cáo hiệu quả hằng ngày, đọc `Data-Analytics/Daily-Reporting-Standard.md`; chốt số liệu lúc 08:30 ICT, giữ đủ 8 tầng phễu và chỉ ghi `Published` khi có platform evidence.
+- Với affiliate prototype, đọc `Technology-Automation/Tools/affiliate-tracker/README.md`; chỉ dùng dữ liệu minh họa/localStorage, không nhập dữ liệu khách thật hoặc coi duyệt/trả thử là thanh toán thật; chạy `node --test Technology-Automation/Tools/affiliate-tracker/core.test.mjs` trước khi bàn giao.
+- Với dự án video HyperFrames, đọc `AGENTS.md` cục bộ của dự án; chạy `npm run check`, xem các frame liên quan bằng `npx hyperframes snapshot --at <seconds>` trước `npm run render`, và chỉ chạy `npm run publish` khi Rocky đã phê duyệt rõ ràng.
 - Chạy test, `npm run test:skills` và `npm run workspace:check` trước khi báo hoàn tất.
 - Báo rõ limitation hoặc test baseline không chạy được.
+
+### Checkpoint giữa các phiên Codex (thử nghiệm)
+
+- Với việc cần nối qua nhiều phiên, lưu một checkpoint trong thư mục của công việc sau mỗi mốc kiểm chứng hoặc trước bước có rủi ro. Ghi việc đã làm và mức kiểm chứng, bằng chứng, việc còn mở, và một bước tiếp theo cụ thể.
+- Khi tiếp tục, đọc checkpoint đúng công việc và đối chiếu bằng chứng với trạng thái hiện tại. Checkpoint dùng để bàn giao tiến độ. Quyết định dài hạn tra theo `Source precedence`, quyền thực hiện tra theo `Permissions`.
+- Khi Rocky yêu cầu tiếp tục thử nghiệm checkpoint, mở [checkpoint thử nghiệm Codex](Technology-Automation/Handoffs/2026-11-06-Codex-Checkpoint-Pilot.md) và làm bước tiếp theo ở chế độ chỉ đọc.

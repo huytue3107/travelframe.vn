@@ -1,0 +1,97 @@
+{
+  "provider": "Built-in image_gen",
+  "mode": "generate",
+  "transparent_background": true,
+  "assets": [
+    {
+      "name": "shock",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG internet cat reaction meme sticker for a playful Hanoi travel video. Photographic cat cutout collage, realistic fur, deliberately exaggerated comic facial expression, sharp silhouette, thick clean white die-cut border. One cat only, centred, head and upper body or seated whole body filling about 85% of square canvas, all ears and paws inside frame. Real transparent alpha outside the sticker; no background scene, no text, no lettering, no watermark, no caption. Expressions must be extremely expressive and readable when scaled to 300 px, much more intense than a cute neutral pet portrait. No clothing unless specified. A fluffy white-and-orange bicolour cat in extreme astonishment: jaw completely dropped in a big O, huge round eyes and tiny pupils, both front paws pressed to its cheeks. Lean back as if it cannot believe there are only three things to choose. Hilarious high-energy reaction meme.",
+      "project_file": "assets/meme-cat-shock.png",
+      "generated_source_filename": "exec-d9738efa-5aa8-43aa-b459-599997f48dd7.png",
+      "width": 1254,
+      "height": 1254,
+      "has_alpha": true,
+      "bytes": 1882188
+    },
+    {
+      "name": "hungry",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG internet cat reaction meme sticker for a playful Hanoi travel video. Photographic cat cutout collage, realistic fur, deliberately exaggerated comic facial expression, sharp silhouette, thick clean white die-cut border. One cat only, centred, head and upper body or seated whole body filling about 85% of square canvas, all ears and paws inside frame. Real transparent alpha outside the sticker; no background scene, no text, no lettering, no watermark, no caption. Expressions must be extremely expressive and readable when scaled to 300 px, much more intense than a cute neutral pet portrait. No clothing unless specified. An extremely chubby orange tabby with a huge round belly, leaning forward, eyes gleaming intensely with food anticipation, tongue licking across its lips and a tiny comic drool at one corner. Both paws reaching eagerly in front. Outrageously hungry but lovable cat meme.",
+      "project_file": "assets/meme-cat-hungry.png",
+      "generated_source_filename": "exec-3a7ee2d7-2d39-4443-a885-c1180049a016.png",
+      "width": 1254,
+      "height": 1254,
+      "has_alpha": true,
+      "bytes": 2579937
+    },
+    {
+      "name": "laugh",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG internet cat reaction meme sticker for a playful Hanoi travel video. Photographic cat cutout collage, realistic fur, deliberately exaggerated comic facial expression, sharp silhouette, thick clean white die-cut border. One cat only, centred, head and upper body or seated whole body filling about 85% of square canvas, all ears and paws inside frame. Real transparent alpha outside the sticker; no background scene, no text, no lettering, no watermark, no caption. Expressions must be extremely expressive and readable when scaled to 300 px, much more intense than a cute neutral pet portrait. No clothing unless specified. A broad-faced plump white Persian cat laughing hysterically: eyes squeezed shut, mouth wide open laughing, head tilted back, tears of laughter at both cheeks, one paw across belly. Strong funny reaction, ecstatic joy.",
+      "project_file": "assets/meme-cat-laugh.png",
+      "generated_source_filename": "exec-0a2218ef-7af4-470f-a69e-8908f85ae6be.png",
+      "width": 1254,
+      "height": 1254,
+      "has_alpha": true,
+      "bytes": 2114037
+    },
+    {
+      "name": "scream",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG internet cat reaction meme sticker for a playful Hanoi travel video. Photographic cat cutout collage, realistic fur, deliberately exaggerated comic facial expression, sharp silhouette, thick clean white die-cut border. One cat only, centred, head and upper body or seated whole body filling about 85% of square canvas, all ears and paws inside frame. Real transparent alpha outside the sticker; no background scene, no text, no lettering, no watermark, no caption. Expressions must be extremely expressive and readable when scaled to 300 px, much more intense than a cute neutral pet portrait. No clothing unless specified. A grey British shorthair cat with extremely wide eyes, mouth open in an explosive surprised scream, fur a little puffed, both paws thrown up high. Unmistakable comically overwhelmed reaction, not distressed or injured.",
+      "project_file": "assets/meme-cat-scream.png",
+      "generated_source_filename": "exec-e0251971-8954-4ea1-900b-c249ec108ed4.png",
+      "width": 1254,
+      "height": 1254,
+      "has_alpha": true,
+      "bytes": 2991703
+    },
+    {
+      "name": "love",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG internet cat reaction meme sticker for a playful Hanoi travel video. Photographic cat cutout collage, realistic fur, deliberately exaggerated comic facial expression, sharp silhouette, thick clean white die-cut border. One cat only, centred, head and upper body or seated whole body filling about 85% of square canvas, all ears and paws inside frame. Real transparent alpha outside the sticker; no background scene, no text, no lettering, no watermark, no caption. Expressions must be extremely expressive and readable when scaled to 300 px, much more intense than a cute neutral pet portrait. No clothing unless specified. A very chubby cream ragdoll cat in intense bliss: head tilted back, big delighted smile, eyelids almost closed, both paws clasped over chest. Two small glossy red cartoon hearts hover immediately beside its head as part of sticker. Emotion: absolutely in love with a delicious coffee break.",
+      "project_file": "assets/meme-cat-love.png",
+      "generated_source_filename": "exec-15f49228-d666-4f9a-9632-4cca23e3423b.png",
+      "width": 1254,
+      "height": 1254,
+      "has_alpha": true,
+      "bytes": 2523670
+    },
+    {
+      "name": "excited",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG internet cat reaction meme sticker for a playful Hanoi travel video. Photographic cat cutout collage, realistic fur, deliberately exaggerated comic facial expression, sharp silhouette, thick clean white die-cut border. One cat only, centred, head and upper body or seated whole body filling about 85% of square canvas, all ears and paws inside frame. Real transparent alpha outside the sticker; no background scene, no text, no lettering, no watermark, no caption. Expressions must be extremely expressive and readable when scaled to 300 px, much more intense than a cute neutral pet portrait. No clothing unless specified. A black-and-white tuxedo cat jumping up with both front paws raised victoriously, huge open-mouth grin, bright excited eyes, ears forward. Dynamic celebratory meme pose, a small visible full plump body with feet inside frame. Looks wildly excited to explore Hanoi.",
+      "project_file": "assets/meme-cat-excited.png",
+      "generated_source_filename": "exec-7f8adf04-6c5d-441d-a16f-73c3cd3797a4.png",
+      "width": 1254,
+      "height": 1254,
+      "has_alpha": true,
+      "bytes": 1940040
+    },
+    {
+      "name": "sideeye",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG internet cat reaction meme sticker for a playful Hanoi travel video. Photographic cat cutout collage, realistic fur, deliberately exaggerated comic facial expression, sharp silhouette, thick clean white die-cut border. One cat only, centred, head and upper body or seated whole body filling about 85% of square canvas, all ears and paws inside frame. Real transparent alpha outside the sticker; no background scene, no text, no lettering, no watermark, no caption. Expressions must be extremely expressive and readable when scaled to 300 px, much more intense than a cute neutral pet portrait. No clothing unless specified. A short-haired black cat giving an exaggerated suspicious side-eye: head turned slightly, massive yellow eyes looking sideways, one eyebrow-like brow lifted, one front paw held under its chin, mouth slightly pursed. Very dramatic judgmental but funny curious reaction meme.",
+      "project_file": "assets/meme-cat-sideeye.png",
+      "generated_source_filename": "exec-d667d77a-7665-4a8d-a6f6-dca38d6d6fc6.png",
+      "width": 1254,
+      "height": 1254,
+      "has_alpha": true,
+      "bytes": 2342855
+    },
+    {
+      "name": "cool",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG internet cat reaction meme sticker for a playful Hanoi travel video. Photographic cat cutout collage, realistic fur, deliberately exaggerated comic facial expression, sharp silhouette, thick clean white die-cut border. One cat only, centred, head and upper body or seated whole body filling about 85% of square canvas, all ears and paws inside frame. Real transparent alpha outside the sticker; no background scene, no text, no lettering, no watermark, no caption. Expressions must be extremely expressive and readable when scaled to 300 px, much more intense than a cute neutral pet portrait. No clothing unless specified. A very fat cream-coloured cat wearing small black sunglasses lowered slightly on its nose, looking confidently over the glasses, enormous cheeky grin, one paw extending towards the viewer in a theatrical confident pose. Comically self-assured photo-model meme, full round belly visible.",
+      "project_file": "assets/meme-cat-cool.png",
+      "generated_source_filename": "exec-b8bbee29-64f8-49aa-bd59-9f73f3ed3271.png",
+      "width": 1254,
+      "height": 1254,
+      "has_alpha": true,
+      "bytes": 2248897
+    },
+    {
+      "name": "happycry",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG internet cat reaction meme sticker for a playful Hanoi travel video. Photographic cat cutout collage, realistic fur, deliberately exaggerated comic facial expression, sharp silhouette, thick clean white die-cut border. One cat only, centred, head and upper body or seated whole body filling about 85% of square canvas, all ears and paws inside frame. Real transparent alpha outside the sticker; no background scene, no text, no lettering, no watermark, no caption. Expressions must be extremely expressive and readable when scaled to 300 px, much more intense than a cute neutral pet portrait. No clothing unless specified. A plump silver tabby overwhelmed by happy emotion: huge sparkling eyes with two exaggerated clean blue tear streaks, broad joyous open-mouth smile, both paws clasped together under chin. Ecstatic grateful excitement, visibly happy rather than sad.",
+      "project_file": "assets/meme-cat-happycry.png",
+      "generated_source_filename": "exec-045aa650-9f47-4ea2-bcce-1c9b50c93af8.png",
+      "width": 1254,
+      "height": 1254,
+      "has_alpha": true,
+      "bytes": 2784601
+    }
+  ]
+}

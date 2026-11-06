@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "status": "partial",
+  "video": "/Users/macbook/Downloads/1006(3)/1006(3)-3.mp4",
+  "observations": [
+    {
+      "kind": "visual",
+      "timestamp_estimate": "0–1",
+      "text": "Hai người đứng cùng crew/camera dưới tán cây.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 0,
+        "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "0–1",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 0,
+        "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "2–4",
+      "text": "Người mẫu trò chuyện và dùng tay diễn đạt.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 2,
+        "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "2–4",
+      "text": "I like the idea of wandering around",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 2,
+        "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "5–7",
+      "text": "Camera/điện thoại thấy rõ; tiếp tục trò chuyện.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 5,
+        "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "5–7",
+      "text": "So, wandering around... / just having fun!",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 5,
+        "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "8–11",
+      "text": "Chân dung thành phẩm dưới đèn.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 8,
+        "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "8–11",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 8,
+        "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "12–13.8",
+      "text": "Ảnh đen trắng kết video.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 12,
+        "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "12–13.8",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 12,
+        "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "kind": "inference",
+      "basis": [
+        {
+          "pass": "main",
+          "frame_index": 0,
+          "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 2,
+          "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 5,
+          "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 8,
+          "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 12,
+          "index": "Research-Insights/Library/analysis/1006-3-3/2026-10-14/frames/frames.json"
+        }
+      ],
+      "reason": "Trải nghiệm thư thái và giao tiếp để tạo cảm giác thoải mái, không claim cảm xúc hoặc đánh giá của khách."
+    }
+  ],
+  "asr_limitation": "ASR nhận thành hiding inside ở cuối thay vì chữ just having fun. Không lấy bản ASR này làm quote hoặc testimonial.",
+  "missing": [
+    "post_caption",
+    "platform_subtitles"
+  ],
+  "coverage": {
+    "main": "approximately 1fps throughout",
+    "focused": [
+      "0–3s",
+      "last 3s"
+    ],
+    "focused_rate_fps": 2,
+    "reviewed": "all extracted frames through contact sheets",
+    "continuous_audio_review": false
+  },
+  "timestamp_note": "estimate, not frame-exact"
+}

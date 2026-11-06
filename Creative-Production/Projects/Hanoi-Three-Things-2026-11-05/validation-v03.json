@@ -1,0 +1,118 @@
+{
+  "status": "Review",
+  "published": false,
+  "file": "TF-Hanoi-Three-Things-Stopmotion-v03.mp4",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "nb_frames": "1604"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "nb_frames": "2508"
+      }
+    ],
+    "format": {
+      "duration": "53.466667",
+      "size": "30296277"
+    }
+  },
+  "verification": {
+    "sha256": "1be2427b85d51734b048f36a053047cc61843f1f2ebe34c8513bba6bb642722a",
+    "audio_identical_to_v02": true,
+    "audio_hashes": {
+      "TF-Hanoi-Three-Things-Meme-Cats-v02.mp4": "SHA256=450b83d53c719eed50ded5a61dc66c89eda65ea581ff3cb3c22ce7e80160eaa3",
+      "TF-Hanoi-Three-Things-Stopmotion-v03.mp4": "SHA256=450b83d53c719eed50ded5a61dc66c89eda65ea581ff3cb3c22ce7e80160eaa3"
+    },
+    "motion_sample": {
+      "cat_region": [
+        20,
+        760,
+        450,
+        420
+      ],
+      "frames": [
+        34,
+        47
+      ],
+      "expected_step_frames": [
+        38,
+        42,
+        46
+      ],
+      "frame_differences": [
+        {
+          "frame": 35,
+          "mean_pixel_delta": 0.011206
+        },
+        {
+          "frame": 36,
+          "mean_pixel_delta": 0.005952
+        },
+        {
+          "frame": 37,
+          "mean_pixel_delta": 0.004317
+        },
+        {
+          "frame": 38,
+          "mean_pixel_delta": 21.331148
+        },
+        {
+          "frame": 39,
+          "mean_pixel_delta": 0.015312
+        },
+        {
+          "frame": 40,
+          "mean_pixel_delta": 0.009725
+        },
+        {
+          "frame": 41,
+          "mean_pixel_delta": 0.006143
+        },
+        {
+          "frame": 42,
+          "mean_pixel_delta": 22.748968
+        },
+        {
+          "frame": 43,
+          "mean_pixel_delta": 0.021058
+        },
+        {
+          "frame": 44,
+          "mean_pixel_delta": 0.006836
+        },
+        {
+          "frame": 45,
+          "mean_pixel_delta": 0.006677
+        },
+        {
+          "frame": 46,
+          "mean_pixel_delta": 21.072714
+        },
+        {
+          "frame": 47,
+          "mean_pixel_delta": 0.025148
+        }
+      ],
+      "mean_step_delta": 21.717610000000004,
+      "mean_hold_delta": 0.011237400000000002,
+      "step_to_hold_ratio": 1932.6185832471408,
+      "largest_jumps_match_expected": true
+    }
+  },
+  "composition_check_ok": true,
+  "tests": {
+    "npm": 158,
+    "skills": 15
+  },
+  "independent_listening_completed": false
+}

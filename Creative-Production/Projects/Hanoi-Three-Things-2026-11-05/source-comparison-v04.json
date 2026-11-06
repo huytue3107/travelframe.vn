@@ -1,0 +1,102 @@
+[
+  {
+    "file": "index.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/captions.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi1.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi10.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi11.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi12.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi13.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi14.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi15.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi16.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi17.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi18.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi2.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi3.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi4.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi5.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi6.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi7.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi8.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  },
+  {
+    "file": "compositions/hanoi9.html",
+    "scriptsIdentical": true,
+    "nonStyleMarkupIdentical": true
+  }
+]

@@ -1,0 +1,11 @@
+source_id,name,scope,price_display,format,access_basis,purchase_tested,revenue_verified,url
+S01,LUXE Hanoi Digital Guide,Hanoi,14.99 USD,App guide,Public seller page,No,No,https://shop.luxecityguides.com/collections/digital-guides/products/luxe-hanoi-digital-guide
+S02,Hanoi Market Map and Eating Plan,Hanoi food day,$19.00,PDF and Google Map,Public seller page,No,No,https://www.lifesheloves.com/life-she-loves-store/p/hanoi-market-map-eating-plan
+S03,MarcieTravel Hanoi 2 Days,Hanoi,$11.17 in one rendering; GBP 9.83 localized rendering,3 PDF and map and Canva,Public listing with variable renderings,No,No,https://www.etsy.com/listing/4320342617/hanoi-travel-itinerary-2-days-instant
+S04,The Solo Girls Travel Guide Vietnam,Vietnam,$27.00,Digital guide and seller-promised extras,Public seller page,No,No,https://thesologirlstravelguide.com/products/vietnam-digital-travel-guide
+S05,Lets Go Lukiih Vietnam Planner,Vietnam,$10.99+,Notion and map and trackers,Indexed seller-page extraction only,No,No,https://letsgolukiih.gumroad.com/l/vietnam-travel
+S06,Midlife Crisis Travel Vietnam 11 Days,Vietnam,$9.04,PDF 39 pages,Indexed seller-page extraction only,No,No,https://midlifecrisistravel.gumroad.com/l/vietnamtravelitinerary
+S07,Lonely Planet Vietnam eBook,Vietnam,17.95 USD,eBook,Public publisher ebook collection,No,No,https://shop.lonelyplanet.com/collections/ebooks
+S08,lisainjapan Hanoi Guide,Hanoi,Pay what you can; minimum unverified,PDF 24 pages,Public creator page with dynamic placeholders,No,No,https://ko-fi.com/s/e39442f78d
+S09,Local Vietnam Free eBook,Vietnam,Free per page,eBook,Partial public extraction and indexed text; later 403,No,No,https://localvietnam.com/ebook/
+S10,Vietnamnomad Hanoi Map,Hanoi,Free per page,Map and PDF flow via Tripion,Public page; Tripion flow not tested,No,No,https://vietnamnomad.com/destinations/northern-vietnam/hanoi/hanoi-tourist-map/

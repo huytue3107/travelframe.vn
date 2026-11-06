@@ -1,0 +1,713 @@
+{
+  "fontFaces": [
+    {
+      "family": "HeritageDisplay",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Montserrat",
+      "weight": "800",
+      "status": "loaded"
+    },
+    {
+      "family": "Montserrat",
+      "weight": "900",
+      "status": "loaded"
+    }
+  ],
+  "titles": [
+    {
+      "id": "hanoi1-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi2-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi3-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi4-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi5-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi6-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi7-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi8-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi9-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi10-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi11-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi12-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi13-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi14-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi15-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi16-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi17-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    },
+    {
+      "id": "hanoi18-title",
+      "font": "HeritageDisplay, sans-serif",
+      "weight": "400",
+      "size": "72px",
+      "width": 870,
+      "scrollWidth": 870,
+      "height": 170
+    }
+  ],
+  "captions": [
+    {
+      "id": "group0",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Only have time"
+    },
+    {
+      "id": "group1",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "for three things in Hanoi?"
+    },
+    {
+      "id": "group2",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Here’s how I’d spend it."
+    },
+    {
+      "id": "group3",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "First, find a little"
+    },
+    {
+      "id": "group4",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "local food spot."
+    },
+    {
+      "id": "group5",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Start your morning"
+    },
+    {
+      "id": "group6",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "with a warm bowl"
+    },
+    {
+      "id": "group7",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "of phở,"
+    },
+    {
+      "id": "group8",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "or try bún chả"
+    },
+    {
+      "id": "group9",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "for lunch."
+    },
+    {
+      "id": "group10",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Take your time,"
+    },
+    {
+      "id": "group11",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "watch the street outside,"
+    },
+    {
+      "id": "group12",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "and enjoy the little"
+    },
+    {
+      "id": "group13",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "details around you."
+    },
+    {
+      "id": "group14",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Second, stop for"
+    },
+    {
+      "id": "group15",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Vietnamese coffee."
+    },
+    {
+      "id": "group16",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Try an egg coffee,"
+    },
+    {
+      "id": "group17",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "or order your favourite"
+    },
+    {
+      "id": "group18",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "and find a seat"
+    },
+    {
+      "id": "group19",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "where you can watch"
+    },
+    {
+      "id": "group20",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Hanoi go by."
+    },
+    {
+      "id": "group21",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Sometimes the best part"
+    },
+    {
+      "id": "group22",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "of exploring"
+    },
+    {
+      "id": "group23",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "is taking a break."
+    },
+    {
+      "id": "group24",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "And third,"
+    },
+    {
+      "id": "group25",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "discover the city on foot."
+    },
+    {
+      "id": "group26",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 145,
+      "text": "Walk around Hoàn Kiếm Lake,"
+    },
+    {
+      "id": "group27",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "then wander into"
+    },
+    {
+      "id": "group28",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "the Old Quarter."
+    },
+    {
+      "id": "group29",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Look up at"
+    },
+    {
+      "id": "group30",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "the old balconies,"
+    },
+    {
+      "id": "group31",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 145,
+      "text": "peek down the little alleys,"
+    },
+    {
+      "id": "group32",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "and let yourself take"
+    },
+    {
+      "id": "group33",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "the scenic route."
+    },
+    {
+      "id": "group34",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Want to be"
+    },
+    {
+      "id": "group35",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "in the photos too?"
+    },
+    {
+      "id": "group36",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Explore Hanoi"
+    },
+    {
+      "id": "group37",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "with a local photographer"
+    },
+    {
+      "id": "group38",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "and take home memories"
+    },
+    {
+      "id": "group39",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "of your day."
+    },
+    {
+      "id": "group40",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "Save this"
+    },
+    {
+      "id": "group41",
+      "width": 850,
+      "scrollWidth": 850,
+      "height": 72,
+      "text": "for your Hanoi trip."
+    }
+  ],
+  "actualFonts": [
+    {
+      "selector": "#hanoi1-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 20
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi2-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 14
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi3-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 25
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi4-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 20
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi5-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 24
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi6-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 24
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi7-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 16
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi8-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 23
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi9-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 24
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi10-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 27
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi11-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 20
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi12-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 20
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi13-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 21
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi14-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 29
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi15-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 21
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi16-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi17-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi18-title",
+      "fonts": [
+        {
+          "familyName": "Heritage Display",
+          "postScriptName": "HeritageDisplay-Regular",
+          "isCustomFont": true,
+          "glyphCount": 29
+        }
+      ]
+    },
+    {
+      "selector": "#hanoi1-sub",
+      "fonts": [
+        {
+          "familyName": "#9Slide03 Montserrat ExtraBold",
+          "postScriptName": "_9Slide03MontserratExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 33
+        }
+      ]
+    },
+    {
+      "selector": "#group0-inner",
+      "fonts": [
+        {
+          "familyName": "#9Slide03 Montserrat Black",
+          "postScriptName": "_9Slide03MontserratBlack",
+          "isCustomFont": true,
+          "glyphCount": 14
+        }
+      ]
+    },
+    {
+      "selector": "#group41-inner",
+      "fonts": [
+        {
+          "familyName": "#9Slide03 Montserrat Black",
+          "postScriptName": "_9Slide03MontserratBlack",
+          "isCustomFont": true,
+          "glyphCount": 20
+        }
+      ]
+    }
+  ],
+  "ok": true
+}

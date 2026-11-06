@@ -1,0 +1,31 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "README.md": "10ed112a48fd88f920d6c17fada7e624ccf22152ad5bd11a5acb49abe385b6bc",
+    "evidence/gsc-old-quarter-requested.png": "472fce2cab4a05499bf860d19aac7d2aee9ef44c174350a0a6ee613ad9b975ca",
+    "evidence/gsc-photoshoot-requested.png": "a2d2564d41660f2e95ea61a2f256d20de478048a6c92b6a51c744a4ffce7a1d1",
+    "evidence/homepage-links-live.png": "5e8c760f93b3de95784491a333d309eb143f9e9bb0bb5b707694f61fc9f08f77",
+    "evidence/santorini-faq-live.png": "11e5410b047dd029b7232599d645118d23b13e9deb06822d61be2f24e9119895",
+    "evidence/tours-links-desktop.png": "9369238ab36c74c9ef2f0d2d9739c9ef5c9846b8b3635470042694ad239e55cb",
+    "gsc-indexing-requests.json": "bd876bdffa8717c913ced5ee1505275ac55386a61880581f5d3ce454246c509f",
+    "node-84-after.html": "258b5a475d1a1171d415fc10f2e8d957ac868b80efa745c26573aef2866db7a5",
+    "node-84-before.html": "21cc25ec0e93bfc7208e9d637ffadc79ea06580a91f324d3fd1a584d828becb9",
+    "node-86-after.html": "62611e40b59993e89453d0239a8e3743c9cfc090e2190637c9be3d831b4d9f76",
+    "node-86-before.html": "4a94e60c42147e7bc1ead538607e808db118fb80069ef4f28c986a6933741834",
+    "node-91-after.html": "528eb4412787fdb8276f6a8383f29844a96a2ef97ca1e1c616f2d28574a21ac7",
+    "node-91-before.html": "4114a14bcbde9e294b5d9c0b402fd12c7a1fe872d3c668a86501f852a2aba476",
+    "node-91-intermediate.html": "9ea694d417fcdd18e1d402bd6565f999805c402823a0e6461e305b5d721ffc51",
+    "node-92-after.html": "89e5ce1dbd5d187d267cd7f3271e672b4e5cfea420e6519a25c41d054bc58d50",
+    "node-92-before.html": "323da203c6eebb4ae843c8eb4664060005f2abb40eda60699968cd4013b117e3",
+    "node-92-meta.json": "59775e77ebddb1d1dadc3239fdf47ceb933b11eb1dd7c458d7457cd4faaef92e",
+    "openseo-audit-issues.json": "1c568a97c36ab27fbafe0f7c780058761d68a24e9e8f8b719a591befce004c17",
+    "openseo-audit-pages.json": "e75588cf0193e38d064dc0e7b7369ccb5227e33c5c54e58fbb4a320f07a23566",
+    "openseo-audit-status.json": "73a72be4b605d899403581905f03cd7e968e2bd5d96136dffe4eaadaf3ea35ef",
+    "openseo-comparison.json": "8ac9d13fab6ae3a7817bd6b3628c6692a3ab9eff746a59bb07d02f0dd1f9ecf3",
+    "seo-links-block-placement.json": "11aca746914b90fc124ba2d064840671b8ce3dcf658d32053750d9b74ad302fb",
+    "seo-links-block.html": "2f4a4db2d60d6e3c98b23af177b226ab874b2a29bcd3bd8e787009fee180e9dc",
+    "settings-before.txt": "b94eda47ce1b5aec53a2a0f85fbc34e9749115497eb8a751d17ffd67f5b9e51a",
+    "settings-changes.json": "c4e72bdea88c6f04927bd578493624fd385d745f53641d3a92d29aa8f4e24a4a",
+    "validation.json": "534d7c2abd3e839a9fd7c7d63c2dfab8d0417cdbd74f93142fba5dbb89409f3c"
+  }
+}

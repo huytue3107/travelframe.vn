@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-23T15:05+07:00",
+  "method": "fetch credentials:'omit', cache:'no-store' trong built-in browser (shell bị proxy chặn sidevn.com)",
+  "url": "https://travelframe.sidevn.com/news/hanoi-night-photoshoot-harry-wuchr",
+  "status": 200,
+  "no_admin_markup": true,
+  "title": "Hanoi Night Photoshoot That the Streets Completely Stole | TravelFrame Vietnam",
+  "description": "Wuchr's night portraits with Harry around Trang Tien, where buses, motorbikes and shop lights join the frame. Ideas for your own Hanoi night photoshoot.",
+  "canonical": "https://travelframe.sidevn.com/news/hanoi-night-photoshoot-harry-wuchr",
+  "meta_robots": null,
+  "og_image": "https://travelframe.sidevn.com/sites/default/files/2026-10/DeqskH_ox_2-04.webp",
+  "h1": ["A bus, a crosswalk and one stare: Wuchr's Hanoi night photoshoot"],
+  "kicker_present": true,
+  "template_food_tour_block": true,
+  "images": [
+    {"src": "/sites/default/files/2026-10/DeqskH_ox_2-04.webp", "status": 200, "type": "image/webp", "bytes": 138866, "alt": true, "rendered_naturalWidth": 1200},
+    {"src": "/sites/default/files/inline-images/DeqskH_ox_2-05.jpg", "status": 200, "type": "image/jpeg", "bytes": 135845, "alt": true, "rendered_naturalWidth": 1600},
+    {"src": "/sites/default/files/inline-images/DeqskH_ox_2-01.jpg", "status": 200, "type": "image/jpeg", "bytes": 195811, "alt": true, "rendered_naturalWidth": 1200},
+    {"src": "/sites/default/files/inline-images/DeqskH_ox_2-08.jpg", "status": 200, "type": "image/jpeg", "bytes": 165153, "alt": true, "rendered_naturalWidth": 1200},
+    {"src": "/sites/default/files/inline-images/DeqskH_ox_2-06.jpg", "status": 200, "type": "image/jpeg", "bytes": 237811, "alt": true, "rendered_naturalWidth": 1200}
+  ],
+  "links": {"/news/trang-tien-street-hanoi-opera-house-locals-guide": 200, "/hanoi-photoshoot": 200, "instagram.com/travelframe.vn": "opaque (no-cors, không kiểm được status)", "/booking (template)": 200, "/tours (template)": 200},
+  "render_viewport_590px": {"overflow_x": false, "images_complete": "5/5"},
+  "listing": {"/news first page": false, "/news?category=4 first page": false, "note": "Thin cũng không xuất hiện; cùng vấn đề listing đã biết"},
+  "cms": {"node": 111, "status": "Published", "updated": "23 Oct 2026 - 15:04"}
+}

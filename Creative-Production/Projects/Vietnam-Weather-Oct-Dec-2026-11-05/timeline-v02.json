@@ -1,0 +1,314 @@
+{
+  "duration": 67.16666666666667,
+  "scenes": [
+    {
+      "id": "v2scene1",
+      "start": 0,
+      "title": "VIETNAM IN<br>OCT–DEC?",
+      "sub": "CHECK BEFORE YOU PACK",
+      "cat": "cat-surprised.png",
+      "kind": "calendar",
+      "value": "OCT · NOV · DEC",
+      "end": 3.46,
+      "length": 3.46,
+      "images": [
+        "packing.jpg",
+        "PACK FOR YOUR ROUTE",
+        "hoi-an-street.jpg",
+        "VIETNAM"
+      ]
+    },
+    {
+      "id": "v2scene2",
+      "start": 3.46,
+      "title": "ONE COUNTRY.<br>DIFFERENT WEATHER.",
+      "sub": "NORTH → CENTRAL → SOUTH",
+      "cat": "cat.png",
+      "kind": "regions",
+      "value": "THREE REGIONS",
+      "end": 9.114,
+      "length": 5.654,
+      "images": [
+        "sapa-terraces.jpg",
+        "NORTH",
+        "saigon-sunset.jpg",
+        "SOUTH"
+      ]
+    },
+    {
+      "id": "v2scene3",
+      "start": 9.114,
+      "title": "NORTH:<br>HELLO, AUTUMN.",
+      "sub": "HANOI IN AUTUMN",
+      "cat": "cat-scarf.png",
+      "kind": "photo",
+      "value": "old-quarter.jpg",
+      "end": 13.862,
+      "length": 4.748,
+      "images": [
+        "old-quarter.jpg",
+        "HANOI",
+        "cathedral.jpg",
+        "AUTUMN WALKS"
+      ]
+    },
+    {
+      "id": "v2scene4",
+      "start": 13.862,
+      "title": "GET LOST<br>IN THE LITTLE STREETS.",
+      "sub": "OLD QUARTER · HANOI",
+      "cat": "cat-cream.png",
+      "kind": "photo",
+      "value": "old-quarter.jpg",
+      "end": 16.242,
+      "length": 2.38,
+      "images": [
+        "old-quarter.jpg",
+        "OLD QUARTER",
+        "bridge.jpg",
+        "WANDER A LITTLE"
+      ]
+    },
+    {
+      "id": "v2scene5",
+      "start": 16.242,
+      "title": "COFFEE.<br>CAMERA. REPEAT.",
+      "sub": "BRING YOUR CAMERA",
+      "cat": "cat-chubby.png",
+      "kind": "photo",
+      "value": "coffee.jpg",
+      "end": 18.959,
+      "length": 2.717,
+      "images": [
+        "coffee.jpg",
+        "COFFEE STOP",
+        "lake.jpg",
+        "BRING YOUR CAMERA"
+      ]
+    },
+    {
+      "id": "v2scene6",
+      "start": 18.959,
+      "title": "DECEMBER?<br>LAYER UP.",
+      "sub": "A JACKET GOES IN THE BAG",
+      "cat": "cat-scarf.png",
+      "kind": "card",
+      "value": "LAYERS + JACKET",
+      "end": 21.444,
+      "length": 2.485,
+      "images": [
+        "packing.jpg",
+        "PACK LAYERS",
+        "warm-clothes.jpg",
+        "ADD A JACKET"
+      ]
+    },
+    {
+      "id": "v2scene7",
+      "start": 21.444,
+      "title": "MOUNTAIN PLANS?<br>PACK WARMER.",
+      "sub": "PACK WARMER CLOTHING",
+      "cat": "cat-scarf.png",
+      "kind": "card",
+      "value": "WARMER LAYERS",
+      "end": 24.311,
+      "length": 2.867,
+      "images": [
+        "sapa-terraces.jpg",
+        "SA PA · NORTHERN HIGHLANDS",
+        "warm-clothes.jpg",
+        "WARMER CLOTHING"
+      ]
+    },
+    {
+      "id": "v2scene8",
+      "start": 24.311,
+      "title": "NEXT STOP:<br>CENTRAL VIETNAM.",
+      "sub": "HUẾ · ĐÀ NẴNG · HỘI AN",
+      "cat": "cat-umbrella.png",
+      "kind": "rain",
+      "value": "LATE-YEAR WEATHER",
+      "end": 28.607,
+      "length": 4.296,
+      "images": [
+        "hoi-an-street.jpg",
+        "HỘI AN",
+        "hoi-an-river.jpg",
+        "CENTRAL VIETNAM"
+      ]
+    },
+    {
+      "id": "v2scene9",
+      "start": 28.607,
+      "title": "RAIN + STORMS?<br>STAY FLEXIBLE.",
+      "sub": "LATER MONTHS OF THE YEAR",
+      "cat": "cat-umbrella.png",
+      "kind": "rain",
+      "value": "KEEP PLANS FLEXIBLE",
+      "end": 32.821,
+      "length": 4.214,
+      "images": [
+        "rain-detail.jpg",
+        "RAIN DETAIL",
+        "hoi-an-street.jpg",
+        "KEEP PLANS FLEXIBLE"
+      ]
+    },
+    {
+      "id": "v2scene10",
+      "start": 32.821,
+      "title": "ALWAYS HAVE<br>A PLAN B.",
+      "sub": "HAVE AN INDOOR BACKUP",
+      "cat": "cat.png",
+      "kind": "photo",
+      "value": "coffee.jpg",
+      "end": 38.046,
+      "length": 5.225,
+      "images": [
+        "coffee.jpg",
+        "CAFÉ BREAK",
+        "hoi-an-river.jpg",
+        "A FLEXIBLE ITINERARY"
+      ]
+    },
+    {
+      "id": "v2scene11",
+      "start": 38.046,
+      "title": "DECEMBER CAN<br>STILL BE RAINY.",
+      "sub": "CHECK THE LOCAL FORECAST",
+      "cat": "cat-umbrella.png",
+      "kind": "rain",
+      "value": "CHECK BEFORE YOU GO",
+      "end": 42.875,
+      "length": 4.829,
+      "images": [
+        "rain-detail.jpg",
+        "SHOWERS CAN CONTINUE",
+        "hoi-an-street.jpg",
+        "CHECK BEFORE YOU GO"
+      ]
+    },
+    {
+      "id": "v2scene12",
+      "start": 42.875,
+      "title": "SOUTH:<br>STILL WARM.",
+      "sub": "IT STAYS WARM",
+      "cat": "cat-sun.png",
+      "kind": "sun",
+      "value": "WARM YEAR-ROUND",
+      "end": 45.87,
+      "length": 2.995,
+      "images": [
+        "saigon-sunset.jpg",
+        "HO CHI MINH CITY",
+        "saigon-river.jpg",
+        "SOUTHERN VIETNAM"
+      ]
+    },
+    {
+      "id": "v2scene13",
+      "start": 45.87,
+      "title": "OCT + NOV?<br>SHOWERS CAN HAPPEN.",
+      "sub": "SHOWERS CAN STILL HAPPEN",
+      "cat": "cat-umbrella.png",
+      "kind": "rain",
+      "value": "BRING A RAIN LAYER",
+      "end": 48.936,
+      "length": 3.066,
+      "images": [
+        "rain-detail.jpg",
+        "OCT · NOV SHOWERS",
+        "saigon-river.jpg",
+        "STAY FLEXIBLE"
+      ]
+    },
+    {
+      "id": "v2scene14",
+      "start": 48.936,
+      "title": "DECEMBER?<br>GENERALLY DRIER.",
+      "sub": "SEASONAL PATTERNS CAN VARY",
+      "cat": "cat-sun.png",
+      "kind": "sun",
+      "value": "GENERALLY DRIER",
+      "end": 51.977,
+      "length": 3.041,
+      "images": [
+        "saigon-sunset.jpg",
+        "GENERALLY DRIER",
+        "photographer.jpg",
+        "HO CHI MINH CITY"
+      ]
+    },
+    {
+      "id": "v2scene15",
+      "start": 51.977,
+      "title": "BEFORE YOU GO:<br>CHECK THE FORECAST.",
+      "sub": "LOCAL FORECAST > GENERAL GUIDE",
+      "cat": "cat-surprised.png",
+      "kind": "card",
+      "value": "CHECK YOUR DATES",
+      "end": 56.134,
+      "length": 4.157,
+      "images": [
+        "packing.jpg",
+        "CHECK YOUR DATES",
+        "rain-detail.jpg",
+        "CHECK LOCAL WEATHER"
+      ]
+    },
+    {
+      "id": "v2scene16",
+      "start": 56.134,
+      "title": "HANOI ON<br>YOUR LIST?",
+      "sub": "MAKE TIME TO SLOW DOWN",
+      "cat": "cat-cream.png",
+      "kind": "photo",
+      "value": "lake.jpg",
+      "end": 60.22,
+      "length": 4.086,
+      "images": [
+        "lake.jpg",
+        "SLOW DOWN IN HANOI",
+        "cathedral.jpg",
+        "LOOK AROUND"
+      ]
+    },
+    {
+      "id": "v2scene17",
+      "start": 60.22,
+      "title": "SLOW DOWN.<br>NOTICE MORE.",
+      "sub": "A LITTLE HANOI STORY",
+      "cat": "cat.png",
+      "kind": "photo",
+      "value": "old-quarter.jpg",
+      "end": 63.715,
+      "length": 3.495,
+      "images": [
+        "old-quarter.jpg",
+        "EXPLORE THE STREETS",
+        "bridge.jpg",
+        "CAPTURE THE IN-BETWEEN"
+      ]
+    },
+    {
+      "id": "v2scene18",
+      "start": 63.715,
+      "title": "SAVE THIS.<br>PACK SMARTER.",
+      "sub": "TRAVELFRAME · TRAVEL WITH CURIOSITY",
+      "cat": "cat-chubby.png",
+      "kind": "calendar",
+      "value": "OCT · NOV · DEC",
+      "end": 67.16666666666667,
+      "length": 3.452,
+      "images": [
+        "hoi-an-river.jpg",
+        "SAVE FOR YOUR TRIP",
+        "old-quarter.jpg",
+        "VIETNAM · OCT–DEC"
+      ]
+    }
+  ],
+  "captionGroups": 49,
+  "photoFrames": 36,
+  "uniquePhotos": 14
+}

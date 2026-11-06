@@ -1,0 +1,99 @@
+{
+  "baselineAuditId": "686f7bbd-feae-45fd-a577-42d23007dd5d",
+  "verificationAuditId": "72693e77-0497-4b63-a63e-5bb09ff14f82",
+  "baselineTotal": 177,
+  "verificationTotal": 175,
+  "baselineOnly": [
+    "https://travelframe.sidevn.com/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing?lang=vi"
+  ],
+  "verificationOnly": [
+    "https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide?lang=vi"
+  ],
+  "summary": [
+    {
+      "issueType": "duplicate-meta-description",
+      "before": 32,
+      "after": 32
+    },
+    {
+      "issueType": "duplicate-title",
+      "before": 32,
+      "after": 30
+    },
+    {
+      "issueType": "thin-content",
+      "before": 3,
+      "after": 3
+    },
+    {
+      "issueType": "title-too-long",
+      "before": 50,
+      "after": 54
+    },
+    {
+      "issueType": "heading-order-skip",
+      "before": 43,
+      "after": 38
+    },
+    {
+      "issueType": "slow-response",
+      "before": 8,
+      "after": 10
+    },
+    {
+      "issueType": "meta-description-too-long",
+      "before": 4,
+      "after": 3
+    },
+    {
+      "issueType": "canonicalized-page",
+      "before": 3,
+      "after": 3
+    },
+    {
+      "issueType": "meta-description-too-short",
+      "before": 1,
+      "after": 1
+    },
+    {
+      "issueType": "noindex-page",
+      "before": 1,
+      "after": 1
+    }
+  ],
+  "resolvedTargetIssues": [
+    {
+      "url": "https://travelframe.sidevn.com/news/ta-hien-street-where-hanoi-nights-come-alive",
+      "issueType": "duplicate-title"
+    },
+    {
+      "url": "https://travelframe.sidevn.com/news/ta-hien-street-where-hanoi-nights-come-alive?lang=vi",
+      "issueType": "duplicate-title"
+    },
+    {
+      "url": "https://travelframe.sidevn.com/news/ta-hien-street-where-hanoi-nights-come-alive",
+      "issueType": "heading-order-skip"
+    },
+    {
+      "url": "https://travelframe.sidevn.com/news/hiring-private-photographer-hanoi-rates-routes-and-what-expect-2026-guide",
+      "issueType": "heading-order-skip"
+    },
+    {
+      "url": "https://travelframe.sidevn.com/news/15-best-photo-spots-hanoi-local-guide-light-timing-and-uncrowded-angles-2026",
+      "issueType": "heading-order-skip"
+    },
+    {
+      "url": "https://travelframe.sidevn.com/news/santorini-park-lovely-photo-spot-right-outside-hanoi",
+      "issueType": "heading-order-skip"
+    },
+    {
+      "url": "https://travelframe.sidevn.com/news/ta-hien-street-where-hanoi-nights-come-alive?lang=vi",
+      "issueType": "heading-order-skip"
+    }
+  ],
+  "limitations": [
+    "100 URL samples differ; total issue change is not a site-wide improvement score.",
+    "No Lighthouse run.",
+    "Node92 SEO field saved but public HTML title still uses long article title."
+  ]
+}

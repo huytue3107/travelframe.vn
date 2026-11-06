@@ -1,0 +1,27 @@
+{
+  "campaign": "CMP-202610-HANOI-OLD-QUARTER-DIGITAL-CONCIERGE",
+  "gmail_from": "admin@side-agency.com",
+  "scope": "P1/P2; one message per eligible public business inbox",
+  "target_count": 86,
+  "created_drafts": 81,
+  "trashed_after_source_review": 5,
+  "sent": 81,
+  "send_failures": 0,
+  "remaining": 0,
+  "status": "81 messages sent and verified in Gmail Sent; 5 mismatched drafts in Trash; 0 campaign drafts remaining",
+  "updated_names": 9,
+  "created_at": "2026-10-15",
+  "sent_at": "2026-10-15",
+  "skip_counts": {
+    "email_only_directory_or_snippet": 10,
+    "MX_not_confirmed": 4,
+    "no_public_primary_email": 21,
+    "third_party_or_mismatched_contact": 8,
+    "public_site_says_closed": 1
+  },
+  "outputs": [
+    "Draft-Reconciliation.csv",
+    "Send-Reconciliation.csv",
+    "README.md"
+  ]
+}

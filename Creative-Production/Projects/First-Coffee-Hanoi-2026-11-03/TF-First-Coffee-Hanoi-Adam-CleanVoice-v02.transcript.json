@@ -1,0 +1,48 @@
+{
+  "audio": "TF-First-Coffee-Hanoi-Adam-CleanVoice-v02.mp4",
+  "language": "en",
+  "words": [
+    {
+      "text": "First",
+      "start": 0.48,
+      "end": 0.72,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "coffee",
+      "start": 0.82,
+      "end": 1.28,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "in",
+      "start": 1.38,
+      "end": 1.5,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "Hanoi.",
+      "start": 1.54,
+      "end": 2.06,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "Let's",
+      "start": 2.74,
+      "end": 2.92,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "order",
+      "start": 2.98,
+      "end": 3.18,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "together",
+      "start": 3.26,
+      "end": 3.68,
+      "speaker": "speaker_0"
+    }
+  ]
+}

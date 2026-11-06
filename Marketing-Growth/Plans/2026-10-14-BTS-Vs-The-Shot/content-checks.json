@@ -1,0 +1,232 @@
+[
+  {
+    "type": "reel",
+    "draft": "Marketing-Growth/Content/Drafts/2026-10-15-bts-night-street-portrait/caption.md",
+    "status": "pass",
+    "flags": [],
+    "hard_errors": [],
+    "checks": {
+      "overlap": {
+        "quoted_spans": 0,
+        "overlaps": 0,
+        "first_overlap": null
+      },
+      "verify_count": 0,
+      "signoff": true,
+      "hashtag_line": true,
+      "brand_hashtag": true,
+      "cta": true,
+      "traceability": {
+        "cited": 7,
+        "missing": []
+      }
+    }
+  },
+  {
+    "type": "reel",
+    "draft": "Marketing-Growth/Content/Drafts/2026-10-15-bts-night-street-portrait/reel-script.md",
+    "status": "pass",
+    "flags": [],
+    "hard_errors": [],
+    "checks": {
+      "overlap": {
+        "quoted_spans": 0,
+        "overlaps": 0,
+        "first_overlap": null
+      },
+      "verify_count": 0,
+      "signoff": true,
+      "hashtag_line": false,
+      "brand_hashtag": false,
+      "cta": true,
+      "traceability": {
+        "cited": 7,
+        "missing": []
+      }
+    }
+  },
+  {
+    "type": "reel",
+    "draft": "Marketing-Growth/Content/Drafts/2026-10-16-bts-city-in-motion/caption.md",
+    "status": "pass",
+    "flags": [],
+    "hard_errors": [],
+    "checks": {
+      "overlap": {
+        "quoted_spans": 0,
+        "overlaps": 0,
+        "first_overlap": null
+      },
+      "verify_count": 0,
+      "signoff": true,
+      "hashtag_line": true,
+      "brand_hashtag": true,
+      "cta": true,
+      "traceability": {
+        "cited": 7,
+        "missing": []
+      }
+    }
+  },
+  {
+    "type": "reel",
+    "draft": "Marketing-Growth/Content/Drafts/2026-10-16-bts-city-in-motion/reel-script.md",
+    "status": "pass",
+    "flags": [],
+    "hard_errors": [],
+    "checks": {
+      "overlap": {
+        "quoted_spans": 0,
+        "overlaps": 0,
+        "first_overlap": null
+      },
+      "verify_count": 0,
+      "signoff": true,
+      "hashtag_line": false,
+      "brand_hashtag": false,
+      "cta": true,
+      "traceability": {
+        "cited": 7,
+        "missing": []
+      }
+    }
+  },
+  {
+    "type": "reel",
+    "draft": "Marketing-Growth/Content/Drafts/2026-10-17-bts-wander-and-create/caption.md",
+    "status": "pass",
+    "flags": [],
+    "hard_errors": [],
+    "checks": {
+      "overlap": {
+        "quoted_spans": 0,
+        "overlaps": 0,
+        "first_overlap": null
+      },
+      "verify_count": 0,
+      "signoff": true,
+      "hashtag_line": true,
+      "brand_hashtag": true,
+      "cta": true,
+      "traceability": {
+        "cited": 7,
+        "missing": []
+      }
+    }
+  },
+  {
+    "type": "reel",
+    "draft": "Marketing-Growth/Content/Drafts/2026-10-17-bts-wander-and-create/reel-script.md",
+    "status": "pass",
+    "flags": [],
+    "hard_errors": [],
+    "checks": {
+      "overlap": {
+        "quoted_spans": 0,
+        "overlaps": 0,
+        "first_overlap": null
+      },
+      "verify_count": 0,
+      "signoff": true,
+      "hashtag_line": false,
+      "brand_hashtag": false,
+      "cta": true,
+      "traceability": {
+        "cited": 7,
+        "missing": []
+      }
+    }
+  },
+  {
+    "type": "reel",
+    "draft": "Marketing-Growth/Content/Drafts/2026-10-18-bts-flare-and-night-lights/caption.md",
+    "status": "pass",
+    "flags": [],
+    "hard_errors": [],
+    "checks": {
+      "overlap": {
+        "quoted_spans": 0,
+        "overlaps": 0,
+        "first_overlap": null
+      },
+      "verify_count": 0,
+      "signoff": true,
+      "hashtag_line": true,
+      "brand_hashtag": true,
+      "cta": true,
+      "traceability": {
+        "cited": 7,
+        "missing": []
+      }
+    }
+  },
+  {
+    "type": "reel",
+    "draft": "Marketing-Growth/Content/Drafts/2026-10-18-bts-flare-and-night-lights/reel-script.md",
+    "status": "pass",
+    "flags": [],
+    "hard_errors": [],
+    "checks": {
+      "overlap": {
+        "quoted_spans": 0,
+        "overlaps": 0,
+        "first_overlap": null
+      },
+      "verify_count": 0,
+      "signoff": true,
+      "hashtag_line": false,
+      "brand_hashtag": false,
+      "cta": true,
+      "traceability": {
+        "cited": 7,
+        "missing": []
+      }
+    }
+  },
+  {
+    "type": "reel",
+    "draft": "Marketing-Growth/Content/Drafts/2026-10-19-bts-hoan-kiem-silhouettes/caption.md",
+    "status": "pass",
+    "flags": [],
+    "hard_errors": [],
+    "checks": {
+      "overlap": {
+        "quoted_spans": 0,
+        "overlaps": 0,
+        "first_overlap": null
+      },
+      "verify_count": 0,
+      "signoff": true,
+      "hashtag_line": true,
+      "brand_hashtag": true,
+      "cta": true,
+      "traceability": {
+        "cited": 7,
+        "missing": []
+      }
+    }
+  },
+  {
+    "type": "reel",
+    "draft": "Marketing-Growth/Content/Drafts/2026-10-19-bts-hoan-kiem-silhouettes/reel-script.md",
+    "status": "pass",
+    "flags": [],
+    "hard_errors": [],
+    "checks": {
+      "overlap": {
+        "quoted_spans": 0,
+        "overlaps": 0,
+        "first_overlap": null
+      },
+      "verify_count": 0,
+      "signoff": true,
+      "hashtag_line": false,
+      "brand_hashtag": false,
+      "cta": true,
+      "traceability": {
+        "cited": 7,
+        "missing": []
+      }
+    }
+  }
+]

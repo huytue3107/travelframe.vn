@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "status": "partial",
+  "video": "/Users/macbook/Downloads/1006(3)/1006(3)-4.mp4",
+  "observations": [
+    {
+      "kind": "visual",
+      "timestamp_estimate": "0–2",
+      "text": "Nguồn sáng tạo vệt lóe; người mẫu toàn thân.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 0,
+        "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "0–2",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 0,
+        "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "3–6",
+      "text": "Camera/monitor che một phần cảnh; ánh đèn lóe.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 3,
+        "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "3–6",
+      "text": "Nó bị flare một cách điên rồi! (It's flaring like crazy!)",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 3,
+        "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "7–9",
+      "text": "Chân dung tối, đèn và khung kim loại phía sau.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 7,
+        "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "7–9",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 7,
+        "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "10–12.3",
+      "text": "Chân dung với mặt tiền sáng đèn phía sau.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 10,
+        "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "10–12.3",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 10,
+        "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "kind": "inference",
+      "basis": [
+        {
+          "pass": "main",
+          "frame_index": 0,
+          "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 3,
+          "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 7,
+          "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 10,
+          "index": "Research-Insights/Library/analysis/1006-3-4/2026-10-14/frames/frames.json"
+        }
+      ],
+      "reason": "Một vấn đề chụp ảnh nhìn thấy thật để mở câu chuyện hậu trường; tip thử đổi góc là đề xuất biên tập."
+    }
+  ],
+  "asr_limitation": "ASR pinned en sai; chạy bổ sung vi có provenance nhưng vẫn sai thuật ngữ flare. Caption dựa vào chữ đọc trực tiếp; không mô tả thiết bị hoặc thông số xử lý flare.",
+  "missing": [
+    "post_caption",
+    "platform_subtitles"
+  ],
+  "coverage": {
+    "main": "approximately 1fps throughout",
+    "focused": [
+      "0–3s",
+      "last 3s"
+    ],
+    "focused_rate_fps": 2,
+    "reviewed": "all extracted frames through contact sheets",
+    "continuous_audio_review": false
+  },
+  "timestamp_note": "estimate, not frame-exact"
+}

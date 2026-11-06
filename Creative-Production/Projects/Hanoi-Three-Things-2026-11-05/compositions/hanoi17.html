@@ -1,0 +1,54 @@
+<template><style>/* FONTS_V04_START */
+@font-face{font-family:'HeritageDisplay';src:url('assets/fonts/HeritageDisplay-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:block}
+@font-face{font-family:'Montserrat';src:url('assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');font-style:normal;font-weight:800;font-display:block}
+@font-face{font-family:'Montserrat';src:url('assets/fonts/Montserrat-Black.ttf') format('truetype');font-style:normal;font-weight:900;font-display:block}
+/* FONTS_V04_END */#root{position:absolute;inset:0;font-family:'Montserrat',sans-serif}.head{position:absolute;left:90px;top:270px;width:870px;text-align:center}.title{font-family:'HeritageDisplay',sans-serif;font-size:72px;line-height:1.18;font-weight:400;font-synthesis:none;letter-spacing:0;color:#ae2a1d;-webkit-text-stroke:2px #161616;paint-order:stroke fill}.sub{font-size:30px;font-weight:800;margin-top:18px;line-height:1.15;color:#202020}.under{margin:18px auto 0;width:140px;height:7px;background:#ae2a1d;transform-origin:left center}.photo{position:absolute;padding:13px;background:white;box-shadow:0 8px 18px #0003;border-radius:3px}.window{height:100%;overflow:hidden}.window img{width:100%;height:100%;object-fit:cover;display:block}.tape{position:absolute;top:-12px;left:35%;width:30%;height:27px;background:#e4d9b7c9;z-index:2}.cat{position:absolute;object-fit:contain;object-position:bottom;z-index:5}.flash{position:absolute;inset:0;background:white;z-index:8;pointer-events:none;opacity:0}</style><div id="root" data-composition-id="hanoi17" data-width="1080" data-height="1920"><div id="hanoi17-head" class="head"><div id="hanoi17-title" class="title">YOUR DAY.<br>YOUR HANOI STORY.</div><div id="hanoi17-sub" class="sub">With a local photographer.</div><div id="hanoi17-line" class="under"></div></div><div id="hanoi17-a" class="photo" data-layout-allow-overlap style="left:115px;top:590px;width:540px;height:370px;z-index:1"><div class="tape"></div><div class="window" data-layout-allow-overflow><img id="hanoi17-a-img" src="assets/hanoi-portrait.jpg" alt="hanoi portrait" style="object-position:50% 50%"></div></div><div id="hanoi17-b" class="photo" data-layout-allow-overlap style="left:570px;top:825px;width:345px;height:285px;z-index:2"><div class="tape"></div><div class="window" data-layout-allow-overflow><img id="hanoi17-b-img" src="assets/coffee-break.jpg" alt="coffee break" style="object-position:50% 32%"></div></div><img id="hanoi17-cat" class="cat" src="assets/meme-cat-cool.png" alt="Expressive cool cat meme sticker" style="left:80px;top:820px;width:380px;height:325px"><div id="hanoi17-flash" class="flash"></div></div><script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#hanoi17-head',{scale:.94},{scale:1,duration:.27,ease:'back.out(1.25)'},0);
+tl.fromTo('#hanoi17-line',{scaleX:0},{scaleX:1,duration:.28,ease:'power3.out'},.22);
+tl.fromTo('#hanoi17-a',{opacity:0,x:130,y:20,rotation:12},{opacity:1,x:0,y:0,rotation:4,duration:.45,ease:'power4.out'},.12);
+tl.fromTo('#hanoi17-b',{opacity:0,y:100,scale:.78,rotation:10},{opacity:1,y:0,scale:1,rotation:-5,duration:.40,ease:'back.out(1.25)'},.66);
+tl.to('#hanoi17-a-img',{scale:1.12,duration:.24,ease:'power3.out'},1.65);
+tl.to('#hanoi17-b',{rotation:2.5,duration:.22,ease:'power2.inOut'},3.233);
+tl.set('#hanoi17-flash',{opacity:.30},.65);tl.to('#hanoi17-flash',{opacity:0,duration:.10},.66);
+
+/* STOPMOTION_START */
+tl.set('#hanoi17-cat',{"transformOrigin":"50% 100%","x":0,"y":0,"rotation":0,"scaleX":1,"scaleY":1,"opacity":0},0);
+tl.set('#hanoi17-cat',{"opacity":1,"scaleX":0.78,"scaleY":0.84,"y":16,"rotation":-7},0.2);
+tl.set('#hanoi17-cat',{"scaleX":1.06,"scaleY":1.04,"y":-8,"rotation":4},0.333333);
+tl.set('#hanoi17-cat',{"scaleX":1,"scaleY":1,"y":0,"rotation":0},0.466667);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-7,"y":1,"rotation":-5,"scaleX":1.03,"scaleY":0.98},0.624657);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-3,"y":-3,"rotation":-3,"scaleX":1,"scaleY":1},0.75799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":3,"y":-7,"rotation":2,"scaleX":0.99,"scaleY":1.02},0.891323);
+tl.set('#hanoi17-cat',{"opacity":1,"x":7,"y":-3,"rotation":5,"scaleX":1,"scaleY":1},1.024657);
+tl.set('#hanoi17-cat',{"opacity":1,"x":7,"y":1,"rotation":5,"scaleX":1.03,"scaleY":0.98},1.15799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":3,"y":-3,"rotation":3,"scaleX":1,"scaleY":1},1.324657);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-3,"y":-7,"rotation":-2,"scaleX":0.99,"scaleY":1.02},1.45799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-7,"y":-3,"rotation":-5,"scaleX":1,"scaleY":1},1.591323);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-7,"y":1,"rotation":-5,"scaleX":1.03,"scaleY":0.98},1.724657);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-3,"y":-3,"rotation":-3,"scaleX":1,"scaleY":1},1.85799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":3,"y":-7,"rotation":2,"scaleX":0.99,"scaleY":1.02},1.991323);
+tl.set('#hanoi17-cat',{"opacity":1,"x":7,"y":-3,"rotation":5,"scaleX":1,"scaleY":1},2.15799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":7,"y":1,"rotation":5,"scaleX":1.03,"scaleY":0.98},2.291323);
+tl.set('#hanoi17-cat',{"opacity":1,"x":3,"y":-3,"rotation":3,"scaleX":1,"scaleY":1},2.424657);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-3,"y":-7,"rotation":-2,"scaleX":0.99,"scaleY":1.02},2.55799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-7,"y":-3,"rotation":-5,"scaleX":1,"scaleY":1},2.691323);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-7,"y":1,"rotation":-5,"scaleX":1.03,"scaleY":0.98},2.824657);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-3,"y":-3,"rotation":-3,"scaleX":1,"scaleY":1},2.991323);
+tl.set('#hanoi17-cat',{"opacity":1,"x":3,"y":-7,"rotation":2,"scaleX":0.99,"scaleY":1.02},3.124657);
+tl.set('#hanoi17-cat',{"opacity":1,"x":7,"y":-3,"rotation":5,"scaleX":1,"scaleY":1},3.25799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":7,"y":1,"rotation":5,"scaleX":1.03,"scaleY":0.98},3.391323);
+tl.set('#hanoi17-cat',{"opacity":1,"x":3,"y":-3,"rotation":3,"scaleX":1,"scaleY":1},3.524657);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-3,"y":-7,"rotation":-2,"scaleX":0.99,"scaleY":1.02},3.65799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-7,"y":-3,"rotation":-5,"scaleX":1,"scaleY":1},3.824657);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-7,"y":1,"rotation":-5,"scaleX":1.03,"scaleY":0.98},3.95799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-3,"y":-3,"rotation":-3,"scaleX":1,"scaleY":1},4.091323);
+tl.set('#hanoi17-cat',{"opacity":1,"x":3,"y":-7,"rotation":2,"scaleX":0.99,"scaleY":1.02},4.224657);
+tl.set('#hanoi17-cat',{"opacity":1,"x":7,"y":-3,"rotation":5,"scaleX":1,"scaleY":1},4.35799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":7,"y":1,"rotation":5,"scaleX":1.03,"scaleY":0.98},4.491323);
+tl.set('#hanoi17-cat',{"opacity":1,"x":3,"y":-3,"rotation":3,"scaleX":1,"scaleY":1},4.65799);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-3,"y":-7,"rotation":-2,"scaleX":0.99,"scaleY":1.02},4.791323);
+tl.set('#hanoi17-cat',{"opacity":1,"x":-7,"y":-3,"rotation":-5,"scaleX":1,"scaleY":1},4.924657);
+tl.set('#hanoi17-cat',{"x":0,"y":0,"rotation":0,"scaleX":1,"scaleY":1,"opacity":1},5.032);
+/* STOPMOTION_END */
+window.__timelines=window.__timelines||{};window.__timelines['hanoi17']=tl;</script></template>

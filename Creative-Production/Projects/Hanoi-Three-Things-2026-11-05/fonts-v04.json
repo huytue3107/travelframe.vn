@@ -1,0 +1,211 @@
+{
+  "revision": "v04",
+  "status": "Review",
+  "owner": "Creative-Production",
+  "titleFamily": "HeritageDisplay",
+  "bodyFamily": "Montserrat",
+  "headingSize": 72,
+  "headingWeight": 400,
+  "descriptionSize": 30,
+  "descriptionWeight": 800,
+  "captionSize": 58,
+  "captionWeight": 900,
+  "fontSources": [
+    {
+      "file": "assets/fonts/HeritageDisplay-Regular.woff2",
+      "source": "Creative-Production/Assets/Fonts/HeritageDisplay/HeritageDisplay-Regular.woff2",
+      "provenance": "User-supplied reconstructed display font. See bundled HeritageDisplay-README.md.",
+      "sha256": "fffed7cece618b76fe60b848601ce30f65eeb6372d9419150ac75bf6db899c66"
+    },
+    {
+      "file": "assets/fonts/Montserrat-ExtraBold.ttf",
+      "source": "/Users/macbook/Library/Fonts/#9Slide03 Montserrat ExtraBold.ttf",
+      "license": "Embedded name-table license: SIL Open Font License 1.1",
+      "sha256": "8045b1e20a9faa6e53b347a5629608d36b02a4c137e43f9ce4441f03a8a249ec"
+    },
+    {
+      "file": "assets/fonts/Montserrat-Black.ttf",
+      "source": "/Users/macbook/Library/Fonts/#9Slide03 Montserrat Black.ttf",
+      "license": "Embedded name-table license: SIL Open Font License 1.1",
+      "sha256": "2f121ceec90786365d1c2782c4b241cf554c6b53bc325eff14b0518649cadcea"
+    }
+  ],
+  "compositions": [
+    {
+      "file": "compositions/hanoi1.html",
+      "scriptSha256": "bdaa0d2ee38499c4682645d274b97314d506a0b1c8fc7139a1ab0f7406f7e8b0",
+      "sha256": "08f2d8ca2411b193f3317bc8f45872a1943f3126b864a4320fce583a3aec3bb3"
+    },
+    {
+      "file": "compositions/hanoi2.html",
+      "scriptSha256": "8f37c1694bb442fc2a04a11c335d99f98c2f5331184150e3d8048a7920bbb643",
+      "sha256": "fe0c6e5bd2574e302b6419e5b826dc436fe7802e1b1917ba36d1281d608fb2e9"
+    },
+    {
+      "file": "compositions/hanoi3.html",
+      "scriptSha256": "3a7b0f4d444df02e909f5b892d2410a7f563aa92f5b7c847adda2445717fe340",
+      "sha256": "0f017741be84183950a03e3af1877ec637330379d25e555b4cb41da264f37e1c"
+    },
+    {
+      "file": "compositions/hanoi4.html",
+      "scriptSha256": "3c3039bc31962f4050e7928e6a58f0287a562d225e81acfc147da67883cf9ecc",
+      "sha256": "d3ffa24ac4964bb0017ef96559ebb68949b9de0e6e2bbb15951528a7e205b1af"
+    },
+    {
+      "file": "compositions/hanoi5.html",
+      "scriptSha256": "316e0ddf638927238d2eaf202f735acea5e1608877cfa2a3a95f6fdcda13ffa7",
+      "sha256": "2bf51531e9022adf2e5a5e97ea9f945fe23b9e2123d73b58494d84a41861d127"
+    },
+    {
+      "file": "compositions/hanoi6.html",
+      "scriptSha256": "fbbdc2e80e04cf75a68cc24c722716d298037d1ba49be91136bbe949604badb2",
+      "sha256": "2effccdc0e5e228378806d4f914221cbf52a37b9ee21215f66bbfca9d512a8d0"
+    },
+    {
+      "file": "compositions/hanoi7.html",
+      "scriptSha256": "9752b46c821a46ef4a5c00aa1e9a8ce58b8c8299c4f71c2ca2d3e9af6612993c",
+      "sha256": "af22794cd196e810df178a5873f58e08e797057fbe1d7cae7cb6912a3a1d5de9"
+    },
+    {
+      "file": "compositions/hanoi8.html",
+      "scriptSha256": "0a2cddec255dda78903fb2ac40ecd7f21580fb63c6a126ec1974eef62b221d4b",
+      "sha256": "32062de6cf6bae3bd30edf2033a15ddf96ede202e2adbf1dcbc16d0afe32adc9"
+    },
+    {
+      "file": "compositions/hanoi9.html",
+      "scriptSha256": "485f7cee0ca8f4a1760e5b94e60658448060e1db750b09fe0f608e4192bfd6f3",
+      "sha256": "0b114022b8b102709ca57e9525e23734df0c96cdf21f8a496b1c2b351f9117a0"
+    },
+    {
+      "file": "compositions/hanoi10.html",
+      "scriptSha256": "3704033bcf9be7b911815260bfc80ba2674e0bbe4d16b184393d525671033b94",
+      "sha256": "62aa196aa3972f48878f38e72f34d5ec3ff799f5994099338742bc8fc80eb6f1"
+    },
+    {
+      "file": "compositions/hanoi11.html",
+      "scriptSha256": "fd6d87de1d0643adf066e6df7d21b9dd579c9748e196343c5a14c4559c03536c",
+      "sha256": "14c93ea2cef57bfeefd23fd94490250ee173069e395a35b91cff593ecf41ff43"
+    },
+    {
+      "file": "compositions/hanoi12.html",
+      "scriptSha256": "88428182421eb47b959b8caa41dfac0a177137982a5843c0df00690573c87876",
+      "sha256": "0930fb460aad20892199792863193d1f4a8f4bbdcb2ba482f2207ff657e20976"
+    },
+    {
+      "file": "compositions/hanoi13.html",
+      "scriptSha256": "67d4aba7deff07f171994d2104088837a1e2d9fe24f23a4f0edea743f4b9b87f",
+      "sha256": "33e2a39295daed247bb66bc7f75318cc735b35ef6c2da0418ed3ef019fe65b25"
+    },
+    {
+      "file": "compositions/hanoi14.html",
+      "scriptSha256": "4bfe4bd8c52c438b3ea5316eabf75fc133a9a4fd5bf142e2673233364017fd77",
+      "sha256": "bbe5c3d5747c9833e16a802bd4871b65a6e818f46e4129cc60effb6a298d4b9f"
+    },
+    {
+      "file": "compositions/hanoi15.html",
+      "scriptSha256": "de6fe2afc6d188d881685319809964ca4650c62367f8ed9954f66054e7472f79",
+      "sha256": "e8ed717ba990cf93a7dcedb50cb2a4b9a3b29586b717a8d87499e6476ddacf6a"
+    },
+    {
+      "file": "compositions/hanoi16.html",
+      "scriptSha256": "83f4c65eb7edf84015f8d5c9f903e41ac778e9a49e4835451311224ac24e3b49",
+      "sha256": "9cff25d32ab0b1902a9a50834733adeebdc975ec5c3bb144a654fcbe70657116"
+    },
+    {
+      "file": "compositions/hanoi17.html",
+      "scriptSha256": "799abea694b3f98b7b2612ab146d496d6285efa1cdca443ccb5e7c618a834fd4",
+      "sha256": "5dec7e760a4f4050da9736dd36b7a547a25bae443252dea94c871f7ed396fc57"
+    },
+    {
+      "file": "compositions/hanoi18.html",
+      "scriptSha256": "3c5b2fe4d32088c5680d3057a5cb48a1fbaa2c8eec245dcfb852e1042aeef3d1",
+      "sha256": "b16bbf21c22a92b2f75e8fdf2fce8ab6f57b88eb66adb3c5e8bab0e96bb5a967"
+    },
+    {
+      "file": "compositions/captions.html",
+      "scriptSha256": "ec291675ab1776541a023db01d32a759c7faf1779dff65fcd61f9fb2c418858e",
+      "sha256": "b083e3b8dc42c83d234c3036bb70573e41364bc1470f149c32991ae8c3af08cb"
+    },
+    {
+      "file": "index.html",
+      "scriptSha256": "58225c386117b9fdc5561b9a7976043b063e1c752bce1386e226af74e154d7be",
+      "sha256": "83d0f41259702668f3b025c90ba4105920e3222040e90ff7eb1b82546540bada"
+    }
+  ],
+  "titles": [
+    {
+      "scene": 1,
+      "title": "HANOI: / ONLY 3 THINGS?"
+    },
+    {
+      "scene": 2,
+      "title": "01 / / EAT LOCAL."
+    },
+    {
+      "scene": 3,
+      "title": "A WARM BOWL. / A GOOD START."
+    },
+    {
+      "scene": 4,
+      "title": "LUNCH PLANS? / BÚN CHẢ."
+    },
+    {
+      "scene": 5,
+      "title": "SLOW BITES. / STREET VIEWS."
+    },
+    {
+      "scene": 6,
+      "title": "THE LITTLE / DETAILS COUNT."
+    },
+    {
+      "scene": 7,
+      "title": "02 / / COFFEE TIME."
+    },
+    {
+      "scene": 8,
+      "title": "EGG COFFEE? / YES, PLEASE."
+    },
+    {
+      "scene": 9,
+      "title": "PICK A SEAT. / WATCH HANOI."
+    },
+    {
+      "scene": 10,
+      "title": "A BREAK IS / PART OF THE TRIP."
+    },
+    {
+      "scene": 11,
+      "title": "03 / / EXPLORE ON FOOT."
+    },
+    {
+      "scene": 12,
+      "title": "HOÀN KIẾM / LAKE WALKS."
+    },
+    {
+      "scene": 13,
+      "title": "NEXT: / THE OLD QUARTER."
+    },
+    {
+      "scene": 14,
+      "title": "LOOK UP. / PEEK DOWN THE ALLEYS."
+    },
+    {
+      "scene": 15,
+      "title": "TAKE THE / SCENIC ROUTE."
+    },
+    {
+      "scene": 16,
+      "title": "YOU. / IN THE FRAME."
+    },
+    {
+      "scene": 17,
+      "title": "YOUR DAY. / YOUR HANOI STORY."
+    },
+    {
+      "scene": 18,
+      "title": "SAVE THIS / FOR YOUR HANOI TRIP."
+    }
+  ],
+  "priorSourceArchive": "source-v03.zip",
+  "changes": "Typography only. Existing scripts, cat motion, scene times, captions, photographs and audio retained."
+}

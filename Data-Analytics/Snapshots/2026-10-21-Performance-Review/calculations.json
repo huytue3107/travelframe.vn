@@ -1,0 +1,74 @@
+{
+  "website_overview": {
+    "previous": [
+      137.0,
+      223.0,
+      676.0,
+      0.5560538116591929,
+      241.76503369058295
+    ],
+    "current": [
+      166.0,
+      246.0,
+      650.0,
+      0.6666666666666666,
+      199.55438722764228
+    ],
+    "mtd": [
+      358.0,
+      597.0,
+      1682.0,
+      0.5778894472361809,
+      222.33583984589615
+    ]
+  },
+  "ig": {
+    "previous": {
+      "reach": 116176,
+      "views": 189709,
+      "total_interactions": 8483,
+      "accounts_engaged": 6547,
+      "likes": 5300,
+      "comments": 137,
+      "shares": 994,
+      "saves": 958,
+      "profile_views": 756,
+      "website_clicks": 8
+    },
+    "current": {
+      "reach": 44325,
+      "views": 75054,
+      "total_interactions": 2601,
+      "accounts_engaged": 1830,
+      "likes": 1404,
+      "comments": 62,
+      "shares": 356,
+      "saves": 390,
+      "profile_views": 370,
+      "website_clicks": 19
+    }
+  },
+  "sensitivity_six_days": {
+    "previous": [
+      124.0,
+      529.0,
+      0.31451612903225806
+    ],
+    "current": [
+      102.0,
+      473.0,
+      0.3333333333333333
+    ]
+  },
+  "admin_pv": [
+    160.0,
+    6.0
+  ],
+  "source_session_sums": {
+    "previous": 223.0,
+    "current": 248.0
+  },
+  "capture_ga4": "2026-10-21T02:49:11.951Z",
+  "capture_detail": "2026-10-21T02:50:45.658Z",
+  "capture_meta": "2026-10-21T02:49:56.413Z"
+}

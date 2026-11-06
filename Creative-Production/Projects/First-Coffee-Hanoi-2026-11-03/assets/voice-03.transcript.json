@@ -1,0 +1,66 @@
+{
+  "audio": "assets/voice-03.wav",
+  "language": "en",
+  "words": [
+    {
+      "text": "Would",
+      "start": 0.04,
+      "end": 0.16,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "you",
+      "start": 0.2,
+      "end": 0.3,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "like",
+      "start": 0.34,
+      "end": 0.54,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "milk?",
+      "start": 0.58,
+      "end": 0.9,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "Ask",
+      "start": 1.22,
+      "end": 1.42,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "what",
+      "start": 1.46,
+      "end": 1.58,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "is",
+      "start": 1.62,
+      "end": 1.7,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "in",
+      "start": 1.76,
+      "end": 1.84,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "your",
+      "start": 1.86,
+      "end": 1.98,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "coffee",
+      "start": 2.04,
+      "end": 2.42,
+      "speaker": "speaker_0"
+    }
+  ]
+}

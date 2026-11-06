@@ -1,0 +1,19 @@
+{
+  "requests": [
+    {
+      "url": "https://travelframe.sidevn.com/hanoi-photoshoot",
+      "requestedAt": "2026-10-20T02:14:45.586Z",
+      "profile": "Son",
+      "status": "URL added to priority crawl queue",
+      "indexingConfirmed": false
+    },
+    {
+      "url": "https://travelframe.sidevn.com/news/hanoi-old-quarter-guide",
+      "requestedAt": "2026-10-20T02:16:33.764Z",
+      "profile": "Son",
+      "status": "URL added to priority crawl queue",
+      "indexingConfirmed": false
+    }
+  ],
+  "note": "Google accepted crawl/indexing requests. Actual indexing not confirmed."
+}

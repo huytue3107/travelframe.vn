@@ -1,0 +1,48 @@
+{
+  "audio": "assets/voice-01.wav",
+  "language": "en",
+  "words": [
+    {
+      "text": "First",
+      "start": 0.1,
+      "end": 0.32,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "coffee",
+      "start": 0.42,
+      "end": 0.76,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "in",
+      "start": 0.8,
+      "end": 0.88,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "Hanoi?",
+      "start": 0.92,
+      "end": 1.38,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "Let's",
+      "start": 1.72,
+      "end": 1.92,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "order",
+      "start": 1.98,
+      "end": 2.24,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "together",
+      "start": 2.28,
+      "end": 2.68,
+      "speaker": "speaker_0"
+    }
+  ]
+}

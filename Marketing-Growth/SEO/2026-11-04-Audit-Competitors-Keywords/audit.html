@@ -1,0 +1,95 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SEO Audit — Nov 5, 2026</title><style>
+/* One light look, on screen and on paper. The report is read inside the app,
+   which has its own theme toggle, and a saved document has no way to hear about
+   it: a report that follows the OS scheme alone shows a black panel inside a
+   light app for anyone whose two settings disagree. */
+:root{--bg:#fff;--fg:#0a0a0a;--fg-2:#454545;--fg-3:#8f8f8f;--rule:#ebebeb;--rule-2:#dcdcdc;--sunk:#fafafa;
+  /* The one token a report template may change. Left as the text color, so a
+     report with no template looks exactly as it did before. */
+  --accent:var(--fg)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);margin:0;padding:0 24px 120px;font-size:18px;line-height:1.65;letter-spacing:-.003em;
+  font-family:Geist,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.shell{max-width:1100px;margin:0 auto}
+header{padding:40px 0 0;max-width:660px}
+h1{font-size:clamp(34px,6vw,56px);font-weight:700;line-height:1.03;letter-spacing:-.035em;margin:0;text-wrap:balance}
+.byline{margin:24px 0 0;font-size:16px;color:var(--fg-2)}
+.body{display:grid;grid-template-columns:minmax(0,660px) 1fr;gap:0 64px;margin:48px 0 0}
+/* Both explicitly in row 1: without it the rail auto-places into row 1 and
+   pushes the article down a whole row, opening an empty band above the text. */
+article{grid-column:1;grid-row:1;min-width:0}
+.rail{grid-column:2;grid-row:1;font-size:14px;color:var(--fg-3);padding-top:6px}
+.rail .sticky{position:sticky;top:40px}
+.toc-label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3);margin:0 0 10px}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li{margin:0 0 7px}
+.toc a{color:var(--fg-2);text-decoration:none}
+.toc a:hover{color:var(--fg)}
+/* Below 900px the rail is dropped rather than stacked: a contents list above
+   the report is a wall to scroll past on a phone, not a shortcut. */
+@media (max-width:900px){.body{grid-template-columns:1fr}.rail{display:none}}
+article p{margin:0 0 26px;text-wrap:pretty}
+h2{font-size:30px;font-weight:600;letter-spacing:-.025em;line-height:1.2;margin:60px 0 22px;text-wrap:balance}
+h3{font-size:20px;font-weight:600;letter-spacing:-.015em;margin:38px 0 14px}
+.finding{list-style:none;padding:0;margin:0 0 26px}
+.finding li{margin:0 0 8px;color:var(--fg-2)}
+.finding b{color:var(--accent);font-weight:600}
+a{color:var(--fg);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--rule-2)}
+strong{font-weight:600}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;background:var(--sunk);border:1px solid var(--rule);padding:1px 5px;border-radius:4px}
+ul,ol{margin:0 0 26px;padding-left:22px}li{margin:0 0 11px}li::marker{color:var(--fg-3)}
+.note{border-left:2px solid var(--fg);padding:2px 0 2px 22px;margin:0 0 26px}
+.note p{margin:0;color:var(--fg-2)}
+.note p+p{margin-top:14px}
+.tw{overflow-x:auto;margin:0 0 30px}
+table{border-collapse:collapse;width:100%;font-size:15.5px;min-width:440px}
+th{text-align:left;font-weight:500;color:var(--fg-3);padding:0 20px 10px 0;border-bottom:1px solid var(--rule-2);white-space:nowrap}
+td{padding:13px 20px 13px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--fg-2)}
+td:first-child{color:var(--fg)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td:last-child,th:last-child{padding-right:0}
+tr:last-child td{border-bottom:none}
+figure{margin:0 0 30px}
+figcaption{font-size:14px;color:var(--fg-3);margin-top:8px}
+.bars{display:grid;grid-template-columns:minmax(90px,170px) 1fr auto;gap:10px 12px;align-items:center;font-size:14px}
+.bars .label{color:var(--fg-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bars .track{display:block;height:20px;background:var(--sunk)}
+.bars .bar{display:block;height:100%;background:var(--accent);opacity:.16}
+.bars .value{font-variant-numeric:tabular-nums;min-width:3ch;text-align:right}
+svg{display:block;max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--rule);margin:60px 0}
+footer{max-width:660px;margin:64px 0 0;padding:26px 0 0;border-top:1px solid var(--rule);font-size:15px;color:var(--fg-3)}
+@media print{
+  /* A zero top margin hides the browser's own print header (date, tab title);
+     the bottom margin holds a page counter instead of the browser's URL line.
+     The body padding supplies the visible page margins. */
+  @page{margin:0 0 12mm 0;@bottom-center{content:counter(page) " of " counter(pages);font:10px -apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;color:#8f8f8f}}
+  body{background:#fff;color:#111;padding:14mm 16mm 6mm;font-size:11pt}
+  .shell,.body{display:block;max-width:none}
+  header{padding:0;max-width:none}
+  h1{font-size:26pt}
+  h2{font-size:15pt;margin:22pt 0 10pt}
+  h3{font-size:12pt;margin:14pt 0 6pt}
+  article,footer{max-width:none}
+  .rail{display:none}
+  h1,h2,h3{break-after:avoid}
+  table,figure,.note,svg{break-inside:avoid}
+  tr,td,th{break-inside:avoid}
+  p,li{orphans:3;widows:3}
+  thead{display:table-header-group}
+  .tw{overflow:visible}
+  table{font-size:10pt;min-width:0}
+  .byline,footer,figcaption{font-size:9.5pt}
+  svg,.bars .bar,.bars .track{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  a{text-decoration:none}
+}
+</style></head><body><div class="shell"><header><h1>SEO Audit — Nov 5, 2026</h1><p class="byline">Prepared for TravelFrame · November 5, 2026 · Review</p></header><div class="body"><aside class="rail"><div class="sticky"><p class="toc-label">Contents</p><nav class="toc" aria-label="Contents"><ol><li><a href="#your-next-seo-move">Your next SEO move</a></li><li><a href="#recommendations">Recommendations</a></li><li><a href="#what-else-we-checked">What else we checked</a></li><li><a href="#how-this-report-was-made">How this report was made</a></li></ol></nav></div></aside><article><h2 id="your-next-seo-move">Your next SEO move</h2><ul><li>Hoàn thiện giá, ảnh Harry và lời mời inquiry trên trang photoshoot đang có lượt tìm kiếm.</li><li>Thêm bản đồ gốc vào Old Quarter guide, sau khi thông tin gói dịch vụ đã rõ.</li><li>Giữ Santorini và các case đã index; Google Mỹ hiện ghi nhận Santorini #3.</li></ul><h2 id="recommendations">Recommendations</h2><h3>1. Giúp khách quyết định trên /hanoi-photoshoot</h3><p><strong>Do this</strong></p><ul><li>Đồng bộ giá và giao ảnh giữa <a href="https://travelframe.sidevn.com/hanoi-photoshoot" target="_blank" rel="noopener">trang dịch vụ</a>, mô tả tìm kiếm và luồng đặt.</li><li>Đối chiếu quyết định Approved 21/10: Basic 30, Premium 60, VIP 99 USD/giờ; xác nhận phần còn mở.</li><li>Đưa ảnh được phép sử dụng và case <a href="https://travelframe.sidevn.com/news/hanoi-old-quarter-photoshoot-harry-thin" target="_blank" rel="noopener">Thin</a>, <a href="https://travelframe.sidevn.com/news/hanoi-street-style-photoshoot-harry-hanna" target="_blank" rel="noopener">Hanna</a> lên trang dịch vụ.</li><li>Thêm cách Harry hướng dẫn tạo dáng, mẫu ảnh nhận và một nút liên hệ có đo lường.</li></ul><p><strong>Why</strong></p><ul><li>Trang vẫn ghi 8/20/50/80 USD và lịch giao cũ; HTML chỉ có hai ảnh logo.</li><li>Khách tìm thợ chụp đã thấy trang:37 impressions và 1 click trong kỳ GSC.</li><li>Offer rõ và ảnh thực có thể hỗ trợ inquiry; chưa có bằng chứng định lượng booking.</li></ul><div class="tw"><table><thead><tr><th>Truy vấn</th><th>Ước tính US searches/tháng, snapshot 27/10</th><th>Google US/en/desktop, 04/11</th></tr></thead><tbody><tr><td>photographer in hanoi</td><td>20</td><td>#15 (page 2)</td></tr><tr><td>hanoi photographer</td><td>20</td><td>#28 (page 3)</td></tr><tr><td>hanoi photoshoot</td><td>140</td><td>Không thấy trong 31 organic trả về</td></tr></tbody></table></div><p class="note">Hai từ photographer có thể dùng chung bucket volume. Không cộng 20 + 20. Chưa chứng minh giá hoặc thiếu ảnh là nguyên nhân thứ hạng.</p>
+<h3>2. Biến lời hứa “map” thành tài sản sử dụng được</h3><p><strong>Do this</strong></p><ul><li>Thêm bản đồ gốc vào <a href="https://travelframe.sidevn.com/news/hanoi-old-quarter-guide" target="_blank" rel="noopener">Old Quarter guide</a> cùng tuyến đi và điểm dừng đã kiểm chứng.</li><li>Cho khách lưu tuyến, biết thời lượng dự kiến, đoạn đi bộ và phương án mưa.</li><li>Nối tuyến với case Thin/Wuchr hiện có và lời mời đến photoshoot đúng ngữ cảnh.</li></ul><p><strong>Why</strong></p><ul><li>Trang hứa map nhưng phần đã đọc chỉ mô tả “mental map”, chưa có bản đồ tải/lưu.</li><li>Query map có 140 searches ước tính/tháng; GSC ghi 4 impressions, average 49.</li><li>Bản đồ giúp khách lập lịch; khả năng tăng hạng và inquiry còn cần đo.</li></ul><div class="tw"><table><thead><tr><th>So sánh</th><th>TravelFrame hiện tại</th><th>Ví dụ đối chiếu</th></tr></thead><tbody><tr><td>Tài sản điều hướng</td><td>Mental map bằng chữ; không thấy GPX/KML/PDF</td><td>OstrichTrails có route map, GPX/KML</td></tr><tr><td>Hiện diện US/en/desktop 04/11</td><td>Không thấy trong 31 organic cho hanoi old quarter map</td><td>OstrichTrails #6 trong mẫu</td></tr><tr><td>Quyết định</td><td>Runner-up: demand lớn hơn query photographer riêng lẻ</td><td>Service đứng trước vì đã có truy vấn mua và lỗi offer cụ thể</td></tr></tbody></table></div><h2 id="what-else-we-checked">What else we checked</h2><div class="tw"><table><thead><tr><th>Cơ hội</th><th>Đã thấy</th><th>Quyết định</th></tr></thead><tbody><tr><td>Canonical / ngôn ngữ</td><td>Hai VI mẫu vẫn English; Google chọn EN cho photoshoot VI</td><td>Dev sửa theo node; chưa chứng minh mất traffic</td></tr><tr><td>Tour templates</td><td>Hai tour dùng H1 chung; Early Bird nói Long Bien, Stops không có</td><td>Ticket H1/itinerary; kiểm render trước nghiệm thu</td></tr><tr><td>Booking và payment</td><td>HTML có nhiều trạng thái PayPal/activation; homepage nói no deposit</td><td>QA luồng hiển thị, không kết luận thanh toán hỏng</td></tr><tr><td>Case Hanna / Thin</td><td>Cả hai đã index, có ảnh và link về service</td><td>Thêm link ngược từ service; giữ nội dung có bằng chứng</td></tr><tr><td>Couple/solo/price pages mới</td><td>Đã có guide tương ứng; niche metrics phần lớn unknown</td><td>Nâng trang hiện có trước, chưa cần thêm nhiều landing page</td></tr><tr><td>Santorini</td><td>Live #3; trang có 3 click,52 impressions trong kỳ</td><td>Bảo vệ; xác minh vé/giờ trước cập nhật</td></tr><tr><td>Bài rộng / backlink / maintenance</td><td>Title 62, heading 45; parent-domain backlink không đại diện subdomain</td><td>Bảo trì có chọn lọc; hoãn mở rộng bài rộng và outreach</td></tr></tbody></table></div><h2 id="how-this-report-was-made">How this report was made</h2><p>Generated by the <a href="https://openseo.so/docs/skills/seo-audit" target="_blank" rel="noopener">OpenSEO SEO Audit skill</a>, run by Codex on November 5, 2026.</p><p>Crawl 100 URL; sitemap 61 URL; đọc trực tiếp 18 HTML mẫu, không đăng nhập. Search Console và GA4 chỉ đọc.<br>Không chạy Lighthouse, không render JavaScript; chưa audit Maps hay thử form/thanh toán. Nguồn Drupal ở máy khác.</p><details><summary>Evidence and methodology</summary>
+<h3>Audit và baseline</h3><p>Audit 53 f 2 cb 18 hoàn tất 15:52 UTC 04/11, tương ứng 22:52 ICT.100/100 URL trả 200, không có nhóm critical được báo.200 issue instances thuộc 9 loại, không phải 200 trang lỗi.</p><div class="tw"><table><thead><tr><th>Loại</th><th>27/10</th><th>04/11</th></tr></thead><tbody><tr><td>Duplicate meta description</td><td>42</td><td>43</td></tr><tr><td>Duplicate title</td><td>38</td><td>41</td></tr><tr><td>Thin content</td><td>3</td><td>1</td></tr><tr><td>Title too long</td><td>65</td><td>62</td></tr><tr><td>Heading levels skip</td><td>45</td><td>45</td></tr><tr><td>Canonicalized to another URL</td><td>3</td><td>3</td></tr><tr><td>Meta description too long</td><td>3</td><td>3</td></tr><tr><td>Meta description too short</td><td>1</td><td>1</td></tr><tr><td>Page is noindex</td><td>1</td><td>1</td></tr></tbody></table></div><p>Hai mẫu 100 URL chỉ chung 98 URL; không dùng chênh lệch tổng để kết luận SEO tăng/giảm. Thin-content còn 1 URL /tours?lang=vi; phần tour có JS nên không xóa vì word count.</p>
+<h3>Phạm vi nội dung</h3><p>Core/trust: home, about, reviews, booking. Service: photoshoot và hiring guide. Tours: Cinematic và Early Bird. Guides: Old Quarter,15 photo spots, Santorini. Cases: Hanna, Thin. Discovery: News và page 1; hai biến thể VI. Sitemap gồm 12 core,42 article/service,7 tour URL; taxonomy tự tổng hợp từ 61 URL.</p>
+<h3>Chỉ mục và bản dịch</h3><p>Inspection 04/11 trả Submitted and indexed cho photoshoot, Old Quarter, Hanna, Thin. Đây là trạng thái Google lưu, không phải live crawl: last crawl lần lượt 20/10,20/10,25/10,27/10. Photoshoot VI: Duplicate, Google chose different canonical than user; Google chọn EN, last crawl 04/11. HTML trực tiếp của photoshoot VI/Old Quarter VI vẫn English, lang vi, tự canonical. Canonical là URL trang khai báo làm bản ưu tiên; hreflang chỉ phiên bản ngôn ngữ. Không quy đây là penalty hoặc nguyên nhân rank.</p>
+<h3>Hiệu quả tìm kiếm thực</h3><div class="tw"><table><thead><tr><th>Trang</th><th>Clicks / impressions</th><th>Avg position</th><th>Kỳ GSC</th></tr></thead><tbody><tr><td>Toàn property, theo ngày</td><td>17 / 299</td><td>Không dùng làm live rank</td><td>04–31/10/2026 PT</td></tr><tr><td>/hanoi-photoshoot</td><td>1 / 37</td><td>22.3</td><td>Mọi thị trường / thiết bị</td></tr><tr><td>Old Quarter guide</td><td>0 / 48</td><td>78.8</td><td>Mọi thị trường / thiết bị</td></tr><tr><td>Santorini (EN)</td><td>3 / 52</td><td>3.8</td><td>Mọi thị trường / thiết bị</td></tr></tbody></table></div><p>Không có query đạt đồng thời 50 impressions và average 5–20. GSC query/page che một phần truy vấn nên không cộng query thành tổng property. GSC tổng theo date là 17 click/299 impressions. GA4 Organic Search 04–31/10 theo Asia/Saigon:76 sessions,18 active users,0 key events; kỳ 28 ngày trước 06/09–03/10:24 sessions. Tăng 52 sessions (+216.7%) từ nền nhỏ; có nguy cơ traffic nội bộ theo ghi chú workspace. GA4 gồm các máy tìm kiếm, cách ghi nhận khác Google Search Console theo PT. 0 key events không chứng minh 0 booking; chưa đối soát CRM/thanh toán.</p>
+<h3>Live Google checks</h3><div class="tw"><table><thead><tr><th>Truy vấn</th><th>Organic trả về</th><th>TravelFrame, US/en/desktop, 04/11</th><th>Lưu ý</th></tr></thead><tbody><tr><td>hanoi photoshoot</td><td>31</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>photographer in hanoi</td><td>34</td><td>#15 (page 2)</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>hanoi couple photoshoot</td><td>31</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>hanoi photo tour</td><td>29</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>hanoi old quarter map</td><td>31</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>santorini park hanoi</td><td>23</td><td>#3 (page 1)</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>hanoi photographer</td><td>30</td><td>#28 (page 3)</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>private hanoi photo tour</td><td>unknown</td><td>unknown (provider error)</td><td>Không phải kết quả không tìm thấy</td></tr><tr><td>best photo spots hanoi</td><td>36</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr><tr><td>things to do in hanoi old quarter</td><td>34</td><td>Không thấy trong mẫu</td><td>Depth 40 thành phần hỗn hợp; URL có thể bị mã hoá</td></tr></tbody></table></div><p>Mẫu thu 04/11/2026 khoảng 22:50–22:55 ICT. Vị trí đếm organic, mỗi 10 vị trí là một trang quy ước. Depth 40 là 40 thành phần hỗn hợp, không phải 40 organic. Không thấy không có nghĩa nằm ngoài top 100. Lần đọc lại ba query dẫn dắt trả cache 12 h, không phải quan sát độc lập. Kết quả own URL là opaque Google goto; domain do OpenSEO trả xác nhận TravelFrame, title đối chiếu HTML; chưa giải mã URL sâu. Không gọi đó là URL landing đã xác nhận từ SERP.</p>
+<h3>Điểm cần QA riêng</h3><p>Markup booking chứa cả nội dung payment, activation và trạng thái mô phỏng ẩn; đọc HTML không xác định điều gì hiện trên màn hình. Không nhập thông tin khách, tạo booking hay gửi giao dịch. Homepage/about có rating 4.9 và claim sốtour/ảnh; mẫu này chưa kiểm tra nguồn review, nên không tái sử dụng như chứng thực xác nhận.</p>
+<h3>Nguồn và tái sử dụng</h3><ul><li><a href="https://travelframe.sidevn.com/hanoi-photoshoot" target="_blank" rel="noopener">Trang photoshoot</a>, <a href="https://travelframe.sidevn.com/news/hanoi-old-quarter-guide" target="_blank" rel="noopener">Old Quarter guide</a>, <a href="https://travelframe.sidevn.com/booking" target="_blank" rel="noopener">Booking</a>, <a href="https://travelframe.sidevn.com/tour/hanoi-early-bird-sunrise-local-markets" target="_blank" rel="noopener">Early Bird</a> được đọc trực tiếp 04/11.</li><li><a href="https://www.ostrichtrails.com/asia/vietnam/hanoi-walking-tour/" target="_blank" rel="noopener">OstrichTrails route map</a> được đọc qua nguồn công khai; chỉ học cấu trúc, không lấy lại các thông tin vé/giờ/transport.</li><li>Volume 27/10 lấy từ tracker/manual đã lưu; photo tour 10 từ 13/10. Unknown không phải 0. Không cộng biến thể.</li><li>Ưu tiên offer đối chiếu quyết định nội bộApproved 21/10; phần cọc, trang điểm/trang phục cho bao nhiêu người còn mở.</li></ul><p>Tổng nghiên cứu batchaudit+competitors+keywords: balance 6881→6599, chênh 282 credits; không phải bảng hoá đơn từngcall. Reuse vietnam.travel 29/10, Pickleball 15/10 và research 27/10, không mua lại các domain đó. Backlinks chưa có phép đo subdomain mới đáng tin; không dùng sốsidevn.com suy ra TravelFrame. Không đưa dự báotop 1, doanh thu hoặc traffic bổ sung.</p></details></article></div><footer>Prepared with OpenSEO. Research retrieved November 4, 2026. Đề xuất Review, chưa triển khai website.</footer></div></body></html>

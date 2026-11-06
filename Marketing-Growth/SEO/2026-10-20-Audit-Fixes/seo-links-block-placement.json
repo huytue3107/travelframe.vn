@@ -1,0 +1,10 @@
+{
+  "blockUUID": "60f869e0-1e0e-4e30-a8a3-afebab3eda29",
+  "machineName": "travelframe_seo2010hanoiphotoshootandoldquarterlinks",
+  "region": "content",
+  "pages": [
+    "<front>"
+  ],
+  "titleDisplayed": false,
+  "toursExcludedReason": "Tours JavaScript locks viewport scrolling; below-map block not visible, so placement was removed there."
+}

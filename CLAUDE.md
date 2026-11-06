@@ -53,6 +53,7 @@ Kiểm tra kết nối bằng `Technology-Automation/Scripts/meta-automation-mcp
 (không công khai, không in token). Token chuẩn: System User "Tue", app TravelFrame Automation, hạn Never;
 chỉ Rocky tạo và lưu token (`fix-token.sh`). Không thêm chức năng ghi vào `travelframe-readonly.mjs`.
 Sau mỗi bài đăng FB/IG: chạy Seed Comment Playbook (`Marketing-Growth/Guidelines/2026-10-07-Seed-Comment-Playbook.md`).
+`Scheduled` chỉ xác nhận lịch; không ghi là `Published` trước khi có platform evidence sau giờ đăng.
 <!-- SHARED-AGENT-POLICY:END -->
 
 ## Claude execution

@@ -1,0 +1,77 @@
+[
+  {
+    "source": "/Users/macbook/Downloads/1006(3)/1006(3)-1.mp4",
+    "source_sha256": "c6625de973ac9fac2374df53f347842a83eacb132facdfa95fbc8d520f0c9914",
+    "output": "Creative-Production/Deliverables/2026-10-14-BTS-Vs-The-Shot/1006(3)-1-1080x1920.mp4",
+    "output_sha256": "92b28a740f81b8e769963afa0c31e9a7bb74b08db565f4ee4988460197064051",
+    "duration_seconds": 13.907007,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "video": "h264",
+    "audio": "aac",
+    "preserves_content": true,
+    "source_untouched": true
+  },
+  {
+    "source": "/Users/macbook/Downloads/1006(3)/1006(3)-2.mp4",
+    "source_sha256": "30f66de48bfdeda762ec60d8b03f7afe0edaa9278bea331f8c295340c3293486",
+    "output": "Creative-Production/Deliverables/2026-10-14-BTS-Vs-The-Shot/1006(3)-2-1080x1920.mp4",
+    "output_sha256": "899bdb6645642907586d60eb204d8467d009c0c1bce85cdad6cefa9e4a7ed435",
+    "duration_seconds": 13.118005,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "video": "h264",
+    "audio": "aac",
+    "preserves_content": true,
+    "source_untouched": true
+  },
+  {
+    "source": "/Users/macbook/Downloads/1006(3)/1006(3)-3.mp4",
+    "source_sha256": "750881e56542586543ee042922571444fb1a668e0d3bd08828a71e24d16cff37",
+    "output": "Creative-Production/Deliverables/2026-10-14-BTS-Vs-The-Shot/1006(3)-3-1080x1920.mp4",
+    "output_sha256": "cf9377760efb12e48b65a6be822cfc7ede1f9fd6af4134de22416ad545131095",
+    "duration_seconds": 13.813991,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "video": "h264",
+    "audio": "aac",
+    "preserves_content": true,
+    "source_untouched": true
+  },
+  {
+    "source": "/Users/macbook/Downloads/1006(3)/1006(3)-4.mp4",
+    "source_sha256": "3011a6398c24370d694fc878e7f2d89f781dd22e451dd2d40ee9198f01396608",
+    "output": "Creative-Production/Deliverables/2026-10-14-BTS-Vs-The-Shot/1006(3)-4-1080x1920.mp4",
+    "output_sha256": "d46d39a73264db812ca542b2040db79ce2004366df62db6daa9cf250ad7e37a4",
+    "duration_seconds": 12.305011,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "video": "h264",
+    "audio": "aac",
+    "preserves_content": true,
+    "source_untouched": true
+  },
+  {
+    "source": "/Users/macbook/Downloads/1006(3)/1006(3)-5.mp4",
+    "source_sha256": "af313a40da603392a82d5550faadab44daafc0d3c79fb4a3efd3a8a8c1342eb0",
+    "output": "Creative-Production/Deliverables/2026-10-14-BTS-Vs-The-Shot/1006(3)-5-1080x1920.mp4",
+    "output_sha256": "6e57c9ecc7ff04afb6ab154ab3150233b4c9687dd8dc26564c3a08096807c360",
+    "duration_seconds": 13.419002,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "video": "h264",
+    "audio": "aac",
+    "preserves_content": true,
+    "source_untouched": true
+  }
+]

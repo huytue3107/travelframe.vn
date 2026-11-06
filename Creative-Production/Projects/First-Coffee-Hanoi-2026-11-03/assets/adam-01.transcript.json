@@ -1,0 +1,48 @@
+{
+  "audio": "assets/adam-01.wav",
+  "language": "en",
+  "words": [
+    {
+      "text": "First",
+      "start": 0.1,
+      "end": 0.32,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "coffee",
+      "start": 0.42,
+      "end": 0.94,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "in",
+      "start": 1,
+      "end": 1.1,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "Hanoi.",
+      "start": 1.14,
+      "end": 1.66,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "Let's",
+      "start": 2.34,
+      "end": 2.52,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "order",
+      "start": 2.58,
+      "end": 2.78,
+      "speaker": "speaker_0"
+    },
+    {
+      "text": "together",
+      "start": 2.86,
+      "end": 3.28,
+      "speaker": "speaker_0"
+    }
+  ]
+}

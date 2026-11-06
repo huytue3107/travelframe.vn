@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "status": "partial",
+  "video": "/Users/macbook/Downloads/1006(3)/1006(3)-1.mp4",
+  "observations": [
+    {
+      "kind": "visual",
+      "timestamp_estimate": "0–2",
+      "text": "Người đứng cạnh cột; camera/monitor xuất hiện.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 0,
+        "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "0–2",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 0,
+        "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "2–5",
+      "text": "Camera xoay về phố, ánh đèn và xe.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 2,
+        "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "2–5",
+      "text": "Oh, I like that",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 2,
+        "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "6–7",
+      "text": "Quay lại người chụp.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 6,
+        "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "6–7",
+      "text": "Cool shot!",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 6,
+        "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "visual",
+      "timestamp_estimate": "8–13.9",
+      "text": "Slideshow ảnh toàn thân và cận cảnh.",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 8,
+        "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+      }
+    },
+    {
+      "kind": "screen_text",
+      "timestamp_estimate": "8–13.9",
+      "text": "BTS vs The Shot",
+      "evidence": {
+        "pass": "main",
+        "frame_index": 8,
+        "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+      }
+    }
+  ],
+  "inferences": [
+    {
+      "kind": "inference",
+      "basis": [
+        {
+          "pass": "main",
+          "frame_index": 0,
+          "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 2,
+          "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 6,
+          "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+        },
+        {
+          "pass": "main",
+          "frame_index": 8,
+          "index": "Research-Insights/Library/analysis/1006-3-1/2026-10-14/frames/frames.json"
+        }
+      ],
+      "reason": "Chân dung đêm tại góc phố, hỗ trợ tạo dáng bằng hướng dẫn ngắn."
+    }
+  ],
+  "asr_limitation": "ASR chỉ thu được hai tiếng Oh; không dùng ASR để trích quote. Chữ màn hình cung cấp nhiều lời hơn.",
+  "missing": [
+    "post_caption",
+    "platform_subtitles"
+  ],
+  "coverage": {
+    "main": "approximately 1fps throughout",
+    "focused": [
+      "0–3s",
+      "last 3s"
+    ],
+    "focused_rate_fps": 2,
+    "reviewed": "all extracted frames through contact sheets",
+    "continuous_audio_review": false
+  },
+  "timestamp_note": "estimate, not frame-exact"
+}
