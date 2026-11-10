@@ -1,0 +1,9 @@
+[out:json][timeout:60];
+(
+  way["highway"]["name"](21.0255,105.8435,21.0405,105.8585);
+  way["railway"="rail"](21.0255,105.8435,21.0405,105.8585);
+  way["natural"="water"](21.0255,105.8435,21.0405,105.8585);
+  relation["natural"="water"](21.0255,105.8435,21.0405,105.8585);
+  nwr["name"~"Đồng Xuân|Ô Quan Chưởng|Bạch Mã|Ngọc Sơn|Thê Húc|Kim Ngân|Mã Mây|Nhà Thờ Lớn|Nhà thờ Lớn"](21.0255,105.8435,21.0405,105.8585);
+);
+out geom;

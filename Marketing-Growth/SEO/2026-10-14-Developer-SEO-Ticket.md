@@ -28,6 +28,7 @@ Kiểm tra bằng `curl` **ẩn danh** (không đăng nhập): bản render khi 
 | D7 | Footer + tooltip nút nổi + `/booking` + `/contact`: chữ hiển thị số WhatsApp đổi thành `0925148581`; **giữ** link `wa.me/84925148581` và `tel:+84925148581` | toàn site | `curl -s / \| grep -c '925 148 581'` = 0 |
 | D8 | Block cuối bài News "Want to taste it yourself? Book a food tour": đổi theo category hoặc tắt theo node; tắt cho bài Train Street (node 71) | News | node 71 không còn block food tour |
 | D9 | Lightbox `#dtp-photo-img` có `alt=""` rỗng mặc định: set alt theo ảnh đang mở (JS) | tour pages | không ảnh hưởng SEO lớn, làm cuối |
+| D10 | **Thêm 09/11 (campaign TF-SEO-20261106, Rocky chọn "chờ developer").** Đổi configurator giá trên trang tour và `/booking` sang bảng giá đã duyệt [DEC-20261021-HOURLY-TIER-PRICING](../../Executive/DEC-20261021-HOURLY-TIER-PRICING.md): khách chọn **tầng × số giờ**. Basic $30/giờ (tối thiểu 1h), Premium $60/giờ (tối thiểu 2h), VIP $99/giờ (tối thiểu 2h). Tối đa 2 khách, từ khách thứ 3 cộng $15/giờ/người. Giá VND tham chiếu 1 USD = 26.000đ. Bỏ cách tính cũ "giá tour + gói ảnh" (Photo Phone 8 / Explorer 20 / Complete 50 / VIP 80 USD). Mức cọc chưa chốt, nên chưa bật thu cọc theo giá mới. **Lưu ý D6:** theo DEC mới, ảnh gốc giao trong 24h, ảnh chỉnh sửa và video giao trong 48h. Không đổi meta homepage sang "2–3 days". | `/tour/*`, `/booking`, `/` | Chọn VIP 3h, 3 khách ra $342. Không trang nào còn "8 USD" hay "210,000 VND". Sau đó Marketing đổi bảng giá, FAQ giao ảnh và meta của node 104 trong cùng ngày |
 
 ## Rollback
 

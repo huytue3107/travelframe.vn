@@ -146,3 +146,44 @@ Audit: 0 critical. Đã sửa trên Drupal (revision log "SEO 14/10 OpenSEO audi
 - ~~Phát hiện: `<title>` không lấy từ `field_tacos_seo_title`.~~ **Đính chính 14/10:** kết luận này sai, do kiểm tra bằng phiên admin (bản render khi đăng nhập dùng tên node). Khi `curl` ẩn danh, `<title>` = SEO title + " | TravelFrame Vietnam" (vd. node 104 → "Hanoi Photoshoot & Local Photographer | TravelFrame Vietnam", 59 ký tự). Vậy các cảnh báo "title too long" sửa được bằng field SEO title, không cần developer. Canonical + hreflang en/vi/x-default đã có sẵn.
 - JSON-LD hiện chỉ có `Article`; `Service`/`FAQPage` vẫn cần developer.
 - Chưa làm: heading skip (31 bài, nghi do template), thin content `/about` và `/guides` (cần Rocky quyết định viết thêm hay noindex).
+
+## 11. Triển khai campaign TF-SEO-20261106 (09/11)
+
+Rocky yêu cầu trong chat: "triển khai campain này giúp tôi". Nguồn: [Master Report](2026-11-06-OpenSEO-Campaign-Execution-Master-Report.md), mục 5. Rocky đã trả lời 3 câu hỏi trong chat:
+- bảng giá: "Chờ developer";
+- title/H1: "Giữ title, đổi H1";
+- bản đồ: "Làm bản nháp ngay".
+
+Thao tác qua trình duyệt tích hợp (phiên admin Drupal), revision log bắt đầu bằng "SEO 09/11 campaign TF-SEO-20261106". Đã kiểm tra lại bằng `curl` ẩn danh.
+
+| # | Thay đổi | Kiểm tra |
+|---|---|---|
+| 1 | Node 104 `/hanoi-photoshoot`: đổi H1 (tên node) thành "Hanoi Photographer & Walking Photoshoot: Local Guide & Candid Packages". **Giữ** SEO title "Hanoi Photoshoot & Local Photographer". Lý do: dùng công thức của báo cáo làm title sẽ dài 92 ký tự và mất cụm "hanoi photoshoot". Pathauto vẫn tắt, alias giữ nguyên | 200; H1 mới; `<title>` 59 ký tự không đổi; canonical không đổi |
+| 2 | Node 92 (15 photo spots): thêm 1 đoạn trước H2 "Want to Explore These Spots Without Camera Stress?". Đoạn này có link spoke tới `/news/santorini-park-lovely-photo-spot-right-outside-hanoi`, anchor "Santorini Park Hanoi" (Cụm 3, mục 2). **Tắt pathauto** để khoá alias hiện tại | 200; có đúng 1 link Santorini; URL bài và URL đích đều 200 |
+
+**Ngoài Drupal:**
+- OpenSEO: lưu `ao dai photoshoot hanoi`, `vacation photographer hanoi`, `hanoi solo travel` (không tốn credit, chưa gắn tag, thị trường mặc định của project là VN/vi).
+- Ticket developer: thêm [D10](2026-10-14-Developer-SEO-Ticket.md), đổi configurator giá sang $30/$60/$99.
+- Bản nháp bản đồ đi bộ: [`Creative-Production/Projects/Hanoi-Old-Quarter-Walking-Map/`](../../Creative-Production/Projects/Hanoi-Old-Quarter-Walking-Map/README.md). Chưa upload.
+
+**Không làm, có chủ đích:**
+- Bảng giá $30/$60/$99 trên node 104: chờ developer làm D10, tránh hai mức giá khác nhau giữa các trang. Meta description node 104 vẫn ghi "from 8 USD/hour"; sẽ sửa cùng bảng giá.
+- Redirect Santorini (đã làm ở mục 9).
+- CTA Pillar/15 điểm → `/hanoi-photoshoot` (đã có từ mục 7).
+- Chuyển domain: Rocky dời sang Q1/2027.
+
+**Rollback:**
+- Node 104 và 92: Revisions → revert về revision trước "SEO 09/11 campaign".
+- Node 92: bật lại pathauto chỉ khi chắc chắn alias sinh ra trùng alias hiện tại.
+- OpenSEO: `remove_saved_keywords` với 3 từ khoá trên.
+
+### 11b. Đăng bản đồ đi bộ Phố Cổ (10/11, Rocky duyệt trong chat: "Duyệt, upload")
+
+| # | Thay đổi | Kiểm tra |
+|---|---|---|
+| 1 | Node 105 (Pillar): upload `TravelFrame-Hanoi-Old-Quarter-Walking-Map.pdf` vào `field_downloadable_pdf` (fid 898, `public://guides`). Rocky chọn file trong form, vì trình duyệt không cho agent chọn file | PDF 200 `application/pdf`, 431.978 byte; SHA-256 khớp file local; trạng thái Permanent |
+| 2 | Node 105: thêm 1 câu giới thiệu và nút "Download the free Old Quarter walking map (PDF, 1 page, A4)" ở cuối mục "A simple mental map of the Old Quarter". Nút cùng kiểu với node 117. Revision log "SEO 10/11 campaign TF-SEO-20261106…". Alias giữ nguyên (pathauto tắt) | Trang 200; canonical đúng; nút có đúng link PDF; không có markup admin |
+
+- **Không đổi:** đoạn "Map tip" hiện có (khuyên dùng bản đồ offline trên điện thoại).
+- **Chưa làm:** nhúng ảnh xem trước bản đồ vào bài. Nguồn file và việc còn mở: [README dự án](../../Creative-Production/Projects/Hanoi-Old-Quarter-Walking-Map/README.md).
+- **Rollback:** revert node 105 về revision trước "SEO 10/11 campaign". Xoá fid 898 ở `/admin/content/files` khi file không còn được dùng.
