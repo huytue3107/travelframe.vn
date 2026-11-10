@@ -1,0 +1,139 @@
+{
+  "project": "Hanoi-Handbook-Ebook-2026",
+  "model": "nano-banana-2",
+  "style": "Editorial travel-guide illustration in loose charcoal ink linework with soft watercolor washes on warm off-white textured paper. Restrained palette: deep teal accents (#008AA3), weathered ochre yellow, moss green, warm grey, small touches of brick red. Hand-drawn, calm and airy, generous white space around the scene, gentle morning light. People drawn with natural proportions, modest everyday clothing, relaxed candid poses, respectful depiction of Vietnamese daily life. Absolutely no text, no letters, no numbers, no logos, no watermarks, no signature; any shop signs or banners are blank colour blocks.",
+  "images": [
+    {
+      "id": "01-cover",
+      "aspect_ratio": "3:4",
+      "resolution": "2K",
+      "prompt": "A quiet early-morning street in Hanoi's Old Quarter seen from pavement level: tall narrow tube houses with weathered ochre walls, green wooden shutters, small balconies with potted plants, a tangle of overhead electric wires, a street vendor in a conical hat walking a bicycle loaded with fresh flowers, two parked motorbikes, a young international traveler with a small camera looking up at the balconies, branches of an old tree framing the right edge. The top third of the image is calm pale sky and paper texture, left empty for a title."
+    },
+    {
+      "id": "02-before-you-fly",
+      "aspect_ratio": "4:3",
+      "resolution": "1K",
+      "prompt": "Top-down flat lay on a pale table: a closed passport, a smartphone with a simple map on screen, a small fan of colourful stylised banknotes with no readable details, a light packable rain jacket, white sneakers, sunglasses, a refillable water bottle, a small notebook and pen, a travel adapter plug, a folded conical hat."
+    },
+    {
+      "id": "03-seasons",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "Four small vignettes arranged left to right in one wide horizontal composition, separated by soft white space, showing Hanoi's four seasons: (1) spring drizzle with pink peach blossom branches and a person under an umbrella; (2) hot summer with a lotus pond and a sudden rain shower; (3) golden autumn light under trees with a bicycle vendor carrying white daisies; (4) cool misty winter by a lake with people in light jackets drinking hot tea on tiny stools."
+    },
+    {
+      "id": "04-arrival",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "A wide view at golden hour of a long modern cable-stayed bridge crossing a broad river into a city skyline, a yellow-orange public bus and a few cars and motorbikes on the bridge road, banana trees and fields on the river bank in the foreground, a traveler's rolling suitcase standing at the roadside in the foreground."
+    },
+    {
+      "id": "05-money",
+      "aspect_ratio": "4:3",
+      "resolution": "1K",
+      "prompt": "Close, warm street scene: a traveler's hand passing small stylised banknotes to a smiling middle-aged street food vendor seated behind a low stall with a steaming pot, small bowls and fresh herbs, low blue plastic stools nearby. The banknotes are simple colour rectangles with no readable details."
+    },
+    {
+      "id": "06-getting-around",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "A lively but calm Hanoi intersection: a motorbike taxi rider in a plain green jacket and helmet carrying a smiling passenger in a helmet, a cyclo pedal rickshaw with a passenger seated in front, a traveler crossing the street at a steady walking pace while motorbikes flow smoothly around them, tree-lined pavement and shophouses behind."
+    },
+    {
+      "id": "07-neighbourhoods",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "A wide panoramic illustration blending three Hanoi neighbourhoods from left to right: the dense tiled rooftops and narrow tube houses of the Old Quarter; elegant ochre French colonial villas with tall shuttered windows and a grand colonnaded theatre building; and a wide calm lake with a slender multi-tiered red pagoda tower on a small peninsula, lotus leaves and a few swan pedal boats."
+    },
+    {
+      "id": "08-hoan-kiem",
+      "aspect_ratio": "4:3",
+      "resolution": "1K",
+      "prompt": "Early morning at a tranquil city lake: a bright red arched wooden footbridge leading to a small temple on a tree-covered islet, weeping willows leaning over the water, a small group of older people practising slow exercise, a jogger, soft mist on the water."
+    },
+    {
+      "id": "09-temple-literature",
+      "aspect_ratio": "4:3",
+      "resolution": "1K",
+      "prompt": "A serene courtyard of an ancient Vietnamese Confucian temple: a traditional two-tier gate with curved tiled roofs, a square reflecting pond, rows of stone stelae standing on carved stone turtles under old trees, a few university graduates in dark gowns taking photos, soft afternoon light."
+    },
+    {
+      "id": "10-long-bien",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "Sunrise over a very long old steel cantilever truss railway bridge with rust-brown latticework crossing a wide muddy river, a single slow train on the middle track, motorbikes on the side lanes, banana plantations and vegetable plots on the sandy riverbank below, a photographer silhouetted on the bank."
+    },
+    {
+      "id": "11-food",
+      "aspect_ratio": "1:1",
+      "resolution": "1K",
+      "prompt": "Overhead view of a low metal street-food table crowded with Hanoi dishes: a bowl of beef noodle soup with sliced beef and green onions, a bowl of grilled pork patties in dipping broth with a plate of white rice vermicelli, a crusty baguette sandwich, a plate of fried spring rolls, a basket of fresh herbs and lettuce, a small dish of chilli and lime wedges, a cup of egg coffee with golden foam, chopsticks and spoons; edges of blue plastic stools visible."
+    },
+    {
+      "id": "12-coffee",
+      "aspect_ratio": "3:4",
+      "resolution": "1K",
+      "prompt": "A tiny old-style cafe balcony overlooking a busy street below: a cup of egg coffee with thick golden foam sitting in a small bowl of hot water, a phin drip filter, a traveler writing in a journal on a low wooden stool, potted plants, peeling paint, warm afternoon light."
+    },
+    {
+      "id": "13-evening",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "Evening on a narrow Old Quarter street corner: groups of locals and travelers sitting on low plastic stools around small tables, raising glasses of pale draft beer in a cheers, plates of peanuts and grilled snacks, warm glowing paper lanterns and string lights, a scooter parked nearby, cosy and friendly atmosphere."
+    },
+    {
+      "id": "14-etiquette",
+      "aspect_ratio": "4:3",
+      "resolution": "1K",
+      "prompt": "A respectful visitor at the entrance of a quiet Vietnamese pagoda: a woman traveler wearing a long skirt and a light shawl covering her shoulders, removing her sandals before the step, incense smoke curling from a large bronze urn, an elderly caretaker sweeping fallen leaves, carved wooden doors and red pillars."
+    },
+    {
+      "id": "15-day-trips",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "Green rice fields and a calm river winding between dramatic limestone karst peaks, a small rowing boat with a local woman rowing using her feet and two passengers in conical hats, a cave mouth in the cliff ahead, white egrets flying, morning haze."
+    },
+    {
+      "id": "16-photo-walk",
+      "aspect_ratio": "3:4",
+      "resolution": "1K",
+      "prompt": "Golden hour in a narrow alley with a weathered ochre wall and green shutters: a young Vietnamese local photographer crouching with a camera, gently directing a laughing international traveler who walks naturally toward the camera, bougainvillea spilling over a balcony, candid and warm, friendly connection between the two people."
+    },
+    {
+      "id": "17-welcome",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "A friendly young Vietnamese local host warmly greeting an arriving international traveler with a backpack at the open wooden doorway of a small guesthouse in Hanoi's Old Quarter, morning light, potted plants, a parked bicycle, both smiling, relaxed and welcoming."
+    },
+    {
+      "id": "18-itinerary",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "A tiny sidewalk cafe at a quiet Hanoi street corner at dawn: a traveler on a low stool planning the day with an open notebook (abstract scribbles only) and a phone, a glass of iced coffee, and across the road a calm lake with willow trees and a few early joggers."
+    },
+    {
+      "id": "19-safety",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "A traveler walking calmly along a busy Hanoi pavement, holding a phone on the side away from the road, a small cross-body bag worn in front, motorbikes passing on the road side, shopfronts with awnings and a street vendor in the background, relaxed and confident mood."
+    },
+    {
+      "id": "20-phrases",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "At a colourful fruit stall in a Hanoi street market, a smiling elderly woman vendor and an international traveler laughing together while the traveler tries a few words and points at mangoes, dragon fruit and rambutans, woven baskets and a small old scale."
+    },
+    {
+      "id": "21-packing",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "An open travel backpack on a guesthouse bed beside a window with green wooden shutters, neatly arranged items around it: a light rain poncho, a folded scarf, a linen shirt, a light fleece jacket, sneakers, a sunscreen tube, an insect repellent bottle, a water bottle, soft morning light."
+    },
+    {
+      "id": "22-checklist",
+      "aspect_ratio": "16:9",
+      "resolution": "1K",
+      "prompt": "A small guesthouse balcony at sunrise overlooking the tiled rooftops of Hanoi's Old Quarter with a glimpse of a lake and trees beyond, a cup of tea and an open notebook with a pen on a little table, bougainvillea in pots, peaceful start to a travel day."
+    }
+  ]
+}
