@@ -1,5 +1,9 @@
 # Heritage Display — Regular
 
+> **Có bản v1.1 trong `v1.1/`** (2026-11-11). Bản đó sửa lỗi đặt dấu tiếng Việt, khoảng
+> cách chữ (LSB) và các vệt thừa của v1.0. File v1.0 ở thư mục này giữ nguyên vì các
+> dự án cũ đang trỏ tới. Với nội dung mới có chữ tiếng Việt, dùng bản v1.1.
+
 Font display dựng lại từ bảng mẫu chữ trong hai ảnh tham chiếu (bài editorial về
 các designer Việt). Đây là **file font mới dựng bằng vector**, không phải file font
 gốc của tác giả thiết kế.
