@@ -5,900 +5,978 @@
 <title>The Hanoi Handbook · TravelFrame</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+/* ---------- fonts (all local, OFL) ---------- */
 @font-face { font-family: "Heritage"; src: url("fonts/HeritageDisplay-Regular.woff2") format("woff2"); }
-@font-face { font-family: "Cormorant"; src: url("fonts/CormorantGaramond.ttf") format("truetype"); font-weight: 300 700; }
+/* Newsreader: serif with correct Vietnamese mark placement (Cormorant misplaces marks on à, â, ê). */
+@font-face { font-family: "Newsreader"; src: url("fonts/Newsreader.ttf") format("truetype"); font-weight: 200 800; font-style: normal; size-adjust: 88%; }
+@font-face { font-family: "Newsreader"; src: url("fonts/Newsreader-Italic.ttf") format("truetype"); font-weight: 200 800; font-style: italic; size-adjust: 88%; }
+@font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-Light.ttf") format("truetype"); font-weight: 300; font-style: normal; }
+@font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-LightItalic.ttf") format("truetype"); font-weight: 300; font-style: italic; }
 @font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; }
-@font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-Italic.ttf") format("truetype"); font-weight: 400; font-style: italic; }
 @font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-Medium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
 @font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-SemiBold.ttf") format("truetype"); font-weight: 600; font-style: normal; }
 @font-face { font-family: "Be Vietnam Pro"; src: url("fonts/BeVietnamPro-Bold.ttf") format("truetype"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "Caveat"; src: url("fonts/Caveat.ttf") format("truetype"); font-weight: 400 700; }
 
+/* ---------- tokens ---------- */
 :root {
+  --paper: #FAF5EA;
+  --ink: #1F2629;
+  --ink-2: #485156;
+  --ink-3: #7D8589;
   --teal: #008AA3;
-  --teal-soft: #E3F0F2;
-  --ink: #24292E;
-  --ink-2: #4A535B;
-  --paper: #F8F6F1;
-  --mist: #EAEFF0;
-  --ochre: #B9842F;
-  --ochre-soft: #F4EAD6;
-  --brick: #A2442D;
-  --rule: #D8D4CB;
+  --teal-deep: #0B5F6E;
+  --ochre: #B07D2A;
+  --brick: #A2452E;
+  --rule: #DCD2BF;
+  --serif: "Newsreader", Georgia, serif;
+  --sans: "Be Vietnam Pro", system-ui, sans-serif;
+  --hand: "Caveat", cursive;
 }
 
 @page { size: A4; margin: 0; }
 * { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: #d9d6cf; }
-body { font-family: "Be Vietnam Pro", system-ui, sans-serif; color: var(--ink); font-size: 10.2pt; line-height: 1.5; -webkit-print-color-adjust: exact; print-color-adjust: exact; font-variant-numeric: lining-nums; }
+html, body { margin: 0; padding: 0; background: #CFC8BA; }
+body { font-family: var(--sans); font-weight: 300; color: var(--ink); font-size: 10.1pt; line-height: 1.6;
+  font-variant-numeric: lining-nums; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+b, strong { font-weight: 600; }
 
-.page {
-  width: 210mm; height: 297mm; margin: 0 auto 8mm; position: relative; overflow: hidden;
-  background: var(--paper); padding: 15mm 16mm 18mm; page-break-after: always; break-after: page;
-}
+.page { width: 210mm; height: 297mm; margin: 0 auto 8mm; position: relative; overflow: hidden;
+  background: var(--paper); padding: 21mm 18mm 20mm; break-after: page; page-break-after: always;
+  display: flex; flex-direction: column; }
+.page > * { flex-shrink: 0; }
+.push { margin-top: auto !important; }
 @media print { html, body { background: var(--paper); } .page { margin: 0; } }
 
-/* running footer */
-.foot { position: absolute; left: 16mm; right: 16mm; bottom: 8mm; display: flex; justify-content: space-between;
-  font-size: 7.5pt; color: var(--ink-2); letter-spacing: .04em; border-top: 0.6pt solid var(--rule); padding-top: 2.2mm; }
-.foot b { color: var(--teal); font-weight: 600; }
+/* running head + folio */
+.rh { position: absolute; top: 9.5mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: baseline;
+  font-family: var(--serif); font-style: italic; font-size: 9.5pt; color: var(--ink-3); }
+.rh span:last-child { font-family: var(--sans); font-style: normal; font-size: 6.6pt; letter-spacing: .22em; text-transform: uppercase; }
+.folio { position: absolute; bottom: 9mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 6.6pt; letter-spacing: .22em; text-transform: uppercase; color: var(--ink-3); }
+.folio .n { font-family: var(--serif); font-size: 12pt; letter-spacing: 0; color: var(--ink); font-weight: 600; }
 
-/* typography */
-h1, h2, h3 { font-family: "Cormorant", Georgia, serif; font-weight: 700; margin: 0; line-height: 1.05; letter-spacing: -.005em; }
-h1 { font-size: 34pt; }
-h2 { font-size: 31pt; margin-bottom: 3mm; }
-h3 { font-size: 16.5pt; margin: 4mm 0 1.4mm; color: var(--ink); }
-h4 { font-size: 10.6pt; margin: 3mm 0 1mm; font-weight: 700; color: var(--teal); letter-spacing: .02em; }
-p { margin: 0 0 2.2mm; }
-ul { margin: 0 0 2.4mm; padding-left: 4.2mm; }
-li { margin-bottom: 1mm; }
-li::marker { color: var(--teal); }
-a { color: var(--teal); text-decoration: none; font-weight: 600; }
-.kicker { font-size: 8.6pt; letter-spacing: .16em; text-transform: uppercase; color: var(--teal); font-weight: 700; margin-bottom: 2mm; }
-.lede { font-size: 12.4pt; line-height: 1.45; color: var(--ink-2); margin-bottom: 4mm; }
-.small { font-size: 8.8pt; color: var(--ink-2); }
-.checked { display: inline-block; font-size: 7.4pt; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-2);
-  background: var(--mist); padding: .4mm 1.6mm; border-radius: 2px; vertical-align: 1px; font-weight: 600; }
-.vn { font-weight: 700; }
+/* type */
+h1, h2, h3 { font-family: var(--serif); margin: 0; font-weight: 600; color: var(--ink); }
+.ch { display: flex; align-items: baseline; gap: 3mm; margin-bottom: 2.5mm; }
+.ch .n { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 16pt; color: var(--ochre); }
+.ch .line { width: 10mm; height: 0; border-top: .7pt solid var(--ochre); transform: translateY(-1.2mm); }
+.ch .t { font-size: 6.8pt; letter-spacing: .24em; text-transform: uppercase; color: var(--teal); font-weight: 600; }
+h2 { font-size: 36pt; line-height: .98; letter-spacing: -.012em; margin-bottom: 3mm; }
+h2 em { font-style: italic; font-weight: 500; color: var(--teal-deep); }
+.stand { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 14.5pt; line-height: 1.3; color: var(--ink-2); max-width: 150mm; margin: 0 0 5mm; }
+h3 { font-size: 15.5pt; line-height: 1.1; margin: 0 0 1.4mm; }
+h3 em { font-weight: 500; }
+.lab { font-size: 6.8pt; letter-spacing: .2em; text-transform: uppercase; color: var(--teal); font-weight: 600; margin-bottom: 1.2mm; display: block; }
+p { margin: 0 0 2.3mm; }
+a { color: var(--teal-deep); text-decoration: none; font-weight: 500; border-bottom: .6pt solid rgba(0,138,163,.45); }
+.vn { font-family: var(--serif); font-weight: 700; font-size: 1.12em; color: var(--ink); }
+.ck { font-family: var(--serif); font-style: italic; font-size: 9.6pt; color: var(--ochre); white-space: nowrap; font-weight: 600; }
+.ck::before { content: "✓ "; font-style: normal; font-size: 8pt; }
+.small { font-size: 8.2pt; color: var(--ink-2); line-height: 1.5; }
+.hand { font-family: var(--hand); font-weight: 600; font-size: 15.5pt; line-height: 1.05; color: var(--teal-deep); }
+.hand a { font-weight: 600; }
+.tilt { display: inline-block; transform: rotate(-2.5deg); }
 
-/* figures */
-.fig { width: 100%; border-radius: 6px; overflow: hidden; margin: 0 0 4mm; background: #fff; }
-.fig img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.h45 { height: 45mm; } .h55 { height: 55mm; } .h62 { height: 62mm; } .h70 { height: 70mm; } .h80 { height: 80mm; } .h95 { height: 95mm; } .h110 { height: 110mm; }
+ul.dash { list-style: none; padding: 0; margin: 0 0 2.4mm; }
+ul.dash li { position: relative; padding-left: 4.5mm; margin-bottom: 1.2mm; }
+ul.dash li::before { content: "–"; position: absolute; left: 0; color: var(--teal); font-weight: 600; }
 
-/* layout helpers */
-.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
-.cols-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; }
-.cols-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3.5mm; }
-.side { display: grid; grid-template-columns: 1.05fr 1fr; gap: 6mm; align-items: start; }
+/* illustrations: paper normalised to white, multiplied onto the page */
+.ill { display: block; width: 100%; height: auto; mix-blend-mode: multiply; }
+.center { margin-left: auto; margin-right: auto; }
 
-.card { background: #fff; border: 0.6pt solid var(--rule); border-radius: 6px; padding: 3.4mm 3.8mm; }
-.card h4 { margin-top: 0; }
-.card p:last-child, .card ul:last-child { margin-bottom: 0; }
-.tip { background: var(--teal-soft); border-left: 2.2mm solid var(--teal); border-radius: 0 6px 6px 0; padding: 3mm 4mm; margin: 3mm 0; }
-.tip b:first-child { color: var(--teal); letter-spacing: .06em; text-transform: uppercase; font-size: 8pt; display: block; margin-bottom: .6mm; }
-.warn { background: var(--ochre-soft); border-left: 2.2mm solid var(--ochre); border-radius: 0 6px 6px 0; padding: 3mm 4mm; margin: 3mm 0; }
-.warn b:first-child { color: var(--ochre); letter-spacing: .06em; text-transform: uppercase; font-size: 8pt; display: block; margin-bottom: .6mm; }
+/* notes and quotes */
+.note { border-top: .7pt solid var(--ochre); padding-top: 2.2mm; font-size: 9pt; line-height: 1.5; }
+.note .lab { color: var(--ochre); }
+.note p:last-child { margin-bottom: 0; }
+.pull { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 18pt; line-height: 1.22; color: var(--teal-deep); position: relative; padding-left: 9mm; }
+.pull::before { content: "\201C"; position: absolute; left: 0; top: -3mm; font-size: 40pt; color: var(--ochre); font-style: normal; }
 
-table { width: 100%; border-collapse: collapse; margin: 1mm 0 3mm; font-size: 10pt; }
-th { text-align: left; font-size: 7.6pt; letter-spacing: .08em; text-transform: uppercase; color: var(--teal); border-bottom: 1pt solid var(--teal); padding: 1.4mm 1.6mm; }
-td { border-bottom: 0.6pt solid var(--rule); padding: 1.6mm; vertical-align: top; }
+/* grids */
+.g2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 9mm; }
+.g3 { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 7mm; }
+.g4 { display: grid; grid-template-columns: repeat(4, 1fr); column-gap: 5.5mm; }
+.ms { display: grid; grid-template-columns: 1fr 48mm; column-gap: 9mm; align-items: start; }
+.side > * + * { margin-top: 5mm; }
+.hr { border-top: .6pt solid var(--rule); }
+.mt2 { margin-top: 2mm; } .mt4 { margin-top: 4mm; } .mt6 { margin-top: 6mm; } .mt8 { margin-top: 8mm; }
 
-.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
-.fact { background: #fff; border-radius: 6px; border: 0.6pt solid var(--rule); padding: 3mm 3.6mm; }
-.fact .lab { font-size: 7.4pt; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); font-weight: 700; }
-.fact .val { font-family: "Cormorant", Georgia, serif; font-weight: 700; font-size: 19pt; margin: .6mm 0 .8mm; line-height: 1.05; }
-.fact p { margin: 0; font-size: 9.6pt; color: var(--ink-2); }
+/* numbered blocks */
+.numd { display: grid; grid-template-columns: 9mm 1fr; column-gap: 2mm; margin-bottom: 3.6mm; }
+.numd .k { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 24pt; line-height: .9; color: var(--ochre); }
+.rule4 .k { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 30pt; line-height: 1; color: var(--ochre); display: block; margin-bottom: 1mm; }
+.rule4 p { font-size: 9.4pt; }
 
-.season { background: #fff; border-radius: 6px; border: 0.6pt solid var(--rule); padding: 3mm 3.4mm; }
-.season .when { font-size: 7.4pt; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); font-weight: 700; }
-.season h3 { margin: .8mm 0 1mm; font-size: 16pt; }
-.season .temp { font-size: 8.8pt; color: var(--ochre); font-weight: 700; margin-bottom: 1mm; }
-.season p { font-size: 9.6pt; margin: 0; }
+/* leaders */
+.lead { display: flex; align-items: baseline; gap: 2mm; padding: 1.5mm 0; border-bottom: .5pt solid var(--rule); }
+.lead .what { white-space: nowrap; }
+.lead .dots { flex: 1; border-bottom: 1pt dotted var(--ink-3); transform: translateY(-1mm); min-width: 6mm; }
+.lead .price { font-family: var(--serif); font-weight: 700; font-size: 12pt; white-space: nowrap; }
 
-.dish { border-top: 0.8pt solid var(--rule); padding-top: 2mm; }
-.dish .name { font-family: "Cormorant", Georgia, serif; font-weight: 700; font-size: 16pt; line-height: 1.05; }
-.dish .en { font-size: 7.6pt; letter-spacing: .1em; text-transform: uppercase; color: var(--teal); font-weight: 700; margin: .6mm 0 .8mm; }
-.dish p { font-size: 9.5pt; margin: 0; color: var(--ink-2); }
+/* tables */
+table.min { width: 100%; border-collapse: collapse; font-size: 9pt; margin: 1mm 0 2mm; }
+table.min th { text-align: left; font-size: 6.6pt; letter-spacing: .2em; text-transform: uppercase; color: var(--teal); font-weight: 600; padding: 0 2mm 1.6mm 0; border-bottom: .7pt solid var(--ink); }
+table.min td { padding: 1.7mm 2mm 1.7mm 0; border-bottom: .5pt solid var(--rule); vertical-align: top; }
+table.min td:first-child { font-family: var(--serif); font-weight: 700; font-size: 11.5pt; line-height: 1.2; }
 
-.dd { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
-.dd .col h3 { margin-top: 0; }
-.dd ul { list-style: none; padding: 0; }
-.dd li { padding-left: 6mm; position: relative; margin-bottom: 1.8mm; }
-.dd .do li::before { content: "✓"; position: absolute; left: 0; color: var(--teal); font-weight: 700; }
-.dd .dont li::before { content: "✕"; position: absolute; left: 0; color: var(--brick); font-weight: 700; }
+/* facts */
+.fact { border-top: .6pt solid var(--rule); padding: 3mm 0 3.4mm; }
+.fact .v { font-family: var(--serif); font-weight: 600; font-size: 19pt; line-height: 1.05; margin: .4mm 0 1mm; }
+.fact p { margin: 0; font-size: 9.3pt; color: var(--ink-2); line-height: 1.5; }
 
-.phr td:first-child { font-weight: 700; font-size: 12pt; width: 33%; }
-.phr td:last-child { color: var(--ink-2); font-style: italic; width: 28%; }
+/* seasons */
+.season .nm { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 22pt; line-height: 1; }
+.season .m { font-size: 6.6pt; letter-spacing: .2em; text-transform: uppercase; color: var(--teal); font-weight: 600; margin: 1mm 0 .6mm; font-family: var(--sans); font-style: normal; }
+.season .tp { font-family: var(--serif); font-weight: 700; font-size: 11pt; color: var(--ochre); margin-bottom: 1mm; }
+.season p { font-size: 9.2pt; line-height: 1.5; margin: 0; }
 
-.check { list-style: none; padding: 0; }
-.check li { padding-left: 6.5mm; position: relative; margin-bottom: 1.6mm; }
-.check li::before { content: ""; position: absolute; left: 0; top: .7mm; width: 3.2mm; height: 3.2mm; border: 0.9pt solid var(--teal); border-radius: 1.5px; background: #fff; }
+/* dishes */
+.dish { border-top: .6pt solid var(--rule); padding-top: 2mm; margin-bottom: 3.4mm; }
+.dish .no { font-family: var(--serif); font-style: italic; font-weight: 600; color: var(--ochre); font-size: 11pt; }
+.dish .nm { font-family: var(--serif); font-weight: 700; font-size: 16pt; line-height: 1.05; }
+.dish .en { font-family: var(--serif); font-style: italic; font-size: 11pt; color: var(--teal-deep); margin-bottom: .8mm; }
+.dish p { font-size: 9pt; color: var(--ink-2); margin: 0; line-height: 1.5; }
 
-.toc { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 8mm; }
-.toc li { display: flex; justify-content: space-between; border-bottom: 0.6pt dotted var(--rule); padding: 1.3mm 0; margin: 0; break-inside: avoid; }
-.toc li span:first-child b { color: var(--teal); margin-right: 2mm; font-weight: 700; }
+/* do / don't */
+.dd li { list-style: none; position: relative; padding-left: 7mm; margin-bottom: 2.2mm; }
+.dd ul { padding: 0; margin: 0; }
+.dd .do li::before { content: "✓"; position: absolute; left: 0; top: -1mm; font-family: var(--serif); font-weight: 700; font-size: 14pt; color: var(--teal); }
+.dd .dont li::before { content: "✕"; position: absolute; left: 0; top: -.6mm; font-family: var(--serif); font-weight: 700; font-size: 12pt; color: var(--brick); }
+.dd h3 { font-style: italic; font-size: 22pt; margin-bottom: 3mm; }
 
-.day { border-left: 1.2mm solid var(--teal); padding: .4mm 0 .4mm 4mm; margin-bottom: 4mm; }
-.day h3 { margin-top: 0; }
-.day ol { margin: 0; padding-left: 4.6mm; }
-.day li { margin-bottom: .8mm; }
+/* phrasebook */
+.phr { display: grid; grid-template-columns: 1fr 1fr; column-gap: 10mm; }
+.phr .row { display: grid; grid-template-columns: 1fr auto; align-items: baseline; border-bottom: .5pt solid var(--rule); padding: 2mm 0 1.6mm; }
+.phr .vi { font-family: var(--serif); font-weight: 700; font-size: 15.5pt; line-height: 1.1; }
+.phr .en { font-size: 8.6pt; color: var(--ink-2); grid-column: 1; }
+.phr .say { font-family: var(--hand); font-weight: 600; font-size: 14pt; color: var(--teal-deep); grid-row: 1 / span 2; grid-column: 2; align-self: center; text-align: right; }
 
-/* chapter opener band */
-.chap { display: flex; align-items: baseline; gap: 3mm; margin-bottom: 1mm; }
-.chap .no { font-family: "Cormorant", Georgia, serif; font-weight: 700; font-size: 15pt; color: var(--teal); }
+/* checklists */
+.chk { list-style: none; padding: 0; margin: 0 0 2mm; }
+.chk li { position: relative; padding-left: 6.5mm; margin-bottom: 1.5mm; }
+.chk li::before { content: ""; position: absolute; left: 0; top: .9mm; width: 3.2mm; height: 3.2mm; border: .8pt solid var(--teal); border-radius: 50%; }
+
+/* days */
+.day .nm { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 22pt; color: var(--teal-deep); line-height: 1; }
+.day .sub { font-family: var(--serif); font-weight: 700; font-size: 12.5pt; margin: .6mm 0 2.4mm; line-height: 1.15; }
+.day ol { list-style: none; padding: 0; margin: 0; border-left: .7pt solid var(--rule); }
+.day li { position: relative; padding: 0 0 2.8mm 5mm; font-size: 9.4pt; line-height: 1.5; }
+.day li::before { content: ""; position: absolute; left: -1.25mm; top: 1.4mm; width: 2.2mm; height: 2.2mm; border-radius: 50%; background: var(--paper); border: .8pt solid var(--ochre); }
 
 /* cover */
-.cover { padding: 0; background: #FCF6EC; }
-.cover .art { position: absolute; left: 0; right: 0; bottom: 0; top: 82mm; }
-.cover .art img { width: 100%; height: 100%; object-fit: contain; object-position: center bottom; }
-.cover .title { position: absolute; top: 15mm; left: 16mm; right: 16mm; }
-.cover .title .kicker { color: var(--teal); }
-.cover h1 { font-family: "Heritage", Georgia, serif; font-weight: 400; font-size: 50pt; line-height: .95; color: var(--ink); }
-.cover .sub { font-size: 12.5pt; color: var(--ink-2); margin-top: 3mm; max-width: 150mm; }
-.cover .brand { position: absolute; right: 16mm; top: 14mm; text-align: right; }
-.cover .brand .tf { font-family: "Heritage", Georgia, serif; font-size: 18pt; color: var(--teal); }
-.cover .brand .meta { font-size: 8.4pt; color: var(--ink-2); margin-top: 1mm; }
+.cover { padding: 0; }
+.cover .top { position: absolute; top: 17mm; left: 18mm; right: 18mm; }
+.cover .lab { color: var(--teal); }
+.cover .the { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 30pt; line-height: 1; color: var(--ink-2); margin-top: 6mm; }
+.cover .big { font-family: "Heritage", var(--serif); font-size: 104pt; line-height: .86; color: var(--ink); letter-spacing: .01em; margin-top: 1mm; }
+.cover .hb { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 50pt; line-height: 1; color: var(--teal-deep); margin-top: 1mm; }
+.cover .sub { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 13.5pt; line-height: 1.3; color: var(--ink-2); margin-top: 4mm; max-width: 92mm; }
+.cover .scrib { position: absolute; right: 22mm; top: 66mm; transform: rotate(-6deg); text-align: center; }
+.cover .art { position: absolute; left: 30mm; right: 0; bottom: 0; height: 190mm; display: flex; justify-content: flex-end; align-items: flex-end; }
+.cover .art img { height: 100%; width: auto; mix-blend-mode: multiply; }
+.cover .bottom { position: absolute; left: 18mm; bottom: 12mm; width: 60mm; }
+.cover .wm { font-family: "Heritage", var(--serif); font-size: 21pt; color: var(--teal); }
 
-.cta { background: var(--ink); color: #fff; border-radius: 6px; padding: 7mm 7mm; }
-.cta h3 { color: #fff; font-size: 19pt; margin: 0 0 2mm; }
-.cta p { color: #E7ECEE; }
-.cta a { color: #7FD3E2; }
-.cta .btn { display: inline-block; background: var(--teal); color: #fff; padding: 2mm 4mm; border-radius: 4px; font-weight: 700; margin-top: 1mm; }
+/* letter */
+.letter p { font-family: var(--serif); font-size: 14.4pt; line-height: 1.42; font-weight: 500; color: var(--ink); margin-bottom: 3mm; }
 
-.back { background: var(--ink); color: #E7ECEE; }
-.back h2 { color: #fff; }
-.back a { color: #7FD3E2; }
-.back td, .back th { border-color: #4A535B; }
-.back th { color: #7FD3E2; border-bottom-color: #7FD3E2; }
-.back .foot { color: #AAB4BA; border-top-color: #4A535B; }
-.back .foot b { color: #7FD3E2; }
-.back .small { color: #AAB4BA; }
-.back td:last-child { white-space: nowrap; }
-.back td { padding: 2.2mm 1.6mm; }
-.facts .fact { padding: 4.4mm 4.6mm; }
-.facts .fact .val { font-size: 18.5pt; }
-.facts { gap: 3.6mm; }
+/* contents */
+.toc .part { font-size: 6.8pt; letter-spacing: .22em; text-transform: uppercase; color: var(--teal); font-weight: 600; margin: 6mm 0 1mm; }
+.toc .part:first-child { margin-top: 0; }
+.toc .it { display: flex; align-items: baseline; gap: 2.4mm; padding: 2mm 0; }
+.toc .it .k { font-family: var(--serif); font-style: italic; font-weight: 600; color: var(--ochre); font-size: 11pt; width: 6mm; }
+.toc .it .t { font-family: var(--serif); font-weight: 600; font-size: 14.5pt; white-space: nowrap; }
+.toc .it .dots { flex: 1; border-bottom: 1pt dotted var(--rule); transform: translateY(-1mm); }
+.toc .it .p { font-family: var(--serif); font-weight: 600; font-size: 12pt; }
+
+/* call to action + back */
+.cta { background: var(--ink); color: #EDE7DA; border-radius: 6px; padding: 8mm 9mm; }
+.cta h3 { color: #fff; font-size: 21pt; font-style: italic; margin-bottom: 2.5mm; }
+.cta p { color: #D9D3C6; }
+.cta a { color: #8FD5E2; border-bottom-color: rgba(143,213,226,.5); }
+.cta .k { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 13pt; color: #E6C27F; display: block; }
+.back { background: var(--ink); color: #D9D3C6; }
+.back h2, .back h3 { color: #fff; }
+.back h2 em { color: #8FD5E2; }
+.back .rh, .back .folio { color: #8C9497; }
+.back .folio .n { color: #fff; }
+.back a { color: #8FD5E2; border-bottom-color: rgba(143,213,226,.5); }
+.back table.min th { color: #8FD5E2; border-bottom-color: #8C9497; }
+.back table.min td { border-bottom-color: #3A4448; }
+.back table.min td:first-child { color: #fff; }
+.back .ch .t { color: #8FD5E2; }
+.back .stand { color: #BDB7AA; }
 </style>
 </head>
 <body>
 
-<!-- 1 · COVER -->
+<!-- ============ 1 · COVER ============ -->
 <section class="page cover">
-  <div class="art"><img src="illustrations/01-cover.jpg" alt="Illustrated morning street in Hanoi's Old Quarter"></div>
-  <div class="title">
-    <div class="kicker">Free guide · 2026–27 edition</div>
-    <h1>The Hanoi<br>Handbook</h1>
-    <div class="sub">A local friend's guide for your first trip: what to sort before you fly, how to get around, what to eat and how to be a good guest.</div>
+  <div class="top">
+    <span class="lab">A local friend's guide · 2026–27 edition</span>
+    <div class="the">The</div>
+    <div class="big">HANOI</div>
+    <div class="hb">Handbook</div>
+    <div class="sub">What to sort before you fly, how to get around, what to eat, and how to be a good guest.</div>
   </div>
-  <div class="brand">
-    <div class="tf">TravelFrame</div>
-    <div class="meta">Updated November 2026<br>travelframe.sidevn.com · @travelframe.vn</div>
+  <div class="scrib hand">for first-timers,<br>from locals ♡</div>
+  <div class="art"><img src="illustrations/01-cover.jpg" alt="Watercolor of a morning street in Hanoi's Old Quarter"></div>
+  <div class="bottom">
+    <div class="wm">TravelFrame</div>
+    <div class="small">Updated November 2026<br>travelframe.sidevn.com<br>@travelframe.vn</div>
   </div>
 </section>
 
-<!-- 2 · WELCOME + CONTENTS -->
+<!-- ============ 2 · WELCOME ============ -->
 <section class="page">
-  <div class="kicker">Welcome</div>
-  <h2>Xin chào, and welcome to Hanoi.</h2>
-  <p class="lede">Hanoi rewards people who slow down. It has been Vietnam's capital, on and off, for more than a thousand years, and you can still see the layers: temple roofs between narrow shophouses, French villas under old trees, and street kitchens that have cooked one dish for decades.</p>
-  <div class="fig" style="height:46mm"><img src="illustrations/17-welcome.jpg" alt="Illustrated local host welcoming a traveler at a guesthouse door"></div>
-  <p>We are TravelFrame, a small team of Hanoi locals. We walk the city with travelers and photograph the trip as we go. This handbook is what we tell our own friends before their first visit, in the order you will need it.</p>
-  <div class="cols" style="margin-top:4mm">
-    <div class="tip"><b>How to use it</b>Save it to your phone. It works offline. Blue links open our longer online guides when you have data.</div>
-    <div class="warn"><b>Things change</b>Prices, opening hours, visa rules and Train Street access change often. Every time-sensitive fact carries a <span class="checked">checked</span> date. Confirm it close to your trip.</div>
+  <div class="rh"><span>The Hanoi Handbook</span><span>Welcome</span></div>
+  <div class="hand" style="font-size:44pt; color:var(--teal-deep); margin-bottom:4mm">Xin chào,</div>
+  <div class="letter" style="max-width:138mm">
+    <p>Hanoi rewards people who slow down. It has been Vietnam's capital, on and off, for more than a thousand years, and you can still see the layers: temple roofs between narrow shophouses, French villas under old trees, and street kitchens that have cooked one dish for decades.</p>
+    <p>We are TravelFrame, a small team of Hanoi locals. We walk the city with travelers and photograph the trip as we go. This handbook is what we tell our own friends before their first visit, in the order you'll need it.</p>
+    <p>Read it on the plane, save it to your phone, and come and say hello.</p>
   </div>
-  <h3 style="margin-top:3mm">Inside</h3>
-  <ul class="toc">
-    <li><span><b>01</b>Hanoi at a glance</span><span>3</span></li>
-    <li><span><b>02</b>Before you fly</span><span>4</span></li>
-    <li><span><b>03</b>When to go</span><span>5</span></li>
-    <li><span><b>04</b>How long and where to stay</span><span>6</span></li>
-    <li><span><b>05</b>Airport to the city</span><span>7</span></li>
-    <li><span><b>06</b>Money and prices</span><span>8</span></li>
-    <li><span><b>07</b>Getting around</span><span>9</span></li>
-    <li><span><b>08</b>The lake and the Old Quarter</span><span>10</span></li>
-    <li><span><b>09</b>History and heritage</span><span>11</span></li>
-    <li><span><b>10</b>More to explore</span><span>12</span></li>
-    <li><span><b>11</b>One, two or three days</span><span>13</span></li>
-    <li><span><b>12</b>Twelve things to eat</span><span>14</span></li>
-    <li><span><b>13</b>Street food and coffee</span><span>15</span></li>
-    <li><span><b>14</b>Hanoi after dark</span><span>16</span></li>
-    <li><span><b>15</b>Be a good guest</span><span>17</span></li>
-    <li><span><b>16</b>Stay safe, skip the traps</span><span>18</span></li>
-    <li><span><b>17</b>Survival Vietnamese</span><span>19</span></li>
-    <li><span><b>18</b>Day trips</span><span>20</span></li>
-    <li><span><b>19</b>What to pack</span><span>21</span></li>
-    <li><span><b>20</b>Photos and your Hanoi story</span><span>22</span></li>
-    <li><span><b>21</b>Trip checklist</span><span>23</span></li>
-    <li><span><b>22</b>Sources and notes</span><span>24</span></li>
-  </ul>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · TravelFrame</span><span>2</span></div>
+  <div class="hand" style="font-size:21pt; margin:1mm 0 0 70mm">— your friends at TravelFrame</div>
+  <img class="ill mt4" src="illustrations/17-welcome.jpg" alt="Watercolor of a local host welcoming a traveler at a guesthouse door">
+  <div class="g2 mt4 push">
+    <div class="note"><span class="lab">How to use it</span><p>Save it to your phone; it works offline. Underlined links open our longer guides online when you have data.</p></div>
+    <div class="note"><span class="lab">Things change</span><p>Prices, opening hours, visa rules and Train Street access change often. Time-sensitive facts carry a <span class="ck">checked</span> date. Confirm them close to your trip.</p></div>
+  </div>
+  <div class="folio"><span>TravelFrame</span><span class="n">2</span></div>
 </section>
 
-<!-- 3 · AT A GLANCE -->
+<!-- ============ 3 · CONTENTS ============ -->
 <section class="page">
-  <div class="chap"><span class="no">01</span><span class="kicker">Hanoi at a glance</span></div>
-  <h2>The basics on one page</h2>
-  <p class="lede">Hanoi sits on the Red River in northern Vietnam. The centre is compact: the Old Quarter north of Hoàn Kiếm Lake, the French Quarter to its south, Ba Đình's monuments to the west and West Lake to the north. You can walk between the first three.</p>
-  <div class="facts">
-    <div class="fact"><div class="lab">Money</div><div class="val">Vietnamese đồng (VND)</div><p>1 USD ≈ 25,600 VND. Quick maths: 100,000 VND is about US$4. <span class="checked">checked Nov 2026</span></p></div>
-    <div class="fact"><div class="lab">Time</div><div class="val">UTC+7, all year</div><p>No daylight saving. 12 hours ahead of New York in winter, 11 in summer.</p></div>
-    <div class="fact"><div class="lab">Power</div><div class="val">220&nbsp;V · 50&nbsp;Hz</div><p>Two-pin sockets that take flat (Type A) and round (Type C) plugs.</p></div>
-    <div class="fact"><div class="lab">Language</div><div class="val">Vietnamese</div><p>English is common in Old Quarter hotels and cafés, less so elsewhere. A translation app helps.</p></div>
-    <div class="fact"><div class="lab">Getting around</div><div class="val">Walk + ride apps</div><p>Walk the centre. Use Grab, Xanh SM or Be for cars and motorbike taxis.</p></div>
-    <div class="fact"><div class="lab">Water</div><div class="val">Bottled or filtered</div><p>Don't drink tap water. Ice in cafés and restaurants is usually factory-made.</p></div>
-    <div class="fact"><div class="lab">Tipping</div><div class="val">Not expected</div><p>Appreciated for guides, drivers and great service. Rounding up is fine.</p></div>
-    <div class="fact"><div class="lab">Entry</div><div class="val">Check before you book</div><p>Many nationalities need an e-visa, applied for online. See page 4.</p></div>
-    <div class="fact"><div class="lab">Best months</div><div class="val">Oct–Nov · Mar–Apr</div><p>Mild, mostly dry walking weather. See page 5 for every season.</p></div>
-    <div class="fact"><div class="lab">Emergency</div><div class="val">113 · 114 · 115</div><p>Police 113 · Fire 114 · Ambulance 115. Save your embassy's number too.</p></div>
-  </div>
-  <div class="tip"><b>Local rhythm</b>Hanoi is a morning city. The lake is busiest at sunrise, many breakfast stalls sell out by 10am, and the streets go quiet after lunch. Plan walks for early and late, and save midday for museums, cafés and a nap.</div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Hanoi at a glance</span><span>3</span></div>
-</section>
-
-<!-- 4 · BEFORE YOU FLY -->
-<section class="page">
-  <div class="chap"><span class="no">02</span><span class="kicker">Before you fly</span></div>
-  <h2>Sort these before you leave home</h2>
-  <div class="fig" style="height:90mm"><img src="illustrations/02-before-you-fly.jpg" alt="Illustrated flat lay of passport, phone, rain jacket and sneakers"></div>
-  <div class="side">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Contents</span></div>
+  <h2>Inside</h2>
+  <p class="stand">Twenty-two short chapters, in the order you'll need them.</p>
+  <div class="g2 toc" style="column-gap:12mm">
     <div>
-      <h3>1. Check your entry rule</h3>
-      <ul>
-        <li><b>E-visa:</b> many nationalities, including US citizens, need one. Apply only on the official portal <b>evisa.gov.vn</b>. It allows stays of up to 90 days, single or multiple entry. Government fee: US$25 single, US$50 multiple. <span class="checked">checked Nov 2026</span></li>
-        <li><b>Visa-free:</b> some passports can enter without a visa for a set number of days. The list changes, so check the official immigration portal or a Vietnamese embassy.</li>
-        <li><b>Passport:</b> valid for at least 6 months after you arrive.</li>
-        <li><b>Timing:</b> processing is usually about 3 working days. Apply at least a week ahead.</li>
-      </ul>
-      <div class="warn"><b>Watch out</b>Lookalike visa websites charge extra service fees. The official site ends in .gov.vn.</div>
+      <div class="part">Plan</div>
+      <div class="it"><span class="k">01</span><span class="t">Hanoi at a glance</span><span class="dots"></span><span class="p">4</span></div>
+      <div class="it"><span class="k">02</span><span class="t">Before you fly</span><span class="dots"></span><span class="p">5</span></div>
+      <div class="it"><span class="k">03</span><span class="t">When to go</span><span class="dots"></span><span class="p">6</span></div>
+      <div class="it"><span class="k">04</span><span class="t">Where to stay</span><span class="dots"></span><span class="p">7</span></div>
+      <div class="part">Arrive</div>
+      <div class="it"><span class="k">05</span><span class="t">Airport to the city</span><span class="dots"></span><span class="p">8</span></div>
+      <div class="it"><span class="k">06</span><span class="t">Money and prices</span><span class="dots"></span><span class="p">9</span></div>
+      <div class="it"><span class="k">07</span><span class="t">Getting around</span><span class="dots"></span><span class="p">10</span></div>
+      <div class="part">Explore</div>
+      <div class="it"><span class="k">08</span><span class="t">The lake and the Old Quarter</span><span class="dots"></span><span class="p">11</span></div>
+      <div class="it"><span class="k">09</span><span class="t">History and heritage</span><span class="dots"></span><span class="p">12</span></div>
+      <div class="it"><span class="k">10</span><span class="t">More to explore</span><span class="dots"></span><span class="p">13</span></div>
+      <div class="it"><span class="k">11</span><span class="t">One, two or three days</span><span class="dots"></span><span class="p">14</span></div>
     </div>
     <div>
-      <h3>2. Phone and data</h3>
-      <p>Buy an eSIM before you fly, or a local SIM in the arrivals hall. Local SIMs must be registered with your passport. Main networks: Viettel, Vinaphone, MobiFone.</p>
-      <h3>3. Apps to install</h3>
-      <ul>
-        <li><b>Grab, Xanh SM or Be:</b> rides and food delivery</li>
-        <li><b>Google Maps:</b> download Hanoi for offline use</li>
-        <li><b>Google Translate:</b> download Vietnamese; the camera reads menus</li>
-        <li><b>Zalo:</b> many hotels and hosts message on it</li>
-      </ul>
-      <h3>4. Money and cover</h3>
-      <p>Bring a card with low foreign fees, a backup card and some clean US dollar or euro notes. Get travel insurance that includes medical care.</p>
+      <div class="part">Eat and drink</div>
+      <div class="it"><span class="k">12</span><span class="t">Twelve things to eat</span><span class="dots"></span><span class="p">15</span></div>
+      <div class="it"><span class="k">13</span><span class="t">Street food and coffee</span><span class="dots"></span><span class="p">16</span></div>
+      <div class="it"><span class="k">14</span><span class="t">Hanoi after dark</span><span class="dots"></span><span class="p">17</span></div>
+      <div class="part">Live like a local</div>
+      <div class="it"><span class="k">15</span><span class="t">Be a good guest</span><span class="dots"></span><span class="p">18</span></div>
+      <div class="it"><span class="k">16</span><span class="t">Stay safe, skip the traps</span><span class="dots"></span><span class="p">19</span></div>
+      <div class="it"><span class="k">17</span><span class="t">Survival Vietnamese</span><span class="dots"></span><span class="p">20</span></div>
+      <div class="part">Beyond</div>
+      <div class="it"><span class="k">18</span><span class="t">Day trips</span><span class="dots"></span><span class="p">21</span></div>
+      <div class="it"><span class="k">19</span><span class="t">What to pack</span><span class="dots"></span><span class="p">22</span></div>
+      <div class="it"><span class="k">20</span><span class="t">Photos and your story</span><span class="dots"></span><span class="p">23</span></div>
+      <div class="it"><span class="k">21</span><span class="t">Trip checklist</span><span class="dots"></span><span class="p">24</span></div>
+      <div class="it"><span class="k">22</span><span class="t">Sources and notes</span><span class="dots"></span><span class="p">25</span></div>
     </div>
   </div>
-  <div class="tip"><b>Local tip</b>Screenshot your hotel's address in Vietnamese before you land. Every driver can read it.</div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Before you fly</span><span>4</span></div>
+  <div class="mt8 push" style="display:flex; gap:10mm; align-items:center">
+    <div class="hand tilt" style="font-size:20pt">Short on time?<br>Read 02, 05 and 12 first.</div>
+    <div class="pull" style="font-size:15pt; max-width:95mm">The best Hanoi trips are slow ones: early walks, long lunches, and one more coffee.</div>
+  </div>
+  <div class="folio"><span>TravelFrame</span><span class="n">3</span></div>
 </section>
 
-<!-- 5 · WHEN TO GO -->
+<!-- ============ 4 · AT A GLANCE ============ -->
 <section class="page">
-  <div class="chap"><span class="no">03</span><span class="kicker">When to go</span></div>
-  <h2>Hanoi has four real seasons</h2>
-  <p class="lede">Unlike southern Vietnam, Hanoi gets a proper winter and a hot, stormy summer. For walking and photos, locals pick October–November and March–April.</p>
-  <div class="fig" style="height:84mm"><img src="illustrations/03-seasons.jpg" alt="Four illustrated vignettes of Hanoi in spring, summer, autumn and winter"></div>
-  <div class="cols-4">
-    <div class="season"><div class="when">Feb – Apr</div><h3>Spring</h3><div class="temp">about 17–25°C</div><p>Mild and often grey, with fine drizzle. Tết and peach blossom. Pavements get slippery.</p></div>
-    <div class="season"><div class="when">May – Aug</div><h3>Summer</h3><div class="temp">32–35°C+, humid</div><p>Hot, with sudden heavy storms; July and August are the wettest. Lotus season on the lakes.</p></div>
-    <div class="season"><div class="when">Sep – Nov</div><h3>Autumn</h3><div class="temp">about 20–30°C</div><p>Locals' favourite. Drier air and golden light. Daisy carts appear in November.</p></div>
-    <div class="season"><div class="when">Dec – Jan</div><h3>Winter</h3><div class="temp">about 13–20°C</div><p>Cool and damp. Cold snaps can near 10°C, and most rooms have no heating.</p></div>
-  </div>
-  <p class="small" style="margin-top:2mm">Temperatures are typical ranges from long-term averages. Check a forecast the week you fly.</p>
-  <div class="cols" style="margin-top:3mm">
-    <div class="warn"><b>Tết 2027</b>Lunar New Year falls on Saturday 6 February 2027. The week before is beautiful: flower markets, and kumquat trees riding through town on motorbikes. From New Year's Eve to about the third day, many family shops and street stalls close, transport sells out and some prices rise. Book ahead and plan your meals. Official 2027 holiday dates were not final when we checked. <span class="checked">checked Nov 2026</span></div>
-    <div class="tip"><b>Air quality</b>Winter and early spring can bring hazy days with poor air. Check an air-quality app each morning. On bad days, a good mask helps and indoor plans win.</div>
-  </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · When to go</span><span>5</span></div>
-</section>
-
-<!-- 6 · HOW LONG + WHERE TO STAY -->
-<section class="page">
-  <div class="chap"><span class="no">04</span><span class="kicker">How long and where to stay</span></div>
-  <h2>Give Hanoi three days if you can</h2>
-  <p class="lede">Two full days cover the classics. Three or four let you add a day trip to Ninh Bình or Hạ Long Bay and still have slow mornings. Heading to Hạ Long, Sapa or Hà Giang next? Keep a buffer night in Hanoi.</p>
-  <div class="fig" style="height:95mm"><img src="illustrations/07-neighbourhoods.jpg" alt="Illustrated panorama of the Old Quarter, French Quarter and West Lake"></div>
-  <div class="cols">
-    <div class="card"><h4>Old Quarter (Hoàn Kiếm)</h4><p><b>Best for:</b> first-timers, food and walking everywhere.</p><p><b>Good to know:</b> lively until late. Ask for a room away from the street.</p></div>
-    <div class="card"><h4>French Quarter</h4><p><b>Best for:</b> wide leafy streets, larger hotels and the Opera House.</p><p><b>Good to know:</b> quieter at night, and about 15 minutes' walk to the Old Quarter.</p></div>
-    <div class="card"><h4>Ba Đình and Trúc Bạch</h4><p><b>Best for:</b> the mausoleum, the citadel and the Temple of Literature, plus a local neighbourhood feel.</p><p><b>Good to know:</b> fewer late-night options.</p></div>
-    <div class="card"><h4>Tây Hồ (West Lake)</h4><p><b>Best for:</b> longer stays, cafés, lakeside cycling and a calmer pace.</p><p><b>Good to know:</b> about 15–25 minutes by car to the Old Quarter.</p></div>
-  </div>
-  <div class="tip"><b>Local tip</b>Check the map before you book. "Old Quarter" in a hotel's name doesn't always mean it is inside the Old Quarter.</div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Where to stay</span><span>6</span></div>
-</section>
-
-<!-- 7 · ARRIVAL -->
-<section class="page">
-  <div class="chap"><span class="no">05</span><span class="kicker">Airport to the city</span></div>
-  <h2>Nội Bài to the Old Quarter</h2>
-  <p class="lede">Nội Bài International Airport (HAN) is about 30&nbsp;km north of the Old Quarter. By car it takes 45–60 minutes, and longer at rush hour or in heavy rain.</p>
-  <div class="fig" style="height:88mm"><img src="illustrations/04-arrival.jpg" alt="Illustrated bridge into Hanoi with a public bus and a suitcase"></div>
-  <table>
-    <tr><th>Option</th><th>Time</th><th>Typical cost</th><th>Best for</th></tr>
-    <tr><td><b>Ride-hailing</b> (Grab, Xanh SM)</td><td>45–60&nbsp;min</td><td>about 200,000–400,000 VND</td><td>Most travelers</td></tr>
-    <tr><td><b>Airport taxi</b></td><td>45–60&nbsp;min</td><td>about 300,000–450,000 VND</td><td>No app or no data</td></tr>
-    <tr><td><b>Bus 86</b></td><td>60–80&nbsp;min</td><td>45,000 VND</td><td>Budget, light luggage</td></tr>
-    <tr><td><b>Hotel pickup</b></td><td>45–60&nbsp;min</td><td>Set by the hotel</td><td>Late arrivals, families</td></tr>
-  </table>
-  <p class="small">Typical ranges, not official tariffs. App fares change with traffic and time of day. <span class="checked">checked Nov 2026</span></p>
-  <div class="cols" style="margin-top:2mm">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Hanoi at a glance</span></div>
+  <div class="ch"><span class="n">01</span><span class="line"></span><span class="t">Hanoi at a glance</span></div>
+  <h2>The basics, <em>on one page</em></h2>
+  <p class="stand">Hanoi sits on the Red River in northern Vietnam. The centre is compact: the Old Quarter north of Hoàn Kiếm Lake, the French Quarter to its south, Ba Đình's monuments to the west and West Lake to the north.</p>
+  <div class="g2">
     <div>
-      <h4>Ride-hailing</h4>
-      <p>Connect to airport Wi-Fi or your eSIM, book in the app and follow its pickup signs. Check the plate number before you get in. A small airport toll may be added.</p>
-      <h4>Airport taxi</h4>
-      <p>Use the official taxi queue outside arrivals. Ignore anyone offering a ride inside the terminal. Make sure the meter is running.</p>
+      <div class="fact"><span class="lab">Money</span><div class="v">Vietnamese đồng (VND)</div><p>1 USD ≈ 25,600 VND. Quick maths: 100,000 VND is about US$4. <span class="ck">checked Nov 2026</span></p></div>
+      <div class="fact"><span class="lab">Power</span><div class="v">220&nbsp;V · 50&nbsp;Hz</div><p>Two-pin sockets that take flat (Type A) and round (Type C) plugs.</p></div>
+      <div class="fact"><span class="lab">Getting around</span><div class="v">Walk, then ride apps</div><p>Walk the centre. Use Grab, Xanh SM or Be for cars and motorbike taxis.</p></div>
+      <div class="fact"><span class="lab">Tipping</span><div class="v">Not expected</div><p>Appreciated for guides, drivers and great service. Rounding up is fine.</p></div>
+      <div class="fact"><span class="lab">Best months</span><div class="v">Oct–Nov · Mar–Apr</div><p>Mild, mostly dry walking weather. Every season is on page 6.</p></div>
     </div>
     <div>
-      <h4>Bus 86</h4>
-      <p>Stops outside arrivals at both terminals and runs past the Old Quarter and Hoàn Kiếm Lake to Hanoi Railway Station. Pay on board with small notes. The last bus leaves the airport around 10pm.</p>
-      <h4>Arriving late?</h4>
-      <p>After the last bus, use an app, the taxi queue or a pre-booked pickup. Message your hotel if your flight is delayed.</p>
+      <div class="fact"><span class="lab">Time</span><div class="v">UTC+7, all year</div><p>No daylight saving. 12 hours ahead of New York in winter, 11 in summer.</p></div>
+      <div class="fact"><span class="lab">Language</span><div class="v">Vietnamese</div><p>English is common in Old Quarter hotels and cafés, less so elsewhere. A translation app helps.</p></div>
+      <div class="fact"><span class="lab">Water</span><div class="v">Bottled or filtered</div><p>Don't drink tap water. Ice in cafés and restaurants is usually factory-made.</p></div>
+      <div class="fact"><span class="lab">Entry</span><div class="v">Check before you book</div><p>Many nationalities need an e-visa, applied for online. See page 5.</p></div>
+      <div class="fact"><span class="lab">Emergency</span><div class="v">113 · 114 · 115</div><p>Police · Fire · Ambulance. Save your embassy's number too.</p></div>
     </div>
   </div>
-  <p>Full step-by-step guide: <a data-u="hanoi-airport-to-old-quarter" data-c="airport">Hanoi airport to Old Quarter</a></p>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Airport to the city</span><span>7</span></div>
+  <div class="mt6 push" style="display:grid; grid-template-columns: 1fr 44mm; gap:8mm; align-items:center">
+    <div class="pull">Hanoi is a morning city. The lake is busiest at sunrise, breakfast stalls sell out by ten, and the streets go quiet after lunch.</div>
+    <div class="hand tilt">Set an early alarm. It's worth it.</div>
+  </div>
+  <div class="folio"><span>TravelFrame</span><span class="n">4</span></div>
 </section>
 
-<!-- 8 · MONEY -->
+<!-- ============ 5 · BEFORE YOU FLY ============ -->
 <section class="page">
-  <div class="chap"><span class="no">06</span><span class="kicker">Money and prices</span></div>
-  <h2>Cash for the street, cards for the rest</h2>
-  <div class="side">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Before you fly</span></div>
+  <div style="display:grid; grid-template-columns: 1fr 84mm; gap:6mm; align-items:end">
     <div>
-      <div class="fig" style="height:80mm"><img src="illustrations/05-money.jpg" alt="Illustrated traveler paying a street food vendor"></div>
+      <div class="ch"><span class="n">02</span><span class="line"></span><span class="t">Before you fly</span></div>
+      <h2>Sort these <em>before you leave home</em></h2>
+      <p class="stand" style="margin-bottom:0">Four small jobs at home make your first day in Hanoi easy.</p>
+    </div>
+    <img class="ill" src="illustrations/02-before-you-fly.jpg" alt="Watercolor flat lay of passport, phone, rain jacket and sneakers">
+  </div>
+  <div class="ms mt8">
+    <div>
+      <div class="numd"><span class="k">1</span><div>
+        <h3>Check your entry rule</h3>
+        <ul class="dash">
+          <li><b>E-visa:</b> many nationalities, including US citizens, need one. Apply only on the official portal <b>evisa.gov.vn</b>. It allows stays of up to 90 days, single or multiple entry. Government fee: US$25 single, US$50 multiple.</li>
+          <li><b>Visa-free:</b> some passports can enter without a visa for a set number of days. The list changes, so check the official immigration portal or a Vietnamese embassy.</li>
+          <li><b>Passport:</b> valid for at least 6 months after you arrive.</li>
+          <li><b>Timing:</b> processing is usually about 3 working days. Apply at least a week ahead.</li>
+        </ul></div></div>
+      <div class="numd"><span class="k">2</span><div>
+        <h3>Phone and data</h3>
+        <p>Buy an eSIM before you fly, or a local SIM in the arrivals hall. Local SIMs must be registered with your passport. Main networks: Viettel, Vinaphone, MobiFone.</p></div></div>
+      <div class="numd"><span class="k">3</span><div>
+        <h3>Apps to install</h3>
+        <ul class="dash">
+          <li><b>Grab, Xanh SM or Be</b> for rides and food delivery</li>
+          <li><b>Google Maps</b>, with Hanoi downloaded for offline use</li>
+          <li><b>Google Translate</b>, with Vietnamese downloaded; the camera reads menus</li>
+          <li><b>Zalo</b>, which many hotels and hosts use for messages</li>
+        </ul></div></div>
+      <div class="numd" style="margin-bottom:0"><span class="k">4</span><div>
+        <h3>Money and cover</h3>
+        <p>Bring a card with low foreign fees, a backup card and some clean US dollar or euro notes. Get travel insurance that includes medical care.</p></div></div>
+    </div>
+    <div class="side">
+      <div class="note"><span class="lab">Checked</span><p>E-visa length and fees <span class="ck">Nov 2026</span></p></div>
+      <div class="note"><span class="lab">Watch out</span><p>Lookalike visa websites charge extra service fees. The official site ends in <b>.gov.vn</b>.</p></div>
+      <div class="hand tilt" style="margin-top:7mm">Screenshot your hotel's address in Vietnamese before you land. Every driver can read it.</div>
+    </div>
+  </div>
+  <div class="folio"><span>TravelFrame</span><span class="n">5</span></div>
+</section>
+
+<!-- ============ 6 · WHEN TO GO ============ -->
+<section class="page">
+  <div class="rh"><span>The Hanoi Handbook</span><span>When to go</span></div>
+  <div class="ch"><span class="n">03</span><span class="line"></span><span class="t">When to go</span></div>
+  <h2>Hanoi has <em>four real seasons</em></h2>
+  <p class="stand">Unlike southern Vietnam, Hanoi gets a proper winter and a hot, stormy summer. For walking and photos, locals pick October–November and March–April.</p>
+  <img class="ill" src="illustrations/03-seasons.jpg" alt="Watercolor vignettes of Hanoi in spring, summer, autumn and winter">
+  <div class="g4 mt2">
+    <div class="season"><div class="nm">Spring</div><div class="m">Feb – Apr</div><div class="tp">about 17–25°C</div><p>Mild and often grey, with fine drizzle. Tết and peach blossom. Pavements get slippery.</p></div>
+    <div class="season"><div class="nm">Summer</div><div class="m">May – Aug</div><div class="tp">32–35°C+, humid</div><p>Hot, with sudden heavy storms; July and August are the wettest. Lotus season on the lakes.</p></div>
+    <div class="season"><div class="nm">Autumn</div><div class="m">Sep – Nov</div><div class="tp">about 20–30°C</div><p>Locals' favourite. Drier air and golden light. Daisy carts appear in November.</p></div>
+    <div class="season"><div class="nm">Winter</div><div class="m">Dec – Jan</div><div class="tp">about 13–20°C</div><p>Cool and damp. Cold snaps can near 10°C, and most rooms have no heating.</p></div>
+  </div>
+  <p class="small mt2" style="font-style:italic">Typical ranges from long-term averages. Check a forecast the week you fly.</p>
+  <div class="g2 mt4 push">
+    <div class="note"><span class="lab">Tết 2027 · Saturday 6 February</span><p>The week before is beautiful: flower markets, and kumquat trees riding through town on motorbikes. From New Year's Eve to about the third day, many family shops and street stalls close, transport sells out and some prices rise. Book ahead and plan your meals. Official 2027 holiday dates were not final when we checked. <span class="ck">Nov 2026</span></p></div>
+    <div class="note"><span class="lab">Air quality</span><p>Winter and early spring can bring hazy days with poor air. Check an air-quality app each morning. On bad days, a good mask helps and indoor plans win.</p></div>
+  </div>
+  <div class="folio"><span>TravelFrame</span><span class="n">6</span></div>
+</section>
+
+<!-- ============ 7 · WHERE TO STAY ============ -->
+<section class="page">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Where to stay</span></div>
+  <div class="ch"><span class="n">04</span><span class="line"></span><span class="t">How long and where to stay</span></div>
+  <h2>Give Hanoi <em>three days</em> if you can</h2>
+  <p class="stand">Two full days cover the classics. Three or four let you add a day trip to Ninh Bình or Hạ Long Bay and still have slow mornings. Heading to Hạ Long, Sapa or Hà Giang next? Keep a buffer night in Hanoi.</p>
+  <img class="ill center" style="width:158mm" src="illustrations/07-neighbourhoods.jpg" alt="Watercolor panorama of the Old Quarter, French Quarter and West Lake">
+  <div class="g2 mt4" style="row-gap:4mm">
+    <div class="fact"><h3>Old Quarter <em>(Hoàn Kiếm)</em></h3><p><b>Best for</b> first-timers, food and walking everywhere. Lively until late, so ask for a room away from the street.</p></div>
+    <div class="fact"><h3>French Quarter</h3><p><b>Best for</b> wide leafy streets, larger hotels and the Opera House. Quieter at night, about 15 minutes' walk to the Old Quarter.</p></div>
+    <div class="fact"><h3>Ba Đình and Trúc Bạch</h3><p><b>Best for</b> the mausoleum, the citadel and the Temple of Literature, with a local neighbourhood feel. Fewer late-night options.</p></div>
+    <div class="fact"><h3>Tây Hồ <em>(West Lake)</em></h3><p><b>Best for</b> longer stays, cafés, lakeside cycling and a calmer pace. About 15–25 minutes by car to the Old Quarter.</p></div>
+  </div>
+  <div class="hand tilt mt4 push" style="margin-left:6mm; align-self:flex-start">Check the map before you book. "Old Quarter" in a hotel's name doesn't always mean it's in the Old Quarter!</div>
+  <div class="folio"><span>TravelFrame</span><span class="n">7</span></div>
+</section>
+
+<!-- ============ 8 · ARRIVAL ============ -->
+<section class="page">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Airport to the city</span></div>
+  <div class="ch"><span class="n">05</span><span class="line"></span><span class="t">Airport to the city</span></div>
+  <h2>Nội Bài <em>to the Old Quarter</em></h2>
+  <p class="stand">Nội Bài International Airport (HAN) is about 30&nbsp;km north of the Old Quarter. By car it takes 45–60 minutes, longer at rush hour or in heavy rain.</p>
+  <img class="ill center" style="width:156mm" src="illustrations/04-arrival.jpg" alt="Watercolor of a bridge into Hanoi with a public bus and a suitcase">
+  <div class="ms mt2">
+    <div>
+      <table class="min">
+        <tr><th>Option</th><th>Time</th><th>Typical cost</th><th>Best for</th></tr>
+        <tr><td>Ride-hailing</td><td>45–60&nbsp;min</td><td>about 200,000–400,000 VND</td><td>Most travelers</td></tr>
+        <tr><td>Airport taxi</td><td>45–60&nbsp;min</td><td>about 300,000–450,000 VND</td><td>No app or data</td></tr>
+        <tr><td>Bus 86</td><td>60–80&nbsp;min</td><td>45,000 VND</td><td>Budget, light bags</td></tr>
+        <tr><td>Hotel pickup</td><td>45–60&nbsp;min</td><td>Set by the hotel</td><td>Late arrivals, families</td></tr>
+      </table>
+      <p class="small" style="font-style:italic">Typical ranges, not official tariffs. App fares change with traffic and time of day. <span class="ck">checked Nov 2026</span></p>
+      <div class="g2 mt2" style="column-gap:6mm">
+        <div><h3>Ride-hailing</h3><p>Connect to airport Wi-Fi or your eSIM, book Grab or Xanh SM and follow the app's pickup signs. Check the plate before you get in. A small airport toll may be added.</p></div>
+        <div><h3>Airport taxi</h3><p>Use the official taxi queue outside arrivals. Ignore anyone offering a ride inside the terminal, and make sure the meter is running.</p></div>
+      </div>
+    </div>
+    <div class="side">
+      <div class="note"><span class="lab">Bus 86</span><p>Stops outside arrivals at both terminals and runs past the Old Quarter and Hoàn Kiếm Lake to Hanoi Railway Station. Pay on board with small notes. The last bus leaves the airport around 10pm.</p></div>
+      <div class="note"><span class="lab">Arriving late?</span><p>After the last bus, use an app, the taxi queue or a pre-booked pickup. Message your hotel if your flight is delayed.</p></div>
+      <div class="note"><span class="lab">Step by step</span><p><a data-u="hanoi-airport-to-old-quarter" data-c="airport">Hanoi airport to Old Quarter</a>, our full guide.</p></div>
+      <div class="hand tilt">Your driver may stop at the nearest main street. The last bit is a short walk.</div>
+    </div>
+  </div>
+  <div class="folio"><span>TravelFrame</span><span class="n">8</span></div>
+</section>
+
+<!-- ============ 9 · MONEY ============ -->
+<section class="page">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Money and prices</span></div>
+  <div class="ch"><span class="n">06</span><span class="line"></span><span class="t">Money and prices</span></div>
+  <h2>Cash for the street, <em>cards for the rest</em></h2>
+  <p class="stand">1 USD ≈ 25,600 VND. The easy maths: drop the last three zeros and divide by 25. So 100,000 VND is about US$4.</p>
+  <div style="display:grid; grid-template-columns: 82mm 1fr; gap:8mm; align-items:start">
+    <img class="ill" src="illustrations/05-money.jpg" alt="Watercolor of a traveler paying a street food vendor">
+    <div>
       <h3>Cash or card?</h3>
       <p>Cards work in hotels, many cafés, restaurants, malls and convenience stores. Street food, markets and small shops want cash. Keep 10,000–50,000 VND notes handy.</p>
-      <h3>ATMs and exchange</h3>
-      <ul>
-        <li>ATMs are everywhere. Each bank sets its own fee and withdrawal limit, and your home bank may add more.</li>
+      <h3 class="mt4">ATMs and exchange</h3>
+      <ul class="dash">
+        <li>ATMs are everywhere. Each bank sets its own fee and limit, and your home bank may add more.</li>
         <li>Use ATMs inside banks or malls.</li>
         <li>If a machine offers to charge you in your home currency, choose VND.</li>
-        <li>Exchange cash at banks or authorised exchange counters. Bring clean, undamaged notes.</li>
+        <li>Exchange cash at banks or authorised exchange counters, with clean, undamaged notes.</li>
       </ul>
-      <div class="card"><h4>Notes you'll use</h4><p>Plastic (polymer) notes: 10,000 · 20,000 · 50,000 · 100,000 · 200,000 · 500,000 VND. Older paper notes of 1,000, 2,000 and 5,000 VND still turn up as change.</p></div>
-    </div>
-    <div>
-      <div class="warn"><b>Two blue notes</b>The 20,000 and 500,000 VND notes are both blue. Count them twice before you hand them over.</div>
-      <h3>What things cost</h3>
-      <table>
-        <tr><th>Item</th><th>Typical price</th></tr>
-        <tr><td>Bowl of street phở</td><td>40,000–65,000 VND <span class="checked">Sep 2026</span></td></tr>
-        <tr><td>Short GrabBike ride in the centre</td><td>20,000–30,000 VND <span class="checked">Sep 2026</span></td></tr>
-        <tr><td>Bus 86, airport to Old Quarter</td><td>45,000 VND <span class="checked">Nov 2026</span></td></tr>
-        <tr><td>Temple of Literature ticket</td><td>70,000 VND <span class="checked">Nov 2026</span></td></tr>
-        <tr><td>Hỏa Lò Prison day ticket</td><td>50,000 VND <span class="checked">Nov 2026</span></td></tr>
-        <tr><td>Ho Chi Minh Mausoleum</td><td>Free</td></tr>
-      </table>
-      <p class="small">Typical ranges, not official tariffs. Where no price is shown, ask before you order.</p>
-      <h3>Tipping</h3>
-      <p>Not expected, always appreciated. For a guide or driver who looked after you well, a tip is a kind thank-you.</p>
-      <div class="tip"><b>Say it</b><span class="vn">Bao nhiêu?</span> (bow nyew) means "how much?" It solves half your problems.</div>
     </div>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Money and prices</span><span>8</span></div>
+  <div class="ms mt4">
+    <div>
+      <h3>What things cost</h3>
+      <div class="lead"><span class="what">Bowl of street phở</span><span class="dots"></span><span class="price">40,000–65,000</span><span class="ck">Sep 2026</span></div>
+      <div class="lead"><span class="what">Short GrabBike ride in the centre</span><span class="dots"></span><span class="price">20,000–30,000</span><span class="ck">Sep 2026</span></div>
+      <div class="lead"><span class="what">Bus 86, airport to Old Quarter</span><span class="dots"></span><span class="price">45,000</span><span class="ck">Nov 2026</span></div>
+      <div class="lead"><span class="what">Temple of Literature ticket</span><span class="dots"></span><span class="price">70,000</span><span class="ck">Nov 2026</span></div>
+      <div class="lead"><span class="what">Hỏa Lò Prison day ticket</span><span class="dots"></span><span class="price">50,000</span><span class="ck">Nov 2026</span></div>
+      <div class="lead"><span class="what">Ho Chi Minh Mausoleum</span><span class="dots"></span><span class="price">free</span></div>
+      <p class="small mt2" style="font-style:italic">Prices in VND. Typical ranges, not official tariffs. Where no price is shown, ask before you order.</p>
+    </div>
+    <div class="side">
+      <div class="note"><span class="lab">Two blue notes</span><p>The 20,000 and 500,000 VND notes are both blue. Count them twice before you hand them over.</p></div>
+      <div class="note"><span class="lab">Notes you'll use</span><p>Polymer: 10k · 20k · 50k · 100k · 200k · 500k. Old paper 1k, 2k and 5k notes still turn up as change.</p></div>
+      <div class="note"><span class="lab">Tipping</span><p>Not expected, always appreciated, especially for a guide or driver who looked after you well.</p></div>
+    </div>
+  </div>
+  <div class="mt4 push"><span class="hand">Say</span> <span class="vn" style="font-size:17pt">Bao nhiêu?</span> <span class="hand">(bow nyew), "how much?" It solves half your problems.</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">9</span></div>
 </section>
 
-<!-- 9 · GETTING AROUND -->
+<!-- ============ 10 · GETTING AROUND ============ -->
 <section class="page">
-  <div class="chap"><span class="no">07</span><span class="kicker">Getting around</span></div>
-  <h2>Walk first, then ride</h2>
-  <div class="fig" style="height:86mm"><img src="illustrations/06-getting-around.jpg" alt="Illustrated Hanoi street with a motorbike taxi, a cyclo and a pedestrian crossing"></div>
-  <div class="cols">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Getting around</span></div>
+  <div class="ch"><span class="n">07</span><span class="line"></span><span class="t">Getting around</span></div>
+  <h2>Walk first, <em>then ride</em></h2>
+  <img class="ill center mt2" style="width:166mm" src="illustrations/06-getting-around.jpg" alt="Watercolor of a Hanoi street with a motorbike taxi, a cyclo and a pedestrian">
+  <h3 class="mt2">Crossing the street, in four rules</h3>
+  <div class="g4 rule4 mt2">
+    <div><span class="k">1</span><p>Walk at a slow, steady pace. Don't run, stop suddenly or step back.</p></div>
+    <div><span class="k">2</span><p>Look at oncoming riders. A raised hand helps them see you.</p></div>
+    <div><span class="k">3</span><p>Use lights and zebra crossings where they exist. Watch for turning bikes.</p></div>
+    <div><span class="k">4</span><p>On big roads, cross next to a local. More: <a data-u="how-cross-street-hanoi-practical-survival-guide-traffic-scooters-and-staying-calm-2026" data-c="crossing">our crossing guide</a></p></div>
+  </div>
+  <div class="g2 hr mt2" style="padding-top:4mm">
     <div>
-      <h3>Crossing the street</h3>
-      <ul>
-        <li>Walk at a slow, steady pace. Don't run, stop suddenly or step back.</li>
-        <li>Look at oncoming riders. A raised hand helps them see you.</li>
-        <li>Use lights and zebra crossings where they exist, and watch for turning bikes.</li>
-        <li>On big roads, cross next to a local.</li>
-      </ul>
-      <p>More: <a data-u="how-cross-street-hanoi-practical-survival-guide-traffic-scooters-and-staying-calm-2026" data-c="crossing">how to cross the street in Hanoi</a></p>
       <h3>Ride-hailing apps</h3>
       <p>Grab, Xanh SM (all-electric) and Be offer cars and motorbike taxis with the price shown first. Match the plate before you get on, and wear the helmet you're given.</p>
-      <h3>Taxis</h3>
-      <p>Book through an app or use metered taxis from well-known companies. Check that the meter starts.</p>
+      <h3>Taxis and cyclos</h3>
+      <p>Book a taxi through an app or use metered taxis from well-known companies. A cyclo is a slow pedal ride with you in the front seat: agree the price and duration before you sit down.</p>
     </div>
     <div>
-      <h3>Cyclo</h3>
-      <p>A slow pedal ride with you in the front seat. Agree the price and the duration before you sit down. Booking through your hotel is easiest.</p>
       <h3>Metro and buses</h3>
-      <p>Line 2A (Cát Linh–Hà Đông) and the elevated part of Line 3 (Nhổn–Cầu Giấy) run today. The underground section to Hanoi Station is expected in 2027, so the metro doesn't reach the Old Quarter yet. City buses are cheap and air-conditioned, and Google Maps shows the routes. <span class="checked">checked Nov 2026</span></p>
+      <p>Line 2A (Cát Linh–Hà Đông) and the elevated part of Line 3 (Nhổn–Cầu Giấy) run today. The underground section to Hanoi Station is expected in 2027, so the metro doesn't reach the Old Quarter yet. City buses are cheap, and Google Maps shows the routes. <span class="ck">checked Nov 2026</span></p>
       <h3>Renting a motorbike?</h3>
-      <p>You need a licence that is valid in Vietnam, or your insurance may not pay out after an accident. In central Hanoi, a motorbike taxi is the easier choice.</p>
-      <div class="tip"><b>Local tip</b>Pavements often double as motorbike parking. Walk with the flow and keep your phone on the side away from the road.</div>
+      <p>You need a licence that is valid in Vietnam, or your insurance may not pay out after an accident. In central Hanoi, a motorbike taxi is easier.</p>
     </div>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Getting around</span><span>9</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">10</span></div>
 </section>
 
-<!-- 10 · LAKE + OLD QUARTER -->
+<!-- ============ 11 · LAKE + OLD QUARTER ============ -->
 <section class="page">
-  <div class="chap"><span class="no">08</span><span class="kicker">Things to see</span></div>
-  <h2>Start here: the lake and the Old Quarter</h2>
-  <div class="fig" style="height:124mm"><img src="illustrations/08-hoan-kiem.jpg" alt="Illustrated red bridge to a temple on Hoàn Kiếm Lake at sunrise"></div>
-  <div class="cols">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Things to see</span></div>
+  <div class="ch"><span class="n">08</span><span class="line"></span><span class="t">Things to see</span></div>
+  <h2>Start here: <em>the lake and the Old Quarter</em></h2>
+  <img class="ill center" style="width:160mm" src="illustrations/08-hoan-kiem.jpg" alt="Watercolor of the red bridge to a temple on Hoàn Kiếm Lake at sunrise">
+  <div class="g2 mt2">
     <div>
       <h3>Hoàn Kiếm Lake</h3>
-      <p>The city's living room. Come at sunrise to see tai chi, dancing and joggers before the traffic builds. The red Thê Húc bridge leads to Ngọc Sơn Temple, which has a small entry fee.</p>
-      <p>On Friday, Saturday and Sunday evenings, the streets around the lake close to traffic from about 7pm to midnight. Families, buskers and street games take over. <span class="checked">checked Nov 2026</span></p>
-      <div class="tip"><b>Free map</b>Our 2-hour Old Quarter walking route (1.9&nbsp;km, A4 PDF) is free on the <a data-u="hanoi-old-quarter-guide" data-c="walking_map">Old Quarter guide</a>.</div>
+      <p>The city's living room. Come at sunrise for tai chi, dancing and joggers before the traffic builds. The red Thê Húc bridge leads to Ngọc Sơn Temple, which has a small entry fee.</p>
+      <p>On Friday, Saturday and Sunday evenings, the streets around the lake close to traffic from about 7pm to midnight. <span class="ck">checked Nov 2026</span></p>
+      <div class="note mt4"><span class="lab">Free walking map</span><p>Our 2-hour Old Quarter route (1.9&nbsp;km, A4 PDF) is free on the <a data-u="hanoi-old-quarter-guide" data-c="walking_map">Old Quarter guide</a>.</p></div>
     </div>
     <div>
       <h3>The Old Quarter</h3>
-      <p>Many street names begin with <span class="vn">Hàng</span>, meaning "goods". Each street once sold one thing: Hàng Bạc for silver, Hàng Mã for paper goods, Hàng Đường for sugar. Some still do.</p>
-      <ul>
+      <p>Many street names begin with <span class="vn">Hàng</span>, "goods". Each street once sold one thing: Hàng Bạc silver, Hàng Mã paper goods, Hàng Đường sugar. Some still do.</p>
+      <ul class="dash">
         <li><b>Đồng Xuân Market:</b> the biggest covered market in the quarter.</li>
         <li><b>87 Mã Mây:</b> a restored merchant's house, about 20,000 VND.</li>
         <li><b>Ô Quan Chưởng:</b> the last old city gate still standing, built in 1749.</li>
-        <li><b>Bạch Mã Temple:</b> one of the quarter's oldest temples. It closes at midday.</li>
+        <li><b>Bạch Mã Temple:</b> one of the oldest temples here. It closes at midday.</li>
       </ul>
-      <p>Go early, look up at the balconies, and duck into the narrow lanes.</p>
     </div>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Things to see</span><span>10</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">11</span></div>
 </section>
 
-<!-- 11 · HISTORY + HERITAGE -->
+<!-- ============ 12 · HISTORY ============ -->
 <section class="page">
-  <div class="chap"><span class="no">09</span><span class="kicker">Things to see</span></div>
-  <h2>History and heritage</h2>
-  <div class="fig" style="height:122mm"><img src="illustrations/09-temple-literature.jpg" alt="Illustrated courtyard of the Temple of Literature with stone stelae and graduates"></div>
-  <div class="cols">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Things to see</span></div>
+  <div class="ch"><span class="n">09</span><span class="line"></span><span class="t">Things to see</span></div>
+  <h2>History <em>and heritage</em></h2>
+  <p class="stand">A thousand years of capital city, from Confucian courtyards to a revolutionary's resting place.</p>
+  <div style="display:grid; grid-template-columns: 100mm 1fr; gap:8mm; align-items:start">
+    <img class="ill" src="illustrations/09-temple-literature.jpg" alt="Watercolor courtyard of the Temple of Literature with stone stelae and graduates">
     <div>
       <h3>Temple of Literature</h3>
       <p>Founded in 1070 to honour Confucius, it became home to Vietnam's first national university in 1076. The 82 stone stelae on turtles list the names of doctoral laureates.</p>
-      <p><b>70,000 VND · 8:00–17:00 · cash only.</b> Cover shoulders and knees. In graduation season the courtyards fill with students in gowns. <span class="checked">checked Nov 2026</span></p>
-      <p><a data-u="temple-literature-what-does-vietnams-first-university-have-offer" data-c="temple_literature">Our Temple of Literature guide</a></p>
-      <h3>Imperial Citadel of Thăng Long</h3>
-      <p>A UNESCO World Heritage Site since 2010, with a thousand years of royal layers, excavated foundations and a wartime command bunker. Quiet, shady and often overlooked. <a data-u="imperial-citadel-thang-long-photography-guide" data-c="citadel">Read more</a></p>
+      <div class="lead"><span class="what">Ticket</span><span class="dots"></span><span class="price">70,000 VND</span></div>
+      <div class="lead"><span class="what">Hours</span><span class="dots"></span><span class="price">8:00–17:00</span></div>
+      <div class="lead"><span class="what">Payment</span><span class="dots"></span><span class="price">cash only</span></div>
+      <p class="mt2">Cover shoulders and knees. <span class="ck">checked Nov 2026</span><br><a data-u="temple-literature-what-does-vietnams-first-university-have-offer" data-c="temple_literature">Our Temple of Literature guide</a></p>
     </div>
+  </div>
+  <div class="g2 hr mt4 push" style="padding-top:4mm">
     <div>
       <h3>Ba Đình and the Mausoleum</h3>
-      <p>Ho Chi Minh's Mausoleum opens on Tuesday, Wednesday, Thursday, Saturday and Sunday mornings. It is closed on Mondays and Fridays. Entry is free. <span class="checked">checked Nov 2026</span></p>
-      <ul>
+      <p>Ho Chi Minh's Mausoleum opens on Tuesday, Wednesday, Thursday, Saturday and Sunday mornings, and is closed on Mondays and Fridays. Entry is free. <span class="ck">checked Nov 2026</span></p>
+      <ul class="dash">
         <li>Shoulders and knees covered, no hats, no talking, no photos inside.</li>
         <li>Bags and cameras are checked at security.</li>
         <li>It usually closes for about two months of maintenance in autumn. In 2026 that started on 4 September.</li>
       </ul>
-      <p>Nearby: the One Pillar Pagoda (first built in 1049) and the Presidential Palace grounds with Ho Chi Minh's stilt house (ticketed).</p>
       <p><a data-u="ho-chi-minh-mausoleum-heart-vietnamese-nation" data-c="mausoleum">Mausoleum visitor notes</a></p>
     </div>
-  </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Things to see</span><span>11</span></div>
-</section>
-
-<!-- 12 · MORE TO EXPLORE -->
-<section class="page">
-  <div class="chap"><span class="no">10</span><span class="kicker">Things to see</span></div>
-  <h2>More to explore</h2>
-  <div class="fig" style="height:95mm"><img src="illustrations/10-long-bien.jpg" alt="Illustrated Long Biên Bridge over the Red River at sunrise"></div>
-  <div class="cols">
     <div>
-      <h3>Long Biên Bridge</h3>
-      <p>A steel bridge over the Red River, finished in 1902 and still used by trains, bikes and walkers. Walk the side lane at sunrise and look down at the banana fields on the river bank.</p>
-      <h3>Hỏa Lò Prison</h3>
-      <p>Built by the French in 1896, later known to American POWs as the "Hanoi Hilton". <b>50,000 VND · 8:00–17:00 daily.</b> The evening "Sacred Night" tour is sold separately and books out early. <span class="checked">checked Nov 2026</span></p>
-      <h3>Museums worth your time</h3>
-      <p>The <b>Vietnamese Women's Museum</b> tells the country's story through family, work and fashion. The <b>Vietnam Museum of Ethnology</b> covers all 54 ethnic groups and has full-size traditional houses in its garden. Check opening days before you go.</p>
-    </div>
-    <div>
-      <h3>Train Street</h3>
-      <p>Trains pass a few steps from people's front doors between Phùng Hưng and Lê Duẩn. Access is controlled and changes without notice. Some days cafés serve visitors; other days barriers are closed.</p>
-      <div class="warn"><b>Safety first</b>Treat it as an optional stop. Never stand on the tracks, and follow staff instructions straight away. <a data-u="hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots" data-c="train_street">Train Street guide</a></div>
-      <h3>West Lake and Trấn Quốc Pagoda</h3>
-      <p>Trấn Quốc, with roots in the 6th century, is often called Hanoi's oldest pagoda. Come for sunset over the lake, or cycle the shore on a weekday morning.</p>
-      <h3>The French Quarter</h3>
-      <p>St Joseph's Cathedral (1886), the Opera House (1911) and wide boulevards south of the lake. <a data-u="hanoi-french-quarter-guide" data-c="french_quarter">French Quarter guide</a></p>
+      <h3>Around Ba Đình</h3>
+      <p>The One Pillar Pagoda, first built in 1049, and the Presidential Palace grounds with Ho Chi Minh's stilt house (ticketed) are a short walk away.</p>
+      <h3 class="mt4">Imperial Citadel of Thăng Long</h3>
+      <p>A UNESCO World Heritage Site since 2010, with royal foundations, excavated layers and a wartime command bunker. Quiet, shady and often overlooked. <a data-u="imperial-citadel-thang-long-photography-guide" data-c="citadel">Read more</a></p>
     </div>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Things to see</span><span>12</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">12</span></div>
 </section>
 
-<!-- 13 · ITINERARIES -->
+<!-- ============ 13 · MORE TO EXPLORE ============ -->
 <section class="page">
-  <div class="chap"><span class="no">11</span><span class="kicker">Plan your days</span></div>
-  <h2>One, two or three days</h2>
-  <p class="lede">Hanoi is best in the morning and late afternoon. These plans keep the middle of the day for museums, cafés and rest. Mix and match.</p>
-  <div class="fig" style="height:56mm"><img src="illustrations/18-itinerary.jpg" alt="Illustrated traveler planning the day at a sidewalk café by the lake"></div>
-  <div class="day">
-    <h3>Day 1 · The lake and the Old Quarter</h3>
-    <ol>
-      <li>Sunrise at Hoàn Kiếm Lake, then bánh cuốn for breakfast.</li>
-      <li>Walk the Old Quarter on our free map: Hàng streets, Đồng Xuân Market, 87 Mã Mây, Ô Quan Chưởng.</li>
-      <li>Egg coffee on a balcony. Bún chả for lunch, then a rest.</li>
-      <li>Late afternoon: Ngọc Sơn Temple and a water puppet show.</li>
-      <li>Evening: the walking street and night market (Fri–Sun), or bia hơi on Tạ Hiện.</li>
-    </ol>
+  <div class="rh"><span>The Hanoi Handbook</span><span>Things to see</span></div>
+  <div class="ch"><span class="n">10</span><span class="line"></span><span class="t">Things to see</span></div>
+  <h2>More <em>to explore</em></h2>
+  <img class="ill center mt2" style="width:174mm" src="illustrations/10-long-bien.jpg" alt="Watercolor of Long Biên Bridge over the Red River at sunrise">
+  <div class="g3 mt4 push" style="row-gap:5mm">
+    <div class="fact"><h3>Long Biên Bridge</h3><p>A steel bridge over the Red River, finished in 1902 and still used by trains, bikes and walkers. Walk the side lane at sunrise and look down at the banana fields.</p></div>
+    <div class="fact"><h3>Hỏa Lò Prison</h3><p>Built by the French in 1896, later the "Hanoi Hilton" to American POWs. 50,000 VND, 8:00–17:00 daily. The evening tour is sold separately and books out early. <span class="ck">Nov 2026</span></p></div>
+    <div class="fact"><h3>Two great museums</h3><p>The <b>Vietnamese Women's Museum</b> tells the country's story through family, work and fashion. The <b>Museum of Ethnology</b> covers all 54 ethnic groups. Check opening days.</p></div>
+    <div class="fact"><h3>Train Street</h3><p>Trains pass a few steps from front doors between Phùng Hưng and Lê Duẩn. Access is controlled and changes without notice. Treat it as optional, never stand on the tracks, and follow staff at once. <a data-u="hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots" data-c="train_street">Guide</a></p></div>
+    <div class="fact"><h3>West Lake <em>and Trấn Quốc</em></h3><p>Trấn Quốc, with roots in the 6th century, is often called Hanoi's oldest pagoda. Come for sunset over the lake, or cycle the shore on a weekday morning.</p></div>
+    <div class="fact"><h3>The French Quarter</h3><p>St Joseph's Cathedral (1886), the Opera House (1911) and wide, tree-lined boulevards south of the lake. <a data-u="hanoi-french-quarter-guide" data-c="french_quarter">French Quarter guide</a></p></div>
   </div>
-  <div class="day">
-    <h3>Day 2 · History and the French Quarter</h3>
-    <ol>
-      <li>Early: Ho Chi Minh's Mausoleum (if it's an opening day), the One Pillar Pagoda and the Presidential Palace grounds.</li>
-      <li>Temple of Literature before the midday heat.</li>
-      <li>Lunch, then Hỏa Lò Prison.</li>
-      <li>Walk the French Quarter: St Joseph's Cathedral, the Opera House, Tràng Tiền ice cream.</li>
-      <li>Dinner: chả cá, turmeric fish with dill cooked at your table.</li>
-    </ol>
-  </div>
-  <div class="day">
-    <h3>Day 3 · Slow Hanoi, or a day trip</h3>
-    <ol>
-      <li>Sunrise walk on Long Biên Bridge.</li>
-      <li>West Lake: Trấn Quốc Pagoda and a lakeside café.</li>
-      <li>Afternoon: the Museum of Ethnology or the Women's Museum, or the Imperial Citadel.</li>
-      <li>Sunset by West Lake, then phở cuốn at Trúc Bạch.</li>
-    </ol>
-    <p class="small" style="margin-top:1.5mm">Or swap Day 3 for Ninh Bình or Hạ Long Bay (see page 20).</p>
-  </div>
-  <div class="tip"><b>Want it slower?</b>Try our <a data-u="slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide" data-c="itinerary_48h">calm 48-hour itinerary</a>, built around walking and coffee breaks.</div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Plan your days</span><span>13</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">13</span></div>
 </section>
 
-<!-- 14 · FOOD -->
+<!-- ============ 14 · ITINERARIES ============ -->
 <section class="page">
-  <div class="chap"><span class="no">12</span><span class="kicker">Eat like a local</span></div>
-  <h2>Twelve things to eat in Hanoi</h2>
-  <div class="side" style="grid-template-columns: 76mm 1fr; align-items: center">
-    <div class="fig" style="height:76mm;margin:0"><img src="illustrations/11-food.jpg" alt="Illustrated street food table with phở, bún chả, bánh mì and egg coffee"></div>
-    <p class="lede" style="margin:0">Hanoi food is about balance: clear broths, fresh herbs, a squeeze of lime and a little chilli. Many stalls cook only one dish, all day, for years. If you see a crowd of locals on tiny stools, sit down.</p>
+  <div class="rh"><span>The Hanoi Handbook</span><span>Plan your days</span></div>
+  <div class="ch"><span class="n">11</span><span class="line"></span><span class="t">Plan your days</span></div>
+  <h2>One, two <em>or three days</em></h2>
+  <p class="stand">Hanoi is best in the morning and late afternoon. These plans keep the middle of the day for museums, cafés and rest.</p>
+  <img class="ill center" style="width:154mm" src="illustrations/18-itinerary.jpg" alt="Watercolor of a traveler planning the day at a sidewalk café by the lake">
+  <div class="g3 mt4">
+    <div class="day"><div class="nm">Day one</div><div class="sub">The lake and the Old Quarter</div>
+      <ol><li>Sunrise at Hoàn Kiếm Lake, then bánh cuốn for breakfast.</li><li>Walk the Old Quarter on our free map.</li><li>Egg coffee on a balcony. Bún chả for lunch, then a rest.</li><li>Ngọc Sơn Temple and a water puppet show.</li><li>Walking street and night market (Fri–Sun), or bia hơi on Tạ Hiện.</li></ol></div>
+    <div class="day"><div class="nm">Day two</div><div class="sub">History and the French Quarter</div>
+      <ol><li>Early: the Mausoleum (on opening days), One Pillar Pagoda and Palace grounds.</li><li>Temple of Literature before the midday heat.</li><li>Lunch, then Hỏa Lò Prison.</li><li>St Joseph's, the Opera House and Tràng Tiền ice cream.</li><li>Dinner: chả cá, turmeric fish cooked at your table.</li></ol></div>
+    <div class="day"><div class="nm">Day three</div><div class="sub">Slow Hanoi, or a day trip</div>
+      <ol><li>Sunrise walk on Long Biên Bridge.</li><li>West Lake: Trấn Quốc Pagoda and a lakeside café.</li><li>A museum, or the Imperial Citadel.</li><li>Sunset by West Lake, then phở cuốn at Trúc Bạch.</li><li>Or swap the day for Ninh Bình or Hạ Long Bay (page 21).</li></ol></div>
   </div>
-  <div class="cols-3" style="margin-top:5mm; row-gap:4mm">
-    <div class="dish"><div class="name">Phở bò / phở gà</div><div class="en">Beef or chicken noodle soup</div><p>The breakfast classic. Add lime, chilli and garlic vinegar to taste.</p></div>
-    <div class="dish"><div class="name">Bún chả</div><div class="en">Grilled pork with noodles</div><p>Charcoal-grilled pork in a sweet-sour broth, with rice noodles and herbs. A lunch dish.</p></div>
-    <div class="dish"><div class="name">Bánh cuốn</div><div class="en">Steamed rice rolls</div><p>Silky sheets filled with pork and wood-ear mushroom, topped with crispy shallots.</p></div>
-    <div class="dish"><div class="name">Chả cá</div><div class="en">Turmeric fish with dill</div><p>Fried at your table with spring onion and dill, eaten with noodles and peanuts.</p></div>
-    <div class="dish"><div class="name">Bún riêu cua</div><div class="en">Crab and tomato noodle soup</div><p>Tangy, red and comforting. Often found at street corners in the morning.</p></div>
-    <div class="dish"><div class="name">Phở cuốn</div><div class="en">Fresh phở rolls</div><p>Flat rice-noodle sheets rolled around beef and herbs. A Trúc Bạch speciality.</p></div>
-    <div class="dish"><div class="name">Nem rán</div><div class="en">Fried spring rolls</div><p>Crisp rolls of pork, glass noodles and mushroom, dipped in fish sauce.</p></div>
-    <div class="dish"><div class="name">Bún đậu mắm tôm</div><div class="en">Tofu with shrimp paste</div><p>Fried tofu, noodles and herbs with a bold fermented shrimp dip. Brave and worth it.</p></div>
-    <div class="dish"><div class="name">Bánh mì</div><div class="en">Baguette sandwich</div><p>Pâté, cold cuts or egg in a crackly baguette. The perfect quick snack.</p></div>
-    <div class="dish"><div class="name">Xôi</div><div class="en">Sticky rice</div><p>A cheap, filling breakfast with toppings like mung bean, fried shallot or chicken.</p></div>
-    <div class="dish"><div class="name">Cà phê trứng</div><div class="en">Egg coffee</div><p>Whipped egg yolk and sugar over strong coffee. Invented in Hanoi in the 1940s.</p></div>
-    <div class="dish"><div class="name">Kem Tràng Tiền</div><div class="en">Tràng Tiền ice cream</div><p>A Hanoi favourite since the 1950s. Green rice and coconut are good first picks.</p></div>
-  </div>
-  <div class="tip" style="margin-top:5mm"><b>Vegetarian?</b>Say <span class="vn">Tôi ăn chay</span> (toy an chai), "I eat vegetarian". Look for the word <span class="vn">chay</span>. Many vegetarian restaurants sit near pagodas. Our <a data-u="hanoi-secret-food-photo-map" data-c="food_map">Hanoi Secret Food Map</a> (free PDF) adds where to eat.</div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Eat like a local</span><span>14</span></div>
+  <div class="hand tilt mt4 push" style="margin-left:4mm; align-self:flex-start">Want it slower? Try our <a data-u="slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide" data-c="itinerary_48h">calm 48-hour itinerary</a>.</div>
+  <div class="folio"><span>TravelFrame</span><span class="n">14</span></div>
 </section>
 
-<!-- 15 · STREET FOOD + COFFEE -->
+<!-- ============ 15 · FOOD ============ -->
 <section class="page">
-  <div class="chap"><span class="no">13</span><span class="kicker">Eat like a local</span></div>
-  <h2>How to eat street food, and drink coffee</h2>
-  <div class="side" style="grid-template-columns: 1fr 72mm">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Eat like a local</span></div>
+  <div style="display:grid; grid-template-columns: 1fr 70mm; gap:6mm; align-items:center">
+    <div>
+      <div class="ch"><span class="n">12</span><span class="line"></span><span class="t">Eat like a local</span></div>
+      <h2>Twelve things <em>to eat in Hanoi</em></h2>
+      <p class="stand" style="margin-bottom:0">Clear broths, fresh herbs, a squeeze of lime and a little chilli. If you see locals on tiny stools, sit down.</p>
+    </div>
+    <img class="ill" src="illustrations/11-food.jpg" alt="Watercolor of a street food table with phở, bún chả, bánh mì and egg coffee">
+  </div>
+  <div class="g3 mt4">
+    <div class="dish"><span class="no">01</span><div class="nm">Phở bò, phở gà</div><div class="en">beef or chicken noodle soup</div><p>The breakfast classic. Add lime, chilli and garlic vinegar to taste.</p></div>
+    <div class="dish"><span class="no">02</span><div class="nm">Bún chả</div><div class="en">grilled pork with noodles</div><p>Charcoal-grilled pork in a sweet-sour broth, with rice noodles and herbs. A lunch dish.</p></div>
+    <div class="dish"><span class="no">03</span><div class="nm">Bánh cuốn</div><div class="en">steamed rice rolls</div><p>Silky sheets filled with pork and wood-ear mushroom, topped with crispy shallots.</p></div>
+    <div class="dish"><span class="no">04</span><div class="nm">Chả cá</div><div class="en">turmeric fish with dill</div><p>Fried at your table with spring onion and dill, eaten with noodles and peanuts.</p></div>
+    <div class="dish"><span class="no">05</span><div class="nm">Bún riêu cua</div><div class="en">crab and tomato noodle soup</div><p>Tangy, red and comforting. Often found at street corners in the morning.</p></div>
+    <div class="dish"><span class="no">06</span><div class="nm">Phở cuốn</div><div class="en">fresh phở rolls</div><p>Flat rice-noodle sheets rolled around beef and herbs. A Trúc Bạch speciality.</p></div>
+    <div class="dish"><span class="no">07</span><div class="nm">Nem rán</div><div class="en">fried spring rolls</div><p>Crisp rolls of pork, glass noodles and mushroom, dipped in fish sauce.</p></div>
+    <div class="dish"><span class="no">08</span><div class="nm">Bún đậu mắm tôm</div><div class="en">tofu with shrimp paste</div><p>Fried tofu, noodles and herbs with a bold fermented shrimp dip. Brave, and worth it.</p></div>
+    <div class="dish"><span class="no">09</span><div class="nm">Bánh mì</div><div class="en">baguette sandwich</div><p>Pâté, cold cuts or egg in a crackly baguette. The perfect quick snack.</p></div>
+    <div class="dish"><span class="no">10</span><div class="nm">Xôi</div><div class="en">sticky rice</div><p>A cheap, filling breakfast with toppings like mung bean, fried shallot or chicken.</p></div>
+    <div class="dish"><span class="no">11</span><div class="nm">Cà phê trứng</div><div class="en">egg coffee</div><p>Whipped egg yolk and sugar over strong coffee. Invented in Hanoi in the 1940s.</p></div>
+    <div class="dish"><span class="no">12</span><div class="nm">Kem Tràng Tiền</div><div class="en">Tràng Tiền ice cream</div><p>A Hanoi favourite since the 1950s. Green rice or coconut are good first picks.</p></div>
+  </div>
+  <div class="note mt2 push"><span class="lab">Vegetarian?</span><p>Say <span class="vn">Tôi ăn chay</span> (toy an chai), "I eat vegetarian", and look for the word <span class="vn">chay</span>. Many vegetarian restaurants sit near pagodas. Where to eat: our free <a data-u="hanoi-secret-food-photo-map" data-c="food_map">Hanoi Secret Food Map</a>.</p></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">15</span></div>
+</section>
+
+<!-- ============ 16 · STREET FOOD + COFFEE ============ -->
+<section class="page">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Eat like a local</span></div>
+  <div class="ch"><span class="n">13</span><span class="line"></span><span class="t">Eat like a local</span></div>
+  <h2>Street food <em>and coffee</em></h2>
+  <div class="ms mt4" style="grid-template-columns: 1fr 58mm">
     <div>
       <h3>Seven street food habits</h3>
-      <ul>
-        <li><b>Follow the locals.</b> Busy stalls with fast turnover are the safest and tastiest.</li>
-        <li><b>One dish per stall.</b> The sign usually names the dish. That's the menu.</li>
-        <li><b>Sit low.</b> Tiny plastic stools are normal. Sit down and someone will come to you.</li>
-        <li><b>Ask the price</b> where nothing is written: <span class="vn">Bao nhiêu?</span></li>
-        <li><b>Season it yourself.</b> Chilli, lime, garlic and vinegar are on the table.</li>
-        <li><b>Wet towels</b> in packets may be added to the bill. Leave them sealed if you don't want them.</li>
-        <li><b>Mind the clock.</b> Many stalls sell only breakfast or only dinner, and close when they sell out.</li>
-      </ul>
-      <p>More: <a data-u="honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local" data-c="street_food">our honest street food guide</a></p>
-      <h3>Hanoi coffee, decoded</h3>
-      <table>
-        <tr><td class="vn">Cà phê sữa đá</td><td>Strong drip coffee with condensed milk, over ice</td></tr>
-        <tr><td class="vn">Cà phê trứng</td><td>Egg coffee, served in a bowl of hot water to stay warm</td></tr>
-        <tr><td class="vn">Cà phê cốt dừa</td><td>Coconut coffee, cold and slushy</td></tr>
-        <tr><td class="vn">Cà phê muối</td><td>Salt coffee, from Huế and now everywhere</td></tr>
-        <tr><td class="vn">Trà đá · trà chanh</td><td>Iced tea and lime tea, sipped on the pavement with friends</td></tr>
-      </table>
+      <div class="numd" style="margin-bottom:1.6mm"><span class="k" style="font-size:16pt">1</span><p style="margin:0"><b>Follow the locals.</b> Busy stalls with fast turnover are the safest and tastiest.</p></div>
+      <div class="numd" style="margin-bottom:1.6mm"><span class="k" style="font-size:16pt">2</span><p style="margin:0"><b>One dish per stall.</b> The sign usually names the dish. That's the menu.</p></div>
+      <div class="numd" style="margin-bottom:1.6mm"><span class="k" style="font-size:16pt">3</span><p style="margin:0"><b>Sit low.</b> Tiny plastic stools are normal. Sit down and someone will come.</p></div>
+      <div class="numd" style="margin-bottom:1.6mm"><span class="k" style="font-size:16pt">4</span><p style="margin:0"><b>Ask the price</b> where nothing is written: <span class="vn">Bao nhiêu?</span></p></div>
+      <div class="numd" style="margin-bottom:1.6mm"><span class="k" style="font-size:16pt">5</span><p style="margin:0"><b>Season it yourself.</b> Chilli, lime, garlic and vinegar are on the table.</p></div>
+      <div class="numd" style="margin-bottom:1.6mm"><span class="k" style="font-size:16pt">6</span><p style="margin:0"><b>Wet towels</b> in packets may be added to the bill. Leave them sealed if you don't want them.</p></div>
+      <div class="numd" style="margin-bottom:1.6mm"><span class="k" style="font-size:16pt">7</span><p style="margin:0"><b>Mind the clock.</b> Many stalls sell only breakfast or only dinner, and close when they sell out.</p></div>
+      <p class="mt2">More: <a data-u="honest-hanoi-street-food-guide-2026-what-eat-where-sit-and-how-eat-local" data-c="street_food">our honest street food guide</a></p>
+    </div>
+    <div class="side">
+      <img class="ill" src="illustrations/12-coffee.jpg" alt="Watercolor of a balcony café with egg coffee and a traveler writing">
+      <div class="note"><span class="lab">Order like a local</span><p><span class="vn">Một cà phê sữa đá</span><br>one iced milk coffee<br><span class="vn">Mang đi</span> · takeaway<br><span class="vn">Ít đá</span> · less ice<br><span class="vn">Ít ngọt</span> · less sweet</p></div>
+    </div>
+  </div>
+  <h3 class="mt4">Hanoi coffee, decoded</h3>
+  <div class="g2" style="column-gap:9mm">
+    <div>
+      <div class="lead"><span class="what"><span class="vn">Cà phê sữa đá</span></span><span class="dots"></span><span class="small">drip coffee, condensed milk, ice</span></div>
+      <div class="lead"><span class="what"><span class="vn">Cà phê trứng</span></span><span class="dots"></span><span class="small">egg coffee, kept warm in hot water</span></div>
+      <div class="lead"><span class="what"><span class="vn">Cà phê cốt dừa</span></span><span class="dots"></span><span class="small">coconut coffee, cold and slushy</span></div>
     </div>
     <div>
-      <div class="fig" style="height:100mm"><img src="illustrations/12-coffee.jpg" alt="Illustrated balcony café with egg coffee and a traveler writing"></div>
-      <p class="small">Egg coffee was created in Hanoi when fresh milk was scarce. Our <a data-u="hanoi-egg-coffee-cafe-giang-photography-guide" data-c="egg_coffee">egg coffee guide</a> covers the story and the best seats.</p>
-      <div class="card" style="margin-top:3mm"><h4>Order like a local</h4><p><span class="vn">Một cà phê sữa đá</span> · one iced milk coffee<br><span class="vn">Mang đi</span> · takeaway<br><span class="vn">Ít đá</span> · less ice<br><span class="vn">Ít ngọt</span> · less sweet (coffee is sweet by default)</p></div>
+      <div class="lead"><span class="what"><span class="vn">Cà phê muối</span></span><span class="dots"></span><span class="small">salt coffee, from Huế</span></div>
+      <div class="lead"><span class="what"><span class="vn">Trà đá · trà chanh</span></span><span class="dots"></span><span class="small">iced tea, lime tea</span></div>
+      <p class="small mt2">Egg coffee was born when fresh milk was scarce. <a data-u="hanoi-egg-coffee-cafe-giang-photography-guide" data-c="egg_coffee">The full story</a></p>
     </div>
   </div>
-  <h3 style="margin-top:2mm">What Hanoi eats, and when</h3>
-  <div class="cols-3">
-    <div class="card"><h4>Breakfast · 6–9am</h4><p>Phở, bánh cuốn, xôi and bún riêu. The best stalls sell out early.</p></div>
-    <div class="card"><h4>Lunch · 11am–1pm</h4><p>Bún chả, or <span class="vn">cơm bình dân</span>: a rice canteen where you point at the dishes you want.</p></div>
-    <div class="card"><h4>Evening</h4><p>Chả cá, hot pot (<span class="vn">lẩu</span>), phở cuốn, and grilled snacks with a glass of bia hơi.</p></div>
+  <h3 class="mt4 push">What Hanoi eats, and when</h3>
+  <div class="g3">
+    <div class="fact"><span class="lab">Breakfast · 6–9am</span><p>Phở, bánh cuốn, xôi and bún riêu. The best stalls sell out early.</p></div>
+    <div class="fact"><span class="lab">Lunch · 11am–1pm</span><p>Bún chả, or <span class="vn">cơm bình dân</span>: a rice canteen where you point at the dishes you want.</p></div>
+    <div class="fact"><span class="lab">Evening</span><p>Chả cá, hot pot (<span class="vn">lẩu</span>), phở cuốn, and grilled snacks with a glass of bia hơi.</p></div>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Street food and coffee</span><span>15</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">16</span></div>
 </section>
 
-<!-- 16 · EVENINGS -->
+<!-- ============ 17 · EVENINGS ============ -->
 <section class="page">
-  <div class="chap"><span class="no">14</span><span class="kicker">Hanoi after dark</span></div>
-  <h2>Hanoi after dark</h2>
-  <div class="fig" style="height:100mm"><img src="illustrations/13-evening.jpg" alt="Illustrated evening street corner with locals and travelers raising beer glasses"></div>
-  <div class="cols">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Hanoi after dark</span></div>
+  <div class="ch"><span class="n">14</span><span class="line"></span><span class="t">Hanoi after dark</span></div>
+  <h2>Hanoi <em>after dark</em></h2>
+  <img class="ill center mt2" style="width:174mm" src="illustrations/13-evening.jpg" alt="Watercolor of an evening street corner with locals and travelers raising beer glasses">
+  <div class="g2 mt4">
     <div>
       <h3>Walking street</h3>
-      <p>Fri–Sun, about 7pm to midnight, the streets around Hoàn Kiếm Lake close to traffic. Expect families, music, street games and a lot of people-watching.</p>
+      <p>Friday to Sunday, about 7pm to midnight, the streets around Hoàn Kiếm Lake close to traffic. Expect families, music, street games and a lot of people-watching.</p>
       <h3>Old Quarter night market</h3>
-      <p>Fri–Sun evenings, along Hàng Đào towards Đồng Xuân Market: clothes, souvenirs and snacks. Bargain with a smile. <a data-u="hanoi-old-quarter-night-market" data-c="night_market">Night market guide</a></p>
+      <p>Friday to Sunday evenings, along Hàng Đào towards Đồng Xuân Market: clothes, souvenirs and snacks. Bargain with a smile. <a data-u="hanoi-old-quarter-night-market" data-c="night_market">Night market guide</a></p>
       <h3>Water puppets</h3>
-      <p>A northern Vietnamese art born in rice paddies. Shows by the lake last about 50 minutes. Buy tickets ahead on the theatre's official website.</p>
+      <p>A northern art born in the rice paddies. Shows by the lake last about 50 minutes. Buy tickets ahead on the theatre's official website.</p>
     </div>
     <div>
       <h3>Bia hơi and Tạ Hiện</h3>
-      <p>Bia hơi is light draught beer brewed daily and poured by the glass at street corners. Sit on a low stool, order snacks to share and say <span class="vn">Một, hai, ba, dzô!</span> (one, two, three, cheers!). Tạ Hiện is the loudest corner. <a data-u="ta-hien-street-where-hanoi-nights-come-alive" data-c="ta_hien">Tạ Hiện guide</a></p>
+      <p>Light draught beer brewed daily and poured by the glass at street corners. Sit on a low stool, share some snacks and say <span class="vn">Một, hai, ba, dzô!</span> (one, two, three, cheers!). Tạ Hiện is the loudest corner. <a data-u="ta-hien-street-where-hanoi-nights-come-alive" data-c="ta_hien">Tạ Hiện guide</a></p>
       <h3>Quieter nights</h3>
-      <p>A show at the Opera House, a jazz club, or a rooftop drink looking over the lake.</p>
-      <div class="tip"><b>Local tip</b>Hold your phone on the side away from the road when you film the crowds, and keep your bag zipped and in front of you.</div>
+      <p>A show at the Opera House, a jazz club, or an upstairs café over the lake on a rainy evening.</p>
+      <div class="hand tilt mt2">Filming the crowds? Hold your phone on the side away from the road.</div>
     </div>
   </div>
-  <h3 style="margin-top:1mm">Pick your evening</h3>
-  <div class="cols-3">
-    <div class="card"><h4>Friday to Sunday</h4><p>Walking street around the lake, then the night market on Hàng Đào.</p></div>
-    <div class="card"><h4>Any night</h4><p>Bia hơi on a corner, a water puppet show, or live music in a jazz bar.</p></div>
-    <div class="card"><h4>Rainy night</h4><p>An upstairs café over the lake, egg coffee in hand, watching the lights.</p></div>
+  <div class="g3 push">
+    <div class="note"><span class="lab">Friday to Sunday</span><p>Walking street around the lake, then the night market on Hàng Đào.</p></div>
+    <div class="note"><span class="lab">Any night</span><p>Bia hơi on a corner, a water puppet show, or live music in a jazz bar.</p></div>
+    <div class="note"><span class="lab">Rainy night</span><p>An upstairs café over the lake, egg coffee in hand, watching the lights.</p></div>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Hanoi after dark</span><span>16</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">17</span></div>
 </section>
 
-<!-- 17 · ETIQUETTE -->
+<!-- ============ 18 · ETIQUETTE ============ -->
 <section class="page">
-  <div class="chap"><span class="no">15</span><span class="kicker">Respect</span></div>
-  <h2>Be a good guest</h2>
-  <p class="lede">Hanoians are warm and patient with visitors. A few small habits show respect and open a lot of doors, and smiles.</p>
-  <div class="fig" style="height:120mm"><img src="illustrations/14-etiquette.jpg" alt="Illustrated traveler with covered shoulders removing sandals at a pagoda entrance"></div>
-  <div class="dd">
-    <div class="col do">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Respect</span></div>
+  <div class="ch"><span class="n">15</span><span class="line"></span><span class="t">Respect</span></div>
+  <h2>Be a <em>good guest</em></h2>
+  <p class="stand">Hanoians are warm and patient with visitors. A few small habits show respect, and open a lot of doors.</p>
+  <img class="ill center" style="width:128mm" src="illustrations/14-etiquette.jpg" alt="Watercolor of a traveler with covered shoulders removing sandals at a pagoda entrance">
+  <div class="g2 dd mt4">
+    <div class="do">
       <h3>Do</h3>
       <ul>
         <li>Cover shoulders and knees at temples, pagodas and the mausoleum. A light scarf in your bag solves it.</li>
         <li>Take your shoes off when you see shoes lined up at a door.</li>
         <li>Ask before you photograph people. Smile, point at your camera and wait for a yes.</li>
         <li>Use both hands to give or receive something from older people.</li>
-        <li>Greet people with <span class="vn">Xin chào</span> and a nod.</li>
-        <li>Bargain calmly and kindly at markets. Fixed-price shops are fixed.</li>
+        <li>Greet people with <span class="vn">Xin chào</span> and a nod. Bargain calmly and kindly.</li>
       </ul>
     </div>
-    <div class="col dont">
+    <div class="dont">
       <h3>Don't</h3>
       <ul>
         <li>Touch people's heads, including children's.</li>
         <li>Point your feet at altars or at people.</li>
         <li>Raise your voice in a disagreement. Calm gets better results.</li>
         <li>Photograph military sites or police at work.</li>
-        <li>Climb on statues or monuments for a photo.</li>
-        <li>Step past railway barriers or stand on Train Street's tracks.</li>
+        <li>Climb on statues, or step past railway barriers on Train Street.</li>
       </ul>
     </div>
   </div>
-  <p>More: <a data-u="hanoi-photography-tips-etiquette" data-c="photo_etiquette">Hanoi photo etiquette, from local photographers</a></p>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Be a good guest</span><span>17</span></div>
+  <p class="mt2 push">More: <a data-u="hanoi-photography-tips-etiquette" data-c="photo_etiquette">Hanoi photo etiquette, from local photographers</a></p>
+  <div class="folio"><span>TravelFrame</span><span class="n">18</span></div>
 </section>
 
-<!-- 18 · SAFETY -->
+<!-- ============ 19 · SAFETY ============ -->
 <section class="page">
-  <div class="chap"><span class="no">16</span><span class="kicker">Stay safe</span></div>
-  <h2>Stay safe, skip the traps</h2>
-  <p class="lede">Hanoi is a safe, friendly city. Most problems are small, about money, and easy to avoid once you know them.</p>
-  <div class="fig" style="height:42mm"><img src="illustrations/19-safety.jpg" alt="Illustrated traveler walking with phone held away from the road"></div>
-  <div class="cols">
-    <div class="card"><h4>Phones and bags</h4><p>Snatch-and-go from passing motorbikes can happen. Keep your phone and bag on the side away from the road, and wear a cross-body bag.</p></div>
-    <div class="card"><h4>"Free" props and services</h4><p>A shoe shine you didn't ask for, a fruit basket for a photo. If you don't want it, say <span class="vn">Không, cảm ơn</span> before it starts. If you do, agree the full price first.</p></div>
-    <div class="card"><h4>Prices and bills</h4><p>Ask before ordering where no price is shown. Check the bill, and count your change, especially the 20,000 and 500,000 notes.</p></div>
-    <div class="card"><h4>Taxis and cyclos</h4><p>Use an app or a metered taxi, and ignore touts inside the airport. For cyclos, agree price and duration before you sit down.</p></div>
-    <div class="card"><h4>Food and water</h4><p>Choose busy stalls and hot, freshly cooked food. Drink bottled or filtered water. Pharmacies (<span class="vn">nhà thuốc</span>) are on almost every street.</p></div>
-    <div class="card"><h4>Bites, sun and air</h4><p>Dengue is spread by mosquitoes here, so use repellent, especially in the rainy season. Wear sunscreen in summer, and check air quality in winter.</p></div>
+  <div class="rh"><span>The Hanoi Handbook</span><span>Stay safe</span></div>
+  <div class="ch"><span class="n">16</span><span class="line"></span><span class="t">Stay safe</span></div>
+  <h2>Stay safe, <em>skip the traps</em></h2>
+  <p class="stand">Hanoi is a safe, friendly city. Most problems are small, about money, and easy to avoid once you know them.</p>
+  <img class="ill center" style="width:160mm" src="illustrations/19-safety.jpg" alt="Watercolor of a traveler walking with phone held away from the road">
+  <div class="g3 mt4" style="row-gap:3mm">
+    <div class="fact"><h3>Phones and bags</h3><p>Snatch-and-go from passing motorbikes can happen. Keep phone and bag on the side away from the road.</p></div>
+    <div class="fact"><h3>"Free" props</h3><p>A shoe shine you didn't ask for, a fruit basket for a photo. Say <span class="vn">Không, cảm ơn</span> before it starts, or agree the full price first.</p></div>
+    <div class="fact"><h3>Prices and bills</h3><p>Ask before ordering where no price is shown. Check the bill and count your change.</p></div>
+    <div class="fact"><h3>Taxis and cyclos</h3><p>Use an app or a metered taxi, and ignore touts in the airport. Agree cyclo prices first.</p></div>
+    <div class="fact"><h3>Food and water</h3><p>Busy stalls, hot food, bottled water. Pharmacies (<span class="vn">nhà thuốc</span>) are on almost every street.</p></div>
+    <div class="fact"><h3>Bites, sun and air</h3><p>Dengue is spread by mosquitoes, so use repellent. Sunscreen in summer, air checks in winter.</p></div>
   </div>
-  <div class="cols-4" style="margin-top:5mm">
-    <div class="fact"><div class="lab">Police</div><div class="val">113</div></div>
-    <div class="fact"><div class="lab">Fire</div><div class="val">114</div></div>
-    <div class="fact"><div class="lab">Ambulance</div><div class="val">115</div></div>
-    <div class="fact"><div class="lab">Also save</div><div class="val" style="font-size:11pt">Embassy · insurer</div></div>
+  <div style="display:grid; grid-template-columns: repeat(3, 26mm) 1fr; gap:6mm; align-items:end" class="mt4 hr push">
+    <div style="padding-top:3mm"><span class="lab">Police</span><div style="font-family:var(--serif); font-weight:700; font-size:30pt; line-height:1">113</div></div>
+    <div style="padding-top:3mm"><span class="lab">Fire</span><div style="font-family:var(--serif); font-weight:700; font-size:30pt; line-height:1">114</div></div>
+    <div style="padding-top:3mm"><span class="lab">Ambulance</span><div style="font-family:var(--serif); font-weight:700; font-size:30pt; line-height:1">115</div></div>
+    <p class="small" style="margin:0">If something goes wrong, stay calm and ask your hotel to help. Staff can call in Vietnamese and talk to the police for you. For anything serious, contact your embassy and insurer.</p>
   </div>
-  <div class="tip" style="margin-top:5mm"><b>If something goes wrong</b>Stay calm and polite, and ask your hotel to help. Hotel staff can call in Vietnamese, explain local rules and talk to the police for you. For anything serious, contact your embassy and your insurer.</div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Stay safe</span><span>18</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">19</span></div>
 </section>
 
-<!-- 19 · PHRASES -->
+<!-- ============ 20 · PHRASES ============ -->
 <section class="page">
-  <div class="chap"><span class="no">17</span><span class="kicker">Language</span></div>
-  <h2>Survival Vietnamese</h2>
-  <p class="lede">Vietnamese has six tones, so the same word can change meaning. Don't worry: locals love the effort far more than perfect tones.</p>
-  <div class="fig" style="height:54mm"><img src="illustrations/20-phrases.jpg" alt="Illustrated traveler chatting with a fruit vendor at a market stall"></div>
-  <table class="phr">
-    <tr><th>Say</th><th>Meaning</th><th>Sounds like</th></tr>
-    <tr><td>Xin chào</td><td>Hello</td><td>sin chow</td></tr>
-    <tr><td>Cảm ơn</td><td>Thank you</td><td>gahm uhn</td></tr>
-    <tr><td>Không, cảm ơn</td><td>No, thank you</td><td>khom, gahm uhn</td></tr>
-    <tr><td>Xin lỗi</td><td>Sorry / excuse me</td><td>sin loy</td></tr>
-    <tr><td>Bao nhiêu?</td><td>How much?</td><td>bow nyew</td></tr>
-    <tr><td>Tính tiền</td><td>The bill, please</td><td>ting tee-en</td></tr>
-    <tr><td>Không cay</td><td>Not spicy</td><td>khom kai</td></tr>
-    <tr><td>Ít ngọt</td><td>Less sweet</td><td>it ngot</td></tr>
-    <tr><td>Ngon quá!</td><td>So delicious!</td><td>ngon kwah</td></tr>
-    <tr><td>Tôi ăn chay</td><td>I eat vegetarian</td><td>toy an chai</td></tr>
-    <tr><td>Một, hai, ba, dzô!</td><td>One, two, three, cheers!</td><td>moht, hai, bah, yo</td></tr>
-  </table>
-  <p class="small">Pronunciation guides are approximate.</p>
-  <div class="cols" style="margin-top:3mm">
-    <div class="tip"><b>Reading prices</b>Menus often drop the thousands: "50k" or "50" means 50,000 VND. In speech, <span class="vn">nghìn</span> means thousand.</div>
-    <div class="tip"><b>Anh and chị</b>You'll hear people called <span class="vn">anh</span> (older brother) and <span class="vn">chị</span> (older sister). It's a friendly, polite way to address a man or woman.</div>
+  <div class="rh"><span>The Hanoi Handbook</span><span>Language</span></div>
+  <div class="ch"><span class="n">17</span><span class="line"></span><span class="t">Language</span></div>
+  <h2>Survival <em>Vietnamese</em></h2>
+  <p class="stand">Vietnamese has six tones, so the same word can change meaning. Don't worry: locals love the effort far more than perfect tones.</p>
+  <img class="ill center" style="width:132mm" src="illustrations/20-phrases.jpg" alt="Watercolor of a traveler chatting with a fruit vendor at a market stall">
+  <div class="phr mt4">
+    <div>
+      <div class="row"><span class="vi">Xin chào</span><span class="en">Hello</span><span class="say">sin chow</span></div>
+      <div class="row"><span class="vi">Cảm ơn</span><span class="en">Thank you</span><span class="say">gahm uhn</span></div>
+      <div class="row"><span class="vi">Không, cảm ơn</span><span class="en">No, thank you</span><span class="say">khom, gahm uhn</span></div>
+      <div class="row"><span class="vi">Xin lỗi</span><span class="en">Sorry, excuse me</span><span class="say">sin loy</span></div>
+      <div class="row"><span class="vi">Bao nhiêu?</span><span class="en">How much?</span><span class="say">bow nyew</span></div>
+      <div class="row"><span class="vi">Tính tiền</span><span class="en">The bill, please</span><span class="say">ting tee-en</span></div>
+    </div>
+    <div>
+      <div class="row"><span class="vi">Không cay</span><span class="en">Not spicy</span><span class="say">khom kai</span></div>
+      <div class="row"><span class="vi">Ít ngọt</span><span class="en">Less sweet</span><span class="say">it ngot</span></div>
+      <div class="row"><span class="vi">Ngon quá!</span><span class="en">So delicious!</span><span class="say">ngon kwah</span></div>
+      <div class="row"><span class="vi">Tôi ăn chay</span><span class="en">I eat vegetarian</span><span class="say">toy an chai</span></div>
+      <div class="row"><span class="vi">Một, hai, ba, dzô!</span><span class="en">One, two, three, cheers!</span><span class="say">moht, hai, bah, yo</span></div>
+      <p class="small mt2" style="font-style:italic">Pronunciation guides are approximate.</p>
+    </div>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Survival Vietnamese</span><span>19</span></div>
+  <div class="g2 mt4 push">
+    <div class="note"><span class="lab">Reading prices</span><p>Menus often drop the thousands: "50k" or "50" means 50,000 VND. In speech, <span class="vn">nghìn</span> means thousand.</p></div>
+    <div class="note"><span class="lab">Anh and chị</span><p>People are called <span class="vn">anh</span> (older brother) or <span class="vn">chị</span> (older sister). It's a friendly, polite way to address a man or a woman.</p></div>
+  </div>
+  <div class="folio"><span>TravelFrame</span><span class="n">20</span></div>
 </section>
 
-<!-- 20 · DAY TRIPS -->
+<!-- ============ 21 · DAY TRIPS ============ -->
 <section class="page">
-  <div class="chap"><span class="no">18</span><span class="kicker">Beyond the city</span></div>
-  <h2>Day trips from Hanoi</h2>
-  <div class="fig" style="height:92mm"><img src="illustrations/15-day-trips.jpg" alt="Illustrated rowing boats on a river between limestone karst peaks"></div>
-  <table>
+  <div class="rh"><span>The Hanoi Handbook</span><span>Beyond the city</span></div>
+  <div class="ch"><span class="n">18</span><span class="line"></span><span class="t">Beyond the city</span></div>
+  <h2>Day trips <em>from Hanoi</em></h2>
+  <p class="stand">Within two hours you can reach limestone valleys, a famous bay, and villages that still make pottery and incense by hand.</p>
+  <img class="ill center" style="width:168mm" src="illustrations/15-day-trips.jpg" alt="Watercolor of rowing boats on a river between limestone karst peaks">
+  <table class="min mt2">
     <tr><th>Day trip</th><th>Distance</th><th>Each way</th><th>Best for</th></tr>
-    <tr><td><b>Bát Tràng</b> ceramic village</td><td>about 13&nbsp;km</td><td>about 30&nbsp;min</td><td>Half day, hands-on pottery</td></tr>
-    <tr><td><b>Quảng Phú Cầu</b> incense village</td><td>about 35&nbsp;km</td><td>about 1&nbsp;hr</td><td>Photography</td></tr>
-    <tr><td><b>Đường Lâm</b> ancient village</td><td>about 45&nbsp;km</td><td>1–1.5&nbsp;hr</td><td>Slow village life</td></tr>
-    <tr><td><b>Perfume Pagoda</b></td><td>about 60&nbsp;km</td><td>1.5–2&nbsp;hr + boat</td><td>Pilgrimage, scenery</td></tr>
-    <tr><td><b>Ninh Bình</b> (Tràng An, Tam Cốc)</td><td>about 100&nbsp;km</td><td>1.5–2.5&nbsp;hr</td><td>Karst landscapes, boat rides</td></tr>
-    <tr><td><b>Hạ Long Bay</b></td><td>about 165&nbsp;km</td><td>2.5–3&nbsp;hr</td><td>Bay cruise; overnight is better</td></tr>
+    <tr><td>Bát Tràng ceramic village</td><td>about 13&nbsp;km</td><td>about 30&nbsp;min</td><td>Half day, hands-on pottery</td></tr>
+    <tr><td>Quảng Phú Cầu incense village</td><td>about 35&nbsp;km</td><td>about 1&nbsp;hr</td><td>Photography</td></tr>
+    <tr><td>Đường Lâm ancient village</td><td>about 45&nbsp;km</td><td>1–1.5&nbsp;hr</td><td>Slow village life</td></tr>
+    <tr><td>Perfume Pagoda</td><td>about 60&nbsp;km</td><td>1.5–2&nbsp;hr + boat</td><td>Pilgrimage, scenery</td></tr>
+    <tr><td>Ninh Bình</td><td>about 100&nbsp;km</td><td>1.5–2.5&nbsp;hr</td><td>Karst landscapes, boat rides</td></tr>
+    <tr><td>Hạ Long Bay</td><td>about 165&nbsp;km</td><td>2.5–3&nbsp;hr</td><td>A cruise; overnight is better</td></tr>
   </table>
-  <p class="small">Times by car; they depend on traffic. Distances are approximate. <span class="checked">checked Nov 2026</span></p>
-  <div class="cols" style="margin-top:2mm">
-    <div>
-      <h4>Ninh Bình in a day</h4>
-      <p>The most popular escape: rowing boats glide between limestone peaks, through caves and past rice fields. Leave early. A full day is tight but doable by car, tour bus or train.</p>
-    </div>
-    <div>
-      <h4>Hạ Long Bay: day or overnight?</h4>
-      <p>A day trip means 5–6 hours on the road for a few hours on the water. An overnight cruise gives you sunset, sunrise and calmer coves.</p>
-    </div>
+  <p class="small" style="font-style:italic">Times by car; they depend on traffic. Distances are approximate. <span class="ck">checked Nov 2026</span></p>
+  <div class="g3 mt2 push">
+    <div class="note"><span class="lab">Ninh Bình in a day</span><p>Rowing boats glide between limestone peaks, through caves and past rice fields. Leave early; a full day is tight but doable.</p></div>
+    <div class="note"><span class="lab">Hạ Long: day or night?</span><p>A day trip means 5–6 hours on the road for a few hours on the water. Overnight gives you sunset, sunrise and calmer coves.</p></div>
+    <div class="note"><span class="lab">Tour, driver or train?</span><p>A tour sorts it all; a private driver gives you your own timing. For Ninh Bình, the train is a slow, scenic option. <a data-u="day-trips-from-hanoi" data-c="day_trips">All seven trips</a></p></div>
   </div>
-  <div class="card" style="margin-bottom:3mm"><h4>Tour, driver or train?</h4><p>A group tour sorts transport and tickets for you. A private car with a driver gives you your own timing and stops. For Ninh Bình, the train is a slower, scenic option. Whichever you choose, leave early to beat the crowds.</p></div>
-  <p>All seven trips, with how to get there: <a data-u="day-trips-from-hanoi" data-c="day_trips">Day trips from Hanoi</a></p>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Day trips</span><span>20</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">21</span></div>
 </section>
 
-<!-- 21 · PACKING -->
+<!-- ============ 22 · PACKING ============ -->
 <section class="page">
-  <div class="chap"><span class="no">19</span><span class="kicker">What to pack</span></div>
-  <h2>Pack light, pack for the season</h2>
-  <p class="lede">You can buy almost anything in Hanoi, often for less. Bring the essentials, comfortable shoes and the right layers for the month you travel.</p>
-  <div class="fig" style="height:74mm"><img src="illustrations/21-packing.jpg" alt="Illustrated open backpack with seasonal travel items"></div>
-  <div class="cols">
-    <div class="card">
-      <h4>Every season</h4>
-      <ul class="check">
-        <li>Passport, plus a copy of your e-visa (printed and on your phone)</li>
+  <div class="rh"><span>The Hanoi Handbook</span><span>What to pack</span></div>
+  <div class="ch"><span class="n">19</span><span class="line"></span><span class="t">What to pack</span></div>
+  <h2>Pack light, <em>pack for the season</em></h2>
+  <p class="stand">You can buy almost anything in Hanoi, often for less. Bring the essentials, comfortable shoes and the right layers.</p>
+  <img class="ill center" style="width:164mm" src="illustrations/21-packing.jpg" alt="Watercolor of an open backpack with seasonal travel items">
+  <div class="g2 mt4 push">
+    <div>
+      <h3>Every season</h3>
+      <ul class="chk">
+        <li>Passport and a copy of your e-visa</li>
         <li>Two bank cards and some cash</li>
         <li>Phone, charger and power bank</li>
-        <li>Plug adapter if your plugs aren't Type A or C</li>
-        <li>Comfortable walking shoes you have already worn in</li>
-        <li>A light scarf or shawl for temples</li>
+        <li>Plug adapter, if yours aren't Type A or C</li>
+        <li>Walking shoes you've already worn in</li>
+        <li>A light scarf for temples</li>
         <li>Small cross-body bag</li>
         <li>Refillable water bottle</li>
         <li>Insect repellent and sunscreen</li>
-        <li>Basic medicines and any prescriptions</li>
-        <li>Tissues and hand sanitiser</li>
+        <li>Basic medicines and prescriptions</li>
         <li>A light rain poncho</li>
       </ul>
     </div>
     <div>
-      <div class="card" style="margin-bottom:4mm"><h4>Summer · May–Aug</h4><p>Breathable cotton or linen, a hat, quick-dry layers and sandals that cope with puddles. Electrolyte sachets help on hot days.</p></div>
-      <div class="card" style="margin-bottom:4mm"><h4>Autumn · Sep–Nov</h4><p>Light clothes for the day and a thin layer for evenings, which cool down from late October.</p></div>
-      <div class="card" style="margin-bottom:4mm"><h4>Winter · Dec–Jan</h4><p>Real warm layers: a fleece or light down jacket, long trousers and warm socks. Rooms can be cold, as few buildings have heating.</p></div>
-      <div class="card"><h4>Spring · Feb–Apr</h4><p>A light waterproof jacket, a mid layer and shoes with grip for damp, slippery pavements.</p></div>
+      <div class="season" style="margin-bottom:3.5mm"><div class="nm" style="font-size:16pt">Summer <span class="m" style="display:inline">May–Aug</span></div><p>Breathable cotton or linen, a hat, quick-dry layers, sandals that cope with puddles, and electrolyte sachets.</p></div>
+      <div class="season" style="margin-bottom:3.5mm"><div class="nm" style="font-size:16pt">Autumn <span class="m" style="display:inline">Sep–Nov</span></div><p>Light clothes for the day and a thin layer for evenings, which cool down from late October.</p></div>
+      <div class="season" style="margin-bottom:3.5mm"><div class="nm" style="font-size:16pt">Winter <span class="m" style="display:inline">Dec–Jan</span></div><p>Real warm layers: a fleece or light down jacket, long trousers and warm socks. Few rooms have heating.</p></div>
+      <div class="season"><div class="nm" style="font-size:16pt">Spring <span class="m" style="display:inline">Feb–Apr</span></div><p>A light waterproof jacket, a mid layer and shoes with grip for damp pavements.</p></div>
     </div>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · What to pack</span><span>21</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">22</span></div>
 </section>
 
-<!-- 22 · PHOTOS + TRAVELFRAME -->
+<!-- ============ 23 · PHOTOS + TRAVELFRAME ============ -->
 <section class="page">
-  <div class="chap"><span class="no">20</span><span class="kicker">Photos and memories</span></div>
-  <h2>Photos and your Hanoi story</h2>
-  <div class="side" style="grid-template-columns: 90mm 1fr">
-    <div class="fig" style="height:128mm"><img src="illustrations/16-photo-walk.jpg" alt="Illustrated local photographer photographing a traveler in a yellow-walled alley"></div>
+  <div class="rh"><span>The Hanoi Handbook</span><span>Photos and memories</span></div>
+  <div class="ch"><span class="n">20</span><span class="line"></span><span class="t">Photos and memories</span></div>
+  <h2>Photos <em>and your Hanoi story</em></h2>
+  <div style="display:grid; grid-template-columns: 84mm 1fr; gap:8mm; align-items:start" class="mt2">
+    <img class="ill" src="illustrations/16-photo-walk.jpg" alt="Watercolor of a local photographer photographing a traveler in a yellow-walled alley">
     <div>
-      <p class="lede">Hanoi is one of Asia's most photogenic cities, if you know when to look.</p>
-      <ul>
-        <li><b>Go early.</b> From 6 to 8am the light is soft and the streets are empty.</li>
-        <li><b>Look up.</b> Balconies, shutters, plants and the tangle of wires are pure Hanoi.</li>
-        <li><b>Find the lanes.</b> Narrow alleys (<span class="vn">ngõ</span>) hide the quietest frames. An upstairs café gives you the view from above.</li>
-        <li><b>Love the rain.</b> Wet stone and lights at night make great reflections.</li>
-        <li><b>Ask first, always.</b> And respect a no.</li>
-        <li><b>Put the phone down</b> sometimes. Some moments are just for you.</li>
-      </ul>
-      <p>Where to point your camera: <a data-u="15-best-photo-spots-hanoi-local-guide-light-timing-and-uncrowded-angles-2026" data-c="photo_spots">15 best photo spots in Hanoi</a></p>
+      <p class="stand" style="font-size:15pt">Hanoi is one of Asia's most photogenic cities, if you know when to look.</p>
+      <div class="numd" style="margin-bottom:2mm"><span class="k" style="font-size:16pt">1</span><p style="margin:0"><b>Go early.</b> From 6 to 8am the light is soft and the streets are empty.</p></div>
+      <div class="numd" style="margin-bottom:2mm"><span class="k" style="font-size:16pt">2</span><p style="margin:0"><b>Look up.</b> Balconies, shutters, plants and the tangle of wires are pure Hanoi.</p></div>
+      <div class="numd" style="margin-bottom:2mm"><span class="k" style="font-size:16pt">3</span><p style="margin:0"><b>Find the lanes.</b> Narrow alleys (<span class="vn">ngõ</span>) hide the quietest frames. An upstairs café gives you the view from above.</p></div>
+      <div class="numd" style="margin-bottom:2mm"><span class="k" style="font-size:16pt">4</span><p style="margin:0"><b>Love the rain.</b> Wet stone and lights at night make great reflections.</p></div>
+      <div class="numd" style="margin-bottom:2mm"><span class="k" style="font-size:16pt">5</span><p style="margin:0"><b>Ask first, always,</b> and respect a no.</p></div>
+      <p class="mt2">Where to point your camera: <a data-u="15-best-photo-spots-hanoi-local-guide-light-timing-and-uncrowded-angles-2026" data-c="photo_spots">15 best photo spots in Hanoi</a></p>
     </div>
   </div>
-  <div class="cta" style="margin-top:8mm">
+  <div class="cta mt6 push">
     <h3>Want to be in the photos, not just behind the camera?</h3>
-    <p>TravelFrame pairs you with a local host who walks Hanoi with you, shares the stories behind the streets and photographs the trip as it happens. No awkward posing, just you, the city and a friend who knows where the light falls. You go home with edited photos of your own Hanoi story.</p>
-    <div class="cols-3" style="margin:3mm 0 4mm">
-      <div><b style="color:#7FD3E2">1 · Tell us</b><br>your dates and what you love about travel.</div>
-      <div><b style="color:#7FD3E2">2 · We plan</b><br>a route and a time with good light, at your pace.</div>
-      <div><b style="color:#7FD3E2">3 · You walk</b><br>Hanoi with a local friend and keep the edited photos.</div>
+    <p>TravelFrame pairs you with a local host who walks Hanoi with you, shares the stories behind the streets and photographs the trip as it happens. No awkward posing: just you, the city, and a friend who knows where the light falls.</p>
+    <div class="g3 mt4" style="column-gap:6mm">
+      <div><span class="k">1 · Tell us</span>your dates and what you love about travel.</div>
+      <div><span class="k">2 · We plan</span>a route and a time with good light, at your pace.</div>
+      <div><span class="k">3 · You walk</span>Hanoi with a local friend and keep the edited photos.</div>
     </div>
-    <p style="margin:0">Message <b>PHOTO</b> to <a href="https://www.instagram.com/travelframe.vn/">@travelframe.vn</a> on Instagram, or write to us on <a href="https://m.me/travelframe.vn">Messenger</a>.</p>
+    <p class="mt4" style="margin-bottom:0">Message <b style="color:#fff">PHOTO</b> to <a href="https://www.instagram.com/travelframe.vn/">@travelframe.vn</a> on Instagram, or write to us on <a href="https://m.me/travelframe.vn">Messenger</a>.</p>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Photos and memories</span><span>22</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">23</span></div>
 </section>
 
-<!-- 23 · CHECKLIST -->
+<!-- ============ 24 · CHECKLIST ============ -->
 <section class="page">
-  <div class="chap"><span class="no">21</span><span class="kicker">Checklist</span></div>
-  <h2>Your Hanoi trip checklist</h2>
-  <p class="lede">Tick as you go. Print it, or screenshot it.</p>
-  <div class="fig" style="height:74mm"><img src="illustrations/22-checklist.jpg" alt="Illustrated balcony at sunrise over Old Quarter rooftops with tea and a notebook"></div>
-  <div class="cols">
+  <div class="rh"><span>The Hanoi Handbook</span><span>Checklist</span></div>
+  <div class="ch"><span class="n">21</span><span class="line"></span><span class="t">Checklist</span></div>
+  <h2>Your Hanoi <em>trip checklist</em></h2>
+  <p class="stand">Tick as you go. Print it, or screenshot it.</p>
+  <img class="ill center" style="width:160mm" src="illustrations/22-checklist.jpg" alt="Watercolor of a balcony at sunrise over Old Quarter rooftops with tea and a notebook">
+  <div class="g2 mt4 push">
     <div>
-      <h3>3–4 weeks before</h3>
-      <ul class="check">
-        <li>Check your entry rule for your passport</li>
-        <li>Apply for your e-visa on evisa.gov.vn, if you need one</li>
-        <li>Check your passport is valid 6 months after arrival</li>
+      <h3>Three or four weeks before</h3>
+      <ul class="chk">
+        <li>Check the entry rule for your passport</li>
+        <li>Apply for an e-visa on evisa.gov.vn, if you need one</li>
+        <li>Passport valid 6 months after arrival</li>
         <li>Book flights and your first nights</li>
         <li>Buy travel insurance</li>
-        <li>Check the dates against Tết and public holidays</li>
+        <li>Check your dates against Tết and holidays</li>
       </ul>
-      <h3>1 week before</h3>
-      <ul class="check">
-        <li>Install Grab or Xanh SM and add a payment card</li>
-        <li>Download offline Google Maps for Hanoi</li>
-        <li>Download Vietnamese in Google Translate</li>
-        <li>Buy an eSIM, or plan to get a SIM at arrivals</li>
-        <li>Tell your bank you're travelling</li>
+      <h3 class="mt4">One week before</h3>
+      <ul class="chk">
+        <li>Install Grab or Xanh SM, add a card</li>
+        <li>Download offline maps and Vietnamese</li>
+        <li>Buy an eSIM, or plan a SIM at arrivals</li>
         <li>Screenshot your hotel address in Vietnamese</li>
-        <li>Check the weather and pack for the season</li>
       </ul>
     </div>
     <div>
       <h3>The day you fly</h3>
-      <ul class="check">
+      <ul class="chk">
         <li>Passport and a copy of your e-visa</li>
         <li>Some cash in clean notes, and two cards</li>
-        <li>Phone charged, power bank in your hand luggage</li>
-        <li>A pen for any arrival forms</li>
+        <li>Phone charged, power bank in hand luggage</li>
       </ul>
-      <h3>Your first day in Hanoi</h3>
-      <ul class="check">
+      <h3 class="mt4">Your first day in Hanoi</h3>
+      <ul class="chk">
         <li>Get VND from a bank ATM</li>
-        <li>Buy water and a few small snacks</li>
         <li>Walk around Hoàn Kiếm Lake</li>
         <li>Eat your first bowl of phở</li>
         <li>Practise <span class="vn">Cảm ơn</span> and <span class="vn">Bao nhiêu?</span></li>
-        <li>Cross your first big street, slowly and steadily</li>
+        <li>Cross your first big street, slowly</li>
         <li>Plan tomorrow's sunrise</li>
       </ul>
-      <div class="tip"><b>Questions?</b>Message us on Instagram <a href="https://www.instagram.com/travelframe.vn/">@travelframe.vn</a>. We're locals and happy to help.</div>
+      <div class="hand tilt mt2">Questions? Message us <a href="https://www.instagram.com/travelframe.vn/">@travelframe.vn</a>. We're locals and happy to help.</div>
     </div>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Checklist</span><span>23</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">24</span></div>
 </section>
 
-<!-- 24 · SOURCES -->
+<!-- ============ 25 · SOURCES + BACK ============ -->
 <section class="page back">
-  <div class="chap"><span class="no" style="color:#7FD3E2">22</span><span class="kicker" style="color:#7FD3E2">Sources and notes</span></div>
-  <h2>How we checked this guide</h2>
-  <p>We checked time-sensitive facts in November 2026 against official sources where they exist, and against our own published Hanoi guides. Where sources disagreed, we chose the cautious figure or left the number out.</p>
-  <table>
+  <div class="rh"><span>The Hanoi Handbook</span><span>Sources and notes</span></div>
+  <div class="ch"><span class="n">22</span><span class="line"></span><span class="t">Sources and notes</span></div>
+  <h2>How we <em>checked this guide</em></h2>
+  <p class="stand">We checked time-sensitive facts in November 2026 against official sources where they exist, and against our own published Hanoi guides. Where sources disagreed, we chose the cautious figure or left the number out.</p>
+  <table class="min">
     <tr><th>Topic</th><th>Source</th><th>Checked</th></tr>
     <tr><td>E-visa length and fees</td><td>Official portal evisa.gov.vn; US Embassy fee notice as reported</td><td>Nov 2026</td></tr>
     <tr><td>Exchange rate</td><td>Vietcombank buy/sell rates, 5 Nov 2026</td><td>Nov 2026</td></tr>
-    <tr><td>Mausoleum days and closure</td><td>Official announcement reported by Vietnam News and Tuổi Trẻ</td><td>Nov 2026</td></tr>
-    <tr><td>Temple of Literature ticket</td><td>vanmieu.gov.vn and visitor guides</td><td>Nov 2026</td></tr>
-    <tr><td>Hỏa Lò Prison ticket</td><td>Museum ticket notice (3 Mar 2025) as reported</td><td>Nov 2026</td></tr>
+    <tr><td>Mausoleum days, closure</td><td>Official announcement reported by Vietnam News and Tuổi Trẻ</td><td>Nov 2026</td></tr>
+    <tr><td>Temple of Literature</td><td>vanmieu.gov.vn and visitor guides</td><td>Nov 2026</td></tr>
+    <tr><td>Hỏa Lò Prison</td><td>Museum ticket notice (3 Mar 2025) as reported</td><td>Nov 2026</td></tr>
     <tr><td>Metro lines</td><td>Hanoi Metro and EIB reporting, Oct 2026</td><td>Nov 2026</td></tr>
     <tr><td>Tết 2027 date</td><td>Lunar calendar; Ministry of Home Affairs notices</td><td>Nov 2026</td></tr>
-    <tr><td>Airport options, day trips</td><td>TravelFrame published guides (desk checks, Nov 2026)</td><td>Nov 2026</td></tr>
-    <tr><td>Street phở and GrabBike prices</td><td>TravelFrame price register</td><td>Sep 2026</td></tr>
+    <tr><td>Airport, day trips</td><td>TravelFrame published guides (desk checks)</td><td>Nov 2026</td></tr>
+    <tr><td>Phở, GrabBike prices</td><td>TravelFrame price register</td><td>Sep 2026</td></tr>
   </table>
-  <h3 style="color:#fff; margin-top:5mm">Good to know</h3>
-  <ul>
-    <li>This guide is general travel information, not legal, visa or medical advice. Rules, prices and opening hours change. Please confirm with official sources before you travel.</li>
-    <li>The illustrations were created with AI for this guide. They are artistic impressions, not photographs of specific places or people.</li>
-    <li>Prices are typical ranges, not official tariffs.</li>
-  </ul>
-  <div style="margin-top:8mm; border-top:0.6pt solid #4A535B; padding-top:5mm">
-    <div style="font-family:'Heritage',Georgia,serif; font-size:24pt; color:#fff">TravelFrame</div>
-    <p style="margin-top:2mm">Explore Hanoi with a local friend, and turn your trip into your own visual story.</p>
-    <p><a href="https://travelframe.sidevn.com/?utm_source=hanoi_handbook&amp;utm_medium=pdf&amp;utm_campaign=hanoi_handbook&amp;utm_content=back_cover">travelframe.sidevn.com</a> · Instagram <a href="https://www.instagram.com/travelframe.vn/">@travelframe.vn</a> · <a href="https://m.me/travelframe.vn">m.me/travelframe.vn</a></p>
-    <p class="small">© 2026 TravelFrame. Free to share in full and unchanged. Updated November 2026.</p>
+  <div class="g2 mt6 push" style="column-gap:10mm">
+    <div>
+      <h3>Good to know</h3>
+      <ul class="dash" style="font-size:8.8pt">
+        <li>This is general travel information, not legal, visa or medical advice. Please confirm with official sources before you travel.</li>
+        <li>The illustrations were created with AI for this guide. They are artistic impressions, not photographs of specific places or people.</li>
+        <li>Prices are typical ranges, not official tariffs.</li>
+      </ul>
+    </div>
+    <div>
+      <div style="font-family:'Heritage',var(--serif); font-size:30pt; color:#fff; line-height:1">TravelFrame</div>
+      <p class="mt2" style="font-family:var(--serif); font-style:italic; font-size:14pt; line-height:1.3; color:#E8E2D5">Explore Hanoi with a local friend, and turn your trip into your own visual story.</p>
+      <p style="font-size:8.8pt"><a href="https://travelframe.sidevn.com/?utm_source=hanoi_handbook&amp;utm_medium=pdf&amp;utm_campaign=hanoi_handbook&amp;utm_content=back_cover">travelframe.sidevn.com</a><br>Instagram <a href="https://www.instagram.com/travelframe.vn/">@travelframe.vn</a><br><a href="https://m.me/travelframe.vn">m.me/travelframe.vn</a></p>
+      <p style="font-size:7.6pt; color:#8C9497">© 2026 TravelFrame. Free to share in full and unchanged. Updated November 2026.</p>
+    </div>
   </div>
-  <div class="foot"><span><b>The Hanoi Handbook</b> · Sources and notes</span><span>24</span></div>
+  <div class="folio"><span>TravelFrame</span><span class="n">25</span></div>
 </section>
 
 <script>
-// Build tracked links to TravelFrame guides: <a data-u="slug" data-c="content">
+// Tracked links to TravelFrame guides: <a data-u="guide-path" data-c="content">
 document.querySelectorAll("a[data-u]").forEach(function (a) {
   a.href = "https://travelframe.sidevn.com/news/" + a.dataset.u +
     "?utm_source=hanoi_handbook&utm_medium=pdf&utm_campaign=hanoi_handbook&utm_content=" + a.dataset.c;

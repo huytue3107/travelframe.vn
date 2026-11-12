@@ -1,5 +1,5 @@
 ---
-title: "Sources & claims — The Hanoi Handbook (ebook EN, 24 trang)"
+title: "Sources & claims — The Hanoi Handbook (ebook EN, 25 trang, v02)"
 type: sources-and-claims
 status: Draft (chờ Rocky duyệt nội dung và hình)
 owner: Marketing-Growth
@@ -9,7 +9,7 @@ created: 2026-11-10
 
 # Sources & claims — The Hanoi Handbook
 
-Ebook tiếng Anh, khổ A4, 24 trang, gồm 22 hình minh hoạ AI. Bản build và PDF nằm ở
+Ebook tiếng Anh, khổ A4, 25 trang (bản v02 thiết kế lại), gồm 22 hình minh hoạ AI. Số trang trong bảng dưới theo bản v01; nội dung v02 giữ nguyên, chỉ thêm 1 trang mục lục nên các chương lùi 1 trang. Bản build và PDF nằm ở
 [Creative-Production/Projects/Hanoi-Handbook-Ebook-2026](../../../../Creative-Production/Projects/Hanoi-Handbook-Ebook-2026/README.md).
 Trạng thái: **Draft**. Chưa đăng, chưa gửi cho khách.
 
