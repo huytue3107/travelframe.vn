@@ -24,7 +24,7 @@ import lowercase as L
 import kern as KF
 import compile_font as C
 
-FAMILY, STYLE, VERSION = "Heritage Display", "Regular", "1.102"
+FAMILY, STYLE, VERSION = "Heritage Display", "Regular", "1.103"
 UPM, ASC, DESC, CAP, XH = 1000, 980, -300, 700, 500
 
 

@@ -1,9 +1,13 @@
 # Heritage Display — Regular v1.1
 
 Bản tinh chỉnh của v1.0 (thư mục cha). File v1.0 giữ nguyên, không bị ghi đè.
-Tên font vẫn là "Heritage Display", version `1.102`. Nếu đã cài v1.0 hoặc bản v1.1
-trước đó (`1.100`, `1.101`), gỡ bản cũ trước khi cài bản này để ứng dụng không dùng
-nhầm cache.
+Tên font vẫn là "Heritage Display", version `1.103`. Nếu đã cài v1.0 hoặc bản v1.1
+trước đó (`1.100` đến `1.102`), gỡ bản cũ trước khi cài bản này để ứng dụng không
+dùng nhầm cache.
+
+**1.103 (2026-11-13):** chữ `X` đổi sang bản có khấc chữ T ở chạc dưới, giống V, W, Y
+của bộ chữ. Bảng gốc vẽ mỗi chữ V/W/X/Y hai lần (bản trơn và bản có khấc); v1.0 lấy
+nhầm X trơn. Kerning quanh X được tính lại.
 
 **1.102 (2026-11-13):** chữ `T` thay bằng bản trace từ chữ T thật trong "[THEN" ở
 `source/ref/b.png`: gạch ngang có vành loe cong xuống ở hai đầu. Kerning quanh T
@@ -56,7 +60,8 @@ hình tự vẽ thêm. Kerning quanh K được tính lại.
 11. Toàn bộ glyph được khử chồng nét (remove overlaps) và thống nhất chiều contour.
 12. `K` trace từ chữ "MARK" trong `b.png` (bản 1.101). K gốc có cờ ở đầu thân, nhánh
     trên vát loe và chân dạng vòm, khác hẳn K hình học mà v1.0 tự vẽ thêm. `T` trace
-    từ "[THEN" trong `b.png` (bản 1.102), thay cho T hai thanh chữ nhật của v1.0.
+    từ "[THEN" trong `b.png` (bản 1.102), thay cho T hai thanh chữ nhật của v1.0. `X`
+    lấy bản có khấc chữ T ở hàng 3 của `a.png` (bản 1.103), thay cho X trơn.
 
 **Thông số và spacing**
 
@@ -64,7 +69,7 @@ hình tự vẽ thêm. Kerning quanh K được tính lại.
     bắt đầu ở 30–56 đơn vị. TrueType dời nét chữ theo giá trị này, nên mọi chữ bị
     lệch trái và khoảng cách không đều. Giờ LSB đúng bằng xMin. Các glyph tự dựng
     thêm (J, 7, 8, dấu câu) cũng được chia lề đều hai bên.
-14. Kerning: ngoài 1.896 cặp theo class, thêm 1.864 cặp ngoại lệ đo trên outline thật
+14. Kerning: ngoài 1.898 cặp theo class, thêm 1.865 cặp ngoại lệ đo trên outline thật
     của chữ có dấu, để dấu không va gạch ngang của T/V/W/Y ("Tấn", "Tới", "Yên"). Móc
     của ơ/ư cũng không bị kern sát vào chữ sau.
 15. `sxHeight` sửa thành 500 (v1.0 ghi 480). `usWinAscent` = 1015 để chữ hoa có dấu
