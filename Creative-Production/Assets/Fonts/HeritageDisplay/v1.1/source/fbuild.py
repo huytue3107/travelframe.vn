@@ -241,16 +241,27 @@ def shift(contours, dx, dy):
 ROUND = set("COGSQØ06ÔƠỐỒỔỖỘỚỜỞỠỢỎÓÕỌ©®@")
 
 
-def build_upper(img):
+# Letters missing from sheet a but present in the headline of sheet b, same face:
+# the K of "MARK" (line 1) and the T of "[THEN" (line 2).
+ROWS_B = {1: (107.5, 235.0), 2: (307.5, 436.0)}
+UPPER_B = {"K": (1, 1072, 107, 1169, 235),
+           "T": (2, 1547, 307, 1646, 436)}
+
+
+def build_upper(img, img_b=None):
     glyphs = {}
-    for ch, (row, x0, y0, x1, y1) in UPPER.items():
-        captop, bl = ROWS[row]
-        s = CAP / (bl - captop)
-        cont = trace_region(img, x0, y0, x1, y1)
-        lsb = 30 if ch in ROUND else 45
-        f = to_font(cont, s, lsb, 0.0, x0, bl)
-        adv = (x1 - x0) * s + 2 * lsb
-        glyphs[ch] = dict(cont=f, adv=adv, lsb=lsb)
+    sources = [(img, UPPER, ROWS)]
+    if img_b is not None:
+        sources.append((img_b, UPPER_B, ROWS_B))
+    for im, table, rows in sources:
+        for ch, (row, x0, y0, x1, y1) in table.items():
+            captop, bl = rows[row]
+            s = CAP / (bl - captop)
+            cont = trace_region(im, x0, y0, x1, y1)
+            lsb = 30 if ch in ROUND else 45
+            f = to_font(cont, s, lsb, 0.0, x0, bl)
+            adv = (x1 - x0) * s + 2 * lsb
+            glyphs[ch] = dict(cont=f, adv=adv, lsb=lsb)
     return glyphs
 
 

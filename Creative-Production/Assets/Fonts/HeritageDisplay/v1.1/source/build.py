@@ -24,13 +24,14 @@ import lowercase as L
 import kern as KF
 import compile_font as C
 
-FAMILY, STYLE, VERSION = "Heritage Display", "Regular", "1.100"
+FAMILY, STYLE, VERSION = "Heritage Display", "Regular", "1.102"
 UPM, ASC, DESC, CAP, XH = 1000, 980, -300, 700, 500
 
 
 def build_glyph_set(ref_png):
     img = np.asarray(Image.open(ref_png).convert("RGB"))
-    upper = fbuild.build_upper(img)
+    img_b = np.asarray(Image.open(os.path.join(os.path.dirname(ref_png), "b.png")).convert("RGB"))
+    upper = fbuild.build_upper(img, img_b)
     for v in upper.values():
         v["cont"] = G.normalize(v["cont"])
     marks = K.build_marks(img)
@@ -39,7 +40,7 @@ def build_glyph_set(ref_png):
         lower[ch] = dict(cont=fbuild.shift(v["cont"], v["sb"], 0), adv=v["adv"])
     full = K.compose_all(upper, lower, marks)
     con = X.build_constructed()
-    for k in ("0alt", "6", "9"):
+    for k in ("0alt", "6", "9", "K", "T"):
         con.pop(k, None)
     full.update(con)
     # 9 = the traced 6 turned 180 degrees
