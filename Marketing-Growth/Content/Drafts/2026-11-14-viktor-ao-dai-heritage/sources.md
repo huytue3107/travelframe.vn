@@ -15,7 +15,7 @@ Lưu ý vận hành: [Inbox Guide 14/11](../../../../Sales-CRM/Scripts/2026-11-1
 
 | File | Loại | Kênh |
 |---|---|---|
-| [listing.md](listing.md) | Listing copy | Viktor (nền tảng chưa xác nhận), OTA, GBP, trang dịch vụ |
+| [listing.md](listing.md) | Listing copy | Viator (Rocky xác nhận 14/11/2026); dùng lại cho GBP, trang dịch vụ |
 | [reel-script.md](reel-script.md) | Reel dựng từ ảnh tĩnh | Instagram, Facebook Page |
 | [caption.md](caption.md) | Caption reel | Instagram, Facebook Page |
 | [seed-comments.md](seed-comments.md) | Seed comment C1, C2 | Instagram, Facebook Page |
@@ -55,9 +55,9 @@ Lưu ý vận hành: [Inbox Guide 14/11](../../../../Sales-CRM/Scripts/2026-11-1
 
 ## Checklist
 
-Chạy `check_draft.py` ngày 14/11/2026 với knowledge base workspace, không có nguồn ngoài:
+Chạy `check_draft.py` ngày 14/11/2026 (chạy lại sau khi thêm ghi chú nhập Viator) với knowledge base workspace, không có nguồn ngoài:
 
-- `listing.md` (--type reel --no-expect-hashtag): **flagged** · VERIFY=9 · quoted span=0 · overlap=0 · không lỗi cứng
+- `listing.md` (--type reel --no-expect-hashtag): **flagged** · VERIFY=10 · quoted span=0 · overlap=0 · không lỗi cứng
 - `reel-script.md` (--type reel --no-expect-hashtag): **flagged** · VERIFY=1 · quoted span=0 · overlap=0 · không lỗi cứng
 - `caption.md` (--type reel): **pass** · VERIFY=0 · quoted span=0 · overlap=0 · không lỗi cứng
 

@@ -5,7 +5,7 @@ status: Draft
 owner: Marketing-Growth
 created: 2026-11-14
 product_line: 01-Couple-Photo-Walk
-platform: Viktor (nền tảng chưa xác nhận), dùng được cho OTA, GBP hoặc trang dịch vụ
+platform: Viator (Rocky xác nhận 14/11/2026); copy dùng lại được cho GBP và trang dịch vụ
 pricing_source: Executive/DEC-20261021-HOURLY-TIER-PRICING.md
 image_library: Marketing-Growth/Content/viktor-travelframe/01-Couple-Photo-Walk/
 ---
@@ -32,7 +32,7 @@ A private walk for two through Hanoi's lakeside paths, Old Quarter lanes and lam
 
 ## Full description
 
-Most couples come home from Hanoi with hundreds of photos and almost none of both of them. This walk fixes that.
+Couples often come home from Hanoi with hundreds of photos and almost none of both of them. This walk fixes that.
 
 We meet, talk about the look you want, and walk at an easy pace. Along the way we stop where the light is good: a lake path in the morning, a quiet lane, a café front once the lamps come on. You walk, talk and hold hands. We tell you the small things, like where to look and when to slow down.
 
@@ -66,9 +66,7 @@ Priced per hour for up to 2 guests.
 | Premium | 60 USD per hour | 2 hours | Basic plus 2 to 3 areas, light makeup, a short recap video up to 60 seconds, 1 printed polaroid, 20 edited photos per hour |
 | VIP | 99 USD per hour | 2 hours | Premium plus an outfit, a 2 to 3 minute video, 5 printed polaroids, 30 edited photos per hour |
 
-Most couples choose Premium for 2 hours (120 USD), which covers two or three areas. For a dressed-up or pre-wedding session, VIP for 2 hours is 198 USD.
-
-Platform price: may differ from the website price after platform commission. [VERIFY]
+For two or three areas, Premium for 2 hours is 120 USD. For a dressed-up or pre-wedding session, VIP for 2 hours is 198 USD.
 
 ## Included
 
@@ -103,11 +101,19 @@ All original photos within 24 hours. Edited photos and video within 48 hours.
 **Can we do daytime and after dark in one session?**
 Yes, on Premium or VIP. Start an hour or so before sunset and finish once the lamps are on.
 
-## Call to action
+## Call to action (GBP và trang dịch vụ, bỏ khi nhập Viator)
 
 Send us your travel dates and the style you like (daytime, after dark or dressed up), and we will suggest a route.
 
 TravelFrame — your local friend in Hanoi
+
+## Ghi chú nhập Viator (nội bộ)
+
+- Nền tảng: Viator (Rocky xác nhận 14/11/2026, thư mục ảnh ghi là Viktor). Bản này là Draft; chỉ nhập lên Viator khi Rocky duyệt riêng.
+- Giá nhập ở phần giá và option của sản phẩm trên Viator, không ghi trong mô tả. Gợi ý: mỗi tầng Basic, Premium, VIP là một option theo số giờ. Giá bán sau hoa hồng Viator do Rocky quyết. [VERIFY]
+- Bảng giá, mục Call to action và dòng ký tên ở trên dùng cho GBP và trang dịch vụ. Trên Viator bỏ các phần này, và không đưa link, số điện thoại, tài khoản mạng xã hội hay lời mời nhắn ngoài Viator vào mô tả.
+- Chính sách huỷ chọn trong phần cài đặt sản phẩm của Viator. [VERIFY]
+- Ánh xạ các mục sang trường Viator: xem [bản tóm tắt chung](../2026-11-14-Viktor-Product-Lines-Summary.md).
 
 ## Ảnh đề xuất (nội bộ)
 

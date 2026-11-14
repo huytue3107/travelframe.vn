@@ -15,7 +15,7 @@ Khoảng trống ảnh: thư viện chỉ có 15 ảnh, không có ảnh nhóm t
 
 | File | Loại | Kênh |
 |---|---|---|
-| [listing.md](listing.md) | Listing copy | Viktor (nền tảng chưa xác nhận), OTA, GBP, trang dịch vụ |
+| [listing.md](listing.md) | Listing copy | Viator (Rocky xác nhận 14/11/2026); dùng lại cho GBP, trang dịch vụ |
 | [slides-text.md](slides-text.md) | Carousel 7 slide | Instagram, Facebook Page |
 | [caption.md](caption.md) | Caption carousel | Instagram, Facebook Page |
 | [seed-comments.md](seed-comments.md) | Seed comment C1, C2 | Instagram, Facebook Page |
@@ -51,9 +51,9 @@ Khoảng trống ảnh: thư viện chỉ có 15 ảnh, không có ảnh nhóm t
 
 ## Checklist
 
-Chạy `check_draft.py` ngày 14/11/2026 với knowledge base workspace, không có nguồn ngoài:
+Chạy `check_draft.py` ngày 14/11/2026 (chạy lại sau khi thêm ghi chú nhập Viator) với knowledge base workspace, không có nguồn ngoài:
 
-- `listing.md` (--type reel --no-expect-hashtag): **flagged** · VERIFY=8 · quoted span=0 · overlap=0 · không lỗi cứng
+- `listing.md` (--type reel --no-expect-hashtag): **flagged** · VERIFY=9 · quoted span=0 · overlap=0 · không lỗi cứng
 - `slides-text.md` (--type carousel): **flagged** · VERIFY=2 · quoted span=0 · overlap=0 · không lỗi cứng
 - `caption.md` (--type reel): **pass** · VERIFY=0 · quoted span=0 · overlap=0 · không lỗi cứng
 

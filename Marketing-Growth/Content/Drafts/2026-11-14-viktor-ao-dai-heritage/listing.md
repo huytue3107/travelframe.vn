@@ -5,7 +5,7 @@ status: Draft
 owner: Marketing-Growth
 created: 2026-11-14
 product_line: 03-Ao-Dai-Heritage
-platform: Viktor (nền tảng chưa xác nhận), dùng được cho OTA, GBP hoặc trang dịch vụ
+platform: Viator (Rocky xác nhận 14/11/2026); copy dùng lại được cho GBP và trang dịch vụ
 pricing_source: Executive/DEC-20261021-HOURLY-TIER-PRICING.md
 image_library: Marketing-Growth/Content/viktor-travelframe/03-Ao-Dai-Heritage/
 ---
@@ -69,7 +69,6 @@ Priced per hour for up to 2 guests.
 The easiest option is VIP for 2 hours (198 USD), with the áo dài and light makeup included.
 
 Áo dài sizes and colours available on VIP. [VERIFY]
-Platform price: may differ from the website price after platform commission. [VERIFY]
 
 ## Included
 
@@ -106,11 +105,19 @@ Yes. Tell us when you book so we plan colours that work together. We confirm in 
 **When do I get the photos?**
 All original photos within 24 hours. Edited photos and video within 48 hours.
 
-## Call to action
+## Call to action (GBP và trang dịch vụ, bỏ khi nhập Viator)
 
 Send us your dates and your favourite colour, and we will suggest a lake and Old Quarter route.
 
 TravelFrame — your local friend in Hanoi
+
+## Ghi chú nhập Viator (nội bộ)
+
+- Nền tảng: Viator (Rocky xác nhận 14/11/2026, thư mục ảnh ghi là Viktor). Bản này là Draft; chỉ nhập lên Viator khi Rocky duyệt riêng.
+- Giá nhập ở phần giá và option của sản phẩm trên Viator, không ghi trong mô tả. Gợi ý: mỗi tầng Basic, Premium, VIP là một option theo số giờ. Giá bán sau hoa hồng Viator do Rocky quyết. [VERIFY]
+- Bảng giá, mục Call to action và dòng ký tên ở trên dùng cho GBP và trang dịch vụ. Trên Viator bỏ các phần này, và không đưa link, số điện thoại, tài khoản mạng xã hội hay lời mời nhắn ngoài Viator vào mô tả.
+- Chính sách huỷ chọn trong phần cài đặt sản phẩm của Viator. [VERIFY]
+- Ánh xạ các mục sang trường Viator: xem [bản tóm tắt chung](../2026-11-14-Viktor-Product-Lines-Summary.md).
 
 ## Ảnh đề xuất (nội bộ)
 

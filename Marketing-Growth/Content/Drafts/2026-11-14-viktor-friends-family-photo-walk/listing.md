@@ -5,7 +5,7 @@ status: Draft
 owner: Marketing-Growth
 created: 2026-11-14
 product_line: 04-Friends-Family-Photo-Walk
-platform: Viktor (nền tảng chưa xác nhận), dùng được cho OTA, GBP hoặc trang dịch vụ
+platform: Viator (Rocky xác nhận 14/11/2026); copy dùng lại được cho GBP và trang dịch vụ
 pricing_source: Executive/DEC-20261021-HOURLY-TIER-PRICING.md
 image_library: Marketing-Growth/Content/viktor-travelframe/04-Friends-Family-Photo-Walk/
 ---
@@ -71,7 +71,6 @@ Examples:
 Largest group we can take. [VERIFY]
 Makeup and outfits on Premium and VIP: we confirm who they cover when you book. [VERIFY]
 Children: counted as guests or free under a certain age. [VERIFY]
-Platform price: may differ from the website price after platform commission. [VERIFY]
 
 ## Included
 
@@ -107,11 +106,19 @@ Tier price per hour for the first 2 guests, plus 15 USD per hour for each extra 
 **When do we get the photos?**
 All original photos within 24 hours. Edited photos and video within 48 hours.
 
-## Call to action
+## Call to action (GBP và trang dịch vụ, bỏ khi nhập Viator)
 
 Send us your group size, ages and travel dates, and we will suggest a route and a price.
 
 TravelFrame — your local friend in Hanoi
+
+## Ghi chú nhập Viator (nội bộ)
+
+- Nền tảng: Viator (Rocky xác nhận 14/11/2026, thư mục ảnh ghi là Viktor). Bản này là Draft; chỉ nhập lên Viator khi Rocky duyệt riêng.
+- Giá nhập ở phần giá và option của sản phẩm trên Viator, không ghi trong mô tả. Gợi ý: mỗi tầng Basic, Premium, VIP là một option theo số giờ. Giá bán sau hoa hồng Viator do Rocky quyết. [VERIFY]
+- Bảng giá, mục Call to action và dòng ký tên ở trên dùng cho GBP và trang dịch vụ. Trên Viator bỏ các phần này, và không đưa link, số điện thoại, tài khoản mạng xã hội hay lời mời nhắn ngoài Viator vào mô tả.
+- Chính sách huỷ chọn trong phần cài đặt sản phẩm của Viator. [VERIFY]
+- Ánh xạ các mục sang trường Viator: xem [bản tóm tắt chung](../2026-11-14-Viktor-Product-Lines-Summary.md).
 
 ## Ảnh đề xuất (nội bộ)
 
