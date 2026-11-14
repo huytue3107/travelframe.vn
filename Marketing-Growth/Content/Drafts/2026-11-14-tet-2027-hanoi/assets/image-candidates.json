@@ -1,0 +1,156 @@
+{
+  "_note": "Checked 2026-11-14. The 4 selected files were downloaded on 2026-11-14 after owner approval in chat; alternates not downloaded.",
+  "selected": {
+    "cover-tet-banner-street": {
+      "source": "Pexels",
+      "id": 36399884,
+      "page": "https://www.pexels.com/photo/lunar-new-year-celebration-street-scene-in-vietnam-36399884/",
+      "photographer": "Ama Journey",
+      "photographer_url": "https://www.pexels.com/@ama-journey-2157145868",
+      "license": "Pexels License",
+      "width": 3637,
+      "height": 2456,
+      "source_alt": "Lively street scene with festive decor for Lunar New Year in Hanoi, Vietnam.",
+      "use": "cover / og:image",
+      "seen": "Banner Chuc Mung Nam Moi - Happy New Year, red lanterns, potted peach trees, old yellow apartment block. Street sign reads Ngo 437 duong Ngoc Lam (Long Bien), so not the Old Quarter. Small national and Party flags on a string. Two people at the right edge.",
+      "local_file": "Creative-Production/Assets/Stock/pexels-36399884-ama-journey.jpg",
+      "local_px": "1880x1270",
+      "local_bytes": 601718,
+      "web_file": "assets/web/tet-in-hanoi-cover.webp (1200x630, crop x0-1500 y330-1118 of 1880x1270)"
+    },
+    "peach-trees-motorbikes": {
+      "source": "Pexels",
+      "id": 36399889,
+      "page": "https://www.pexels.com/photo/street-vendors-transporting-cherry-blossoms-via-motorbikes-36399889/",
+      "photographer": "Ama Journey",
+      "photographer_url": "https://www.pexels.com/@ama-journey-2157145868",
+      "license": "Pexels License",
+      "width": 3637,
+      "height": 2456,
+      "source_alt": "Motorbikes carrying cherry blossom trees on a street, capturing the essence of springtime transport.",
+      "use": "inline, Flower markets",
+      "seen": "Peach trees tied to parked motorbikes along a tree-lined street; one man from behind. Three readable licence plates with prefix 29 (Hanoi): blur or crop before publishing.",
+      "local_file": "Creative-Production/Assets/Stock/pexels-36399889-ama-journey.jpg",
+      "local_px": "1880x1270",
+      "local_bytes": 747302,
+      "web_file": "assets/web/tet-in-hanoi-peach-trees-motorbikes.webp (1440x973, 3 licence plates blurred)"
+    },
+    "nhat-tan-peach-blossom": {
+      "source": "Wikimedia Commons",
+      "title": "Prunus persica (Nhat Tan) 3.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Prunus_persica_(Nhat_Tan)_3.jpg",
+      "artist": "Viethavvh",
+      "license": "Public domain",
+      "width": 2848,
+      "height": 2136,
+      "bytes": 1679457,
+      "date": "unknown",
+      "desc": "Prunus persica (hoa dao) in Nhat Tan, Hanoi, Vietnam",
+      "use": "inline, Nhat Tan",
+      "seen": "Peach tree in full pink bloom, no people",
+      "local_file": "Marketing-Growth/Content/Drafts/2026-11-14-tet-2027-hanoi/assets/commons/nhat-tan-peach-blossom.jpg",
+      "local_px": "1280x960",
+      "local_bytes": 608638,
+      "web_file": "assets/web/tet-in-hanoi-nhat-tan-peach-blossom.webp (1280x960)"
+    },
+    "temple-of-literature-calligrapher": {
+      "source": "Wikimedia Commons",
+      "title": "Ongdochochu.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ongdochochu.jpg",
+      "artist": "Hoangvantoanajc",
+      "license": "CC0",
+      "width": 2369,
+      "height": 1786,
+      "bytes": 686576,
+      "date": "file dated 2025-03-23; shoot date not stated",
+      "desc": "Ong do cho chu (Han) tai Hoi chu Xuan Van Mieu",
+      "use": "inline, Calligraphy at the Temple of Literature",
+      "seen": "Elderly calligrapher in a traditional hat writing on red paper; his face is recognisable",
+      "local_file": "Marketing-Growth/Content/Drafts/2026-11-14-tet-2027-hanoi/assets/commons/temple-of-literature-calligrapher.jpg",
+      "local_px": "1280x965",
+      "local_bytes": 261268,
+      "web_file": "assets/web/tet-in-hanoi-calligrapher-temple-of-literature.webp (1280x965)"
+    }
+  },
+  "alternates": {
+    "peach-sellers-conical-hats": {
+      "source": "Pexels",
+      "id": 36399867,
+      "page": "https://www.pexels.com/photo/busy-hanoi-street-with-people-and-peach-blossoms-36399867/",
+      "photographer": "Ama Journey",
+      "license": "Pexels License",
+      "width": 3637,
+      "height": 2456,
+      "source_alt": "Vibrant street scene in Hanoi with people buying peach blossoms for Lunar New Year festivities."
+    },
+    "peach-branch-market-walkway": {
+      "source": "Pexels",
+      "id": 36399901,
+      "page": "https://www.pexels.com/photo/vibrant-spring-blossom-market-scene-36399901/",
+      "photographer": "Ama Journey",
+      "license": "Pexels License",
+      "width": 3637,
+      "height": 2456,
+      "source_alt": "People enjoying a bustling outdoor market with blooming peach trees."
+    },
+    "trung-hoa-market-2026": {
+      "source": "Wikimedia Commons",
+      "title": "Preparing for Tết Nguyên Đán at Trung Hòa Makeshift Market 10-02-2026 E1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Preparing_for_T%E1%BA%BFt_Nguy%C3%AAn_%C4%90%C3%A1n_at_Trung_H%C3%B2a_Makeshift_Market_10-02-2026_E1.jpg",
+      "artist": "Hoàng Đức Xuyên T59",
+      "license": "CC BY-SA 4.0",
+      "width": 4080,
+      "height": 3060,
+      "bytes": 4158564,
+      "date": "2026-02-10"
+    },
+    "calligrapher-face-hidden-2011": {
+      "source": "Wikimedia Commons",
+      "title": "Van Mieu han tu 5412909963 6abd84dcd2 t.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Van_Mieu_han_tu_5412909963_6abd84dcd2_t.jpg",
+      "artist": "Tom Photographer",
+      "license": "CC BY 2.0",
+      "width": 4752,
+      "height": 3168,
+      "bytes": 1393236,
+      "date": "2011-01-29"
+    }
+  },
+  "published": {
+    "_note": "Published 2026-11-14 on node 135 after owner approval in chat. Inline images are JPEG on the site because the CKEditor upload endpoint rejects WebP. Cover and peach-trees files were re-processed in the browser from the Pexels sources with the same crop and blur parameters, so they are not byte-identical to assets/web.",
+    "url": "https://travelframe.sidevn.com/news/tet-in-hanoi",
+    "node": 135,
+    "files": {
+      "cover-tet-banner-street": {
+        "site_path": "/sites/default/files/2026-11/tet-in-hanoi-cover.webp",
+        "fid": 1033,
+        "size": "1200x630",
+        "bytes": 186736,
+        "sha256_prefix": "d04ba21e4bbbcf92"
+      },
+      "peach-trees-motorbikes": {
+        "site_path": "/sites/default/files/inline-images/tet-in-hanoi-peach-trees-motorbikes.jpg",
+        "uuid": "288de8de-5e21-428a-b18d-06632c7e3b89",
+        "size": "1440x973",
+        "bytes": 575926,
+        "sha256_prefix": "f695509227e88e8f"
+      },
+      "nhat-tan-peach-blossom": {
+        "site_path": "/sites/default/files/inline-images/tet-in-hanoi-nhat-tan-peach-blossom.jpg",
+        "uuid": "db10c7cf-36b1-4ea3-a1f3-baaedcefb820",
+        "size": "1280x960",
+        "bytes": 608638,
+        "sha256_prefix": "997b89e654d0cf48",
+        "same_bytes_as": "assets/commons/nhat-tan-peach-blossom.jpg"
+      },
+      "temple-of-literature-calligrapher": {
+        "site_path": "/sites/default/files/inline-images/tet-in-hanoi-calligrapher-temple-of-literature.jpg",
+        "uuid": "8a01c211-d771-42a7-a549-6105a67d1ae9",
+        "size": "1280x965",
+        "bytes": 261268,
+        "sha256_prefix": "7d6856648a6edd79",
+        "same_bytes_as": "assets/commons/temple-of-literature-calligrapher.jpg"
+      }
+    }
+  }
+}

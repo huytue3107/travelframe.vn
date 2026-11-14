@@ -50,3 +50,10 @@ Phê duyệt: Rocky trả lời D1 đến D5 và chọn "Đăng ngay" trong chat
 ## Rollback
 
 Theo mục Rollback trong [Brief.md](Brief.md): dán lại [Current-Live-Body.html](Current-Live-Body.html), khôi phục summary, SEO description, SEO title "Photographer in Hanoi — Private Photoshoot", xóa Main image (file 1010). Hoặc revert về revision trước trong tab Revisions của node 104.
+
+## Cập nhật 14/11
+
+Node 104 thêm 1 câu link tới `/news/tet-in-hanoi` cuối đoạn "More ideas in our 15 best photo spots in Hanoi" (Rocky
+duyệt "Thêm link"). Revision log "Internal link to /news/tet-in-hanoi (Tet 2027 guide), 14 Nov 2026". Chi tiết ở
+[Publication.md của bài Tết](../2026-11-14-tet-2027-hanoi/Publication.md). Nếu rollback theo cách dán lại
+Current-Live-Body.html ở trên thì câu này cũng mất; muốn giữ, thêm lại câu đó sau khi rollback.
