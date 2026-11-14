@@ -75,6 +75,21 @@ Tất cả file đạt `pass` hoặc `flagged` (chỉ còn `[VERIFY]`): 0 lỗi 
 - **Friends & Family thiếu ảnh.** Thư viện có 15 ảnh, không có ảnh nhóm từ 3 người, không có ảnh gia đình có trẻ em (trừ 1 ảnh trên đường ray). Cần 1 buổi chụp nhóm có consent trước khi đăng tuyến này.
 - **Ảnh có chữ hoặc watermark.** Làng hương 05-1 và 05-13 có chữ in sẵn; ảnh Long Biên của tuyến Solo có chữ overlay; một ảnh streetwear tuyến Fashion có watermark 102. Không dùng các ảnh này trên Viator.
 
+## Bài website (Rocky duyệt viết cả 4 bài, chat 14/11/2026)
+
+Trước đó website đã có bài cho Couple, Solo, Làng hương và 3 bài case Fashion (Thin, Hanna, Wuchr). Chưa có trang cho Áo dài và Friends & Family.
+
+| Bài | Loại | URL đề xuất | Thư mục | Còn [VERIFY] |
+|---|---|---|---|---|
+| Vietnam Photoshoot Ideas: 6 Styles to Shoot in Hanoi | Bài tổng hợp mới, từ khoá vietnam photoshoot (2.400, KD 0) | `/news/vietnam-photoshoot` | [2026-11-14-vietnam-photoshoot-hub](2026-11-14-vietnam-photoshoot-hub/sources.md) | 2 link tới bài mới chưa đăng; xe đi làng hương; áo dài trong VIP; chính sách mưa |
+| Áo Dài Photoshoot in Hanoi | Bài mới | `/news/ao-dai-photoshoot-hanoi` | [2026-11-14-ao-dai-photoshoot-hanoi](2026-11-14-ao-dai-photoshoot-hanoi/sources.md) | Volume từ khoá; mẹo ngồi; cách nói về khách nước ngoài mặc áo dài; size, màu, áo dài cho khách thứ 2, áo dài nam; link bài tổng hợp |
+| Family and Group Photoshoot in Hanoi | Bài mới | `/news/family-photoshoot-hanoi` | [2026-11-14-family-photoshoot-hanoi](2026-11-14-family-photoshoot-hanoi/sources.md) | Volume từ khoá; số khách tối đa; trẻ em; makeup, outfit cho nhóm; link bài tổng hợp |
+| Sửa giá bài Couple | Bản vá Body cho bài đang chạy | URL giữ nguyên | [2026-11-14-couple-page-price-refresh](2026-11-14-couple-page-price-refresh/Brief.md) | 4 câu ngoài phạm vi chờ Rocky quyết (D1–D4) |
+
+Thứ tự đăng đề xuất: sửa bài Couple, rồi bài áo dài và bài gia đình, sau cùng bài tổng hợp (để link nội bộ không bị hỏng).
+
+Ảnh: bài áo dài chỉ có ảnh thư viện chưa có consent. Bài gia đình thiếu ảnh nhóm, cần 1 buổi chụp nhóm có consent. Bài tổng hợp đăng được với 3 ảnh Harry đã có trên site nếu ảnh thư viện chưa được duyệt.
+
 ## Rocky cần quyết trước khi đăng
 
 1. Giá bán trên Viator sau hoa hồng, và cách chia option (mỗi tầng một option theo số giờ).
