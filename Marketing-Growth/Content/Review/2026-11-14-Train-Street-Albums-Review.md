@@ -1,11 +1,22 @@
 ---
 title: Rà soát 2 album Train Street trên website
 owner: Marketing-Growth
-status: Review
+status: Closed (Rocky giữ nguyên)
 date: 2026-11-14
 requested_by: Rocky ("Rà 2 album", chat 14/11/2026)
-scope: Chỉ đọc. Chưa sửa gì trên site.
+scope: Chỉ đọc. Không sửa gì trên site.
+decision: 'Rocky, chat 14/11/2026: "không ảnh hưởng đâu cứ đăng đi". Giữ album 119, album 51 và ảnh trang chủ như hiện tại.'
 ---
+
+# Quyết định
+
+Ngày 14/11/2026, sau khi đọc kết quả rà soát, Rocky trả lời: "không ảnh hưởng đâu cứ đăng đi".
+
+- Giữ nguyên album 119, album 51 và ảnh DSC04501-13 trên trang chủ.
+- Không làm các đề xuất ở dưới.
+- Không báo lại vấn đề này trong các lần rà sau, trừ khi Rocky đổi ý.
+
+Quy định "không lên đường ray" trong Voice & Style Guide và quyết định không dùng ảnh trên ray cho bộ Viator vẫn áp dụng cho nội dung mới.
 
 # Kết luận
 
