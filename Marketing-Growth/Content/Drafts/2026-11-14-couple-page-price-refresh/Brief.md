@@ -1,23 +1,25 @@
 ---
-title: Sửa phần giá bài Couple photoshoot (bản nháp, chưa sửa site)
+title: Sửa phần giá bài Couple photoshoot
 owner: Marketing-Growth
-status: Draft
+status: Published
 created: 2026-11-14
+published: 2026-11-14 16:58 ICT, xem Publication.md
 page: https://travelframe.sidevn.com/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026
-node: chưa xác định (tìm trong CMS theo URL)
+node: 94
 pricing_source: Executive/DEC-20261021-HOURLY-TIER-PRICING.md
 ---
 
 # Mục tiêu
 
-Rocky duyệt phạm vi trong chat 14/11/2026: thay phần giá cũ trong bài Couple bằng bảng giá theo giờ của DEC, bỏ link sang `/booking`, và sửa thêm 4 câu chưa có nguồn (D1–D4, Rocky: Sửa cả D1–D4). Bản nháp này chỉ đổi Body. Chưa sửa gì trên website.
+Rocky duyệt phạm vi trong chat 14/11/2026: thay phần giá cũ trong bài Couple bằng bảng giá theo giờ của DEC, bỏ link sang `/booking`, và sửa thêm 4 câu chưa có nguồn (D1–D4, Rocky: Sửa cả D1–D4). Chỉ đổi Body. Rocky duyệt đăng ("Duyệt đăng Couple", chat 14/11/2026). Đã đăng lúc 16:58 ICT, hồ sơ ở [Publication.md](Publication.md).
 
 ## File
 
 | File | Nội dung |
 |---|---|
-| [Body.html](Body.html) | Body mới, dán vào field Body (Full HTML) |
-| [Current-Live-Body.html](Current-Live-Body.html) | Body đang chạy, đọc ngày 14/11/2026, để rollback. SHA-256 `10f817c70cacd7eeddffe5f9a973838203c8efa8778869fdc628b7c0077cd656` |
+| [Body.html](Body.html) | Nội dung mới. Field Body của node 94 là Basic HTML; khi đăng, các thay đổi được áp vào mã nguồn đang lưu (xem Publication.md) |
+| [Current-Live-Body.html](Current-Live-Body.html) | HTML đã render của body cũ, đọc ngày 14/11/2026, để đối chiếu nội dung, không dùng để rollback. SHA-256 `10f817c70cacd7eeddffe5f9a973838203c8efa8778869fdc628b7c0077cd656` |
+| [Publication.md](Publication.md) | Hồ sơ đăng 14/11/2026 |
 
 SHA-256 của Body.html: `170e1a47df631c2d12accb40b7ce5b178ce4bb223c8530228033369fdf64c125`.
 
@@ -46,16 +48,16 @@ SHA-256 của Body.html: `170e1a47df631c2d12accb40b7ce5b178ce4bb223c853022803336
 | D3 | Mục 6: we provide clear umbrellas… we offer free rescheduling | Chưa có chính sách thời tiết và huỷ (Open P0) | If it drizzles, we move to covered colonnades and cafés. If it pours, we look at another time during your stay with you. |
 | D4 | Mục 6: Changing clothes… wastes 20 to 30 minutes | Mâu thuẫn với VIP có outfit; số phút không có nguồn | For a 2-hour walk, one comfortable outfit is easiest. On VIP an outfit is included, and we plan a café stop to change. |
 
-# Các bước đăng (sau khi Rocky duyệt)
+# Các bước đăng (đã làm 14/11/2026, trừ bước 4)
 
-1. CMS: mở node của bài theo URL, dán Body.html vào Body (Full HTML). Không đổi URL alias, title, meta description.
+1. CMS: mở node 94, áp các thay đổi của Body.html vào mã nguồn Body (Basic HTML). Không đổi URL alias, title, meta description.
 2. Lưu, xoá cache.
 3. Kiểm tra public, không đăng nhập: HTTP 200; không còn chuỗi 125, 160, Booking Configurator, `/booking`, Table 1.1, 80%, free rescheduling, 20 to 30 minutes; có đủ 3 dòng Basic, Premium, VIP; link `/hanoi-photoshoot` trả 200; 2 ảnh còn lại trả 200.
-4. Search Console: Request Indexing cho URL bài.
+4. Search Console: Request Indexing cho URL bài. Chưa làm, chờ Rocky duyệt riêng.
 
 # Rollback
 
-Dán lại [Current-Live-Body.html](Current-Live-Body.html) vào Body, lưu, xoá cache.
+Revert node 94 về revision 183 (`/node/94/revisions/183/revert`). Không dán lại Current-Live-Body.html vì đó là bản render.
 
 # Kiểm tra bản nháp (14/11/2026)
 

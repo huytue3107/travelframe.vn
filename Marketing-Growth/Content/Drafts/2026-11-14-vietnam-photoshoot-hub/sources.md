@@ -35,7 +35,7 @@ Brief: Rocky chọn viết cả 4 bài web (chat 14/11/2026). Bài này nhắm t
 | Link | Tình trạng (14/11/2026) |
 |---|---|
 | `/hanoi-photoshoot` | 200 |
-| `/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026` | 200; phần giá đang sửa trong [bản sửa bài Couple](../2026-11-14-couple-page-price-refresh/Brief.md) |
+| `/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026` | 200; phần giá đã sửa theo DEC ngày 14/11 ([hồ sơ đăng](../2026-11-14-couple-page-price-refresh/Publication.md)) |
 | `/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing` | 200 |
 | `/news/hanoi-street-style-photoshoot-harry-hanna` | 200 |
 | `/news/ao-dai-photoshoot-hanoi` | Chưa có; là bài mới [2026-11-14-ao-dai-photoshoot-hanoi](../2026-11-14-ao-dai-photoshoot-hanoi/Page-Copy.md). [VERIFY] sau khi đăng |
