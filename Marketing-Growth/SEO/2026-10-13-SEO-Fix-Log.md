@@ -187,3 +187,16 @@ Thao tác qua trình duyệt tích hợp (phiên admin Drupal), revision log b�
 - **Không đổi:** đoạn "Map tip" hiện có (khuyên dùng bản đồ offline trên điện thoại).
 - **Chưa làm:** nhúng ảnh xem trước bản đồ vào bài. Nguồn file và việc còn mở: [README dự án](../../Creative-Production/Projects/Hanoi-Old-Quarter-Walking-Map/README.md).
 - **Rollback:** revert node 105 về revision trước "SEO 10/11 campaign". Xoá fid 898 ở `/admin/content/files` khi file không còn được dùng.
+
+## 12. SEO Audit 14/11 (OpenSEO 87eb8f5b), đề xuất 2: link từ Train Street sang trang dịch vụ (14/11, Rocky duyệt "Thêm link")
+
+| # | Thay đổi | Kiểm tra |
+|---|---|---|
+| 1 | Node 71 (Train Street 2026), mục "A Better Hanoi Photo Plan": thêm 1 câu sau đoạn "TravelFrame's working approach…": "If you would like photos of yourself in Hanoi, our private photo walk through the Old Quarter follows the same approach, well away from the tracks." Link `/hanoi-photoshoot` đặt trên cụm "photo walk through the Old Quarter". Body Basic HTML, chỉ chèn 196 ký tự (SHA-256 mã nguồn trước `fd9a077e…31d9`, sau `c66b36df…1831`). Revision log "Audit 14/11 rec 2: …", lưu 17:43 ICT | Trang công khai 200, `x-drupal-cache: MISS`, last-modified 10:44:10 GMT; có câu mới và 1 link `/hanoi-photoshoot` (200); title, canonical, meta description không đổi; 1 H1 |
+
+- Lần bấm Save đầu tiên bị hỏng vì chuyển trang ngay sau khi bấm. Lần đó không tạo revision và site không đổi. Lần lưu thứ hai thành công.
+- **Rollback:** revert node 71 về revision 327 (12/11).
+- **Chưa làm:**
+  - Đợt nhắn nhắc outreach ngày 16/11, phần còn lại của đề xuất 2.
+  - Google đọc trang lúc 17:36 ICT, trước khi thêm link. Chưa gửi yêu cầu đọc lại.
+- **Ghi nhận, chưa xử lý:** site có 2 album mang tên Train Street, là node 119 "Hanoi Train Street – A Romantic Local Experience" và node 51 "Night in Hanoi Train Street". Cần Rocky xem 2 album này có trái quy định không quảng bá chụp ảnh trên đường ray không.
