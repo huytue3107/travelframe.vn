@@ -48,12 +48,12 @@ SHA-256 của Body.html: `170e1a47df631c2d12accb40b7ce5b178ce4bb223c853022803336
 | D3 | Mục 6: we provide clear umbrellas… we offer free rescheduling | Chưa có chính sách thời tiết và huỷ (Open P0) | If it drizzles, we move to covered colonnades and cafés. If it pours, we look at another time during your stay with you. |
 | D4 | Mục 6: Changing clothes… wastes 20 to 30 minutes | Mâu thuẫn với VIP có outfit; số phút không có nguồn | For a 2-hour walk, one comfortable outfit is easiest. On VIP an outfit is included, and we plan a café stop to change. |
 
-# Các bước đăng (đã làm 14/11/2026, trừ bước 4)
+# Các bước đăng (đã làm cả 4 bước ngày 14/11/2026)
 
 1. CMS: mở node 94, áp các thay đổi của Body.html vào mã nguồn Body (Basic HTML). Không đổi URL alias, title, meta description.
 2. Lưu, xoá cache.
 3. Kiểm tra public, không đăng nhập: HTTP 200; không còn chuỗi 125, 160, Booking Configurator, `/booking`, Table 1.1, 80%, free rescheduling, 20 to 30 minutes; có đủ 3 dòng Basic, Premium, VIP; link `/hanoi-photoshoot` trả 200; 2 ảnh còn lại trả 200.
-4. Search Console: Request Indexing cho URL bài. Chưa làm, chờ Rocky duyệt riêng.
+4. Search Console: Request Indexing cho URL bài. Đã gửi Google và Bing lúc 17:03–17:04 ICT, Rocky duyệt "Gửi index".
 
 # Rollback
 

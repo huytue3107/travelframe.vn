@@ -84,7 +84,7 @@ Trước đó website đã có bài cho Couple, Solo, Làng hương và 3 bài c
 | Vietnam Photoshoot Ideas: 6 Styles to Shoot in Hanoi | Bài tổng hợp mới, từ khoá vietnam photoshoot (2.400, KD 0) | `/news/vietnam-photoshoot` | [2026-11-14-vietnam-photoshoot-hub](2026-11-14-vietnam-photoshoot-hub/sources.md) | 2 link tới bài mới chưa đăng; xe đi làng hương; áo dài trong VIP; chính sách mưa |
 | Áo Dài Photoshoot in Hanoi | Bài mới | `/news/ao-dai-photoshoot-hanoi` | [2026-11-14-ao-dai-photoshoot-hanoi](2026-11-14-ao-dai-photoshoot-hanoi/sources.md) | Volume từ khoá; mẹo ngồi; cách nói về khách nước ngoài mặc áo dài; size, màu, áo dài cho khách thứ 2, áo dài nam; link bài tổng hợp |
 | Family and Group Photoshoot in Hanoi | Bài mới | `/news/family-photoshoot-hanoi` | [2026-11-14-family-photoshoot-hanoi](2026-11-14-family-photoshoot-hanoi/sources.md) | Volume từ khoá; số khách tối đa; trẻ em; makeup, outfit cho nhóm; link bài tổng hợp |
-| Sửa giá bài Couple | Bản vá Body cho bài đang chạy | URL giữ nguyên | [2026-11-14-couple-page-price-refresh](2026-11-14-couple-page-price-refresh/Brief.md) Đã đăng 14/11 lúc 16:58 ICT ([Publication.md](2026-11-14-couple-page-price-refresh/Publication.md)); chưa gửi index |
+| Sửa giá bài Couple | Bản vá Body cho bài đang chạy | URL giữ nguyên | [2026-11-14-couple-page-price-refresh](2026-11-14-couple-page-price-refresh/Brief.md) Đã đăng 14/11 lúc 16:58 ICT ([Publication.md](2026-11-14-couple-page-price-refresh/Publication.md)); đã gửi index Google và Bing lúc 17:04 |
 
 Thứ tự đăng đề xuất: sửa bài Couple, rồi bài áo dài và bài gia đình, sau cùng bài tổng hợp (để link nội bộ không bị hỏng).
 

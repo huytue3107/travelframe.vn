@@ -35,7 +35,14 @@ Phê duyệt: Rocky chọn "Duyệt đăng Couple" trong chat ngày 14/11/2026. 
 
 ## Index
 
-Chưa gửi. Gửi Google Request Indexing và Bing URL Submission cần Rocky duyệt riêng.
+Rocky duyệt "Gửi index" trong chat 14/11/2026.
+
+| Kênh | Trước khi gửi | Kết quả |
+|---|---|---|
+| Google Search Console, property `https://travelframe.sidevn.com/`: Kiểm tra URL → Yêu cầu lập chỉ mục (khoảng 17:03 ICT) | "URL nằm trên Google", trang đã lập chỉ mục; lần thu thập dữ liệu gần nhất 05:08:08 ngày 16/10/2026, tức bản có giá cũ | Sau bước kiểm tra trang đang hoạt động, hộp thoại "Đã yêu cầu lập chỉ mục": URL đã được thêm vào hàng đợi ưu tiên thu thập dữ liệu |
+| Bing Webmaster Tools → URL Submission | URL chưa có trong danh sách đã gửi; hạn mức ngày còn 99 | "Success: URL submitted Succesfully"; URL đứng đầu danh sách, ghi "Today at 17:04" |
+
+Hai xác nhận trên chỉ cho biết URL đã vào hàng đợi, chưa phải bằng chứng Google hay Bing đã thu thập lại bản mới. Gửi lặp lại không đổi thứ tự trong hàng đợi, nên không gửi lại. Từ 21/11/2026 kiểm tra lại ngày thu thập dữ liệu gần nhất trong URL Inspection.
 
 ## Giới hạn đã biết
 
