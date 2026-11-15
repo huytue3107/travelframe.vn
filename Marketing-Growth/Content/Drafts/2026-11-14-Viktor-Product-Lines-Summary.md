@@ -90,6 +90,29 @@ Thứ tự đăng đề xuất: sửa bài Couple, rồi bài áo dài và bài 
 
 Ảnh: bài áo dài chỉ có ảnh thư viện chưa có consent. Bài gia đình thiếu ảnh nhóm, cần 1 buổi chụp nhóm có consent. Bài tổng hợp đăng được với 3 ảnh Harry đã có trên site nếu ảnh thư viện chưa được duyệt.
 
+## Bài website chuẩn SEO theo từng tuyến (cập nhật 15/11/2026)
+
+Rocky yêu cầu ngày 15/11/2026: mỗi tuyến sản phẩm có một bài web chuẩn SEO. Search Console 3 tháng (12/8 đến 12/11) cho thấy các bài Solo, Làng hương và 3 bài case Fashion đều 0 lượt hiển thị. Vì vậy sửa hoặc đổi tiêu đề các bài này không làm mất thứ hạng nào.
+
+| Tuyến | Bài web | Trạng thái | Từ khoá chính (Google Ads, Mỹ) |
+|---|---|---|---|
+| 01 Couple | `/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026` | Đã đăng bản sửa giá 14/11 | hanoi couple photoshoot 10 |
+| 02 Solo | Làm mới bài đang chạy, giữ URL: [2026-11-15-solo-page-refresh](2026-11-15-solo-page-refresh/Brief.md) | Draft | solo photoshoot 260 |
+| 03 Áo dài | Bài mới `/news/ao-dai-photoshoot-hanoi`: [2026-11-14-ao-dai-photoshoot-hanoi](2026-11-14-ao-dai-photoshoot-hanoi/sources.md) | Draft | Không có dữ liệu |
+| 04 Friends & Family | Bài mới `/news/family-photoshoot-hanoi`: [2026-11-14-family-photoshoot-hanoi](2026-11-14-family-photoshoot-hanoi/sources.md) | Draft; thiếu ảnh nhóm có consent | Không có dữ liệu |
+| 05 Làng hương | Viết lại bài node 68, giữ URL: [2026-11-15-incense-village-page-rewrite](2026-11-15-incense-village-page-rewrite/Brief.md) | Draft | incense village hanoi 390, quang phu cau incense village 320 |
+| 06 Fashion | Bài mới `/news/fashion-photoshoot-hanoi`, trang mẹ của 3 bài case: [2026-11-15-fashion-photoshoot-hanoi](2026-11-15-fashion-photoshoot-hanoi/sources.md) | Draft | Chưa có số |
+| Bài tổng hợp | `/news/vietnam-photoshoot`: [2026-11-14-vietnam-photoshoot-hub](2026-11-14-vietnam-photoshoot-hub/sources.md) | Draft | vietnam photoshoot 2.400 theo Google Ads, chỉ khoảng 5 theo clickstream (SEO Audit 14/11) |
+
+Điểm chính:
+
+- **Bài Solo đang hiện ghi chú nội bộ cho khách đọc.** Mục "Editorial Notes" và câu "No price... is presented as approved commercial truth" nằm trên trang live. Nên xoá sớm, kể cả trước khi đăng cả bài mới (phương án nhanh trong Brief).
+- **Bài làng hương cũ là bài dựng từ khung chung.** Phần lớn nói về phở, lừa đảo, eSIM, an toàn cho nữ đi một mình. Đây là tuyến có nhu cầu tìm kiếm lớn nhất, nên làm trước.
+- Số Google Ads có thể cao hơn nhiều so với lượt tìm thật (ví dụ vietnam photoshoot). Chưa đo clickstream cho các từ khoá trong bảng.
+- Ngày 15/11, 3 bài web ngày 14/11 (áo dài, gia đình, tổng hợp) đổi sang chính tả Mỹ cho khớp thị trường Mỹ. Bài tổng hợp có thêm link sang bài Fashion và anchor mới cho bài Solo.
+
+Thứ tự đăng đề xuất: (1) xoá ghi chú nội bộ trên bài Solo; (2) bài làng hương; (3) bài Solo đầy đủ; (4) bài Fashion, kèm 1 câu link từ 3 bài case; (5) bài áo dài và gia đình; (6) bài tổng hợp. Mỗi bước là sửa site live, cần Rocky duyệt.
+
 ## Rocky cần quyết trước khi đăng
 
 1. Giá bán trên Viator sau hoa hồng, và cách chia option (mỗi tầng một option theo số giờ).

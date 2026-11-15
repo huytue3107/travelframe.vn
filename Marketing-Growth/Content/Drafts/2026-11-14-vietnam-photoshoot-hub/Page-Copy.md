@@ -6,7 +6,7 @@ meta_title: 'Vietnam Photoshoot Ideas: 6 Styles to Shoot in Hanoi'   # 52 ký t�
 meta_description: 'Planning a Vietnam photoshoot? Six styles we shoot in Hanoi, from couples and áo dài to the red incense village, with where to go, what to wear and prices.'
 primary_keyword: vietnam photoshoot
 secondary_keywords: [vietnam photoshoot ideas, hanoi photoshoot, honeymoon photoshoot, solo photoshoot, travel photoshoot]
-keyword_data: OpenSEO/DataForSEO US-en, 2026-11-13; vietnam photoshoot 2.400/tháng KD 0; xem Marketing-Growth/SEO/2026-11-13-Keyword-Research-Awareness-Holidays/README.md
+keyword_data: 'OpenSEO US-en 13/11/2026: vietnam photoshoot 2.400/tháng (Google Ads, KD 0). SEO Audit 14/11 (clickstream): chỉ khoảng 5/tháng, vì Google Ads gộp các biến thể gần nhau. Lượt tìm thật thấp; giá trị chính của bài là liên kết nội bộ tới 6 bài theo tuyến'
 cluster: Brand awareness (B1 Ảnh và hình ảnh); bài tổng hợp dẫn về /hanoi-photoshoot và 6 bài theo tuyến
 content_type: Bài SEO dạng hub (ngoài 3 rubric reel, carousel, video của skill content-writing; theo mẫu Page-Copy ngày 14/11)
 owner: Marketing-Growth
@@ -34,11 +34,11 @@ This guide covers six styles we shoot in Hanoi, where each one works, what to we
 | Style | Good for | Where in Hanoi | What to wear |
 |---|---|---|---|
 | Couple and honeymoon | Honeymoons, anniversaries, pre-wedding | Lake paths, the cathedral, lamp-lit cafés | Matching tones, not matching outfits |
-| Solo traveller | Anyone travelling alone | Old Quarter lanes, Long Biên Bridge walkway | One bright piece that stands out on busy streets |
-| Áo dài | A keepsake in traditional dress | Hoàn Kiếm Lake, lantern streets | An áo dài in a colour your backdrop doesn't have |
-| Friends and family | Groups, kids, grandparents | Lakeside benches, café windows | Two or three coordinated colours |
+| Solo traveler | Anyone traveling alone | Old Quarter lanes, Long Biên Bridge walkway | One bright piece that stands out on busy streets |
+| Áo dài | A keepsake in traditional dress | Hoàn Kiếm Lake, lantern streets | An áo dài in a color your backdrop doesn't have |
+| Friends and family | Groups, kids, grandparents | Lakeside benches, café windows | Two or three coordinated colors |
 | Incense village | A half-day trip out of the city | Quảng Phú Cầu, about 35 km south | White, black or soft green against the red |
-| Fashion and street style | Lookbooks, profile refreshes | Đồng Xuân Market, shutters, cyclos | Two looks, bold colours, comfortable shoes for between spots |
+| Fashion and street style | Lookbooks, profile refreshes | Đồng Xuân Market, shutters, cyclos | Two looks, bold colors, comfortable shoes for between spots |
 
 ## 1. Couple and honeymoon
 
@@ -48,19 +48,19 @@ Daytime works by the lake and in quiet lanes. After dark, the cathedral and the 
 
 Read more: [Couple photoshoot in Hanoi, a relaxed guide](https://travelframe.sidevn.com/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026).
 
-## 2. Solo traveller
+## 2. Solo traveler
 
-Travelling alone means a camera roll full of landmarks. A solo walk gets you the photos a selfie can't: the full outfit from across the street, you small in front of the cathedral, the laugh you didn't plan.
+Traveling alone means a camera roll full of landmarks. A solo walk gets you the photos a selfie can't: the full outfit from across the street, you small in front of the cathedral, the laugh you didn't plan.
 
 Pro move: keep moving between shots. The natural ones come right after the posed ones.
 
-Read more: [Solo travel in Hanoi, natural photos without awkward posing](https://travelframe.sidevn.com/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing), and see [Hanna's street style session on Long Biên Bridge](https://travelframe.sidevn.com/news/hanoi-street-style-photoshoot-harry-hanna).
+Read more: [Solo photoshoot in Hanoi, natural photos when you travel alone](https://travelframe.sidevn.com/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing), and see [Hanna's street style session on Long Biên Bridge](https://travelframe.sidevn.com/news/hanoi-street-style-photoshoot-harry-hanna).
 
 ## 3. Áo dài
 
 The áo dài is Vietnam's long, fitted tunic, worn over loose trousers. It moves when you walk, which is why it photographs so well.
 
-Pick a colour your backdrop doesn't have. Red and gold stand out in the Old Quarter. Deep blue and white look calm by the lake. Walk slowly and let the front panel move.
+Pick a color your backdrop doesn't have. Red and gold stand out in the Old Quarter. Deep blue and white look calm by the lake. Walk slowly and let the front panel move.
 
 Read more: [Áo dài photoshoot in Hanoi](https://travelframe.sidevn.com/news/ao-dai-photoshoot-hanoi). [VERIFY]
 
@@ -85,6 +85,8 @@ Read more: [Quảng Phú Cầu incense village photo guide](https://travelframe.
 Hanoi's streets make a free studio. A closed metal shutter, a market sign, a parked motorbike or a cyclo can all be a backdrop.
 
 Always ask the owner before you sit on a bike or lean on a shopfront. Bring two looks, and one walk becomes two shoots.
+
+Read more: [Fashion photoshoot in Hanoi](https://travelframe.sidevn.com/news/fashion-photoshoot-hanoi). [VERIFY]
 
 See it in practice: [Thin at Đồng Xuân Market](https://travelframe.sidevn.com/news/hanoi-old-quarter-photoshoot-harry-thin) and [Wuchr's night session](https://travelframe.sidevn.com/news/hanoi-night-photoshoot-harry-wuchr).
 

@@ -26,7 +26,7 @@ This guide covers how a group session runs, how to pace it for kids and grandpar
 - **Where:** Hoàn Kiếm Lake and the Old Quarter. Paths are flat and cafés are close by for breaks.
 - **How long:** one hour for one spot, two hours for two or three spots with a break.
 - **When:** early morning, when the streets are quieter. Late afternoon also works for groups of friends.
-- **What to wear:** two or three coordinated colours, not identical outfits.
+- **What to wear:** two or three coordinated colors, not identical outfits.
 - **Cost with us:** the tier price covers 2 guests, then 15 USD per extra guest per hour. Four people for 2 hours on Premium is 180 USD.
 
 ## How a group session runs
@@ -65,7 +65,7 @@ Lantern streets and lit cafés suit a night out. We skip the Train Street rails 
 
 ## What to wear as a group
 
-- Pick two or three colours that sit well together, such as white, beige and one accent.
+- Pick two or three colors that sit well together, such as white, beige and one accent.
 - Avoid big logos and busy prints that pull the eye.
 - Comfortable shoes for everyone. You will walk between spots.
 

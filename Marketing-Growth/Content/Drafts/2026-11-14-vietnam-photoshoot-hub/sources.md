@@ -7,7 +7,7 @@ created: 2026-11-14
 
 # Sources & claims
 
-Brief: Rocky chọn viết cả 4 bài web (chat 14/11/2026). Bài này nhắm từ khoá `vietnam photoshoot` (2.400/tháng ở Mỹ, KD 0). SERP ngày 13/11 gồm Pinterest, Reddit, Instagram và vài thợ ảnh lẻ, nên bài viết theo hướng ý tưởng và cách chọn, rồi dẫn về `/hanoi-photoshoot` và các bài theo tuyến.
+Brief: Rocky chọn viết cả 4 bài web (chat 14/11/2026). Bài này nhắm từ khoá `vietnam photoshoot` (2.400/tháng ở Mỹ theo Google Ads, KD 0). SEO Audit 14/11 đo lại bằng clickstream: chỉ khoảng 5/tháng, vì Google Ads gộp các biến thể gần nhau. Lượt tìm thật thấp; giá trị chính của bài là liên kết nội bộ tới 6 bài theo tuyến (sửa ngày 15/11/2026). SERP ngày 13/11 gồm Pinterest, Reddit, Instagram và vài thợ ảnh lẻ, nên bài viết theo hướng ý tưởng và cách chọn, rồi dẫn về `/hanoi-photoshoot` và các bài theo tuyến.
 
 ## Files
 
@@ -36,11 +36,12 @@ Brief: Rocky chọn viết cả 4 bài web (chat 14/11/2026). Bài này nhắm t
 |---|---|
 | `/hanoi-photoshoot` | 200 |
 | `/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026` | 200; phần giá đã sửa theo DEC ngày 14/11 ([hồ sơ đăng](../2026-11-14-couple-page-price-refresh/Publication.md)) |
-| `/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing` | 200 |
+| `/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing` | 200; có bản làm mới chờ duyệt [2026-11-15-solo-page-refresh](../2026-11-15-solo-page-refresh/Brief.md), anchor đổi theo tiêu đề mới |
 | `/news/hanoi-street-style-photoshoot-harry-hanna` | 200 |
 | `/news/ao-dai-photoshoot-hanoi` | Chưa có; là bài mới [2026-11-14-ao-dai-photoshoot-hanoi](../2026-11-14-ao-dai-photoshoot-hanoi/Page-Copy.md). [VERIFY] sau khi đăng |
 | `/news/family-photoshoot-hanoi` | Chưa có; là bài mới [2026-11-14-family-photoshoot-hanoi](../2026-11-14-family-photoshoot-hanoi/Page-Copy.md). [VERIFY] sau khi đăng |
-| `/news/cam-phu-cau-incense-village-photography-guide` | 200; tiêu đề đã là Quang Phu Cau |
+| `/news/cam-phu-cau-incense-village-photography-guide` | 200; tiêu đề đã là Quang Phu Cau; có bản viết lại chờ duyệt [2026-11-15-incense-village-page-rewrite](../2026-11-15-incense-village-page-rewrite/Brief.md) |
+| `/news/fashion-photoshoot-hanoi` | Chưa có; là bài mới [2026-11-15-fashion-photoshoot-hanoi](../2026-11-15-fashion-photoshoot-hanoi/Page-Copy.md). [VERIFY] sau khi đăng |
 | `/news/hanoi-old-quarter-photoshoot-harry-thin` | 200 |
 | `/news/hanoi-night-photoshoot-harry-wuchr` | 200 |
 | `/news/hanoi-train-street-2026-safety-first-guide-and-better-railway-photo-spots` | 200 |

@@ -1,9 +1,9 @@
 ---
-title: 'Áo Dài Photoshoot in Hanoi: Colours, Places and How to Wear It'
+title: 'Áo Dài Photoshoot in Hanoi: Colors, Places and How to Wear It'
 slug: ao-dai-photoshoot-hanoi
 url_proposed: /news/ao-dai-photoshoot-hanoi
-meta_title: 'Áo Dài Photoshoot in Hanoi: Colours, Places, Tips'   # 49 ký tự; CMS thêm | TravelFrame Vietnam
-meta_description: 'Plan an áo dài photoshoot in Hanoi: which colour suits which backdrop, where to shoot by the lake and in the Old Quarter, how to move in it, and prices.'
+meta_title: 'Áo Dài Photoshoot in Hanoi: Colors, Places, Tips'   # 48 ký tự; CMS thêm | TravelFrame Vietnam
+meta_description: 'Plan an áo dài photoshoot in Hanoi: which color suits which backdrop, where to shoot by the lake and in the Old Quarter, how to move in it, and prices.'
 primary_keyword: ao dai photoshoot hanoi
 secondary_keywords: [ao dai photoshoot, ao dai hanoi, ao dai rental hanoi, vietnamese traditional dress photoshoot]
 keyword_data: OpenSEO 2026-11-13 không trả dữ liệu cho các từ khoá áo dài (keywords.csv); cần đo lại trước khi đăng [VERIFY]
@@ -15,32 +15,32 @@ date: 2026-11-14
 facts_checked: 2026-11-14, tra cứu tại bàn; mọi thẻ VERIFY phải được xử lý trước khi đăng; xem sources.md
 ---
 
-# Áo Dài Photoshoot in Hanoi: Colours, Places and How to Wear It
+# Áo Dài Photoshoot in Hanoi: Colors, Places and How to Wear It
 
 The áo dài is Vietnam's traditional long dress: a fitted tunic with front and back panels, worn over loose trousers. It moves with every step, which is why it photographs so well.
 
-If you want one keepsake set from Hanoi, an áo dài shoot by the lake and in the Old Quarter is a lovely way to do it. This guide covers colours, places, how to move in it, and what a shoot costs.
+If you want one keepsake set from Hanoi, an áo dài shoot by the lake and in the Old Quarter is a lovely way to do it. This guide covers colors, places, how to move in it, and what a shoot costs.
 
 ## Quick answer
 
-- **Where:** Hoàn Kiếm Lake for calm, open backdrops. Old Quarter lantern streets for colour.
+- **Where:** Hoàn Kiếm Lake for calm, open backdrops. Old Quarter lantern streets for color.
 - **When:** early morning by the lake, when it is quieter. After dark for the lake with the lights on.
-- **Colour:** pick one your backdrop doesn't have. Red stands out in the Old Quarter. Deep blue, white or soft green look calm by the lake.
+- **Color:** pick one your backdrop doesn't have. Red stands out in the Old Quarter. Deep blue, white or soft green look calm by the lake.
 - **Shoes:** flat sandals or low heels. You will walk more than you think.
 - **Cost with us:** VIP includes an outfit, which can be an áo dài. 198 USD for 2 hours. Details below.
 
-## Choosing a colour
+## Choosing a color
 
 Your áo dài should stand apart from what is behind you.
 
-| Backdrop | Colours that work | Why |
+| Backdrop | Colors that work | Why |
 |---|---|---|
-| Hoàn Kiếm Lake, trees and water | Deep blue, white, soft green, pastel | Calm against green and grey, and the Turtle Tower stays the focus |
-| Old Quarter lantern shops | Red, gold, white | Bright enough to hold its own against busy colour |
+| Hoàn Kiếm Lake, trees and water | Deep blue, white, soft green, pastel | Calm against green and gray, and the Turtle Tower stays the focus |
+| Old Quarter lantern shops | Red, gold, white | Bright enough to hold its own against busy color |
 | Yellow French-era walls | Deep blue, emerald, black | Strong contrast with warm yellow |
 | After dark | White, pale pink, light green | Pale fabric catches warm street light |
 
-Embroidery photographs well up close. For wide shots, a plain colour reads better from a distance.
+Embroidery photographs well up close. For wide shots, a plain color reads better from a distance.
 
 ## Where to shoot in Hanoi
 
@@ -50,7 +50,7 @@ The paths around the lake give you water, old trees and the Turtle Tower in the 
 
 ### Old Quarter lantern streets
 
-Lantern and decoration shops turn whole streets into colour. Walk slowly and let your photographer find a gap in the traffic.
+Lantern and decoration shops turn whole streets into color. Walk slowly and let your photographer find a gap in the traffic.
 
 ### French-era streets
 
@@ -116,6 +116,6 @@ All original photos within 24 hours. Edited photos and video within 48 hours.
 
 ## Plan your áo dài shoot
 
-Send us your dates and your favourite colour, and we will suggest a lake and Old Quarter route.
+Send us your dates and your favorite color, and we will suggest a lake and Old Quarter route.
 
 TravelFrame — your local friend in Hanoi
