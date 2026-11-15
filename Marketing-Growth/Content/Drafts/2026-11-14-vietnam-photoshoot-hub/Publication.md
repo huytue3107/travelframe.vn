@@ -45,7 +45,13 @@ curl không đăng nhập: HTTP 200.
 
 Bỏ chọn Published ở `node/138/edit`.
 
+# Gửi index (Rocky duyệt "Gửi index", chat 15/11/2026)
+
+- **Google (Search Console, Kiểm tra URL):** trang chưa có trên Google ("URL không nằm trên Google"). Bấm Yêu cầu lập chỉ mục; Google kiểm tra trang live 1–2 phút rồi báo "Đã yêu cầu lập chỉ mục: URL đã được thêm vào hàng đợi ưu tiên thu thập dữ liệu". Gửi trong khoảng 11:38–11:41 ICT.
+- **Bing (URL Submission):** gửi cùng lúc 3 URL của ba trang lúc 11:41 ICT. Hạn mức trong ngày trước khi gửi còn 98. Bing báo "Success: 3 URLs submitted Succesfully"; danh sách hiện 3 URL với mốc "Today at 11:41".
+- **Kiểm tra lại:** 21/11/2026, cùng đợt với các trang đã gửi trước đó.
+
 # Việc tiếp theo
 
-- Gửi index Google và Bing: cần Rocky duyệt riêng.
+- Đã gửi index 15/11 (xem mục Gửi index ở trên).
 - Khi có trang gia đình và ảnh nhóm có consent, thêm lại phong cách này.

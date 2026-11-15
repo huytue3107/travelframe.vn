@@ -32,6 +32,12 @@ curl không đăng nhập: HTTP 200. Title và meta đúng; 0 chuỗi "Editorial
 
 Revision 350 (trạng thái sau bản sửa nhanh 10:46). Lệnh: `/node/72/revisions/350/revert`.
 
+# Gửi index (Rocky duyệt "Gửi index", chat 15/11/2026)
+
+- **Google (Search Console, Kiểm tra URL):** trang đã có trên Google với bản cũ ("Trang đã lập chỉ mục"); vì đã làm mới nên yêu cầu lập chỉ mục lại. Bấm Yêu cầu lập chỉ mục; Google kiểm tra trang live 1–2 phút rồi báo "Đã yêu cầu lập chỉ mục: URL đã được thêm vào hàng đợi ưu tiên thu thập dữ liệu". Gửi trong khoảng 11:38–11:41 ICT.
+- **Bing (URL Submission):** gửi cùng lúc 3 URL của ba trang lúc 11:41 ICT. Hạn mức trong ngày trước khi gửi còn 98. Bing báo "Success: 3 URLs submitted Succesfully"; danh sách hiện 3 URL với mốc "Today at 11:41".
+- **Kiểm tra lại:** 21/11/2026, cùng đợt với các trang đã gửi trước đó.
+
 # Việc tiếp theo
 
-- Gửi index Google và Bing: cần Rocky duyệt riêng. Không gửi trong lần này.
+- Đã gửi index 15/11 (xem mục Gửi index ở trên).

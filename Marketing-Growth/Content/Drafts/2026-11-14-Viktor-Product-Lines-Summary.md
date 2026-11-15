@@ -97,12 +97,12 @@ Rocky yêu cầu ngày 15/11/2026: mỗi tuyến sản phẩm có một bài web
 | Tuyến | Bài web | Trạng thái | Từ khoá chính (Google Ads, Mỹ) |
 |---|---|---|---|
 | 01 Couple | `/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026` | Đã đăng bản sửa giá 14/11 | hanoi couple photoshoot 10 |
-| 02 Solo | Làm mới bài đang chạy, giữ URL: [2026-11-15-solo-page-refresh](2026-11-15-solo-page-refresh/Brief.md) | Đã đăng 15/11 lúc 11:31 ICT ([hồ sơ](2026-11-15-solo-page-refresh/Publication.md)); chưa gửi index | solo photoshoot 260 |
+| 02 Solo | Làm mới bài đang chạy, giữ URL: [2026-11-15-solo-page-refresh](2026-11-15-solo-page-refresh/Brief.md) | Đã đăng 15/11 lúc 11:31 ICT ([hồ sơ](2026-11-15-solo-page-refresh/Publication.md)); đã gửi index Google và Bing 15/11 | solo photoshoot 260 |
 | 03 Áo dài | `/news/ao-dai-photoshoot-hanoi` (node 136): 4 bộ ảnh của Harry gộp với phần hướng dẫn, [2026-11-15-ao-dai-harry-sets](2026-11-15-ao-dai-harry-sets/Publication.md); bản 14/11 thành Superseded | Đã đăng 15/11 lúc 11:12 ICT; đã gửi index Google và Bing 11:17; bài làng hương đã link sang | Không có dữ liệu |
 | 04 Friends & Family | Bài mới `/news/family-photoshoot-hanoi`: [2026-11-14-family-photoshoot-hanoi](2026-11-14-family-photoshoot-hanoi/sources.md) | Draft; thiếu ảnh nhóm có consent | Không có dữ liệu |
 | 05 Làng hương | Viết lại bài node 68, giữ URL: [2026-11-15-incense-village-page-rewrite](2026-11-15-incense-village-page-rewrite/Brief.md) | Đã đăng 15/11 lúc 10:52 ICT ([hồ sơ](2026-11-15-incense-village-page-rewrite/Publication.md)); đã gửi index Google 10:58, Bing 10:59 | incense village hanoi 390, quang phu cau incense village 320 |
-| 06 Fashion | Bài mới `/news/fashion-photoshoot-hanoi`, trang mẹ của 3 bài case: [2026-11-15-fashion-photoshoot-hanoi](2026-11-15-fashion-photoshoot-hanoi/sources.md) | Đã đăng 15/11 lúc 11:31 ICT, node 137 ([hồ sơ](2026-11-15-fashion-photoshoot-hanoi/Publication.md)); chưa gửi index | Chưa có số |
-| Bài tổng hợp | `/news/vietnam-photoshoot`: [2026-11-14-vietnam-photoshoot-hub](2026-11-14-vietnam-photoshoot-hub/sources.md) | Đã đăng 15/11 lúc 11:32 ICT, node 138 ([hồ sơ](2026-11-14-vietnam-photoshoot-hub/Publication.md)), 5 phong cách; chưa gửi index | vietnam photoshoot 2.400 theo Google Ads, chỉ khoảng 5 theo clickstream (SEO Audit 14/11) |
+| 06 Fashion | Bài mới `/news/fashion-photoshoot-hanoi`, trang mẹ của 3 bài case: [2026-11-15-fashion-photoshoot-hanoi](2026-11-15-fashion-photoshoot-hanoi/sources.md) | Đã đăng 15/11 lúc 11:31 ICT, node 137 ([hồ sơ](2026-11-15-fashion-photoshoot-hanoi/Publication.md)); đã gửi index Google và Bing 15/11 | Chưa có số |
+| Bài tổng hợp | `/news/vietnam-photoshoot`: [2026-11-14-vietnam-photoshoot-hub](2026-11-14-vietnam-photoshoot-hub/sources.md) | Đã đăng 15/11 lúc 11:32 ICT, node 138 ([hồ sơ](2026-11-14-vietnam-photoshoot-hub/Publication.md)), 5 phong cách; đã gửi index Google và Bing 15/11 | vietnam photoshoot 2.400 theo Google Ads, chỉ khoảng 5 theo clickstream (SEO Audit 14/11) |
 
 Điểm chính:
 
