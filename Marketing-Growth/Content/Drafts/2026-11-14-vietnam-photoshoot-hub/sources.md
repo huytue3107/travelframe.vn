@@ -40,7 +40,7 @@ Brief: Rocky chọn viết cả 4 bài web (chat 14/11/2026). Bài này nhắm t
 | `/news/hanoi-street-style-photoshoot-harry-hanna` | 200 |
 | `/news/ao-dai-photoshoot-hanoi` | Chưa có; là bài mới [2026-11-14-ao-dai-photoshoot-hanoi](../2026-11-14-ao-dai-photoshoot-hanoi/Page-Copy.md). [VERIFY] sau khi đăng |
 | `/news/family-photoshoot-hanoi` | Chưa có; là bài mới [2026-11-14-family-photoshoot-hanoi](../2026-11-14-family-photoshoot-hanoi/Page-Copy.md). [VERIFY] sau khi đăng |
-| `/news/cam-phu-cau-incense-village-photography-guide` | 200; tiêu đề đã là Quang Phu Cau; có bản viết lại chờ duyệt [2026-11-15-incense-village-page-rewrite](../2026-11-15-incense-village-page-rewrite/Brief.md) |
+| `/news/cam-phu-cau-incense-village-photography-guide` | 200; tiêu đề đã là Quang Phu Cau; bản viết lại đã đăng 15/11 ([hồ sơ](../2026-11-15-incense-village-page-rewrite/Publication.md)) |
 | `/news/fashion-photoshoot-hanoi` | Chưa có; là bài mới [2026-11-15-fashion-photoshoot-hanoi](../2026-11-15-fashion-photoshoot-hanoi/Page-Copy.md). [VERIFY] sau khi đăng |
 | `/news/hanoi-old-quarter-photoshoot-harry-thin` | 200 |
 | `/news/hanoi-night-photoshoot-harry-wuchr` | 200 |

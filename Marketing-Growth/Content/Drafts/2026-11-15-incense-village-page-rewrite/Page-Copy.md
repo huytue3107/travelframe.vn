@@ -11,7 +11,7 @@ keyword_data: 'Google Ads, Mỹ, theo Long-tail clusters 09/11/2026: incense vil
 cluster: C2 Photo spots; bài theo tuyến 05-Incense-Village-Photoshoot
 content_type: Viết lại toàn bộ Body của bài đang chạy (node 68), giữ URL
 owner: Marketing-Growth
-status: Draft, chưa được duyệt, chưa đăng
+status: Published 15/11/2026 10:52 ICT; xem Publication.md
 date: 2026-11-15
 facts_checked: 2026-11-15; nguồn và thẻ VERIFY ở sources.md
 ---
@@ -78,7 +78,7 @@ The classic shot is the fan of bundles seen from above, like a field of red flow
 
 Wear a color the yard doesn't have. White, black, soft green and deep blue stand out against the red. Red or pink clothes disappear into the background.
 
-An áo dài and a conical hat is the classic look here. See our [áo dài photoshoot guide](https://travelframe.sidevn.com/news/ao-dai-photoshoot-hanoi). [VERIFY]
+An áo dài and a conical hat is the classic look here.
 
 ### Lens and phone settings
 
@@ -101,7 +101,7 @@ Photography is priced per hour, for up to 2 guests:
 
 All original photos arrive within 24 hours. Edited photos and video arrive within 48 hours.
 
-The private car to the village and back is quoted separately. We confirm the car, the hours and the total in writing before you book. [VERIFY]
+Transport to the village depends on your plan. We confirm the car, the hours and the total in writing before you book.
 
 More about our sessions: [Hanoi photoshoot](https://travelframe.sidevn.com/hanoi-photoshoot).
 

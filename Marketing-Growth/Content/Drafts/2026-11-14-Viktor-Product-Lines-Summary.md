@@ -100,7 +100,7 @@ Rocky yêu cầu ngày 15/11/2026: mỗi tuyến sản phẩm có một bài web
 | 02 Solo | Làm mới bài đang chạy, giữ URL: [2026-11-15-solo-page-refresh](2026-11-15-solo-page-refresh/Brief.md) | Draft | solo photoshoot 260 |
 | 03 Áo dài | Bài mới `/news/ao-dai-photoshoot-hanoi`: [2026-11-14-ao-dai-photoshoot-hanoi](2026-11-14-ao-dai-photoshoot-hanoi/sources.md) | Draft | Không có dữ liệu |
 | 04 Friends & Family | Bài mới `/news/family-photoshoot-hanoi`: [2026-11-14-family-photoshoot-hanoi](2026-11-14-family-photoshoot-hanoi/sources.md) | Draft; thiếu ảnh nhóm có consent | Không có dữ liệu |
-| 05 Làng hương | Viết lại bài node 68, giữ URL: [2026-11-15-incense-village-page-rewrite](2026-11-15-incense-village-page-rewrite/Brief.md) | Draft | incense village hanoi 390, quang phu cau incense village 320 |
+| 05 Làng hương | Viết lại bài node 68, giữ URL: [2026-11-15-incense-village-page-rewrite](2026-11-15-incense-village-page-rewrite/Brief.md) | Đã đăng 15/11 lúc 10:52 ICT ([hồ sơ](2026-11-15-incense-village-page-rewrite/Publication.md)); chưa gửi index | incense village hanoi 390, quang phu cau incense village 320 |
 | 06 Fashion | Bài mới `/news/fashion-photoshoot-hanoi`, trang mẹ của 3 bài case: [2026-11-15-fashion-photoshoot-hanoi](2026-11-15-fashion-photoshoot-hanoi/sources.md) | Draft | Chưa có số |
 | Bài tổng hợp | `/news/vietnam-photoshoot`: [2026-11-14-vietnam-photoshoot-hub](2026-11-14-vietnam-photoshoot-hub/sources.md) | Draft | vietnam photoshoot 2.400 theo Google Ads, chỉ khoảng 5 theo clickstream (SEO Audit 14/11) |
 
@@ -111,7 +111,7 @@ Rocky yêu cầu ngày 15/11/2026: mỗi tuyến sản phẩm có một bài web
 - Số Google Ads có thể cao hơn nhiều so với lượt tìm thật (ví dụ vietnam photoshoot). Chưa đo clickstream cho các từ khoá trong bảng.
 - Ngày 15/11, 3 bài web ngày 14/11 (áo dài, gia đình, tổng hợp) đổi sang chính tả Mỹ cho khớp thị trường Mỹ. Bài tổng hợp có thêm link sang bài Fashion và anchor mới cho bài Solo.
 
-Thứ tự đăng đề xuất: (1) xoá ghi chú nội bộ trên bài Solo (đã làm 15/11); (2) bài làng hương; (3) bài Solo đầy đủ; (4) bài Fashion, kèm 1 câu link từ 3 bài case; (5) bài áo dài và gia đình; (6) bài tổng hợp. Mỗi bước là sửa site live, cần Rocky duyệt.
+Thứ tự đăng đề xuất: (1) xoá ghi chú nội bộ trên bài Solo (đã làm 15/11); (2) bài làng hương (đã đăng 15/11); (3) bài Solo đầy đủ; (4) bài Fashion, kèm 1 câu link từ 3 bài case; (5) bài áo dài và gia đình; (6) bài tổng hợp. Mỗi bước là sửa site live, cần Rocky duyệt.
 
 ## Rocky cần quyết trước khi đăng
 

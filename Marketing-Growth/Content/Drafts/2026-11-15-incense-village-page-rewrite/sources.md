@@ -16,7 +16,9 @@ Brief: [Brief.md](Brief.md). Tuyến `05-Incense-Village-Photoshoot`. Listing Vi
 | [Brief.md](Brief.md) | Lý do viết lại, cách đăng, rollback |
 | [Page-Copy.md](Page-Copy.md) | Bài và các trường SEO |
 | [Photo-Plan.md](Photo-Plan.md) | Ảnh |
-| [Current-Live-Body.html](Current-Live-Body.html) | Snapshot HTML đã render của bài đang chạy, 15/11/2026; chỉ để đối chiếu |
+| [Current-Live-Body.html](Current-Live-Body.html) | Snapshot HTML đã render của bài cũ, 15/11/2026; chỉ để đối chiếu |
+| [Body.html](Body.html) | HTML đã đăng |
+| [Publication.md](Publication.md) | Hồ sơ đăng 15/11/2026 |
 
 ## Từ khoá
 
@@ -46,8 +48,8 @@ Brief: [Brief.md](Brief.md). Tuyến `05-Incense-Village-Photoshoot`. Listing Vi
 | Giá chụp Basic 30, Premium 60, VIP 99 USD/giờ; tối thiểu 1h, 2h, 2h; tối đa 2 khách; quyền lợi từng tầng | Verified: [DEC-20261021-HOURLY-TIER-PRICING](../../../../Executive/DEC-20261021-HOURLY-TIER-PRICING.md). Câu chữ giống /hanoi-photoshoot (Published 13/11) |
 | Ảnh gốc 24h, ảnh chỉnh sửa và video 48h | Verified: DEC |
 | Bỏ "2 to 3 areas" khỏi Premium | Có chủ đích: ở làng hương, "khu" là các sân trong làng, không phải các khu của Hà Nội |
-| Xe đi làng hương báo giá riêng; số giờ tối thiểu; có tính giờ di chuyển không | [VERIFY] chưa chốt (listing 14/11) |
-| Link `/news/ao-dai-photoshoot-hanoi` | [VERIFY] bài chưa đăng; bỏ link nếu đăng bài này trước |
+| Xe, số giờ tối thiểu, có tính giờ di chuyển không | Chưa chốt (listing 14/11). Bản đăng chỉ ghi "Transport to the village depends on your plan. We confirm the car, the hours and the total in writing before you book." |
+| Link `/news/ao-dai-photoshoot-hanoi` | Đã bỏ khi đăng 15/11 vì bài áo dài chưa đăng; thêm lại sau |
 | Link `/news/day-trips-from-hanoi`, `/hanoi-photoshoot` | 200 ngày 15/11/2026 |
 | Mẹo màu áo, ống kính, chụp từ trên cao | Gợi ý nhiếp ảnh phổ thông, viết dạng gợi ý |
 

@@ -1,7 +1,7 @@
 ---
 title: Viết lại bài làng hương Quảng Phú Cầu (node 68)
 owner: Marketing-Growth
-status: Draft, chờ Rocky duyệt
+status: Published 15/11/2026 10:52 ICT (Rocky duyệt "Đăng làng hương"); xem Publication.md
 date: 2026-11-15
 requested_by: Rocky, chat 15/11/2026 ("viết các bài chuẩn seo cho từng tuyến sản phẩm")
 product_line: 05-Incense-Village-Photoshoot
