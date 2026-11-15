@@ -55,8 +55,12 @@ Revert về revision 243 tại `/node/68/revisions/243/revert`. Revision đó g�
 - **Google:** Search Console, Kiểm tra URL. Trước khi gửi: "URL nằm trên Google", Google thu thập lần cuối lúc 17:01:59 ngày 9/11/2026, tức trước bản viết lại. Bấm Yêu cầu lập chỉ mục lúc 10:58 ICT. Search Console báo "Đã yêu cầu lập chỉ mục: URL đã được thêm vào hàng đợi ưu tiên thu thập dữ liệu".
 - **Bing:** Webmaster Tools, URL Submission, lúc 10:59 ICT. Hạn mức ngày trước khi gửi còn 100. Bing báo "Success: URL submitted Succesfully"; danh sách hiện URL với mốc "Today at 10:59".
 
+# Link sang bài áo dài (Rocky duyệt "Làm cả hai", chat 15/11/2026)
+
+Lưu lúc 11:14 ICT (revisions hiện 04:14 UTC). Ở mục "Portraits among the bundles", câu "An áo dài and a conical hat is the classic look here." được thêm: "See <a href="/news/ao-dai-photoshoot-hanoi">four áo dài looks Harry shot in Hanoi</a>." Source trước khi sửa vẫn là bản đăng lúc 10:52 (SHA-256 `88aae5d6…`), chuỗi cần thay xuất hiện đúng 1 lần, phần thay đổi dài đúng 87 ký tự như dự tính. Source sau khi lưu: 8.822 ký tự, SHA-256 `4bece6f35a68d305…`. Revision log: "Add link to /news/ao-dai-photoshoot-hanoi (Rocky approved 15/11/2026)". curl không đăng nhập: HTTP 200, x-drupal-cache MISS, có 1 link tới `/news/ao-dai-photoshoot-hanoi`, title và meta không đổi. Rollback: revert về revision 351.
+
 # Việc tiếp theo
 
 - 21/11/2026: kiểm tra lại bằng URL Inspection (Google và Bing), cùng đợt với 6 trang trong [Index Requests 14/11](../../../SEO/2026-11-14-Index-Requests-After-Audit.md).
 - Listing `/news` có thể còn teaser cũ do cache (D13).
-- Khi bài áo dài lên: thêm lại link ở mục "Portraits among the bundles".
+- Link sang bài áo dài: đã thêm 15/11 lúc 11:14 (mục trên).

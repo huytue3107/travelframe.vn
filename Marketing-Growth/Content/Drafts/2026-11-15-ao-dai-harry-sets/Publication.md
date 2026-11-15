@@ -58,9 +58,15 @@ curl không đăng nhập: HTTP 200, x-drupal-cache MISS.
 
 Bỏ chọn Published ở `node/136/edit`, hoặc xoá node (cần Rocky duyệt).
 
+# Gửi index và link nội bộ (Rocky duyệt "Làm cả hai", chat 15/11/2026)
+
+- **Link từ bài làng hương:** 11:14 ICT, thêm vào node 68. Chi tiết trong [hồ sơ bài làng hương](../2026-11-15-incense-village-page-rewrite/Publication.md), mục Link sang bài áo dài.
+- **Google:** Search Console, Kiểm tra URL. Trước khi gửi: "URL không nằm trên Google" (Google không xác định được URL). Bấm Yêu cầu lập chỉ mục, Google kiểm tra trang live khoảng 1 đến 2 phút, rồi báo "Đã yêu cầu lập chỉ mục" lúc 11:17 ICT.
+- **Bing:** Webmaster Tools, URL Submission, 11:17 ICT. Hạn mức ngày trước khi gửi còn 99. Bing báo "Success: URL submitted Succesfully"; danh sách hiện URL với mốc "Today at 11:17".
+
 # Việc tiếp theo
 
-- Gửi index Google và Bing: cần Rocky duyệt riêng.
-- Thêm link từ bài làng hương (node 68, mục "Portraits among the bundles") sang bài này: sửa site live, cần Rocky duyệt.
+- 21/11/2026: kiểm tra lại bằng URL Inspection (Google và Bing), cùng đợt với các trang đã gửi 14/11 và 15/11.
+- Nhờ Harry xác nhận địa điểm bộ navy (nhận diện Trấn Quốc qua ảnh, caption không ghi).
 - Listing `/news` có thể chưa hiện bài do cache (D13).
 - Bài tổng hợp vietnam photoshoot (Draft) đã link sẵn tới URL này.
