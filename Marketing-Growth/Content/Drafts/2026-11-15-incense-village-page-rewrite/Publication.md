@@ -50,8 +50,13 @@ curl không đăng nhập, cả URL thường và URL có tham số chống cach
 
 Revert về revision 243 tại `/node/68/revisions/243/revert`. Revision đó gồm cả tiêu đề, SEO title, meta và summary cũ.
 
+# Gửi index (Rocky duyệt "Gửi index", chat 15/11/2026)
+
+- **Google:** Search Console, Kiểm tra URL. Trước khi gửi: "URL nằm trên Google", Google thu thập lần cuối lúc 17:01:59 ngày 9/11/2026, tức trước bản viết lại. Bấm Yêu cầu lập chỉ mục lúc 10:58 ICT. Search Console báo "Đã yêu cầu lập chỉ mục: URL đã được thêm vào hàng đợi ưu tiên thu thập dữ liệu".
+- **Bing:** Webmaster Tools, URL Submission, lúc 10:59 ICT. Hạn mức ngày trước khi gửi còn 100. Bing báo "Success: URL submitted Succesfully"; danh sách hiện URL với mốc "Today at 10:59".
+
 # Việc tiếp theo
 
-- Gửi index Google (Request Indexing) và Bing (URL Submission): chờ Rocky duyệt.
+- 21/11/2026: kiểm tra lại bằng URL Inspection (Google và Bing), cùng đợt với 6 trang trong [Index Requests 14/11](../../../SEO/2026-11-14-Index-Requests-After-Audit.md).
 - Listing `/news` có thể còn teaser cũ do cache (D13).
 - Khi bài áo dài lên: thêm lại link ở mục "Portraits among the bundles".
