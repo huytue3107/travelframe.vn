@@ -10,7 +10,7 @@ keyword_data: 'Google Ads, Mỹ, keywords.csv 13/11/2026: solo photoshoot 260 (K
 cluster: B1 Ảnh và hình ảnh; bài theo tuyến 02-Solo-Photo-Walk
 content_type: Làm mới Body của bài đang chạy, giữ URL
 owner: Marketing-Growth
-status: Draft, chưa được duyệt, chưa đăng
+status: Published 15/11/2026 11:31 ICT; xem Publication.md
 date: 2026-11-15
 facts_checked: 2026-11-15; nguồn và thẻ VERIFY ở sources.md
 ---
@@ -53,12 +53,10 @@ Skip anything you have to keep adjusting. A dress that catches on steps, or shoe
 
 ### Colors that work
 
-| Backdrop | Colors that stand out | Why |
-|---|---|---|
-| Yellow walls and green shutters | White, deep blue, black | Clear contrast with warm yellow |
-| Hoàn Kiếm Lake, trees and water | White, red, deep blue | Stands out against green and gray |
-| Lantern streets | White, black, one bold color | Lets you hold your own against busy color |
-| After dark | White or pale colors | Pale fabric catches warm street light |
+- **Yellow walls and green shutters:** White, deep blue, black. Clear contrast with warm yellow.
+- **Hoàn Kiếm Lake, trees and water:** White, red, deep blue. Stands out against green and gray.
+- **Lantern streets:** White, black, one bold color. Lets you hold your own against busy color.
+- **After dark:** White or pale colors. Pale fabric catches warm street light.
 
 Solid colors photograph better than busy prints. If you want variety without losing time, bring one small accessory, such as a scarf or a light overshirt.
 

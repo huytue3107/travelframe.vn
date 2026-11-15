@@ -6,11 +6,11 @@ meta_title: 'Fashion Photoshoot in Hanoi: Editorial Looks, Old Quarter'   # 56 k
 meta_description: 'Plan a fashion photoshoot in Hanoi: match outfits to Old Quarter backdrops, shoot at Dong Xuan Market or after dark, get posing direction, see prices.'
 primary_keyword: fashion photoshoot hanoi
 secondary_keywords: [editorial photoshoot hanoi, hanoi street style photoshoot, lookbook photoshoot vietnam, fashion photographer hanoi]
-keyword_data: 'Chưa có số. hanoi street style photoshoot không có dữ liệu (get_keyword_metrics 04/11/2026); các từ khoá còn lại chưa đo [VERIFY]'
+keyword_data: 'Chưa có số. hanoi street style photoshoot không có dữ liệu (get_keyword_metrics 04/11/2026); các từ khoá còn lại chưa đo.'
 cluster: B1 Ảnh và hình ảnh; bài theo tuyến 06-Fashion-Editorial-Photoshoot; trang mẹ của 3 bài case Thin, Hanna, Wuchr
 content_type: Bài SEO theo tuyến, bài mới
 owner: Marketing-Growth
-status: Draft, chưa được duyệt, chưa đăng
+status: Published 15/11/2026 (Rocky: "Triển khai đăng"); xem Publication.md
 date: 2026-11-15
 facts_checked: 2026-11-15; nguồn và thẻ VERIFY ở sources.md
 ---
@@ -25,7 +25,7 @@ A fashion photoshoot in Hanoi plans each look around a backdrop: a market sign, 
 
 - **Where:** Đồng Xuân Market and the Old Quarter streets around it. Tràng Tiền and the French Quarter after dark.
 - **Plan ahead:** send 2 or 3 reference photos and tell us what you will wear.
-- **Looks:** two looks fit well in 2 hours. [VERIFY]
+- **Looks:** plan them with us before the shoot. We confirm how many fit your time in writing.
 - **Etiquette:** we ask shop owners and drivers before using their shopfronts, motorbikes or cyclos.
 - **Cost with us:** Premium for 2 hours is 120 USD. VIP for 2 hours is 198 USD and includes an outfit.
 
@@ -100,7 +100,7 @@ Each of these sets was photographed in Hanoi by Harry Pham / 102 Koncept.
 
 ## Changing between looks
 
-Wear your first look and bring the others in a small bag. We plan a café stop to change. [VERIFY]
+Wear your first look and bring the others in a small bag. Tell us when you book, and we plan where you can change.
 
 Wear comfortable shoes for walking between spots, and bring heels for the shots if your look needs them.
 
@@ -116,7 +116,7 @@ All original photos arrive within 24 hours. Edited photos and video arrive withi
 
 For two looks in two areas, Premium for 2 hours (120 USD) is a good fit. Choose VIP for 2 hours (198 USD) if you want an outfit arranged for you.
 
-A stylist and hair styling are not included. [VERIFY] Photos are for personal use. Shoots for a brand or a commercial campaign are quoted separately. [VERIFY]
+The standard tiers do not include a stylist or hair service. Our photos are for personal use. For a brand or commercial shoot, ask us when you book.
 
 ## FAQ
 
@@ -124,13 +124,13 @@ A stylist and hair styling are not included. [VERIFY] Photos are for personal us
 Yes. We direct every pose and show you the shots as we go.
 
 **How many looks can we shoot?**
-Two looks fit well in 2 hours. Want more? Tell us when you book, and we plan the time. [VERIFY]
+Want more than two looks? Tell us when you book, and we confirm the time you need in writing.
 
 **Can we shoot inside Đồng Xuân Market?**
 We shoot outside and around the market. Inside, only where stall owners agree.
 
 **Can I use the photos for my brand?**
-The standard tiers are for personal use. Ask us about brand shoots. [VERIFY]
+The standard tiers are for personal use. For brand shoots, ask us when you book.
 
 **What if it rains?**
 We adjust the route toward covered streets, cafés and arcades, or reschedule. The rain policy is confirmed in writing when you book.

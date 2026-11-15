@@ -5,6 +5,8 @@ status: Draft
 created: 2026-11-14
 ---
 
+> **Đăng 15/11/2026:** bài đã đăng dùng bộ ảnh khác, ghi trong [Publication.md](Publication.md). Các ảnh thư viện Viktor trong bảng dưới không dùng vì chưa có consent, và phong cách gia đình đã bỏ khỏi bài.
+
 # Ảnh cho bài Vietnam Photoshoot Ideas
 
 Bài: [Page-Copy.md](Page-Copy.md). Mỗi phần 1 ảnh, cộng 1 ảnh hero.

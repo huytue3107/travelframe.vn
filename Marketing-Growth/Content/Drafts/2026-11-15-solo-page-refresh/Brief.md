@@ -1,7 +1,7 @@
 ---
 title: Làm mới bài Solo (solo female travel Hanoi)
 owner: Marketing-Growth
-status: Draft, chờ Rocky duyệt
+status: Published 15/11/2026 11:31 ICT (Rocky: "Triển khai đăng"); xem Publication.md
 date: 2026-11-15
 requested_by: Rocky, chat 15/11/2026 ("viết các bài chuẩn seo cho từng tuyến sản phẩm")
 product_line: 02-Solo-Photo-Walk

@@ -9,6 +9,12 @@ created: 2026-11-15
 
 Brief: Rocky yêu cầu bài chuẩn SEO cho từng tuyến sản phẩm (chat 15/11/2026). Tuyến `06-Fashion-Editorial-Photoshoot` mới có 3 bài case (Thin, Hanna, Wuchr), chưa có trang riêng cho tuyến. Bài này là trang tuyến, link xuống 3 bài case. Listing Viator cùng tuyến: [2026-11-14-viktor-fashion-editorial-photoshoot](../2026-11-14-viktor-fashion-editorial-photoshoot/sources.md).
 
+## Patterns used
+
+- P-005 (dòng Pro move, không dùng ở đây)
+- P-008 (Train Street: không chụp trên đường ray)
+- V-01, V-02, V-06, V-07, V-09
+
 ## Files
 
 | File | Nội dung |
