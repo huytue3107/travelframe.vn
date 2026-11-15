@@ -10,7 +10,7 @@ keyword_data: OpenSEO 2026-11-13 không trả dữ liệu cho các từ khoá á
 cluster: Brand awareness (B1 Ảnh và hình ảnh); bài con của bài tổng hợp vietnam photoshoot
 content_type: Bài SEO theo tuyến (ngoài 3 rubric reel, carousel, video của skill content-writing; theo mẫu Page-Copy ngày 14/11)
 owner: Marketing-Growth
-status: Draft (drafted_flagged), chưa được duyệt, chưa đăng
+status: Superseded 15/11/2026 bởi bài đã đăng 2026-11-15-ao-dai-harry-sets (node 136, cùng URL); giữ làm lịch sử
 date: 2026-11-14
 facts_checked: 2026-11-14, tra cứu tại bàn; mọi thẻ VERIFY phải được xử lý trước khi đăng; xem sources.md
 ---

@@ -38,7 +38,7 @@ Brief: Rocky chọn viết cả 4 bài web (chat 14/11/2026). Bài này nhắm t
 | `/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026` | 200; phần giá đã sửa theo DEC ngày 14/11 ([hồ sơ đăng](../2026-11-14-couple-page-price-refresh/Publication.md)) |
 | `/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing` | 200; có bản làm mới chờ duyệt [2026-11-15-solo-page-refresh](../2026-11-15-solo-page-refresh/Brief.md), anchor đổi theo tiêu đề mới |
 | `/news/hanoi-street-style-photoshoot-harry-hanna` | 200 |
-| `/news/ao-dai-photoshoot-hanoi` | Chưa có; là bài mới [2026-11-14-ao-dai-photoshoot-hanoi](../2026-11-14-ao-dai-photoshoot-hanoi/Page-Copy.md). [VERIFY] sau khi đăng |
+| `/news/ao-dai-photoshoot-hanoi` | 200; đã đăng 15/11 (node 136), bản gộp 4 bộ ảnh của Harry: [hồ sơ](../2026-11-15-ao-dai-harry-sets/Publication.md) |
 | `/news/family-photoshoot-hanoi` | Chưa có; là bài mới [2026-11-14-family-photoshoot-hanoi](../2026-11-14-family-photoshoot-hanoi/Page-Copy.md). [VERIFY] sau khi đăng |
 | `/news/cam-phu-cau-incense-village-photography-guide` | 200; tiêu đề đã là Quang Phu Cau; bản viết lại đã đăng 15/11 ([hồ sơ](../2026-11-15-incense-village-page-rewrite/Publication.md)) |
 | `/news/fashion-photoshoot-hanoi` | Chưa có; là bài mới [2026-11-15-fashion-photoshoot-hanoi](../2026-11-15-fashion-photoshoot-hanoi/Page-Copy.md). [VERIFY] sau khi đăng |
