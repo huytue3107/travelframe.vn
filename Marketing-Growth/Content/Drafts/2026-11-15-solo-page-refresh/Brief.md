@@ -31,14 +31,16 @@ url: https://travelframe.sidevn.com/news/solo-female-travel-hanoi-how-get-natura
 
 # Phương án nhanh nếu chưa duyệt cả bài
 
-Chỉ xoá mục "Editorial Notes" và 2 câu nội bộ ("TravelFrame's working concept combines:" kèm danh sách, và đoạn "Package names, duration, price... operationally approved."). Đây vẫn là sửa site live, cần Rocky duyệt.
+**Đã làm 15/11/2026 lúc 10:46 ICT** (Rocky duyệt "Xoá ngay"): xem [Publication-Quick-Fix.md](Publication-Quick-Fix.md). Bước 1 của phần "Cách đăng" dưới đây cần ghi SHA mới của source trước khi dán bản đầy đủ.
+
+Phạm vi đã làm: xoá mục "Editorial Notes", câu "TravelFrame's working concept combines:" kèm danh sách, và câu "We do not publish a promise that has not been operationally approved." Giữ câu "Package names, duration, price, image count and delivery time are confirmed in writing before booking."
 
 # Cách đăng (khi Rocky duyệt)
 
-1. Tìm node trong `/admin/content` theo tiêu đề "Solo Female Travel Hanoi". Mở `node/X/edit`, ghi SHA của source trong textarea.
+1. Mở `node/72/edit`, ghi SHA của source trong textarea (sau bản sửa nhanh: `55c074de…`).
 2. Dán Body mới bằng CKEditor5 `setData`, đúng format của node. Ảnh inline phải là JPEG.
 3. Revision log: "Refresh: solo photoshoot guide with pricing (2026-11-15 draft)". Save, chờ redirect xong.
 4. Kiểm tra bằng curl: không còn "Editorial Notes", "working concept", "commercial truth"; có "30 USD per hour".
 5. Ghi Publication.md, Published-Ledger; xin duyệt gửi index Google và Bing.
 
-Rollback: revert về revision trước khi lưu, tại `/node/X/revisions`.
+Node: 72. Rollback: revert về revision trước khi lưu, tại `/node/72/revisions`.

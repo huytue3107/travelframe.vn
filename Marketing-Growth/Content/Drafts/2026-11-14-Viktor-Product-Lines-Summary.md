@@ -106,12 +106,12 @@ Rocky yêu cầu ngày 15/11/2026: mỗi tuyến sản phẩm có một bài web
 
 Điểm chính:
 
-- **Bài Solo đang hiện ghi chú nội bộ cho khách đọc.** Mục "Editorial Notes" và câu "No price... is presented as approved commercial truth" nằm trên trang live. Nên xoá sớm, kể cả trước khi đăng cả bài mới (phương án nhanh trong Brief).
+- **Bài Solo từng hiện ghi chú nội bộ cho khách đọc** (mục "Editorial Notes" và câu "No price... is presented as approved commercial truth"). Đã xoá lúc 10:46 ICT ngày 15/11/2026, Rocky duyệt "Xoá ngay": [hồ sơ](2026-11-15-solo-page-refresh/Publication-Quick-Fix.md). Bản làm mới đầy đủ vẫn là Draft.
 - **Bài làng hương cũ là bài dựng từ khung chung.** Phần lớn nói về phở, lừa đảo, eSIM, an toàn cho nữ đi một mình. Đây là tuyến có nhu cầu tìm kiếm lớn nhất, nên làm trước.
 - Số Google Ads có thể cao hơn nhiều so với lượt tìm thật (ví dụ vietnam photoshoot). Chưa đo clickstream cho các từ khoá trong bảng.
 - Ngày 15/11, 3 bài web ngày 14/11 (áo dài, gia đình, tổng hợp) đổi sang chính tả Mỹ cho khớp thị trường Mỹ. Bài tổng hợp có thêm link sang bài Fashion và anchor mới cho bài Solo.
 
-Thứ tự đăng đề xuất: (1) xoá ghi chú nội bộ trên bài Solo; (2) bài làng hương; (3) bài Solo đầy đủ; (4) bài Fashion, kèm 1 câu link từ 3 bài case; (5) bài áo dài và gia đình; (6) bài tổng hợp. Mỗi bước là sửa site live, cần Rocky duyệt.
+Thứ tự đăng đề xuất: (1) xoá ghi chú nội bộ trên bài Solo (đã làm 15/11); (2) bài làng hương; (3) bài Solo đầy đủ; (4) bài Fashion, kèm 1 câu link từ 3 bài case; (5) bài áo dài và gia đình; (6) bài tổng hợp. Mỗi bước là sửa site live, cần Rocky duyệt.
 
 ## Rocky cần quyết trước khi đăng
 
