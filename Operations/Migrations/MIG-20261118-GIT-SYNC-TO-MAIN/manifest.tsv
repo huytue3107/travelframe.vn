@@ -1,0 +1,44 @@
+kind	old_sha	new_sha	files	subject
+replay	b3f7017e716654b528a2c5cb7ea75c444e5dd6f5	419ec980ea0ee1b1144c5fefcf032ca9721e2cf1		chore(workspace): save local TravelFrame snapshot
+replay	bedbfb9050b5d4e9245ebc9593e65fa6c2cad7df	1aeaa3ac8e9b27fe7777933dc5dd7e85efc9870d		feat(seo): execute OpenSEO campaign TF-SEO-20261106 and publish Old Quarter walking map
+replay	8faae7945e54d07a40d40b985bed2c4c84e186ee	a8ab4f6bafdcceca4f7ed062f32546cf9ddb2973		feat(creative): add The Hanoi Handbook ebook v01 (Draft)
+replay	fcb49881e8d4b65108e608d775c1dec940518f0c	0ed55153b9d629563aa04a317b847d5fb7da6674		feat(creative): add Heritage Display v1.1 with Vietnamese diacritic fixes
+replay	b0aa79916d5bfd3df2e1071e92b091410930baca	db931372036902eed5385a7b24f521320855c97c		feat(marketing): scan and reply to 38 priority FB/IG comments (12/11)
+replay	2f4ad2766e2aec6e77d1092cd712aa56285e499f	6d5e0236648a8d46fb2e6a6236edb47716d15ef8		feat(creative): redesign The Hanoi Handbook ebook as v02 (Draft)
+replay	ec3e7f1ffa3c43f2d1c066ef0644aaf30eef1b13	41c4018f10ea65d1d2f8e85587a5207acd7ba6f2		feat(marketing): reply to 22 engagement comments on FB/IG (12/11)
+replay	a73e5b30d3914028e134a90aa1ae9aba0466a18b	4ad336bdb513386f28f6c40e93a01fb864ac3787		feat(creative): trace Heritage Display K and T from the reference sheet
+replay	a4212f1fb04d8b738812c1f3cef8c27d4eddda15	6fecc9033f6d863a83b9b1b743766d01960a3a86		feat(creative): use the notched Heritage Display X
+replay	5ec24b282067ae998e79e48caaddf3145c5affbb	66302eaebbaa94d1280c3c39010e7b38f79af7e6		feat(marketing): refresh /hanoi-photoshoot and align site pricing to DEC 21/10
+replay	dcac391219947b12dc336e5fc30612a3db7deb16	a4bf805c0bb1498e0e27609272cbe56da447ea67		feat(marketing): publish Tet 2027 in Hanoi pillar and link it in
+replay	e98cc46dff4bd7bff2aa7ffbbb9e1ef1d0099e26	a69dbee0c35035576e375020ef3401cdd4928449		feat(marketing): draft listing and social content for 6 Viktor product lines
+replay	5311b014d14d2372b6b819840cbe2cd2eb849d3e	80d84a54a2e60e0c0e6ab5e78b9fcfa8b5728594		docs(marketing): point Viktor listing drafts at Viator
+replay	aba4d09b1276fe8a5aa15c7e3586a14b55a61614	71ebb7397ec0ff9693a23798aed22c6e1ee9d8f6		feat(marketing): draft 4 website pages for the Viktor product lines
+replay	ff9d5145e56698e66b1a586c532d6446561091b9	24f721ee077a563308c885f186ca5f616a75ca46		fix(marketing): remove unsupported claims from the couple page patch
+replay	194978797d5fa0201b7cf59a4cd52fa2a4234eaf	13f9737befb7f85b6bb648bb1b2efcd261d7568f		feat(marketing): publish couple page price fix (node 94)
+replay	9d6d449530a4fe6db1bd98395a196ccce0fb29f2	930085e34358df2a160b2f18ea8010f3055e3bac		docs(marketing): record index requests for the couple page
+replay	399b1b472c9746a7efd9ac2bb63d2983a09f399b	73b394735e4c6d697c83a0be9ba660bed5875351		docs(seo): record index requests for 6 pages after the 14/11 audit
+replay	6383b638713b64d8d696124d39500c755ddb3fb7	840d24660e5c4cdefe38cc0cdc74382541a213ac		docs(seo): record Bing URL submission for the 6 audit pages
+replay	b1e5e05112e5c546524ee86aa928349544888fdb	84c92e49d2870a606c45e684b4d4e062769b813f		feat(seo): link the Train Street 2026 guide to /hanoi-photoshoot
+replay	a910bc8504e6dec1f7148f00b8122ce647e1b13a	279fc7710396fad472645f717ec942d395f11d3c		docs(seo): add competitor analysis of xuanphuongle.com
+replay	25eae1aefc27230e55e636e3ed30a4872ccc510e	160da01d00f7b65fb996fc897c7605147604195a		docs(marketing): review the two Train Street photo albums on the site
+replay	2dde66c9495494fae5a089878957945564e58b52	1e338134a51045bcc27407ff5e6cbe91db355a09		docs(marketing): record Rocky's decision to keep the Train Street albums
+replay	4148e3d4ca6a888b8a737d636e1e0f1ac1d48bf3	ecc932626e6f9fd40a8aea2777e1dff573dc94e6		docs(marketing): draft SEO web pages for the solo, incense village and fashion lines
+replay	8c9d78bcf18d91ff1ff826018eed5ded82dc650f	33504f6411f72c1ad0e8d24d443599a343f6e654		docs(marketing): record removal of internal notes from the solo page (node 72)
+replay	479c8d5bf4484721e01021d2901cdb2f0cb2e9b3	32a164dafcaada1f0984d1ad670ab261de901e86		feat(marketing): publish the rewritten incense village guide (node 68)
+replay	91d1a7cdb2417a5d84a554ccd4c286e309c9ce58	21b1982b65191575f3116090962584f0af3acf3d		docs(marketing): record index requests for the incense village guide
+replay	30fe99f8847474c9f9b9c335f8e8616f0b3c0c81	a85def7dc1cd1b6e4e50a052c9de3d6fe9fffc22		feat(marketing): publish the áo dài photoshoot page with Harry's four sets (node 136)
+replay	08adfa1d2e1c966991499a1c6a05b5f99d70a223	b3d94c03f728f9cc49cf2309e584fcfa25a86f9f		feat(marketing): link the incense guide to the áo dài page and record index requests
+replay	6414e6b746e55f2c8e5e8dc841c487def6ef9d7c	bb459ab649ca9b785c00549a9b1491604caeb77f		feat(marketing): publish the fashion, solo and photoshoot hub pages
+replay	59ff2dc1def3127dd9de8df018e94c3a0dd75cfd	03d59be41329b72c4683c38d90356aef6387e53f		docs(marketing): record index requests for the fashion, solo and hub pages
+replay	98d254744c2a5bb5b53ee3fd458bc7d387e10cde	1b8660e34b08d34748c53fb302f610443ee1cbc3		docs(agents): add TravelFrame operating method to AGENTS.md and CLAUDE.md
+replay	4401b0fd2c851135cfd4a1d875b9a257b770a36e	02d4fba0b8b3c0e95604edc2564e4f8a4f879a74		feat(automation): add TypeSafe comment tiering and Jev Ultrafast price pilot
+batch B0	-	045175f29d3c4a7bd2e95851420f3990f069ac8c	1	chore(workspace): keep render output and heavy media outside git
+batch B1	-	d2304444a9003563f215a695a9c1cc99d0942b22	10	docs(executive): sync operating state, decisions and agent policy
+batch B2	-	e67c501671dca0efa78e92b04baab8aed1bc3eae	14	feat(automation): add local automation scripts, handoffs and dashboard server
+batch B3	-	29ccfaa7ae68a8393fd1907d15a552a11bed4835	3	docs(operations): record the TravelFrame vault rename migration
+batch B4	-	2782455c43e833fe0c7389b8723df31c3b49c20e	17	docs(seo): add SEO audits, keyword clusters and backlink kit
+batch B5	-	9aaf9b5e6d68bdf8c28c5a111fccd226f934c427	134	docs(marketing): sync content drafts, plans and interaction logs
+batch B6	-	2dcb435869cc05f70e6857b8c01b91ba8b797c96	21	docs(sales): add funnel review, follow-up scripts, outreach and thank-you email
+batch B7	-	b0b8f8cd44a2032aa8ea3a044b601193d6c7946d	38	docs(data): sync trackers, dashboards, reports and snapshots
+batch B8	-	d85dae75f5c9bd5e3546b660c966c108ebc5298b	7	docs(research): sync research library and competitive notes
+batch B9	-	0878dc37f9c4cba4f1c35149ea1129f3c8860814	195	docs(creative): add project scripts, manifests and asset metadata (no renders)
