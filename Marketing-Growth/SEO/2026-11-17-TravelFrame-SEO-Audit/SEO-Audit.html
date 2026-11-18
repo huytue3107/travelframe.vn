@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SEO Audit — Nov 17, 2026</title>
+<style>
+/* One light look, on screen and on paper. The report is read inside the app,
+   which has its own theme toggle, and a saved document has no way to hear about
+   it: a report that follows the OS scheme alone shows a black panel inside a
+   light app for anyone whose two settings disagree. */
+:root{--bg:#fff;--fg:#0a0a0a;--fg-2:#454545;--fg-3:#8f8f8f;--rule:#ebebeb;--rule-2:#dcdcdc;--sunk:#fafafa;
+  /* The one token a report template may change. Left as the text color, so a
+     report with no template looks exactly as it did before. */
+  --accent:var(--fg)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);margin:0;padding:0 24px 120px;font-size:18px;line-height:1.65;letter-spacing:-.003em;
+  font-family:Geist,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.shell{max-width:1100px;margin:0 auto}
+header{padding:40px 0 0;max-width:660px}
+h1{font-size:clamp(34px,6vw,56px);font-weight:700;line-height:1.03;letter-spacing:-.035em;margin:0;text-wrap:balance}
+.byline{margin:24px 0 0;font-size:16px;color:var(--fg-2)}
+.body{display:grid;grid-template-columns:minmax(0,660px) 1fr;gap:0 64px;margin:48px 0 0}
+/* Both explicitly in row 1: without it the rail auto-places into row 1 and
+   pushes the article down a whole row, opening an empty band above the text. */
+article{grid-column:1;grid-row:1;min-width:0}
+.rail{grid-column:2;grid-row:1;font-size:14px;color:var(--fg-3);padding-top:6px}
+.rail .sticky{position:sticky;top:40px}
+.toc-label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3);margin:0 0 10px}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li{margin:0 0 7px}
+.toc a{color:var(--fg-2);text-decoration:none}
+.toc a:hover{color:var(--fg)}
+/* Below 900px the rail is dropped rather than stacked: a contents list above
+   the report is a wall to scroll past on a phone, not a shortcut. */
+@media (max-width:900px){.body{grid-template-columns:1fr}.rail{display:none}}
+article p{margin:0 0 26px;text-wrap:pretty}
+h2{font-size:30px;font-weight:600;letter-spacing:-.025em;line-height:1.2;margin:60px 0 22px;text-wrap:balance}
+h3{font-size:20px;font-weight:600;letter-spacing:-.015em;margin:38px 0 14px}
+.finding{list-style:none;padding:0;margin:0 0 26px}
+.finding li{margin:0 0 8px;color:var(--fg-2)}
+.finding b{color:var(--accent);font-weight:600}
+a{color:var(--fg);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--rule-2)}
+strong{font-weight:600}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;background:var(--sunk);border:1px solid var(--rule);padding:1px 5px;border-radius:4px}
+ul,ol{margin:0 0 26px;padding-left:22px}li{margin:0 0 11px}li::marker{color:var(--fg-3)}
+.note{border-left:2px solid var(--fg);padding:2px 0 2px 22px;margin:0 0 26px}
+.note p{margin:0;color:var(--fg-2)}
+.note p+p{margin-top:14px}
+.tw{overflow-x:auto;margin:0 0 30px}
+table{border-collapse:collapse;width:100%;font-size:15.5px;min-width:440px}
+th{text-align:left;font-weight:500;color:var(--fg-3);padding:0 20px 10px 0;border-bottom:1px solid var(--rule-2);white-space:nowrap}
+td{padding:13px 20px 13px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--fg-2)}
+td:first-child{color:var(--fg)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td:last-child,th:last-child{padding-right:0}
+tr:last-child td{border-bottom:none}
+figure{margin:0 0 30px}
+figcaption{font-size:14px;color:var(--fg-3);margin-top:8px}
+.bars{display:grid;grid-template-columns:minmax(90px,170px) 1fr auto;gap:10px 12px;align-items:center;font-size:14px}
+.bars .label{color:var(--fg-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bars .track{display:block;height:20px;background:var(--sunk)}
+.bars .bar{display:block;height:100%;background:var(--accent);opacity:.16}
+.bars .value{font-variant-numeric:tabular-nums;min-width:3ch;text-align:right}
+svg{display:block;max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--rule);margin:60px 0}
+footer{max-width:660px;margin:64px 0 0;padding:26px 0 0;border-top:1px solid var(--rule);font-size:15px;color:var(--fg-3)}
+@media print{
+  /* A zero top margin hides the browser's own print header (date, tab title);
+     the bottom margin holds a page counter instead of the browser's URL line.
+     The body padding supplies the visible page margins. */
+  @page{margin:0 0 12mm 0;@bottom-center{content:counter(page) " of " counter(pages);font:10px -apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;color:#8f8f8f}}
+  body{background:#fff;color:#111;padding:14mm 16mm 6mm;font-size:11pt}
+  .shell,.body{display:block;max-width:none}
+  header{padding:0;max-width:none}
+  h1{font-size:26pt}
+  h2{font-size:15pt;margin:22pt 0 10pt}
+  h3{font-size:12pt;margin:14pt 0 6pt}
+  article,footer{max-width:none}
+  .rail{display:none}
+  h1,h2,h3{break-after:avoid}
+  table,figure,.note,svg{break-inside:avoid}
+  tr,td,th{break-inside:avoid}
+  p,li{orphans:3;widows:3}
+  thead{display:table-header-group}
+  .tw{overflow:visible}
+  table{font-size:10pt;min-width:0}
+  .byline,footer,figcaption{font-size:9.5pt}
+  svg,.bars .bar,.bars .track{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  a{text-decoration:none}
+}
+</style></head>
+<body><div class="shell"><header><h1>SEO Audit — Nov 17, 2026</h1><p class="byline">TravelFrame · 17/11/2026 ICT · Bản nội bộ</p></header>
+<div class="body"><aside class="rail"><div class="sticky"><p class="toc-label">Nội dung</p><nav class="toc" aria-label="Nội dung báo cáo"><ol><li><a href="#next-seo-move">Việc SEO nên làm tiếp</a></li><li><a href="#recommendations">Đề xuất</a></li><li><a href="#what-else-we-checked">Các cơ hội đã kiểm tra</a></li><li><a href="#how-this-report-was-made">How this report was made</a></li></ol></nav></div></aside><article>
+<h2 id="next-seo-move">Việc SEO nên làm tiếp</h2>
+<ul><li>Đặt đường dẫn gói chụp 1 giờ ngay cạnh Custom Tour và thống nhất câu xác nhận thanh toán.</li><li>Kiểm tra Googlebot có gặp màn hình xác minh trên đường dẫn cần lập chỉ mục.</li><li>Giữ các bài photoshoot và bài dịp lễ đã có ảnh thật, tuyến đi và link dịch vụ.</li></ul>
+<h2 id="recommendations">Đề xuất</h2>
+<h3>1. Làm rõ gói chụp 1 giờ và cách xác nhận thanh toán</h3>
+<p><strong>Việc cần làm</strong></p>
+<ul><li>Đặt link “1-hour photoshoot” cạnh Custom Tour trên <a href="https://travelframe.sidevn.com/tours" target="_blank" rel="noopener">/tours</a>, dẫn đến <a href="https://travelframe.sidevn.com/hanoi-photoshoot" target="_blank" rel="noopener">/hanoi-photoshoot</a>.</li><li>Thay “no deposit” trên <a href="https://travelframe.sidevn.com/" target="_blank" rel="noopener">trang chủ</a> bằng câu xác nhận bằng văn bản theo nội dung đã duyệt.</li><li>Phân biệt nút hỏi lịch gói 1 giờ với nút mở bộ ước tính tour.</li><li>Đo lượt bấm Instagram, WhatsApp từ Google tự nhiên và đối chiếu yêu cầu thực nhận.</li></ul>
+<p><strong>Lý do</strong></p>
+<ul><li>Custom Tour ghi 2–8 giờ. Gói Basic bán từ 1 giờ và hiện thiếu đường dẫn từ trang tour.</li><li>Trang gói chụp ghi xác nhận giá bằng văn bản. Trang chủ vẫn hứa “no deposit”.</li><li>Khách chọn nhiếp ảnh gia có thể tìm đúng gói nhanh hơn. Chưa đủ dữ liệu để ước tính thêm bao nhiêu yêu cầu.</li></ul>
+<div class="tw"><table><thead><tr><th>Truy vấn</th><th class="n">Ước tính lượt tìm/tháng tại Mỹ</th><th>Google desktop, Mỹ, 17/11/2026</th></tr></thead><tbody>
+<tr><td>hanoi photoshoot</td><td class="n">170</td><td>Không thấy trong 20 vị trí đầu của mẫu</td></tr>
+<tr><td>hanoi photographer</td><td class="n">20</td><td>Không thấy trong 20 vị trí đầu của mẫu</td></tr>
+<tr><td>photographer in hanoi</td><td class="n">20</td><td>#15 (trang 2), chưa xác nhận, 1/3 lần đọc</td></tr>
+</tbody></table></div>
+<h3>2. Xác minh Googlebot nhận đúng nội dung</h3>
+<p><strong>Việc cần làm</strong></p>
+<ul><li>Dùng Kiểm tra URL trực tiếp trong Search Console cho trang gói chụp và trang tour.</li><li>Đối chiếu nhật ký Googlebot đã xác minh cho <a href="https://travelframe.sidevn.com/robots.txt" target="_blank" rel="noopener">robots.txt, tệp hướng dẫn bot</a> và <a href="https://travelframe.sidevn.com/sitemap.xml" target="_blank" rel="noopener">sitemap, danh sách URL gửi cho công cụ tìm kiếm</a>.</li><li>Chuyển lỗi cho kỹ thuật nếu Googlebot nhận trang xác minh hoặc thiếu nội dung cần đọc.</li></ul>
+<p><strong>Lý do</strong></p>
+<ul><li>Mười lăm yêu cầu tải trực tiếp nhận trang xác minh dù đều trả mã HTTP 200.</li><li>Trình duyệt mở được XML gồm 82 URL. OpenSEO đọc được 214 URL và không báo lỗi nghiêm trọng.</li><li>Hai cách truy cập cho kết quả khác nhau. Chưa có bằng chứng Google mất quyền truy cập hoặc mất lượt tìm kiếm.</li></ul>
+<div class="tw"><table><thead><tr><th>Cách kiểm tra · 17/11/2026 ICT</th><th>Kết quả</th></tr></thead><tbody><tr><td>Yêu cầu trực tiếp, phiên mới</td><td>15/15 trả màn hình xác minh với mã 200</td></tr><tr><td>Trình duyệt thông thường</td><td>Đọc được robots.txt, XML gồm 82 URL và nội dung trang bán</td></tr><tr><td><a href="https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/audit?auditId=5fcd6dee-fb49-40eb-a5f1-56529e9e43e7" target="_blank" rel="noopener">Lần quét OpenSEO ngày 17/11</a></td><td>214/214 URL được đọc, 0 lỗi mức nghiêm trọng</td></tr></tbody></table></div>
+<h2 id="what-else-we-checked">Các cơ hội đã kiểm tra</h2>
+<div class="tw"><table><thead><tr><th>Cơ hội</th><th>Quan sát</th><th>Quyết định</th></tr></thead><tbody><tr><td>Bản đồ Phố Cổ</td><td><a href="https://travelframe.sidevn.com/news/hanoi-old-quarter-guide" target="_blank" rel="noopener">Bài hướng dẫn</a> đã có tuyến đi bộ và PDF. 140 lượt tìm/tháng ước tính tại Mỹ.</td><td>Phương án kế tiếp. Khách có thể dùng bản đồ hiện tại, còn gói 1 giờ đang thiếu đường dẫn ngay tại bước chọn dịch vụ.</td></tr><tr><td>Nội dung lễ hội</td><td><a href="https://travelframe.sidevn.com/news/christmas-in-hanoi" target="_blank" rel="noopener">Christmas in Hanoi</a> đã dẫn tới gói chụp. <a href="https://travelframe.sidevn.com/news/new-years-eve-hanoi" target="_blank" rel="noopener">New Year's Eve</a> phục vụ lịch trình cuối năm.</td><td>Giữ URL. Cập nhật lịch khi có nguồn chính thức.</td></tr><tr><td>Thời tiết và điểm chụp</td><td><a href="https://travelframe.sidevn.com/news/hanoi-weather-december" target="_blank" rel="noopener">Bài thời tiết</a> và <a href="https://travelframe.sidevn.com/news/15-best-photo-spots-hanoi-local-guide-light-timing-and-uncrowded-angles-2026" target="_blank" rel="noopener">15 điểm chụp</a> phục vụ hai câu hỏi riêng.</td><td>Giữ nội dung. Theo dõi từng truy vấn sau khi có thêm mẫu.</td></tr><tr><td>Photoshoot theo phong cách</td><td><a href="https://travelframe.sidevn.com/news/ao-dai-photoshoot-hanoi" target="_blank" rel="noopener">Áo dài</a> có bộ ảnh riêng. <a href="https://travelframe.sidevn.com/news/fashion-photoshoot-hanoi" target="_blank" rel="noopener">Fashion</a> có ví dụ editorial. <a href="https://travelframe.sidevn.com/news/vietnam-photoshoot" target="_blank" rel="noopener">Trang tổng hợp</a> nối các phong cách.</td><td>Giữ trang riêng và bảng giá chung. Đọc thêm dữ liệu sau lần cập nhật 15/11.</td></tr><tr><td>Quảng Phú Cầu</td><td><a href="https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide" target="_blank" rel="noopener">Bài làng hương</a> phục vụ khách tìm điểm đến. Mẫu Google có nhiều kết quả về tour và địa điểm.</td><td>Giữ bài. Nhu cầu rộng, mức phù hợp với dịch vụ chụp riêng còn chưa rõ.</td></tr><tr><td>Tour cố định</td><td><a href="https://travelframe.sidevn.com/tour/cinematic-hanoi-visual-storytelling-walk" target="_blank" rel="noopener">Cinematic Hanoi</a> và <a href="https://travelframe.sidevn.com/tour/taste-hanoi-culinary-delights-street-vibes" target="_blank" rel="noopener">A Taste of Hanoi</a> mô tả hai tuyến và trải nghiệm riêng.</td><td>Giữ các trang hiện có. Mẫu từ khóa tour quá nhỏ để đề xuất đổi cả mẫu trang.</td></tr><tr><td>Ebook</td><td><a href="https://travelframe.sidevn.com/ebooks" target="_blank" rel="noopener">Danh mục</a> và <a href="https://travelframe.sidevn.com/ebooks/hanoi-handbook" target="_blank" rel="noopener">trang Hanoi Handbook</a> đều có trong sitemap. Công cụ thiếu ước tính cho truy vấn ebook đã thử.</td><td>Giữ trang bán. Xác minh luồng giao sách trước khi tăng phân phối.</td></tr><tr><td>Bảo trì tiêu đề và mô tả</td><td>162 mục trùng tiêu đề và 162 mục trùng mô tả ngắn trên Google. 128/214 URL có tham số.</td><td>Rà mẫu phân trang và ngôn ngữ khi có bằng chứng Google chọn nhầm phiên bản.</td></tr></tbody></table></div>
+<h2 id="how-this-report-was-made">How this report was made</h2>
+<p>Generated by the <a href="https://openseo.so/docs/skills/seo-audit" target="_blank" rel="noopener">OpenSEO SEO Audit skill</a>, run by Codex on November 17, 2026.</p>
+<p>OpenSEO báo kết quả quét và ước tính nhu cầu. Codex đọc sitemap và đối chiếu thông tin trên website bằng trình duyệt.<br>Ước tính tìm kiếm không cho biết số lượt truy cập hay khách hỏi lịch. Kết quả di động chưa xác minh được.</p>
+<details><summary>Evidence and methodology</summary>
+<h3>Phạm vi website</h3>
+<p><a href="https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/audit?auditId=5fcd6dee-fb49-40eb-a5f1-56529e9e43e7" target="_blank" rel="noopener">Lần quét OpenSEO ngày 17/11</a> lấy 214 URL, gồm 128 URL có tham số và 82 URL trong sitemap. Cả 214 trả HTTP 200 với trạng thái đọc thành công. 538 mục cảnh báo hoặc thông tin, gồm 162 mục trùng tiêu đề và 162 mục trùng mô tả. Báo cáo không đo tốc độ theo Lighthouse.</p>
+<p>Sitemap gồm 61 bài /news/, 7 tour cố định, 2 URL ebook, 1 trang gói chụp và các trang điều hướng, giới thiệu, liên hệ hoặc đặt. Đã đọc các cặp trang tour Cinematic và A Taste of Hanoi, gói chụp cùng trang áo dài và fashion, danh mục và trang ebook, bài Phố Cổ và thời tiết, Christmas và New Year's Eve. Trình duyệt xác nhận thẻ canonical, tức URL ưu tiên, trỏ đúng chính trang đối với trang chủ, /tours và /hanoi-photoshoot.</p>
+<p>Đối chiếu bản đồ với <a href="https://www.vietnamtourism.com/en/maps/hanoi-old-quarter" target="_blank" rel="noopener">Vietnamtourism.com</a> và <a href="https://www.vietnamairlines.com/go/en/plan-book/travel/travel-guide/map-of-old-quarter-hanoi" target="_blank" rel="noopener">Vietnam Airlines</a>. So sánh lựa chọn thuê nhiếp ảnh gia với <a href="https://www.sweetescape.com/en/cities/hanoi" target="_blank" rel="noopener">SweetEscape Hanoi</a>. Khi đối chiếu nhật ký, dùng <a href="https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests" target="_blank" rel="noopener">hướng dẫn xác minh Googlebot của Google</a>.</p>
+<h3>Kết quả tìm kiếm lấy mẫu</h3>
+<p>Độ sâu 20 vị trí mỗi lần đọc. Số kết quả tự nhiên là tổng sau khi gộp, có thể lớn hơn 20. Vị trí dùng mức tốt nhất OpenSEO thấy, với kết quả xuất hiện một lần được ghi là chưa xác nhận. Truy vấn chính được gọi lại ngày 17/11, OpenSEO có thể dùng lại kết quả trong 12 giờ. Lần gọi di động lỗi, nên chưa có kết luận cho thiết bị này.</p>
+<div class="tw"><table><thead><tr><th>Google desktop · Mỹ · en · 17/11/2026</th><th>Ước tính lượt tìm/tháng</th><th>Vị trí TravelFrame</th><th>Kết quả tự nhiên gộp</th><th>Trang khớp</th><th>ICT, khoảng kiểm tra</th></tr></thead><tbody><tr><td>hanoi photoshoot</td><td>170</td><td>Không thấy trong 20 vị trí đầu</td><td>20</td><td>—</td><td>21:32–21:34</td></tr><tr><td>hanoi photographer</td><td>20</td><td>Không thấy trong 20 vị trí đầu</td><td>33</td><td>—</td><td>21:32–21:34</td></tr><tr><td>photographer in hanoi</td><td>20</td><td>#15 (trang 2), chưa xác nhận (1/3 lần đọc)</td><td>41</td><td><a href="https://travelframe.sidevn.com/hanoi-photoshoot" target="_blank" rel="noopener">/hanoi-photoshoot</a> (đối chiếu theo tiêu đề)</td><td>21:32–21:34</td></tr><tr><td>hanoi couple photoshoot</td><td>10</td><td>Không thấy trong 20 vị trí đầu</td><td>27</td><td>—</td><td>21:32–21:34</td></tr><tr><td>hanoi photo tour</td><td>10</td><td>Không thấy trong 20 vị trí đầu</td><td>22</td><td>—</td><td>21:32–21:34</td></tr><tr><td>hanoi old quarter map</td><td>140</td><td>Không thấy trong 20 vị trí đầu</td><td>15</td><td>—</td><td>21:32–21:34</td></tr><tr><td>hanoi photo spots</td><td>10</td><td>Không thấy trong 20 vị trí đầu</td><td>39</td><td>—</td><td>21:32–21:34</td></tr><tr><td>hanoi weather in december 2026</td><td>10</td><td>Không thấy trong 20 vị trí đầu</td><td>34</td><td>—</td><td>21:32–21:34</td></tr><tr><td>quang phu cau incense village</td><td>320</td><td>Không thấy trong 20 vị trí đầu</td><td>34</td><td>—</td><td>21:32–21:34</td></tr><tr><td>hanoi travel guide ebook</td><td>Không có dữ liệu</td><td>Không thấy trong 20 vị trí đầu</td><td>19</td><td>—</td><td>21:34–21:36</td></tr></tbody></table></div>
+<p>Nguồn ước tính là <a href="https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/keywords" target="_blank" rel="noopener">OpenSEO Keywords</a>, truy xuất 17/11. Không cộng các biến thể có thể trùng nhu cầu. Nguồn ước tính tên miền, từ khóa xếp hạng và liên kết trỏ về không trả số liệu cho tên miền. Báo cáo chưa đủ căn cứ để dự báo thay đổi thứ hạng, lượt truy cập hoặc yêu cầu đặt.</p>
+<h3>Search Console · nội bộ</h3>
+<p>Tìm kiếm web, mọi quốc gia, từ 19/10 đến 15/11/2026 theo giờ Thái Bình Dương. Tổng ở cấp website là 24 click và 995 lượt hiển thị, tính từ 28 hàng theo ngày. Một click tìm kiếm không cho biết đã có yêu cầu hay đặt tour.</p>
+<div class="tw"><table><thead><tr><th>URL</th><th>Click</th><th>Hiển thị</th><th>Trạng thái ghi nhận 17/11</th><th>Lần đọc cuối · ICT</th></tr></thead><tbody><tr><td><a href="https://travelframe.sidevn.com/" target="_blank" rel="noopener">/</a></td><td>7</td><td>32</td><td>Đã lập chỉ mục</td><td>13/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/tours" target="_blank" rel="noopener">/tours</a></td><td>0</td><td>9</td><td>Đã lập chỉ mục</td><td>19/10/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/hanoi-photoshoot" target="_blank" rel="noopener">/hanoi-photoshoot</a></td><td>2</td><td>85</td><td>Đã lập chỉ mục</td><td>14/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/hanoi-old-quarter-guide" target="_blank" rel="noopener">/news/hanoi-old-quarter-guide</a></td><td>0</td><td>100</td><td>Đã lập chỉ mục</td><td>14/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/hanoi-weather-december" target="_blank" rel="noopener">/news/hanoi-weather-december</a></td><td>0</td><td>134</td><td>Đã lập chỉ mục</td><td>12/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/15-best-photo-spots-hanoi-local-guide-light-timing-and-uncrowded-angles-2026" target="_blank" rel="noopener">/news/15-best-photo-spots-hanoi-local-guide-light-timing-and-uncrowded-angles-2026</a></td><td>0</td><td>73</td><td>—</td><td>—</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/christmas-in-hanoi" target="_blank" rel="noopener">/news/christmas-in-hanoi</a></td><td>5</td><td>58</td><td>Đã lập chỉ mục</td><td>12/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/new-years-eve-hanoi" target="_blank" rel="noopener">/news/new-years-eve-hanoi</a></td><td>3</td><td>23</td><td>Đã lập chỉ mục</td><td>12/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/ao-dai-photoshoot-hanoi" target="_blank" rel="noopener">/news/ao-dai-photoshoot-hanoi</a></td><td>0</td><td>1</td><td>Đã lập chỉ mục</td><td>15/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/fashion-photoshoot-hanoi" target="_blank" rel="noopener">/news/fashion-photoshoot-hanoi</a></td><td>—</td><td>—</td><td>Đã lập chỉ mục</td><td>15/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/vietnam-photoshoot" target="_blank" rel="noopener">/news/vietnam-photoshoot</a></td><td>0</td><td>2</td><td>Đã lập chỉ mục</td><td>15/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing" target="_blank" rel="noopener">/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing</a></td><td>0</td><td>2</td><td>Đã lập chỉ mục</td><td>15/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026" target="_blank" rel="noopener">/news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026</a></td><td>0</td><td>4</td><td>Đã lập chỉ mục</td><td>14/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/news/cam-phu-cau-incense-village-photography-guide" target="_blank" rel="noopener">/news/cam-phu-cau-incense-village-photography-guide</a></td><td>0</td><td>3</td><td>Đã lập chỉ mục</td><td>15/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/tour/cinematic-hanoi-visual-storytelling-walk" target="_blank" rel="noopener">/tour/cinematic-hanoi-visual-storytelling-walk</a></td><td>0</td><td>4</td><td>Đã lập chỉ mục</td><td>13/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/tour/taste-hanoi-culinary-delights-street-vibes" target="_blank" rel="noopener">/tour/taste-hanoi-culinary-delights-street-vibes</a></td><td>0</td><td>4</td><td>Đã lập chỉ mục</td><td>14/11/2026</td></tr><tr><td><a href="https://travelframe.sidevn.com/ebooks" target="_blank" rel="noopener">/ebooks</a></td><td>—</td><td>—</td><td>Google chưa nhận diện</td><td>—</td></tr><tr><td><a href="https://travelframe.sidevn.com/ebooks/hanoi-handbook" target="_blank" rel="noopener">/ebooks/hanoi-handbook</a></td><td>—</td><td>—</td><td>Đã lập chỉ mục</td><td>17/11/2026</td></tr></tbody></table></div>
+<p>Ba truy vấn chính về dịch vụ chụp ảnh có lần lượt 14, 8 và 34 hiển thị với 0 click cho <code>hanoi photoshoot</code>, <code>hanoi photographer</code> và <code>photographer in hanoi</code>. Vị trí trung bình tương ứng 17,1, 22,3 và 20,3. Số ở cấp truy vấn có thể thiếu do Google ẩn một số truy vấn. Hai truy vấn <code>hanoi weather in december 2026</code> và <code>hanoi photo spots</code> có 8 và 20 hiển thị, vị trí trung bình 8,6 và 6,1 trên mọi quốc gia. Đây là trung bình trong kỳ, khác ảnh chụp kết quả Mỹ ngày 17/11.</p>
+<p><a href="https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/search-performance" target="_blank" rel="noopener">Search Console của dự án</a>.</p>
+</details>
+</article></div></div></body></html>

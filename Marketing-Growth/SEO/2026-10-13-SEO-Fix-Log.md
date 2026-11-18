@@ -147,6 +147,97 @@ Audit: 0 critical. Đã sửa trên Drupal (revision log "SEO 14/10 OpenSEO audi
 - JSON-LD hiện chỉ có `Article`; `Service`/`FAQPage` vẫn cần developer.
 - Chưa làm: heading skip (31 bài, nghi do template), thin content `/about` và `/guides` (cần Rocky quyết định viết thêm hay noindex).
 
+## 9. Triển khai Competitive Landscape 09/11 (báo cáo OpenSEO bc82f002)
+
+Rocky duyệt qua chat ("oke triển khai đi"). Mọi thay đổi trên Drupal có revision log "SEO 09/11 …" và đã kiểm tra bằng `curl` ẩn danh:
+
+| # | Thay đổi | Kiểm tra |
+|---|---|---|
+| 1 | Redirect 301 `/news/santorinipark` → `/news/santorini-park-lovely-photo-spot-right-outside-hanoi` (trước đó trả 404 dù còn lượt hiển thị trong Search Console) | 301 + `location` đúng |
+| 2 | Node 71 Train Street: thêm đoạn "2026 update (checked 9 November 2026)": Bộ Xây dựng và UBND Hà Nội thống nhất giảm tàu khách, dừng tàu hàng, mốc trước 01/07/2026; nguồn VOV và Vietcetera. Chưa xác nhận đã thực hiện → bài chỉ viết "expect fewer trains" | Đoạn hiển thị |
+| 3 | Node 68: sửa tên làng sai "Cam Phu Cau" → **Quang Phu Cau** (title, SEO title/meta, summary, body); thêm dòng vị trí (Ứng Hòa, khoảng 35 km, khoảng 1 giờ đi xe); **giữ URL** cũ (tắt pathauto) | 23 lần "Quang Phu Cau", 0 lần "Cam Phu Cau" |
+| 4 | Node 70 Bát Tràng: bỏ hậu tố "\| TravelFrame" bị lặp trong SEO title | `<title>` còn một hậu tố |
+| 5 | Đăng node 113 Night Market và node 114 Airport to Old Quarter (định dạng full_html, category Travel Tips, ảnh Pexels có credit) | 200, có trong sitemap, ảnh 3/3, không có H4 |
+| 6 | Node 105 pillar: thêm link "Full guide" ở mục night market và mục airport; node 113 thống nhất giờ thành "around 6–7pm until about midnight" cho khớp pillar | Link hiển thị |
+
+Ảnh: 6 ảnh Pexels (tải về `Creative-Production/Assets/Stock/pexels-{30829087,1474233,39657011,20988488,36660890,18008781}.*`, kèm JSON credit), bản web 1.600px upload vào `inline-images/travelframe-pexels-*.jpg`. Thay bằng ảnh gốc khi Creative chụp xong.
+
+**Rollback:** Revisions → revert về revision trước "SEO 09/11" (node 68, 70, 71, 105, 113); unpublish node 113/114; xoá redirect `/news/santorinipark` trong `/admin/config/search/redirect`.
+
+**Còn mở:**
+- Node 68 vẫn dùng 2 ảnh `rednotedownloader.com_photos*` (rủi ro bản quyền) và thân bài viết chung chung, cần ảnh gốc và viết lại.
+- Drupal báo có bản vá bảo mật chưa cài.
+- Chưa Request Indexing trong Search Console cho node 113/114.
+
+## 10. Triển khai lộ trình + link building (09/11, Rocky duyệt qua chat)
+
+| # | Thay đổi | Kiểm tra |
+|---|---|---|
+| 1 | Đăng node 115 [French Quarter guide](https://travelframe.sidevn.com/news/hanoi-french-quarter-guide) (cụm "french quarter hanoi", 590/tháng) | 200, title 59 ký tự, sitemap, 3 ảnh Pexels |
+| 2 | Đăng node 116 [7 Best Day Trips from Hanoi](https://travelframe.sidevn.com/news/day-trips-from-hanoi) (cụm "day trips from hanoi", 720/tháng) | 200, title 56 ký tự, sitemap, 5 ảnh Pexels |
+| 3 | Node 68 Quảng Phú Cầu: thay **3** ảnh `rednotedownloader` (trước ghi nhầm là 2) bằng ảnh Pexels có credit; thêm link sang day trips | 0 ảnh rednotedownloader |
+| 4 | Tour node 56: sửa "Cam Phu Cau" → "Quang Phu Cau" trong SEO title và description; giữ URL | `<title>` đúng |
+| 5 | Link nội bộ: node 81 và 105 → French Quarter; node 70, 86, 68 → day trips | Mỗi trang có 1 link mới |
+
+Kiểm tra link nội bộ trên 2 bài mới: không có link hỏng.
+
+**Link building:** chưa gửi thư nào. Toàn bộ thư, nội dung cho form liên hệ, tin nhắn, bài guest post và hồ sơ directory nằm trong [Backlink Outreach Kit](2026-11-09-Backlink-Outreach-Kit.md) và [tracker](2026-11-09-Backlink-Outreach-Tracker.csv). Gmail connector chưa xác thực nên không tạo được email nháp trong Gmail.
+
+**Rollback:** revert revision "SEO 09/11" của node 56, 68, 70, 81, 86, 105; unpublish node 115/116.
+
+**Còn mở:** node 68 vẫn còn 2 ảnh chưa rõ nguồn (`edcbc5….jpg` và `d4c4a6….jpg` có caption áo dài), và thân bài viết chung chung.
+
+### 10b. Gỡ FAQ 48h chép nhầm (Roadmap mục 0)
+
+Đã gỡ trên 18 node: 81, 82, 83, 85, 88, 89, 90, 96, 97, 98, 99, 100, 101, 102, 103, 106, 107, 108.
+- **Phạm vi khối đã gỡ:** H2 "…Turning the Trip Into a Shoot" (câu "Day 1 morning…") cùng H2 "Frequently Asked Questions" và 4 câu hỏi H4 của bài 48h.
+- **Nội dung thay thế:** 1 câu CTA về `/hanoi-photoshoot`.
+- **Cách làm:** dry-run trước, chỉ áp dụng khi khối có đúng 2 H2 và dưới 3.000 ký tự. Giữ nguyên URL.
+- **Kiểm tra:** quét toàn bộ `/news` trong sitemap, chỉ bài 48h gốc (node 73) còn FAQ này.
+
+**Nguồn gây lỗi chưa xử lý:** node 106–108 (đăng 21/10) cũng bị chèn khối này, nên quy trình hoặc template soạn bài đang tự dán vào. Cần kiểm tra template trước khi đăng bài mới.
+**Rollback:** revert revision "SEO 09/11 roadmap P0" của từng node.
+
+### 10c. Gửi outreach và báo Google (09/11, yêu cầu trong chat: "bạn gửi đi", "triển khai đi")
+
+- **Đã gửi 6 thư**, từ Gmail `sonbui20020112@gmail.com` (trình duyệt tích hợp), ký "Son / TravelFrame Vietnam":
+  - email: Vietnam Coracle, Routinely Nomadic, Hanoi Food, VietAdvisor (guest post pitch), Truly Voyage;
+  - form liên hệ: Helena Bradbury.
+  - Đã xác nhận cả 6 trong Thư đã gửi hoặc thông báo "Thank you!" của form; chưa thấy thư bị trả lại (bounce).
+- **Chỉnh nội dung trước khi gửi:**
+  - bỏ câu chưa kiểm chứng ("we often hear from visitors");
+  - đổi "first on Google" thành "near the top", vì vị trí #1 trong SERP 09/11 không ổn định.
+- **Chưa gửi:**
+  - Chris & Wren: form không tải được (lỗi 451);
+  - Revitrip: cần nhắn từ tài khoản FB/IG của TravelFrame.
+- **Search Console:**
+  - Request Indexing cho night market lỗi 2 lần ("Đã xảy ra sự cố… thử lại sau").
+  - Đã gửi lại `sitemap.xml` thành công: Google đọc lại ngày 09/11, số trang phát hiện tăng từ 61 lên 65.
+- **Follow-up:** 16/11, một lần duy nhất, theo [tracker](2026-11-09-Backlink-Outreach-Tracker.csv).
+
+### 10d. GA4 key events cho KPI inquiry (09/11, Rocky duyệt cả 4 thay đổi trong chat)
+
+Làm trong GA4 Admin (property 552867189), đăng nhập `sonbui20020112@gmail.com` trên trình duyệt tích hợp.
+
+| Thay đổi | Cài đặt | Trạng thái |
+|---|---|---|
+| `contact_click` → sự kiện chính | Đếm "Một lần mỗi phiên" | Xong |
+| `begin_booking` → sự kiện chính | Đếm mặc định | Xong |
+| `generate_lead` (sự kiện mới) | Từ `form_submit`, URL chứa `/contact`; sự kiện chính, một lần mỗi phiên, không đặt giá trị | **Đã test 09/11:** có trong GA4 Realtime |
+| `purchase` | Giữ nguyên (thanh toán booking thật) | Không đổi |
+| Phương diện tuỳ chỉnh (phạm vi sự kiện) | "Contact channel" ← `channel`; "Contact placement" ← `placement` | Xong |
+
+- **Kiểm tra trùng:** GTM `GTM-MKLJQNBG` gửi `contact_click` (kèm channel, placement) và các sự kiện booking (view_tour, begin_booking, booking_step_view, add_to_cart, begin_checkout, purchase). GTM **không** chuyển `generate_lead` mà JS booking đẩy vào dataLayer (luồng bill-only), nên `generate_lead` chỉ đếm form /contact và không bị đếm đôi.
+- **Test 09/11 (Rocky duyệt "ok"):** Claude gửi 1 form test (tên "TEST GA4 - Claude", email sonbui20020112@gmail.com, nội dung "please ignore").
+  - Form chuyển sang `/contact?sent=1`.
+  - GA4 Realtime ghi `form_start` 2, `form_submit` 2, `generate_lead` 2, và `generate_lead` có trong thẻ sự kiện quan trọng.
+  - Số 2 chưa rõ lý do: có thể là bản test riêng của Rocky, cũng có thể sự kiện bị bắn đôi. GTM chỉ có 1 Google tag. Báo cáo chuẩn vẫn đếm sự kiện chính 1 lần mỗi phiên.
+  - Hộp thư lead có 1 lead TEST, cần bỏ qua hoặc xoá.
+- **Lỗi UX phát hiện khi test:** sau khi gửi, trang `/contact?sent=1` không hiện thông báo đã gửi thành công. Khách có thể tưởng form lỗi rồi gửi lại hoặc bỏ đi. Chuyển cho developer: hiện thông báo khi URL có `sent=1`.
+- **Còn mở:** dimension chỉ có số liệu từ 09/11 trở đi, sau khoảng 24–48 giờ.
+- **Cách đọc KPI:** sự kiện chính `contact_click` + `generate_lead`, lọc phiên `google / organic`. Baseline 4 tuần bắt đầu từ 09/11.
+- **Rollback:** GA4 Admin → Sự kiện: bỏ sao `contact_click`/`begin_booking`/`generate_lead`, xoá rule tạo `generate_lead`. Định nghĩa tuỳ chỉnh: lưu trữ 2 dimension.
+
 ## 11. Triển khai campaign TF-SEO-20261106 (09/11)
 
 Rocky yêu cầu trong chat: "triển khai campain này giúp tôi". Nguồn: [Master Report](2026-11-06-OpenSEO-Campaign-Execution-Master-Report.md), mục 5. Rocky đã trả lời 3 câu hỏi trong chat:
@@ -200,3 +291,67 @@ Thao tác qua trình duyệt tích hợp (phiên admin Drupal), revision log b�
   - Đợt nhắn nhắc outreach ngày 16/11, phần còn lại của đề xuất 2.
   - Google đọc trang lúc 17:36 ICT, trước khi thêm link. Chưa gửi yêu cầu đọc lại.
 - **Ghi nhận, chưa xử lý:** site có 2 album mang tên Train Street, là node 119 "Hanoi Train Street – A Romantic Local Experience" và node 51 "Night in Hanoi Train Street". Cần Rocky xem 2 album này có trái quy định không quảng bá chụp ảnh trên đường ray không.
+
+## 13. Redirect 4 URL /hanoi-photoshoot/* đang 404 (16/11, Rocky duyệt "check sửa")
+
+- Phát hiện: GA4 ngày 15/11 ghi 4 lượt xem "Page not found" ở /hanoi-photoshoot/ao-dai, /couple-proposal, /family, /pre-wedding. Drupal dblog: cùng 4 URL bị gọi trong cùng 1 giây lúc 10:45 ICT 15/11 (không referrer) và 11:26 ICT 16/11 (referrer /news/vietnam-photoshoot). Không có link nội bộ nào tới 4 URL này (đã kiểm HTML trang chủ, /hanoi-photoshoot, /news/vietnam-photoshoot, các bài áo dài/couple/fashion, sitemap). Nhiều khả năng do một công cụ/trình duyệt tự đoán URL con, không phải khách bấm link hỏng.
+- Đã thêm trong /admin/config/search/redirect (phiên admin, trình duyệt tích hợp):
+
+| Từ | Đến | Mã |
+|---|---|---|
+| /hanoi-photoshoot/ao-dai | /news/ao-dai-photoshoot-hanoi | 301 |
+| /hanoi-photoshoot/couple-proposal | /news/couple-honeymoon-photoshoot-hanoi-relaxed-candid-guide-2026 | 302 |
+| /hanoi-photoshoot/family | /hanoi-photoshoot | 302 |
+| /hanoi-photoshoot/pre-wedding | /hanoi-photoshoot | 302 |
+
+- 302 cho 3 URL vì có thể làm trang riêng sau (bài family đang là Draft trong Content/Drafts/2026-11-14-family-photoshoot-hanoi). Khi đăng trang riêng thì đổi đích và chuyển sang 301.
+- Kiểm tra ẩn danh bằng curl 16/11: ao-dai 301, ba URL còn lại 302, đều về đúng đích.
+- Rollback: xoá 4 dòng trên trong /admin/config/search/redirect.
+
+## 14. Kiểm tra GA4 ngày 08/11 = 0 phiên (16/11, chỉ đọc)
+
+- GA4 Admin → Lịch sử thay đổi 17/10–16/11: chỉ có 7 thay đổi, tất cả lúc 22:04–22:10 ngày 09/11 (key event, generate_lead, 2 custom dimension). Không có data filter, xoá dữ liệu hay đổi stream quanh 08/11.
+- GTM GTM-MKLJQNBG: phiên bản live là v8, xuất bản 14/10; không có phiên bản mới nào sau đó.
+- Measurement health (OpenSEO): 1 web stream G-0GJGLH771Q, 0 lỗi chẩn đoán.
+- Page performance theo ngày 06–10/11: ngày 08/11 không có dòng nào, kể cả hostname 127.0.0.1 và trang admin. 07/11 có 6 phiên, 09/11 có 15.
+- Snippet GTM trên site chỉ tải gtm.js khi người xem tương tác (pointerdown/touchstart/keydown/scroll/wheel/mousemove) hoặc sau khi trang load xong một khoảng chờ; người mở trang rồi thoát ngay sẽ không được tính.
+- Kết luận: không tìm thấy thay đổi cấu hình nào làm mất dữ liệu. Ngày 08/11 là Chủ nhật, team không vào admin, traffic thật đầu tháng 11 rất thấp (4–6 phiên/ngày), nên 0 phiên có thể là thật hoặc do vài lượt xem ngắn bị snippet trì hoãn bỏ sót. Drupal dblog chỉ còn log từ 09/11 nên không đối chiếu được lượt truy cập máy chủ ngày 08/11.
+
+## 15. Thử chặn bản `?lang=vi` chưa dịch (16/11, Rocky duyệt "triển khai")
+
+- Kiểm tra ẩn danh: 11 trang chính có bản `?lang=vi` giống hệt bản tiếng Anh nhưng khai `<html lang="vi">`, canonical tự trỏ về `?lang=vi` và có `hreflang="vi"`. Metatag (Content) đặt canonical = `[node:url]`, nên thẻ `?lang=vi` do code theme/module tuỳ biến in ra.
+- Thử redirect 301 `/news/new-years-eve-hanoi?lang=vi` → `/news/new-years-eve-hanoi` bằng module Redirect, rồi Clear all caches. Không có tác dụng: trang vẫn trả 200, kể cả khi đăng nhập (không qua page cache). Đã xoá redirect này (id 44), 4 redirect `/hanoi-photoshoot/*` ở mục 13 vẫn chạy.
+- Đã "Clear all caches" một lần lúc khoảng 13:55 ICT 16/11.
+- Cách sửa đúng nằm trong code: ticket developer D14 (đã nâng ưu tiên, kèm bằng chứng ChatGPT).
+
+## 16. SEO Audit 18/11: cụm làng hương (18/11, Rocky "Làm những việc này đi")
+
+Nguồn: [báo cáo audit 18/11](2026-11-18-TravelFrame-SEO-Audit/SEO-Audit.html), sửa nhỏ số 1 và mục "Nên tập trung vào đâu trước". Sửa trong form `/node/X/edit` của trình duyệt tích hợp (phiên `admin` có sẵn). Mỗi node: thay chuỗi trên `getData()`, kiểm tra chuỗi gốc khớp đúng 1 lần và phần còn lại không đổi, rồi `setData` và Save. Lưu từ 20:51 đến 20:52 ICT.
+
+| # | Node | Thay đổi | Kiểm tra trên trang live |
+|---|---|---|---|
+| 1 | 139 `/news/incense-village-photoshoot-hanoi` (Full HTML) | Đổi H2 "How an incense village photoshoot works" thành "How an incense village tour and photoshoot works". Thêm trước đoạn "Directions, fees and etiquette…": thời lượng (khoảng nửa ngày, xe khoảng 1 giờ mỗi chiều, chụp từ 1 giờ với Basic, từ 2 giờ với Premium/VIP); bảng 3 gói 30/60/99 USD/giờ, tối đa 2 khách, nội dung từng gói theo DEC-20261021, dùng đúng câu đã đăng ở node 68; giao ảnh gốc 24 giờ, ảnh sửa và video 48 giờ; "These rates are for digital photos."; câu về xe giống node 68 ("We confirm the car, the hours and the total in writing before you book") kèm mời hỏi qua Instagram @travelframe.vn | H2 mới hiện đúng; 3 dòng "USD per hour"; có câu Instagram. Ảnh 9→9, H3 9→9, link 17→18 |
+| 2 | 68 `/news/cam-phu-cau-incense-village-photography-guide` (Basic HTML) | Sau đoạn đầu mục "A photoshoot at the incense village": `See it in practice: Harry's incense village photoshoot` → `/news/incense-village-photoshoot-hanoi` | Link hiện trong bài; ngoài câu mới, mã nguồn không đổi |
+| 3 | 138 `/news/vietnam-photoshoot` (Full HTML) | Mục "4. Incense village day trip", sau dòng "Read more": cùng câu và link như trên, theo mẫu "See it in practice" của mục 5 | Link hiện trong bài; ngoài câu mới, mã nguồn không đổi |
+
+- **Không làm:** thay 3 ảnh Pexels ở node 68. Ảnh gốc làng hương duy nhất đã có consent là Fin 05 (một chân dung, đã ở node 139). 16 ảnh Harry trong `viktor-travelframe/05-Incense-Village-Photoshoot/` chưa ghi nhận consent của người trong ảnh. 6 ảnh Fin còn lại mang nhãn Google AI nên không dùng. Chờ Rocky.
+- **Giá xe đi làng:** chưa có giá được duyệt nên bài không ghi số tiền. DEC-20261021 ghi taxi do khách trả.
+- **Rollback:** node 139 revert về revision 371 (gallery 18/11 14:50 ICT); node 68 revert về 353 (15/11); node 138 revert về 358 (15/11).
+- **Kiểm tra khách (curl, không đăng nhập), khoảng 20:58 ICT:** cả 3 trang HTTP 200, canonical đúng, không gặp màn chặn bot. Node 139 có H2 mới, 3 dòng "USD per hour" và câu Instagram; node 68 và 138 có link tới node 139.
+- **Search Console, 20:53–20:58 ICT:** URL Inspection báo node 139 "URL không nằm trên Google: Google không xác định được URL". Kiểm tra trực tiếp lúc 20:56: "Google có thể lập chỉ mục URL này". Bấm Yêu cầu lập chỉ mục 3 lần, cả 3 đều không thành công: lần 1 không có thông báo nào; lần 2 và 3 báo "Rất tiếc! Đã xảy ra sự cố… Chúng tôi gặp sự cố khi gửi yêu cầu lập chỉ mục của bạn. Vui lòng thử lại sau." **Chưa gửi được.** Thử lại vào ngày 19/11. Không gửi Bing (cần Rocky duyệt riêng).
+
+### 16b. Node 68: thay 3 ảnh Pexels bằng ảnh Harry (18/11, 21:34 ICT)
+
+Rocky xác nhận trong chat ngày 18/11/2026: "Đã có consent" (người trong ảnh làng hương của Harry đồng ý), sau đó yêu cầu thay ảnh. Ảnh lấy từ CDN Instagram của các bài Harry đăng (`@harry_pham.sidevn`). File tải về trùng từng byte (SHA-256) với file local trong `Marketing-Growth/Content/viktor-travelframe/05-Incense-Village-Photoshoot/`. Trang site tự resize bằng canvas về 1080×1440 JPEG rồi tải lên `/ckeditor5/upload-image/basic_html` (HTTP 201). Không tìm thấy dấu hiệu AI (C2PA, "Made with Google AI") trong 16 file. Ảnh tải từ Instagram đã bị xoá metadata, nên điều này chưa phải bằng chứng chắc chắn.
+
+| Mục trong node 68 | Ảnh cũ (Pexels) | Ảnh mới | File local (SHA-256 đầu) → file trên site |
+|---|---|---|---|
+| What the village makes | 28305453, Vietnam Hidden Light | Bó hương dựng đứng phơi trên sân | `3980912395498550383_3980912157096460444.jpg` (`048fc3a7…`) → `quang-phu-cau-incense-bundles-harry-pham.jpg`, uuid `b4dd8e3c…`, 335.916 byte |
+| Fees and etiquette | 27951070, HONG SON | Nón lá trên bó hương, cạnh ghế tre | `3980912395498550383_3980912193351983524.jpg` (`d3fbaa06…`) → `quang-phu-cau-conical-hat-stool-harry-pham.jpg`, uuid `fc48a2ad…`, 365.842 byte |
+| The overhead pattern | 6712917, Quang Nguyen Vinh | Chụp từ trên cao, mẫu váy đen trên lối đi giữa các hàng hương | `3978671107305633311_3978670859156965949.jpg` (`f0e05781…`) → `quang-phu-cau-overhead-path-harry-pham.jpg`, uuid `d0ec76bd…`, 392.894 byte |
+
+- Credit mỗi ảnh: "Photo: Harry Pham / 102 Koncept", link về bài Instagram gốc (`Dc_Crtfo_Rv`, `Dc3FErND_Yf`). Alt mô tả đúng nội dung từng ảnh.
+- Kiểm tra: mã nguồn sau `setData` trùng bản dự kiến; trang live (curl, không đăng nhập) HTTP 200, canonical đúng, 3 ảnh mới HTTP 200 `image/jpeg`, 3 credit Harry, 0 chữ "pexels"; trình duyệt giải mã đủ 3 ảnh 1080×1440.
+- Không đổi: ảnh bìa (Main image) của node 68 là file `2026-09/60a4b8ae….webp`, alt "Nguyen Minh Tuan - Quang Phu Cau Incense Village", không thuộc 3 ảnh Pexels.
+- Các file Pexels cũ vẫn ở trên site vì node 139 và node 138 còn dùng.
+- **Rollback:** revert node 68 về revision 373 (bản có link sang node 139, trước khi thay ảnh).

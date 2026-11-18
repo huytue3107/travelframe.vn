@@ -1,7 +1,7 @@
 ---
 title: "Checklist chuyển domain travelframe.sidevn.com → travelframe.vn"
 owner: Marketing-Growth (checklist) · Developer + Rocky (DNS, server)
-status: "Draft — Rocky đã chốt làm trước tuần 3 (2026-10-14); cần Rocky duyệt thời điểm cắt"
+status: "Draft — dời sang Q1/2027 (Rocky quyết định 2026-11-09); trước khi cắt, cập nhật lại bảng 301 vì sitemap đã có thêm URL"
 date: "2026-10-14"
 ---
 

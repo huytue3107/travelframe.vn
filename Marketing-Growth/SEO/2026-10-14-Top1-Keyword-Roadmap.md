@@ -119,6 +119,17 @@ Mỗi bài tuân thủ `writing_preferences` (claim phải xác minh, không cli
 - **KPI tuần 24:** Hạng A #1, Hạng B ≥3 từ khoá #1, Train Street top 5, organic ≥500 phiên/tháng (khớp `current_goal`).
 - **Luật điều chỉnh:** từ khoá nào ở vị trí 4–10 quá 4 tuần thì làm 3 việc: tăng link nội bộ, viết lại title/meta để tăng CTR, và tìm thêm 1 backlink trỏ thẳng trang đó.
 
+## Tiến độ (cập nhật 2026-11-09)
+
+| Mũi | Đã xong | Còn lại |
+|---|---|---|
+| 0. Sửa FAQ chép nhầm | **Xong 09/11:** 18 bài còn khối FAQ 48h đã gỡ (Santorini và Tạ Hiện sửa từ 20/10). Quét lại sitemap: chỉ bài 48h gốc còn FAQ này | Thêm 2–3 FAQ riêng, có xác minh, cho từng bài. Tìm nguồn gây lỗi: các bài 106–108 đăng sau 14/10 vẫn bị chèn khối này |
+| 1. Kỹ thuật | Redirect `/news/santorinipark` | **Chuyển domain dời sang Q1/2027** (Rocky quyết định 09/11). JSON-LD và H1 tour chờ developer |
+| 2. Money page | — | Đồng bộ giá đã duyệt ngày 21/10, ảnh thật, Google Business Profile |
+| 3. Nội dung | Night Market (113), Airport (114), French Quarter (115), Day trips (116); Train Street cập nhật 2026; Quảng Phú Cầu sửa tên và thay ảnh | Lịch biên tập 8 tuần: Hanoi or HCMC, Hoàn Kiếm Lake, Đồng Xuân… |
+| 4. Authority | [Link Prospecting 999d4bed](https://app.openseo.so/p/b97024a3-b095-44e9-9489-d5fce1361263/reports/999d4bed-2602-47a5-91ab-c8ec0ffd17ca); [Outreach Kit](2026-11-09-Backlink-Outreach-Kit.md) + [tracker](2026-11-09-Backlink-Outreach-Tracker.csv) | Rocky duyệt và gửi; tạo hồ sơ directory, GBP, OTA |
+| 5. Đo lường | Search Console 10/10–06/11; Competitive Landscape 09/11. **KPI chính đổi ngày 09/11 thành số inquiry đến từ organic** (sessions là chỉ số phụ); thị trường: Mỹ chính, Úc và Anh phụ. **GA4 09/11:** key event `contact_click` (1 lần/phiên), `generate_lead` (form /contact), `begin_booking`, `purchase`; dimension Contact channel và Contact placement ([Fix Log §10d](2026-10-13-SEO-Fix-Log.md)) | `generate_lead` đã test 09/11. Form /contact chưa có thông báo gửi thành công (giao developer). Baseline inquiry 4 tuần từ 09/11. Check thứ hạng tuần 4 (rank tracker khoảng 162 credit) |
+
 ## Tài liệu đi kèm
 
 - [Ticket developer](2026-10-14-Developer-SEO-Ticket.md)
