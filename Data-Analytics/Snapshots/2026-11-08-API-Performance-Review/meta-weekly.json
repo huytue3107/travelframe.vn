@@ -1,0 +1,196 @@
+{
+  "week": {
+    "tool": "get_instagram_insights",
+    "args": {
+      "metrics": "reach,views,profile_views,website_clicks,total_interactions,accounts_engaged,saves,shares",
+      "period": "day",
+      "metric_type": "total_value",
+      "since": "2026-11-01T01:30:00Z",
+      "until": "2026-11-08T01:30:00Z"
+    },
+    "requested_at_utc": "2026-11-08T03:48:19.055Z",
+    "received_at_utc": "2026-11-08T03:48:31.737Z",
+    "ok": true,
+    "data": {
+      "data": [
+        {
+          "id": "17841438272497512/insights/reach/day",
+          "name": "reach",
+          "period": "day",
+          "title": "Accounts reached",
+          "description": "The number of unique accounts that have seen your content, at least once, including in ads. Content includes posts, stories, reels, videos and live videos. Reach is different from impressions, which may include multiple views of your content by the same accounts. This metric is estimated and in development.",
+          "total_value": {
+            "value": 19196
+          }
+        },
+        {
+          "id": "17841438272497512/insights/views/day",
+          "name": "views",
+          "period": "day",
+          "title": "Views",
+          "description": "The number of times your content was played or displayed. Content includes reels, posts, stories.",
+          "total_value": {
+            "value": 32561
+          }
+        },
+        {
+          "id": "17841438272497512/insights/profile_views/day",
+          "name": "profile_views",
+          "period": "day",
+          "title": "Profile visits",
+          "description": "The number of times that your profile was visited.",
+          "total_value": {
+            "value": 102
+          }
+        },
+        {
+          "id": "17841438272497512/insights/website_clicks/day",
+          "name": "website_clicks",
+          "period": "day",
+          "title": "Website link taps",
+          "description": "The number of times that the link to your website was tapped.",
+          "total_value": {
+            "value": 2
+          }
+        },
+        {
+          "id": "17841438272497512/insights/total_interactions/day",
+          "name": "total_interactions",
+          "period": "day",
+          "title": "Content interactions",
+          "description": "The total number of post interactions, story interactions, reels interactions, video interactions and live video interactions, including any interactions on boosted content.",
+          "total_value": {
+            "value": 1703
+          }
+        },
+        {
+          "id": "17841438272497512/insights/accounts_engaged/day",
+          "name": "accounts_engaged",
+          "period": "day",
+          "title": "Accounts engaged",
+          "description": "The number of accounts that have interacted with your content, including in ads. Content includes posts, stories, reels, videos and live videos. Interactions can include actions such as likes, saves, comments, shares or replies. These metrics are estimated and in development.",
+          "total_value": {
+            "value": 1028
+          }
+        },
+        {
+          "id": "17841438272497512/insights/saves/day",
+          "name": "saves",
+          "period": "day",
+          "title": "Saves",
+          "description": "The number of saves of your posts, reels and videos.",
+          "total_value": {
+            "value": 380
+          }
+        },
+        {
+          "id": "17841438272497512/insights/shares/day",
+          "name": "shares",
+          "period": "day",
+          "title": "Shares",
+          "description": "The number of shares of your posts, stories, reels, videos and live videos.",
+          "total_value": {
+            "value": 340
+          }
+        }
+      ]
+    }
+  },
+  "previous_week": {
+    "tool": "get_instagram_insights",
+    "args": {
+      "metrics": "reach,views,profile_views,website_clicks,total_interactions,accounts_engaged,saves,shares",
+      "period": "day",
+      "metric_type": "total_value",
+      "since": "2026-10-25T01:30:00Z",
+      "until": "2026-11-01T01:30:00Z"
+    },
+    "requested_at_utc": "2026-11-08T03:48:19.057Z",
+    "received_at_utc": "2026-11-08T03:48:35.963Z",
+    "ok": true,
+    "data": {
+      "data": [
+        {
+          "id": "17841438272497512/insights/reach/day",
+          "name": "reach",
+          "period": "day",
+          "title": "Accounts reached",
+          "description": "The number of unique accounts that have seen your content, at least once, including in ads. Content includes posts, stories, reels, videos and live videos. Reach is different from impressions, which may include multiple views of your content by the same accounts. This metric is estimated and in development.",
+          "total_value": {
+            "value": 24857
+          }
+        },
+        {
+          "id": "17841438272497512/insights/views/day",
+          "name": "views",
+          "period": "day",
+          "title": "Views",
+          "description": "The number of times your content was played or displayed. Content includes reels, posts, stories.",
+          "total_value": {
+            "value": 48141
+          }
+        },
+        {
+          "id": "17841438272497512/insights/profile_views/day",
+          "name": "profile_views",
+          "period": "day",
+          "title": "Profile visits",
+          "description": "The number of times that your profile was visited.",
+          "total_value": {
+            "value": 143
+          }
+        },
+        {
+          "id": "17841438272497512/insights/website_clicks/day",
+          "name": "website_clicks",
+          "period": "day",
+          "title": "Website link taps",
+          "description": "The number of times that the link to your website was tapped.",
+          "total_value": {
+            "value": 9
+          }
+        },
+        {
+          "id": "17841438272497512/insights/total_interactions/day",
+          "name": "total_interactions",
+          "period": "day",
+          "title": "Content interactions",
+          "description": "The total number of post interactions, story interactions, reels interactions, video interactions and live video interactions, including any interactions on boosted content.",
+          "total_value": {
+            "value": 2259
+          }
+        },
+        {
+          "id": "17841438272497512/insights/accounts_engaged/day",
+          "name": "accounts_engaged",
+          "period": "day",
+          "title": "Accounts engaged",
+          "description": "The number of accounts that have interacted with your content, including in ads. Content includes posts, stories, reels, videos and live videos. Interactions can include actions such as likes, saves, comments, shares or replies. These metrics are estimated and in development.",
+          "total_value": {
+            "value": 1448
+          }
+        },
+        {
+          "id": "17841438272497512/insights/saves/day",
+          "name": "saves",
+          "period": "day",
+          "title": "Saves",
+          "description": "The number of saves of your posts, reels and videos.",
+          "total_value": {
+            "value": 623
+          }
+        },
+        {
+          "id": "17841438272497512/insights/shares/day",
+          "name": "shares",
+          "period": "day",
+          "title": "Shares",
+          "description": "The number of shares of your posts, stories, reels, videos and live videos.",
+          "total_value": {
+            "value": 379
+          }
+        }
+      ]
+    }
+  }
+}

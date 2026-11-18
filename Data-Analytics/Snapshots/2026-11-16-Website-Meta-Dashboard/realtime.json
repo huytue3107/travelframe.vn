@@ -1,0 +1,84 @@
+{
+  "website": {
+    "realtime": {
+      "value": {
+        "users30": 1,
+        "views30": 1,
+        "users5": 1
+      },
+      "capturedAt": "2026-11-16T01:52:30.839Z",
+      "checkedAt": "2026-11-16T01:52:30.839Z",
+      "error": false
+    },
+    "today": {
+      "value": {
+        "date": "2026-11-16",
+        "sessions": null,
+        "views": null,
+        "events": {
+          "begin_booking": null,
+          "begin_checkout": null,
+          "generate_lead": null,
+          "purchase": null
+        }
+      },
+      "capturedAt": "2026-11-16T01:51:03.838Z",
+      "checkedAt": "2026-11-16T01:51:03.838Z",
+      "error": false
+    }
+  },
+  "meta": {
+    "instagram": {
+      "value": {
+        "followers": 773
+      },
+      "capturedAt": "2026-11-16T01:51:04.440Z",
+      "checkedAt": "2026-11-16T01:51:04.440Z",
+      "error": false
+    },
+    "facebook": {
+      "value": {
+        "followers": 3499
+      },
+      "capturedAt": "2026-11-16T01:51:04.069Z",
+      "checkedAt": "2026-11-16T01:51:04.069Z",
+      "error": false
+    },
+    "igPost": {
+      "value": {
+        "title": "Getting around Hanoi? 🚕🇻🇳",
+        "publishedAt": "2026-11-15T13:25:19.000Z",
+        "url": "https://www.instagram.com/reel/Dfw4fJqNi1h/",
+        "likes": 1,
+        "comments": 0
+      },
+      "capturedAt": "2026-11-16T01:51:04.633Z",
+      "checkedAt": "2026-11-16T01:51:04.633Z",
+      "error": false
+    },
+    "fbPost": {
+      "value": {
+        "title": "Getting around Hanoi? 🚕🇻🇳",
+        "publishedAt": "2026-11-15T13:25:32.000Z",
+        "url": "https://www.facebook.com/reel/1630605338347689/",
+        "shares": 1
+      },
+      "capturedAt": "2026-11-16T01:51:05.417Z",
+      "checkedAt": "2026-11-16T01:51:05.417Z",
+      "error": false
+    },
+    "insights": {
+      "value": {
+        "start": "2026-11-14T08:00:00.000Z",
+        "end": "2026-11-15T08:00:00.000Z",
+        "reach": 9652,
+        "views": 13412,
+        "interactions": 827,
+        "profileViews": 50
+      },
+      "capturedAt": "2026-11-16T01:51:05.559Z",
+      "checkedAt": "2026-11-16T01:51:05.559Z",
+      "error": false
+    }
+  }
+}

@@ -1,0 +1,469 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>TravelFrame · Website và Meta API · 08/11/2026</title><style>*{box-sizing:border-box}body{margin:0;background:#e9eff2;color:#233b4d;font:15px/1.58 system-ui,Arial,sans-serif}
+main{max-width:1240px;margin:auto;background:#fff;padding:0 48px 40px}header{background:#142c41;color:white;margin:0 -48px;padding:40px 48px 34px}
+.kicker{font-size:12px;letter-spacing:.16em;color:#bad7e2;font-weight:700}h1{font-size:clamp(28px,4vw,43px);line-height:1.12;letter-spacing:-.025em;margin:16px 0 9px}
+header p{margin:0;color:#dcecf1;font-size:16px}h2{font-size:25px;line-height:1.2;margin:40px 0 13px;padding-top:14px;border-top:2px solid #c9dce5;color:#142c41}
+h3{font-size:19px;margin:30px 0 9px;color:#194a62}p,li{max-width:1100px}li{margin-bottom:6px}a{color:#155c76;overflow-wrap:anywhere}
+code{font-size:.92em;background:#eef3f5;padding:1px 4px;border-radius:3px;overflow-wrap:anywhere}.table-wrap{overflow-x:auto;margin:12px 0 18px}
+table{width:100%;border-collapse:collapse;font-size:13px;line-height:1.45;min-width:640px}th,td{padding:10px 11px;border-bottom:1px solid #e1e7eb;vertical-align:top}
+th{background:#23495f;color:white;font-weight:650;text-align:left}tr:nth-child(even){background:#f4f7f9}td[align=right]{font-variant-numeric:tabular-nums}
+#charts{display:grid;grid-template-columns:1fr 1fr;gap:14px;background:#eef3f5;padding:14px;margin:19px 0 25px;border-radius:9px}
+.chart{margin:0;background:#fff;border:1px solid #d9e4eb;border-radius:7px}.chart svg{display:block;width:100%;height:auto;font-family:system-ui,Arial,sans-serif;font-variant-numeric:tabular-nums}
+footer{margin-top:32px;padding-top:14px;border-top:1px solid #dae5eb;color:#506573;font-size:12px}
+@media(max-width:780px){main{padding:0 18px 24px}header{margin:0 -18px;padding:29px 18px}#charts{grid-template-columns:1fr;padding:8px}h2{font-size:22px}}
+@media print{body{background:#fff}main{max-width:none;padding:0}header{margin:0;padding:15px;color:#142c41;background:#f0f4f6}header p,.kicker{color:#415b6b}table{min-width:0;font-size:10px}tr,.chart{break-inside:avoid}}</style></head><body><main><header><div class="kicker">TRAVELFRAME / BẢN ĐỐI CHIẾU API / 08.11.2026</div><h1>Hiệu quả website và Meta</h1><p>Instagram giảm độ phủ theo tuần. Website có thêm phiên sau khi loại lưu lượng kiểm thử nhận diện được.</p></header><p><strong>Chủ quản: Data-Analytics · Trạng thái: Review · Múi giờ: ICT (UTC+7).</strong> Đây là bản đối chiếu trực tiếp bằng API; <a href="2026-11-08-TravelFrame-Daily-Performance-Report.md">báo cáo sáng</a> được giữ nguyên.</p>
+<p><strong>Mốc báo cáo: 08:30 ICT ngày 08/11.</strong> Lấy số trực tiếp khoảng 10:45–10:52 ICT. GA4 truy hồi theo phút cho các cửa sổ chốt 08:30. Instagram dùng ngày đo do Meta trả về, có giờ kết thúc riêng. Số follower và số từng bài là giá trị tại lúc đọc API. Không lấy số giữa các mốc để tính tỷ lệ chuyển đổi.</p>
+<h2>1. Tóm tắt</h2>
+<ul>
+<li><strong>[Đỏ] Instagram giảm phân phối theo tuần.</strong> Reach <strong>24.857 → 19.196</strong> (−22,8%), views <strong>48.141 → 32.561</strong> (−32,4%) và lượt bấm website <strong>9 → 2</strong>. Ngày Meta gần nhất có <strong>4.469 reach</strong>: thấp hơn ngày ngay trước 29,2%, nhưng cao hơn mốc 7 ngày trước 84,1%. Hai nhận định dùng hai mốc so sánh khác nhau.</li>
+<li><strong>[Vàng] Website có thêm phiên sau khi loại lưu lượng kiểm thử nhận diện được.</strong> Tổng GA4 giảm <strong>110 → 93 phiên</strong>. Phần còn lại sau khi giới hạn hostname website và loại nguồn kiểm thử tăng <strong>60 → 67 phiên</strong> (+11,7%), trong khi active users giảm <strong>33 → 27</strong>. Phần tăng chủ yếu nằm ở nguồn Direct; chưa thể kết luận có thêm khách.</li>
+<li><strong>[Đỏ] Chưa có booking hoặc cọc được xác minh.</strong> Sự kiện <code>form_submit</code> duy nhất trong tuần nằm ở trang chỉnh sửa <code>/node/57/edit</code>. CRM có <strong>6 liên hệ chụp kỷ yếu từ Threads</strong> ngày 07/11, đã ghi báo giá; chưa có chứng từ cọc hoặc mã booking xác minh cho nhóm này. Ưu tiên rà các lịch gần và kiểm tra luồng đặt tour.</li>
+</ul>
+<h2>2. Phễu doanh số</h2>
+<p>Mốc đối chiếu <strong>08/11 · 07/11 · 01/11</strong>. Hàng GA4 dùng 24 giờ chốt 08:30; ba hàng Instagram dùng các ngày đo đã kết thúc của Meta (chi tiết bên dưới); hàng CRM dùng ngày ghi trong tracker. Đây là các điểm đo riêng, chưa nối được hành trình của cùng người dùng.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Tầng</th>
+<th align="right">Mốc 08/11</th>
+<th align="right">Mốc 07/11</th>
+<th align="right">Mốc 01/11</th>
+<th align="right">So hôm qua</th>
+<th align="right">So 7 ngày trước</th>
+<th>Trạng thái</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. Reach Instagram</td>
+<td align="right">4.469</td>
+<td align="right">6.314</td>
+<td align="right">2.427</td>
+<td align="right">−29,2%</td>
+<td align="right">+84,1%</td>
+<td>[Xanh] so 7 ngày</td>
+</tr>
+<tr>
+<td>2. Lượt xem trang cá nhân IG</td>
+<td align="right">26</td>
+<td align="right">13</td>
+<td align="right">15</td>
+<td align="right">+100,0%</td>
+<td align="right">+73,3%</td>
+<td>[Xanh]</td>
+</tr>
+<tr>
+<td>3. Lượt bấm liên kết website trên IG</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="right">3</td>
+<td align="right">+2 lượt</td>
+<td align="right">−1 lượt</td>
+<td>[Đỏ]; mẫu nhỏ</td>
+</tr>
+<tr>
+<td>4. DM Instagram / Messenger hỏi tour</td>
+<td align="right">Chưa đo</td>
+<td align="right">Chưa đo</td>
+<td align="right">Chưa đo</td>
+<td align="right">—</td>
+<td align="right">—</td>
+<td>Messenger thiếu quyền; chưa có thống kê IG DM</td>
+</tr>
+<tr>
+<td>5. Phiên website GA4 (toàn property)</td>
+<td align="right">6</td>
+<td align="right">4</td>
+<td align="right">29</td>
+<td align="right">+2 phiên</td>
+<td align="right">−23 phiên</td>
+<td>[Đỏ] theo số thô; mẫu nhỏ, lẫn nội bộ</td>
+</tr>
+<tr>
+<td>6. Lượt xem đúng đường dẫn <code>/booking</code></td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td>[Vàng]; không có mẫu để tính %</td>
+</tr>
+<tr>
+<td>7. Lead có ngày dự kiến và khoảng số người, theo CRM</td>
+<td align="right">6 Threads</td>
+<td align="right">0 dòng đủ trường</td>
+<td align="right">0 dòng đủ trường</td>
+<td align="right">+6 dòng</td>
+<td align="right">+6 dòng</td>
+<td>Chưa đo tổng lead theo cửa sổ 08:30</td>
+</tr>
+<tr>
+<td>8. Báo giá / cọc / booking / doanh thu</td>
+<td align="right">6 dòng báo giá; 0 cọc, 0 booking có chứng từ</td>
+<td align="right">0 dòng báo giá</td>
+<td align="right">4 dòng báo giá; 0 cọc, 0 booking có chứng từ</td>
+<td align="right">+6 báo giá ghi sổ</td>
+<td align="right">+2 báo giá ghi sổ</td>
+<td>[Đỏ]; thực thu chưa đối soát</td>
+</tr>
+</tbody></table></div>
+<ul>
+<li><strong>IG:</strong> ngày đo mới kết thúc <strong>07/11 15:00</strong>, ngày trước <strong>06/11 15:00</strong>, mốc 7 ngày trước <strong>31/10 14:00</strong> ICT. Reach tổng ngày khớp chuỗi API có <code>end_time</code>; các chỉ số khác cùng tham số truy vấn. Không gọi đây là 24 giờ lăn chốt lúc 08:30.</li>
+<li><strong>GA4:</strong> truy vấn theo phút, từ 08:30 ngày trước đến ngay trước 08:30 ngày ghi trong cột. Mốc mới có <strong>2 views <code>/booking/details</code> từ 1 active user</strong>, tách riêng khỏi <code>/booking</code>. GA4 có thể cập nhật dữ liệu đến trễ. Không dùng số phiên để suy ra số người xem đã đặt tour.</li>
+<li><strong>CRM:</strong> các cột 08/11, 07/11, 01/11 lần lượt dùng ngày ghi 07/11, 06/11, 31/10. Nhóm 6 liên hệ mới có ngày và <strong>khoảng</strong> số người trong tracker, chưa chốt số người, lịch phục vụ hay cọc. Tổng file có <strong>24 dòng</strong>: 23 dòng từ 01/10, cộng 1 dòng tháng 9; <strong>14 Quoted, 9 Guide-Sent, 1 Qualified-unconfirmed</strong>. Không cộng người nhận guide thành lead đủ điều kiện và không tính báo giá là doanh thu.</li>
+</ul>
+<h2>3. Chỉ số kênh</h2>
+<div id="charts"><figure class="chart"><svg viewBox="0 0 570 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="01 / Instagram: giảm trên cả 5 chỉ số"><text x="24" y="33" fill="#142c41" font-size="20" font-weight="700" text-anchor="start">01 / Instagram: giảm trên cả 5 chỉ số</text><text x="24" y="57" fill="#506573" font-size="12" font-weight="400" text-anchor="start">Hai kỳ truy vấn 7 ngày · giá trị kỳ trước = 100</text><line x1="352" x2="352" y1="78" y2="273" stroke="#506573" stroke-dasharray="4 4"/><text x="352" y="86" fill="#506573" font-size="11" font-weight="400" text-anchor="middle">100</text><text x="24" y="118" fill="#142c41" font-size="14" font-weight="400" text-anchor="start">Reach</text><rect x="133" y="103" width="169.12435128937523" height="20" fill="#1b5a76" rx="3"/><text x="365" y="118" fill="#142c41" font-size="12" font-weight="700" text-anchor="start">−22,8%</text><text x="547" y="118" fill="#506573" font-size="12" font-weight="400" text-anchor="end">24.857 → 19.196</text><text x="24" y="151" fill="#142c41" font-size="14" font-weight="400" text-anchor="start">Views</text><rect x="133" y="136" width="148.1244469371222" height="20" fill="#1b5a76" rx="3"/><text x="365" y="151" fill="#142c41" font-size="12" font-weight="700" text-anchor="start">−32,4%</text><text x="547" y="151" fill="#506573" font-size="12" font-weight="400" text-anchor="end">48.141 → 32.561</text><text x="24" y="184" fill="#142c41" font-size="14" font-weight="400" text-anchor="start">Saves</text><rect x="133" y="169" width="133.57945425361157" height="20" fill="#1b5a76" rx="3"/><text x="365" y="184" fill="#142c41" font-size="12" font-weight="700" text-anchor="start">−39%</text><text x="547" y="184" fill="#506573" font-size="12" font-weight="400" text-anchor="end">623 → 380</text><text x="24" y="217" fill="#142c41" font-size="14" font-weight="400" text-anchor="start">Shares</text><rect x="133" y="202" width="196.46437994722956" height="20" fill="#1b5a76" rx="3"/><text x="365" y="217" fill="#142c41" font-size="12" font-weight="700" text-anchor="start">−10,3%</text><text x="547" y="217" fill="#506573" font-size="12" font-weight="400" text-anchor="end">379 → 340</text><text x="24" y="250" fill="#142c41" font-size="14" font-weight="400" text-anchor="start">Bấm website</text><rect x="133" y="235" width="48.666666666666664" height="20" fill="#1b5a76" rx="3"/><text x="365" y="250" fill="#142c41" font-size="12" font-weight="700" text-anchor="start">−77,8%</text><text x="547" y="250" fill="#506573" font-size="12" font-weight="400" text-anchor="end">9 → 2</text><line x1="24" x2="546" y1="292" y2="292" stroke="#dde5e9" /><text x="24" y="315" fill="#506573" font-size="11" font-weight="400" text-anchor="start">Đường dọc: mốc kỳ trước. Cột phải: số tuyệt đối trước → mới.</text></svg></figure><figure class="chart"><svg viewBox="0 0 570 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="02 / Reach theo ngày đo của Meta"><text x="24" y="33" fill="#142c41" font-size="20" font-weight="700" text-anchor="start">02 / Reach theo ngày đo của Meta</text><text x="24" y="57" fill="#506573" font-size="12" font-weight="400" text-anchor="start">25/10–07/11 · trục ngang là ngày kết thúc bucket</text><line x1="55" x2="540" y1="250" y2="250" stroke="#dde5e9" /><text x="47" y="254" fill="#506573" font-size="10" font-weight="400" text-anchor="end">0</text><line x1="55" x2="540" y1="203.8" y2="203.8" stroke="#dde5e9" /><text x="47" y="207.8" fill="#506573" font-size="10" font-weight="400" text-anchor="end">3.000</text><line x1="55" x2="540" y1="157.6" y2="157.6" stroke="#dde5e9" /><text x="47" y="161.6" fill="#506573" font-size="10" font-weight="400" text-anchor="end">6.000</text><line x1="55" x2="540" y1="111.4" y2="111.4" stroke="#dde5e9" /><text x="47" y="115.4" fill="#506573" font-size="10" font-weight="400" text-anchor="end">9.000</text><line x1="297.5" x2="297.5" y1="92" y2="250" stroke="#506573" stroke-dasharray="4 4"/><polyline points="55,110.09100000000001 92.3076923076923,168.6572 129.6153846153846,214.4722 166.9230769230769,193.174 204.23076923076923,205.0782 241.53846153846155,187.9072 278.8461538461538,212.6242 316.15384615384613,224.7902 353.46153846153845,224.0048 390.7692307692308,220.9402 428.0769230769231,217.8448 465.38461538461536,211.2228 502.6923076923077,152.7644 540,181.1774" fill="none" stroke="#1b5a76" stroke-width="3"/><circle cx="55" cy="110.09100000000001" r="4" fill="#1b5a76"><title>25/10 · 9.085 reach</title></circle><text x="55" y="271" fill="#506573" font-size="10" font-weight="400" text-anchor="middle">25/10</text><text x="55" y="100.09100000000001" fill="#142c41" font-size="11" font-weight="700" text-anchor="middle">9.085</text><circle cx="92.3076923076923" cy="168.6572" r="4" fill="#1b5a76"><title>26/10 · 5.282 reach</title></circle><circle cx="129.6153846153846" cy="214.4722" r="4" fill="#1b5a76"><title>27/10 · 2.307 reach</title></circle><text x="129.6153846153846" y="271" fill="#506573" font-size="10" font-weight="400" text-anchor="middle">27/10</text><circle cx="166.9230769230769" cy="193.174" r="4" fill="#1b5a76"><title>28/10 · 3.690 reach</title></circle><circle cx="204.23076923076923" cy="205.0782" r="4" fill="#1b5a76"><title>29/10 · 2.917 reach</title></circle><text x="204.23076923076923" y="271" fill="#506573" font-size="10" font-weight="400" text-anchor="middle">29/10</text><circle cx="241.53846153846155" cy="187.9072" r="4" fill="#1b5a76"><title>30/10 · 4.032 reach</title></circle><circle cx="278.8461538461538" cy="212.6242" r="4" fill="#1b5a76"><title>31/10 · 2.427 reach</title></circle><text x="278.8461538461538" y="271" fill="#506573" font-size="10" font-weight="400" text-anchor="middle">31/10</text><circle cx="316.15384615384613" cy="224.7902" r="4" fill="#1b5a76"><title>01/11 · 1.637 reach</title></circle><text x="316.15384615384613" y="214.7902" fill="#142c41" font-size="11" font-weight="700" text-anchor="middle">1.637</text><circle cx="353.46153846153845" cy="224.0048" r="4" fill="#1b5a76"><title>02/11 · 1.688 reach</title></circle><text x="353.46153846153845" y="271" fill="#506573" font-size="10" font-weight="400" text-anchor="middle">02/11</text><circle cx="390.7692307692308" cy="220.9402" r="4" fill="#1b5a76"><title>03/11 · 1.887 reach</title></circle><circle cx="428.0769230769231" cy="217.8448" r="4" fill="#1b5a76"><title>04/11 · 2.088 reach</title></circle><text x="428.0769230769231" y="271" fill="#506573" font-size="10" font-weight="400" text-anchor="middle">04/11</text><circle cx="465.38461538461536" cy="211.2228" r="4" fill="#1b5a76"><title>05/11 · 2.518 reach</title></circle><circle cx="502.6923076923077" cy="152.7644" r="4" fill="#1b5a76"><title>06/11 · 6.314 reach</title></circle><text x="502.6923076923077" y="271" fill="#506573" font-size="10" font-weight="400" text-anchor="middle">06/11</text><text x="502.6923076923077" y="142.7644" fill="#142c41" font-size="11" font-weight="700" text-anchor="middle">6.314</text><circle cx="540" cy="181.1774" r="4" fill="#1b5a76"><title>07/11 · 4.469 reach</title></circle><text x="540" y="271" fill="#506573" font-size="10" font-weight="400" text-anchor="middle">07/11</text><text x="540" y="171.1774" fill="#142c41" font-size="11" font-weight="700" text-anchor="middle">4.469</text><line x1="24" x2="546" y1="292" y2="292" stroke="#dde5e9" /><text x="24" y="315" fill="#506573" font-size="11" font-weight="400" text-anchor="start">Ngày Meta chốt 14:00 ICT đến 01/11; từ 02/11 chốt 15:00 ICT.</text></svg></figure><figure class="chart"><svg viewBox="0 0 570 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="03 / Website: tổng phiên giảm, sau lọc tăng"><text x="24" y="33" fill="#142c41" font-size="20" font-weight="700" text-anchor="start">03 / Website: tổng phiên giảm, sau lọc tăng</text><text x="24" y="57" fill="#506573" font-size="12" font-weight="400" text-anchor="start">GA4 · cùng hai tuần lịch ICT · số phiên</text><text x="30" y="97" fill="#142c41" font-size="14" font-weight="700" text-anchor="start">25–31/10</text><rect x="30" y="107" width="248.72727272727272" height="31" fill="#1b5a76" rx="0"/><rect x="278.72727272727275" y="107" width="207.27272727272728" height="31" fill="#be673c" rx="0"/><text x="154.36363636363637" y="128" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">60</text><text x="382.3636363636364" y="128" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">50</text><text x="496" y="128" fill="#142c41" font-size="14" font-weight="700" text-anchor="start">110</text><text x="30" y="180" fill="#142c41" font-size="14" font-weight="700" text-anchor="start">01–07/11</text><rect x="30" y="190" width="277.74545454545455" height="31" fill="#1b5a76" rx="0"/><rect x="307.74545454545455" y="190" width="107.78181818181818" height="31" fill="#be673c" rx="0"/><text x="168.87272727272727" y="211" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">67</text><text x="361.6363636363636" y="211" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">26</text><text x="425.52727272727276" y="211" fill="#142c41" font-size="14" font-weight="700" text-anchor="start">93</text><rect x="30" y="253" width="12" height="12" fill="#1b5a76" rx="2"/><text x="49" y="264" fill="#142c41" font-size="12" font-weight="400" text-anchor="start">Phần còn lại sau lọc</text><rect x="247" y="253" width="12" height="12" fill="#be673c" rx="2"/><text x="266" y="264" fill="#142c41" font-size="12" font-weight="400" text-anchor="start">Lưu lượng kỹ thuật đã tách</text><line x1="24" x2="546" y1="292" y2="292" stroke="#dde5e9" /><text x="24" y="315" fill="#506573" font-size="11" font-weight="400" text-anchor="start">Tách hostname và nguồn test đã nhận diện. Phần còn lại vẫn có thể lẫn nội bộ.</text></svg></figure><figure class="chart"><svg viewBox="0 0 570 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="04 / Trang booking: các điểm đo đi khác hướng"><text x="24" y="33" fill="#142c41" font-size="20" font-weight="700" text-anchor="start">04 / Trang booking: các điểm đo đi khác hướng</text><text x="24" y="57" fill="#506573" font-size="12" font-weight="400" text-anchor="start">GA4 · lượt xem trên hostname website</text><text x="24" y="116" fill="#142c41" font-size="12" font-weight="400" text-anchor="start">/booking</text><rect x="173" y="101" width="69.56521739130434" height="15" fill="#b6c6d2" rx="2"/><rect x="173" y="120" width="13.91304347826087" height="15" fill="#1b5a76" rx="2"/><text x="250.56521739130434" y="113" fill="#142c41" font-size="12" font-weight="400" text-anchor="start">5</text><text x="194.91304347826087" y="132" fill="#142c41" font-size="12" font-weight="700" text-anchor="start">1</text><text x="24" y="170" fill="#142c41" font-size="12" font-weight="400" text-anchor="start">/booking/details</text><rect x="173" y="155" width="83.47826086956522" height="15" fill="#b6c6d2" rx="2"/><rect x="173" y="174" width="320" height="15" fill="#1b5a76" rx="2"/><text x="264.47826086956525" y="167" fill="#142c41" font-size="12" font-weight="400" text-anchor="start">6</text><text x="501" y="186" fill="#142c41" font-size="12" font-weight="700" text-anchor="start">23</text><text x="24" y="224" fill="#142c41" font-size="12" font-weight="400" text-anchor="start">/booking/payment</text><rect x="173" y="209" width="27.82608695652174" height="15" fill="#b6c6d2" rx="2"/><rect x="173" y="228" width="55.65217391304348" height="15" fill="#1b5a76" rx="2"/><text x="208.82608695652175" y="221" fill="#142c41" font-size="12" font-weight="400" text-anchor="start">2</text><text x="236.65217391304347" y="240" fill="#142c41" font-size="12" font-weight="700" text-anchor="start">4</text><rect x="24" y="263" width="11" height="11" fill="#b6c6d2" rx="2"/><text x="42" y="273" fill="#506573" font-size="12" font-weight="400" text-anchor="start">25–31/10</text><rect x="166" y="263" width="11" height="11" fill="#1b5a76" rx="2"/><text x="184" y="273" fill="#506573" font-size="12" font-weight="400" text-anchor="start">01–07/11</text><line x1="24" x2="546" y1="292" y2="292" stroke="#dde5e9" /><text x="24" y="315" fill="#506573" font-size="11" font-weight="400" text-anchor="start">Từng đường dẫn được đếm riêng; các hàng không tạo thành phễu người dùng.</text></svg></figure></div>
+
+<h3>A. Instagram — tổng lượt xem và lượt lưu giảm nhiều hơn reach</h3>
+<p><strong>Cặp truy vấn 7 ngày, cùng tham số:</strong> 25/10 08:30 → 01/11 08:30 và 01/11 08:30 → 08/11 08:30 ICT, <code>period=day</code>, <code>metric_type=total_value</code>. Đây là <strong>biên gửi yêu cầu</strong>; API tổng không trả biên giờ thực tế. Chuỗi reach ngày chốt 14:00 ICT đến 01/11 và 15:00 ICT từ 02/11. Không đồng nhất với ngày lịch GA4; không cộng các reach ngày để suy ra reach tuần.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Chỉ số Meta API</th>
+<th align="right">Kỳ trước</th>
+<th align="right">Kỳ mới</th>
+<th align="right">Thay đổi</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Accounts reached</td>
+<td align="right">24.857</td>
+<td align="right">19.196</td>
+<td align="right">−5.661 (−22,8%)</td>
+</tr>
+<tr>
+<td>Views</td>
+<td align="right">48.141</td>
+<td align="right">32.561</td>
+<td align="right">−15.580 (−32,4%)</td>
+</tr>
+<tr>
+<td>Profile visits</td>
+<td align="right">143</td>
+<td align="right">102</td>
+<td align="right">−41 (−28,7%)</td>
+</tr>
+<tr>
+<td>Website link taps</td>
+<td align="right">9</td>
+<td align="right">2</td>
+<td align="right">−7 (−77,8%)</td>
+</tr>
+<tr>
+<td>Accounts engaged</td>
+<td align="right">1.448</td>
+<td align="right">1.028</td>
+<td align="right">−420 (−29,0%)</td>
+</tr>
+<tr>
+<td>Content interactions</td>
+<td align="right">2.259</td>
+<td align="right">1.703</td>
+<td align="right">−556 (−24,6%)</td>
+</tr>
+<tr>
+<td>Saves</td>
+<td align="right">623</td>
+<td align="right">380</td>
+<td align="right">−243 (−39,0%)</td>
+</tr>
+<tr>
+<td>Shares</td>
+<td align="right">379</td>
+<td align="right">340</td>
+<td align="right">−39 (−10,3%)</td>
+</tr>
+</tbody></table></div>
+<p><strong>Giải thích biến động.</strong> Reach giảm và tỷ số views/reach cũng giảm từ <strong>1,94 xuống 1,70</strong>. Lượt lưu trên 1.000 reach giảm <strong>25,1 → 19,8</strong>; lượt chia sẻ trên 1.000 reach tăng <strong>15,2 → 17,7</strong> do shares giảm chậm hơn reach. Tuần mới có <strong>2 link taps trên 102 profile visits</strong>, so với <strong>9 trên 143</strong>; chênh lệch tuyệt đối là 7 lượt, chưa đủ kết luận CTA có vấn đề. Các tỷ số trên là tỷ số tổng hợp cấp tài khoản.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Ngày đo Meta (kết thúc)</th>
+<th align="right">Views</th>
+<th align="right">Accounts engaged</th>
+<th align="right">Saves</th>
+<th align="right">Shares</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>31/10 14:00 ICT</td>
+<td align="right">3.863</td>
+<td align="right">120</td>
+<td align="right">39</td>
+<td align="right">24</td>
+</tr>
+<tr>
+<td>06/11 15:00 ICT</td>
+<td align="right">8.970</td>
+<td align="right">192</td>
+<td align="right">55</td>
+<td align="right">58</td>
+</tr>
+<tr>
+<td>07/11 15:00 ICT</td>
+<td align="right">7.816</td>
+<td align="right">317</td>
+<td align="right">89</td>
+<td align="right">114</td>
+</tr>
+</tbody></table></div>
+<p>Ở ngày đo gần nhất, views giảm <strong>12,9%</strong> so ngày ngay trước, còn engaged tăng <strong>65,1%</strong> và shares tăng <strong>96,6%</strong>. Đây là biến động một ngày cấp tài khoản, không quy được cho Reel cụ thể hoặc cho quảng cáo.</p>
+<h3>B. Facebook — 13 bài xuất bản trong tuần, 3.107 follower lúc đọc API</h3>
+<ul>
+<li>Facebook Page API trả <strong>3.107 followers</strong> và <strong>3.107 fan count</strong> lúc <strong>10:45:37 ICT 08/11</strong>. Instagram API trả <strong>608 followers</strong>, <strong>218 media</strong> lúc <strong>10:45:40 ICT</strong>. Không tính mức tăng follower theo ngày từ các lần đọc không cùng giờ.</li>
+<li>Đếm theo timestamp bài công khai trong tuần lịch <strong>01–07/11 vs 25–31/10 ICT</strong>: <strong>13 vs 20 bài Facebook</strong>; <strong>14 vs 19 media Instagram</strong>. Mỗi danh sách API lấy 60 mục và có bài trước cả hai kỳ. Số bài ít hơn đi cùng reach Instagram thấp hơn, nhưng số liệu cấp tài khoản còn gồm bài cũ và không xác định được quan hệ nhân quả.</li>
+<li>Facebook connector hiện trả Page, danh sách bài và <code>shares.count</code> khi có trường. <strong>Chưa đo Facebook Page reach/views</strong>, hoặc hiệu quả từng bài đúng mốc 24h/72h. Không dùng Instagram reach để thay thế cho Facebook.</li>
+</ul>
+<h3>C. Website — phần tăng phiên sau lọc tập trung ở Direct</h3>
+<p><strong>GA4 property 552867189.</strong> Hai tuần lịch đã kết thúc <strong>25–31/10 → 01–07/11</strong>, ICT. Kỳ mới cũng là MTD tháng 11 qua hết 07/11.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Chỉ số</th>
+<th align="right">Tuần trước</th>
+<th align="right">Tuần mới</th>
+<th align="right">Chênh lệch</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Active users toàn property</td>
+<td align="right">38</td>
+<td align="right">33</td>
+<td align="right">−5 (−13,2%)</td>
+</tr>
+<tr>
+<td>Sessions toàn property</td>
+<td align="right">110</td>
+<td align="right">93</td>
+<td align="right">−17 (−15,5%)</td>
+</tr>
+<tr>
+<td>Pageviews toàn property</td>
+<td align="right">668</td>
+<td align="right">472</td>
+<td align="right">−196 (−29,3%)</td>
+</tr>
+<tr>
+<td>Sessions hostname <code>travelframe.sidevn.com</code></td>
+<td align="right">78</td>
+<td align="right">68</td>
+<td align="right">−10</td>
+</tr>
+<tr>
+<td>Sessions sau bỏ hostname/nguồn kiểm thử nhận diện được</td>
+<td align="right">60</td>
+<td align="right">67</td>
+<td align="right">+7 (+11,7%)</td>
+</tr>
+<tr>
+<td>Active users sau bộ lọc trên</td>
+<td align="right">33</td>
+<td align="right">27</td>
+<td align="right">−6 (−18,2%)</td>
+</tr>
+<tr>
+<td>Pageviews sau bộ lọc trên</td>
+<td align="right">236</td>
+<td align="right">226</td>
+<td align="right">−10 (−4,2%)</td>
+</tr>
+<tr>
+<td>Sessions kỹ thuật đã tách</td>
+<td align="right">50</td>
+<td align="right">26</td>
+<td align="right">−24</td>
+</tr>
+<tr>
+<td>Pageviews kỹ thuật đã tách</td>
+<td align="right">432</td>
+<td align="right">246</td>
+<td align="right">−186</td>
+</tr>
+</tbody></table></div>
+<p><strong>Vì sao tổng phiên giảm dù phần còn lại tăng?</strong> Nhóm kỹ thuật giảm <strong>24 phiên</strong>, còn phần sau lọc tăng <strong>7 phiên</strong>, cộng lại thành <strong>−17 phiên toàn property</strong>. Nhóm kỹ thuật gồm hostname <code>127.0.0.1</code> và nguồn localhost trên hostname website; không tính trùng. Phần đã lọc vẫn có hoạt động quản trị và có thể lẫn nội bộ đi qua Direct.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Nguồn phiên trên hostname website</th>
+<th align="right">25–31/10</th>
+<th align="right">01–07/11</th>
+<th align="right">Thay đổi</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Direct</td>
+<td align="right">17</td>
+<td align="right">40</td>
+<td align="right">+23</td>
+</tr>
+<tr>
+<td>Google organic</td>
+<td align="right">25</td>
+<td align="right">11</td>
+<td align="right">−14</td>
+</tr>
+<tr>
+<td>Instagram (social/bio/referral)</td>
+<td align="right">10</td>
+<td align="right">7</td>
+<td align="right">−3</td>
+</tr>
+<tr>
+<td>Facebook (page button/referral)</td>
+<td align="right">7</td>
+<td align="right">6</td>
+<td align="right">−1</td>
+</tr>
+<tr>
+<td>Zalo</td>
+<td align="right">0</td>
+<td align="right">3</td>
+<td align="right">+3</td>
+</tr>
+<tr>
+<td>Threads + Cốc Cốc</td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="right">−2</td>
+</tr>
+<tr>
+<td>Tổng nhóm trên</td>
+<td align="right">61</td>
+<td align="right">67</td>
+<td align="right">+6</td>
+</tr>
+<tr>
+<td>Tổng truy vấn lọc nguồn, không chia nhóm</td>
+<td align="right">60</td>
+<td align="right">67</td>
+<td align="right">+7</td>
+</tr>
+</tbody></table></div>
+<p>Giữ chênh <strong>1 phiên</strong> ở kỳ trước giữa báo cáo phân nguồn và báo cáo tổng. Tăng Direct <strong>+23</strong> bù giảm tìm kiếm và social; chưa biết bao nhiêu Direct là người dùng bên ngoài. MTD có <strong>27 active users, 67 phiên, 226 views</strong> theo bộ lọc nhận diện đã mô tả. Riêng ngày lịch <strong>07/11</strong>: <strong>6 phiên, 5 active users, 17 views</strong>; nguồn gồm Zalo 3, Instagram 1, Facebook 1, Direct 1. Ngày dưới 30 phiên: không diễn giải bounce rate, thời lượng hoặc ý định mua.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Điểm đo trên hostname website</th>
+<th align="right">Tuần trước</th>
+<th align="right">Tuần mới</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>/booking</code> views</td>
+<td align="right">5</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><code>/booking/details</code> views</td>
+<td align="right">6</td>
+<td align="right">23</td>
+</tr>
+<tr>
+<td><code>/booking/payment</code> views</td>
+<td align="right">2</td>
+<td align="right">4</td>
+</tr>
+<tr>
+<td><code>begin_booking</code> events</td>
+<td align="right">11</td>
+<td align="right">15</td>
+</tr>
+<tr>
+<td><code>begin_checkout</code> events</td>
+<td align="right">2</td>
+<td align="right">4</td>
+</tr>
+<tr>
+<td><code>form_submit</code> tại đường dẫn booking</td>
+<td align="right">0 ghi nhận</td>
+<td align="right">0 ghi nhận</td>
+</tr>
+<tr>
+<td><code>purchase</code> events</td>
+<td align="right">0 ghi nhận</td>
+<td align="right">0 ghi nhận</td>
+</tr>
+</tbody></table></div>
+<p><strong>Điểm cần kiểm chứng:</strong> 16/23 views <code>/booking/details</code> kỳ mới mang nguồn Direct. Các trang có thể được truy cập trực tiếp hoặc từ lộ trình khác, nên bảng này không phải phễu rơi rụng. <code>form_submit</code> duy nhất phát sinh giờ <strong>21h ngày 02/11</strong>, Direct, tại <strong><code>/node/57/edit</code></strong>, không có event gửi form ở đường dẫn booking trong truy vấn. Không kết luận form hỏng nếu chưa thử và đối chiếu backend.</p>
+<h2>4. Nội dung đã đăng và seed comment</h2>
+<p>Trong cửa sổ <strong>07/11 08:30 → 08/11 08:30 ICT</strong>, Meta API xác nhận <strong>1 Reel trên Instagram và 1 bài Reel trên Facebook</strong>. Đây là hai bản đăng của cùng nội dung Bít tết, không phải hai nội dung gốc.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Đăng ICT</th>
+<th>Kênh</th>
+<th>Bài / ID nền tảng</th>
+<th>Quan sát tại 10:45 ICT</th>
+<th>Reach, views, saves, shares, link clicks 24h / 72h</th>
+<th>C1 / C2</th>
+<th>Trạng thái</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>07/11 13:40</td>
+<td>IG</td>
+<td><a href="https://www.instagram.com/reel/DfbjmGMtQgH/">Bít tết · 18117105824325548</a></td>
+<td>68 likes, 4 comments</td>
+<td>Chưa tới 24h; chưa có số đúng mốc</td>
+<td>Có biến thể trong tracker, chưa xác minh đăng</td>
+<td>Published</td>
+</tr>
+<tr>
+<td>07/11 13:40</td>
+<td>FB</td>
+<td><a href="https://www.facebook.com/reel/1509818901002655/">Bít tết · 1409099405611405_122126420409479755</a></td>
+<td>5 shares</td>
+<td>Chưa tới 24h; chưa có số đúng mốc</td>
+<td>Có biến thể trong tracker, chưa xác minh đăng</td>
+<td>Published</td>
+</tr>
+</tbody></table></div>
+<p>Likes/comments/shares là số tích lũy tại lúc lấy, khoảng <strong>21 giờ sau đăng</strong>. Không dùng để xếp hạng hiệu quả 24h/72h hoặc suy ra nguồn organic. Tracker có biến thể C1/C2 nhưng các ô thời gian trống; không coi kế hoạch là đã đăng comment. Đối với các bài khác trong tuần, bằng chứng ID và permalink nằm trong <a href="../Snapshots/2026-11-08-API-Performance-Review/meta-initial.json">snapshot Meta</a>.</p>
+<h2>5. Cảnh báo dữ liệu</h2>
+<ul>
+<li><strong>Khung đo:</strong> báo cáo sáng có con số reach 10.465 nhưng chưa có bộ tham số và biên ngày trùng với lần truy vấn này. Không tính chênh lệch 10.465 → 4.469 như biến động hiệu quả. Chỉ so sánh các kỳ truy vấn trực tiếp ghi ở trên.</li>
+<li><strong>Website:</strong> bộ lọc tạm loại hostname khác và nguồn chứa localhost, 127.0.0.1 hoặc Tag Assistant; không sửa cấu hình GA4. Hostname website vẫn có lượt xem trang quản trị. GA4 đếm <code>sessions</code> và <code>session_start</code> khác nhau; bảng dùng <code>sessions</code>. Kết quả lọc đúng phút có thể thay đổi do dữ liệu đến trễ.</li>
+<li><strong>CRM:</strong> 23/24 dòng dữ liệu có 17 cột, trong khi header có 18. Dùng các trường đầu ổn định để đếm ngày, kênh, lịch dự kiến và báo giá; không cộng cột cọc, không chuyển thành doanh thu. Không có trạng thái Deposited/Booked/Delivered hoặc bằng chứng booking xác minh trong tracker kiểm tra. Tổng thực thu ngoài tracker <strong>Chưa đo</strong>.</li>
+<li><strong>Quyền Meta:</strong> truy vấn Messenger trả lỗi <code>pages_messaging</code>; tài khoản quảng cáo chưa được khóa trong connector TravelFrame. <strong>Chi tiêu, kết quả ads, CPL, CAC, ROAS: Chưa đo.</strong> Không mặc định bằng 0. Kiểm tra kết nối theo runbook đã đạt; không đăng công khai hoặc gửi tin.</li>
+<li><strong>Bằng chứng:</strong> <a href="../Snapshots/2026-11-08-API-Performance-Review/meta-initial.json">Meta API theo ngày, bài và profile</a>, <a href="../Snapshots/2026-11-08-API-Performance-Review/meta-weekly.json">Meta API 7 ngày</a>, <a href="../Snapshots/2026-11-08-API-Performance-Review/ga4.json">GA4</a>, <a href="../Snapshots/2026-11-08-API-Performance-Review/ga4-detail.json">truy vấn nguồn form và đường dẫn booking</a>, <a href="../Snapshots/2026-11-08-API-Performance-Review/crm-summary.json">tổng hợp CRM</a>. Các tệp ghi tham số và thời điểm lấy; không lưu token.</li>
+</ul>
+<h2>6. Việc cần làm</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Việc cụ thể</th>
+<th>Vị trí phễu</th>
+<th>Chỉ số thành công</th>
+<th>Phê duyệt</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Rà liên hệ kỷ yếu có ngày dự kiến 08/11 trước, sau đó 5 dòng còn lại. Ghi giờ, số người, năng lực phục vụ, bước xác nhận lịch và chứng từ cọc nếu có. <a href="../Lead-Pipeline-Tracker.csv">Lead tracker</a></td>
+<td>Tầng 7–8</td>
+<td>6/6 có bước tiếp theo rõ; số lịch có bằng chứng xác nhận/cọc</td>
+<td>Rà và soạn: <strong>Tự vận hành</strong>; gửi hoặc nhận cọc: <strong>Cần Rocky duyệt</strong></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Kiểm tra lại luồng gửi yêu cầu booking và đối chiếu backend. Tách event gửi yêu cầu thành công khỏi form chỉnh sửa nội dung. <a href="../../Sales-CRM/Funnel/2026-10-24-Booking-Fix-Ticket.md">Booking fix ticket</a></td>
+<td>Tầng 6–8</td>
+<td>Một luồng thử có mã yêu cầu test, event đúng đường dẫn và kết quả backend khớp</td>
+<td>Đọc và soạn test: <strong>Tự vận hành</strong>; thay đổi live: <strong>Cần Rocky duyệt</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Soát link bio/UTM và chuẩn bị bộ lọc traffic nội bộ. Giữ hai cột tổng/đã loại test cho đến khi có bộ lọc xác nhận. <a href="../Daily-Reporting-Standard.md">Quy chuẩn báo cáo</a></td>
+<td>Tầng 3–6</td>
+<td>Taps và sessions theo nguồn được ghi riêng; số phiên test nhìn thấy được</td>
+<td>Soát: <strong>Tự vận hành</strong>; sửa link, GA4 hoặc automation: <strong>Cần Rocky duyệt</strong></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Ghi Reach, Views, Saves, Shares, Link clicks ở đúng tuổi bài của Reel Bít tết nếu nguồn có số. Kiểm tra C1/C2 bằng bằng chứng comment trước khi cập nhật. <a href="../../Marketing-Growth/Guidelines/2026-10-07-Seed-Comment-Playbook.md">Seed Comment Playbook</a></td>
+<td>Tầng 1–4</td>
+<td>Hai bài có số 24h/72h hoặc ghi rõ chỉ số API không trả; C1/C2 có bằng chứng</td>
+<td>Đọc và ghi nhận: <strong>Tự vận hành</strong>; đăng seed: <strong>Cần Rocky duyệt</strong></td>
+</tr>
+</tbody></table></div>
+<footer>Data-Analytics · Meta Graph API, GA4 Data API và tracker nội bộ · Các kỳ và giới hạn đo ghi ở từng bảng.</footer></main></body></html>

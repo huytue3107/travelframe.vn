@@ -1,0 +1,32 @@
+{
+  "desktop": {
+    "sections": [
+      "1. Tóm tắt",
+      "2. Phễu doanh số",
+      "3. Chỉ số kênh",
+      "4. Nội dung đã đăng và seed comment",
+      "5. Cảnh báo dữ liệu",
+      "6. Việc cần làm"
+    ],
+    "tables": 8,
+    "funnelRows": 8,
+    "chartCount": 4,
+    "pageOverflow": false,
+    "outOfBoundsChartText": []
+  },
+  "mobile": {
+    "sections": [
+      "1. Tóm tắt",
+      "2. Phễu doanh số",
+      "3. Chỉ số kênh",
+      "4. Nội dung đã đăng và seed comment",
+      "5. Cảnh báo dữ liệu",
+      "6. Việc cần làm"
+    ],
+    "tables": 8,
+    "funnelRows": 8,
+    "chartCount": 4,
+    "pageOverflow": false,
+    "outOfBoundsChartText": []
+  }
+}

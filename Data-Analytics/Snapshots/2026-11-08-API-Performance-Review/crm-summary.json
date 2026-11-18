@@ -1,0 +1,94 @@
+{
+  "source": "Local CRM tracker; not a Meta inbox export",
+  "captured_at_utc": "2026-11-08T03:56:22.514531+00:00",
+  "lead_tracker": "Data-Analytics/Lead-Pipeline-Tracker.csv",
+  "lead_sha256": "3fed2b60e4813e79bc981459ea7156f885b09562f9b755b194390141bc9bab64",
+  "seed_tracker": "Data-Analytics/Seed-Comment-Tracker.csv",
+  "seed_sha256": "2907b85a9e8552b1a1e9234cf7798412ec4e0312438aeee867a976bb929d58fc",
+  "header_width": 18,
+  "row_width_counts": {
+    "18": 1,
+    "17": 23
+  },
+  "records": 24,
+  "unique_id_count": 24,
+  "stages": {
+    "Qualified-unconfirmed": 1,
+    "Quoted": 14,
+    "Guide-Sent": 9
+  },
+  "daily_records": {
+    "2026-09-27": 1,
+    "2026-10-26": 4,
+    "2026-10-28": 4,
+    "2026-10-29": 1,
+    "2026-10-30": 4,
+    "2026-10-31": 4,
+    "2026-11-07": 6
+  },
+  "dated_quote_records": {
+    "2026-10-26": 1,
+    "2026-10-30": 3,
+    "2026-10-31": 4,
+    "2026-11-07": 6
+  },
+  "records_with_dated_travel_and_group_or_range": 6,
+  "qualified_field_definition": "Nonempty source reference, a specific YYYY-MM-DD travel date and an integer or positive range in group_size. No booking, capacity or payment confirmation implied.",
+  "current_week": {
+    "dates": [
+      "2026-11-01",
+      "2026-11-07"
+    ],
+    "records": 6,
+    "channels": {
+      "Threads Post Reply": 6
+    },
+    "stages": {
+      "Quoted": 6
+    },
+    "records_with_dated_travel_and_group_or_range": 6
+  },
+  "previous_week": {
+    "dates": [
+      "2026-10-25",
+      "2026-10-31"
+    ],
+    "records": 17,
+    "channels": {
+      "FB Messenger Private Reply": 5,
+      "FB Comment": 1,
+      "FB Messenger": 1,
+      "FB Comment & Messenger": 1,
+      "FB Reel Comment & Messenger": 8,
+      "IG Reel Comment & DM": 1
+    },
+    "stages": {
+      "Quoted": 8,
+      "Guide-Sent": 9
+    },
+    "records_with_dated_travel_and_group_or_range": 0
+  },
+  "records_with_paid_or_booked_stage": 0,
+  "payment_proof_on_aligned_rows": 0,
+  "payment_limit": "Misaligned rows not treated as deposit values or verified proof; actual receipts outside tracker were not read.",
+  "seed_latest_matched_rows": [
+    {
+      "platform": "IG",
+      "post_url": "https://www.instagram.com/reel/DfbjmGMtQgH/",
+      "c1_variant": "C-C1-2",
+      "c2_variant": "C-C2-2",
+      "c1_minutes": "",
+      "c2_minutes": "",
+      "status": "unverified"
+    },
+    {
+      "platform": "FB",
+      "post_url": "https://www.facebook.com/reel/1509818901002655/",
+      "c1_variant": "C-C1-2",
+      "c2_variant": "C-C2-2",
+      "c1_minutes": "",
+      "c2_minutes": "",
+      "status": "unverified"
+    }
+  ]
+}

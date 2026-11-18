@@ -1,0 +1,4083 @@
+{
+  "source": "GA4 Data API",
+  "property": "properties/552867189",
+  "capture_started_at_utc": "2026-11-08T03:48:25.652Z",
+  "reports": {
+    "week_overview": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-01",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:25.655Z",
+      "received_at_utc": "2026-11-08T03:48:26.186Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "rows": [
+        {
+          "activeUsers": 33,
+          "sessions": 93,
+          "screenPageViews": 472,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "week_events": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-01",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "eventName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          },
+          {
+            "name": "totalUsers"
+          },
+          {
+            "name": "totalRevenue"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:25.656Z",
+      "received_at_utc": "2026-11-08T03:48:26.288Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "schemaRestrictionResponse": {
+          "activeMetricRestrictions": []
+        },
+        "_schemaRestrictionResponse": "schemaRestrictionResponse",
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 27,
+      "rows": [
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "page_view",
+          "eventCount": 244,
+          "totalUsers": 5,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "page_view",
+          "eventCount": 228,
+          "totalUsers": 31,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "view_tour",
+          "eventCount": 136,
+          "totalUsers": 3,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "user_engagement",
+          "eventCount": 123,
+          "totalUsers": 3,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "scroll",
+          "eventCount": 103,
+          "totalUsers": 3,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "user_engagement",
+          "eventCount": 103,
+          "totalUsers": 18,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "scroll",
+          "eventCount": 100,
+          "totalUsers": 19,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "view_tour",
+          "eventCount": 77,
+          "totalUsers": 11,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "session_start",
+          "eventCount": 72,
+          "totalUsers": 31,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "booking_step_view",
+          "eventCount": 26,
+          "totalUsers": 8,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "session_start",
+          "eventCount": 25,
+          "totalUsers": 5,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "booking_step_view",
+          "eventCount": 19,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "first_visit",
+          "eventCount": 19,
+          "totalUsers": 19,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "begin_booking",
+          "eventCount": 15,
+          "totalUsers": 7,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "begin_booking",
+          "eventCount": 13,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "form_start",
+          "eventCount": 6,
+          "totalUsers": 3,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "form_start",
+          "eventCount": 5,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "add_to_cart",
+          "eventCount": 4,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "begin_checkout",
+          "eventCount": 4,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "first_visit",
+          "eventCount": 4,
+          "totalUsers": 4,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "add_to_cart",
+          "eventCount": 4,
+          "totalUsers": 4,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "begin_checkout",
+          "eventCount": 4,
+          "totalUsers": 4,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "click",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "contact_click",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "click",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "contact_click",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "form_submit",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        }
+      ]
+    },
+    "week_site_non_dev": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-01",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "hostName",
+                  "stringFilter": {
+                    "matchType": "EXACT",
+                    "value": "travelframe.sidevn.com",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "notExpression": {
+                  "filter": {
+                    "fieldName": "sessionSourceMedium",
+                    "stringFilter": {
+                      "matchType": "PARTIAL_REGEXP",
+                      "value": "localhost|127[.]0[.]0[.]1|tagassistant",
+                      "caseSensitive": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:26.186Z",
+      "received_at_utc": "2026-11-08T03:48:26.787Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "notes": "Removes only detected test source strings, not all internal traffic",
+      "rows": [
+        {
+          "activeUsers": 27,
+          "sessions": 67,
+          "screenPageViews": 226,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "week_pages": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-01",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:25.656Z",
+      "received_at_utc": "2026-11-08T03:48:26.862Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 54,
+      "rows": [
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tours",
+          "screenPageViews": 65,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/",
+          "screenPageViews": 34,
+          "activeUsers": 17
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/spiritual-west-lake-breeze",
+          "screenPageViews": 32,
+          "activeUsers": 6
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tours",
+          "screenPageViews": 31,
+          "activeUsers": 11
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/egg-coffee-tour",
+          "screenPageViews": 23,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking/details",
+          "screenPageViews": 23,
+          "activeUsers": 9
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/food-tour",
+          "screenPageViews": 22,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/cinematic-hanoi-visual-storytelling-walk",
+          "screenPageViews": 20,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/french-colonial-historical-footsteps",
+          "screenPageViews": 20,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/booking/details",
+          "screenPageViews": 15,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/",
+          "screenPageViews": 13,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/spiritual-tour",
+          "screenPageViews": 13,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/node/57/edit",
+          "screenPageViews": 12,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/hanoi-pho-tour",
+          "screenPageViews": 11,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/about",
+          "screenPageViews": 11,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/node/1/edit",
+          "screenPageViews": 10,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/gallery",
+          "screenPageViews": 9,
+          "activeUsers": 5
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/son-bui-user",
+          "screenPageViews": 7,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/hanoi-early-bird-sunrise-local-markets",
+          "screenPageViews": 7,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/taste-hanoi-culinary-delights-street-vibes",
+          "screenPageViews": 7,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/node/7/edit",
+          "screenPageViews": 6,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/hanoi-early-bird-sunrise-local-markets",
+          "screenPageViews": 6,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/temples-shrines-tour",
+          "screenPageViews": 6,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/colors-delta-craft-villages-expedition",
+          "screenPageViews": 5,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/taste-hanoi-culinary-delights-street-vibes",
+          "screenPageViews": 5,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking/payment",
+          "screenPageViews": 4,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news",
+          "screenPageViews": 4,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/cinematic-hanoi-visual-storytelling-walk",
+          "screenPageViews": 4,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/about",
+          "screenPageViews": 3,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/booking/payment",
+          "screenPageViews": 3,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/ebooks/vietnam-with-a-local-sense",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/hanoi-unfiltered-local-life-documentary",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/temple-literature-citadel",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/side-user",
+          "screenPageViews": 3,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/colors-delta-craft-villages-expedition",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/booking",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/node/53/edit",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/admin/config/development/performance",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/15-best-photo-spots-hanoi-local-guide-light-timing-and-uncrowded-angles-2026",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/nguyen-tuan-linh-user",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/node/59/edit",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/hanoi-unfiltered-local-life-documentary",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/checkout",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/ebooks",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/gallery",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/french-colonial-historical-footsteps",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/spiritual-west-lake-breeze",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/admin/config/system/site-information",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/hoang-thuy-linh-user",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/hanoi-old-quarter-photoshoot-harry-thin",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/huong-mai-pho-cuon-preserving-vietnamese-flavors-future",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/santorini-park-lovely-photo-spot-right-outside-hanoi",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tf-diag-affiliate.php",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        }
+      ]
+    },
+    "week_sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-01",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:25.656Z",
+      "received_at_utc": "2026-11-08T03:48:26.910Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 12,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": 40,
+          "screenPageViews": 160
+        },
+        {
+          "hostName": "127.0.0.1",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": 25,
+          "screenPageViews": 244
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "google / organic",
+          "sessions": 11,
+          "screenPageViews": 30
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "instagram / bio",
+          "sessions": 3,
+          "screenPageViews": 6
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "l.facebook.com / referral",
+          "sessions": 3,
+          "screenPageViews": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "zalo / zalo",
+          "sessions": 3,
+          "screenPageViews": 9
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "ig / social",
+          "sessions": 2,
+          "screenPageViews": 14
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "instagram.com / referral",
+          "sessions": 2,
+          "screenPageViews": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "facebook / page_button",
+          "sessions": 1,
+          "screenPageViews": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "facebook.com / referral",
+          "sessions": 1,
+          "screenPageViews": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "localhost:8093 / referral",
+          "sessions": 1,
+          "screenPageViews": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "m.facebook.com / referral",
+          "sessions": 1,
+          "screenPageViews": 1
+        }
+      ]
+    },
+    "previous_week_pages": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-25",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:26.911Z",
+      "received_at_utc": "2026-11-08T03:48:27.261Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 67,
+      "rows": [
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/",
+          "screenPageViews": 63,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/booking/details",
+          "screenPageViews": 63,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/",
+          "screenPageViews": 60,
+          "activeUsers": 22
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tours",
+          "screenPageViews": 52,
+          "activeUsers": 16
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tours",
+          "screenPageViews": 44,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/food-tour",
+          "screenPageViews": 42,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/hanoi-pho-tour",
+          "screenPageViews": 31,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/spiritual-west-lake-breeze",
+          "screenPageViews": 31,
+          "activeUsers": 6
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/about",
+          "screenPageViews": 29,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/french-colonial-historical-footsteps",
+          "screenPageViews": 19,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/about",
+          "screenPageViews": 16,
+          "activeUsers": 8
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/booking",
+          "screenPageViews": 15,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/guides",
+          "screenPageViews": 15,
+          "activeUsers": 7
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/gallery",
+          "screenPageViews": 13,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news",
+          "screenPageViews": 13,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/nguyen-tuan-linh-user",
+          "screenPageViews": 12,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/cinematic-hanoi-visual-storytelling-walk",
+          "screenPageViews": 11,
+          "activeUsers": 6
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/gallery",
+          "screenPageViews": 10,
+          "activeUsers": 6
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/colors-delta-craft-villages-expedition",
+          "screenPageViews": 10,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/son-user",
+          "screenPageViews": 9,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/news",
+          "screenPageViews": 8,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/booking/payment",
+          "screenPageViews": 7,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/admin/config/development/performance",
+          "screenPageViews": 7,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/hanoi-early-bird-sunrise-local-markets",
+          "screenPageViews": 7,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/guides",
+          "screenPageViews": 6,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/teu-user",
+          "screenPageViews": 6,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking/details",
+          "screenPageViews": 6,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/taste-hanoi-culinary-delights-street-vibes",
+          "screenPageViews": 6,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/spiritual-tour",
+          "screenPageViews": 5,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking",
+          "screenPageViews": 5,
+          "activeUsers": 5
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/hanoi-unfiltered-local-life-documentary",
+          "screenPageViews": 4,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/contact",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/egg-coffee-tour",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/hanoi-old-quarter-photoshoot-harry-thin",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/node/57/edit",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/node/41/edit",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/temples-shrines-tour",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking/payment",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/15-best-photo-spots-hanoi-local-guide-light-timing-and-uncrowded-angles-2026",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/node/2",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/how-it-works",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/node/1/edit",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/node/3/edit",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/craft-village-tour",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/ebook",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/northern-countryside",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/phu-vinh-bamboo-weaving",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/temple-literature-citadel",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/contact",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/faq",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/hai-son-bui-user",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/hanoi-photoshoot",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/how-it-works",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/hanoi-old-quarter-guide",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/hanoi-sunrise-photography-walk-long-bien-bridge-flower-markets-and-morning-light-2026",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/hoa-lo-prison-witness-history-heart-capital",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/hoi-bread-best-banh-mi-world",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/santorini-park-lovely-photo-spot-right-outside-hanoi",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/node/1",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/node/59/edit",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/bat-trang-pottery-tour",
+          "screenPageViews": 0,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/bun-cha-grill-tour",
+          "screenPageViews": 0,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/ngoc-son-temple-hoan-kiem-lake",
+          "screenPageViews": 0,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/old-quarter-night",
+          "screenPageViews": 0,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/van-phuc-silk-tour",
+          "screenPageViews": 0,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/vegetarian-food-tour",
+          "screenPageViews": 0,
+          "activeUsers": 1
+        }
+      ]
+    },
+    "previous_week_overview": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-25",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:26.289Z",
+      "received_at_utc": "2026-11-08T03:48:27.308Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "rows": [
+        {
+          "activeUsers": 38,
+          "sessions": 110,
+          "screenPageViews": 668,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "previous_week_events": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-25",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "eventName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          },
+          {
+            "name": "totalUsers"
+          },
+          {
+            "name": "totalRevenue"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:27.261Z",
+      "received_at_utc": "2026-11-08T03:48:27.709Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "schemaRestrictionResponse": {
+          "activeMetricRestrictions": []
+        },
+        "_schemaRestrictionResponse": "schemaRestrictionResponse",
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 24,
+      "rows": [
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "page_view",
+          "eventCount": 359,
+          "totalUsers": 5,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "page_view",
+          "eventCount": 309,
+          "totalUsers": 37,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "user_engagement",
+          "eventCount": 241,
+          "totalUsers": 3,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "user_engagement",
+          "eventCount": 170,
+          "totalUsers": 23,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "scroll",
+          "eventCount": 149,
+          "totalUsers": 4,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "scroll",
+          "eventCount": 140,
+          "totalUsers": 25,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "view_tour",
+          "eventCount": 101,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "view_tour",
+          "eventCount": 95,
+          "totalUsers": 10,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "session_start",
+          "eventCount": 79,
+          "totalUsers": 37,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "booking_step_view",
+          "eventCount": 72,
+          "totalUsers": 4,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "begin_booking",
+          "eventCount": 36,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "session_start",
+          "eventCount": 32,
+          "totalUsers": 5,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "first_visit",
+          "eventCount": 23,
+          "totalUsers": 23,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "begin_booking",
+          "eventCount": 11,
+          "totalUsers": 9,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "booking_step_view",
+          "eventCount": 11,
+          "totalUsers": 5,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "add_to_cart",
+          "eventCount": 7,
+          "totalUsers": 3,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "begin_checkout",
+          "eventCount": 7,
+          "totalUsers": 3,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "add_to_cart",
+          "eventCount": 3,
+          "totalUsers": 3,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "first_visit",
+          "eventCount": 2,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "begin_checkout",
+          "eventCount": 2,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "form_start",
+          "eventCount": 2,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "form_start",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "click",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "contact_click",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        }
+      ]
+    },
+    "previous_week_hosts": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-25",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:26.787Z",
+      "received_at_utc": "2026-11-08T03:48:27.755Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 2,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessions": 78,
+          "screenPageViews": 309,
+          "activeUsers": 34
+        },
+        {
+          "hostName": "127.0.0.1",
+          "sessions": 32,
+          "screenPageViews": 359,
+          "activeUsers": 4
+        }
+      ]
+    },
+    "previous_week_sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-25",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:26.862Z",
+      "received_at_utc": "2026-11-08T03:48:28.046Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 12,
+      "rows": [
+        {
+          "hostName": "127.0.0.1",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": 32,
+          "screenPageViews": 359
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "google / organic",
+          "sessions": 25,
+          "screenPageViews": 140
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "localhost:8093 / referral",
+          "sessions": 18,
+          "screenPageViews": 73
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": 17,
+          "screenPageViews": 35
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "ig / social",
+          "sessions": 5,
+          "screenPageViews": 23
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "instagram / bio",
+          "sessions": 5,
+          "screenPageViews": 5
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "l.facebook.com / referral",
+          "sessions": 3,
+          "screenPageViews": 17
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "facebook / page_button",
+          "sessions": 2,
+          "screenPageViews": 6
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "coccoc.com / referral",
+          "sessions": 1,
+          "screenPageViews": 6
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "facebook.com / referral",
+          "sessions": 1,
+          "screenPageViews": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "lm.facebook.com / referral",
+          "sessions": 1,
+          "screenPageViews": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "threads / social",
+          "sessions": 1,
+          "screenPageViews": 2
+        }
+      ]
+    },
+    "day_overview": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-07",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:27.709Z",
+      "received_at_utc": "2026-11-08T03:48:28.051Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "rows": [
+        {
+          "activeUsers": 5,
+          "sessions": 6,
+          "screenPageViews": 17,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "day_hosts": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-07",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:27.755Z",
+      "received_at_utc": "2026-11-08T03:48:28.191Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessions": 6,
+          "screenPageViews": 17,
+          "activeUsers": 5
+        }
+      ]
+    },
+    "previous_week_site_non_dev": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-25",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "hostName",
+                  "stringFilter": {
+                    "matchType": "EXACT",
+                    "value": "travelframe.sidevn.com",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "notExpression": {
+                  "filter": {
+                    "fieldName": "sessionSourceMedium",
+                    "stringFilter": {
+                      "matchType": "PARTIAL_REGEXP",
+                      "value": "localhost|127[.]0[.]0[.]1|tagassistant",
+                      "caseSensitive": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:27.308Z",
+      "received_at_utc": "2026-11-08T03:48:28.324Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "notes": "Removes only detected test source strings, not all internal traffic",
+      "rows": [
+        {
+          "activeUsers": 33,
+          "sessions": 60,
+          "screenPageViews": 236,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "day_pages": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-07",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:28.051Z",
+      "received_at_utc": "2026-11-08T03:48:28.492Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 7,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/",
+          "screenPageViews": 5,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tours",
+          "screenPageViews": 4,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/about",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking/details",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/taste-hanoi-culinary-delights-street-vibes",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/gallery",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        }
+      ]
+    },
+    "day_events": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-07",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "eventName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          },
+          {
+            "name": "totalUsers"
+          },
+          {
+            "name": "totalRevenue"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:28.191Z",
+      "received_at_utc": "2026-11-08T03:48:28.588Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "schemaRestrictionResponse": {
+          "activeMetricRestrictions": []
+        },
+        "_schemaRestrictionResponse": "schemaRestrictionResponse",
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 7,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "page_view",
+          "eventCount": 17,
+          "totalUsers": 6,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "scroll",
+          "eventCount": 7,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "session_start",
+          "eventCount": 6,
+          "totalUsers": 6,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "first_visit",
+          "eventCount": 5,
+          "totalUsers": 5,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "user_engagement",
+          "eventCount": 5,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "view_tour",
+          "eventCount": 2,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "booking_step_view",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        }
+      ]
+    },
+    "previous_day_overview": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-06",
+            "endDate": "2026-11-06"
+          }
+        ],
+        "dimensions": [],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:28.324Z",
+      "received_at_utc": "2026-11-08T03:48:28.717Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "rows": [
+        {
+          "activeUsers": 2,
+          "sessions": 5,
+          "screenPageViews": 6,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "previous_day_sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-06",
+            "endDate": "2026-11-06"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:28.588Z",
+      "received_at_utc": "2026-11-08T03:48:28.989Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 2,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": 4,
+          "screenPageViews": 5
+        },
+        {
+          "hostName": "127.0.0.1",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": 1,
+          "screenPageViews": 1
+        }
+      ]
+    },
+    "previous_day_pages": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-06",
+            "endDate": "2026-11-06"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:28.717Z",
+      "received_at_utc": "2026-11-08T03:48:29.069Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 5,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/son-bui-user",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/hanoi-early-bird-sunrise-local-markets",
+          "screenPageViews": 1,
+          "activeUsers": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/gallery",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/santorini-park-lovely-photo-spot-right-outside-hanoi",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/taste-hanoi-culinary-delights-street-vibes",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        }
+      ]
+    },
+    "day_sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-07",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:28.046Z",
+      "received_at_utc": "2026-11-08T03:48:29.104Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 4,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "zalo / zalo",
+          "sessions": 3,
+          "screenPageViews": 9
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": 1,
+          "screenPageViews": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "ig / social",
+          "sessions": 1,
+          "screenPageViews": 6
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "m.facebook.com / referral",
+          "sessions": 1,
+          "screenPageViews": 1
+        }
+      ]
+    },
+    "previous_day_events": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-06",
+            "endDate": "2026-11-06"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "eventName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          },
+          {
+            "name": "totalUsers"
+          },
+          {
+            "name": "totalRevenue"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:28.989Z",
+      "received_at_utc": "2026-11-08T03:48:29.437Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "schemaRestrictionResponse": {
+          "activeMetricRestrictions": []
+        },
+        "_schemaRestrictionResponse": "schemaRestrictionResponse",
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 10,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "page_view",
+          "eventCount": 5,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "scroll",
+          "eventCount": 5,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "session_start",
+          "eventCount": 5,
+          "totalUsers": 3,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "page_view",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "scroll",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "session_start",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "view_tour",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "first_visit",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "user_engagement",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "view_tour",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        }
+      ]
+    },
+    "previous_day_hosts": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-06",
+            "endDate": "2026-11-06"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:28.493Z",
+      "received_at_utc": "2026-11-08T03:48:29.577Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 2,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessions": 4,
+          "screenPageViews": 5,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "sessions": 1,
+          "screenPageViews": 1,
+          "activeUsers": 0
+        }
+      ]
+    },
+    "week_ago_day_sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-31",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:29.437Z",
+      "received_at_utc": "2026-11-08T03:48:29.781Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 8,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "google / organic",
+          "sessions": 10,
+          "screenPageViews": 66
+        },
+        {
+          "hostName": "127.0.0.1",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": 7,
+          "screenPageViews": 34
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": 4,
+          "screenPageViews": 15
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "l.facebook.com / referral",
+          "sessions": 2,
+          "screenPageViews": 16
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "localhost:8093 / referral",
+          "sessions": 2,
+          "screenPageViews": 45
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "coccoc.com / referral",
+          "sessions": 1,
+          "screenPageViews": 6
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "facebook / page_button",
+          "sessions": 1,
+          "screenPageViews": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessionSourceMedium": "ig / social",
+          "sessions": 1,
+          "screenPageViews": 8
+        }
+      ]
+    },
+    "week_ago_day_overview": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-31",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:29.069Z",
+      "received_at_utc": "2026-11-08T03:48:30.033Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "rows": [
+        {
+          "activeUsers": 12,
+          "sessions": 28,
+          "screenPageViews": 190,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "week_ago_day_hosts": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-31",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:29.104Z",
+      "received_at_utc": "2026-11-08T03:48:30.086Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 2,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessions": 21,
+          "screenPageViews": 156,
+          "activeUsers": 11
+        },
+        {
+          "hostName": "127.0.0.1",
+          "sessions": 7,
+          "screenPageViews": 34,
+          "activeUsers": 1
+        }
+      ]
+    },
+    "week_ago_day_pages": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-31",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:29.577Z",
+      "received_at_utc": "2026-11-08T03:48:30.555Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 33,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tours",
+          "screenPageViews": 26,
+          "activeUsers": 8
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/",
+          "screenPageViews": 25,
+          "activeUsers": 8
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/spiritual-west-lake-breeze",
+          "screenPageViews": 21,
+          "activeUsers": 5
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/nguyen-tuan-linh-user",
+          "screenPageViews": 12,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/french-colonial-historical-footsteps",
+          "screenPageViews": 11,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/hanoi-pho-tour",
+          "screenPageViews": 9,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news",
+          "screenPageViews": 9,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/about",
+          "screenPageViews": 7,
+          "activeUsers": 5
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/food-tour",
+          "screenPageViews": 6,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/admin/config/development/performance",
+          "screenPageViews": 6,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking/details",
+          "screenPageViews": 6,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/guides",
+          "screenPageViews": 6,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/cinematic-hanoi-visual-storytelling-walk",
+          "screenPageViews": 6,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tours",
+          "screenPageViews": 5,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/",
+          "screenPageViews": 4,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/son-user",
+          "screenPageViews": 4,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/gallery",
+          "screenPageViews": 4,
+          "activeUsers": 3
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/node/57/edit",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/colors-delta-craft-villages-expedition",
+          "screenPageViews": 3,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/booking/details",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking/payment",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/taste-hanoi-culinary-delights-street-vibes",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/booking/payment",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/node/1/edit",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/teu-user",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/tour/egg-coffee-tour",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/hai-son-bui-user",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/how-it-works",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/hanoi-sunrise-photography-walk-long-bien-bridge-flower-markets-and-morning-light-2026",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/news/solo-female-travel-hanoi-how-get-natural-photos-without-awkward-posing",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/node/59/edit",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/hanoi-early-bird-sunrise-local-markets",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/tour/hanoi-unfiltered-local-life-documentary",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        }
+      ]
+    },
+    "week_ago_day_events": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-31",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "eventName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          },
+          {
+            "name": "totalUsers"
+          },
+          {
+            "name": "totalRevenue"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:29.781Z",
+      "received_at_utc": "2026-11-08T03:48:30.825Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "schemaRestrictionResponse": {
+          "activeMetricRestrictions": []
+        },
+        "_schemaRestrictionResponse": "schemaRestrictionResponse",
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 23,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "page_view",
+          "eventCount": 156,
+          "totalUsers": 11,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "user_engagement",
+          "eventCount": 91,
+          "totalUsers": 11,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "scroll",
+          "eventCount": 78,
+          "totalUsers": 10,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "view_tour",
+          "eventCount": 47,
+          "totalUsers": 7,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "page_view",
+          "eventCount": 34,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "user_engagement",
+          "eventCount": 24,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "view_tour",
+          "eventCount": 21,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "session_start",
+          "eventCount": 21,
+          "totalUsers": 12,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "scroll",
+          "eventCount": 20,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "booking_step_view",
+          "eventCount": 9,
+          "totalUsers": 4,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "session_start",
+          "eventCount": 7,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "begin_booking",
+          "eventCount": 6,
+          "totalUsers": 4,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "booking_step_view",
+          "eventCount": 3,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "first_visit",
+          "eventCount": 3,
+          "totalUsers": 3,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "add_to_cart",
+          "eventCount": 2,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "begin_checkout",
+          "eventCount": 2,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "form_start",
+          "eventCount": 2,
+          "totalUsers": 2,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "add_to_cart",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "begin_booking",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "begin_checkout",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "127.0.0.1",
+          "eventName": "form_start",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "click",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "eventName": "contact_click",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        }
+      ]
+    },
+    "daily_site_non_dev": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-25",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "date"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "hostName",
+                  "stringFilter": {
+                    "matchType": "EXACT",
+                    "value": "travelframe.sidevn.com",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "notExpression": {
+                  "filter": {
+                    "fieldName": "sessionSourceMedium",
+                    "stringFilter": {
+                      "matchType": "PARTIAL_REGEXP",
+                      "value": "localhost|127[.]0[.]0[.]1|tagassistant",
+                      "caseSensitive": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:30.086Z",
+      "received_at_utc": "2026-11-08T03:48:30.827Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 14,
+      "rows": [
+        {
+          "date": "20261031",
+          "activeUsers": 10,
+          "sessions": 19,
+          "screenPageViews": 111,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261027",
+          "activeUsers": 9,
+          "sessions": 12,
+          "screenPageViews": 16,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261102",
+          "activeUsers": 9,
+          "sessions": 15,
+          "screenPageViews": 90,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261101",
+          "activeUsers": 7,
+          "sessions": 15,
+          "screenPageViews": 40,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261029",
+          "activeUsers": 6,
+          "sessions": 10,
+          "screenPageViews": 39,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261103",
+          "activeUsers": 6,
+          "sessions": 13,
+          "screenPageViews": 31,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261107",
+          "activeUsers": 5,
+          "sessions": 6,
+          "screenPageViews": 17,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261025",
+          "activeUsers": 4,
+          "sessions": 5,
+          "screenPageViews": 12,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261028",
+          "activeUsers": 3,
+          "sessions": 5,
+          "screenPageViews": 5,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261030",
+          "activeUsers": 3,
+          "sessions": 6,
+          "screenPageViews": 49,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261104",
+          "activeUsers": 3,
+          "sessions": 9,
+          "screenPageViews": 29,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261105",
+          "activeUsers": 3,
+          "sessions": 5,
+          "screenPageViews": 14,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261026",
+          "activeUsers": 2,
+          "sessions": 4,
+          "screenPageViews": 4,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261106",
+          "activeUsers": 2,
+          "sessions": 4,
+          "screenPageViews": 5,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "daily_all": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-25",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "date"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:30.033Z",
+      "received_at_utc": "2026-11-08T03:48:31.120Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 14,
+      "rows": [
+        {
+          "date": "20261031",
+          "activeUsers": 12,
+          "sessions": 28,
+          "screenPageViews": 190,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261027",
+          "activeUsers": 11,
+          "sessions": 22,
+          "screenPageViews": 135,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261102",
+          "activeUsers": 11,
+          "sessions": 20,
+          "screenPageViews": 95,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261101",
+          "activeUsers": 9,
+          "sessions": 17,
+          "screenPageViews": 54,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261028",
+          "activeUsers": 8,
+          "sessions": 19,
+          "screenPageViews": 143,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261029",
+          "activeUsers": 8,
+          "sessions": 16,
+          "screenPageViews": 55,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261103",
+          "activeUsers": 8,
+          "sessions": 21,
+          "screenPageViews": 90,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261030",
+          "activeUsers": 6,
+          "sessions": 14,
+          "screenPageViews": 127,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261025",
+          "activeUsers": 5,
+          "sessions": 8,
+          "screenPageViews": 14,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261107",
+          "activeUsers": 5,
+          "sessions": 6,
+          "screenPageViews": 17,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261104",
+          "activeUsers": 4,
+          "sessions": 14,
+          "screenPageViews": 159,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261105",
+          "activeUsers": 4,
+          "sessions": 10,
+          "screenPageViews": 51,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261026",
+          "activeUsers": 2,
+          "sessions": 4,
+          "screenPageViews": 4,
+          "keyEvents": 0
+        },
+        {
+          "date": "20261106",
+          "activeUsers": 2,
+          "sessions": 5,
+          "screenPageViews": 6,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "cutoff08_overview": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-07",
+            "endDate": "2026-11-08"
+          }
+        ],
+        "dimensions": [],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "filter": {
+            "fieldName": "dateHourMinute",
+            "stringFilter": {
+              "matchType": "FULL_REGEXP",
+              "value": "^(?:20261107(?:08[3-5][0-9]|(?:09|1[0-9]|2[0-3])[0-5][0-9])|20261108(?:(?:0[0-7])[0-5][0-9]|08[0-2][0-9]))$",
+              "caseSensitive": false
+            }
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:30.555Z",
+      "received_at_utc": "2026-11-08T03:48:32.034Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "notes": "GA4 reporting timezone; event-minute window [08:30,08:30); late processing can update counts",
+      "rows": [
+        {
+          "activeUsers": 5,
+          "sessions": 6,
+          "screenPageViews": 17,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "cutoff07_overview": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-06",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "filter": {
+            "fieldName": "dateHourMinute",
+            "stringFilter": {
+              "matchType": "FULL_REGEXP",
+              "value": "^(?:20261106(?:08[3-5][0-9]|(?:09|1[0-9]|2[0-3])[0-5][0-9])|20261107(?:(?:0[0-7])[0-5][0-9]|08[0-2][0-9]))$",
+              "caseSensitive": false
+            }
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:31.120Z",
+      "received_at_utc": "2026-11-08T03:48:32.036Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "notes": "GA4 reporting timezone; event-minute window [08:30,08:30); late processing can update counts",
+      "rows": [
+        {
+          "activeUsers": 2,
+          "sessions": 4,
+          "screenPageViews": 6,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "cutoff08_booking_pages": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-07",
+            "endDate": "2026-11-08"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "dateHourMinute",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^(?:20261107(?:08[3-5][0-9]|(?:09|1[0-9]|2[0-3])[0-5][0-9])|20261108(?:(?:0[0-7])[0-5][0-9]|08[0-2][0-9]))$",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "filter": {
+                  "fieldName": "pagePath",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^/booking(?:/.*)?$",
+                    "caseSensitive": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:30.825Z",
+      "received_at_utc": "2026-11-08T03:48:32.271Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking/details",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        }
+      ]
+    },
+    "cutoff07_event_dates": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-06",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "date"
+          },
+          {
+            "name": "eventName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "dateHourMinute",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^(?:20261106(?:08[3-5][0-9]|(?:09|1[0-9]|2[0-3])[0-5][0-9])|20261107(?:(?:0[0-7])[0-5][0-9]|08[0-2][0-9]))$",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "filter": {
+                  "fieldName": "eventName",
+                  "stringFilter": {
+                    "matchType": "EXACT",
+                    "value": "session_start",
+                    "caseSensitive": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:32.036Z",
+      "received_at_utc": "2026-11-08T03:48:32.572Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "rows": [
+        {
+          "date": "20261106",
+          "eventName": "session_start",
+          "eventCount": 5
+        }
+      ]
+    },
+    "cutoff07_booking_pages": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-06",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "dateHourMinute",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^(?:20261106(?:08[3-5][0-9]|(?:09|1[0-9]|2[0-3])[0-5][0-9])|20261107(?:(?:0[0-7])[0-5][0-9]|08[0-2][0-9]))$",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "filter": {
+                  "fieldName": "pagePath",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^/booking(?:/.*)?$",
+                    "caseSensitive": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:32.034Z",
+      "received_at_utc": "2026-11-08T03:48:32.575Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 0,
+      "rows": []
+    },
+    "cutoff01_event_dates": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-31",
+            "endDate": "2026-11-01"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "date"
+          },
+          {
+            "name": "eventName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "dateHourMinute",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^(?:20261031(?:08[3-5][0-9]|(?:09|1[0-9]|2[0-3])[0-5][0-9])|20261101(?:(?:0[0-7])[0-5][0-9]|08[0-2][0-9]))$",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "filter": {
+                  "fieldName": "eventName",
+                  "stringFilter": {
+                    "matchType": "EXACT",
+                    "value": "session_start",
+                    "caseSensitive": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:32.575Z",
+      "received_at_utc": "2026-11-08T03:48:32.916Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 2,
+      "rows": [
+        {
+          "date": "20261031",
+          "eventName": "session_start",
+          "eventCount": 28
+        },
+        {
+          "date": "20261101",
+          "eventName": "session_start",
+          "eventCount": 1
+        }
+      ]
+    },
+    "cutoff01_booking_pages": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-31",
+            "endDate": "2026-11-01"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "pagePath"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "dateHourMinute",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^(?:20261031(?:08[3-5][0-9]|(?:09|1[0-9]|2[0-3])[0-5][0-9])|20261101(?:(?:0[0-7])[0-5][0-9]|08[0-2][0-9]))$",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "filter": {
+                  "fieldName": "pagePath",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^/booking(?:/.*)?$",
+                    "caseSensitive": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:32.572Z",
+      "received_at_utc": "2026-11-08T03:48:32.917Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 4,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking/details",
+          "screenPageViews": 6,
+          "activeUsers": 4
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/booking/details",
+          "screenPageViews": 2,
+          "activeUsers": 1
+        },
+        {
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/booking/payment",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "hostName": "127.0.0.1",
+          "pagePath": "/booking/payment",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        }
+      ]
+    },
+    "cutoff01_overview": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-31",
+            "endDate": "2026-11-01"
+          }
+        ],
+        "dimensions": [],
+        "metrics": [
+          {
+            "name": "activeUsers"
+          },
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "keyEvents"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "filter": {
+            "fieldName": "dateHourMinute",
+            "stringFilter": {
+              "matchType": "FULL_REGEXP",
+              "value": "^(?:20261031(?:08[3-5][0-9]|(?:09|1[0-9]|2[0-3])[0-5][0-9])|20261101(?:(?:0[0-7])[0-5][0-9]|08[0-2][0-9]))$",
+              "caseSensitive": false
+            }
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:32.271Z",
+      "received_at_utc": "2026-11-08T03:48:33.697Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "notes": "GA4 reporting timezone; event-minute window [08:30,08:30); late processing can update counts",
+      "rows": [
+        {
+          "activeUsers": 12,
+          "sessions": 29,
+          "screenPageViews": 190,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "cutoff08_event_dates": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-07",
+            "endDate": "2026-11-08"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "date"
+          },
+          {
+            "name": "eventName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "dateHourMinute",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^(?:20261107(?:08[3-5][0-9]|(?:09|1[0-9]|2[0-3])[0-5][0-9])|20261108(?:(?:0[0-7])[0-5][0-9]|08[0-2][0-9]))$",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "filter": {
+                  "fieldName": "eventName",
+                  "stringFilter": {
+                    "matchType": "EXACT",
+                    "value": "session_start",
+                    "caseSensitive": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:48:30.827Z",
+      "received_at_utc": "2026-11-08T03:48:34.364Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "rows": [
+        {
+          "date": "20261107",
+          "eventName": "session_start",
+          "eventCount": 6
+        }
+      ]
+    },
+    "week_hosts": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-01",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "hostName"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "sessions"
+          },
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500
+      },
+      "requested_at_utc": "2026-11-08T03:48:25.656Z",
+      "received_at_utc": "2026-11-08T03:48:34.528Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 2,
+      "rows": [
+        {
+          "hostName": "travelframe.sidevn.com",
+          "sessions": 68,
+          "screenPageViews": 228,
+          "activeUsers": 28
+        },
+        {
+          "hostName": "127.0.0.1",
+          "sessions": 25,
+          "screenPageViews": 244,
+          "activeUsers": 5
+        }
+      ]
+    }
+  },
+  "capture_completed_at_utc": "2026-11-08T03:48:34.528Z"
+}

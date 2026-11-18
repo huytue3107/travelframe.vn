@@ -1,0 +1,656 @@
+{
+  "date": "2026-11-15",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "assembledAt": "2026-11-15T03:18:00.783Z",
+  "gaCapturedAt": "2026-11-15T03:14:41.275Z",
+  "metaCapturedAt": "2026-11-15T03:14:46.805Z",
+  "property": "552867189",
+  "host": "travelframe.sidevn.com",
+  "filters": "Phiên và lượt xem lọc theo travelframe.sidevn.com, loại các trang admin/login/user/node và nguồn truy cập thử nhận diện được.",
+  "gaCoverageNote": "GA4 hiện thiếu dòng ngày 08/11 và 12/11, kể cả khi truy vấn theo tên miền. Bản chụp 14/11 từng ghi 52 phiên ngày 12/11. Chênh lệch giữa hai bản cần đối soát trước khi kết luận xu hướng website.",
+  "windows": {
+    "now": {
+      "range": {
+        "label": "08–14/11",
+        "start": "2026-11-08",
+        "end": "2026-11-14",
+        "from": "2026-11-08T00:00:00+07:00",
+        "until": "2026-11-15T00:00:00+07:00"
+      },
+      "igRange": {
+        "from": "2026-11-07T15:00:00+07:00",
+        "until": "2026-11-14T15:00:00+07:00"
+      },
+      "ga": {
+        "activeUsers": 57,
+        "sessions": 95,
+        "screenPageViews": 301,
+        "engagedSessions": 55,
+        "keyEvents": 2,
+        "totalRevenue": 0
+      },
+      "gaMeta": {
+        "timezone": "Asia/Saigon",
+        "currency": "USD",
+        "loss": false,
+        "sampling": 0,
+        "capturedAt": "2026-11-15T03:14:41.275Z"
+      },
+      "booking": {
+        "base": 0,
+        "details": 6,
+        "checkout": 0,
+        "payment": 0
+      },
+      "gaDaily": [
+        {
+          "date": "20261109",
+          "sessions": 11,
+          "activeUsers": 8,
+          "screenPageViews": 25
+        },
+        {
+          "date": "20261110",
+          "sessions": 23,
+          "activeUsers": 16,
+          "screenPageViews": 58
+        },
+        {
+          "date": "20261111",
+          "sessions": 10,
+          "activeUsers": 7,
+          "screenPageViews": 34
+        },
+        {
+          "date": "20261113",
+          "sessions": 25,
+          "activeUsers": 17,
+          "screenPageViews": 91
+        },
+        {
+          "date": "20261114",
+          "sessions": 26,
+          "activeUsers": 20,
+          "screenPageViews": 93
+        }
+      ],
+      "gaMissingDays": [
+        "2026-11-08",
+        "2026-11-12"
+      ],
+      "gaSources": {
+        "Direct": 47,
+        "Facebook": 21,
+        "Instagram": 15,
+        "Google tự nhiên": 7,
+        "Khác": 9
+      },
+      "gaSourceSum": 99,
+      "gaPages": [
+        {
+          "pagePath": "/tours",
+          "screenPageViews": 45,
+          "activeUsers": 17
+        },
+        {
+          "pagePath": "/",
+          "screenPageViews": 31,
+          "activeUsers": 16
+        },
+        {
+          "pagePath": "/news",
+          "screenPageViews": 16,
+          "activeUsers": 4
+        },
+        {
+          "pagePath": "/hanoi-photoshoot",
+          "screenPageViews": 15,
+          "activeUsers": 9
+        },
+        {
+          "pagePath": "/tour/spiritual-west-lake-breeze",
+          "screenPageViews": 14,
+          "activeUsers": 4
+        },
+        {
+          "pagePath": "/guides",
+          "screenPageViews": 12,
+          "activeUsers": 5
+        },
+        {
+          "pagePath": "/news/hanoi-secret-food-photo-map",
+          "screenPageViews": 12,
+          "activeUsers": 6
+        },
+        {
+          "pagePath": "/about",
+          "screenPageViews": 11,
+          "activeUsers": 5
+        },
+        {
+          "pagePath": "/tour/cinematic-hanoi-visual-storytelling-walk",
+          "screenPageViews": 11,
+          "activeUsers": 5
+        },
+        {
+          "pagePath": "/tour/hanoi-early-bird-sunrise-local-markets",
+          "screenPageViews": 11,
+          "activeUsers": 5
+        },
+        {
+          "pagePath": "/tour/hanoi-unfiltered-local-life-documentary",
+          "screenPageViews": 11,
+          "activeUsers": 4
+        },
+        {
+          "pagePath": "/tour/taste-hanoi-culinary-delights-street-vibes",
+          "screenPageViews": 9,
+          "activeUsers": 3
+        }
+      ],
+      "gaEvents": {
+        "view_tour": {
+          "count": 74,
+          "users": 9
+        },
+        "begin_booking": {
+          "count": 1,
+          "users": 1
+        },
+        "booking_step_view": {
+          "count": 6,
+          "users": 3
+        },
+        "add_to_cart": {
+          "count": 0,
+          "users": 0
+        },
+        "begin_checkout": {
+          "count": 0,
+          "users": 0
+        },
+        "contact_click": {
+          "count": 2,
+          "users": 2
+        },
+        "file_download": {
+          "count": 1,
+          "users": 1
+        },
+        "form_submit": {
+          "count": 1,
+          "users": 1
+        },
+        "generate_lead": {
+          "count": 1,
+          "users": 1
+        },
+        "purchase": {
+          "count": 0,
+          "users": 0
+        }
+      },
+      "gaLeadOrigins": [
+        {
+          "pagePath": "/contact",
+          "eventName": "form_submit",
+          "eventCount": 1,
+          "totalUsers": 1
+        },
+        {
+          "pagePath": "/contact",
+          "eventName": "generate_lead",
+          "eventCount": 1,
+          "totalUsers": 1
+        }
+      ],
+      "ig": {
+        "reach": 126290,
+        "views": 188246,
+        "total_interactions": 11047,
+        "saves": 1360,
+        "shares": 2786,
+        "profile_views": 587,
+        "website_clicks": 12,
+        "accounts_engaged": 6512
+      },
+      "igDaily": [
+        {
+          "day": "2026-11-08",
+          "end": "2026-11-08T08:00:00.000Z",
+          "reach": 3407,
+          "views": 5165
+        },
+        {
+          "day": "2026-11-09",
+          "end": "2026-11-09T08:00:00.000Z",
+          "reach": 10407,
+          "views": 14225
+        },
+        {
+          "day": "2026-11-10",
+          "end": "2026-11-10T08:00:00.000Z",
+          "reach": 55841,
+          "views": 74751
+        },
+        {
+          "day": "2026-11-11",
+          "end": "2026-11-11T08:00:00.000Z",
+          "reach": 40337,
+          "views": 50765
+        },
+        {
+          "day": "2026-11-12",
+          "end": "2026-11-12T08:00:00.000Z",
+          "reach": 13166,
+          "views": 18176
+        },
+        {
+          "day": "2026-11-13",
+          "end": "2026-11-13T08:00:00.000Z",
+          "reach": 11654,
+          "views": 15082
+        },
+        {
+          "day": "2026-11-14",
+          "end": "2026-11-14T08:00:00.000Z",
+          "reach": 7462,
+          "views": 10082
+        }
+      ],
+      "igPosts": 13,
+      "fbPosts": 15
+    },
+    "prev": {
+      "range": {
+        "label": "01–07/11",
+        "start": "2026-11-01",
+        "end": "2026-11-07",
+        "from": "2026-11-01T00:00:00+07:00",
+        "until": "2026-11-08T00:00:00+07:00"
+      },
+      "igRange": {
+        "from": "2026-10-31T15:00:00+07:00",
+        "until": "2026-11-07T15:00:00+07:00"
+      },
+      "ga": {
+        "activeUsers": 26,
+        "sessions": 64,
+        "screenPageViews": 209,
+        "engagedSessions": 36,
+        "keyEvents": 0,
+        "totalRevenue": 0
+      },
+      "gaMeta": {
+        "timezone": "Asia/Saigon",
+        "currency": "USD",
+        "loss": false,
+        "sampling": 0,
+        "capturedAt": "2026-11-15T03:14:41.784Z"
+      },
+      "booking": {
+        "base": 1,
+        "details": 23,
+        "checkout": 0,
+        "payment": 4
+      },
+      "gaDaily": [
+        {
+          "date": "20261101",
+          "sessions": 15,
+          "activeUsers": 7,
+          "screenPageViews": 40
+        },
+        {
+          "date": "20261102",
+          "sessions": 14,
+          "activeUsers": 8,
+          "screenPageViews": 76
+        },
+        {
+          "date": "20261103",
+          "sessions": 12,
+          "activeUsers": 6,
+          "screenPageViews": 29
+        },
+        {
+          "date": "20261104",
+          "sessions": 8,
+          "activeUsers": 3,
+          "screenPageViews": 28
+        },
+        {
+          "date": "20261105",
+          "sessions": 5,
+          "activeUsers": 3,
+          "screenPageViews": 14
+        },
+        {
+          "date": "20261106",
+          "sessions": 4,
+          "activeUsers": 2,
+          "screenPageViews": 5
+        },
+        {
+          "date": "20261107",
+          "sessions": 6,
+          "activeUsers": 5,
+          "screenPageViews": 17
+        }
+      ],
+      "gaMissingDays": [],
+      "gaSources": {
+        "Direct": 37,
+        "Facebook": 6,
+        "Instagram": 7,
+        "Google tự nhiên": 11,
+        "Khác": 3
+      },
+      "gaSourceSum": 64,
+      "gaPages": [
+        {
+          "pagePath": "/",
+          "screenPageViews": 34,
+          "activeUsers": 17
+        },
+        {
+          "pagePath": "/tour/spiritual-west-lake-breeze",
+          "screenPageViews": 32,
+          "activeUsers": 6
+        },
+        {
+          "pagePath": "/tours",
+          "screenPageViews": 31,
+          "activeUsers": 11
+        },
+        {
+          "pagePath": "/booking/details",
+          "screenPageViews": 23,
+          "activeUsers": 9
+        },
+        {
+          "pagePath": "/tour/french-colonial-historical-footsteps",
+          "screenPageViews": 19,
+          "activeUsers": 2
+        },
+        {
+          "pagePath": "/about",
+          "screenPageViews": 11,
+          "activeUsers": 4
+        },
+        {
+          "pagePath": "/gallery",
+          "screenPageViews": 9,
+          "activeUsers": 5
+        },
+        {
+          "pagePath": "/tour/hanoi-early-bird-sunrise-local-markets",
+          "screenPageViews": 7,
+          "activeUsers": 4
+        },
+        {
+          "pagePath": "/tour/taste-hanoi-culinary-delights-street-vibes",
+          "screenPageViews": 7,
+          "activeUsers": 3
+        },
+        {
+          "pagePath": "/booking/payment",
+          "screenPageViews": 4,
+          "activeUsers": 4
+        },
+        {
+          "pagePath": "/news",
+          "screenPageViews": 4,
+          "activeUsers": 3
+        },
+        {
+          "pagePath": "/tour/cinematic-hanoi-visual-storytelling-walk",
+          "screenPageViews": 4,
+          "activeUsers": 3
+        }
+      ],
+      "gaEvents": {
+        "view_tour": {
+          "count": 76,
+          "users": 10
+        },
+        "begin_booking": {
+          "count": 15,
+          "users": 7
+        },
+        "booking_step_view": {
+          "count": 26,
+          "users": 8
+        },
+        "add_to_cart": {
+          "count": 4,
+          "users": 4
+        },
+        "begin_checkout": {
+          "count": 4,
+          "users": 4
+        },
+        "contact_click": {
+          "count": 1,
+          "users": 1
+        },
+        "file_download": {
+          "count": 0,
+          "users": 0
+        },
+        "form_submit": {
+          "count": 0,
+          "users": 0
+        },
+        "generate_lead": {
+          "count": 0,
+          "users": 0
+        },
+        "purchase": {
+          "count": 0,
+          "users": 0
+        }
+      },
+      "gaLeadOrigins": [],
+      "ig": {
+        "reach": 19773,
+        "views": 33710,
+        "total_interactions": 1754,
+        "saves": 392,
+        "shares": 350,
+        "profile_views": 105,
+        "website_clicks": 2,
+        "accounts_engaged": 1056
+      },
+      "igDaily": [
+        {
+          "day": "2026-11-01",
+          "end": "2026-11-01T08:00:00.000Z",
+          "reach": 1637,
+          "views": 2882
+        },
+        {
+          "day": "2026-11-02",
+          "end": "2026-11-02T08:00:00.000Z",
+          "reach": 1688,
+          "views": 2779
+        },
+        {
+          "day": "2026-11-03",
+          "end": "2026-11-03T08:00:00.000Z",
+          "reach": 1887,
+          "views": 3011
+        },
+        {
+          "day": "2026-11-04",
+          "end": "2026-11-04T08:00:00.000Z",
+          "reach": 2088,
+          "views": 3264
+        },
+        {
+          "day": "2026-11-05",
+          "end": "2026-11-05T08:00:00.000Z",
+          "reach": 2518,
+          "views": 3808
+        },
+        {
+          "day": "2026-11-06",
+          "end": "2026-11-06T08:00:00.000Z",
+          "reach": 6314,
+          "views": 8970
+        },
+        {
+          "day": "2026-11-07",
+          "end": "2026-11-07T08:00:00.000Z",
+          "reach": 5354,
+          "views": 8996
+        }
+      ],
+      "igPosts": 13,
+      "fbPosts": 13
+    }
+  },
+  "profile": {
+    "igFollowers": 760,
+    "igMedia": 228,
+    "fbFollowers": 3471
+  },
+  "account": {
+    "ig": "17841438272497512",
+    "fb": "1409099405611405"
+  },
+  "ads": {
+    "available": false,
+    "reason": "MCP chưa tìm thấy tài khoản quảng cáo có thể đọc."
+  },
+  "crm": {
+    "total": 92,
+    "stages": {
+      "Qualified-unconfirmed": 11,
+      "Quoted": 19,
+      "Guide-Sent": 36,
+      "Inquiry": 25,
+      "Meeting-Scheduled": 1
+    },
+    "now": {
+      "records": 59,
+      "guides": 27,
+      "nonGuide": 32,
+      "dateAndSize": 1,
+      "quotes": 5,
+      "depositEvidence": 0
+    },
+    "prev": {
+      "records": 9,
+      "guides": 0,
+      "nonGuide": 9,
+      "dateAndSize": 6,
+      "quotes": 6,
+      "depositEvidence": 0
+    },
+    "confirmedBookings": null,
+    "revenue": null
+  },
+  "seed": {
+    "matched": 25,
+    "c1": 7,
+    "c2": 6,
+    "totalPublished": 28
+  },
+  "posts": {
+    "instagram": [
+      {
+        "title": "Vietnam does Christmas louder than you'd expect. 🎄",
+        "url": "https://www.instagram.com/reel/Dfjq4KWtyAH/",
+        "publishedAt": "2026-11-10T10:18:59.000Z",
+        "likes": 2592,
+        "comments": 86,
+        "shares": null,
+        "date": "2026-11-10",
+        "ageHours": 112
+      },
+      {
+        "title": "Nobody moves faster than the staff on Hanoi's beer street. 🍺",
+        "url": "https://www.instagram.com/reel/Dfj4fADSff7/",
+        "publishedAt": "2026-11-10T12:15:48.000Z",
+        "likes": 564,
+        "comments": 4,
+        "shares": null,
+        "date": "2026-11-10",
+        "ageHours": 110
+      },
+      {
+        "title": "Thrift shopping in Hanoi? Give this market a few hours.",
+        "url": "https://www.instagram.com/reel/DfhfFILS-dK/",
+        "publishedAt": "2026-11-09T13:55:03.000Z",
+        "likes": 120,
+        "comments": 23,
+        "shares": null,
+        "date": "2026-11-09",
+        "ageHours": 133
+      },
+      {
+        "title": "Save this for lunch near St. Joseph's Cathedral.",
+        "url": "https://www.instagram.com/reel/Dfhb8a2yScH/",
+        "publishedAt": "2026-11-09T13:28:00.000Z",
+        "likes": 53,
+        "comments": 12,
+        "shares": null,
+        "date": "2026-11-09",
+        "ageHours": 133
+      },
+      {
+        "title": "\"Crossing the street here is like next level.\" She's not wrong. 🛵",
+        "url": "https://www.instagram.com/reel/DfluB5MNDG9/",
+        "publishedAt": "2026-11-11T05:23:22.000Z",
+        "likes": 22,
+        "comments": 9,
+        "shares": null,
+        "date": "2026-11-11",
+        "ageHours": 93
+      }
+    ],
+    "facebook": [
+      {
+        "title": "Vietnam does Christmas louder than you'd expect. 🎄",
+        "url": "https://www.facebook.com/reel/991036764063782/",
+        "publishedAt": "2026-11-10T10:19:15.000Z",
+        "likes": null,
+        "comments": null,
+        "shares": 29,
+        "date": "2026-11-10",
+        "ageHours": 112
+      },
+      {
+        "title": "Save this for lunch near St. Joseph's Cathedral.",
+        "url": "https://www.facebook.com/reel/2268308380773075/",
+        "publishedAt": "2026-11-09T13:28:19.000Z",
+        "likes": null,
+        "comments": null,
+        "shares": 13,
+        "date": "2026-11-09",
+        "ageHours": 133
+      },
+      {
+        "title": "Thrift shopping in Hanoi? Give this market a few hours.",
+        "url": "https://www.facebook.com/reel/1446188516931637/",
+        "publishedAt": "2026-11-09T13:55:16.000Z",
+        "likes": null,
+        "comments": null,
+        "shares": 5,
+        "date": "2026-11-09",
+        "ageHours": 133
+      },
+      {
+        "title": "\"Crossing the street here is like next level.\" She's not wrong. 🛵",
+        "url": "https://www.facebook.com/reel/1764296934674552/",
+        "publishedAt": "2026-11-11T05:23:40.000Z",
+        "likes": null,
+        "comments": null,
+        "shares": 2,
+        "date": "2026-11-11",
+        "ageHours": 93
+      }
+    ]
+  }
+}

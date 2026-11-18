@@ -1,0 +1,321 @@
+{
+  "source": "GA4 Data API",
+  "property": "properties/552867189",
+  "capture_started_at_utc": "2026-11-08T03:51:23.100Z",
+  "reports": {
+    "week_site_booking_sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-01",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "pagePath"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "hostName",
+                  "stringFilter": {
+                    "matchType": "EXACT",
+                    "value": "travelframe.sidevn.com",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "filter": {
+                  "fieldName": "pagePath",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^/booking(?:/.*)?$",
+                    "caseSensitive": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:51:23.106Z",
+      "received_at_utc": "2026-11-08T03:51:23.849Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 8,
+      "rows": [
+        {
+          "pagePath": "/booking/details",
+          "sessionSourceMedium": "(direct) / (none)",
+          "screenPageViews": 16,
+          "activeUsers": 5
+        },
+        {
+          "pagePath": "/booking/details",
+          "sessionSourceMedium": "google / organic",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "pagePath": "/booking/details",
+          "sessionSourceMedium": "ig / social",
+          "screenPageViews": 3,
+          "activeUsers": 2
+        },
+        {
+          "pagePath": "/booking/payment",
+          "sessionSourceMedium": "(direct) / (none)",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "pagePath": "/booking",
+          "sessionSourceMedium": "(direct) / (none)",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "pagePath": "/booking/details",
+          "sessionSourceMedium": "instagram / bio",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "pagePath": "/booking/payment",
+          "sessionSourceMedium": "ig / social",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "pagePath": "/booking/payment",
+          "sessionSourceMedium": "instagram / bio",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        }
+      ]
+    },
+    "previous_week_site_booking_sources": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-10-25",
+            "endDate": "2026-10-31"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "pagePath"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "screenPageViews"
+          },
+          {
+            "name": "activeUsers"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "andGroup": {
+            "expressions": [
+              {
+                "filter": {
+                  "fieldName": "hostName",
+                  "stringFilter": {
+                    "matchType": "EXACT",
+                    "value": "travelframe.sidevn.com",
+                    "caseSensitive": false
+                  }
+                }
+              },
+              {
+                "filter": {
+                  "fieldName": "pagePath",
+                  "stringFilter": {
+                    "matchType": "FULL_REGEXP",
+                    "value": "^/booking(?:/.*)?$",
+                    "caseSensitive": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:51:23.106Z",
+      "received_at_utc": "2026-11-08T03:51:24.465Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 9,
+      "rows": [
+        {
+          "pagePath": "/booking/details",
+          "sessionSourceMedium": "localhost:8093 / referral",
+          "screenPageViews": 3,
+          "activeUsers": 1
+        },
+        {
+          "pagePath": "/booking",
+          "sessionSourceMedium": "(direct) / (none)",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "pagePath": "/booking",
+          "sessionSourceMedium": "google / organic",
+          "screenPageViews": 2,
+          "activeUsers": 2
+        },
+        {
+          "pagePath": "/booking",
+          "sessionSourceMedium": "facebook / page_button",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "pagePath": "/booking/details",
+          "sessionSourceMedium": "(direct) / (none)",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "pagePath": "/booking/details",
+          "sessionSourceMedium": "coccoc.com / referral",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "pagePath": "/booking/details",
+          "sessionSourceMedium": "ig / social",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "pagePath": "/booking/payment",
+          "sessionSourceMedium": "coccoc.com / referral",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        },
+        {
+          "pagePath": "/booking/payment",
+          "sessionSourceMedium": "ig / social",
+          "screenPageViews": 1,
+          "activeUsers": 1
+        }
+      ]
+    },
+    "conversion_event_origin": {
+      "request": {
+        "property": "properties/552867189",
+        "dateRanges": [
+          {
+            "startDate": "2026-11-01",
+            "endDate": "2026-11-07"
+          }
+        ],
+        "dimensions": [
+          {
+            "name": "dateHour"
+          },
+          {
+            "name": "hostName"
+          },
+          {
+            "name": "pagePath"
+          },
+          {
+            "name": "eventName"
+          },
+          {
+            "name": "sessionSourceMedium"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "eventCount"
+          },
+          {
+            "name": "totalUsers"
+          },
+          {
+            "name": "totalRevenue"
+          }
+        ],
+        "limit": 500,
+        "dimensionFilter": {
+          "filter": {
+            "fieldName": "eventName",
+            "stringFilter": {
+              "matchType": "FULL_REGEXP",
+              "value": "^(?:form_submit|generate_lead|purchase)$",
+              "caseSensitive": false
+            }
+          }
+        }
+      },
+      "requested_at_utc": "2026-11-08T03:51:23.105Z",
+      "received_at_utc": "2026-11-08T03:51:24.574Z",
+      "metadata": {
+        "samplingMetadatas": [],
+        "dataLossFromOtherRow": false,
+        "schemaRestrictionResponse": {
+          "activeMetricRestrictions": []
+        },
+        "_schemaRestrictionResponse": "schemaRestrictionResponse",
+        "currencyCode": "USD",
+        "_currencyCode": "currencyCode",
+        "timeZone": "Asia/Saigon",
+        "_timeZone": "timeZone"
+      },
+      "row_count": 1,
+      "rows": [
+        {
+          "dateHour": "2026110221",
+          "hostName": "travelframe.sidevn.com",
+          "pagePath": "/node/57/edit",
+          "eventName": "form_submit",
+          "sessionSourceMedium": "(direct) / (none)",
+          "eventCount": 1,
+          "totalUsers": 1,
+          "totalRevenue": 0
+        }
+      ]
+    }
+  },
+  "capture_completed_at_utc": "2026-11-08T03:51:24.574Z"
+}

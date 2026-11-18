@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TravelFrame | Dashboard hiệu suất 15.11.2026</title>
+<style>
+:root{color-scheme:light;--ink:#172421;--muted:#52625e;--line:#dce4e0;--paper:#fff;--bg:#f4f7f5;--teal:#147262;--teal-bg:#e6f3ee;--blue:#316a9b;--rust:#a84b31;--gold:#795917;--gray:#9eaead}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+[hidden]{display:none!important}button,select{font:inherit}a{color:#215e88;text-underline-offset:3px}a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.shell{max-width:1280px;margin:auto;padding-inline:clamp(14px,4%,54px)}header{background:var(--paper);border-bottom:1px solid var(--line)}
+.top{padding-block:20px 0}.mast,.section-head,.toolbar,.legend,.row-title{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.mast{align-items:flex-start}
+.brand{display:flex;align-items:center;gap:10px;font-size:16px;font-weight:700}.brand-mark{display:grid;place-items:center;background:#183e37;color:white;width:34px;height:34px;border-radius:7px;font-size:12px}.capture{color:var(--muted);font-size:12px}
+h1,h2,h3,p,figure{margin:0}h1{font-size:30px;line-height:1.2;margin-top:15px}h2{font-size:20px;line-height:1.3}h3{font-size:16px}
+.subtitle{color:var(--muted);margin:7px 0 16px}.tabs{display:flex;flex-wrap:wrap;gap:2px 20px}.tabs button{background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:10px 1px;font-weight:600;min-height:44px;cursor:pointer}.tabs button[aria-selected=true]{border-color:var(--teal);color:var(--teal)}
+main{padding-block:20px 36px}.toolbar{margin-bottom:15px}.period{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.period label,.field-label{font-size:13px;color:var(--muted)}select{padding:7px 10px;background:white;border:1px solid #aab9b3;border-radius:6px;color:var(--ink);max-width:100%}
+.callout{border-left:3px solid var(--teal);padding:10px 13px;background:var(--teal-bg);margin-bottom:15px}.callout p+p{margin-top:4px}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:24px}.kpi{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px 14px;min-width:0}.kpi-label{font-size:13px;color:var(--muted)}.kpi strong{font-size:27px;display:block;line-height:1.35;font-variant-numeric:tabular-nums}.kpi small{display:block;overflow-wrap:anywhere}
+.good{color:var(--teal)}.watch{color:var(--gold)}.down{color:var(--rust)}.muted,.note{color:var(--muted)}.note{font-size:13px}.num{text-align:right;font-variant-numeric:tabular-nums}.no-wrap{white-space:nowrap}
+section.block{padding-block:16px;border-top:1px solid var(--line)}.block h2{margin-bottom:9px}.section-head h2{margin:0}.section-head{margin-bottom:8px}.split{display:grid;grid-template-columns:1fr 1fr;gap:20px}.split>*{min-width:0}
+.table-scroll{overflow-x:auto}table{width:100%;border-collapse:collapse}th,td{padding:8px 8px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}th{color:var(--muted);font-size:12px;font-weight:650;background:#edf2ef}td{font-size:14px}td:first-child,th:first-child{padding-left:8px}.compact th,.compact td{padding:7px 6px}.funnel th:first-child,.funnel td:first-child{width:44px;white-space:nowrap;color:var(--muted)}.funnel td:nth-child(2){font-weight:600}.funnel td:nth-child(3),.funnel th:nth-child(3){white-space:nowrap}
+.chart{width:100%;margin-top:8px}.chart svg{display:block;width:100%;height:215px}.chart svg text{font:12px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:var(--muted)}.chart svg .grid{stroke:var(--line);stroke-width:1}.chart svg .now{stroke:var(--teal);fill:none;stroke-width:2.5}.chart svg .prev{stroke:var(--blue);fill:none;stroke-width:1.8;stroke-dasharray:5 4}.chart svg .dot-now{fill:var(--teal)}.chart svg .dot-prev{fill:var(--blue)}
+.legend{justify-content:flex-start;font-size:12px;color:var(--muted);margin-top:5px}.swatch{width:14px;height:3px;display:inline-block;vertical-align:middle;margin-right:5px;background:var(--teal)}.swatch.prev{background:var(--blue)}
+.sources{display:grid;gap:9px;margin:10px 0}.source{display:grid;grid-template-columns:minmax(82px,125px) minmax(0,1fr) 33px;align-items:center;gap:8px;font-size:13px}.source b{text-align:right;font-variant-numeric:tabular-nums}.track{height:9px;background:#e5ece8}.bar{height:100%;background:var(--teal)}.source:nth-child(2) .bar{background:var(--blue)}.source:nth-child(3) .bar{background:#bb7652}
+details{margin:8px 0}summary{width:fit-content;color:#215e88;cursor:pointer;padding:4px 0}.actions{margin:4px 0;padding-left:21px}.actions li{padding:4px 0}
+.status{font-size:12px;color:var(--gold);background:#f6edd4;padding:3px 7px;border-radius:5px;white-space:nowrap}.posts td:first-child{min-width:150px}.tab-empty{padding:12px 0;color:var(--muted)}footer{border-top:1px solid var(--line);padding-block:14px 24px}
+.live-heading{margin-bottom:14px}.live-heading .note{margin-top:4px}
+.refresh{padding:8px 14px;min-height:44px;border:1px solid var(--teal);border-radius:6px;background:var(--teal);color:white;font-weight:600;cursor:pointer}
+.refresh:disabled{opacity:.65;cursor:wait}.live-kpis .kpi small{line-height:1.4;margin-top:4px}
+.live-status{color:var(--muted);font-size:12px;margin:8px 0 12px}
+.live-post{margin:8px 0 3px;overflow-wrap:anywhere}.live-post small{display:block;color:var(--muted)}
+.live-launch{margin:0 0 16px}.live-launch a{font-weight:650}
+@media(max-width:760px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.split{grid-template-columns:1fr;gap:12px}.tabs{gap:2px 14px}}
+@media(max-width:400px){h1{font-size:25px}.kpi{padding:10px}.kpi strong{font-size:23px}td{font-size:13px}.funnel td:nth-child(3),.funnel th:nth-child(3){white-space:normal}.capture{max-width:100%}}
+</style>
+</head>
+<body>
+<header><div class="shell top">
+<div class="mast"><div class="brand"><span class="brand-mark" aria-hidden="true">TF</span>TravelFrame</div><div class="capture" id="weekly-capture"></div></div>
+<h1>Hiệu suất Website &amp; Meta</h1>
+<p class="subtitle" id="dashboard-scope"></p>
+<nav class="tabs" role="tablist" aria-label="Các mục dashboard">
+<button id="tab-live" type="button" role="tab" aria-controls="live" aria-selected="false" tabindex="-1">Trực tiếp</button>
+<button id="tab-overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Tổng quan</button>
+<button id="tab-website" type="button" role="tab" aria-controls="website" aria-selected="false" tabindex="-1">Website</button>
+<button id="tab-meta" type="button" role="tab" aria-controls="meta" aria-selected="false" tabindex="-1">Meta</button>
+<button id="tab-crm" type="button" role="tab" aria-controls="crm" aria-selected="false" tabindex="-1">Lead &amp; doanh số</button>
+</nav>
+</div></header>
+<main class="shell">
+<div id="period-toolbar" class="toolbar"><div class="period"><label for="period">Kỳ hiển thị</label><select id="period"><option value="now"></option><option value="prev"></option></select></div><span class="status">Bản đối chiếu 7 ngày</span></div>
+<div id="live" role="tabpanel" aria-labelledby="tab-live" hidden>
+ <div class="section-head live-heading">
+  <div><h2>Hoạt động gần nhất</h2><p class="note" id="live-cadence">GA4 Realtime mỗi phút · GA4 hôm nay và Meta mỗi 5 phút · ICT</p></div>
+  <button type="button" id="live-refresh" class="refresh">Kiểm tra ngay</button>
+ </div>
+ <p class="note live-launch" id="live-launch" hidden><a href="http://127.0.0.1:4178/">Mở dashboard trực tiếp</a>. Nếu dịch vụ đã dừng, chạy <code>npm run dashboard:live</code> trong workspace.</p>
+ <p id="live-progress" class="live-status" role="status"></p>
+ <div id="live-kpis" class="kpis live-kpis"></div>
+ <div class="split">
+  <section class="block" id="live-website" aria-label="Website hôm nay"></section>
+  <section class="block" id="live-instagram" aria-label="Instagram Insights gần nhất"></section>
+ </div>
+ <section class="block" id="live-posts" aria-label="Bài mới nhất"></section>
+</div>
+<div id="overview" role="tabpanel" aria-labelledby="tab-overview"></div>
+<div id="website" role="tabpanel" aria-labelledby="tab-website" hidden></div>
+<div id="meta" role="tabpanel" aria-labelledby="tab-meta" hidden></div>
+<div id="crm" role="tabpanel" aria-labelledby="tab-crm" hidden></div>
+</main>
+<footer class="shell note">TravelFrame · Data-Analytics · GA4 Data API và Meta Graph API chỉ đọc</footer>
+<script id="live-snapshot" type="application/json">{"website":{"realtime":{"value":{"users30":0,"views30":0,"users5":0},"capturedAt":"2026-11-15T03:18:25.888Z","checkedAt":"2026-11-15T03:18:25.888Z","error":false},"today":{"value":{"date":"2026-11-15","sessions":2,"views":2,"events":{"begin_booking":0,"begin_checkout":0,"generate_lead":0,"purchase":0}},"capturedAt":"2026-11-15T03:18:25.869Z","checkedAt":"2026-11-15T03:18:25.870Z","error":false}},"meta":{"instagram":{"value":{"followers":760},"capturedAt":"2026-11-15T03:18:26.868Z","checkedAt":"2026-11-15T03:18:26.868Z","error":false},"facebook":{"value":{"followers":3471},"capturedAt":"2026-11-15T03:18:26.566Z","checkedAt":"2026-11-15T03:18:26.566Z","error":false},"igPost":{"value":{"title":"A little European charm in the heart of Hanoi. ⛪️🤍","publishedAt":"2026-11-14T13:47:42.000Z","url":"https://www.instagram.com/reel/DfuWPUzNvUI/","likes":2,"comments":0},"capturedAt":"2026-11-15T03:18:26.682Z","checkedAt":"2026-11-15T03:18:26.682Z","error":false},"fbPost":{"value":{"title":"A little European charm in the heart of Hanoi. ⛪️🤍","publishedAt":"2026-11-14T13:47:57.000Z","url":"https://www.facebook.com/reel/1483260260387739/","shares":null},"capturedAt":"2026-11-15T03:18:27.417Z","checkedAt":"2026-11-15T03:18:27.417Z","error":false},"insights":{"value":{"start":"2026-11-13T08:00:00.000Z","end":"2026-11-14T08:00:00.000Z","reach":7462,"views":10119,"interactions":534,"profileViews":48},"capturedAt":"2026-11-15T03:18:28.460Z","checkedAt":"2026-11-15T03:18:28.460Z","error":false}}}</script>
+<script id="metrics" type="application/json">{"date":"2026-11-15","timezone":"Asia/Ho_Chi_Minh","assembledAt":"2026-11-15T03:18:00.783Z","gaCapturedAt":"2026-11-15T03:14:41.275Z","metaCapturedAt":"2026-11-15T03:14:46.805Z","property":"552867189","host":"travelframe.sidevn.com","filters":"Phiên và lượt xem lọc theo travelframe.sidevn.com, loại các trang admin/login/user/node và nguồn truy cập thử nhận diện được.","gaCoverageNote":"GA4 hiện thiếu dòng ngày 08/11 và 12/11, kể cả khi truy vấn theo tên miền. Bản chụp 14/11 từng ghi 52 phiên ngày 12/11. Chênh lệch giữa hai bản cần đối soát trước khi kết luận xu hướng website.","windows":{"now":{"range":{"label":"08–14/11","start":"2026-11-08","end":"2026-11-14","from":"2026-11-08T00:00:00+07:00","until":"2026-11-15T00:00:00+07:00"},"igRange":{"from":"2026-11-07T15:00:00+07:00","until":"2026-11-14T15:00:00+07:00"},"ga":{"activeUsers":57,"sessions":95,"screenPageViews":301,"engagedSessions":55,"keyEvents":2,"totalRevenue":0},"gaMeta":{"timezone":"Asia/Saigon","currency":"USD","loss":false,"sampling":0,"capturedAt":"2026-11-15T03:14:41.275Z"},"booking":{"base":0,"details":6,"checkout":0,"payment":0},"gaDaily":[{"date":"20261109","sessions":11,"activeUsers":8,"screenPageViews":25},{"date":"20261110","sessions":23,"activeUsers":16,"screenPageViews":58},{"date":"20261111","sessions":10,"activeUsers":7,"screenPageViews":34},{"date":"20261113","sessions":25,"activeUsers":17,"screenPageViews":91},{"date":"20261114","sessions":26,"activeUsers":20,"screenPageViews":93}],"gaMissingDays":["2026-11-08","2026-11-12"],"gaSources":{"Direct":47,"Facebook":21,"Instagram":15,"Google tự nhiên":7,"Khác":9},"gaSourceSum":99,"gaPages":[{"pagePath":"/tours","screenPageViews":45,"activeUsers":17},{"pagePath":"/","screenPageViews":31,"activeUsers":16},{"pagePath":"/news","screenPageViews":16,"activeUsers":4},{"pagePath":"/hanoi-photoshoot","screenPageViews":15,"activeUsers":9},{"pagePath":"/tour/spiritual-west-lake-breeze","screenPageViews":14,"activeUsers":4},{"pagePath":"/guides","screenPageViews":12,"activeUsers":5},{"pagePath":"/news/hanoi-secret-food-photo-map","screenPageViews":12,"activeUsers":6},{"pagePath":"/about","screenPageViews":11,"activeUsers":5},{"pagePath":"/tour/cinematic-hanoi-visual-storytelling-walk","screenPageViews":11,"activeUsers":5},{"pagePath":"/tour/hanoi-early-bird-sunrise-local-markets","screenPageViews":11,"activeUsers":5},{"pagePath":"/tour/hanoi-unfiltered-local-life-documentary","screenPageViews":11,"activeUsers":4},{"pagePath":"/tour/taste-hanoi-culinary-delights-street-vibes","screenPageViews":9,"activeUsers":3}],"gaEvents":{"view_tour":{"count":74,"users":9},"begin_booking":{"count":1,"users":1},"booking_step_view":{"count":6,"users":3},"add_to_cart":{"count":0,"users":0},"begin_checkout":{"count":0,"users":0},"contact_click":{"count":2,"users":2},"file_download":{"count":1,"users":1},"form_submit":{"count":1,"users":1},"generate_lead":{"count":1,"users":1},"purchase":{"count":0,"users":0}},"gaLeadOrigins":[{"pagePath":"/contact","eventName":"form_submit","eventCount":1,"totalUsers":1},{"pagePath":"/contact","eventName":"generate_lead","eventCount":1,"totalUsers":1}],"ig":{"reach":126290,"views":188246,"total_interactions":11047,"saves":1360,"shares":2786,"profile_views":587,"website_clicks":12,"accounts_engaged":6512},"igDaily":[{"day":"2026-11-08","end":"2026-11-08T08:00:00.000Z","reach":3407,"views":5165},{"day":"2026-11-09","end":"2026-11-09T08:00:00.000Z","reach":10407,"views":14225},{"day":"2026-11-10","end":"2026-11-10T08:00:00.000Z","reach":55841,"views":74751},{"day":"2026-11-11","end":"2026-11-11T08:00:00.000Z","reach":40337,"views":50765},{"day":"2026-11-12","end":"2026-11-12T08:00:00.000Z","reach":13166,"views":18176},{"day":"2026-11-13","end":"2026-11-13T08:00:00.000Z","reach":11654,"views":15082},{"day":"2026-11-14","end":"2026-11-14T08:00:00.000Z","reach":7462,"views":10082}],"igPosts":13,"fbPosts":15},"prev":{"range":{"label":"01–07/11","start":"2026-11-01","end":"2026-11-07","from":"2026-11-01T00:00:00+07:00","until":"2026-11-08T00:00:00+07:00"},"igRange":{"from":"2026-10-31T15:00:00+07:00","until":"2026-11-07T15:00:00+07:00"},"ga":{"activeUsers":26,"sessions":64,"screenPageViews":209,"engagedSessions":36,"keyEvents":0,"totalRevenue":0},"gaMeta":{"timezone":"Asia/Saigon","currency":"USD","loss":false,"sampling":0,"capturedAt":"2026-11-15T03:14:41.784Z"},"booking":{"base":1,"details":23,"checkout":0,"payment":4},"gaDaily":[{"date":"20261101","sessions":15,"activeUsers":7,"screenPageViews":40},{"date":"20261102","sessions":14,"activeUsers":8,"screenPageViews":76},{"date":"20261103","sessions":12,"activeUsers":6,"screenPageViews":29},{"date":"20261104","sessions":8,"activeUsers":3,"screenPageViews":28},{"date":"20261105","sessions":5,"activeUsers":3,"screenPageViews":14},{"date":"20261106","sessions":4,"activeUsers":2,"screenPageViews":5},{"date":"20261107","sessions":6,"activeUsers":5,"screenPageViews":17}],"gaMissingDays":[],"gaSources":{"Direct":37,"Facebook":6,"Instagram":7,"Google tự nhiên":11,"Khác":3},"gaSourceSum":64,"gaPages":[{"pagePath":"/","screenPageViews":34,"activeUsers":17},{"pagePath":"/tour/spiritual-west-lake-breeze","screenPageViews":32,"activeUsers":6},{"pagePath":"/tours","screenPageViews":31,"activeUsers":11},{"pagePath":"/booking/details","screenPageViews":23,"activeUsers":9},{"pagePath":"/tour/french-colonial-historical-footsteps","screenPageViews":19,"activeUsers":2},{"pagePath":"/about","screenPageViews":11,"activeUsers":4},{"pagePath":"/gallery","screenPageViews":9,"activeUsers":5},{"pagePath":"/tour/hanoi-early-bird-sunrise-local-markets","screenPageViews":7,"activeUsers":4},{"pagePath":"/tour/taste-hanoi-culinary-delights-street-vibes","screenPageViews":7,"activeUsers":3},{"pagePath":"/booking/payment","screenPageViews":4,"activeUsers":4},{"pagePath":"/news","screenPageViews":4,"activeUsers":3},{"pagePath":"/tour/cinematic-hanoi-visual-storytelling-walk","screenPageViews":4,"activeUsers":3}],"gaEvents":{"view_tour":{"count":76,"users":10},"begin_booking":{"count":15,"users":7},"booking_step_view":{"count":26,"users":8},"add_to_cart":{"count":4,"users":4},"begin_checkout":{"count":4,"users":4},"contact_click":{"count":1,"users":1},"file_download":{"count":0,"users":0},"form_submit":{"count":0,"users":0},"generate_lead":{"count":0,"users":0},"purchase":{"count":0,"users":0}},"gaLeadOrigins":[],"ig":{"reach":19773,"views":33710,"total_interactions":1754,"saves":392,"shares":350,"profile_views":105,"website_clicks":2,"accounts_engaged":1056},"igDaily":[{"day":"2026-11-01","end":"2026-11-01T08:00:00.000Z","reach":1637,"views":2882},{"day":"2026-11-02","end":"2026-11-02T08:00:00.000Z","reach":1688,"views":2779},{"day":"2026-11-03","end":"2026-11-03T08:00:00.000Z","reach":1887,"views":3011},{"day":"2026-11-04","end":"2026-11-04T08:00:00.000Z","reach":2088,"views":3264},{"day":"2026-11-05","end":"2026-11-05T08:00:00.000Z","reach":2518,"views":3808},{"day":"2026-11-06","end":"2026-11-06T08:00:00.000Z","reach":6314,"views":8970},{"day":"2026-11-07","end":"2026-11-07T08:00:00.000Z","reach":5354,"views":8996}],"igPosts":13,"fbPosts":13}},"profile":{"igFollowers":760,"igMedia":228,"fbFollowers":3471},"account":{"ig":"17841438272497512","fb":"1409099405611405"},"ads":{"available":false,"reason":"MCP chưa tìm thấy tài khoản quảng cáo có thể đọc."},"crm":{"total":92,"stages":{"Qualified-unconfirmed":11,"Quoted":19,"Guide-Sent":36,"Inquiry":25,"Meeting-Scheduled":1},"now":{"records":59,"guides":27,"nonGuide":32,"dateAndSize":1,"quotes":5,"depositEvidence":0},"prev":{"records":9,"guides":0,"nonGuide":9,"dateAndSize":6,"quotes":6,"depositEvidence":0},"confirmedBookings":null,"revenue":null},"seed":{"matched":25,"c1":7,"c2":6,"totalPublished":28},"posts":{"instagram":[{"title":"Vietnam does Christmas louder than you'd expect. 🎄","url":"https://www.instagram.com/reel/Dfjq4KWtyAH/","publishedAt":"2026-11-10T10:18:59.000Z","likes":2592,"comments":86,"shares":null,"date":"2026-11-10","ageHours":112},{"title":"Nobody moves faster than the staff on Hanoi's beer street. 🍺","url":"https://www.instagram.com/reel/Dfj4fADSff7/","publishedAt":"2026-11-10T12:15:48.000Z","likes":564,"comments":4,"shares":null,"date":"2026-11-10","ageHours":110},{"title":"Thrift shopping in Hanoi? Give this market a few hours.","url":"https://www.instagram.com/reel/DfhfFILS-dK/","publishedAt":"2026-11-09T13:55:03.000Z","likes":120,"comments":23,"shares":null,"date":"2026-11-09","ageHours":133},{"title":"Save this for lunch near St. Joseph's Cathedral.","url":"https://www.instagram.com/reel/Dfhb8a2yScH/","publishedAt":"2026-11-09T13:28:00.000Z","likes":53,"comments":12,"shares":null,"date":"2026-11-09","ageHours":133},{"title":"\"Crossing the street here is like next level.\" She's not wrong. 🛵","url":"https://www.instagram.com/reel/DfluB5MNDG9/","publishedAt":"2026-11-11T05:23:22.000Z","likes":22,"comments":9,"shares":null,"date":"2026-11-11","ageHours":93}],"facebook":[{"title":"Vietnam does Christmas louder than you'd expect. 🎄","url":"https://www.facebook.com/reel/991036764063782/","publishedAt":"2026-11-10T10:19:15.000Z","likes":null,"comments":null,"shares":29,"date":"2026-11-10","ageHours":112},{"title":"Save this for lunch near St. Joseph's Cathedral.","url":"https://www.facebook.com/reel/2268308380773075/","publishedAt":"2026-11-09T13:28:19.000Z","likes":null,"comments":null,"shares":13,"date":"2026-11-09","ageHours":133},{"title":"Thrift shopping in Hanoi? Give this market a few hours.","url":"https://www.facebook.com/reel/1446188516931637/","publishedAt":"2026-11-09T13:55:16.000Z","likes":null,"comments":null,"shares":5,"date":"2026-11-09","ageHours":133},{"title":"\"Crossing the street here is like next level.\" She's not wrong. 🛵","url":"https://www.facebook.com/reel/1764296934674552/","publishedAt":"2026-11-11T05:23:40.000Z","likes":null,"comments":null,"shares":2,"date":"2026-11-11","ageHours":93}]}}</script>
+<script>
+"use strict";
+const d=JSON.parse(document.getElementById("metrics").textContent);
+const $=id=>document.getElementById(id), nf=new Intl.NumberFormat("vi-VN",{maximumFractionDigits:1});
+const num=x=>x==null?"Chưa đo":nf.format(x);
+const esc=x=>String(x).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const checkedURL=s=>{try{const u=new URL(s);return u.protocol==="https:"&&["instagram.com","www.instagram.com","facebook.com","www.facebook.com"].includes(u.hostname)?u.href:null;}catch{return null;}};
+const cur=d.windows.now, old=d.windows.prev;
+let selected="now", view="overview", trend="sessions";
+const cmp=(a,b)=>a==null||b==null?"Chưa đo":b===0?(a===0?"Không đổi":"+"+num(a)+" so với 0"):(a>b?"+":"")+num(100*(a/b-1))+"%";
+const selectedNote=()=>selected==="now"?"so với kỳ trước":"kỳ đối chiếu";
+function metric(label,a,b,hint="",tone=""){
+ const n=selected==="now"?a:b;
+ return '<div class="kpi"><div class="kpi-label">'+esc(label)+'</div><strong>'+num(n)+'</strong><small class="'+tone+'">'+esc(selected==="now"&&b!=null&&a!=null?cmp(a,b)+" · "+selectedNote():hint||selectedNote())+'</small></div>';
+}
+function table(head,rows,cls=""){
+ return '<div class="table-scroll"><table class="'+cls+'"><thead><tr>'+head.map((x,i)=>'<th scope="col"'+(x.startsWith("#")?' class="num"':'')+'>'+esc(x.replace(/^#/,""))+'</th>').join("")+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+r.map((x,i)=>'<td'+(head[i]?.startsWith("#")?' class="num"':'')+'>'+x+'</td>').join("")+'</tr>').join("")+'</tbody></table></div>';
+}
+function comparison(rows){
+ return table(["Chỉ số","#"+old.range.label,"#"+cur.range.label,"#Thay đổi"],rows.map(([label,a,b])=>[esc(label),num(b),num(a),esc(cmp(a,b))]),"compact");
+}
+const block=(title,body)=>'<section class="block"><h2>'+esc(title)+'</h2>'+body+'</section>';
+function overview(){
+ const w=d.windows[selected],c=d.crm[selected];
+ const funnel=[
+ ["Tiếp cận Instagram",num(w.ig.reach),"Tài khoản duy nhất trong kỳ · Meta"],
+ ["Lượt xem hồ sơ Instagram",num(w.ig.profile_views),"Lượt xem · Meta"],
+ ["Bấm liên kết website Instagram",num(w.ig.website_clicks),"Lượt bấm · Meta"],
+ ["DM / Messenger hỏi tour","Chưa đo","Chưa có tổng inbox theo kỳ; không dùng số dòng CRM thay thế"],
+ ["Phiên website",num(w.ga.sessions),"Phiên · GA4 đã lọc một phần"],
+ ["Lượt xem trang đặt tour",num(w.booking.base)+" / "+num(w.booking.details),"/booking (+ /en/booking) / /booking/details · tách hai đường dẫn"],
+ ["Hồ sơ có ngày đi và số khách",num(c.dateAndSize),"CRM: hồ sơ mới ngoài nhóm chỉ gửi guide; chưa xác nhận đủ điều kiện"],
+ ["Báo giá / cọc / booking / doanh thu",num(c.quotes)+" / "+num(c.depositEvidence)+" / Chưa đo / Chưa đo","Báo giá có ngày / dòng có bằng chứng cọc; không thay thế sổ thu tiền"]
+ ];
+ $("overview").innerHTML='<aside class="callout"><p><strong>Reach Instagram '+esc(cmp(cur.ig.reach,old.ig.reach))+' so với kỳ trước.</strong></p><p>'+esc(d.gaCoverageNote)+'</p></aside>'+
+ '<div class="kpis">'+metric("Reach Instagram",cur.ig.reach,old.ig.reach,"","good")+metric("Phiên website · tạm tính",cur.ga.sessions,old.ga.sessions,"","watch")+metric("Xem /booking/details · tạm tính",cur.booking.details,old.booking.details,"","watch")+metric("Báo giá có ngày",d.crm.now.quotes,d.crm.prev.quotes,"Sổ CRM")+'</div>'+
+ block("Tám tầng theo dõi",table(["Tầng","Điểm đo","Giá trị","Nguồn / định nghĩa"],funnel.map((r,i)=>[String(i+1),...r.map(esc)]),"funnel compact")+'<p class="note">Các điểm đo độc lập, không phải hành trình của cùng một nhóm người.</p>')+
+ trendBlock()+
+ block("Các số cần đối soát",'<ol class="actions"><li>'+num(d.crm.now.quotes)+' báo giá có ngày trong kỳ mới nhất, cùng phản hồi, cọc và xác nhận booking nếu có.</li><li>Hai ngày GA4 thiếu dòng và chênh lệch giữa tổng phiên theo nguồn với tổng phiên website.</li></ol>');
+ $("trend-select").value=trend;
+ $("trend-select").addEventListener("change",e=>{trend=e.target.value;draw();});
+}
+function trendBlock(){
+ return '<section class="block"><div class="section-head"><h2>Xu hướng theo ngày</h2><div class="period"><label for="trend-select">Chỉ số</label><select id="trend-select"><option value="sessions">Phiên website</option><option value="views">Lượt xem Instagram</option><option value="reach">Tiếp cận Instagram</option></select></div></div><figure class="chart" id="trend-chart"></figure><div class="legend"><span><i class="swatch"></i>'+esc(cur.range.label)+'</span><span><i class="swatch prev"></i>'+esc(old.range.label)+'</span></div><p class="note" id="trend-note"></p><details><summary>Số liệu từng ngày</summary><div id="trend-values"></div></details></section>';
+}
+function points(w){
+ const start=Date.parse(w.range.start+"T00:00:00Z");
+ return Array.from({length:7},(_,i)=>{
+  const day=new Date(start+i*86400000).toISOString().slice(0,10);
+  const val=trend==="sessions"?w.gaDaily.find(x=>x.date===day.replace(/-/g,""))?.sessions:w.igDaily.find(x=>x.day===day)?.[trend];
+  return {day:day.slice(8)+"/"+day.slice(5,7),val:val??null};
+ });
+}
+function draw(){
+ const box=$("trend-chart");if(!box||view!=="overview")return;
+ const a=points(cur),b=points(old),ww=Math.floor(box.clientWidth);if(ww<100)return;
+ const H=215,L=ww<400?53:62,R=13,T=14,B=185;
+ const mx=Math.max(...[...a,...b].map(p=>p.val??0),1);const unit=10**Math.floor(Math.log10(mx));const max=Math.ceil(mx/unit)*unit;
+ const X=i=>L+(ww-L-R)*i/6, Y=v=>B-(B-T)*v/max;
+ const label=$("trend-select").selectedOptions[0].textContent;
+ let s='<svg viewBox="0 0 '+ww+' '+H+'" role="img" aria-label="'+esc(label)+' theo ngày, hai kỳ, không nối điểm thiếu">';
+ for(let i=0;i<=4;i++){const v=max*i/4,y=Y(v);s+='<line class="grid" x1="'+L+'" y1="'+y+'" x2="'+(ww-R)+'" y2="'+y+'"/><text x="'+(L-7)+'" y="'+(y+4)+'" text-anchor="end">'+num(v)+'</text>';}
+ for(let i=0;i<7;i++){if(ww<410&&i%2!==0)continue;s+='<text x="'+X(i)+'" y="205" text-anchor="'+(i===6?"end":i===0?"start":"middle")+'">Ngày '+(i+1)+'</text>';}
+ for(const [series,cls] of [[b,"prev"],[a,"now"]]){
+  let path="",gap=true;series.forEach((p,i)=>{if(p.val==null){gap=true;return;}path+=(gap?"M":"L")+X(i)+" "+Y(p.val)+" ";gap=false;});
+  s+='<path class="'+cls+'" fill="none" d="'+path+'"/>';
+  series.forEach((p,i)=>{if(p.val!=null)s+='<circle class="dot-'+cls+'" cx="'+X(i)+'" cy="'+Y(p.val)+'" r="3.5"><title>'+p.day+': '+num(p.val)+'</title></circle>';});
+ }
+ box.innerHTML=s+'</svg>';
+ $("trend-values").innerHTML=table(["Ngày kỳ trước","#Giá trị","Ngày kỳ này","#Giá trị"],a.map((x,i)=>[b[i].day,num(b[i].val),x.day,num(x.val)]),"compact");
+ $("trend-note").textContent=trend==="sessions"?"GA4 theo ngày ICT. Biểu đồ để trống ngày 08/11 và 12/11.":"Mỗi ngày Instagram kết thúc lúc 15:00 ICT. Tài khoản tiếp cận trong nhiều ngày có thể trùng nhau.";
+}
+function website(){
+ const w=d.windows[selected], a=cur.ga,b=old.ga;
+ const sourceRows=Object.entries(w.gaSources).sort((x,y)=>y[1]-x[1]);
+ const bars='<div class="sources">'+sourceRows.map(([k,v])=>'<div class="source"><span>'+esc(k)+'</span><div class="track" aria-hidden="true"><div class="bar" style="width:'+100*v/sourceRows[0][1]+'%"></div></div><b>'+num(v)+'</b></div>').join("")+'</div>';
+ const events=[["Xem tour","view_tour"],["Bắt đầu đặt","begin_booking"],["Xem bước đặt tour","booking_step_view"],["Thêm vào giỏ","add_to_cart"],["Bắt đầu thanh toán","begin_checkout"],["Bấm liên hệ","contact_click"],["Tải file","file_download"],["Gửi form","form_submit"],["Tín hiệu lead","generate_lead"],["Purchase","purchase"]];
+ const leads=w.gaLeadOrigins.map(row=>[esc(row.pagePath),esc(row.eventName),num(row.eventCount)]);
+ $("website").innerHTML='<aside class="callout"><p>'+esc(d.gaCoverageNote)+'</p></aside>'+
+ '<div class="kpis">'+metric("Phiên",a.sessions,b.sessions,"","watch")+metric("Người dùng hoạt động",a.activeUsers,b.activeUsers,"","watch")+metric("Lượt xem trang",a.screenPageViews,b.screenPageViews,"","watch")+metric("Phiên có tương tác",a.engagedSessions,b.engagedSessions,"","watch")+'</div>'+
+ '<div class="split">'+block("Nguồn phiên · "+w.range.label,bars+'<p class="note">Bảng nguồn có '+num(w.gaSourceSum)+' phiên. Truy vấn tổng quan trả '+num(w.ga.sessions)+' phiên.</p><details><summary>So sánh theo nguồn</summary>'+comparison(["Direct","Facebook","Instagram","Google tự nhiên","Khác"].map(k=>[k,cur.gaSources[k]??0,old.gaSources[k]??0]))+'</details>')+block("Trang được xem · "+w.range.label,table(["Trang","#Lượt xem"],w.gaPages.slice(0,7).map(x=>[esc(x.pagePath),num(x.screenPageViews)]),"compact"))+'</div>'+
+ block("Các điểm đo đặt tour",comparison([["/booking",cur.booking.base,old.booking.base],["/booking/details",cur.booking.details,old.booking.details],["/checkout",cur.booking.checkout,old.booking.checkout],["/booking/payment",cur.booking.payment,old.booking.payment]])+'<p class="note">Đã gộp biến thể /en. Mỗi dòng đếm lượt xem của một đường dẫn.</p>')+
+ block("Sự kiện GA4 · "+w.range.label,table(["Sự kiện","#Số lần","#Người dùng"],events.map(([label,k])=>[esc(label),num(w.gaEvents[k].count),num(w.gaEvents[k].users)]),"compact")+'<p class="note">Số 0 nghĩa là GA4 không trả dòng cho sự kiện trong tập đã lọc. Lead và đơn cần đối soát bằng hồ sơ khách.</p>'+
+ (leads.length?'<details><summary>Xem trang phát sinh sự kiện</summary>'+table(["Trang","Sự kiện","#Số lần"],leads,"compact")+'</details>':""))+
+ block("Phạm vi GA4",'<p class="note">'+esc(d.filters)+'</p>');
+}
+function meta(){
+ const w=d.windows[selected];
+ const ig=[["Tiếp cận","reach"],["Lượt xem","views"],["Tổng tương tác","total_interactions"],["Tài khoản tương tác","accounts_engaged"],["Lượt lưu","saves"],["Lượt chia sẻ","shares"],["Lượt xem hồ sơ","profile_views"],["Bấm website","website_clicks"]];
+ const posts=(items,ch)=>table(["Bài","Ngày","#"+(ch==="ig"?"Lượt thích":"Chia sẻ")],items.map(p=>{
+ const href=checkedURL(p.url);const title=esc(p.title);
+ return [href?'<a href="'+esc(href)+'" target="_blank" rel="noopener noreferrer">'+title+'</a>':title,esc(p.date.slice(8)+"/"+p.date.slice(5,7)),num(ch==="ig"?p.likes:p.shares)];
+ }),"posts compact");
+ $("meta").innerHTML=block("Instagram Insights",comparison(ig.map(([label,k])=>[label,cur.ig[k],old.ig[k]]))+'<p class="note">Kỳ đang chọn từ '+esc(ict(w.igRange.from))+' đến '+esc(ict(w.igRange.until))+'. Tổng cấp tài khoản có thể gồm phân phối trả phí.</p>')+
+ '<div class="split">'+block("Facebook Page",'<p><strong>'+num(d.profile.fbFollowers)+'</strong> follower tại lúc chụp · '+num(w.fbPosts)+' bài có bằng chứng API trong kỳ.</p><p class="note">Không có reach/views toàn Page trong connector. Không dùng lượt chia sẻ từng bài thay thế.</p>')+block("Instagram Profile",'<p><strong>'+num(d.profile.igFollowers)+'</strong> follower tại lúc chụp · '+num(w.igPosts)+' nội dung có bằng chứng API trong kỳ.</p><p class="note">Follower là snapshot hiện tại, không phải số tăng trong kỳ.</p>')+'</div>'+
+ block("Meta Ads",'<p><strong>Chưa đo.</strong> '+esc(d.ads.reason)+' Không kết luận chi tiêu bằng 0 hoặc quảng cáo đã dừng.</p>')+
+ block("Bài nổi bật đã qua 48 giờ",selected==="now"?'<p class="note">Tương tác tích lũy đến lúc trích xuất. Ngày đăng tính theo ICT.</p><div class="split"><div><h3>Instagram · lượt thích</h3>'+posts(d.posts.instagram,"ig")+'</div><div><h3>Facebook · lượt chia sẻ</h3>'+posts(d.posts.facebook,"fb")+'</div></div>':'<p class="tab-empty">Xem bài nổi bật ở kỳ '+esc(cur.range.label)+'.</p>')+
+ block("Seed comment · "+cur.range.label,'<p>'+d.seed.matched+'/'+d.seed.totalPublished+' URL khớp sổ nội bộ. Có mốc C1 ở '+d.seed.c1+' URL và C2 ở '+d.seed.c2+' URL.</p><p class="note">Nguồn là sổ ghi nhận nội bộ.</p>');
+}
+function crm(){
+ const c=d.crm[selected];
+ $("crm").innerHTML='<div class="kpis">'+metric("Hồ sơ mới",d.crm.now.records,d.crm.prev.records)+metric("Chỉ gửi guide",d.crm.now.guides,d.crm.prev.guides)+metric("Có ngày đi + số khách",d.crm.now.dateAndSize,d.crm.prev.dateAndSize)+metric("Báo giá có ngày",d.crm.now.quotes,d.crm.prev.quotes)+'</div>'+
+ block("Theo dõi kết quả · "+d.windows[selected].range.label,table(["Điểm đo","Giá trị"],[["Hồ sơ mới ngoài nhóm chỉ gửi guide",num(c.nonGuide)],["Dòng có bằng chứng cọc theo kỳ",num(c.depositEvidence)],["Booking đã đối soát","Chưa đo"],["Doanh thu đã đối soát","Chưa đo"]],"compact")+'<p class="note">Hồ sơ được nhóm theo ngày ghi nhận và trạng thái hiện tại; không đại diện toàn bộ inbox, không phải cohort chuyển đổi. Không dùng mã tham chiếu thay bằng chứng booking.</p>')+
+ block("Tình trạng sổ CRM tại lúc chụp",table(["Trạng thái","#Hồ sơ"],Object.entries(d.crm.stages).map(([s,n])=>[esc(({"Quoted":"Đã báo giá","Guide-Sent":"Đã gửi guide","Inquiry":"Hỏi thông tin","Qualified-unconfirmed":"Chưa xác nhận đủ điều kiện","Meeting-Scheduled":"Đã hẹn gặp"})[s]??s),num(n)]),"compact")+'<p class="note">'+d.crm.total+' dòng trong tracker, gồm người chỉ nhận guide. Không hiển thị thông tin cá nhân.</p>');
+}
+const liveUrl="http://127.0.0.1:4178";
+const connectedMode=location.origin===liveUrl;
+const liveData=JSON.parse($("live-snapshot").textContent);
+const liveGroups=["website","meta"];
+const pollMs={website:60000,meta:300000};
+const inProgress=new Map();
+const nextPoll={website:0,meta:0};
+const failed=new Set();
+const ictDateTime=new Intl.DateTimeFormat("vi-VN",{
+ timeZone:"Asia/Ho_Chi_Minh",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"
+});
+const ict=value=>value?ictDateTime.format(new Date(value))+" ICT":"";
+const dateLabel=date=>date.split("-").reverse().join("/");
+function sourceLabel(record,group,maxAge=pollMs[group]){
+ if(!record?.capturedAt)return record?.error||failed.has(group)?"Nguồn tạm thời chưa phản hồi":"Chờ dữ liệu";
+ const read="Lấy lúc "+ict(record.capturedAt);
+ if(record.error||failed.has(group))return "Dữ liệu lần trước · "+read+" · Nguồn tạm lỗi";
+ if(!connectedMode||Date.now()-Date.parse(record.capturedAt)>maxAge+30000)return "Bản lưu · "+read;
+ return read;
+}
+const liveMetric=(label,n,hint)=>'<div class="kpi"><div class="kpi-label">'+esc(label)+'</div><strong>'+num(n)+'</strong><small class="muted">'+esc(hint)+'</small></div>';
+const liveTime=(record,group,maxAge)=>'<p class="live-status">'+esc(sourceLabel(record,group,maxAge))+'</p>';
+function livePost(label,record,channel){
+ const post=record?.value;
+ if(!post)return '<div><h3>'+label+'</h3>'+liveTime(record,"meta")+'</div>';
+ const link=checkedURL(post.url);
+ const title=esc(post.title);
+ const metricLine=channel==="ig"?num(post.likes)+" lượt thích · "+num(post.comments)+" bình luận":
+  "Chia sẻ "+(post.shares==null?"chưa có số từ API":num(post.shares));
+ return '<div><h3>'+label+'</h3><div class="live-post">'+
+  (link?'<a href="'+esc(link)+'" target="_blank" rel="noopener noreferrer">'+title+'</a>':title)+
+  '<small>Đăng '+esc(ict(post.publishedAt))+'</small><small>'+esc(metricLine)+'</small></div>'+liveTime(record,"meta")+'</div>';
+}
+function live(){
+ const ga=liveData.website?.realtime, today=liveData.website?.today;
+ const social=liveData.meta, ig=social?.instagram, fb=social?.facebook, insights=social?.insights;
+ $("live-kpis").innerHTML=
+  liveMetric("Người dùng · 30 phút",ga?.value?.users30,sourceLabel(ga,"website"))+
+  liveMetric("Người dùng · 5 phút",ga?.value?.users5,sourceLabel(ga,"website"))+
+  liveMetric("Follower Instagram",ig?.value?.followers,sourceLabel(ig,"meta"))+
+  liveMetric("Follower Facebook",fb?.value?.followers,sourceLabel(fb,"meta"));
+ const day=today?.value;
+ $("live-website").innerHTML='<h2>Website '+(day?esc(dateLabel(day.date)):"hôm nay")+'</h2>'+
+  liveTime(today,"website",pollMs.meta)+
+  table(["Chỉ số","#Số lượng"],[
+   ["Lượt xem trang · 30 phút",num(ga?.value?.views30)],
+   ["Phiên website trong ngày",num(day?.sessions)],["Lượt xem trang trong ngày",num(day?.views)],
+   ["Bắt đầu đặt tour",num(day?.events?.begin_booking)],["Bắt đầu thanh toán",num(day?.events?.begin_checkout)],
+   ["Sự kiện tạo lead",num(day?.events?.generate_lead)],["Sự kiện purchase",num(day?.events?.purchase)]
+  ],"compact")+
+  '<p class="note">GA4 Realtime theo luồng web, có thể gồm truy cập nội bộ. Số hôm nay đã lọc theo tên miền và có độ trễ xử lý. Booking và doanh thu cần đối soát.</p>';
+ const i=insights?.value;
+ $("live-instagram").innerHTML='<h2>Instagram Insights</h2>'+
+  (i?'<p class="note">Kỳ Meta gần nhất có dữ liệu · '+esc(ict(i.start))+' → '+esc(ict(i.end))+'</p>':'')+
+  liveTime(insights,"meta")+
+  table(["Chỉ số","#Số lượng"],[
+   ["Tài khoản tiếp cận",num(i?.reach)],["Lượt xem",num(i?.views)],
+   ["Tương tác",num(i?.interactions)],["Lượt xem hồ sơ",num(i?.profileViews)]
+  ],"compact")+
+  '<p class="note">Instagram tổng hợp theo ngày. Kết nối Facebook hiện cung cấp follower và dữ liệu bài viết.</p>';
+ $("live-posts").innerHTML='<h2>Bài mới nhất</h2><div class="split">'+
+  livePost("Instagram",social?.igPost,"ig")+livePost("Facebook",social?.fbPost,"fb")+'</div>';
+}
+function updateLiveProgress(){
+ if(!connectedMode)return;
+ $("live-refresh").disabled=inProgress.size>0;
+ $("live-progress").textContent=inProgress.size?"Đang lấy số liệu từ API…":
+  failed.size?"Một nguồn tạm thời chưa phản hồi. Dashboard sẽ thử lại.":"";
+}
+function refreshLive(group){
+ if(inProgress.has(group))return inProgress.get(group);
+ const request=(async()=>{
+  try{
+   const response=await fetch("/api/realtime/"+group,{cache:"no-store",signal:AbortSignal.timeout(35000)});
+   if(!response.ok)throw new Error("API");
+   liveData[group]=await response.json();
+   failed.delete(group);
+   const checks=Object.values(liveData[group]).map(item=>item.refreshAfter).filter(Number.isFinite);
+   nextPoll[group]=Math.max(Date.now()+1000,Math.min(Date.now()+pollMs[group],...checks));
+  }catch{
+   failed.add(group);
+   nextPoll[group]=Date.now()+pollMs.website;
+  }finally{
+   inProgress.delete(group);
+   updateLiveProgress();
+   if(view==="live")live();
+  }
+ })();
+ inProgress.set(group,request);
+ updateLiveProgress();
+ return request;
+}
+function pollLive(){
+ if(view!=="live"||document.hidden)return;
+ liveGroups.filter(group=>Date.now()>=nextPoll[group]).forEach(refreshLive);
+}
+function render(){
+ $("dashboard-scope").textContent=view==="live"?"GA4 Realtime · Meta Graph API":cur.range.label+" so với "+old.range.label+" · GA4, Meta Graph API, CRM nội bộ";
+ $("period-toolbar").hidden=view==="live";
+ ({live,overview,website,meta,crm})[view]();
+ if(view==="overview")draw();
+ if(view==="live"&&connectedMode)pollLive();
+}
+const tabs=[...document.querySelectorAll('[role="tab"]')];
+function activate(t,focus=false){
+ view=t.getAttribute("aria-controls");
+ tabs.forEach(x=>{const yes=x===t;x.setAttribute("aria-selected",String(yes));x.tabIndex=yes?0:-1;$(x.getAttribute("aria-controls")).hidden=!yes;});
+ render();if(focus)t.focus();
+}
+tabs.forEach((t,i)=>{
+ t.addEventListener("click",()=>activate(t));
+ t.addEventListener("keydown",e=>{const n=({ArrowRight:(i+1)%tabs.length,ArrowLeft:(i+tabs.length-1)%tabs.length,Home:0,End:tabs.length-1})[e.key];if(n!==undefined){e.preventDefault();activate(tabs[n],true);}});
+});
+$("period").addEventListener("change",e=>{selected=e.target.value;render();});
+$("weekly-capture").textContent="Bản tuần · "+ict(d.assembledAt);
+$("period").querySelector('option[value="now"]').textContent=cur.range.label;
+$("period").querySelector('option[value="prev"]').textContent=old.range.label;
+new ResizeObserver(draw).observe(document.querySelector("main"));
+if(connectedMode){
+ document.title="TravelFrame | Dashboard trực tiếp";
+ $("live-refresh").addEventListener("click",()=>liveGroups.forEach(refreshLive));
+ document.addEventListener("visibilitychange",pollLive);
+ setInterval(pollLive,1000);
+ activate($("tab-live"));
+}else{
+ $("live-cadence").textContent="Dữ liệu lưu gần nhất · ICT";
+ $("live-launch").hidden=false;
+ $("live-refresh").hidden=true;
+ render();
+}
+</script>
+</body>
+</html>
