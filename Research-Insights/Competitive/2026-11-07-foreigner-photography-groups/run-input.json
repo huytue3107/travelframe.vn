@@ -1,0 +1,6 @@
+{
+  "queries": "site:facebook.com/groups (\"vietnam\" OR \"hanoi\") (\"photographer\" OR \"photography\" OR \"photoshoot\")\nsite:facebook.com/groups (\"vietnam travel\" OR \"vietnam backpackers\" OR \"hanoi expats\")\nsite:facebook.com/groups (\"travel photography\" OR \"photo tour\") (\"vietnam\" OR \"southeast asia\")\nsite:facebook.com (\"looking for a photographer\" OR \"need a photographer\") (\"hanoi\" OR \"vietnam\")\nsite:facebook.com (\"photoshoot\" OR \"photo tour\") (\"hanoi\" OR \"vietnam\") (\"tourist\" OR \"traveler\" OR \"couple\")\nsite:reddit.com/r/vietnam OR site:reddit.com/r/hanoi (\"photographer\" OR \"photoshoot\" OR \"photo tour\")",
+  "maxPagesPerQuery": 2,
+  "countryCode": "us",
+  "languageCode": "en"
+}

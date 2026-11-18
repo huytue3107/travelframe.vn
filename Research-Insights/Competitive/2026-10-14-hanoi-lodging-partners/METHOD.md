@@ -59,10 +59,10 @@ khách quốc tế, doanh thu, số phòng, quyền ký hợp tác hoặc willin
 
 ## Nguồn nội bộ
 
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/01-Brand-Source-Of-Truth.md`
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/02-Audience-And-Funnel.md`
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/03-Product-And-Guest-Experience.md`
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/04-Operations-And-Policies.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/01-Brand-Source-Of-Truth.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/02-Audience-And-Funnel.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/03-Product-And-Guest-Experience.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/04-Operations-And-Policies.md`
 
 ## Kiểm tra và tiếp tục
 

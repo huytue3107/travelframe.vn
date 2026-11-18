@@ -81,7 +81,7 @@ Nguồn đã đọc:
 
 - `Executive/Current-State.md`: ưu tiên khách quốc tế, nội dung tự sản xuất và photography/local discovery; các con số hiệu quả trong file không dùng làm bằng chứng cho format này.
 - [Bộ nhận diện Field Notes đã duyệt](../../../Brand-Strategy/brand.md): Pop Field Notes; Archivo Black, DM Serif Display, DM Sans; nền Paper White, Field Ink, Signal Pink, Map Lemon; teal là endorsement TravelFrame. Tối đa hai font trên một frame, chữ không che hành động/ánh mắt, không gradient/glow.
-- Vault: `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/01-Brand-Source-Of-Truth.md`, `05-Content-System.md`, `13-Examples-And-Feedback.md`: warm local friend, practical English, lồng photography khi phù hợp, không hù dọa hoặc hứa quá mức.
+- Vault: `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/01-Brand-Source-Of-Truth.md`, `05-Content-System.md`, `13-Examples-And-Feedback.md`: warm local friend, practical English, lồng photography khi phù hợp, không hù dọa hoặc hứa quá mức.
 
 **Giới hạn phạm vi:** `Brand-Strategy/brand.md` được duyệt cho series VJ Field Notes; chưa phải phê duyệt tự động cho một series faceless mới. Nếu chọn dùng hệ này cho format mới, cần Rocky xác nhận phạm vi áp dụng. Bộ font Cormorant/Oooh Baby/DM Sans trong dự án travel cards là tài sản khác; nghiên cứu này không tự gộp các hệ thành một bộ nhận diện.
 
