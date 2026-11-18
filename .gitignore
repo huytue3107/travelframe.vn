@@ -46,3 +46,18 @@ Creative-Production/Projects/Hanoi-Dong-Xuan-Series/video-*/.waveform-cache/
 
 # Machine-local Claude permission cache
 .claude/settings.local.json
+
+# MIG-20261118-GIT-SYNC-TO-MAIN: render output and heavy media stay outside git (Rocky 2026-11-18)
+tmp/
+node_modules/
+**/.hyperframes/preview/
+Creative-Production/Projects/**/*.png
+Creative-Production/Projects/**/*.jpg
+Creative-Production/Projects/**/*.jpeg
+Creative-Production/Projects/**/*.webp
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.wav
+*.m4a
