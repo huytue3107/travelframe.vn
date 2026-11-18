@@ -4,7 +4,7 @@
 - **Phòng ban chủ trì:** Brand-Strategy
 - **Trạng thái:** Superseded — thay bằng [bảng giá theo giờ](2026-10-21-Hourly-Tier-Pricing-Basic-Premium-VIP.md)
 - **Người phê duyệt:** Rocky
-- **Giới hạn:** chưa đối chiếu được canonical vault (`/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame`) vì folder này chưa kết nối với phiên làm việc. Cần đối chiếu `03-Product-And-Guest-Experience.md` và `08-Decision-Log.md` trước khi duyệt.
+- **Giới hạn:** chưa đối chiếu được canonical vault (`/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge`) vì folder này chưa kết nối với phiên làm việc. Cần đối chiếu `03-Product-And-Guest-Experience.md` và `08-Decision-Log.md` trước khi duyệt.
 
 ---
 

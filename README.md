@@ -1,7 +1,6 @@
 # TravelFrame Company Workspace
 
-Workspace vận hành nội bộ cho TravelFrame, consumer-facing workstream thuộc Hanoi
-Expert. Hệ thống kết nối chiến lược, research, content, creative production,
+Workspace vận hành nội bộ cho dự án TravelFrame, trước đây có tên Hanoi Expert. Hệ thống kết nối chiến lược, research, content, creative production,
 conversion, automation và reporting trong một Company OS có owner rõ ràng.
 
 ## Bắt đầu trong 60 giây

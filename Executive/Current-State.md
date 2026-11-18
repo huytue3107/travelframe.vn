@@ -31,26 +31,34 @@
 
 ## Working
 
-- TravelFrame là consumer-facing workstream thuộc Hanoi Expert.
+- 2026-11-18: Rocky đổi tên dự án Hanoi Expert thành TravelFrame trong Second Brain.
 - Instagram DM là conversion path ưu tiên.
 - Content: Hanoi utility, local discovery, photography; series Field Notes VJ (identity duyệt 04/10).
 
-## Chỉ số (2026-11-06 mốc 22:45 ICT, nguồn: Meta Graph API v26.0 & GA4 Data API)
+## Cập nhật Social & Inbox (2026-11-18 mốc 14:50 ICT, nguồn: Meta Graph API & GA4 Data API)
 
 | Chỉ số | Giá trị |
 |---|---|
-| GA4 MTD lũy kế (01/10–06/11) | **412 users**, **838 sessions** (+8 sessions so với 05/11 · tăng trưởng liên tục), **2.950 views** (+16 views); thời lượng phiên duy trì đỉnh cao **344,2s (~5m44s)**, bounce rate tiếp tục hạ sâu còn **53,10%**; `/booking` 162 views, `/booking/details` **131 views**, `/tours` **428 views** (+4 views), `/tour/spiritual-west-lake-breeze` **161 views**, `/tour/food-tour` **125 views**, `/tour/french-colonial-historical-footsteps` **100 views**, `/tour/cinematic-hanoi-visual-storytelling-walk` **57 views** |
-| Form booking gửi đi | 0 ghi nhận đối soát cọc |
-| IG reach 24h mốc 22:45 ICT | **3.245 accounts** (+24,8% so với 2.601 lúc chiều; đỉnh ngày: 4.391 accounts) [Xanh] |
-| IG views 24h mốc 22:45 ICT | **5.058 views** (+27,8% so với 3.957 lúc chiều; đỉnh ngày: 6.984 views) [Xanh] |
-| IG accounts engaged 24h | **169 accounts** (+30 accounts so với chiều 139; tương tác sâu) [Xanh] |
-| Lượt xem trang cá nhân IG (24h) | 25 visits [Vàng] |
-| Follower live (22:45 ICT 06/11) | FB **3.088** (+1 mới, +14 trong 24h; **+728 / +30,8%** vs 2.360 ngày 23/10), IG **604** (lập đỉnh mới **604 followers** · **216 media** (+4 Reels mới đăng chiều tối 06/11)) |
-| Reels mới đăng 06/11 | *5 Michelin spots under $5* (6 likes IG, 1 comment), *Food IS culture* (3 likes IG, 1 comment), *Hanoi traffic 2x speed #1* (3 likes IG), *Hanoi traffic 2x speed #2* (0 likes IG, mới đăng 25p), *Phơmen cocktail Tây Hồ* (17 likes IG, 1 comment), *Craving Bánh Mì* (18 likes IG, 1 comment) |
-| Lead Pipeline phát sinh | **17 leads** (100% 17/17 leads đã tiếp cận; bao gồm khách Rebecca Spinola đã được chăm sóc qua Messenger) |
-| Booking / doanh thu đã đối soát | **0** |
+| Follower live (14:50 ICT 18/11) | FB **3.540** (`+7` vs trưa nay; `+23` vs tối 17/11; `+41` vs sáng 16/11; `+126` vs 13/11; `+373 / +11,8%` vs 10/11; `+628 / +21,6%` vs 2.912 ngày 02/11), IG **783** (`+3` vs 17/11; `+10` vs 16/11; `+17` vs 15/11; **237 media** với 2 Reel mới xuất bản tối 17/11: *How to cross the street in Vietnam* `Df2J6B6Njp5` và *When is the best time to visit Hanoi?* `Df1-A6StE93` — **100% Reels đã cấy live cặp seed comment C1+C2**) |
+| Inbox & Comment đã xử lý & Chờ duyệt | Đã xử lý **215 lượt** (`+11` superseded/skipped, tổng cộng **226 mục** đã giải quyết dứt điểm). Đã phản hồi toàn bộ các lead và tương tác inbound #219–#226 (gồm #219 @adrianadorso, #220 bờ hồ, #221 chạy bộ, #222 @_.zayn._.slay._ nhận guide, #223 @talking.turtles.are.real, #224 kỷ niệm qua đường, #225 đi cẩn thận, #226 khen video độc đáo). Hiện **0 tồn đọng pending comment** trong log! |
+| Tồn đọng bị sót (kiểm tra 10:34–10:42 ICT 12/11) | **Threads `/messages/` & `/activity`:** chưa trả lời `@htxty.26` (`Seen` 11/11), `@hiiiii_121` (hỏi tiếp giá), `@thii_hae` (`3d`), `@hitifnek` (`4d`), `@haiyen_booking` (`3d`), `@ms_money_moves` (`3d`), `@gmva0203` (`1w`), `@jvtrips` (`2w`), `@straw.dau` (`2w`); **1** Request ngoài tệp (`@ilya.hill`). **IG Direct:** `Hidden Requests` **1** (`Shivam Panday`), `Requests` **1** (`Manasvi \| Mayank`), `Primary` còn `Ziv學長` (`2d`), `Trang Linh` (`1w`), `Kanjani` (`2w`), `NATHASYA VM`, `Kalpana`. **IG Comments/Tags:** `@_wuchr` tag `07/11`, `@standingbarhanoi` đính chính địa chỉ `20/10`, 4 lead IG `16–23/10`. **FB `16–23/10`:** trượt 3 câu hỏi + 4 `"Hanoi"` giữa 2 đợt audit. |
+| Lead Pipeline (`Lead-Pipeline-Tracker.csv`) | Đồng bộ lên **97 lead** (`L-01` đến `L-96`, 98 dòng gồm header): **19 `Quoted`**, **40 `Guide-Sent`** (cả `L-95` và `L-96` đều đã gửi cẩm nang/bản đồ qua DM), **26 `Inquiry`**, **11 `Qualified-unconfirmed`**, **1 `Meeting-Scheduled`**, **0 `Deposited / Booked / Delivered`** (`payment_evidence` rỗng, doanh thu `$0`). |
 
-Lưu ý: GA4 vẫn có traffic kiểm thử nội bộ localhost:8093 chưa được lọc (5/19 phiên ngày 28/10).
+## Chỉ số (2026-11-18 mốc 14:50 ICT · Meta Graph API & GA4 Data API)
+
+| Chỉ số | Giá trị |
+|---|---|
+| GA4 ngày 18/11, 17/11 & MTD | Hôm nay **18/11** (00:00–14:50 ICT): **5 users**, **5 sessions**, **6 views** (Bounce `60,0%`, TB `16,5s`; Nguồn: 2 Direct, 2 Google Organic, 1 **Threads `threads / social`** chuyển đổi vào `/tours`; Realtime 14:50 ICT: **4 active interactions** xem bài viết Photoshoot làng hương Quảng Phú Cầu). Ngày **17/11** (trọn ngày bùng nổ traffic): **24 users**, **32 sessions**, **105 views** (`40,63%` bounce, TB `262,5s ~ 4m22s`; Nguồn: Direct 14, Google Organic 8, **AI Assistant `chatgpt.com` 7 sessions / 7 users**, Organic Social 3; Top pages: `/tour/colors-delta-craft-villages-expedition` 9, `/tour/hanoi-early-bird-sunrise-local-markets` 9, `/hanoi-photoshoot` 8, `/tour/french-colonial-historical-footsteps` 8, `/tour/spiritual-west-lake-breeze` 8, `/tours` 7). Tháng 11 MTD (`01–18/11`): **155 users**, **348 sessions**, **1.434 views** (`41,67%` bounce, TB `472,9s ~ 7m53s`). Lũy kế `01/10–18/11`: **537 users**, **1.100 sessions**, **3.930 views**. |
+| Form booking gửi đi / Doanh thu | **0 đơn / $0** (`0 Deposited · 0 Booked · 0 Delivered`) |
+| IG reach | Chu kỳ 24h chốt 15:00 ICT 18/11: **13.483 accounts**; chu kỳ hôm trước chốt 15:00 ICT 17/11: **19.248 accounts** (đỉnh cao nhất tháng) |
+| IG views | Chu kỳ 24h chốt 15:00 ICT 18/11: **19.898 views**; chu kỳ hôm trước: **27.292 views** |
+| IG tương tác sâu | Chu kỳ 24h chốt 15:00 ICT 18/11: **674 accounts engaged**; chu kỳ hôm trước: **1.068 accounts engaged** |
+| Lượt xem trang cá nhân IG | **81 profile visits** (chu kỳ chốt 15:00 ICT 17/11) |
+| Lượt bấm link bio IG | **4 website taps** |
+| Nội dung mới, Product & SEO `17–18/11` | **Reels:** Xuất bản 3 Reel mới ngày 17/11: *How to cross the street in Vietnam* (`Df2J6B6Njp5` IG **22 likes**, 4 cmt / FB `2341488743294049` 3 shares), *When is the best time to visit Hanoi?* (`Df1-A6StE93` IG 1 like / FB `1865782518210101`), *Exploring Hanoi doesn't have to cost a fortune* (`Df1jOMltQI8` IG 1 like / FB `1116929091220536`). **100% Reels đã cấy live cặp seed comment C1+C2**. Các Reel trước tiếp tục tăng trưởng: *Running in Hanoi traffic* (`DfzH7iftreH`) **35 likes IG**, *Hoan Kiem Lake local life* (`Dfzh7raNsSu`) **13 likes IG**, *Giáng sinh lung linh* (`DfwMvVNtOHa`) duy trì **168 likes IG**, 6 cmt. **Product:** *The Hanoi Handbook v04* (**$12**, ô 02 `/ebooks` `Coming soon`, tiếp tục chờ server cấu hình `file_private_path` & PayPal). |
+| Booking / doanh thu đã đối soát | **0** ($0 / 0 đơn · 0 Deposited · 0 Booked) |
+
+Lưu ý: GA4 ngày 10/11 còn 22/96 top views quản trị CMS và 3 views 404 từ link dính ký tự (`/toursLet`, `/news/hanoi-secret-food-photo-map📸`). Meta daily bucket tính theo ngày PST (`15:00 ICT hôm trước – 15:00 ICT hôm sau`).
 
 ## Open P0
 

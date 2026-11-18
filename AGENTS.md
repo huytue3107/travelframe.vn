@@ -64,6 +64,7 @@ Sau mỗi bài đăng FB/IG: chạy Seed Comment Playbook (`Marketing-Growth/Gui
 - Với báo cáo hiệu quả hằng ngày, đọc `Data-Analytics/Daily-Reporting-Standard.md`; chốt số liệu lúc 08:30 ICT, giữ đủ 8 tầng phễu và chỉ ghi `Published` khi có platform evidence.
 - Với affiliate prototype, đọc `Technology-Automation/Tools/affiliate-tracker/README.md`; chỉ dùng dữ liệu minh họa/localStorage, không nhập dữ liệu khách thật hoặc coi duyệt/trả thử là thanh toán thật; chạy `node --test Technology-Automation/Tools/affiliate-tracker/core.test.mjs` trước khi bàn giao.
 - Với dự án video HyperFrames, đọc `AGENTS.md` cục bộ của dự án; chạy `npm run check`, xem các frame liên quan bằng `npx hyperframes snapshot --at <seconds>` trước `npm run render`, và chỉ chạy `npm run publish` khi Rocky đã phê duyệt rõ ràng.
+- Với Hanoi Handbook ebook, chỉ sửa nguồn `Creative-Production/Projects/Hanoi-Handbook-Ebook-2026/hanoi-handbook.html`; dựng bằng `zsh Creative-Production/Projects/Hanoi-Handbook-Ebook-2026/source/build.sh` (đặt `VERSION` cho bản mới), kiểm tra PDF và ảnh bìa trước bàn giao, và không gọi `generate_illustrations.py`/Kie API nếu chưa được Rocky phê duyệt.
 - Chạy test, `npm run test:skills` và `npm run workspace:check` trước khi báo hoàn tất.
 - Báo rõ limitation hoặc test baseline không chạy được.
 
@@ -122,6 +123,10 @@ Khi xin phê duyệt phản hồi, luôn có đủ 4 phần:
 - Viết script riêng bằng file `.mjs` trong thư mục scratch, không chạy chuỗi `node -e` hoặc bash lồng nhiều tầng.
 - Facebook: trả lời cấp 1 và 2 bằng `POST /{comment_id}/comments`. Thả tim bằng `POST /{comment_id}/likes`.
 - Instagram: chỉ có một cấp trả lời. Khi trả lời sub-comment, dùng `POST /{parent_comment_id}/replies` kèm `@username`.
+- Facebook Page `travelframe.vn` ID `1409099405611405`; Graph API v21.0. Thao tác trên Page/Reels dùng Page token (`GET /{PAGE_ID}?fields=access_token`); endpoint Instagram Business dùng token gốc. Cả hai lấy theo runbook, không tự đọc Keychain.
+- Ghi audit trail tương tác vào `Marketing-Growth/Content/Instagram-All-Interactions-Log.md`, `Meta-Messenger-All-Interactions-Log.md`, `Threads-All-Interactions-Log.md` (cùng thư mục).
+- Cẩm nang bàn giao lead: `Creative-Production/Deliverables/TravelFrame-Hanoi-Secret-Food-And-Photo-Guide-v2.pdf` (bản mới nhất; bản v1 giữ làm lịch sử).
+- Bản gốc đầy đủ của manual (sơ đồ, ví dụ C1/C2): `Technology-Automation/Runbooks/TravelFrame-Agent-Operating-Manual.md`.
 - **Token:** Secrets là quy tắc ưu tiên. Agent không tự đọc Keychain hay in token. Dù manual có ghi lệnh `security find-generic-password`, việc lấy token do Rocky/runbook xử lý. Cần token để chạy thì hỏi Rocky trước.
 
 ### Sau khi thực hiện (bắt buộc trước khi báo hoàn tất)

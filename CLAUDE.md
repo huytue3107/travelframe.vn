@@ -112,6 +112,10 @@ Khi xin phê duyệt phản hồi, luôn có đủ 4 phần:
 - Viết script riêng bằng file `.mjs` trong thư mục scratch, không chạy chuỗi `node -e` hoặc bash lồng nhiều tầng.
 - Facebook: trả lời cấp 1 và 2 bằng `POST /{comment_id}/comments`. Thả tim bằng `POST /{comment_id}/likes`.
 - Instagram: chỉ có một cấp trả lời. Khi trả lời sub-comment, dùng `POST /{parent_comment_id}/replies` kèm `@username`.
+- Facebook Page `travelframe.vn` ID `1409099405611405`; Graph API v21.0. Thao tác trên Page/Reels dùng Page token (`GET /{PAGE_ID}?fields=access_token`); endpoint Instagram Business dùng token gốc. Cả hai lấy theo runbook, không tự đọc Keychain.
+- Ghi audit trail tương tác vào `Marketing-Growth/Content/Instagram-All-Interactions-Log.md`, `Meta-Messenger-All-Interactions-Log.md`, `Threads-All-Interactions-Log.md` (cùng thư mục).
+- Cẩm nang bàn giao lead: `Creative-Production/Deliverables/TravelFrame-Hanoi-Secret-Food-And-Photo-Guide-v2.pdf` (bản mới nhất; bản v1 giữ làm lịch sử).
+- Bản gốc đầy đủ của manual (sơ đồ, ví dụ C1/C2): `Technology-Automation/Runbooks/TravelFrame-Agent-Operating-Manual.md`.
 - **Token:** Secrets là quy tắc ưu tiên. Claude không tự đọc Keychain hay in token. Dù manual có ghi lệnh `security find-generic-password`, việc lấy token do Rocky/runbook xử lý. Nếu cần token để chạy, hỏi Rocky trước.
 
 ### Sau khi thực hiện (bắt buộc trước khi báo hoàn tất)

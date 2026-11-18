@@ -590,7 +590,7 @@ Chưa có đủ bằng chứng cho:
 
 ### Vault
 
-- `SA/01-Projects/Hanoi-Expert/TravelFrame/00-MOC-TravelFrame.md`
+- `SA/01-Projects/TravelFrame/Knowledge/00-MOC-TravelFrame.md`
 - `01-Brand-Source-Of-Truth.md`
 - `02-Audience-And-Funnel.md`
 - `03-Product-And-Guest-Experience.md`
