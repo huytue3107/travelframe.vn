@@ -15,7 +15,7 @@ Lượt tạo gói này đọc tài liệu workspace/vault và hồ sơ công vi
 | Hạng mục | Điều có nguồn đến thời điểm bàn giao | Cần lưu ý |
 |---|---|---|
 | Workspace trên máy hiện tại | `/Users/macbook/Codex GPT/travelframe.vn` | Đường dẫn máy khác có thể khác |
-| Canonical TravelFrame | `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame` | Đọc qua Source-Of-Truth-Map; không sao chép cả vault |
+| Canonical TravelFrame | `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge` | Đọc qua Source-Of-Truth-Map; không sao chép cả vault |
 | Host website được kiểm tra ở các lượt trước | `https://travelframe.sidevn.com` | Không mặc định `travelframe.vn` đã phục vụ cùng site |
 | Domain travelframe.vn | Audit 22/10 không phân giải được trong môi trường kiểm tra | Chưa xác nhận hiện tại; không tự đổi DNS |
 | OpenSEO project | `b97024a3-b095-44e9-9489-d5fce1361263` | Kiểm tra identity và project access trước nghiên cứu |

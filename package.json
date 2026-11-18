@@ -18,6 +18,7 @@
     "skills:check": "python3 Technology-Automation/Scripts/validate_skills.py --root . && python3 Technology-Automation/Scripts/sync_skills.py --root . --check",
     "skills:sync": "python3 Technology-Automation/Scripts/sync_skills.py --root . --write",
     "workspace:check": "python3 Technology-Automation/Scripts/workspace_check.py --root .",
+    "dashboard:live": "node --use-system-ca Technology-Automation/Scripts/serve-travelframe-dashboard.mjs",
     "mcp:travelframe": "node Technology-Automation/MCP/travelframe-readonly.mjs",
     "mcp:google-analytics": "node Technology-Automation/MCP/google-analytics-readonly.mjs",
     "openseo:info": "node -e \"console.log('OpenSEO Platform: Technology-Automation/Tools/open-seo | Runbook: Technology-Automation/Runbooks/OpenSEO-Runbook.md')\"",
