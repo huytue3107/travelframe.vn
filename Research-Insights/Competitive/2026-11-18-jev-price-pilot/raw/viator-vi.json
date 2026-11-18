@@ -1,0 +1,40 @@
+{
+ "name": "viator-vi",
+ "start_url": "https://www.viator.com/",
+ "goal": "Tìm tour chụp ảnh ở Hà Nội và hiển thị danh sách kết quả. Stop on the search results list. Do not book, add to cart, sign in, or enter personal details.",
+ "started_utc": "2026-11-18T14:26:02+00:00",
+ "status": "blocked",
+ "elapsed_ms": 8507,
+ "actions": [
+  {
+   "operation": "TYPE_TEXT",
+   "action": "Where to?",
+   "text": "Hà Nội",
+   "url": "https://www.viator.com/"
+  },
+  {
+   "operation": "CLICK",
+   "action": "Open Where to?",
+   "text": null,
+   "url": "https://www.viator.com/"
+  },
+  {
+   "operation": "TYPE_TEXT",
+   "action": "Where to?",
+   "text": "Hà Nội",
+   "url": "https://www.viator.com/"
+  },
+  {
+   "operation": "CLICK",
+   "action": "Open Where to?",
+   "text": null,
+   "url": "https://www.viator.com/"
+  }
+ ],
+ "typesafe_decisions": 7,
+ "text_calls": 2,
+ "final_url": "https://www.viator.com/",
+ "final_title": "Viator: Travel Tours, Activities, and Things to Do | 2026",
+ "page_text": "Skip to main content\na Tripadvisor company\nDiscover\nLog in\nDo more with Viator\n\nPlan better with 400,000+ travel experiences.\n\noption [object Object] focused, 1 of 8, 8 results available. Use up and down to choose options, press enter to select the currently focused option, press Escape to exit menu.8 results available for search term Hà Nội.Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu.\n\nWhere to?\n\nSearch for Hà Nội\nHa noi: 3D- Halong, Lan ha bay classic cruise, Ninh Binh full day\nVietnam\nHa Noi Walking Food Tour, Non Vegetarian,Vegan, vegetarian Option\nVietnam\nHa Noi: Van Phuc Silk Weaving Half-day Tour\nVietnam\nHa Noi City Day Tour\nVietnam\nHa Noi City Full Day guided Tour with Lunch\nVietnam\nHa Noi City Private Car with Driver 4 - 8 hours\nVietnam\nHa Noi Egg Coffee Class\nVietnam\nWhen\nDo more with Viator\n1\n2\n3\nWhy book with Viator?\n24/7 customer support\nNo matter the time zone, we’re here to help.\nEarn rewards\nExplore, earn, redeem, and repeat with our loyalty program.\nMillions of reviews\nPlan and book with confidence using reviews from fellow travelers.\nPlan your way\nStay flexible with free cancellation and the option to reserve now and pay later at no additional cost.\nLog in to manage bookings & Viator Rewards\nDon't have an account yet? Sign up\nLog in\nWhy you are seeing these recommendations\nRecommended based on your browsing history\nHanoi, Northern Vietnam\n4.7\n(303)\nHanoi City Half Day Private Tour: Hidden Corners & Train Street\nfrom $44\nPrice varies by group size\nTuan Chau Island, Ha Long Bay\n4.8\n(2,025)\nBEST SELLER Halong Bay Luxury Day Cruise: Buffet, Jacuzzi & Sauna\nfrom $39\nHanoi, Northern Vietnam\n4.9\n(1,447)\nPrivate Walking Tour of Hanoi City\nfrom $5\nPer group\nHanoi, Northern Vietnam\n4.5\n(122)\nHalong Luxury Cruise Full Day Tour from Hanoi: All Inclusive\nfrom $69\nPrice varies by group size\nHanoi, Northern Vietnam\n5.0\n(5,878)\nHanoi Cooking Class: Culture, Local Market and Community Care\nfrom $37\nHanoi, Northern Vietnam\n5.0\n(989)\nHa Noi Walking Food Tour, Non Vegetarian,Vegan, vegetarian Option\nfrom $38\nHanoi, Northern Vietnam\n5.0\n(7,298)\nHanoi Motorbike Tour: Food, Culture and Fun by Vintage Motorbike\nfrom $55\nOffers Available\nHa Long Bay, Northern Vietnam\n4.7\n(3,575)\nBest Seller: Halong Bay-Lan Ha Bay 2days/3days All Inclusive\nfrom $149\nPrice varies by group size\nKeep things flexible\nUse Reserve Now & Pay Later to secure the activities you don't want to miss without being locked in.\nTop attractions near Hanoi\nHa Long Bay\n2,875 Tours and Activities\nNinh Binh\n949 Tours and Activities\nThang Long Water Puppet Theatre\n117 Tours and Activities\nHanoi Old Quarter\n5,158 Tours and Activities\nTam Coc\n882 Tours and Activities\nHanoi Opera House (Nha Hat Lon)\n301 Tours and Activities\nHoa Lu\n316 Tours and Activities\nHo Chi Minh Mausoleum\n528 Tours and Activities\nHoa Lo Prison\n304 Tours and Activities\nBased on your interest in Hanoi\nHanoi, Northern Vietnam\n5.0\n(18,414)\nHanoi Food and Culture Sightseeing Army Jeep Tour\nfrom $55\nHanoi, Northern Vietnam\n4.9\n(5,304)\nNinh Binh Day Tour from Hanoi with Boat and Bike\nfrom $33\nHa Long Bay, Northern Vietnam\n4.9\n(1,562)\nHa Long Bay Day Cruise from Hanoi with Kayak, Lunch, Cave, Island\nfrom $38\nHanoi, Northern Vietnam\n5.0\n(9,317)\nNinh Binh Day Trip from Hanoi with Tam Coc Boat Ride\nfrom $83\nFall Deal\nHanoi, Northern Vietnam\n4.0\n(435)\nSkip the Line: Thang Long Water Puppet Theater Tickets\nfrom\n$8\n$9\nOffers Available\nHanoi, Northern Vietnam\n4.9\n(6,485)\nAmanda Cruise Ha Long, Lan Ha Bay All Inclusive 2D1N and 3D2N\nfrom $56\nPrice varies by group size\nFall Deal\nHa Long Bay, Northern Vietnam\n5.0\n(883)\nHalong Bay & Lan Ha Bay Luxury Day Cruise by The Halong Catamaran\nfrom\n$67\n$79\nHanoi, Northern Vietnam\n4.9\n(568)\nSapa 2 Days 1 Night From Hanoi - Overnight in Hotel\nfrom $89\nPrice varies by group size\nFree cancellation\nYou'll receive a full refund if you cancel at least 24 hours in advance of most experiences.\nTop Destinations\nLas Vegas\nWashington DC\nRome\nCancun\nParis\nFlorence\nLondon\nBarcelona\nNew York City\nOahu\nWas this page helpful?\nPopular Cities\nThings to do in Nashville\nThings to do in Chicago\nThings to do in Houston\nThings to do in San Diego\nThings to do in Atlanta\nThings to do in Denver\nThings to do in Las Vegas\nThings to do in Miami\nThings to do in Orlando\nThings to do in Dallas\nThings to do in New Orleans\nThings to do in San Antonio\nThings to do in San Francisco\nThings to do in Seattle\nThings to do in Austin\nThings to do in Boston\nThings to do in Rome\nThings to do in Los Angeles\nThings to do in Myrtle Beach\nThings to do in Philadelphia\nThings to do in Paris\nThings to do in Colorado\nThings to do in Phoenix\nThings to do in London\nThings to do in Tampa\nThings to do in Florence\nThings to do in Oahu\nThings to do in Key West\nThings to do in New York City\nThings to do in Maui\nThings to do in Arizona\nThings to do in Barcelona\nThings to do in Florida\nThings to do in Lisbon\nThings to do in Washington DC\nPopular Attractions\nAntelope Canyon\nAquarium of the Pacific\nXcaret\nBritish Museum\nLondon Natural History Museum\nXplor Park\nStonehenge\nDistillery Historic District\nEl Yunque National Forest\nChichen Itza\nMachu Picchu\nHoover Dam\nTeotihuacán\nGondola Rides at the Venetian\nBioluminescent Bay (Mosquito Bay)\nArch of Cabo San Lucas (El Arco)\nMolokini Crater\nMauna Kea Summit and Observatory\nHelp Center\nPrivacy and Cookies Statement\nAbout Viator\nCareers\nSitemap\nSupplier Sign Up\nTravel Agents\nBecome an Affiliate\nNews\nViator blog\nAccessibility\n© 1997-2026 Viator, Inc.\nTerms & Conditions\nHow Viator works\nCookie Consent\nBy clicking “Accept All”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. Privacy and Cookies Statement\nCookies Settings\nAccept All",
+ "wall_ms": 10257
+}
