@@ -15,7 +15,7 @@ V-01, V-02, V-03, V-06, V-07; P-005; P-006 adapted to an existing BTS reel.
 - Video người dùng giao: /Users/macbook/Downloads/1006(3)/1006(3)-5.mp4
 - [Phân tích video](../../../../Research-Insights/Library/analysis/1006-3-5/2026-10-14/analysis.md), đọc 2026-10-14.
 - [Voice playbook](../../../../Research-Insights/Library/knowledge/voice-playbook.md).
-- Canonical format: /Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/05-Content-System.md
+- Canonical format: /Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/05-Content-System.md
 
 ## Claims
 

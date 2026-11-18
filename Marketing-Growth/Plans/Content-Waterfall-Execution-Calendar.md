@@ -3,7 +3,7 @@
 **Status:** Draft
 **Owner:** Marketing-Growth
 **Created:** 2026-09-15
-**Source:** [30-Day Content Calendar](file:///Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/10-Content-Calendar-30-Ngay-2026-09.md) + [Content Waterfall Workflow](file:///Users/macbook/Codex%20GPT/travelframe.vn/Marketing-Growth/Plans/Content-Waterfall-Workflow.md)
+**Source:** [30-Day Content Calendar](file:///Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/10-Content-Calendar-30-Ngay-2026-09.md) + [Content Waterfall Workflow](file:///Users/macbook/Codex%20GPT/travelframe.vn/Marketing-Growth/Plans/Content-Waterfall-Workflow.md)
 
 ---
 

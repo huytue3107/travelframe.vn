@@ -9,13 +9,13 @@ secondary_keywords: ["noi bai airport to old quarter", "hanoi airport bus 86", "
 tier: "B"
 funnel_stage: "ToFu utility → pillar /news/hanoi-old-quarter-guide"
 author: "TravelFrame Editorial Team"
-status: "Draft — chờ fact-check giá/giờ, rồi Rocky duyệt"
+status: "Published 2026-11-09 (node 114; ảnh Pexels có credit thay cho ảnh gốc, Rocky chọn trong chat)"
 date: "2026-10-14"
 ---
 
 # Hanoi Airport to Old Quarter (2026): Grab, Taxi, Bus 86 and Costs
 
-*By TravelFrame Editorial Team · Updated October 2026*
+*By TravelFrame Editorial Team · Updated November 2026*
 
 Nội Bài International Airport is about 30 km north of Hanoi's Old Quarter. The drive usually takes 45–60 minutes, and longer at rush hour.
 
@@ -25,19 +25,21 @@ You have four practical options. Here is how each one works.
 
 | Option | Typical time | Typical cost | Best for |
 |---|---|---|---|
-| Ride-hailing (Grab, Xanh SM) | 45–60 min | *[VERIFY]* VND | Most travelers |
-| Airport taxi | 45–60 min | *[VERIFY]* VND | No app or no data |
-| Bus 86 | 60–80 min | *[VERIFY]* VND | Budget, light luggage |
+| Ride-hailing (Grab, Xanh SM) | 45–60 min | about 200,000–400,000 VND | Most travelers |
+| Airport taxi | 45–60 min | about 300,000–450,000 VND | No app or no data |
+| Bus 86 | 60–80 min | 45,000 VND | Budget, light luggage |
 | Hotel pickup | 45–60 min | Set by hotel | Late arrivals, families |
+
+*Prices checked November 2026. Ride-hailing and taxi fares change with traffic and time of day, so check the app before you book.*
 
 ## 1. Ride-hailing apps (Grab, Xanh SM)
 
 The simplest door-to-door option. Install the app and set up payment before you fly.
 
 - After arrival, connect to airport Wi-Fi or a local SIM/eSIM.
-- Book in the app and follow the pickup instructions for your terminal. *[VERIFY điểm đón T1/T2]*
+- Book in the app and follow its pickup instructions and the ride-hailing signs at your terminal.
 - Check that the plate number matches the app before you get in.
-- The price shown in the app is the fare you pay. Tolls may be added. *[VERIFY]*
+- Check the fare in the app before you confirm. A small airport toll (around 10,000–15,000 VND) may be shown separately, and prices rise at busy times.
 
 ## 2. Airport taxis
 
@@ -45,16 +47,16 @@ Use the official taxi queue outside arrivals. Ignore anyone who approaches you i
 
 - Ask for the meter or agree on the price before you leave.
 - Have your hotel address written down, ideally in Vietnamese.
-- Large, well-known taxi brands are the safer choice. *[VERIFY hãng taxi đang hoạt động tại Nội Bài]*
+- Fares vary by company and car size, so confirm the meter is running before you leave the curb.
 
 ## 3. Bus 86 (airport express bus)
 
 A public bus linking the airport with the Old Quarter area and Hanoi Railway Station. It is cheap and has space for luggage.
 
-- **Where:** outside the arrivals hall. *[VERIFY vị trí bến]*
-- **Fare:** *[VERIFY]* VND, paid on board.
-- **Hours:** roughly early morning to late evening. *[VERIFY giờ chạy và tần suất]*
-- **Where to get off:** ask the conductor for the stop nearest your hotel. Stops near the Old Quarter include the area by Long Biên and the lake. *[VERIFY tên điểm dừng]*
+- **Where:** the bus stop outside arrivals. It serves both terminals; ask at the information desk if you can't see it.
+- **Fare:** 45,000 VND per person, paid on board. Carry small notes.
+- **Hours:** roughly from early morning to around 10pm from the airport, every 25–45 minutes. Timetables change, so check before you rely on a late bus.
+- **Where to get off:** the route crosses Nhật Tân Bridge, then runs along Trần Nhật Duật and Hàng Tre past the edge of the Old Quarter to Hoàn Kiếm Lake, and ends at Hanoi Railway Station. Ask the conductor for the stop nearest your hotel.
 
 ## 4. Hotel pickup
 
@@ -73,6 +75,7 @@ Before you start exploring, read our tips on [crossing the street in Hanoi](http
 ## Plan your first day
 
 - See our [Hanoi Old Quarter guide](https://travelframe.sidevn.com/news/hanoi-old-quarter-guide) for what to do first.
+- Arriving on a weekend? The [Old Quarter night market](https://travelframe.sidevn.com/news/hanoi-old-quarter-night-market) runs Friday to Sunday evenings.
 - Short on time? Try our [calm 48-hour itinerary](https://travelframe.sidevn.com/news/slow-hanoi-48-hour-itinerary-calm-two-day-walking-guide).
 
 ## Frequently asked questions
@@ -88,15 +91,18 @@ Yes, if you have light luggage and are not in a hurry. It is the cheapest direct
 
 ---
 
-## Fact-check trước khi publish
+## Fact-check (desk check 2026-11-09)
 
-| Claim | Cần xác minh | Nguồn gợi ý |
+| Claim | Kết quả | Nguồn |
 |---|---|---|
-| Giá Grab/Xanh SM sân bay → phố cổ | Khoảng giá 10/2026, có phí cầu đường không | Đặt thử trên app |
-| Giá taxi, hãng taxi chính thức | Khoảng giá, hãng | Cảng HKQT Nội Bài |
-| Bus 86: giá vé, giờ chạy, tần suất, bến, điểm dừng | Toàn bộ | Transerco / timbuyt |
-| Điểm đón xe công nghệ T1/T2 | Vị trí | Cảng HKQT Nội Bài |
+| Grab/Xanh SM ~200.000–400.000 VND | Ước lượng; các nguồn chênh nhau, **không có nguồn chính thức** → ghi "about" và bảo khách xem giá trong app | Tổng hợp blog 2026 (vd. eternalarrival.com, unchartedlens.com) |
+| Phí cầu đường/sân bay ~10.000–15.000 VND | Ước lượng | Như trên |
+| Taxi ~300.000–450.000 VND | Ước lượng | taxibambino.com, vietnamdiscovery.com |
+| Bus 86: 45.000 VND, phục vụ cả 2 nhà ga, qua Nhật Tân – Trần Nhật Duật – Hàng Tre – Hồ Gươm – ga Hà Nội | Khớp nhiều nguồn | [yourvietnamtravel.com](https://www.yourvietnamtravel.com/bus-from-noi-bai-airport-to-hanoi-old-quarter), [bestpricetravel.com](https://www.bestpricetravel.com/travel-guide/bus-86-hanoi-city-to-airport-2625.html) |
+| Giờ chạy bus 86 | Các nguồn chênh nhau (chuyến cuối từ sân bay khoảng 22:10) → bài ghi "around 10pm" | Như trên |
 | 30 km, 45–60 phút | Giữ ước lượng | Bản đồ |
+
+Đã bỏ tên hãng taxi cụ thể vì không xác minh được. Nên đi thử hoặc đặt thử Grab một lần để chốt khoảng giá.
 
 ## Ảnh cần (Creative-Production)
 

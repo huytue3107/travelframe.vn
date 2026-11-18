@@ -61,7 +61,7 @@ Tất cả file đạt `pass` hoặc `flagged` (chỉ còn `[VERIFY]`): 0 lỗi 
 
 | Tuyến | Còn [VERIFY] |
 |---|---|
-| Couple | Chỉ phần chung |
+| Couple | Makeup nhẹ (Premium, VIP) và outfit VIP cho 1 hay cả 2 người (DEC ghi Not decided) |
 | Solo | Chỉ phần chung |
 | Áo dài | Size và màu áo dài có sẵn cho VIP; áo dài cho khách thứ 2; chỗ gợi ý thuê áo dài cho Basic và Premium; cách nói người nước ngoài mặc áo dài được đón nhận; mẹo ngồi (kéo vạt sau sang bên) nhờ người trong team xác nhận |
 | Friends & Family | Số khách tối đa; trẻ em tính là khách hay miễn phí; makeup, outfit trên Premium, VIP áp dụng cho ai trong nhóm |
@@ -119,3 +119,17 @@ Rocky yêu cầu ngày 15/11/2026: mỗi tuyến sản phẩm có một bài web
 2. Gói làng hương: giá xe, số giờ tối thiểu, có tính giờ di chuyển không.
 3. Nhóm: số khách tối đa, giá trẻ em.
 4. Consent cho các bộ ảnh ngoài Thin và Hanna.
+
+## Lịch sử sửa
+
+- 2026-11-15 (Rocky duyệt sau bản check): sửa cả 6 `listing.md`.
+  - Bỏ giá khỏi phần mô tả: Highlight của Solo, FAQ của Friends & Family.
+  - Chuyển các ý không phải giá từ mục Pricing sang Good to know để không mất khi nhập Viator: personal use (Fashion); size và màu áo dài (Áo dài); số khách tối đa, trẻ em, makeup và outfit (Friends & Family); xe, giờ di chuyển, giờ tối thiểu (Làng hương).
+  - Thêm [VERIFY] makeup và outfit cho 1 hay 2 người ở Couple.
+  - Ghi chú ảnh Hanna (Solo), Thin (Fashion), ảnh có chữ hoặc watermark: chưa duyệt dùng trên Viator.
+  - Tiêu đề không quá 62 ký tự và có chữ Private.
+  - Áo dài: bỏ ý hứa cả hồ lẫn phố cổ trong tiêu đề, bỏ dòng đền chùa không có trong lộ trình.
+  - Làng hương: bỏ "Ứng Hòa district", đổi thành "south of central Hanoi".
+  - Chuyển sang chính tả Mỹ.
+  - Sửa các lỗi câu cụt và câu sai cấu trúc.
+- Chạy lại `check_draft.py` sau khi sửa: cả 6 file đều **flagged**, 0 lỗi cứng, 0 trùng câu, 0 đoạn trong ngoặc kép.

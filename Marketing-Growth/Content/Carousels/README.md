@@ -1,6 +1,6 @@
 # TravelFrame Carousels
 
-Carousel cho lịch content 30 ngày — xem vault: `SA/01-Projects/Hanoi-Expert/TravelFrame/10-Content-Calendar-30-Ngay-2026-09.md`.
+Carousel cho lịch content 30 ngày — xem vault: `SA/01-Projects/TravelFrame/Knowledge/10-Content-Calendar-30-Ngay-2026-09.md`.
 
 ## Cấu trúc
 

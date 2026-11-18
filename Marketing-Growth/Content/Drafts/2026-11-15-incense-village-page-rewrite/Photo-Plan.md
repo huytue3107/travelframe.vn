@@ -13,6 +13,7 @@ Quy tắc chung:
 - Ảnh inline tải lên Drupal phải là JPEG (WebP bị lỗi 422).
 - Không dùng ảnh có chữ overlay: 05-1 và 05-13 trong thư viện Viktor.
 - Ảnh thư viện `viktor-travelframe/05-Incense-Village-Photoshoot/` chưa ghi nhận consent, chưa rõ tác giả, chưa rõ người trong ảnh là khách hay mẫu. Chỉ dùng khi Rocky xác nhận. [VERIFY]
+  - **Cập nhật 18/11/2026:** Rocky xác nhận trong chat "Đã có consent" cho ảnh làng hương của Harry. Đã dùng 3 ảnh thay Pexels ở node 68, xem [SEO-Fix-Log mục 16b](../../../SEO/2026-10-13-SEO-Fix-Log.md). Tác giả ghi là Harry Pham / 102 Koncept; người trong ảnh là khách hay mẫu vẫn chưa ghi nhận.
 
 ## Ảnh đang có trên trang
 

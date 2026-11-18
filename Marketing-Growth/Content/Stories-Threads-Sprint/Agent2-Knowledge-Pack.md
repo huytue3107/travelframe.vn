@@ -3,7 +3,7 @@
 Owner: Marketing-Growth · Cập nhật 2026-10-08 · Mục đích: Agent 2 đào sâu bằng toàn bộ kiến thức TravelFrame trước khi viết bất kỳ nội dung nào. Chỉ đọc, không sao chép nguồn canonical.
 
 ## 1. Thứ tự đọc bắt buộc (nguồn chuẩn)
-Canonical: `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/` (đọc theo `Brand-Strategy/Source-Of-Truth-Map.md`, 00 đến 14):
+Canonical: `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/` (đọc theo `Brand-Strategy/Source-Of-Truth-Map.md`, 00 đến 14):
 brand, audience và funnel, sản phẩm và trải nghiệm khách, chính sách vận hành, content system, **06 Safety và Verified Travel Facts**, **11 Proof và Approved Claims**, 13 ví dụ và feedback, 14 metric. Mâu thuẫn thì ghi lại, không tự chọn nguồn.
 Ngoài ra: `Executive/Current-State.md`, `Data-Analytics/Metric-Definitions.md`.
 

@@ -20,19 +20,19 @@ Short title (under 60 characters): Hanoi Group Photo Walk for Friends and Famili
 
 ## Summary
 
-A relaxed walk around Hoàn Kiếm Lake and the Old Quarter for your group, with a local photographer who gets everyone in the frame. Including the person who usually takes the photos.
+A relaxed walk around Hoàn Kiếm Lake and the Old Quarter for your group, with a local photographer who gets everyone in the frame, including the person who usually takes the photos.
 
 ## Highlights
 
 - Everyone in the photos, including whoever usually holds the phone
 - Group shots, pairs and solo portraits in one walk
-- An easy pace with café stops, planned around kids and older travellers
+- An easy pace with café stops, planned around kids and older travelers
 - A local photographer-guide who knows the quieter corners
 - All original photos within 24 hours, edited photos within 48 hours
 
 ## Full description
 
-Group trips end with the same camera roll: lots of views, a few group shots, and nobody has a photo of the person who took them.
+Group trips end with the same camera roll: lots of views, a few group shots, and none of the person who took them.
 
 On this walk your photographer does the shooting while you all enjoy the city. We start with the whole group while energy is high. Then we split into pairs (sisters, best friends, parents and kids) and finish with a few solo portraits for anyone who wants them.
 
@@ -50,8 +50,8 @@ Meeting point: agreed with you after booking, usually near Hoàn Kiếm Lake. [V
 
 ## Who it's for
 
-- Families travelling together, from kids to grandparents
-- Groups of friends, hen and birthday trips
+- Families traveling together, from kids to grandparents
+- Groups of friends, bachelorette and birthday trips
 - Parents and adult children on a trip together
 
 ## Pricing
@@ -67,10 +67,6 @@ Priced per hour. The tier price covers 2 guests. From the 3rd guest it is 15 USD
 Examples:
 - 3 guests, Basic, 1 hour: 30 + 15 = 45 USD
 - 4 guests, Premium, 2 hours: 120 + 60 = 180 USD
-
-Largest group we can take. [VERIFY]
-Makeup and outfits on Premium and VIP: we confirm who they cover when you book. [VERIFY]
-Children: counted as guests or free under a certain age. [VERIFY]
 
 ## Included
 
@@ -88,8 +84,11 @@ Children: counted as guests or free under a certain age. [VERIFY]
 ## Good to know
 
 - Tell us ages and walking needs when you book, and we plan the pace.
-- Coordinate colours, not identical outfits. Two or three tones look natural in group shots.
+- Coordinate colors, not identical outfits. Two or three tones look natural in group shots.
 - In rain we move to covered spots or reschedule. [VERIFY]
+- Largest group we can take. [VERIFY]
+- Makeup and outfits on Premium and VIP: we confirm who they cover when you book. [VERIFY]
+- Children: counted as guests or free under a certain age. [VERIFY]
 - Cancellation policy. [VERIFY]
 
 ## FAQ
@@ -101,7 +100,7 @@ Yes. Moving kids make the best candid photos. We keep the posed group shot short
 Yes. We plan time for pairs and solo portraits after the group shots.
 
 **How is the price worked out?**
-Tier price per hour for the first 2 guests, plus 15 USD per hour for each extra guest.
+Each tier covers 2 guests. From the 3rd guest there is a per-person hourly add-on, included in the price you see when you choose the number of travelers.
 
 **When do we get the photos?**
 All original photos within 24 hours. Edited photos and video within 48 hours.

@@ -21,7 +21,7 @@ updated: 2026-10-22
 ## Nguồn brand và chiến lược
 
 - [Source map](../../../../Brand-Strategy/Source-Of-Truth-Map.md).
-- Canonical: `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/01-Brand-Source-Of-Truth.md`, `03-Product-And-Guest-Experience.md`, `11-Proof-And-Approved-Claims.md`.
+- Canonical: `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/01-Brand-Source-Of-Truth.md`, `03-Product-And-Guest-Experience.md`, `11-Proof-And-Approved-Claims.md`.
 - [Voice playbook](../../../../Research-Insights/Library/knowledge/voice-playbook.md): V-01 warm local friend, V-02 câu ngắn, V-07 claim check, V-09 hỏi trước khi chụp người khác.
 - [Approved pricing 21/10](../../../../Executive/DEC-20261021-HOURLY-TIER-PRICING.md) ưu tiên hơn giá cũ trong Instagram. Không nhúng bảng giá vào draft câu chuyện để tránh sao chép offer chưa đồng bộ trên website.
 - [Top1 plan 22/10](../../../SEO/2026-10-22-Top1-Plan/Plan.md): bài này là case hỗ trợ trang dịch vụ chính.

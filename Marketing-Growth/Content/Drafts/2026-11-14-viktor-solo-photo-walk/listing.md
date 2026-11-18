@@ -14,13 +14,13 @@ image_library: Marketing-Growth/Content/viktor-travelframe/02-Solo-Photo-Walk/
 
 ## Listing title
 
-Hanoi: Solo Traveler Photo Walk with a Local Photographer-Guide
+Hanoi: Private Solo Photo Walk with a Local Photographer
 
 Short title (under 60 characters): Hanoi Solo Photo Walk with a Local Photographer
 
 ## Summary
 
-Travelling alone means a camera roll full of landmarks and very few photos of you. Your photographer is also your guide for the walk, so you come home with photos you actually want to post.
+Traveling alone means a camera roll full of landmarks and very few photos of you. Your photographer is also your guide for the walk. You see the city with a local and come home with photos you actually want to post.
 
 ## Highlights
 
@@ -28,19 +28,19 @@ Travelling alone means a camera roll full of landmarks and very few photos of yo
 - A local who knows the lanes, the cafés and where the light falls
 - Daytime or after dark, around the Old Quarter, the lake and the cathedral
 - Simple posing help for people who say they are not photogenic
-- Starts from 30 USD for one hour
+- One hour for a single area, or two hours to go from day into night
 
 ## Full description
 
 Selfies get you half a face and a blurry landmark. Asking strangers gets you a tilted horizon. This walk gets you the photo you had in mind.
 
-We start with a short chat about your style and what you want to see. Then we walk. Your host points out the small things that make Hanoi, from a corner café to a lantern shop, and photographs you along the way. If you freeze up, we give you something to do: walk, look back, fix your hat, laugh at the traffic.
+We start with a short chat about your style and what you want to see. Then we walk. Your photographer-guide points out the small things that make Hanoi feel like Hanoi, from a corner café to a lantern shop, and photographs you along the way. If you freeze up, we give you something to do: walk, look back, fix your hat, laugh at the traffic.
 
 If you can, book it early in your trip. You get the photos done, plus local tips for the days that follow.
 
 ## What you'll do
 
-**Daytime.** St. Joseph's Cathedral, Hoàn Kiếm Lake, yellow walls and street stalls in the Old Quarter. Long Biên Bridge on longer sessions (walkway only).
+**Daytime.** St. Joseph's Cathedral, Hoàn Kiếm Lake, yellow walls and street stalls in the Old Quarter. Long Biên Bridge on Premium and VIP (walkway only).
 
 **After dark.** Lantern shops, lamp-lit cafés, the cathedral at night and the lake with the lights on.
 
@@ -50,7 +50,7 @@ Meeting point: agreed with you after booking, usually near Hoàn Kiếm Lake. [V
 
 ## Who it's for
 
-- Solo travellers who want photos of themselves, not only of the view
+- Solo travelers who want photos of themselves, not only of the view
 - First-timers who would like a local to walk with for an hour or two
 - Anyone building a travel profile or a personal brand
 
@@ -115,14 +115,14 @@ TravelFrame — your local friend in Hanoi
 
 ## Ảnh đề xuất (nội bộ)
 
-Không dùng ảnh trên đường ray: 02a-8, 02a-12, 02a-24, 02a-28, 02a-34, 02b-6, 02b-22, 02b-29. Cầu Long Biên chỉ dùng ảnh ở lối đi bộ (02a-25, 02a-26, 02a-27), không dùng ảnh đứng giữa ray (02a-28). Bộ Long Biên áo trắng (prefix `3978798193986987259`) khớp bộ Hanna của Harry Pham / 102 Koncept đã đăng trên /hanoi-photoshoot: credit Harry Pham / 102 Koncept, Rocky đã đồng ý dùng trên trang dịch vụ (D3, 13/11). Các bộ còn lại chưa có consent ghi nhận. [VERIFY]
+Không dùng ảnh trên đường ray: 02a-8, 02a-12, 02a-24, 02a-28, 02a-34, 02b-6, 02b-22, 02b-29. Cầu Long Biên chỉ dùng ảnh ở lối đi bộ (02a-25, 02a-26, 02a-27), không dùng ảnh đứng giữa ray (02a-28). Bộ Long Biên áo trắng (prefix `3978798193986987259`) khớp bộ Hanna của Harry Pham / 102 Koncept đã đăng trên /hanoi-photoshoot: credit Harry Pham / 102 Koncept, Rocky đã đồng ý dùng trên trang dịch vụ (D3, 13/11); chưa duyệt dùng trên Viator. [VERIFY] Các bộ còn lại chưa có consent ghi nhận. [VERIFY]
 
 | Vai trò | File (trong `viktor-travelframe/02-Solo-Photo-Walk/`) | Nội dung |
 |---|---|---|
 | Cover | `Daytime/3969113732858220161_3969113361538845540.jpg` | Nữ, áo trắng, ôm bó hoa hồng, cười |
 | Gallery | `Daytime/3969091257663465543_3969090593958933733.jpg` | Nam, toàn thân, trước Nhà thờ Lớn |
 | Gallery | `Daytime/3978765811628101515_3978765605330215510.jpg` | Nữ, quầy hàng phố cổ |
-| Gallery | `Daytime/3978798193986987259_3978798054261038483.jpg` | Lối đi bộ cầu Long Biên (ảnh có chữ overlay, không dùng làm cover) |
+| Gallery | `Daytime/3978798193986987259_3978798054261038483.jpg` | Lối đi bộ cầu Long Biên (ảnh có chữ overlay: chỉ dùng trang dịch vụ, không dùng trên Viator) |
 | Gallery | `Daytime/3983581066717034879_3983580754268729924.jpg` | Nữ, váy đỏ, tường vàng |
 | Gallery | `Daytime/3973632112181096274_3973631640097730508.jpg` | Nam, áo khoác, phố cổ |
 | Gallery | `After-Dark/3968448780317205438_3968447916720549997.jpg` | Nữ, váy đen, phố đêm |

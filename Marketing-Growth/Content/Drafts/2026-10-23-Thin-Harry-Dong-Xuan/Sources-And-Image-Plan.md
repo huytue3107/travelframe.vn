@@ -19,7 +19,7 @@ updated: 2026-10-23
 ## Patterns / voice
 
 - [Voice Playbook](../../../../Research-Insights/Library/knowledge/voice-playbook.md): V-01, V-02, V-07, V-09; warm local friend, một ý mỗi câu, claim có nguồn và hỏi trước khi dùng không gian/chụp người.
-- Audience canonical: `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/02-Audience-And-Funnel.md`; khách muốn xuất hiện trong ảnh, không phải học vận hành máy ảnh.
+- Audience canonical: `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/02-Audience-And-Funnel.md`; khách muốn xuất hiện trong ảnh, không phải học vận hành máy ảnh.
 - [Keyword system](../../../SEO/2026-10-13-Keyword-System-From-Mettavoyage/keyword-system.csv): autocomplete en-US cho `hanoi old quarter photoshoot`.
 - [Top1 plan](../../../SEO/2026-10-22-Top1-Plan/Plan.md): một trang dịch vụ chính, bài có bằng chứng hỗ trợ.
 

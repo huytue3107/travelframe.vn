@@ -14,27 +14,27 @@ image_library: Marketing-Growth/Content/viktor-travelframe/03-Ao-Dai-Heritage/
 
 ## Listing title
 
-Hanoi: Áo Dài Photoshoot by Hoàn Kiếm Lake and in the Old Quarter
+Hanoi: Private Áo Dài Photoshoot with a Local Photographer
 
 Short title (under 60 characters): Hanoi Áo Dài Photoshoot with a Local Photographer
 
 ## Summary
 
-Wear Vietnam's traditional long dress for an afternoon and walk Hanoi's lake and old streets with a local photographer. We help you choose the colour, show you how to move in it, and pick backdrops that suit it.
+Wear an áo dài, Vietnam's traditional long tunic, and walk Hanoi's lake and old streets with a local photographer. We help you choose the color, show you how to move in it, and pick backdrops that suit it.
 
 ## Highlights
 
-- Portraits in an áo dài by Hoàn Kiếm Lake and in Old Quarter streets
-- On VIP, an áo dài is included, plus light makeup
+- Portraits in an áo dài by Hoàn Kiếm Lake or in Old Quarter streets, or both on Premium and VIP
+- Light makeup on Premium and VIP; on VIP the áo dài is included too
 - Simple tips for walking, sitting and moving in the dress
-- Colour and backdrop planned together before the shoot
+- Color and backdrop planned together before the shoot
 - All original photos within 24 hours, edited photos within 48 hours
 
 ## Full description
 
 The áo dài is a long, fitted tunic worn over loose trousers. It moves when you walk, which is exactly why it photographs well.
 
-Before the shoot we talk about colour. Red and gold stand out in the busy Old Quarter. Deep blue, white or soft green look calm against the lake. Then we walk. Your photographer shows you how to hold the front panel, how to sit without creasing it, and when to just keep walking.
+Before the shoot we talk about color. Red and gold stand out in the busy Old Quarter. Deep blue, white or soft green look calm against the lake. Then we walk. Your photographer shows you how to hold the front panel, how to sit without creasing it, and when to just keep walking. [VERIFY]
 
 Bring your own áo dài, or book VIP and we arrange one for you.
 
@@ -52,8 +52,8 @@ Meeting point: agreed with you after booking, usually near Hoàn Kiếm Lake. [V
 
 ## Who it's for
 
-- Travellers who want one keepsake set in traditional dress
-- Couples and friends who want matching or contrasting colours
+- Travelers who want one keepsake set in traditional dress
+- Couples and friends who want matching or contrasting colors
 - Anyone who has seen áo dài photos and wondered what it feels like to wear one
 
 ## Pricing
@@ -68,12 +68,10 @@ Priced per hour for up to 2 guests.
 
 The easiest option is VIP for 2 hours (198 USD), with the áo dài and light makeup included.
 
-Áo dài sizes and colours available on VIP. [VERIFY]
-
 ## Included
 
 - Private photographer-guide for the hours booked
-- Help with colour choice and how to move in the dress
+- Help with color choice and how to move in the dress
 - All original photos within 24 hours
 - Edited photos (and video on Premium and VIP) within 48 hours
 
@@ -87,8 +85,8 @@ The easiest option is VIP for 2 hours (198 USD), with the áo dài and light mak
 ## Good to know
 
 - Wear flat sandals or low heels. You will walk more than you expect.
-- At temples and pagodas we ask the caretakers before taking photos.
 - In rain we move to covered spots or reschedule. [VERIFY]
+- Áo dài sizes and colors available on VIP. [VERIFY]
 - Cancellation policy. [VERIFY]
 
 ## FAQ
@@ -100,14 +98,14 @@ Yes. Wearing one with care is welcome, and it makes a lovely keepsake. [VERIFY]
 No. A good fit helps, so send us your height and usual dress size when you book.
 
 **Can my partner wear one too?**
-Yes. Tell us when you book so we plan colours that work together. We confirm in writing what is included for two people. [VERIFY]
+Yes. Tell us when you book so we plan colors that work together. We confirm in writing what is included for two people. [VERIFY]
 
 **When do I get the photos?**
 All original photos within 24 hours. Edited photos and video within 48 hours.
 
 ## Call to action (GBP và trang dịch vụ, bỏ khi nhập Viator)
 
-Send us your dates and your favourite colour, and we will suggest a lake and Old Quarter route.
+Send us your dates and your favorite color, and we will suggest a lake and Old Quarter route.
 
 TravelFrame — your local friend in Hanoi
 

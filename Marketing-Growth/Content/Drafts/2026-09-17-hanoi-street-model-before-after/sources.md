@@ -23,8 +23,8 @@
 - `Research-Insights/Library/knowledge/patterns.md`
 - `Research-Insights/Library/knowledge/ideas-backlog.md`
 - `Creative-Production/Projects/Meta-Ads-Offer-Pilot-2026-09/CREATIVE-PRODUCTION-BRIEF.md`
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/05-Content-System.md`
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/10-Content-Calendar-30-Ngay-2026-09.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/05-Content-System.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/10-Content-Calendar-30-Ngay-2026-09.md`
 - Direct user brief received 2026-09-17.
 
 ## Claims

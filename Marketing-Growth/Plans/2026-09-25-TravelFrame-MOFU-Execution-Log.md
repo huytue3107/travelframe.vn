@@ -180,15 +180,15 @@ Dùng block dưới đây cho mỗi lần cập nhật:
 
 - `Executive/Current-State.md`
 - `Brand-Strategy/Source-Of-Truth-Map.md`
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/02-Audience-And-Funnel.md`
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/03-Product-And-Guest-Experience.md`
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/05-Content-System.md`
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/10-Content-Calendar-30-Ngay-2026-09.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/02-Audience-And-Funnel.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/03-Product-And-Guest-Experience.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/05-Content-System.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/10-Content-Calendar-30-Ngay-2026-09.md`
 - `Marketing-Growth/Plans/2026-09-22-Comprehensive-Website-SEO-Content-Plan.md`
 - `Marketing-Growth/Plans/2026-09-18-Solo-Female-Hanoi-14-Day-Content-Sprint.md`
 - `Sales-CRM/Automation/ManyChat/manychat-travelframe-playbook-2026-09-14.md`
 - `Data-Analytics/Measurement-Framework.md`
-- `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/14-Metric-Definitions.md`
+- `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/14-Metric-Definitions.md`
 
 ## 10. Status
 

@@ -20,7 +20,7 @@ Short title (under 60 characters): Hanoi Couple Photo Walk with a Local Photogra
 
 ## Summary
 
-A private walk for two through Hanoi's lakeside paths, Old Quarter lanes and lamp-lit cafés. Your photographer is also your local guide, so you get photos of both of you together, plus a slower way to see the city.
+A private walk for two through Hanoi's lakeside paths, Old Quarter lanes and lamp-lit cafés. Your photographer is also your local guide: you get photos of both of you together, and a slower way to see the city.
 
 ## Highlights
 
@@ -46,7 +46,7 @@ Pick one of three styles. Routes change with the light, the weather and what is 
 
 **After dark.** The lake with the lights on, the cathedral at night and lamp-lit café fronts in the Old Quarter.
 
-**Dressed up.** Suit, gown or your favourite formal outfit against French-era facades and old cafés. Best on Premium or VIP, which cover 2 to 3 areas.
+**Dressed up.** Suit, gown or your favorite formal outfit against French-era facades and old cafés. Best on Premium or VIP, which cover 2 to 3 areas.
 
 Meeting point: agreed with you after booking, usually near Hoàn Kiếm Lake. [VERIFY]
 
@@ -85,6 +85,7 @@ For two or three areas, Premium for 2 hours is 120 USD. For a dressed-up or pre-
 
 - Wear shoes you can walk in. Bring the formal shoes in a bag if you are dressing up.
 - In rain we move to covered spots or reschedule. [VERIFY]
+- Light makeup (Premium and VIP) and the VIP outfit: we confirm in writing whether they cover one or both of you. [VERIFY]
 - Cancellation policy. [VERIFY]
 
 ## FAQ
@@ -93,7 +94,7 @@ For two or three areas, Premium for 2 hours is 120 USD. For a dressed-up or pre-
 No. Most of the session is walking and talking. We give simple directions as we go.
 
 **Can we bring our own outfits?**
-Yes. Bring as many as you like. On VIP an outfit is included.
+Yes. Bring as many as you like. On VIP an outfit is included; we confirm in writing whether it covers one or both of you. [VERIFY]
 
 **When do we get the photos?**
 All original photos within 24 hours. Edited photos and video within 48 hours.

@@ -14,27 +14,27 @@ image_library: Marketing-Growth/Content/viktor-travelframe/05-Incense-Village-Ph
 
 ## Listing title
 
-From Hanoi: Quảng Phú Cầu Incense Village Photoshoot
+From Hanoi: Private Quảng Phú Cầu Incense Village Photoshoot
 
 Short title (under 60 characters): Hanoi Incense Village Photoshoot, Quảng Phú Cầu
 
 ## Summary
 
-Leave the city for half a day and stand among thousands of red incense sticks drying in the sun. Quảng Phú Cầu is a working craft village about 35 km south of Hanoi, and your local photographer-guide takes you there and photographs you in its yards.
+Leave the city for half a day and stand among thousands of red incense sticks drying in the sun. Quảng Phú Cầu is a working craft village about 35 km south of central Hanoi, and your local photographer-guide takes you there and photographs you in its yards.
 
 ## Highlights
 
 - Portraits among bundles of red incense sticks fanned out to dry
-- A working craft village, about an hour's drive south of Hanoi
+- A working craft village, about an hour's drive south of central Hanoi
 - A local guide who asks the families before we step into their yards
-- Outfit and colour tips so you stand out against the red
+- Outfit and color tips so you stand out against the red
 - All original photos within 24 hours, edited photos within 48 hours
 
 ## Full description
 
-In Quảng Phú Cầu, in Hanoi's Ứng Hòa district, families make incense by hand. On dry days they fan bundles of sticks out across yards and lanes to dry, and the whole place turns red.
+In Quảng Phú Cầu, families make incense by hand. On dry days they fan bundles of sticks out across yards and lanes to dry, and the whole place turns red.
 
-This is a workplace, so we go with care. Your guide speaks with each family before we shoot, and we keep out of the way of people working. In return you get photos that look nothing like the city.
+This is a workplace, so we go with care. Your guide speaks with each family before we shoot, and we keep out of the way of people working. What you get is a set of photos in a setting few visitors ever see.
 
 We help you plan the outfit beforehand. White, black and soft green stand out against the red. An áo dài and a conical hat are a classic look here.
 
@@ -49,9 +49,9 @@ Timing and route depend on the weather and on which families are working that da
 
 ## Who it's for
 
-- Travellers who want one set of photos that looks nothing like the city
+- Travelers who want one set of photos that looks nothing like the city
 - Couples and friends who want a half-day trip with a purpose
-- Photographers and creators looking for colour and texture
+- Photographers and creators looking for color and texture
 
 ## Pricing
 
@@ -63,16 +63,12 @@ Photography is priced per hour by tier, for up to 2 guests. The private car to t
 | Premium | 60 USD per hour | 2 hours | Basic plus light makeup, a short recap video up to 60 seconds, 1 printed polaroid, 20 edited photos per hour |
 | VIP | 99 USD per hour | 2 hours | Premium plus an outfit, a 2 to 3 minute video, 5 printed polaroids, 30 edited photos per hour |
 
-Private car, round trip from central Hanoi. [VERIFY]
-Whether driving time counts toward the photography hours. [VERIFY]
-Minimum hours for this trip. [VERIFY]
-
 Want a full day? Ask about our craft villages day trip, which adds Bát Tràng pottery village. [VERIFY]
 
 ## Included
 
 - Local photographer-guide for the trip
-- Help with outfit and colour planning
+- Help with outfit and color planning
 - All original photos within 24 hours
 - Edited photos (and video on Premium and VIP) within 48 hours
 
@@ -88,6 +84,9 @@ Want a full day? Ask about our craft villages day trip, which adds Bát Tràng p
 - The sticks dry outdoors only in dry weather. If it rains, the bundles stay inside, so keep a backup day if you can.
 - Wear shoes you can walk in on uneven yards and lanes.
 - Please don't step on or move the bundles. Your guide shows you where to stand.
+- Private car, round trip from central Hanoi. [VERIFY]
+- Whether driving time counts toward the photography hours. [VERIFY]
+- Minimum hours for this trip. [VERIFY]
 - Cancellation and weather policy. [VERIFY]
 
 ## FAQ

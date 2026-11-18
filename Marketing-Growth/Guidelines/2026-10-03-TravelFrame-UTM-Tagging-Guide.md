@@ -27,6 +27,10 @@
 | **Khách comment keyword "HANOI" (Gửi cẩm nang)** | Cẩm nang Hà Nội | `https://travelframe.sidevn.com/news/complete-hanoi-travel-guide-2026-what-do-eat-and-know-you-arrive?utm_source=instagram&utm_medium=dm&utm_campaign=hanoi_guide&utm_content=complete_guide` |
 | **Khách hỏi tour ẩm thực / Street food** | Tour Taste Hanoi | `https://travelframe.sidevn.com/tour/taste-hanoi-culinary-delights-street-vibes?utm_source=instagram&utm_medium=dm&utm_campaign=product_recommend&utm_content=food_tour` |
 | **Khách hỏi tour chụp ảnh phố cổ Cinematic** | Tour Cinematic Walk | `https://travelframe.sidevn.com/tour/cinematic-hanoi-visual-storytelling-walk?utm_source=instagram&utm_medium=dm&utm_campaign=product_recommend&utm_content=cinematic_walk` |
+| **Khách comment keyword "MAP" / "FOOD" (Instagram DM)** | Hanoi Secret Food Map | `https://travelframe.sidevn.com/news/hanoi-secret-food-photo-map?utm_source=instagram&utm_medium=dm&utm_campaign=food_map&utm_content=pdf_link` |
+| **Khách comment keyword "MAP" / "FOOD" (FB Messenger)** | Hanoi Secret Food Map | `https://travelframe.sidevn.com/news/hanoi-secret-food-photo-map?utm_source=facebook&utm_medium=dm&utm_campaign=food_map&utm_content=pdf_link` |
+
+**Quy tắc dán link trong DM và comment (thêm 10/11/2026).** Link đứng riêng một dòng. Trước và sau link phải là dấu cách hoặc xuống dòng: không để emoji, dấu câu hay chữ dính liền vào link. GA4 ngày 10/11 ghi nhận 404 ở `/news/hanoi-secret-food-photo-map📸` và `/toursLet` vì emoji và chữ "Let" dính vào cuối link.
 
 ---
 

@@ -14,7 +14,7 @@ image_library: Marketing-Growth/Content/viktor-travelframe/06-Fashion-Editorial-
 
 ## Listing title
 
-Hanoi: Fashion Editorial Photoshoot in the Old Quarter
+Hanoi: Private Fashion Editorial Photoshoot in the Old Quarter
 
 Short title (under 60 characters): Hanoi Fashion Editorial Photoshoot, Old Quarter
 
@@ -34,7 +34,7 @@ Turn Hanoi's markets, metal shutters, motorbikes and cyclos into your backdrop. 
 
 Some people want soft, candid travel photos. This one is for people who want a look.
 
-Before the shoot, send us two or three reference photos and tell us what you plan to wear. We match each outfit to a backdrop: a bright dress against the grey of a closed shutter, streetwear on a cyclo, sunglasses and the market sign behind you. On the day we direct more than on a regular photo walk, so you get strong poses as well as in-between moments.
+Before the shoot, send us two or three reference photos and tell us what you plan to wear. We match each outfit to a backdrop: a bright dress against the gray of a closed shutter, streetwear on a cyclo, sunglasses and the market sign behind you. On the day we direct more than on a regular photo walk, so you get strong poses as well as in-between moments.
 
 The street stays a street. We ask shop owners, attendants and drivers before using their shopfronts, bikes or cyclos.
 
@@ -52,7 +52,7 @@ Meeting point: agreed with you after booking, usually in the Old Quarter. [VERIF
 
 - Fashion lovers who pack outfits with photos in mind
 - Creators refreshing a profile or building a lookbook
-- Anyone who wants Hanoi photos that look styled, not snapshot
+- Anyone who wants Hanoi photos that look styled, not snapped
 
 ## Pricing
 
@@ -65,8 +65,6 @@ Priced per hour for up to 2 guests. We suggest Premium or VIP so you have time f
 | VIP | 99 USD per hour | 2 hours | Premium plus an outfit, a 2 to 3 minute video, 5 printed polaroids, 30 edited photos per hour |
 
 Two looks with a short video: Premium for 2 hours is 120 USD. With an outfit and a longer video: VIP for 2 hours is 198 USD.
-
-Personal use only. Shoots for a brand or a commercial campaign are quoted separately. [VERIFY]
 
 ## Included
 
@@ -87,6 +85,7 @@ Personal use only. Shoots for a brand or a commercial campaign are quoted separa
 - Bring your outfits in a bag and wear the first one. We find a café to change between looks. [VERIFY]
 - Comfortable shoes for walking, heels for the shots.
 - In rain we move to covered spots or reschedule. [VERIFY]
+- Personal use only. Shoots for a brand or a commercial campaign are quoted separately. [VERIFY]
 - Cancellation policy. [VERIFY]
 
 ## FAQ
@@ -94,8 +93,8 @@ Personal use only. Shoots for a brand or a commercial campaign are quoted separa
 **I'm not a model. Can I still book this?**
 Yes. We direct every pose, and we show you the shots as we go.
 
-**How many outfits can I bring?**
-Two looks fit well in 2 hours. Want more? Tell us and we plan the time. [VERIFY]
+**How many looks can we shoot?**
+Two looks fit well in 2 hours. Want more? Tell us when you book and we plan the time. [VERIFY]
 
 **Can we shoot inside the market?**
 We shoot outside and around the market. Inside, only where stall owners say yes.
@@ -119,7 +118,7 @@ TravelFrame — your local friend in Hanoi
 
 ## Ảnh đề xuất (nội bộ)
 
-Bộ váy đỏ (prefix `3988119511271459532`, `3988750824192867717`, `3991927670633095972`) khớp bộ Thin ở chợ Đồng Xuân đã đăng trên /hanoi-photoshoot: alt cửa cuốn bạc, biển chợ Đồng Xuân, bao tải. Credit: Harry Pham / 102 Koncept; Rocky đã đồng ý dùng trên trang dịch vụ (D3, 13/11). Không gọi Thin là khách trả tiền khi chưa xác nhận. Bộ streetwear (prefix `3994694677879314229`) có watermark 102 nhưng chưa xác định người trong ảnh. [VERIFY]
+Bộ váy đỏ (prefix `3988119511271459532`, `3988750824192867717`, `3991927670633095972`) khớp bộ Thin ở chợ Đồng Xuân đã đăng trên /hanoi-photoshoot: alt cửa cuốn bạc, biển chợ Đồng Xuân, bao tải. Credit: Harry Pham / 102 Koncept; Rocky đã đồng ý dùng trên trang dịch vụ (D3, 13/11); chưa duyệt dùng trên Viator. [VERIFY] Không gọi Thin là khách trả tiền khi chưa xác nhận. Bộ streetwear (prefix `3994694677879314229`) có watermark 102 nhưng chưa xác định người trong ảnh. [VERIFY]
 
 | Vai trò | File (trong `viktor-travelframe/06-Fashion-Editorial-Photoshoot/`) | Nội dung |
 |---|---|---|
@@ -131,4 +130,4 @@ Bộ váy đỏ (prefix `3988119511271459532`, `3988750824192867717`, `399192767
 | Gallery | `3991927670633095972_3991927142706823789.jpg` | Tựa lan can, ghế đỏ phía sau |
 | Gallery | `3994694677879314229_3994689625070544287.jpg` | Streetwear, ngồi trên xích lô |
 | Gallery | `3994694677879314229_3994689635782835189.jpg` | Streetwear, trước tòa nhà VNPT |
-| Gallery | `3994694677879314229_3994689636017711812.jpg` | Streetwear, có watermark 102 |
+| Gallery | `3994694677879314229_3994689636017711812.jpg` | Streetwear, có watermark 102 (không dùng trên Viator) |

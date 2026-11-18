@@ -83,7 +83,7 @@ These are original rewrites, not copied hooks. Each performance reference suppor
 
 ### Canonical TravelFrame vault (read in the prescribed 00–14 order)
 
-`00-MOC-TravelFrame.md`; `01-Brand-Source-Of-Truth.md`; `02-Audience-And-Funnel.md`; `03-Product-And-Guest-Experience.md`; `04-Operations-And-Policies.md`; `05-Content-System.md`; `06-Safety-And-Verified-Travel-Facts.md`; `07-Source-Catalog.md`; `08-Decision-Log.md`; `09-Instagram-Insights-Snapshot-2026-09-07-2147.md`; `10-Content-Calendar-30-Ngay-2026-09.md`; `11-Proof-And-Approved-Claims.md`; `12-Tools-And-Permissions.md`; `13-Examples-And-Feedback.md`; `14-Metric-Definitions.md` under `/Users/macbook/SideAgency/SA/01-Projects/Hanoi-Expert/TravelFrame/`.
+`00-MOC-TravelFrame.md`; `01-Brand-Source-Of-Truth.md`; `02-Audience-And-Funnel.md`; `03-Product-And-Guest-Experience.md`; `04-Operations-And-Policies.md`; `05-Content-System.md`; `06-Safety-And-Verified-Travel-Facts.md`; `07-Source-Catalog.md`; `08-Decision-Log.md`; `09-Instagram-Insights-Snapshot-2026-09-07-2147.md`; `10-Content-Calendar-30-Ngay-2026-09.md`; `11-Proof-And-Approved-Claims.md`; `12-Tools-And-Permissions.md`; `13-Examples-And-Feedback.md`; `14-Metric-Definitions.md` under `/Users/macbook/SideAgency/SA/01-Projects/TravelFrame/Knowledge/`.
 
 ### Workspace sources
 
