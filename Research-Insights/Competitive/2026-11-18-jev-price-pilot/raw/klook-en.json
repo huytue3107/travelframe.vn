@@ -1,0 +1,15 @@
+{
+ "name": "klook-en",
+ "start_url": "https://www.klook.com/en-US/",
+ "goal": "Search for Hanoi photo tour and show the list of matching activities. Stop on the search results list. Do not book, add to cart, sign in, or enter personal details.",
+ "started_utc": "2026-11-18T14:24:39+00:00",
+ "status": "blocked",
+ "elapsed_ms": 433,
+ "actions": [],
+ "typesafe_decisions": 1,
+ "text_calls": 0,
+ "final_url": "https://www.klook.com/en-US/",
+ "final_title": "klook.com",
+ "page_text": "",
+ "wall_ms": 2773
+}
