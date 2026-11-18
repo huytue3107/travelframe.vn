@@ -1,6 +1,9 @@
 # Handoff: Push phiên 2026-11-18 và kế hoạch dọn thay đổi chưa commit
 
-- **Ngày:** 2026-11-18 · **Người làm:** Claude · **Trạng thái:** Chờ Rocky duyệt kế hoạch (mục 3–4)
+- **Ngày:** 2026-11-18 · **Người làm:** Claude · **Trạng thái:** Đã thực hiện. Rocky duyệt Q1 phương án A,
+  Q2 media ngoài git, Q3 repo private. Kết quả, validation và rollback:
+  [MIG-20261118-GIT-SYNC-TO-MAIN](../../Operations/Migrations/MIG-20261118-GIT-SYNC-TO-MAIN/README.md).
+  Nhánh làm việc hiện tại: `claude/2026-11-18-sync-local-snapshot`.
 
 ## 1. Đã làm (có bằng chứng)
 
