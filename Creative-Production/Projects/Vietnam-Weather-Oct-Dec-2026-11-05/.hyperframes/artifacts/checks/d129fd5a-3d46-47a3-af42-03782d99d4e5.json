@@ -1,0 +1,798 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 39
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 18,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 6.754,
+        "selector": "#g4w1",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 339.83,
+          "top": 1191,
+          "right": 574.92,
+          "bottom": 1261,
+          "width": 235.09,
+          "height": 70
+        },
+        "containerSelector": "#g5w0",
+        "text": "weather",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/captions-v02.html",
+        "bbox": {
+          "x": 339.83,
+          "y": 1191,
+          "width": 235.09,
+          "height": 70
+        },
+        "firstSeen": 6.754,
+        "lastSeen": 6.754,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          6.754
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 6.754,
+        "selector": "#g4w2",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 601.48,
+          "top": 1191,
+          "right": 706.31,
+          "bottom": 1261,
+          "width": 104.83,
+          "height": 70
+        },
+        "containerSelector": "#g5w1",
+        "text": "can",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/captions-v02.html",
+        "bbox": {
+          "x": 601.48,
+          "y": 1191,
+          "width": 104.83,
+          "height": 70
+        },
+        "firstSeen": 6.754,
+        "lastSeen": 6.754,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          6.754
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 11.194,
+        "selector": "#v2scene3-a > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 577.74,
+          "top": 889.02,
+          "right": 673.48,
+          "bottom": 929.46,
+          "width": 95.74,
+          "height": 40.45
+        },
+        "containerSelector": "#v2scene3-b-img",
+        "text": "HANOI",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.44,
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/v2scene3.html",
+        "bbox": {
+          "x": 577.74,
+          "y": 889.02,
+          "width": 95.74,
+          "height": 40.45
+        },
+        "firstSeen": 11.194,
+        "lastSeen": 11.194,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.194
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 11.194,
+        "selector": "#v2scene3-a-img",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 329.51,
+          "top": 554.33,
+          "right": 898.26,
+          "bottom": 928.75,
+          "width": 568.74,
+          "height": 374.42
+        },
+        "containerSelector": "#v2scene3-a > div:nth-of-type(2)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 359.98,
+          "top": 574.39,
+          "right": 867.79,
+          "bottom": 908.69,
+          "width": 507.81,
+          "height": 334.31
+        },
+        "overflow": {
+          "left": 30.47,
+          "right": 30.47,
+          "top": 20.06,
+          "bottom": 20.06
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "v2scene3-a-img",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "compositions/v02/v2scene3.html",
+        "bbox": {
+          "x": 329.51,
+          "y": 554.33,
+          "width": 568.74,
+          "height": 374.42
+        },
+        "firstSeen": 11.194,
+        "lastSeen": 11.194,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.194
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.657,
+        "selector": "#v2scene5-a > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 277.05,
+          "top": 910.58,
+          "right": 470.66,
+          "bottom": 957.86,
+          "width": 193.61,
+          "height": 47.29
+        },
+        "containerSelector": "#v2scene5-cat",
+        "text": "COFFEE STOP",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.48,
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/v2scene5.html",
+        "bbox": {
+          "x": 277.05,
+          "y": 910.58,
+          "width": 193.61,
+          "height": 47.29
+        },
+        "firstSeen": 18.657,
+        "lastSeen": 18.657,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.657
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 18.657,
+        "selector": "#v2scene5-b > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 599.15,
+          "top": 1053.92,
+          "right": 906.26,
+          "bottom": 1114.4,
+          "width": 307.11,
+          "height": 60.48
+        },
+        "containerSelector": "#v2scene5-b-img",
+        "text": "BRING YOUR CAMERA",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.15,
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/v2scene5.html",
+        "bbox": {
+          "x": 599.15,
+          "y": 1053.92,
+          "width": 307.11,
+          "height": 60.48
+        },
+        "firstSeen": 18.657,
+        "lastSeen": 18.657,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          18.657
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 26.12,
+        "selector": "#v2scene8-a > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 322.94,
+          "top": 913.78,
+          "right": 424.79,
+          "bottom": 954.66,
+          "width": 101.85,
+          "height": 40.87
+        },
+        "containerSelector": "#v2scene8-cat",
+        "text": "HỘI AN",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.56,
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/v2scene8.html",
+        "bbox": {
+          "x": 322.94,
+          "y": 913.78,
+          "width": 101.85,
+          "height": 40.87
+        },
+        "firstSeen": 26.12,
+        "lastSeen": 26.12,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          26.12
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 26.12,
+        "selector": "#v2scene8-b > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 614.08,
+          "top": 1055.23,
+          "right": 891.32,
+          "bottom": 1113.1,
+          "width": 277.24,
+          "height": 57.87
+        },
+        "containerSelector": "#v2scene8-b-img",
+        "text": "CENTRAL VIETNAM",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.15,
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/v2scene8.html",
+        "bbox": {
+          "x": 614.08,
+          "y": 1055.23,
+          "width": 277.24,
+          "height": 57.87
+        },
+        "firstSeen": 26.12,
+        "lastSeen": 26.12,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          26.12
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 26.12,
+        "selector": "#v2scene8-a-img",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 85.42,
+          "top": 562.94,
+          "right": 686.81,
+          "bottom": 955.14,
+          "width": 601.39,
+          "height": 392.19
+        },
+        "containerSelector": "#v2scene8-a > div:nth-of-type(2)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 116.73,
+          "top": 583.36,
+          "right": 655.51,
+          "bottom": 934.72,
+          "width": 538.78,
+          "height": 351.36
+        },
+        "overflow": {
+          "left": 31.31,
+          "right": 31.3,
+          "top": 20.42,
+          "bottom": 20.42
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "v2scene8-a-img",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "compositions/v02/v2scene8.html",
+        "bbox": {
+          "x": 85.42,
+          "y": 562.94,
+          "width": 601.39,
+          "height": 392.19
+        },
+        "firstSeen": 26.12,
+        "lastSeen": 26.12,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          26.12
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 33.583,
+        "selector": "#v2scene10-a > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 526.19,
+          "top": 911.08,
+          "right": 705.71,
+          "bottom": 957.38,
+          "width": 179.52,
+          "height": 46.3
+        },
+        "containerSelector": "#v2scene10-b-img",
+        "text": "CAFÉ BREAK",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/v2scene10.html",
+        "bbox": {
+          "x": 526.19,
+          "y": 911.08,
+          "width": 179.52,
+          "height": 46.3
+        },
+        "firstSeen": 33.583,
+        "lastSeen": 33.583,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          33.583
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 41.046,
+        "selector": "#v2scene11-a > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 188.72,
+          "top": 904.4,
+          "right": 558.99,
+          "bottom": 964.04,
+          "width": 370.27,
+          "height": 59.64
+        },
+        "containerSelector": "#v2scene11-cat",
+        "text": "SHOWERS CAN CONTINUE",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.63,
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/v2scene11.html",
+        "bbox": {
+          "x": 188.72,
+          "y": 904.4,
+          "width": 370.27,
+          "height": 59.64
+        },
+        "firstSeen": 41.046,
+        "lastSeen": 41.046,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          41.046
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 41.046,
+        "selector": "#v2scene11-a-img",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 84.4,
+          "top": 562.28,
+          "right": 687.83,
+          "bottom": 955.8,
+          "width": 603.43,
+          "height": 393.53
+        },
+        "containerSelector": "#v2scene11-a > div:nth-of-type(2)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 116.73,
+          "top": 583.36,
+          "right": 655.51,
+          "bottom": 934.72,
+          "width": 538.78,
+          "height": 351.36
+        },
+        "overflow": {
+          "left": 32.33,
+          "right": 32.32,
+          "top": 21.08,
+          "bottom": 21.08
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "v2scene11-a-img",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "compositions/v02/v2scene11.html",
+        "bbox": {
+          "x": 84.4,
+          "y": 562.28,
+          "width": 603.43,
+          "height": 393.53
+        },
+        "firstSeen": 41.046,
+        "lastSeen": 41.046,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          41.046
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 48.509,
+        "selector": "#v2scene13-a > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 466.65,
+          "top": 906.91,
+          "right": 765.27,
+          "bottom": 961.54,
+          "width": 298.62,
+          "height": 54.63
+        },
+        "containerSelector": "#v2scene13-a-img",
+        "text": "OCT · NOV SHOWERS",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.89,
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/v2scene13.html",
+        "bbox": {
+          "x": 466.65,
+          "y": 906.91,
+          "width": 298.62,
+          "height": 54.63
+        },
+        "firstSeen": 48.509,
+        "lastSeen": 48.509,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          48.509
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 48.509,
+        "selector": "#v2scene13-a-img",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 302.36,
+          "top": 567.57,
+          "right": 905.41,
+          "bottom": 955.51,
+          "width": 603.04,
+          "height": 387.94
+        },
+        "containerSelector": "#v2scene13-a > div:nth-of-type(2)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 334.67,
+          "top": 588.35,
+          "right": 873.1,
+          "bottom": 934.73,
+          "width": 538.43,
+          "height": 346.38
+        },
+        "overflow": {
+          "left": 32.31,
+          "right": 32.31,
+          "top": 20.78,
+          "bottom": 20.78
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "v2scene13-a-img",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "compositions/v02/v2scene13.html",
+        "bbox": {
+          "x": 302.36,
+          "y": 567.57,
+          "width": 603.04,
+          "height": 387.94
+        },
+        "firstSeen": 48.509,
+        "lastSeen": 48.509,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          48.509
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 55.972,
+        "selector": "#v2scene15-a > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 482.07,
+          "top": 882.33,
+          "right": 769.14,
+          "bottom": 936.15,
+          "width": 287.07,
+          "height": 53.83
+        },
+        "containerSelector": "#v2scene15-b-img",
+        "text": "CHECK YOUR DATES",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.74,
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/v2scene15.html",
+        "bbox": {
+          "x": 482.07,
+          "y": 882.33,
+          "width": 287.07,
+          "height": 53.83
+        },
+        "firstSeen": 55.972,
+        "lastSeen": 55.972,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          55.972
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 55.972,
+        "selector": "#v2scene15-a-img",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 329.51,
+          "top": 554.33,
+          "right": 898.26,
+          "bottom": 928.75,
+          "width": 568.74,
+          "height": 374.42
+        },
+        "containerSelector": "#v2scene15-a > div:nth-of-type(2)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 359.98,
+          "top": 574.39,
+          "right": 867.79,
+          "bottom": 908.69,
+          "width": 507.81,
+          "height": 334.31
+        },
+        "overflow": {
+          "left": 30.47,
+          "right": 30.47,
+          "top": 20.06,
+          "bottom": 20.06
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "v2scene15-a-img",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "compositions/v02/v2scene15.html",
+        "bbox": {
+          "x": 329.51,
+          "y": 554.33,
+          "width": 568.74,
+          "height": 374.42
+        },
+        "firstSeen": 55.972,
+        "lastSeen": 55.972,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          55.972
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 63.435,
+        "selector": "#v2scene17-a > div:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 210.42,
+          "top": 905.92,
+          "right": 537.31,
+          "bottom": 962.53,
+          "width": 326.89,
+          "height": 56.61
+        },
+        "containerSelector": "#v2scene17-cat",
+        "text": "EXPLORE THE STREETS",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.56,
+        "dataAttributes": {},
+        "sourceFile": "compositions/v02/v2scene17.html",
+        "bbox": {
+          "x": 210.42,
+          "y": 905.92,
+          "width": 326.89,
+          "height": 56.61
+        },
+        "firstSeen": 63.435,
+        "lastSeen": 63.435,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          63.435
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 63.435,
+        "selector": "#v2scene17-a-img",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 84.4,
+          "top": 562.28,
+          "right": 687.83,
+          "bottom": 955.8,
+          "width": 603.43,
+          "height": 393.53
+        },
+        "containerSelector": "#v2scene17-a > div:nth-of-type(2)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 116.73,
+          "top": 583.36,
+          "right": 655.51,
+          "bottom": 934.72,
+          "width": 538.78,
+          "height": 351.36
+        },
+        "overflow": {
+          "left": 32.33,
+          "right": 32.32,
+          "top": 21.08,
+          "bottom": 21.08
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "v2scene17-a-img",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "compositions/v02/v2scene17.html",
+        "bbox": {
+          "x": 84.4,
+          "y": 562.28,
+          "width": 603.43,
+          "height": 393.53
+        },
+        "firstSeen": 63.435,
+        "lastSeen": 63.435,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          63.435
+        ]
+      }
+    ],
+    "duration": 67.16666666666667,
+    "samples": [
+      3.731,
+      11.194,
+      18.657,
+      26.12,
+      33.583,
+      41.046,
+      48.509,
+      55.972,
+      63.435
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 18,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      3.731,
+      18.657,
+      33.583,
+      48.509,
+      63.435
+    ],
+    "checked": 41,
+    "passed": 41
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 538
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

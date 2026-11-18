@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "src": "TF-First-Coffee-Hanoi-Adam-CleanVoice-v02.mp4",
+  "sha": "e3c79faccd92cc88db1d919f78cb144689ef99bd7b5663f9ec8093aef09e1c67",
+  "engine": "scribe",
+  "model": "scribe-v2",
+  "detectedLanguage": "en",
+  "words": [
+    {
+      "id": "w0",
+      "text": "First",
+      "start": 0.48,
+      "end": 0.72,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w1",
+      "text": "coffee",
+      "start": 0.82,
+      "end": 1.28,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w2",
+      "text": "in",
+      "start": 1.38,
+      "end": 1.5,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w3",
+      "text": "Hanoi.",
+      "start": 1.54,
+      "end": 2.06,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w4",
+      "text": "Let's",
+      "start": 2.74,
+      "end": 2.92,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w5",
+      "text": "order",
+      "start": 2.98,
+      "end": 3.18,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w6",
+      "text": "together",
+      "start": 3.26,
+      "end": 3.68,
+      "speaker": "speaker_0"
+    }
+  ],
+  "language": "auto",
+  "generatedWordsHash": "13d02f78268d6d61eaa402290beee847a0f8a0801cda7b5aac37c72c4f423ffc",
+  "createdAt": "2026-11-03T02:09:48.178Z"
+}

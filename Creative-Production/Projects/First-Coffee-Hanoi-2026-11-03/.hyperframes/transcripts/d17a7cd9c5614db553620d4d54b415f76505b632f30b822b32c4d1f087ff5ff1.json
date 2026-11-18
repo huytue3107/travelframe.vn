@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "src": "assets/adam-01.wav",
+  "sha": "d17a7cd9c5614db553620d4d54b415f76505b632f30b822b32c4d1f087ff5ff1",
+  "engine": "scribe",
+  "model": "scribe-v2",
+  "detectedLanguage": "en",
+  "words": [
+    {
+      "id": "w0",
+      "text": "First",
+      "start": 0.1,
+      "end": 0.32,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w1",
+      "text": "coffee",
+      "start": 0.42,
+      "end": 0.94,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w2",
+      "text": "in",
+      "start": 1,
+      "end": 1.1,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w3",
+      "text": "Hanoi.",
+      "start": 1.14,
+      "end": 1.66,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w4",
+      "text": "Let's",
+      "start": 2.34,
+      "end": 2.52,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w5",
+      "text": "order",
+      "start": 2.58,
+      "end": 2.78,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w6",
+      "text": "together",
+      "start": 2.86,
+      "end": 3.28,
+      "speaker": "speaker_0"
+    }
+  ],
+  "language": "auto",
+  "generatedWordsHash": "da038a5c6f3a55b7888b5ea3120d44dbe18f76abfec08dd54d215d68df470fb4",
+  "createdAt": "2026-11-03T02:04:13.186Z"
+}

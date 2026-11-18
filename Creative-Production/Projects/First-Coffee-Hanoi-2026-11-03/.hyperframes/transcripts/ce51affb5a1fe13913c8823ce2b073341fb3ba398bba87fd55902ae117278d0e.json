@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "src": "assets/voice-06.wav",
+  "sha": "ce51affb5a1fe13913c8823ce2b073341fb3ba398bba87fd55902ae117278d0e",
+  "engine": "scribe",
+  "model": "scribe-v2",
+  "detectedLanguage": "en",
+  "words": [
+    {
+      "id": "w0",
+      "text": "Save",
+      "start": 0.1,
+      "end": 0.3,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w1",
+      "text": "this",
+      "start": 0.34,
+      "end": 0.5,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w2",
+      "text": "for",
+      "start": 0.54,
+      "end": 0.64,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w3",
+      "text": "your",
+      "start": 0.68,
+      "end": 0.84,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w4",
+      "text": "first",
+      "start": 0.88,
+      "end": 1.1,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w5",
+      "text": "coffee",
+      "start": 1.2,
+      "end": 1.5,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w6",
+      "text": "stop",
+      "start": 1.62,
+      "end": 1.94,
+      "speaker": "speaker_0"
+    }
+  ],
+  "language": "auto",
+  "generatedWordsHash": "393a8528f27312af08b58a5c3593350d36f84fd3bafb3d9f9bc204ecd6a80292",
+  "createdAt": "2026-11-03T02:04:02.785Z"
+}

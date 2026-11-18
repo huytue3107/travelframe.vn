@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "historyId": "036267ad-06ca-49fd-8148-a7a2d2423d4b",
+  "currentRevision": "bf6dbcd8-7dc3-4a7f-b181-e79a154b5a57",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "ASSETS.md": {
+      "hash": "7bdb3e71e5d31262bb7df99ad42ce36fbe0368dd36c7d34d63418583f6f93e1f",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/7b/7bdb3e71e5d31262bb7df99ad42ce36fbe0368dd36c7d34d63418583f6f93e1f"
+    },
+    "CLAUDE.md": {
+      "hash": "1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/1b/1b36171117cb7c18f4100a0db6a3782ff2e096115995733200445cc2e80a4060"
+    },
+    "SCRIPT.md": {
+      "hash": "823d30dec0877c94adbc50f6058d9280f4a9c7983c74d131c4005d0d8ecb12ea",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/82/823d30dec0877c94adbc50f6058d9280f4a9c7983c74d131c4005d0d8ecb12ea"
+    },
+    "SPEC.md": {
+      "hash": "a236c5a5b3a89c75558bb92c02d3bd5b7f35e0395ea0fdb2f2d31afe4725bd33",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/a2/a236c5a5b3a89c75558bb92c02d3bd5b7f35e0395ea0fdb2f2d31afe4725bd33"
+    },
+    "assets/bridge.jpg": {
+      "hash": "a6b13c03fb3026c4bf140fa9b4a537ddb9e062e2f17fde89d5054545a76daf6a",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/a6/a6b13c03fb3026c4bf140fa9b4a537ddb9e062e2f17fde89d5054545a76daf6a"
+    },
+    "assets/coffee.jpg": {
+      "hash": "f0248daa50853cc11f83203c56ed01464aac6d6af1afa364628f305ef0c27582",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/f0/f0248daa50853cc11f83203c56ed01464aac6d6af1afa364628f305ef0c27582"
+    },
+    "assets/gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/92/92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "assets/lake.jpg": {
+      "hash": "bad217be4af927c6457d67dae5b07f1cc95ba6f03b822a0112ca012b0008e11a",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/ba/bad217be4af927c6457d67dae5b07f1cc95ba6f03b822a0112ca012b0008e11a"
+    },
+    "assets/old-quarter.jpg": {
+      "hash": "c546d5a609011b0a6d211fb7745ddd9788a7d479a2ab65cec3055a0eec8fa51e",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/c5/c546d5a609011b0a6d211fb7745ddd9788a7d479a2ab65cec3055a0eec8fa51e"
+    },
+    "assets/pho.jpg": {
+      "hash": "40a512ff9378d7d827db3ce0127432e21c62cbbdf2426b1f1c7a4f99acffb71f",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/40/40a512ff9378d7d827db3ce0127432e21c62cbbdf2426b1f1c7a4f99acffb71f"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "bb6872e56cf0c1bb729214e53ddd5e1c7129b5caf9ee1e76068c30313817b6c0",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/bb/bb6872e56cf0c1bb729214e53ddd5e1c7129b5caf9ee1e76068c30313817b6c0"
+    },
+    "meta.json": {
+      "hash": "6f49651c1add1a4852b87c4b283dfdb87d8c0395d0e7840f4ce8c83f662ace05",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/6f/6f49651c1add1a4852b87c4b283dfdb87d8c0395d0e7840f4ce8c83f662ace05"
+    },
+    "package.json": {
+      "hash": "6b11752b308f68d429a15ae5eb31a45b7445ecb46823956f581dd1e87ef316a3",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/6b/6b11752b308f68d429a15ae5eb31a45b7445ecb46823956f581dd1e87ef316a3"
+    },
+    "assets/adam-alignment.json": {
+      "hash": "77f590d0cb1699a33f90336e40dd6c96ae9dad7c51030a67abef0cbf05ced923",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/77/77f590d0cb1699a33f90336e40dd6c96ae9dad7c51030a67abef0cbf05ced923"
+    },
+    "assets/adam-voice.mp3": {
+      "hash": "2dfede0d5e035651f4713450684506a72c0d081accdea47a1a74348026a257b3",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/2d/2dfede0d5e035651f4713450684506a72c0d081accdea47a1a74348026a257b3"
+    },
+    "assets/cathedral-motion.mp4": {
+      "hash": "b3838e05733676c3b3dfe3ce19d68a062861d75b5906fbefa34f5000f209fadf",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/b3/b3838e05733676c3b3dfe3ce19d68a062861d75b5906fbefa34f5000f209fadf"
+    },
+    "assets/lake-motion.mp4": {
+      "hash": "24efdc878085938bdd72651cbd4a0e2c2f3954d871f2f68752c454529303a4ed",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/24/24efdc878085938bdd72651cbd4a0e2c2f3954d871f2f68752c454529303a4ed"
+    },
+    "assets/market-night-motion.mp4": {
+      "hash": "65fda931a7d16bffcd6cc27f042305253720829e1d149360eba9b0d17b003fe5",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/65/65fda931a7d16bffcd6cc27f042305253720829e1d149360eba9b0d17b003fe5"
+    },
+    "assets/old-quarter-motion.mp4": {
+      "hash": "0a24ef4e3f7969b33e7baa6428b082e911d538da9e0826d82d12e580ce9ea3ef",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/0a/0a24ef4e3f7969b33e7baa6428b082e911d538da9e0826d82d12e580ce9ea3ef"
+    },
+    "assets/street-food-motion.mp4": {
+      "hash": "6d67d1251d70b9aec504c152c1df7749bae3308a9c4695ed0a270b01ab4e870e",
+      "content": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/6d/6d67d1251d70b9aec504c152c1df7749bae3308a9c4695ed0a270b01ab4e870e"
+    }
+  },
+  "revisions": {
+    "aa3a5ae9-de75-4a8e-87e2-47322740f3c3": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793631631800,
+      "endedAt": 1793631631886,
+      "files": {
+        "assets/adam-alignment.json": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/77/77f590d0cb1699a33f90336e40dd6c96ae9dad7c51030a67abef0cbf05ced923"
+        },
+        "assets/adam-voice.mp3": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/2d/2dfede0d5e035651f4713450684506a72c0d081accdea47a1a74348026a257b3"
+        },
+        "assets/cathedral-motion.mp4": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/b3/b3838e05733676c3b3dfe3ce19d68a062861d75b5906fbefa34f5000f209fadf"
+        },
+        "assets/lake-motion.mp4": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/24/24efdc878085938bdd72651cbd4a0e2c2f3954d871f2f68752c454529303a4ed"
+        },
+        "assets/market-night-motion.mp4": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/65/65fda931a7d16bffcd6cc27f042305253720829e1d149360eba9b0d17b003fe5"
+        },
+        "assets/old-quarter-motion.mp4": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/0a/0a24ef4e3f7969b33e7baa6428b082e911d538da9e0826d82d12e580ce9ea3ef"
+        },
+        "assets/street-food-motion.mp4": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/6d/6d67d1251d70b9aec504c152c1df7749bae3308a9c4695ed0a270b01ab4e870e"
+        },
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/ef/ef163864537b0f9db534d84fe85244c44e5ea1f0c2344a6651760b7ffd98b4d9",
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/f9/f951c3b584f05ebf1d71020e59cd945288a22c4fbde656a75dc3f6497c0cd329"
+        }
+      }
+    },
+    "9c633c6a-a327-401b-b4ff-e647570e7ec3": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793631736077,
+      "endedAt": 1793631738135,
+      "files": {
+        "ASSETS.md": {
+          "before": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/89/8952ee9bff56cf7a9f221524cbf63ce2819d1556fb45957eef73ae814e496875",
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/7b/7bdb3e71e5d31262bb7df99ad42ce36fbe0368dd36c7d34d63418583f6f93e1f"
+        },
+        "SPEC.md": {
+          "before": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/e3/e3dd56be1e7b3e60ae1fe3f57b61570f17c4cf2f1c12fc03fe91a8c5a958fabd",
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/a2/a236c5a5b3a89c75558bb92c02d3bd5b7f35e0395ea0fdb2f2d31afe4725bd33"
+        }
+      }
+    },
+    "bf6dbcd8-7dc3-4a7f-b181-e79a154b5a57": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793631798909,
+      "endedAt": 1793631800911,
+      "files": {
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/f9/f951c3b584f05ebf1d71020e59cd945288a22c4fbde656a75dc3f6497c0cd329",
+          "after": "/Users/macbook/.cache/hyperframes/history/036267ad-06ca-49fd-8148-a7a2d2423d4b/blobs/bb/bb6872e56cf0c1bb729214e53ddd5e1c7129b5caf9ee1e76068c30313817b6c0"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "a2544836-d411-4859-8258-c3126d7c45c2",
+      "completedAt": 1793631877492,
+      "output": "Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/TF-Hanoi-Five-Things-Reel-v03.mp4",
+      "status": "completed",
+      "revision": "bf6dbcd8-7dc3-4a7f-b181-e79a154b5a57"
+    },
+    "retainedRevisions": [
+      "bf6dbcd8-7dc3-4a7f-b181-e79a154b5a57"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

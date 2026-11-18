@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hanoi Handbook · bronze drum cover concepts</title>
+<style>
+@font-face { font-family: "Heritage"; src: url("../../../Assets/Fonts/HeritageDisplay/v1.1/HeritageDisplay-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Newsreader"; src: url("../fonts/Newsreader.ttf") format("truetype"); font-weight: 200 800; size-adjust: 88%; }
+@font-face { font-family: "Newsreader"; src: url("../fonts/Newsreader-Italic.ttf") format("truetype"); font-weight: 200 800; font-style: italic; size-adjust: 88%; }
+@font-face { font-family: "Be Vietnam Pro"; src: url("../fonts/BeVietnamPro-SemiBold.ttf") format("truetype"); font-weight: 600; }
+@font-face { font-family: "Caveat"; src: url("../fonts/Caveat.ttf") format("truetype"); font-weight: 400 700; }
+:root {
+  --paper: #FAF5EA; --ink: #1F2629; --teal: #008AA3; --teal-deep: #0B5F6E; --gold: #D8B26A; --gold-soft: #EAD4A2;
+  --red: #BD100A; --ivory: #FBF4E4;
+  --serif: "Newsreader", Georgia, serif; --sans: "Be Vietnam Pro", sans-serif; --hand: "Caveat", cursive;
+}
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #888; font-family: var(--sans); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 210mm; height: 297mm; position: relative; overflow: hidden; margin: 0 auto 8mm; break-after: page; }
+.abs { position: absolute; }
+.lab { font-size: 7.4pt; letter-spacing: .24em; text-transform: uppercase; font-weight: 600; }
+.the { font-family: var(--serif); font-style: italic; font-weight: 500; }
+.big { font-family: "Heritage", var(--serif); line-height: .86; }
+.hb { font-family: var(--serif); font-style: italic; font-weight: 600; line-height: 1; }
+.hand { font-family: var(--hand); font-weight: 600; line-height: 1; }
+.mult { mix-blend-mode: multiply; }
+
+/* E1 · Bronze sun over the old gate */
+.e1 { background: var(--teal-deep); }
+.e1 .drum { left: 5mm; top: -42mm; width: 200mm; opacity: .95; }
+.e1 .arch { left: 45mm; top: 92mm; width: 120mm; height: 128mm; background: var(--paper); border-radius: 60mm 60mm 0 0;
+  overflow: hidden; border: 2mm solid var(--gold-soft); }
+.e1 .arch img { position: absolute; left: -5mm; bottom: -2mm; width: calc(100% + 10mm); }
+.e1 .title { left: 0; right: 0; top: 226mm; text-align: center; color: var(--ivory); }
+.e1 .the { font-size: 20pt; color: var(--gold); }
+.e1 .big { font-size: 76pt; }
+.e1 .hb { font-size: 30pt; margin-top: 1mm; }
+.e1 .logo { left: 15mm; bottom: 10mm; width: 21mm; }
+.e1 .meta { right: 16mm; bottom: 14mm; color: var(--gold-soft); text-align: right; }
+
+/* E2 · Contemporary collage, riso two-colour drum */
+.e2 { background: var(--paper); }
+.e2 .block { left: 0; top: 0; width: 74mm; height: 168mm; background: var(--teal-deep); }
+.e2 .drum { left: 70mm; top: -20mm; width: 250mm; }
+.e2 .drum.red { opacity: .92; }
+.e2 .drum.off { left: 72.6mm; top: -17.8mm; opacity: .5; }
+.e2 .card { left: 28mm; top: 62mm; width: 106mm; height: 140mm; background: #FFFDF7; padding: 4mm 4mm 15mm; transform: rotate(-3deg);
+  box-shadow: 0 1.2mm 3mm rgba(31,38,41,.18); }
+.e2 .card .img { width: 100%; height: 100%; overflow: hidden; background: var(--paper); }
+.e2 .card .img img { width: 100%; height: 100%; object-fit: cover; object-position: center 70%; }
+.e2 .card .cap { position: absolute; left: 6mm; bottom: 3.5mm; font-size: 17pt; color: var(--ink); }
+.e2 .lab-top { left: 12mm; top: 14mm; color: var(--gold-soft); width: 56mm; line-height: 1.6; }
+.e2 .note { left: 12mm; top: 36mm; color: var(--ivory); font-size: 19pt; transform: rotate(-4deg); }
+.e2 .title { left: 16mm; bottom: 24mm; color: var(--ink); }
+.e2 .the { font-size: 22pt; color: #485156; }
+.e2 .big { font-size: 98pt; }
+.e2 .hb { font-size: 38pt; color: var(--teal-deep); }
+.e2 .logo { right: 14mm; bottom: 13mm; width: 54mm; }
+
+/* E3 · Lac bird ring around a window on Hanoi */
+.e3 { background: var(--ink); }
+.e3 .title { left: 0; right: 0; top: 16mm; text-align: center; }
+.e3 .lab { color: var(--gold); }
+.e3 .the { font-size: 20pt; color: var(--gold); margin-top: 5mm; }
+.e3 .big { font-size: 80pt; color: var(--ivory); }
+.e3 .hb { font-size: 32pt; color: var(--gold); margin-top: 1mm; }
+.e3 .drum { left: 12mm; top: 80mm; width: 186mm; }
+.e3 .win { left: 63mm; top: 131mm; width: 84mm; height: 84mm; border-radius: 50%; overflow: hidden; background: var(--paper); }
+.e3 .win img { width: 100%; height: 100%; object-fit: cover; object-position: 45% 60%; transform: scale(1.25); }
+.e3 .logo { left: 15mm; bottom: 10mm; width: 21mm; }
+.e3 .meta { right: 16mm; bottom: 14mm; color: var(--gold); text-align: right; }
+
+/* E1R · E1 on Vietnamese flag red */
+.e1r { background: #DA251D; }
+.e1r .drum { left: 5mm; top: -42mm; width: 200mm; }
+.e1r .arch { left: 45mm; top: 92mm; width: 120mm; height: 128mm; background: var(--paper); border-radius: 60mm 60mm 0 0;
+  overflow: hidden; border: 2mm solid #F7E3B0; }
+.e1r .arch img { position: absolute; left: -5mm; bottom: -2mm; width: calc(100% + 10mm); }
+.e1r .title { left: 0; right: 0; top: 226mm; text-align: center; color: #FFF6E6; }
+.e1r .the { font-size: 20pt; color: #F6C94B; }
+.e1r .big { font-size: 76pt; }
+.e1r .hb { font-size: 30pt; margin-top: 1mm; }
+.e1r .badge { left: 13.5mm; bottom: 8.5mm; width: 24mm; height: 24mm; border-radius: 50%; background: #FFF6E6; display: flex; align-items: center; justify-content: center; }
+.e1r .badge img { width: 21.5mm; }
+.e1r .meta { right: 16mm; bottom: 14mm; color: #F7E3B0; text-align: right; }
+</style>
+</head>
+<body>
+
+<!-- E1 · BRONZE SUN OVER THE OLD GATE -->
+<section class="page e1">
+  <img class="abs drum" src="drum-gold.svg" alt="">
+  <div class="abs arch"><img class="mult" src="../illustrations/08-hoan-kiem.jpg" alt=""></div>
+  <div class="abs title">
+    <div class="the">The</div>
+    <div class="big">HANOI</div>
+    <div class="hb">Handbook</div>
+  </div>
+  <img class="abs logo" src="../brand/travelframe-logo-round-415.png" alt="TravelFrame">
+  <div class="abs meta lab">A local friend's guide<br>Free · 2026–27 edition</div>
+</section>
+
+<!-- E2 · CONTEMPORARY COLLAGE -->
+<section class="page e2">
+  <div class="abs block"></div>
+  <img class="abs drum red mult" src="drum-red.svg" alt="">
+  <img class="abs drum off mult" src="drum-teal.svg" alt="">
+  <div class="abs lab lab-top">Free guide<br>2026–27 edition</div>
+  <div class="abs note hand">for first-timers ♡</div>
+  <div class="abs card">
+    <div class="img"><img class="mult" src="../illustrations/01-cover.jpg" alt=""></div>
+    <div class="cap hand">Hà Nội, 6am</div>
+  </div>
+  <div class="abs title">
+    <div class="the">The</div>
+    <div class="big">HANOI</div>
+    <div class="hb">Handbook</div>
+  </div>
+  <img class="abs logo" src="../brand/travelframe-logo-horizontal-480.png" alt="TravelFrame Vietnam">
+</section>
+
+<!-- E3 · LAC BIRD RING -->
+<section class="page e3">
+  <div class="abs title">
+    <div class="lab">A local friend's guide · 2026–27 edition</div>
+    <div class="the">The</div>
+    <div class="big">HANOI</div>
+    <div class="hb">Handbook</div>
+  </div>
+  <img class="abs drum" src="drum-gold-window.svg" alt="">
+  <div class="abs win"><img class="mult" src="../illustrations/08-hoan-kiem.jpg" alt=""></div>
+  <img class="abs logo" src="../brand/travelframe-logo-round-415.png" alt="TravelFrame">
+  <div class="abs meta lab">Free guide<br>for first-timers</div>
+</section>
+
+<!-- E1R · E1 ON FLAG RED -->
+<section class="page e1r">
+  <img class="abs drum" src="drum-flaggold.svg" alt="">
+  <div class="abs arch"><img class="mult" src="../illustrations/08-hoan-kiem.jpg" alt=""></div>
+  <div class="abs title">
+    <div class="the">The</div>
+    <div class="big">HANOI</div>
+    <div class="hb">Handbook</div>
+  </div>
+  <div class="abs badge"><img src="../brand/travelframe-logo-round-415.png" alt="TravelFrame"></div>
+  <div class="abs meta lab">A local friend's guide<br>Free · 2026–27 edition</div>
+</section>
+
+</body>
+</html>

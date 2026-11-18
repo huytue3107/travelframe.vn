@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "src": "assets/adam-04.wav",
+  "sha": "afdd38f8ee4ff6f07b6bac38c1398fef416e987dfce6e0b7674fd374ceaa12ed",
+  "engine": "scribe",
+  "model": "scribe-v2",
+  "detectedLanguage": "en",
+  "words": [
+    {
+      "id": "w0",
+      "text": "Prefer",
+      "start": 0.08,
+      "end": 0.38,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w1",
+      "text": "it",
+      "start": 0.42,
+      "end": 0.54,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w2",
+      "text": "less",
+      "start": 0.58,
+      "end": 0.78,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w3",
+      "text": "sweet?",
+      "start": 0.84,
+      "end": 1.18,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w4",
+      "text": "Ask",
+      "start": 1.96,
+      "end": 2.22,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w5",
+      "text": "before",
+      "start": 2.26,
+      "end": 2.6,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w6",
+      "text": "you",
+      "start": 2.64,
+      "end": 2.76,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w7",
+      "text": "order",
+      "start": 2.84,
+      "end": 3.12,
+      "speaker": "speaker_0"
+    }
+  ],
+  "language": "auto",
+  "generatedWordsHash": "c350a3bc0afb16f1e4572552440688c976c67ff8103dcdf3d26e9533ff3494fe",
+  "createdAt": "2026-11-03T02:04:21.538Z"
+}

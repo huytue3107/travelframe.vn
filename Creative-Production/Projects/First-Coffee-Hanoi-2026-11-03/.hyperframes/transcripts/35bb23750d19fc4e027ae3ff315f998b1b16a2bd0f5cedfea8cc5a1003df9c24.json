@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "src": "assets/voice-03.wav",
+  "sha": "35bb23750d19fc4e027ae3ff315f998b1b16a2bd0f5cedfea8cc5a1003df9c24",
+  "engine": "scribe",
+  "model": "scribe-v2",
+  "detectedLanguage": "en",
+  "words": [
+    {
+      "id": "w0",
+      "text": "Would",
+      "start": 0.04,
+      "end": 0.16,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w1",
+      "text": "you",
+      "start": 0.2,
+      "end": 0.3,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w2",
+      "text": "like",
+      "start": 0.34,
+      "end": 0.54,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w3",
+      "text": "milk?",
+      "start": 0.58,
+      "end": 0.9,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w4",
+      "text": "Ask",
+      "start": 1.22,
+      "end": 1.42,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w5",
+      "text": "what",
+      "start": 1.46,
+      "end": 1.58,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w6",
+      "text": "is",
+      "start": 1.62,
+      "end": 1.7,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w7",
+      "text": "in",
+      "start": 1.76,
+      "end": 1.84,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w8",
+      "text": "your",
+      "start": 1.86,
+      "end": 1.98,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w9",
+      "text": "coffee",
+      "start": 2.04,
+      "end": 2.42,
+      "speaker": "speaker_0"
+    }
+  ],
+  "language": "auto",
+  "generatedWordsHash": "d6822cf8fc73eebf9c7862ac7f294ae5f2195e6369e54cccc43e02c7c590bbe4",
+  "createdAt": "2026-11-03T02:03:54.147Z"
+}

@@ -2,12 +2,12 @@
 title: "The Hanoi Handbook (ebook EN, A4, 25 trang)"
 owner: Creative-Production
 requested_by: Rocky (chat 10/11/2026: làm content cẩm nang Hà Nội dạng ebook, có đủ hình minh hoạ, dùng Kie API; sau đó yêu cầu làm đẹp hơn)
-status: "Draft v02 — chưa duyệt, chưa đăng"
+status: "Published 13/11/2026 — đang bán $12 trên /ebooks/hanoi-handbook (QR), PDF v04 xác minh sha256"
 created: 2026-11-10
 copy_and_claims: ../../../Marketing-Growth/Content/Drafts/2026-11-10-Hanoi-Handbook-Ebook/Sources-And-Claims.md
 ---
 
-# The Hanoi Handbook v02
+# The Hanoi Handbook v04
 
 Cẩm nang Hà Nội tiếng Anh cho khách lần đầu đến, dài 25 trang A4, dùng làm lead magnet.
 Giọng văn "local friend". Mọi số liệu có thời hạn đều kèm nhãn `checked`.
@@ -15,6 +15,28 @@ Giọng văn "local friend". Mọi số liệu có thời hạn đều kèm nhã
 Ebook lấy cảm hứng cấu trúc từ `vietnam-ebook-en.pdf` (Local Vietnam, 2022), nhưng chỉ mượn
 danh sách chủ đề. Câu chữ, số liệu và hình đều làm mới. Chi tiết xem
 [Sources & claims](../../../Marketing-Growth/Content/Drafts/2026-11-10-Hanoi-Handbook-Ebook/Sources-And-Claims.md).
+
+## v04: bản bán trên /ebooks ($12) (12/11/2026)
+
+Ngày 12/11, Rocky duyệt thiết kế ("đẹp rồi") và chọn bán **$12, thay ô 02** của cửa hàng `/ebooks`. So với v03, bản v04 có 3 thay đổi:
+
+- Bỏ chữ "Free" trên bìa.
+- Trang cuối đổi sang "For your personal use: please don't share or resell this file", kèm link `/ebooks/resend`, để khớp `/ebooks/terms`.
+- Sửa câu về bảo trì Lăng Bác: mỗi năm đóng khoảng 2 tháng, thời điểm thay đổi theo năm; năm 2026 đóng 4/9–2/11 và mở lại 3/11. v01–v03 ghi sai là "thường đóng vào mùa thu".
+
+**Trạng thái đăng:** ngày 12/11, Claude đã sửa ô 02 tại `/travelframe-admin/ebooks` (xem [Publication](../../../Marketing-Growth/Content/Drafts/2026-11-10-Hanoi-Handbook-Ebook/Publication.md)). Chưa bán được vì server thiếu `file_private_path` và cấu hình PayPal; xem [Ebooks-Store-Ticket](../../../Marketing-Growth/Content/Drafts/2026-11-10-Hanoi-Handbook-Ebook/Ebooks-Store-Ticket.md). Ảnh bìa cho thẻ sản phẩm, og:image và 4 trang xem trước nằm trong `store-assets/` của thư mục đó.
+
+## v03: bìa trống đồng nền đỏ cờ (12/11/2026)
+
+- **Rocky yêu cầu:** bìa phải có biểu tượng trống đồng, có chất nghệ thuật đương đại và có logo TravelFrame.
+- **Cách chọn:** Claude làm 3 biến thể E1, E2, E3 rồi dựng ảnh mẫu để so sánh. Rocky chọn E1 nhưng đổi sang **màu đỏ cờ**.
+- **Bìa v03:**
+  - nền đỏ cờ `#DA251D`;
+  - mặt trống Đông Sơn vàng `#F6C94B` mọc như mặt trời sau khung vòm cổng phố, trong vòm là tranh hồ Hoàn Kiếm;
+  - chữ "HANOI" dùng Heritage Display v1.1;
+  - logo tròn TravelFrame đặt trên nền tròn màu ngà để tách khỏi nền đỏ.
+- **Mặt trống:** vẽ bằng `source/drum_svg.py` theo kiểu trống Ngọc Lũ nhưng giản lược. Có ngôi sao 14 cánh xen nét lông vũ chữ V, vòng tròn tiếp tuyến, răng cưa, và 12 chim Lạc nhìn nghiêng bay ngược chiều kim đồng hồ. Không có vòng hình người và nhà sàn. Đây là bản cách điệu, không phải bản sao một chiếc trống cụ thể.
+- **Logo:** lấy từ theme website, xem `brand/README.md`. Logo đỏ `#BD100A` khác màu nhấn teal ghi trong vault, nên màu brand chính thức cần được chốt.
 
 ## v02: thiết kế lại (Rocky chê v01 "xấu xí")
 
@@ -43,12 +65,19 @@ tranh bị cắt vuông vào khung lệch màu giấy, chữ dày và phân cấ
 | File | Vai trò |
 |---|---|
 | `hanoi-handbook.html` | **Nguồn duy nhất** của nội dung và layout. Sửa chữ ở đây rồi build lại |
-| `TravelFrame-Hanoi-Handbook-2026-v02.pdf` | Bản v02 để review (25 trang, khoảng 5,8 MB) |
-| `preview-cover-v02.png` | Ảnh bìa v02, 1588×2246 |
+| `TravelFrame-Hanoi-Handbook-2026-v04.pdf` | **Bản bán**, 25 trang, 5.723.069 byte, md5 `fe7ef24e1b2353a957454733e55fb0f6` |
+| `preview-cover-v04.png` | Ảnh bìa v04, 1588×2246 |
+| `TravelFrame-Hanoi-Handbook-2026-v03.pdf` | v03: bìa đỏ cờ, còn chữ Free và câu sai về Lăng Bác. Giữ làm lịch sử, không dùng để bán |
+| `preview-cover-v03.png` | Ảnh bìa v03, 1588×2246 |
+| `TravelFrame-Hanoi-Handbook-2026-v02.pdf`, `preview-cover-v02.png` | Bản v02 (bìa cũ), giữ làm lịch sử |
 | `TravelFrame-Hanoi-Handbook-2026-v01.pdf`, `preview-cover-v01.png` | Bản v01, giữ làm lịch sử |
 | `illustrations/*.jpg` | Tranh đã xử lý nền giấy, tối đa 1500 px. Sinh tự động, không sửa tay |
-| `fonts/` | Newsreader, Be Vietnam Pro, Caveat, Heritage Display (đều OFL). Font nằm local nên build không cần mạng. `CormorantGaramond*` và `DMSans` không còn dùng (xem lưu ý font) |
-| `source/build.sh` | Xử lý tranh, xuất PDF và ảnh bìa bằng Chrome headless. Đặt `VERSION=v03` để xuất bản mới |
+| `fonts/` | Newsreader, Be Vietnam Pro, Caveat, Heritage Display v1.1 (đều OFL). Font nằm local nên build không cần mạng. `CormorantGaramond*` và `DMSans` không còn dùng (xem lưu ý font) |
+| `source/build.sh` | Xử lý tranh, xuất PDF và ảnh bìa bằng Chrome headless. Đặt biến `VERSION` (mặc định v02) để đổi tên bản xuất; v03 được build bằng `VERSION=v03` |
+| `art/drum-flaggold.svg` | Mặt trống dùng trên bìa, sinh bằng `source/drum_svg.py` |
+| `brand/` | Logo TravelFrame lấy từ website, kèm README ghi nguồn |
+| `cover-concepts/` | Các phương án bìa A–D, E1–E3, E1 đỏ cờ; ảnh mẫu `sample-*.jpg`; bảng so sánh |
+| `source/drum_svg.py` | Vẽ mặt trống Đông Sơn bằng SVG (màu tuỳ chọn, `--window` để chừa ô giữa) |
 | `source/prep_illustrations.py` | Đưa nền giấy về trắng và làm mờ mép tranh (cần Pillow) |
 | `source/generate_illustrations.py` | Gọi Kie `nano-banana-2`, tải ảnh, ghi manifest |
 

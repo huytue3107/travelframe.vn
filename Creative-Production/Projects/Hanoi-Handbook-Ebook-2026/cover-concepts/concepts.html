@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hanoi Handbook · cover concepts</title>
+<style>
+@font-face { font-family: "Heritage"; src: url("../../../Assets/Fonts/HeritageDisplay/v1.1/HeritageDisplay-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Newsreader"; src: url("../fonts/Newsreader.ttf") format("truetype"); font-weight: 200 800; size-adjust: 88%; }
+@font-face { font-family: "Newsreader"; src: url("../fonts/Newsreader-Italic.ttf") format("truetype"); font-weight: 200 800; font-style: italic; size-adjust: 88%; }
+@font-face { font-family: "Be Vietnam Pro"; src: url("../fonts/BeVietnamPro-Regular.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Be Vietnam Pro"; src: url("../fonts/BeVietnamPro-SemiBold.ttf") format("truetype"); font-weight: 600; }
+@font-face { font-family: "Caveat"; src: url("../fonts/Caveat.ttf") format("truetype"); font-weight: 400 700; }
+:root {
+  --paper: #FAF5EA; --ink: #1F2629; --ink-2: #485156; --teal: #008AA3; --teal-deep: #0B5F6E;
+  --ochre: #B07D2A; --ochre-light: #E6C27F; --brick: #A2452E;
+  --serif: "Newsreader", Georgia, serif; --sans: "Be Vietnam Pro", sans-serif; --hand: "Caveat", cursive;
+}
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #888; font-family: var(--sans); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 210mm; height: 297mm; position: relative; overflow: hidden; background: var(--paper); margin: 0 auto 8mm; break-after: page; }
+.lab { font-size: 7.6pt; letter-spacing: .24em; text-transform: uppercase; font-weight: 600; }
+.wm { font-family: "Heritage", var(--serif); }
+.hand { font-family: var(--hand); font-weight: 600; }
+.mult { mix-blend-mode: multiply; }
+
+/* ---------- A · Sky poster ---------- */
+.a .art { position: absolute; left: 0; right: 0; top: 0; height: 280mm; }
+.a .art img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.a .title { position: absolute; top: 22mm; left: 0; right: 0; text-align: center; }
+.a .the { font-family: var(--serif); font-style: italic; font-size: 26pt; color: var(--ink-2); }
+.a .big { font-family: "Heritage", var(--serif); font-size: 112pt; line-height: .85; color: var(--ink); margin-top: 1mm; }
+.a .hb { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 44pt; color: var(--teal-deep); margin-top: 1mm; }
+.a .band { position: absolute; left: 0; right: 0; bottom: 0; height: 20mm; background: var(--paper); display: flex; align-items: center; justify-content: space-between; padding: 0 16mm; }
+.a .band .wm { font-size: 18pt; color: var(--teal); }
+.a .band .lab { color: var(--ink-2); }
+
+/* ---------- B · Old city gate ---------- */
+.b { background: var(--teal-deep); }
+.b .top { position: absolute; top: 16mm; left: 0; right: 0; text-align: center; color: var(--ochre-light); }
+.b .arch { position: absolute; left: 32mm; right: 32mm; top: 30mm; height: 168mm; background: var(--paper);
+  border-radius: 73mm 73mm 0 0; overflow: hidden; border: 2.2mm solid #F3E7CC; }
+.b .arch img { position: absolute; left: -6mm; right: -6mm; bottom: -2mm; width: calc(100% + 12mm); }
+.b .title { position: absolute; top: 206mm; left: 0; right: 0; text-align: center; color: #FBF4E4; }
+.b .the { font-family: var(--serif); font-style: italic; font-size: 22pt; color: var(--ochre-light); }
+.b .big { font-family: "Heritage", var(--serif); font-size: 84pt; line-height: .9; }
+.b .hb { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 34pt; margin-top: 1mm; }
+.b .foot { position: absolute; bottom: 12mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: baseline; color: #CFE3E6; }
+.b .foot .wm { font-size: 17pt; color: #FBF4E4; }
+.b .note { position: absolute; top: 48mm; right: 14mm; transform: rotate(8deg); color: var(--ochre-light); font-size: 17pt; text-align: center; line-height: 1; }
+
+/* ---------- C · Travel journal ---------- */
+.c .title { position: absolute; top: 18mm; left: 18mm; }
+.c .the { font-family: var(--serif); font-style: italic; font-size: 24pt; color: var(--ink-2); }
+.c .big { font-family: "Heritage", var(--serif); font-size: 92pt; line-height: .86; color: var(--ink); }
+.c .hb { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 38pt; color: var(--teal-deep); }
+.c .stamp { position: absolute; top: 22mm; right: 18mm; width: 38mm; height: 38mm; border: 1.2pt solid var(--brick); border-radius: 50%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; transform: rotate(-12deg); color: var(--brick); text-align: center; }
+.c .stamp .lab { font-size: 6.2pt; letter-spacing: .18em; }
+.c .stamp .yr { font-family: var(--serif); font-weight: 700; font-size: 17pt; line-height: 1.1; }
+.c .spot { position: absolute; border-radius: 50%; background-size: cover; mix-blend-mode: multiply;
+  -webkit-mask-image: radial-gradient(circle, #000 55%, transparent 71%); mask-image: radial-gradient(circle, #000 55%, transparent 71%); }
+.c .cap { position: absolute; font-family: var(--hand); font-weight: 600; font-size: 15pt; color: var(--teal-deep); line-height: 1; }
+.c svg.route { position: absolute; left: 0; top: 0; width: 210mm; height: 297mm; }
+.c .foot { position: absolute; bottom: 12mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: baseline; }
+.c .foot .wm { font-size: 18pt; color: var(--teal); }
+.c .foot .lab { color: var(--ink-2); }
+
+/* ---------- D · Sketch map ---------- */
+.d .title { position: absolute; top: 18mm; left: 18mm; right: 18mm; }
+.d .the { font-family: var(--serif); font-style: italic; font-size: 24pt; color: var(--ink-2); }
+.d .big { font-family: "Heritage", var(--serif); font-size: 96pt; line-height: .86; color: var(--ink); }
+.d .hb { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 40pt; color: var(--teal-deep); }
+.d svg.map { position: absolute; left: 6mm; top: 102mm; width: 198mm; height: 150mm; }
+.d .key { position: absolute; right: 18mm; top: 28mm; width: 56mm; font-size: 8.4pt; color: var(--ink-2); line-height: 1.55; }
+.d .key b { display: inline-block; width: 5mm; height: 5mm; border-radius: 50%; background: var(--brick); color: #fff; font-size: 7pt; text-align: center; line-height: 5mm; margin-right: 1.6mm; }
+.d .foot { position: absolute; bottom: 12mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: baseline; }
+.d .foot .wm { font-size: 18pt; color: var(--teal); }
+.d .foot .lab { color: var(--ink-2); }
+.d .note { position: absolute; left: 18mm; top: 244mm; font-size: 7.4pt; color: var(--ink-2); font-style: italic; font-family: var(--serif); }
+</style>
+</head>
+<body>
+
+<!-- A · SKY POSTER -->
+<section class="page a">
+  <div class="art"><img class="mult" src="../illustrations/01-cover.jpg" alt=""></div>
+  <div class="title">
+    <div class="lab" style="color:var(--teal)">Free guide · 2026–27 edition</div>
+    <div class="the" style="margin-top:4mm">The</div>
+    <div class="big">HANOI</div>
+    <div class="hb">Handbook</div>
+  </div>
+  <div class="band"><span class="wm">TravelFrame</span><span class="lab">A local friend's guide for first-timers</span></div>
+</section>
+
+<!-- B · OLD CITY GATE -->
+<section class="page b">
+  <div class="top lab">A local friend's guide · 2026–27 edition</div>
+  <div class="arch"><img class="mult" src="../illustrations/08-hoan-kiem.jpg" alt=""></div>
+  <div class="note hand">for<br>first-timers ♡</div>
+  <div class="title">
+    <div class="the">The</div>
+    <div class="big">HANOI</div>
+    <div class="hb">Handbook</div>
+  </div>
+  <div class="foot"><span class="wm">TravelFrame</span><span class="lab" style="font-size:7pt">Free · travelframe.sidevn.com</span></div>
+</section>
+
+<!-- C · TRAVEL JOURNAL -->
+<section class="page c">
+  <svg class="route" viewBox="0 0 210 297" preserveAspectRatio="none">
+    <path d="M58 118 C 92 112, 120 128, 150 132 S 176 168, 150 186 S 82 186, 62 206 S 70 246, 120 246 S 172 236, 160 214"
+      fill="none" stroke="#008AA3" stroke-width=".55" stroke-dasharray="1.6 1.6" stroke-linecap="round"/>
+  </svg>
+  <div class="title">
+    <div class="the">The</div>
+    <div class="big">HANOI</div>
+    <div class="hb">Handbook</div>
+  </div>
+  <div class="stamp"><span class="lab">Free guide</span><span class="yr">2026–27</span><span class="lab">first-timers</span></div>
+  <div class="spot" style="left:22mm; top:96mm; width:62mm; height:62mm; background-image:url(../illustrations/08-hoan-kiem.jpg); background-position:40% 55%; background-size:150%"></div>
+  <div class="cap" style="left:32mm; top:156mm">sunrise at the lake</div>
+  <div class="spot" style="left:120mm; top:102mm; width:66mm; height:66mm; background-image:url(../illustrations/11-food.jpg); background-position:50% 55%; background-size:140%"></div>
+  <div class="cap" style="left:148mm; top:166mm; transform:rotate(3deg)">phở at 7am!</div>
+  <div class="spot" style="left:60mm; top:166mm; width:60mm; height:60mm; background-image:url(../illustrations/06-getting-around.jpg); background-position:30% 60%; background-size:230%"></div>
+  <div class="cap" style="left:22mm; top:214mm; transform:rotate(-3deg)">hop on a bike taxi</div>
+  <div class="spot" style="left:128mm; top:184mm; width:58mm; height:58mm; background-image:url(../illustrations/12-coffee.jpg); background-position:62% 66%; background-size:200%"></div>
+  <div class="cap" style="left:140mm; top:240mm">egg coffee break</div>
+  <div class="spot" style="left:78mm; top:224mm; width:46mm; height:46mm; background-image:url(../illustrations/13-evening.jpg); background-position:50% 55%; background-size:240%"></div>
+  <div class="cap" style="left:64mm; top:266mm; transform:rotate(-2deg)">một, hai, ba, dzô!</div>
+  <div class="foot"><span class="wm">TravelFrame</span><span class="lab">A local friend's guide</span></div>
+</section>
+
+<!-- D · SKETCH MAP -->
+<section class="page d">
+  <div class="title">
+    <div class="the">The</div>
+    <div class="big">HANOI</div>
+    <div class="hb">Handbook</div>
+  </div>
+  <div class="key">
+    <div class="lab" style="color:var(--teal); margin-bottom:2mm">Inside: a local's route</div>
+    <div><b>1</b>The Old Quarter</div>
+    <div><b>2</b>Hoàn Kiếm Lake</div>
+    <div><b>3</b>Temple of Literature</div>
+    <div><b>4</b>Ba Đình</div>
+    <div><b>5</b>West Lake</div>
+    <div><b>6</b>Long Biên Bridge</div>
+  </div>
+  <!-- schematic: x = (lon-105.80)*7500, y = (21.07-lat)*7500, not to scale in shape -->
+  <svg class="map" viewBox="0 0 600 455">
+    <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="6" stroke="#008AA3" stroke-width=".7" opacity=".35"/></pattern></defs>
+    <!-- Red River -->
+    <path d="M250 -20 C 320 30, 360 70, 400 120 S 470 210, 500 270 S 545 380, 575 470" fill="none" stroke="#CFE5E8" stroke-width="58" stroke-linecap="round"/>
+    <path d="M250 -20 C 320 30, 360 70, 400 120 S 470 210, 500 270 S 545 380, 575 470" fill="none" stroke="#008AA3" stroke-width="1.2" opacity=".5"/>
+    <!-- West Lake + Truc Bach -->
+    <path d="M70 70 C 90 20, 190 10, 240 45 S 270 140, 220 160 S 110 175, 85 140 S 55 100, 70 70 Z" fill="url(#hatch)" stroke="#008AA3" stroke-width="1.4"/>
+    <path d="M272 168 C 290 158, 322 162, 328 178 S 300 200, 282 194 S 262 178, 272 168 Z" fill="url(#hatch)" stroke="#008AA3" stroke-width="1.2"/>
+    <!-- Hoan Kiem -->
+    <path d="M384 286 C 394 280, 402 292, 400 312 S 394 340, 386 336 S 378 300, 384 286 Z" fill="#CFE5E8" stroke="#008AA3" stroke-width="1.2"/>
+    <!-- Old Quarter -->
+    <path d="M340 228 L 410 218 L 418 284 L 352 292 Z" fill="none" stroke="#B07D2A" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <!-- Long Bien bridge -->
+    <line x1="414" y1="214" x2="532" y2="196" stroke="#1F2629" stroke-width="2.4"/>
+    <line x1="414" y1="214" x2="532" y2="196" stroke="#FAF5EA" stroke-width=".8" stroke-dasharray="3 3"/>
+    <!-- walking route -->
+    <path d="M360 250 C 380 238, 400 245, 392 262 S 380 300, 392 318 S 330 320, 268 306 S 250 262, 262 250 S 290 200, 300 186" fill="none" stroke="#A2452E" stroke-width="1.6" stroke-dasharray="2 4" stroke-linecap="round"/>
+    <!-- pins -->
+    <g font-family="Be Vietnam Pro" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">
+      <circle cx="372" cy="246" r="10" fill="#A2452E"/><text x="372" y="250">1</text>
+      <circle cx="414" cy="312" r="10" fill="#A2452E"/><text x="414" y="316">2</text>
+      <circle cx="262" cy="306" r="10" fill="#A2452E"/><text x="262" y="310">3</text>
+      <circle cx="252" cy="248" r="10" fill="#A2452E"/><text x="252" y="252">4</text>
+      <circle cx="160" cy="92" r="10" fill="#A2452E"/><text x="160" y="96">5</text>
+      <circle cx="474" cy="190" r="10" fill="#A2452E"/><text x="474" y="194">6</text>
+    </g>
+    <g font-family="Newsreader" font-style="italic" font-size="15" fill="#0B5F6E">
+      <text x="120" y="190">West Lake</text>
+      <text x="470" y="330" transform="rotate(58 470 330)">Red River</text>
+      <text x="300" y="350">Hoàn Kiếm</text>
+    </g>
+    <g font-family="Caveat" font-weight="600" font-size="19" fill="#A2452E">
+      <text x="430" y="262">start here ↙</text>
+    </g>
+    <!-- compass -->
+    <g transform="translate(560 40)" font-family="Be Vietnam Pro" font-size="10" fill="#485156" text-anchor="middle">
+      <line x1="0" y1="14" x2="0" y2="-12" stroke="#485156" stroke-width="1"/><path d="M0 -16 L4 -8 L-4 -8 Z" fill="#485156"/><text y="28">N</text>
+    </g>
+  </svg>
+  <div class="note">Hand-drawn sketch, not to scale.</div>
+  <div class="foot"><span class="wm">TravelFrame</span><span class="lab">Free guide · 2026–27 edition</span></div>
+</section>
+
+</body>
+</html>

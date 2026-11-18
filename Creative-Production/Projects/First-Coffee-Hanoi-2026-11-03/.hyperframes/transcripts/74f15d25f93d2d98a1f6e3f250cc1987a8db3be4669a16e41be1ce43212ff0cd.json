@@ -1,0 +1,384 @@
+{
+  "version": 1,
+  "src": "TF-First-Coffee-Hanoi-Review-v01.mp4",
+  "sha": "74f15d25f93d2d98a1f6e3f250cc1987a8db3be4669a16e41be1ce43212ff0cd",
+  "engine": "scribe",
+  "model": "scribe-v2",
+  "detectedLanguage": "en",
+  "words": [
+    {
+      "id": "w0",
+      "text": "First",
+      "start": 0.5,
+      "end": 0.74,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w1",
+      "text": "coffee",
+      "start": 0.82,
+      "end": 1.14,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w2",
+      "text": "in",
+      "start": 1.18,
+      "end": 1.28,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w3",
+      "text": "Hanoi?",
+      "start": 1.32,
+      "end": 1.78,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w4",
+      "text": "Let's",
+      "start": 2.12,
+      "end": 2.32,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w5",
+      "text": "order",
+      "start": 2.38,
+      "end": 2.6,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w6",
+      "text": "together.",
+      "start": 2.68,
+      "end": 3.1,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w7",
+      "text": "Start",
+      "start": 4.82,
+      "end": 5.08,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w8",
+      "text": "with",
+      "start": 5.12,
+      "end": 5.26,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w9",
+      "text": "hot",
+      "start": 5.32,
+      "end": 5.5,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w10",
+      "text": "or",
+      "start": 5.54,
+      "end": 5.62,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w11",
+      "text": "iced",
+      "start": 5.74,
+      "end": 6.04,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w12",
+      "text": "if",
+      "start": 6.32,
+      "end": 6.42,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w13",
+      "text": "both",
+      "start": 6.48,
+      "end": 6.66,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w14",
+      "text": "are",
+      "start": 6.7,
+      "end": 6.8,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w15",
+      "text": "available.",
+      "start": 6.86,
+      "end": 7.38,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w16",
+      "text": "Would",
+      "start": 10.74,
+      "end": 10.86,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w17",
+      "text": "you",
+      "start": 10.9,
+      "end": 10.98,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w18",
+      "text": "like",
+      "start": 11.04,
+      "end": 11.24,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w19",
+      "text": "milk?",
+      "start": 11.3,
+      "end": 11.6,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w20",
+      "text": "Ask",
+      "start": 11.92,
+      "end": 12.12,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w21",
+      "text": "what",
+      "start": 12.16,
+      "end": 12.28,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w22",
+      "text": "is",
+      "start": 12.32,
+      "end": 12.4,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w23",
+      "text": "in",
+      "start": 12.46,
+      "end": 12.54,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w24",
+      "text": "your",
+      "start": 12.58,
+      "end": 12.68,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w25",
+      "text": "coffee.",
+      "start": 12.74,
+      "end": 13.16,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w26",
+      "text": "Prefer",
+      "start": 16.74,
+      "end": 17.1,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w27",
+      "text": "it",
+      "start": 17.16,
+      "end": 17.24,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w28",
+      "text": "less",
+      "start": 17.3,
+      "end": 17.48,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w29",
+      "text": "sweet?",
+      "start": 17.52,
+      "end": 17.9,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w30",
+      "text": "Ask",
+      "start": 18.22,
+      "end": 18.42,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w31",
+      "text": "before",
+      "start": 18.48,
+      "end": 18.82,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w32",
+      "text": "you",
+      "start": 18.88,
+      "end": 18.98,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w33",
+      "text": "order.",
+      "start": 19.06,
+      "end": 19.36,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w34",
+      "text": "Not",
+      "start": 22.76,
+      "end": 22.94,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w35",
+      "text": "sure?",
+      "start": 23.02,
+      "end": 23.3,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w36",
+      "text": "Point",
+      "start": 23.62,
+      "end": 23.82,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w37",
+      "text": "to",
+      "start": 23.88,
+      "end": 23.96,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w38",
+      "text": "the",
+      "start": 24,
+      "end": 24.06,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w39",
+      "text": "menu",
+      "start": 24.12,
+      "end": 24.42,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w40",
+      "text": "and",
+      "start": 24.46,
+      "end": 24.56,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w41",
+      "text": "ask",
+      "start": 24.66,
+      "end": 24.84,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w42",
+      "text": "what",
+      "start": 24.88,
+      "end": 25,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w43",
+      "text": "is",
+      "start": 25.04,
+      "end": 25.14,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w44",
+      "text": "in",
+      "start": 25.18,
+      "end": 25.26,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w45",
+      "text": "it.",
+      "start": 25.32,
+      "end": 25.46,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w46",
+      "text": "Save",
+      "start": 28.8,
+      "end": 29,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w47",
+      "text": "this",
+      "start": 29.04,
+      "end": 29.2,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w48",
+      "text": "for",
+      "start": 29.24,
+      "end": 29.34,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w49",
+      "text": "your",
+      "start": 29.4,
+      "end": 29.54,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w50",
+      "text": "first",
+      "start": 29.58,
+      "end": 29.84,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w51",
+      "text": "coffee",
+      "start": 29.9,
+      "end": 30.2,
+      "speaker": "speaker_0"
+    },
+    {
+      "id": "w52",
+      "text": "stop.",
+      "start": 30.32,
+      "end": 30.66,
+      "speaker": "speaker_0"
+    }
+  ],
+  "language": "auto",
+  "generatedWordsHash": "4763611abe21b72ce5ddbbdd6f788ae8182836455a1e0d4458695300cca8025d",
+  "createdAt": "2026-11-03T02:04:10.109Z"
+}

@@ -1,0 +1,2234 @@
+{
+  "version": 1,
+  "historyId": "fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6",
+  "currentRevision": "5b05e36c-1e66-48d7-9498-c81432e260e6",
+  "pendingChanges": false,
+  "files": {
+    "SCRIPT.md": {
+      "hash": "c570a33396c6a794b9830be977ae9ce59a3bbabc6718df36698352e3cfe6bb05",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c5/c570a33396c6a794b9830be977ae9ce59a3bbabc6718df36698352e3cfe6bb05"
+    },
+    "adam-request.json": {
+      "hash": "0bdea08a0008edbe2a5f7bead7ca027b5b038c7e5b3cb353f1af8fefb4e4a6e6",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/0b/0bdea08a0008edbe2a5f7bead7ca027b5b038c7e5b3cb353f1af8fefb4e4a6e6"
+    },
+    "assets/adam-alignment.json": {
+      "hash": "c7300d74f06637692057bd7c0bd77f9429f9b3d927b1ec7c206d65e26fb84905",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c7/c7300d74f06637692057bd7c0bd77f9429f9b3d927b1ec7c206d65e26fb84905"
+    },
+    "assets/coffee.jpg": {
+      "hash": "f0248daa50853cc11f83203c56ed01464aac6d6af1afa364628f305ef0c27582",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/f0/f0248daa50853cc11f83203c56ed01464aac6d6af1afa364628f305ef0c27582"
+    },
+    "assets/gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/92/92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "assets/lake.jpg": {
+      "hash": "bad217be4af927c6457d67dae5b07f1cc95ba6f03b822a0112ca012b0008e11a",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ba/bad217be4af927c6457d67dae5b07f1cc95ba6f03b822a0112ca012b0008e11a"
+    },
+    "assets/old-quarter.jpg": {
+      "hash": "c546d5a609011b0a6d211fb7745ddd9788a7d479a2ab65cec3055a0eec8fa51e",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c5/c546d5a609011b0a6d211fb7745ddd9788a7d479a2ab65cec3055a0eec8fa51e"
+    },
+    "assets/sfx/pop.wav": {
+      "hash": "6a42c562b97aebdcc3513314efc0f71442d0be870f9e27cc1cb5f0500022a1f6",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/6a/6a42c562b97aebdcc3513314efc0f71442d0be870f9e27cc1cb5f0500022a1f6"
+    },
+    "assets/sfx/whoosh.wav": {
+      "hash": "bd374678085b43358a8cd71315a3b47892ed118fa771494b9842b029228c6a8f",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/bd/bd374678085b43358a8cd71315a3b47892ed118fa771494b9842b029228c6a8f"
+    },
+    "build.mjs": {
+      "hash": "ecd2c736983435e7cbe95ba1880836b1de1bb532e5194bf50780222c3abf8103",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ec/ecd2c736983435e7cbe95ba1880836b1de1bb532e5194bf50780222c3abf8103"
+    },
+    "compositions/captions.html": {
+      "hash": "8471ef8fbb80a36c7a9b91ea0bd341619448aef4ddb8d09b70f66a00e724beca",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/84/8471ef8fbb80a36c7a9b91ea0bd341619448aef4ddb8d09b70f66a00e724beca"
+    },
+    "compositions/weather1.html": {
+      "hash": "5fe533a1b60a6a924afc573c245c4f255990a2e09a82144af4022ededcefe8c9",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/5f/5fe533a1b60a6a924afc573c245c4f255990a2e09a82144af4022ededcefe8c9"
+    },
+    "compositions/weather10.html": {
+      "hash": "296bb7ea0691a466b4905c1ec8ae9642974969e505e3ae6051e03d62343e0b23",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/29/296bb7ea0691a466b4905c1ec8ae9642974969e505e3ae6051e03d62343e0b23"
+    },
+    "compositions/weather11.html": {
+      "hash": "68f5263e4115f5b40e28fa97446122204b77a037ba7c19293442991567a39960",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/68/68f5263e4115f5b40e28fa97446122204b77a037ba7c19293442991567a39960"
+    },
+    "compositions/weather12.html": {
+      "hash": "76c081c47096daf78fad957288ae500552d9a5ed113c99b77d6a01e76e9eb78a",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/76/76c081c47096daf78fad957288ae500552d9a5ed113c99b77d6a01e76e9eb78a"
+    },
+    "compositions/weather13.html": {
+      "hash": "b894fd1d3f392a1c14a742c4b05ffd7cdbb8e7a8d43089422a7b2e2134c6511c",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b8/b894fd1d3f392a1c14a742c4b05ffd7cdbb8e7a8d43089422a7b2e2134c6511c"
+    },
+    "compositions/weather14.html": {
+      "hash": "431fc31b4d418960b5b5dc84d8fbf7d5bee4e607c0960281e5ab261bf2534fb1",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/43/431fc31b4d418960b5b5dc84d8fbf7d5bee4e607c0960281e5ab261bf2534fb1"
+    },
+    "compositions/weather15.html": {
+      "hash": "61d1049a1d844fbb50e45d2dc08cec17ea3360d166c2d3729594664915f2a68c",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/61/61d1049a1d844fbb50e45d2dc08cec17ea3360d166c2d3729594664915f2a68c"
+    },
+    "compositions/weather16.html": {
+      "hash": "106b55220f42487e93628cdd83dfb9d1d939d2c1e4a9bbbaf5fcca4b1460931e",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/10/106b55220f42487e93628cdd83dfb9d1d939d2c1e4a9bbbaf5fcca4b1460931e"
+    },
+    "compositions/weather17.html": {
+      "hash": "1c33693615cca12ee6e1235cb46f7544e4399cc7f043319bef0698f33b17789d",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/1c/1c33693615cca12ee6e1235cb46f7544e4399cc7f043319bef0698f33b17789d"
+    },
+    "compositions/weather2.html": {
+      "hash": "5a33bcd2465ddf8c9ce0c4004e7c6bb8b9df0ee8c403f2112249bb3cd9180930",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/5a/5a33bcd2465ddf8c9ce0c4004e7c6bb8b9df0ee8c403f2112249bb3cd9180930"
+    },
+    "compositions/weather3.html": {
+      "hash": "4472b18a44809e9e49efdd6e47de568ec8e50f5cbfb544b5605a589859994326",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/44/4472b18a44809e9e49efdd6e47de568ec8e50f5cbfb544b5605a589859994326"
+    },
+    "compositions/weather4.html": {
+      "hash": "cd609ec247479c8408dadc1346e7cfdfcc0df8bc733a6e2c912241e07a3407f5",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/cd/cd609ec247479c8408dadc1346e7cfdfcc0df8bc733a6e2c912241e07a3407f5"
+    },
+    "compositions/weather5.html": {
+      "hash": "e34ba6039f01c8b6a912029c1274c85bd64431f71b9b3266d8483316e543030b",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e3/e34ba6039f01c8b6a912029c1274c85bd64431f71b9b3266d8483316e543030b"
+    },
+    "compositions/weather6.html": {
+      "hash": "0ce2b1c9a54ca149ecd0d8f058d181d0ce5f4c50fac59fde999d6edd8ff94a50",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/0c/0ce2b1c9a54ca149ecd0d8f058d181d0ce5f4c50fac59fde999d6edd8ff94a50"
+    },
+    "compositions/weather7.html": {
+      "hash": "59c6c02189c20ab27504d5611f84324f64602f05dc49dc8725aef544b1dfab7c",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/59/59c6c02189c20ab27504d5611f84324f64602f05dc49dc8725aef544b1dfab7c"
+    },
+    "compositions/weather8.html": {
+      "hash": "92536328ced4baa4037510844f1c119980605f21a3b2f49d584ffd7d288ed6af",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/92/92536328ced4baa4037510844f1c119980605f21a3b2f49d584ffd7d288ed6af"
+    },
+    "compositions/weather9.html": {
+      "hash": "2d362d11fe3d9bc3d94cdb4bd41e30f81e7cedcf15751c1c6467b1ff33f8f91d",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/2d/2d362d11fe3d9bc3d94cdb4bd41e30f81e7cedcf15751c1c6467b1ff33f8f91d"
+    },
+    "index.html": {
+      "hash": "704f258231dfe99cb5afc6c8c654687e31116df3404f0fc4e236b996bb2fe36b",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/70/704f258231dfe99cb5afc6c8c654687e31116df3404f0fc4e236b996bb2fe36b"
+    },
+    "make-sound.py": {
+      "hash": "a00dc4aafc0f67a4b721b939c087eac6531aa70e2cf2b07bc45c15c44932a0b9",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a0/a00dc4aafc0f67a4b721b939c087eac6531aa70e2cf2b07bc45c15c44932a0b9"
+    },
+    "timeline.json": {
+      "hash": "63b0defcb1d41a1d1b5c15627ff9e16de6c5cfba0b8f34cbb8c17af6d7cbaca4",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/63/63b0defcb1d41a1d1b5c15627ff9e16de6c5cfba0b8f34cbb8c17af6d7cbaca4"
+    },
+    "assets/adam-response.json": {
+      "hash": "032987ab67a9237a0c6b459681366270b893739d07abbedb02dfd341d75f60e2",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/03/032987ab67a9237a0c6b459681366270b893739d07abbedb02dfd341d75f60e2"
+    },
+    "assets/adam-voice.mp3": {
+      "hash": "924d85f62fb43ea871f17eb278cd6b3bfdb40d4025fbabcfbb9bc73d94d9d79f",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/92/924d85f62fb43ea871f17eb278cd6b3bfdb40d4025fbabcfbb9bc73d94d9d79f"
+    },
+    "assets/cat-chubby.png": {
+      "hash": "473b8d23302db6f2a6ea3d9eaf95a13b4355bfe04774cb8ec0e9b8dfa4fbfd51",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/47/473b8d23302db6f2a6ea3d9eaf95a13b4355bfe04774cb8ec0e9b8dfa4fbfd51"
+    },
+    "assets/cat-cream.png": {
+      "hash": "75a06c538f1cadd1d58880cb5e485ed0959832fa55f113be76004d13bf5e24c2",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/75/75a06c538f1cadd1d58880cb5e485ed0959832fa55f113be76004d13bf5e24c2"
+    },
+    "assets/cat-scarf.png": {
+      "hash": "f3c3768a72a9a2c87a27af86df917f8c7d2203edc099cbef9774d388ca43bae5",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/f3/f3c3768a72a9a2c87a27af86df917f8c7d2203edc099cbef9774d388ca43bae5"
+    },
+    "assets/cat-sun.png": {
+      "hash": "a8bf4c6fc924aa6262732638f0c7db2c1f66a9bdcf58da13c3e1d298261aec5e",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a8/a8bf4c6fc924aa6262732638f0c7db2c1f66a9bdcf58da13c3e1d298261aec5e"
+    },
+    "assets/cat-surprised.png": {
+      "hash": "ca2a63f802e8da60d40da677aaaace1836a4388195f11c7e738672209cf41bee",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ca/ca2a63f802e8da60d40da677aaaace1836a4388195f11c7e738672209cf41bee"
+    },
+    "assets/cat-umbrella.png": {
+      "hash": "d315c0cd6058588dc36319b4860f8deae2d61ff5a5978c13d8278425152ef626",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/d3/d315c0cd6058588dc36319b4860f8deae2d61ff5a5978c13d8278425152ef626"
+    },
+    "assets/cat.png": {
+      "hash": "2a1a26881c8181cd2880fae62d02be794142caa067e31855244dc317c3b5fad9",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/2a/2a1a26881c8181cd2880fae62d02be794142caa067e31855244dc317c3b5fad9"
+    },
+    "assets/original-music.wav": {
+      "hash": "a7ef1bc793efea5554ee86c05af50012fd0b8344116e8010112dcee39635985c",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a7/a7ef1bc793efea5554ee86c05af50012fd0b8344116e8010112dcee39635985c"
+    },
+    "assets/paper-blank.png": {
+      "hash": "6037cb60d945e11905e10bcd9bdecb3ec25e7030a810239d50f4898eedfdd393",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/60/6037cb60d945e11905e10bcd9bdecb3ec25e7030a810239d50f4898eedfdd393"
+    },
+    "assets/paper-source.png": {
+      "hash": "a7e9725819537ee687a2d2194db0d448573eb35b2975f5a0f634b41fa144b8b5",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a7/a7e9725819537ee687a2d2194db0d448573eb35b2975f5a0f634b41fa144b8b5"
+    },
+    "compositions/weather18.html": {
+      "hash": "4495d58b5ad876540a9a083f4187539ce50cf3961389e10330f466c8c85c0ce5",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/44/4495d58b5ad876540a9a083f4187539ce50cf3961389e10330f466c8c85c0ce5"
+    },
+    "SPEC.md": {
+      "hash": "7eefce887f1c8d81ea7e4a6a8d09673b9105596c98afbdbc0b64aa6e448a071a",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/7e/7eefce887f1c8d81ea7e4a6a8d09673b9105596c98afbdbc0b64aa6e448a071a"
+    },
+    "ASSETS.md": {
+      "hash": "45c6c2dacc2adaab399e3ee0a03482f2e6fb0a307eac95588f0411677b319187",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/45/45c6c2dacc2adaab399e3ee0a03482f2e6fb0a307eac95588f0411677b319187"
+    },
+    "rendered-frame.png": {
+      "hash": "e97e737a3766661a83e0dee057970b31656cd7f38e96eadacde4a99808d71d83",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e9/e97e737a3766661a83e0dee057970b31656cd7f38e96eadacde4a99808d71d83"
+    },
+    "REVIEW.md": {
+      "hash": "3d62c7cb47924be02bd2980d1499fcc78c017727a7d54987ec10546b3dc71cb0",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/3d/3d62c7cb47924be02bd2980d1499fcc78c017727a7d54987ec10546b3dc71cb0"
+    },
+    "fetch-media-v02.mjs": {
+      "hash": "bcc67ee5865c00648387e742567f8e5f300b4de1e0e22e243ba9f9f8a05b07b1",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/bc/bcc67ee5865c00648387e742567f8e5f300b4de1e0e22e243ba9f9f8a05b07b1"
+    },
+    "assets/packing.jpg": {
+      "hash": "68816766aa2a70ea37e5614bb9c0e30dad6c143edee4a4b540db1c1a9be315af",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/68/68816766aa2a70ea37e5614bb9c0e30dad6c143edee4a4b540db1c1a9be315af"
+    },
+    "assets/saigon-river.jpg": {
+      "hash": "36bfcd4e5907ad8d2cfd9ec752502ae909bf6f0bd2e3fb43a942e72d2335df1a",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/36/36bfcd4e5907ad8d2cfd9ec752502ae909bf6f0bd2e3fb43a942e72d2335df1a"
+    },
+    "assets/hoi-an-river.jpg": {
+      "hash": "67dce8f06c0d4abf399e637bfce8846d351804f1a39ddbbaf90a0936b2485f72",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/67/67dce8f06c0d4abf399e637bfce8846d351804f1a39ddbbaf90a0936b2485f72"
+    },
+    "assets/saigon-sunset.jpg": {
+      "hash": "2632510b70ed7684a5482b3357fc9681bbf536e8dd2e13ef416465d75e84245b",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/26/2632510b70ed7684a5482b3357fc9681bbf536e8dd2e13ef416465d75e84245b"
+    },
+    "assets/sapa-terraces.jpg": {
+      "hash": "b7f1b1ff918f1c00f10b384b5c536eadb2c449564d905cd67e4feef9d8b23a13",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b7/b7f1b1ff918f1c00f10b384b5c536eadb2c449564d905cd67e4feef9d8b23a13"
+    },
+    "assets/rain-detail.jpg": {
+      "hash": "c2535a5fb9e5b71df91a16e042a8b3a4b018d37f92f9e8c57cacef9dda1bee89",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c2/c2535a5fb9e5b71df91a16e042a8b3a4b018d37f92f9e8c57cacef9dda1bee89"
+    },
+    "assets/warm-clothes.jpg": {
+      "hash": "c4988fb3cdbac7474b2fddc3abfbf618df45048d9c1ac5e197c0c57ce350e524",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c4/c4988fb3cdbac7474b2fddc3abfbf618df45048d9c1ac5e197c0c57ce350e524"
+    },
+    "assets/hoi-an-street.jpg": {
+      "hash": "4ebad833540a6a1d1195c68af5a10630fe39d500827057f6704df7efe559d4fd",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/4e/4ebad833540a6a1d1195c68af5a10630fe39d500827057f6704df7efe559d4fd"
+    },
+    "assets/new-photo-ledger-v02.json": {
+      "hash": "982a09e52f8f337944391ca3dcc797e07e8d84df834b8ddd6df062a51659d7f4",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/98/982a09e52f8f337944391ca3dcc797e07e8d84df834b8ddd6df062a51659d7f4"
+    },
+    "index-v01.html.txt": {
+      "hash": "a4b51d6539a3e65518a48658b9584117de29fd4b84eb434d24fea256cff045ee",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a4/a4b51d6539a3e65518a48658b9584117de29fd4b84eb434d24fea256cff045ee"
+    },
+    "assets/bridge.jpg": {
+      "hash": "a6b13c03fb3026c4bf140fa9b4a537ddb9e062e2f17fde89d5054545a76daf6a",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a6/a6b13c03fb3026c4bf140fa9b4a537ddb9e062e2f17fde89d5054545a76daf6a"
+    },
+    "assets/photographer.jpg": {
+      "hash": "1d8aaadd89d35d9d9aacb975b4b8a8f41a780864fba8137f4d4af35b3eacd922",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/1d/1d8aaadd89d35d9d9aacb975b4b8a8f41a780864fba8137f4d4af35b3eacd922"
+    },
+    "assets/cathedral.jpg": {
+      "hash": "61f10e009491acfe4bdff1a819d80bb34f167d0dae67801b0f8039b80648649f",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/61/61f10e009491acfe4bdff1a819d80bb34f167d0dae67801b0f8039b80648649f"
+    },
+    "build-v02.mjs": {
+      "hash": "ea77e0a86ebec6ea7287d14c43a95ab619ead10a1afc7c2f55c75558d1eadde1",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ea/ea77e0a86ebec6ea7287d14c43a95ab619ead10a1afc7c2f55c75558d1eadde1"
+    },
+    "compositions/v02/v2scene1.html": {
+      "hash": "c1f4c32a46265302bd9e588798f7de25d0322acce8bb52c67e4c751645cfec66",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c1/c1f4c32a46265302bd9e588798f7de25d0322acce8bb52c67e4c751645cfec66"
+    },
+    "compositions/v02/v2scene2.html": {
+      "hash": "daeb9ae86d1ef9dea6100154d0edc3fb56ec7c47c6c3960e7b66f8ba0433f255",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/da/daeb9ae86d1ef9dea6100154d0edc3fb56ec7c47c6c3960e7b66f8ba0433f255"
+    },
+    "compositions/v02/v2scene3.html": {
+      "hash": "f88ed5c485b5098f33c8d502da83c4672435f6103aab4b5acc543a4d74611fe3",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/f8/f88ed5c485b5098f33c8d502da83c4672435f6103aab4b5acc543a4d74611fe3"
+    },
+    "compositions/v02/v2scene4.html": {
+      "hash": "80cd6f48674494d20102cbff50b1e034a0cd93b9381dc5b497313209b8c51c39",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/80/80cd6f48674494d20102cbff50b1e034a0cd93b9381dc5b497313209b8c51c39"
+    },
+    "compositions/v02/v2scene5.html": {
+      "hash": "356c902863be6e36bc2a55cd425d98b47cce30e29cdb339925300c4ddcbfb519",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/35/356c902863be6e36bc2a55cd425d98b47cce30e29cdb339925300c4ddcbfb519"
+    },
+    "compositions/v02/v2scene6.html": {
+      "hash": "d1404ebdd866468ceed2a7bfde716aab0939623a9b3b811d6664a01f5e601110",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/d1/d1404ebdd866468ceed2a7bfde716aab0939623a9b3b811d6664a01f5e601110"
+    },
+    "compositions/v02/v2scene7.html": {
+      "hash": "0db2b64382a46c68a544f102c3a69464e0fab712106ccefe60f7e09e1f0baca9",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/0d/0db2b64382a46c68a544f102c3a69464e0fab712106ccefe60f7e09e1f0baca9"
+    },
+    "compositions/v02/v2scene8.html": {
+      "hash": "95181b647156f6a80ccd2e1598186aa872badbfcac7136920b64c5e286e844b7",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/95/95181b647156f6a80ccd2e1598186aa872badbfcac7136920b64c5e286e844b7"
+    },
+    "compositions/v02/v2scene9.html": {
+      "hash": "2b43563233b90a040f387839c0e36aea9a3b48da1bb74c4fcd1b14c002783373",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/2b/2b43563233b90a040f387839c0e36aea9a3b48da1bb74c4fcd1b14c002783373"
+    },
+    "compositions/v02/v2scene10.html": {
+      "hash": "58f9e52f313424e52b939269b9e5d220fc5c6565948375031e151a508f2886ff",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/58/58f9e52f313424e52b939269b9e5d220fc5c6565948375031e151a508f2886ff"
+    },
+    "compositions/v02/v2scene11.html": {
+      "hash": "4128cec094b81a9b51a2fa07551599ed436efed47ae28a7a88b6d21c70aca137",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/41/4128cec094b81a9b51a2fa07551599ed436efed47ae28a7a88b6d21c70aca137"
+    },
+    "compositions/v02/v2scene12.html": {
+      "hash": "92fa82e04ddaa569268ddf371b95d658c3479aee58c16d757d1cdbbae74a94e4",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/92/92fa82e04ddaa569268ddf371b95d658c3479aee58c16d757d1cdbbae74a94e4"
+    },
+    "compositions/v02/v2scene13.html": {
+      "hash": "d653c73fccce6cf62316d36f6dff36ab0f940702c878ae4d0ff78170a79d66a4",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/d6/d653c73fccce6cf62316d36f6dff36ab0f940702c878ae4d0ff78170a79d66a4"
+    },
+    "compositions/v02/v2scene14.html": {
+      "hash": "adcdbe2342a57f851d06c4e5d84c18fbfd0d745b099d2381adcdb2eee1f4df45",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ad/adcdbe2342a57f851d06c4e5d84c18fbfd0d745b099d2381adcdb2eee1f4df45"
+    },
+    "compositions/v02/v2scene15.html": {
+      "hash": "6025c9604b96de813aa5d3b95b9e15d1cf37d6ecd44277d5ec375a20e8fc25fa",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/60/6025c9604b96de813aa5d3b95b9e15d1cf37d6ecd44277d5ec375a20e8fc25fa"
+    },
+    "compositions/v02/v2scene16.html": {
+      "hash": "c9517e8178381c71635d818cef87f88413e14b18b803f4ccddb3081a98cc8785",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c9/c9517e8178381c71635d818cef87f88413e14b18b803f4ccddb3081a98cc8785"
+    },
+    "compositions/v02/v2scene17.html": {
+      "hash": "42beb7a6fb0d3b084ef3a32bff5ccefe22c09bf614a0ef43ffedb862445009a4",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/42/42beb7a6fb0d3b084ef3a32bff5ccefe22c09bf614a0ef43ffedb862445009a4"
+    },
+    "compositions/v02/v2scene18.html": {
+      "hash": "6aeac4fa8850747a5a06d4cb3593390569c998509289378c515d792157e1a89c",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/6a/6aeac4fa8850747a5a06d4cb3593390569c998509289378c515d792157e1a89c"
+    },
+    "compositions/v02/captions-v02.html": {
+      "hash": "1145d089d6bcd855db1b6e2f396e729102fa7127e35f85f997085fc16e9a9b6a",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/11/1145d089d6bcd855db1b6e2f396e729102fa7127e35f85f997085fc16e9a9b6a"
+    },
+    "timeline-v02.json": {
+      "hash": "dd5704cce140ce109fdb59c874f5d3cd1c44ae36e4e9c5b2cc0ed158ed61c466",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/dd/dd5704cce140ce109fdb59c874f5d3cd1c44ae36e4e9c5b2cc0ed158ed61c466"
+    },
+    "make-shutter.py": {
+      "hash": "3a55b712bcc4631245e4c0aab7f7955993520ce65e7cbd4a03a73094d6aebbd5",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/3a/3a55b712bcc4631245e4c0aab7f7955993520ce65e7cbd4a03a73094d6aebbd5"
+    },
+    "assets/sfx/shutter.wav": {
+      "hash": "2019a04f035d5beba30d193f41479d9155b00c790a9e859ac62dc7532193ec21",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/20/2019a04f035d5beba30d193f41479d9155b00c790a9e859ac62dc7532193ec21"
+    },
+    "REVISION-v02.md": {
+      "hash": "68a56755f254424d4297ddd27ea6887af2733ddb34274dd9c19ff9500553d23c",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/68/68a56755f254424d4297ddd27ea6887af2733ddb34274dd9c19ff9500553d23c"
+    },
+    "rendered-frame-v02.png": {
+      "hash": "3e4d52de01cfa087532ed5ebb87173e9d042fe5cb5a097e6b2057ab8845be097",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/3e/3e4d52de01cfa087532ed5ebb87173e9d042fe5cb5a097e6b2057ab8845be097"
+    },
+    "caption.md": {
+      "hash": "86d1769ccbac1a11477949cf04aab6777b58022a8147cc3cebb8dc3c606d9ae6",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/86/86d1769ccbac1a11477949cf04aab6777b58022a8147cc3cebb8dc3c606d9ae6"
+    },
+    "Publication.md": {
+      "hash": "80cf6f1afdae4465f3d3228483e2f99528ce6cb890040498125e8868de61fe75",
+      "content": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/80/80cf6f1afdae4465f3d3228483e2f99528ce6cb890040498125e8868de61fe75"
+    }
+  },
+  "revisions": {
+    "1ed567b0-1548-4e20-bb8b-37020a762f3e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793872332674,
+      "endedAt": 1793872332701,
+      "files": {
+        "compositions/captions.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/0f/0fb1eda32a6ddc156ef3f8b775e2bd79790ca41370f0395b496f65283cbaaa8d",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/db/db3b6b29906aff248ce7640584ac73f46d6a310876929cda621feee20bdd8930"
+        },
+        "compositions/weather1.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/5f/5fe533a1b60a6a924afc573c245c4f255990a2e09a82144af4022ededcefe8c9",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/21/212f9e2a04a9c8404cc695b35ad6d783568e09be28eea05dee5e100962c4c585"
+        },
+        "compositions/weather10.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/6a/6a5bd1df87ff5b6608083ce65142ddf9197f2ac09367eab968b93d9d9aab68ac",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/14/1479cc9b1de93496e1fbc1c50056f454a9c4826fb7d271560feb485241f919d3"
+        },
+        "compositions/weather11.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/18/18b9b5136de619041c74017c2532a916e53a337de355dd7ffc2ed970147fa95f",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/48/4847013df9c0b6508122c92298d1f1d58440b7efb01d47cff2b3090c5db52ae6"
+        },
+        "compositions/weather12.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/85/85679a57c5cd8f41f4e5a659541b16e9867904f943740920fc019d15411adaee",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/2c/2c668e5e65666f61d31cd0e4ead77662f6be10e86cb49be5f85ca61b4a767aed"
+        },
+        "compositions/weather13.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/89/89ebb38134a242699fde4db7b20979af48b5875f7170b467e4d125a7b865804d",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/4b/4b87dd11c8da934adcfc706996fbcee1e4c31abe88f0d9e7e2716e43abfb9c1d"
+        },
+        "compositions/weather14.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/25/258674d64515598cbb84c50183f3589a7734a6e4c8dc5fb83acea449a8bc11bd",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/49/49dc02458df1a10375edbddd63a5f5824b40d25fff877b6d384a34aeeef34462"
+        },
+        "compositions/weather15.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ee/ee1b306eadf09823dcf8e3cdfbccb22d4c5214bc8a357181651371640132d18a",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/65/6545090b007b4563b8516828f1b922034ecccc7b41d304a2c2af8dc095f1495c"
+        },
+        "compositions/weather16.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ea/ea2c593eba25887c0c18b8dc8b5ae0de8d3c0fde81cca4f901fa1bf9d63f92bb",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/47/47d44c227b3f592d84f29fdca025a406044c75211cca8064d551ce01e4d9394f"
+        },
+        "compositions/weather17.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/5b/5b7d9452442c9aab16b22b58a5fd90a74038a926c7f4d596da7d3c9d0a3a2225",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/f2/f26010bb5348542dba3645001159818a9fad2cffd7eb711d6c09455ba6cb4f0b"
+        },
+        "compositions/weather2.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/5a/5a33bcd2465ddf8c9ce0c4004e7c6bb8b9df0ee8c403f2112249bb3cd9180930",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/3f/3f858f18063c5faa1359dbbd37e7f9d1f52853c86539e64081a5b0a3b11f3aee"
+        },
+        "compositions/weather3.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/44/4472b18a44809e9e49efdd6e47de568ec8e50f5cbfb544b5605a589859994326",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/85/859f66748816c6e7a39bcd21ddb758b389206468d2adfc953c609db11db0aa37"
+        },
+        "compositions/weather4.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/cd/cd609ec247479c8408dadc1346e7cfdfcc0df8bc733a6e2c912241e07a3407f5",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b0/b022d541d9ff495d681baa63213d26a80ae620a7a57ebdc2f0d98b4a6362ec9e"
+        },
+        "compositions/weather5.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e3/e34ba6039f01c8b6a912029c1274c85bd64431f71b9b3266d8483316e543030b",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/15/1598657e99a8fd0f37f1295ea47a3336f79c68902b5ea5ca4d9864787980a0ac"
+        },
+        "compositions/weather6.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/0c/0ce2b1c9a54ca149ecd0d8f058d181d0ce5f4c50fac59fde999d6edd8ff94a50",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/06/06f7c019a3f2abc3368c9cc1ed6f1d40dce58a73728a21bf6304712216b8783f"
+        },
+        "compositions/weather7.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/59/59c6c02189c20ab27504d5611f84324f64602f05dc49dc8725aef544b1dfab7c",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a1/a13cf67d49ee63d772a348aae80d85cc945f425ee37a9a53d15dfa0b96d64981"
+        },
+        "compositions/weather8.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/92/92536328ced4baa4037510844f1c119980605f21a3b2f49d584ffd7d288ed6af",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/47/47f9bceeb02d8bb7a0d7350b59115d4db512d8ea834de9c5ec34e2e53102011c"
+        },
+        "compositions/weather9.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ad/ad5e3419b317eabf75f695deace957df7a22b44b353d0b9714832508c9e397a1",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/da/da8fca67ecb0bb6141e8e576324ffb20d7125bc4a26f632638a9cadc71725681"
+        },
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/17/17fecabffe44f4f2fc22bbbf6859f0080790a8c2d9eaad49b1922b5cd7785e00",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/15/158e9c8a4be704dd9dda4317cc01093a823cabb7b34a994d13ca100ad7016fca"
+        }
+      }
+    },
+    "1c3a3bc1-5307-479c-ae36-51a46290a69e": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Delete element",
+      "startedAt": 1793872340598,
+      "endedAt": 1793872340598,
+      "files": {
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/15/158e9c8a4be704dd9dda4317cc01093a823cabb7b34a994d13ca100ad7016fca",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ac/ac263f597a504cc4cfd3a9d8fdae664709702b20cc31825cdc06f4d09e1396e4"
+        }
+      }
+    },
+    "d83fa75e-b157-4a12-bd65-b10112083bbe": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Delete element",
+      "startedAt": 1793872342822,
+      "endedAt": 1793872342822,
+      "files": {
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ac/ac263f597a504cc4cfd3a9d8fdae664709702b20cc31825cdc06f4d09e1396e4",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/de/dee4b3242f99d7bb7db0e11053a2da9ab72eb135ff60477f3320a8c887575b38"
+        }
+      }
+    },
+    "6c4ab9ec-4d97-4230-b1cf-c98c5643d0b7": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793872408132,
+      "endedAt": 1793872410133,
+      "files": {
+        "build.mjs": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/d3/d3223da7875fa5f686666873b6b3f4220d602ae2d9671e03b03950559133b3fe",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ec/ecd2c736983435e7cbe95ba1880836b1de1bb532e5194bf50780222c3abf8103"
+        }
+      }
+    },
+    "b17ac48f-77e1-44f2-be52-bd3818605096": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793872421304,
+      "endedAt": 1793872423740,
+      "files": {
+        "compositions/captions.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/db/db3b6b29906aff248ce7640584ac73f46d6a310876929cda621feee20bdd8930",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/84/8471ef8fbb80a36c7a9b91ea0bd341619448aef4ddb8d09b70f66a00e724beca"
+        },
+        "compositions/weather1.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/21/212f9e2a04a9c8404cc695b35ad6d783568e09be28eea05dee5e100962c4c585",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/5f/5fe533a1b60a6a924afc573c245c4f255990a2e09a82144af4022ededcefe8c9"
+        },
+        "compositions/weather10.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/14/1479cc9b1de93496e1fbc1c50056f454a9c4826fb7d271560feb485241f919d3",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/29/296bb7ea0691a466b4905c1ec8ae9642974969e505e3ae6051e03d62343e0b23"
+        },
+        "compositions/weather11.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/48/4847013df9c0b6508122c92298d1f1d58440b7efb01d47cff2b3090c5db52ae6",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/68/68f5263e4115f5b40e28fa97446122204b77a037ba7c19293442991567a39960"
+        },
+        "compositions/weather12.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/2c/2c668e5e65666f61d31cd0e4ead77662f6be10e86cb49be5f85ca61b4a767aed",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/76/76c081c47096daf78fad957288ae500552d9a5ed113c99b77d6a01e76e9eb78a"
+        },
+        "compositions/weather13.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/4b/4b87dd11c8da934adcfc706996fbcee1e4c31abe88f0d9e7e2716e43abfb9c1d",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b8/b894fd1d3f392a1c14a742c4b05ffd7cdbb8e7a8d43089422a7b2e2134c6511c"
+        },
+        "compositions/weather14.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/49/49dc02458df1a10375edbddd63a5f5824b40d25fff877b6d384a34aeeef34462",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/43/431fc31b4d418960b5b5dc84d8fbf7d5bee4e607c0960281e5ab261bf2534fb1"
+        },
+        "compositions/weather15.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/65/6545090b007b4563b8516828f1b922034ecccc7b41d304a2c2af8dc095f1495c",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/61/61d1049a1d844fbb50e45d2dc08cec17ea3360d166c2d3729594664915f2a68c"
+        },
+        "compositions/weather16.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/47/47d44c227b3f592d84f29fdca025a406044c75211cca8064d551ce01e4d9394f",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/10/106b55220f42487e93628cdd83dfb9d1d939d2c1e4a9bbbaf5fcca4b1460931e"
+        },
+        "compositions/weather17.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/f2/f26010bb5348542dba3645001159818a9fad2cffd7eb711d6c09455ba6cb4f0b",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/1c/1c33693615cca12ee6e1235cb46f7544e4399cc7f043319bef0698f33b17789d"
+        },
+        "compositions/weather18.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/44/4495d58b5ad876540a9a083f4187539ce50cf3961389e10330f466c8c85c0ce5"
+        },
+        "compositions/weather2.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/3f/3f858f18063c5faa1359dbbd37e7f9d1f52853c86539e64081a5b0a3b11f3aee",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/5a/5a33bcd2465ddf8c9ce0c4004e7c6bb8b9df0ee8c403f2112249bb3cd9180930"
+        },
+        "compositions/weather3.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/85/859f66748816c6e7a39bcd21ddb758b389206468d2adfc953c609db11db0aa37",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/44/4472b18a44809e9e49efdd6e47de568ec8e50f5cbfb544b5605a589859994326"
+        },
+        "compositions/weather4.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b0/b022d541d9ff495d681baa63213d26a80ae620a7a57ebdc2f0d98b4a6362ec9e",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/cd/cd609ec247479c8408dadc1346e7cfdfcc0df8bc733a6e2c912241e07a3407f5"
+        },
+        "compositions/weather5.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/15/1598657e99a8fd0f37f1295ea47a3336f79c68902b5ea5ca4d9864787980a0ac",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e3/e34ba6039f01c8b6a912029c1274c85bd64431f71b9b3266d8483316e543030b"
+        },
+        "compositions/weather6.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/06/06f7c019a3f2abc3368c9cc1ed6f1d40dce58a73728a21bf6304712216b8783f",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/0c/0ce2b1c9a54ca149ecd0d8f058d181d0ce5f4c50fac59fde999d6edd8ff94a50"
+        },
+        "compositions/weather7.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a1/a13cf67d49ee63d772a348aae80d85cc945f425ee37a9a53d15dfa0b96d64981",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/59/59c6c02189c20ab27504d5611f84324f64602f05dc49dc8725aef544b1dfab7c"
+        },
+        "compositions/weather8.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/47/47f9bceeb02d8bb7a0d7350b59115d4db512d8ea834de9c5ec34e2e53102011c",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/92/92536328ced4baa4037510844f1c119980605f21a3b2f49d584ffd7d288ed6af"
+        },
+        "compositions/weather9.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/da/da8fca67ecb0bb6141e8e576324ffb20d7125bc4a26f632638a9cadc71725681",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/2d/2d362d11fe3d9bc3d94cdb4bd41e30f81e7cedcf15751c1c6467b1ff33f8f91d"
+        },
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/de/dee4b3242f99d7bb7db0e11053a2da9ab72eb135ff60477f3320a8c887575b38",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a4/a4b51d6539a3e65518a48658b9584117de29fd4b84eb434d24fea256cff045ee"
+        },
+        "timeline.json": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/56/56c7cbfc5b9bc618b5b52659563c9df6945964c07bbf96b6984ba3f944363738",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/63/63b0defcb1d41a1d1b5c15627ff9e16de6c5cfba0b8f34cbb8c17af6d7cbaca4"
+        }
+      }
+    },
+    "380ecdfa-8d4c-4cd3-ad10-01340086f91d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793872589187,
+      "endedAt": 1793872591189,
+      "files": {
+        "ASSETS.md": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/45/45c6c2dacc2adaab399e3ee0a03482f2e6fb0a307eac95588f0411677b319187"
+        },
+        "SPEC.md": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/7e/7eefce887f1c8d81ea7e4a6a8d09673b9105596c98afbdbc0b64aa6e448a071a"
+        }
+      }
+    },
+    "81f6e77b-fd74-48ef-b55a-a608d360e2d5": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793872629682,
+      "endedAt": 1793872631684,
+      "files": {
+        "rendered-frame.png": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e9/e97e737a3766661a83e0dee057970b31656cd7f38e96eadacde4a99808d71d83"
+        }
+      }
+    },
+    "7d70b3ea-ea16-44ce-8f6f-ffc3647c16f7": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793872709263,
+      "endedAt": 1793872711264,
+      "files": {
+        "REVIEW.md": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b9/b980cf93730773d0a15bb536aa0f0437925334f13b913fb4bb2a8ddccaf8ad5b"
+        }
+      }
+    },
+    "85df08f1-5660-4fb2-b886-9878771bad1e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793872951806,
+      "endedAt": 1793872953807,
+      "files": {
+        "fetch-media-v02.mjs": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/bc/bcc67ee5865c00648387e742567f8e5f300b4de1e0e22e243ba9f9f8a05b07b1"
+        }
+      }
+    },
+    "4a8e3553-18f5-4fb2-a0bc-b889b5167288": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793872981868,
+      "endedAt": 1793872984572,
+      "files": {
+        "assets/hoi-an-river.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/67/67dce8f06c0d4abf399e637bfce8846d351804f1a39ddbbaf90a0936b2485f72"
+        },
+        "assets/hoi-an-street.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/4e/4ebad833540a6a1d1195c68af5a10630fe39d500827057f6704df7efe559d4fd"
+        },
+        "assets/new-photo-ledger-v02.json": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/98/982a09e52f8f337944391ca3dcc797e07e8d84df834b8ddd6df062a51659d7f4"
+        },
+        "assets/packing.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/68/68816766aa2a70ea37e5614bb9c0e30dad6c143edee4a4b540db1c1a9be315af"
+        },
+        "assets/rain-detail.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c2/c2535a5fb9e5b71df91a16e042a8b3a4b018d37f92f9e8c57cacef9dda1bee89"
+        },
+        "assets/saigon-river.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/36/36bfcd4e5907ad8d2cfd9ec752502ae909bf6f0bd2e3fb43a942e72d2335df1a"
+        },
+        "assets/saigon-sunset.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/26/2632510b70ed7684a5482b3357fc9681bbf536e8dd2e13ef416465d75e84245b"
+        },
+        "assets/sapa-terraces.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b7/b7f1b1ff918f1c00f10b384b5c536eadb2c449564d905cd67e4feef9d8b23a13"
+        },
+        "assets/warm-clothes.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c4/c4988fb3cdbac7474b2fddc3abfbf618df45048d9c1ac5e197c0c57ce350e524"
+        }
+      }
+    },
+    "6f2d259e-faab-470e-9375-1c122c647f03": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873010970,
+      "endedAt": 1793873012980,
+      "files": {
+        "assets/bridge.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a6/a6b13c03fb3026c4bf140fa9b4a537ddb9e062e2f17fde89d5054545a76daf6a"
+        },
+        "assets/cathedral.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/61/61f10e009491acfe4bdff1a819d80bb34f167d0dae67801b0f8039b80648649f"
+        },
+        "assets/photographer.jpg": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/1d/1d8aaadd89d35d9d9aacb975b4b8a8f41a780864fba8137f4d4af35b3eacd922"
+        },
+        "index-v01.html.txt": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a4/a4b51d6539a3e65518a48658b9584117de29fd4b84eb434d24fea256cff045ee"
+        }
+      }
+    },
+    "474036d6-1a6c-49e5-b50d-4c86db9eee6b": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873178298,
+      "endedAt": 1793873180300,
+      "files": {
+        "build-v02.mjs": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/8a/8a223a67d9b9e578d718ac286aab9c95e7b3c8499182ee40544c27ed17ca3e95"
+        }
+      }
+    },
+    "7529f7cf-c26b-493f-adce-dc3d9b7f47a8": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873206336,
+      "endedAt": 1793873208423,
+      "files": {
+        "compositions/v02/captions-v02.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e1/e175e7be4df5a721e5f3968d645d1d4425c4eb8054a48ad17d549b756714ff1d"
+        },
+        "compositions/v02/v2scene1.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/99/99b95f0e3bb3223ce5ababbf1a5c8aa98f815af9b55e8f8bb36c603438e1b2db"
+        },
+        "compositions/v02/v2scene10.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/df/df5ca74ecda47b38eb4e63e8de853dde95a88055b43164d998b9a6616da6bfb4"
+        },
+        "compositions/v02/v2scene11.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/11/11cf33c8001886130c8f504e7a0ff8f0cdc6146f960bd535a835df676648a535"
+        },
+        "compositions/v02/v2scene12.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/48/4864f4b95faa30455afa26574c1161ad26e832b0ebf9648cbf2b08263069edee"
+        },
+        "compositions/v02/v2scene13.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/9a/9a5831a7814072ddc254a0ab3ddc4a30558d3684da448432afbeb80ba12b4f7e"
+        },
+        "compositions/v02/v2scene14.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/5d/5d726a7362548e70f30ac74d25424e2b9ffce990e7d7b0ebf9626e0e4c206a58"
+        },
+        "compositions/v02/v2scene15.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/4d/4d6fb73e0ed5b66e9f1fc3d333635880591afff3ce625132197f3b5ba84821d8"
+        },
+        "compositions/v02/v2scene16.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b7/b7e00581ec56b7cde63f2d0457273e604ed1e263b4f97505db9968ebcda1ed4c"
+        },
+        "compositions/v02/v2scene17.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/70/702b6eb74a033cdab56748dfa70c620fa431db32f8bbfa4fcbf6dee2c80e3398"
+        },
+        "compositions/v02/v2scene18.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/dd/ddbb5b8673c45fa653df3d107982e4f4636fb911277a10afde08cc239224dceb"
+        },
+        "compositions/v02/v2scene2.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/3b/3b92d6d2a814eecfcecb415f50335743971fef2c8cb51fbf3bcefbdf92b5191d"
+        },
+        "compositions/v02/v2scene3.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/97/9778bef1e628ebb37e936bbf6ab6ad8d0cbf3232b94ad5ef60e427a0fb2821bc"
+        },
+        "compositions/v02/v2scene4.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/af/af90b0f31a653b0c7609c04e581c15053337ca359bf3cda9dc6eeeb07d4cb790"
+        },
+        "compositions/v02/v2scene5.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e8/e8aece60b96f3624801305c466edccc79c75000f5eb9466ae84751832ce6fa43"
+        },
+        "compositions/v02/v2scene6.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/7a/7a56946e7ac52b527ef7341829d7553afd11e045983f476855e74556726f232f"
+        },
+        "compositions/v02/v2scene7.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c6/c6bb41202928016860573949ddd1377190238d564a967532dc8f460bba2cf8c1"
+        },
+        "compositions/v02/v2scene8.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/d0/d088bf5696a233e9ebb8d0ecbd6e1aba0dfaed483e4410144e5a2bead85698a4"
+        },
+        "compositions/v02/v2scene9.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/6a/6a4f958da03ca5c93f78f08a261476b626a32b33821ec4d76c160f3565326e0e"
+        },
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a4/a4b51d6539a3e65518a48658b9584117de29fd4b84eb434d24fea256cff045ee",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ce/cedcd527fa44ccc1b79451abe66730bb36dc30e9333fa24a637590096c1a4de7"
+        },
+        "timeline-v02.json": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/dd/dd5704cce140ce109fdb59c874f5d3cd1c44ae36e4e9c5b2cc0ed158ed61c466"
+        }
+      }
+    },
+    "1cf0ccee-2be1-4991-991d-e592373ca1e1": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873301870,
+      "endedAt": 1793873303871,
+      "files": {
+        "build-v02.mjs": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/8a/8a223a67d9b9e578d718ac286aab9c95e7b3c8499182ee40544c27ed17ca3e95",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/7f/7f9de8727cea332a046a66e42a040509ce3d56fc97ec677acf0d79e3956c563c"
+        }
+      }
+    },
+    "40fca381-5a7e-4450-aca5-dc9d8bcff286": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873329298,
+      "endedAt": 1793873332030,
+      "files": {
+        "assets/sfx/shutter.wav": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/20/2019a04f035d5beba30d193f41479d9155b00c790a9e859ac62dc7532193ec21"
+        },
+        "build-v02.mjs": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/7f/7f9de8727cea332a046a66e42a040509ce3d56fc97ec677acf0d79e3956c563c",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b9/b93f73136e9363bd30915c77b67d25e4c42f8c3d716f183c1e5a2e5ad94a5eef"
+        },
+        "compositions/v02/v2scene1.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/99/99b95f0e3bb3223ce5ababbf1a5c8aa98f815af9b55e8f8bb36c603438e1b2db",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/d6/d64adb8f03603fe51eea6d2e3c53211508672e8d3f1423fc255236b2780f2d18"
+        },
+        "compositions/v02/v2scene10.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/df/df5ca74ecda47b38eb4e63e8de853dde95a88055b43164d998b9a6616da6bfb4",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/03/03309380f52660bb81f7f148ca73d9aad466a01abf510cd1a5220612691b5539"
+        },
+        "compositions/v02/v2scene11.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/11/11cf33c8001886130c8f504e7a0ff8f0cdc6146f960bd535a835df676648a535",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/78/78cdde5ddf8758e2d72f61a6644f04f5eba67159f7d63aa4d02ba1d0b9be0bcd"
+        },
+        "compositions/v02/v2scene12.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/48/4864f4b95faa30455afa26574c1161ad26e832b0ebf9648cbf2b08263069edee",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c2/c20f3ca98aef25423ca8302234c08157ab391120b592d1cfed0fbd988906b7bc"
+        },
+        "compositions/v02/v2scene13.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/9a/9a5831a7814072ddc254a0ab3ddc4a30558d3684da448432afbeb80ba12b4f7e",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/81/81784970e76d876318fbe4409bb682c9e9462c9ee3f8ef536c665e4661f65b6c"
+        },
+        "compositions/v02/v2scene14.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/5d/5d726a7362548e70f30ac74d25424e2b9ffce990e7d7b0ebf9626e0e4c206a58",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b6/b61b9f42486039226e5033639bb0b4c4fa650bcd6d5ed9fcfda0467775110389"
+        },
+        "compositions/v02/v2scene15.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/4d/4d6fb73e0ed5b66e9f1fc3d333635880591afff3ce625132197f3b5ba84821d8",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/7b/7bfe6ccc0bfd9cfaf6bccb04f271b57df34f2632e9035d351bd46d7962e338b0"
+        },
+        "compositions/v02/v2scene16.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b7/b7e00581ec56b7cde63f2d0457273e604ed1e263b4f97505db9968ebcda1ed4c",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/59/5944b96fedc3c46f07dec32c66429900b062ece5e3573f0ef264a3698f5d19ee"
+        },
+        "compositions/v02/v2scene17.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/70/702b6eb74a033cdab56748dfa70c620fa431db32f8bbfa4fcbf6dee2c80e3398",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/9b/9b70dc8fe8b75f7b436fab18ece4e76177c0fa68ab253b2b9f015e3ddb2707e2"
+        },
+        "compositions/v02/v2scene18.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/dd/ddbb5b8673c45fa653df3d107982e4f4636fb911277a10afde08cc239224dceb",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e0/e00515b96d69ba1f8d4c4b41beeaba0ce1dec12a01c1ed53131ff3594af0adeb"
+        },
+        "compositions/v02/v2scene2.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/3b/3b92d6d2a814eecfcecb415f50335743971fef2c8cb51fbf3bcefbdf92b5191d",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/1b/1b4b3de26764a86b31337e999b2ccd76ce282d7ea74ad2a3be7becb757433ac4"
+        },
+        "compositions/v02/v2scene3.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/97/9778bef1e628ebb37e936bbf6ab6ad8d0cbf3232b94ad5ef60e427a0fb2821bc",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/96/965f2f81a30ea5b6b39fcec717715861975ec196638ea62dcd73606aa6bc9b6a"
+        },
+        "compositions/v02/v2scene4.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/af/af90b0f31a653b0c7609c04e581c15053337ca359bf3cda9dc6eeeb07d4cb790",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/0a/0a08e6b2dddd90021a2424c93fef67af1779408f312fd2f338f5c1b5201a2e61"
+        },
+        "compositions/v02/v2scene5.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e8/e8aece60b96f3624801305c466edccc79c75000f5eb9466ae84751832ce6fa43",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/72/72fb5a8adddab21c7a6e47fd0f894a909d6a92af2ec6e38c2a321ba17ca52602"
+        },
+        "compositions/v02/v2scene6.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/7a/7a56946e7ac52b527ef7341829d7553afd11e045983f476855e74556726f232f",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/39/39520ed3ee51493140e46849c41bf908d4cbd6ac36df599e907fe6d7b89c3d75"
+        },
+        "compositions/v02/v2scene7.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c6/c6bb41202928016860573949ddd1377190238d564a967532dc8f460bba2cf8c1",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/62/624e2a268af43fad17e07343c11eb9c401dbb76f0e8479373d4824fe6c563b33"
+        },
+        "compositions/v02/v2scene8.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/d0/d088bf5696a233e9ebb8d0ecbd6e1aba0dfaed483e4410144e5a2bead85698a4",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a1/a1de9b0118d757fa453a801d2846f6b6d3f4253a8fa6512597944dc799dd8720"
+        },
+        "compositions/v02/v2scene9.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/6a/6a4f958da03ca5c93f78f08a261476b626a32b33821ec4d76c160f3565326e0e",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/59/594d6c4faa6f76d83022bd8a7baa49b8326f369c47e6459d8e707eb767f718b8"
+        },
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ce/cedcd527fa44ccc1b79451abe66730bb36dc30e9333fa24a637590096c1a4de7",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/46/46fe2876ec73677030ac0da960ac73ceea9638c91af6645597a915c690e93b35"
+        },
+        "make-shutter.py": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/3a/3a55b712bcc4631245e4c0aab7f7955993520ce65e7cbd4a03a73094d6aebbd5"
+        }
+      }
+    },
+    "56513a3d-aec2-46fe-82c0-3c3442bf7592": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Delete element",
+      "startedAt": 1793873422399,
+      "endedAt": 1793873422399,
+      "files": {
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/46/46fe2876ec73677030ac0da960ac73ceea9638c91af6645597a915c690e93b35",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/70/704f258231dfe99cb5afc6c8c654687e31116df3404f0fc4e236b996bb2fe36b"
+        }
+      }
+    },
+    "1759ad21-22a0-4bbf-9349-e128d09d1370": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873456866,
+      "endedAt": 1793873460336,
+      "files": {
+        "build-v02.mjs": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b9/b93f73136e9363bd30915c77b67d25e4c42f8c3d716f183c1e5a2e5ad94a5eef",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ea/ea77e0a86ebec6ea7287d14c43a95ab619ead10a1afc7c2f55c75558d1eadde1"
+        },
+        "compositions/v02/captions-v02.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e1/e175e7be4df5a721e5f3968d645d1d4425c4eb8054a48ad17d549b756714ff1d",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/11/1145d089d6bcd855db1b6e2f396e729102fa7127e35f85f997085fc16e9a9b6a"
+        },
+        "compositions/v02/v2scene1.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/d6/d64adb8f03603fe51eea6d2e3c53211508672e8d3f1423fc255236b2780f2d18",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c1/c1f4c32a46265302bd9e588798f7de25d0322acce8bb52c67e4c751645cfec66"
+        },
+        "compositions/v02/v2scene10.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/03/03309380f52660bb81f7f148ca73d9aad466a01abf510cd1a5220612691b5539",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/58/58f9e52f313424e52b939269b9e5d220fc5c6565948375031e151a508f2886ff"
+        },
+        "compositions/v02/v2scene11.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/78/78cdde5ddf8758e2d72f61a6644f04f5eba67159f7d63aa4d02ba1d0b9be0bcd",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/41/4128cec094b81a9b51a2fa07551599ed436efed47ae28a7a88b6d21c70aca137"
+        },
+        "compositions/v02/v2scene12.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c2/c20f3ca98aef25423ca8302234c08157ab391120b592d1cfed0fbd988906b7bc",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/92/92fa82e04ddaa569268ddf371b95d658c3479aee58c16d757d1cdbbae74a94e4"
+        },
+        "compositions/v02/v2scene13.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/81/81784970e76d876318fbe4409bb682c9e9462c9ee3f8ef536c665e4661f65b6c",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/d6/d653c73fccce6cf62316d36f6dff36ab0f940702c878ae4d0ff78170a79d66a4"
+        },
+        "compositions/v02/v2scene14.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b6/b61b9f42486039226e5033639bb0b4c4fa650bcd6d5ed9fcfda0467775110389",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/ad/adcdbe2342a57f851d06c4e5d84c18fbfd0d745b099d2381adcdb2eee1f4df45"
+        },
+        "compositions/v02/v2scene15.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/7b/7bfe6ccc0bfd9cfaf6bccb04f271b57df34f2632e9035d351bd46d7962e338b0",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/60/6025c9604b96de813aa5d3b95b9e15d1cf37d6ecd44277d5ec375a20e8fc25fa"
+        },
+        "compositions/v02/v2scene16.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/59/5944b96fedc3c46f07dec32c66429900b062ece5e3573f0ef264a3698f5d19ee",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/c9/c9517e8178381c71635d818cef87f88413e14b18b803f4ccddb3081a98cc8785"
+        },
+        "compositions/v02/v2scene17.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/9b/9b70dc8fe8b75f7b436fab18ece4e76177c0fa68ab253b2b9f015e3ddb2707e2",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/42/42beb7a6fb0d3b084ef3a32bff5ccefe22c09bf614a0ef43ffedb862445009a4"
+        },
+        "compositions/v02/v2scene18.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/e0/e00515b96d69ba1f8d4c4b41beeaba0ce1dec12a01c1ed53131ff3594af0adeb",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/6a/6aeac4fa8850747a5a06d4cb3593390569c998509289378c515d792157e1a89c"
+        },
+        "compositions/v02/v2scene2.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/1b/1b4b3de26764a86b31337e999b2ccd76ce282d7ea74ad2a3be7becb757433ac4",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/da/daeb9ae86d1ef9dea6100154d0edc3fb56ec7c47c6c3960e7b66f8ba0433f255"
+        },
+        "compositions/v02/v2scene3.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/96/965f2f81a30ea5b6b39fcec717715861975ec196638ea62dcd73606aa6bc9b6a",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/f8/f88ed5c485b5098f33c8d502da83c4672435f6103aab4b5acc543a4d74611fe3"
+        },
+        "compositions/v02/v2scene4.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/0a/0a08e6b2dddd90021a2424c93fef67af1779408f312fd2f338f5c1b5201a2e61",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/80/80cd6f48674494d20102cbff50b1e034a0cd93b9381dc5b497313209b8c51c39"
+        },
+        "compositions/v02/v2scene5.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/72/72fb5a8adddab21c7a6e47fd0f894a909d6a92af2ec6e38c2a321ba17ca52602",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/35/356c902863be6e36bc2a55cd425d98b47cce30e29cdb339925300c4ddcbfb519"
+        },
+        "compositions/v02/v2scene6.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/39/39520ed3ee51493140e46849c41bf908d4cbd6ac36df599e907fe6d7b89c3d75",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/d1/d1404ebdd866468ceed2a7bfde716aab0939623a9b3b811d6664a01f5e601110"
+        },
+        "compositions/v02/v2scene7.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/62/624e2a268af43fad17e07343c11eb9c401dbb76f0e8479373d4824fe6c563b33",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/0d/0db2b64382a46c68a544f102c3a69464e0fab712106ccefe60f7e09e1f0baca9"
+        },
+        "compositions/v02/v2scene8.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/a1/a1de9b0118d757fa453a801d2846f6b6d3f4253a8fa6512597944dc799dd8720",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/95/95181b647156f6a80ccd2e1598186aa872badbfcac7136920b64c5e286e844b7"
+        },
+        "compositions/v02/v2scene9.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/59/594d6c4faa6f76d83022bd8a7baa49b8326f369c47e6459d8e707eb767f718b8",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/2b/2b43563233b90a040f387839c0e36aea9a3b48da1bb74c4fcd1b14c002783373"
+        },
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/70/704f258231dfe99cb5afc6c8c654687e31116df3404f0fc4e236b996bb2fe36b",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/46/46fe2876ec73677030ac0da960ac73ceea9638c91af6645597a915c690e93b35"
+        }
+      }
+    },
+    "607d9183-18a7-4fb9-a8ff-1daffefab66e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873516216,
+      "endedAt": 1793873518220,
+      "files": {
+        "REVISION-v02.md": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/68/68a56755f254424d4297ddd27ea6887af2733ddb34274dd9c19ff9500553d23c"
+        }
+      }
+    },
+    "79596ee4-30bf-4bbe-8ce7-f19d790f9db7": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Delete element",
+      "startedAt": 1793873582480,
+      "endedAt": 1793873582480,
+      "files": {
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/46/46fe2876ec73677030ac0da960ac73ceea9638c91af6645597a915c690e93b35",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/70/704f258231dfe99cb5afc6c8c654687e31116df3404f0fc4e236b996bb2fe36b"
+        }
+      }
+    },
+    "79f9ef28-e43c-4207-9518-6ca6f14a1605": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873712743,
+      "endedAt": 1793873714745,
+      "files": {
+        "rendered-frame-v02.png": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/3e/3e4d52de01cfa087532ed5ebb87173e9d042fe5cb5a097e6b2057ab8845be097"
+        }
+      }
+    },
+    "91bf5b3d-59d7-49e4-85dd-af3947a902c0": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873761620,
+      "endedAt": 1793873763621,
+      "files": {
+        "REVIEW.md": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/b9/b980cf93730773d0a15bb536aa0f0437925334f13b913fb4bb2a8ddccaf8ad5b",
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/3d/3d62c7cb47924be02bd2980d1499fcc78c017727a7d54987ec10546b3dc71cb0"
+        }
+      }
+    },
+    "985b93af-841d-42aa-ac44-4af97b773fb2": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873938358,
+      "endedAt": 1793873940359,
+      "files": {
+        "TF-Vietnam-Weather-Oct-Dec-v02-faststart.mp4": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/1b/1bcdbe29087b561318ab6845b3d86718eb6027488028b616166e62b539c265da"
+        }
+      }
+    },
+    "d57d78a5-a3f4-4039-a47d-385ca8329826": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873944974,
+      "endedAt": 1793873946976,
+      "files": {
+        "TF-Vietnam-Weather-Oct-Dec-v02-faststart.mp4": {
+          "before": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/1b/1bcdbe29087b561318ab6845b3d86718eb6027488028b616166e62b539c265da",
+          "after": null
+        }
+      }
+    },
+    "e7a749b8-64a3-4155-934f-253993e3d05a": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793873952989,
+      "endedAt": 1793873954991,
+      "files": {
+        "caption.md": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/86/86d1769ccbac1a11477949cf04aab6777b58022a8147cc3cebb8dc3c606d9ae6"
+        }
+      }
+    },
+    "5b05e36c-1e66-48d7-9498-c81432e260e6": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793874311883,
+      "endedAt": 1793874313885,
+      "files": {
+        "Publication.md": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/fe4b0be4-46d2-44b7-bcf4-17f40b7a91a6/blobs/80/80cf6f1afdae4465f3d3228483e2f99528ce6cb890040498125e8868de61fe75"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "290e0fe3-bf55-499c-8fc2-9872622014d0"
+    },
+    "revisions": {
+      "b17ac48f-77e1-44f2-be52-bd3818605096": [
+        {
+          "id": "88b346fe-62cb-4472-ab75-5cbb5abf2c38",
+          "scope": "project",
+          "report": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/checks/88b346fe-62cb-4472-ab75-5cbb5abf2c38.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1793872496894,
+          "contentHash": "33871cd15c4d9791bb68c6c72127e5ceb0bc4da876b8e052e0c13bc598ae4c58",
+          "revision": "b17ac48f-77e1-44f2-be52-bd3818605096",
+          "inputFingerprint": "02b0613f298eb0450d0f0bbbb0f4b0150d8cddc6f41d81510ca58c092a15ba13",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "40fca381-5a7e-4450-aca5-dc9d8bcff286": [
+        {
+          "id": "d129fd5a-3d46-47a3-af42-03782d99d4e5",
+          "scope": "project",
+          "report": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/checks/d129fd5a-3d46-47a3-af42-03782d99d4e5.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1793873396238,
+          "contentHash": "58685e35beb19efc2286fae56fd21d8465c46406b8c431fcb8f973864875da9e",
+          "revision": "40fca381-5a7e-4450-aca5-dc9d8bcff286",
+          "inputFingerprint": "022d8bb7e66790d567c8d50585c6a204bff7df8da2b36b3e58a4b49305cf5814",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "50b96490-537e-4628-98ed-7e0d1fefb1a8",
+        "scope": "project",
+        "report": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/checks/50b96490-537e-4628-98ed-7e0d1fefb1a8.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1793872352720,
+        "contentHash": "6e2e8582dc5e8b2af9c46d2fe7757953634363bd90a5036a7a487575980a11e1",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "id": "290e0fe3-bf55-499c-8fc2-9872622014d0",
+        "scope": "project",
+        "report": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/checks/290e0fe3-bf55-499c-8fc2-9872622014d0.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1793873518729,
+        "contentHash": "25a86e559f61c4c323e5c9997c0461f854dfc42b499cb89fa7347aa3d238dc66",
+        "revision": null,
+        "inputFingerprint": "20ae59cd7e35c50b3dfda8fbadbfa73594eaa02e93e1bbc8243260118c2e38f2",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "1759ad21-22a0-4bbf-9349-e128d09d1370",
+      "id": "09450206-2048-4244-a6ea-425e5e66cfba-6"
+    },
+    "revisions": {
+      "b17ac48f-77e1-44f2-be52-bd3818605096": [
+        {
+          "scope": "full",
+          "id": "1ad2f207-2f50-47cf-953f-eb34ecc7714c-0",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/7cc15daf-6d17-49f5-b9b1-60d5bf5cf142/frame-00-at-1.5s.png",
+          "time": 1.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793872485811,
+          "contentHash": "3aab68200b1d314dc10deb114b200391b1de1f49924e2631b12bb46a832251f2",
+          "revision": "b17ac48f-77e1-44f2-be52-bd3818605096",
+          "inputFingerprint": "02b0613f298eb0450d0f0bbbb0f4b0150d8cddc6f41d81510ca58c092a15ba13",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1ad2f207-2f50-47cf-953f-eb34ecc7714c-1",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/7cc15daf-6d17-49f5-b9b1-60d5bf5cf142/frame-01-at-16.8s.png",
+          "time": 16.8,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793872485811,
+          "contentHash": "72a7c61d9ddad64cf34e337676a619f73c383ed70b6532efed3d541e758bae9d",
+          "revision": "b17ac48f-77e1-44f2-be52-bd3818605096",
+          "inputFingerprint": "02b0613f298eb0450d0f0bbbb0f4b0150d8cddc6f41d81510ca58c092a15ba13",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1ad2f207-2f50-47cf-953f-eb34ecc7714c-2",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/7cc15daf-6d17-49f5-b9b1-60d5bf5cf142/frame-02-at-29.5s.png",
+          "time": 29.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793872485811,
+          "contentHash": "3676d41129547b3bc116916773c105596fd5a4cef86437a268a3228d0b202278",
+          "revision": "b17ac48f-77e1-44f2-be52-bd3818605096",
+          "inputFingerprint": "02b0613f298eb0450d0f0bbbb0f4b0150d8cddc6f41d81510ca58c092a15ba13",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1ad2f207-2f50-47cf-953f-eb34ecc7714c-3",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/7cc15daf-6d17-49f5-b9b1-60d5bf5cf142/frame-03-at-50s.png",
+          "time": 50,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793872485811,
+          "contentHash": "15d4d8efc1320e2ce78c1ead06966d4de5f2099e6eaf6025e10f57bf01d96976",
+          "revision": "b17ac48f-77e1-44f2-be52-bd3818605096",
+          "inputFingerprint": "02b0613f298eb0450d0f0bbbb0f4b0150d8cddc6f41d81510ca58c092a15ba13",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1ad2f207-2f50-47cf-953f-eb34ecc7714c-4",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/7cc15daf-6d17-49f5-b9b1-60d5bf5cf142/frame-04-at-64.8s.png",
+          "time": 64.8,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793872485811,
+          "contentHash": "832b7f8c8bac7f57fb386f255dac86555da2194b0e1442185a8256cfccd40e49",
+          "revision": "b17ac48f-77e1-44f2-be52-bd3818605096",
+          "inputFingerprint": "02b0613f298eb0450d0f0bbbb0f4b0150d8cddc6f41d81510ca58c092a15ba13",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1ad2f207-2f50-47cf-953f-eb34ecc7714c-5",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/7cc15daf-6d17-49f5-b9b1-60d5bf5cf142/frame-05-at-65.152s.png",
+          "time": 65.152,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793872485811,
+          "contentHash": "832b7f8c8bac7f57fb386f255dac86555da2194b0e1442185a8256cfccd40e49",
+          "revision": "b17ac48f-77e1-44f2-be52-bd3818605096",
+          "inputFingerprint": "02b0613f298eb0450d0f0bbbb0f4b0150d8cddc6f41d81510ca58c092a15ba13",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "7529f7cf-c26b-493f-adce-dc3d9b7f47a8": [
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-0",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-00-at-1.6s.png",
+          "time": 1.6,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253705,
+          "contentHash": "3e61c4f3e3aedd9f75d7be47d7a62fe6598a0876790662f6509671d12a9592b2",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-1",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-01-at-5.5s.png",
+          "time": 5.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253705,
+          "contentHash": "2030165a7baf55d962d99cbecacef81b26d3f95741a2a759dd9f7b5570d867e8",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-2",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-02-at-10.5s.png",
+          "time": 10.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253705,
+          "contentHash": "01f78b879d005845300ec7194ad3d87adb1cfc5dde89ae3839c2c7b67ecd7b92",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-3",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-03-at-20s.png",
+          "time": 20,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253705,
+          "contentHash": "5c418c6a42b5ca893180c0fab5c9ec3f8fc04709fecc6a47be8fffba5d6f08c9",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-4",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-04-at-23s.png",
+          "time": 23,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253705,
+          "contentHash": "4729fd04243c94dddb8fa431d56114f76227748eab2dbe6a87895ec06bb609fc",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-5",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-05-at-26s.png",
+          "time": 26,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253705,
+          "contentHash": "b80c6f664d6d3e462bf33593c45a46704a5f4565acad90de6a2da79752721c0d",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-6",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-06-at-30s.png",
+          "time": 30,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253705,
+          "contentHash": "732bf6e3e749b533b50a7b6215558c30a41f7940d88f58c55fff6d777d06a8bb",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-7",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-07-at-35s.png",
+          "time": 35,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253705,
+          "contentHash": "743fd800f884a199b9fe7570bf42a5583e58325edddcba13cf5ef228c685730b",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-8",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-08-at-40s.png",
+          "time": 40,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253706,
+          "contentHash": "47ea5ca8199796a8c418851aeb1766dcba22702d55e18962577af36e98d99ecd",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-9",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-09-at-44s.png",
+          "time": 44,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253706,
+          "contentHash": "c3a07558af6945e2f07b7ef033f142742d4d98aa74386ff0ef21b9a7c85b5cc5",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-10",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-10-at-47s.png",
+          "time": 47,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253706,
+          "contentHash": "1f466778d7f6bf93b96ea651dbd6262c1b99913a9bb63326e9ee0e4f4f500557",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-11",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-11-at-50s.png",
+          "time": 50,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253706,
+          "contentHash": "3e34866c0d0932df85cb71e5d4cf735d89c866aae56e8991cccf0a8a3c580764",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-12",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-12-at-54s.png",
+          "time": 54,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253706,
+          "contentHash": "1ab20ab1d3b0fda3cd387bdf82632f2f45ee7d509cdddeb589c49654b976e26c",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-13",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-13-at-58s.png",
+          "time": 58,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253706,
+          "contentHash": "1095271dce1b61f02366c8ad5c8effdec388e881fa0388332dfcd6d08ac0b646",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-14",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-14-at-62s.png",
+          "time": 62,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253706,
+          "contentHash": "95b7e631535162c01ff1fb36d5d9f8f9a2bf585e50836c6a96773c9a5d109b33",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-15",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-15-at-65s.png",
+          "time": 65,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253706,
+          "contentHash": "5b6403e8c409bfb6faa18d65e0a6d1639abf8e2e354d65fb20d8b4c2f4e54643",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "3744c52e-8d9e-44ce-8061-e383b4087a2c-16",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/f1a13cbf-4e59-4bb2-b333-09a454a8b43b/frame-16-at-65.152s.png",
+          "time": 65.152,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873253706,
+          "contentHash": "5b6403e8c409bfb6faa18d65e0a6d1639abf8e2e354d65fb20d8b4c2f4e54643",
+          "revision": "7529f7cf-c26b-493f-adce-dc3d9b7f47a8",
+          "inputFingerprint": "ad459ee3af10119903d30083bf19e84bb98b16e77f6b5488574e977961c5426a",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "1759ad21-22a0-4bbf-9349-e128d09d1370": [
+        {
+          "scope": "full",
+          "id": "09450206-2048-4244-a6ea-425e5e66cfba-0",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/444c7baa-dde3-4e63-b3b0-1c47a48c0c36/frame-00-at-1.6s.png",
+          "time": 1.6,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873492262,
+          "contentHash": "cb620719efc7d166572fff28e0e08b6dc1cfe1f97bba68526217e7061bba238a",
+          "revision": "1759ad21-22a0-4bbf-9349-e128d09d1370",
+          "inputFingerprint": "20ae59cd7e35c50b3dfda8fbadbfa73594eaa02e93e1bbc8243260118c2e38f2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "09450206-2048-4244-a6ea-425e5e66cfba-1",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/444c7baa-dde3-4e63-b3b0-1c47a48c0c36/frame-01-at-6.754s.png",
+          "time": 6.754,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873492262,
+          "contentHash": "352c54bb2523881c63a94714b0a86c9fa6ba27a41fa114f64dba514f4cf56e70",
+          "revision": "1759ad21-22a0-4bbf-9349-e128d09d1370",
+          "inputFingerprint": "20ae59cd7e35c50b3dfda8fbadbfa73594eaa02e93e1bbc8243260118c2e38f2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "09450206-2048-4244-a6ea-425e5e66cfba-2",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/444c7baa-dde3-4e63-b3b0-1c47a48c0c36/frame-02-at-10.5s.png",
+          "time": 10.5,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873492262,
+          "contentHash": "d38174266bd0543f282450d2470eb0ceeebc956c505992714f2f1c12a5df8798",
+          "revision": "1759ad21-22a0-4bbf-9349-e128d09d1370",
+          "inputFingerprint": "20ae59cd7e35c50b3dfda8fbadbfa73594eaa02e93e1bbc8243260118c2e38f2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "09450206-2048-4244-a6ea-425e5e66cfba-3",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/444c7baa-dde3-4e63-b3b0-1c47a48c0c36/frame-03-at-26s.png",
+          "time": 26,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873492262,
+          "contentHash": "a4530a4bb89c77179a347394d56ff4d5204118c6c051e484a17b3f1764d1aeae",
+          "revision": "1759ad21-22a0-4bbf-9349-e128d09d1370",
+          "inputFingerprint": "20ae59cd7e35c50b3dfda8fbadbfa73594eaa02e93e1bbc8243260118c2e38f2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "09450206-2048-4244-a6ea-425e5e66cfba-4",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/444c7baa-dde3-4e63-b3b0-1c47a48c0c36/frame-04-at-44s.png",
+          "time": 44,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873492262,
+          "contentHash": "3f56e2cf09be904746483f5f1a852182b7836f7382899b57309ab00e817ed9ba",
+          "revision": "1759ad21-22a0-4bbf-9349-e128d09d1370",
+          "inputFingerprint": "20ae59cd7e35c50b3dfda8fbadbfa73594eaa02e93e1bbc8243260118c2e38f2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "09450206-2048-4244-a6ea-425e5e66cfba-5",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/444c7baa-dde3-4e63-b3b0-1c47a48c0c36/frame-05-at-65s.png",
+          "time": 65,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873492262,
+          "contentHash": "591c7bc7d96863a14db05960c73b6f0bb1254656fb2d1458f3b6c8569ade8849",
+          "revision": "1759ad21-22a0-4bbf-9349-e128d09d1370",
+          "inputFingerprint": "20ae59cd7e35c50b3dfda8fbadbfa73594eaa02e93e1bbc8243260118c2e38f2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "09450206-2048-4244-a6ea-425e5e66cfba-6",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/444c7baa-dde3-4e63-b3b0-1c47a48c0c36/frame-06-at-65.152s.png",
+          "time": 65.152,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793873492262,
+          "contentHash": "591c7bc7d96863a14db05960c73b6f0bb1254656fb2d1458f3b6c8569ade8849",
+          "revision": "1759ad21-22a0-4bbf-9349-e128d09d1370",
+          "inputFingerprint": "20ae59cd7e35c50b3dfda8fbadbfa73594eaa02e93e1bbc8243260118c2e38f2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-0",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-00-at-1s.png",
+        "time": 1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344634,
+        "contentHash": "d2dc82fcd4d5b4f2fe3fbfcc0b0213522debb14a9cdd20c1592214512d842b52",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-1",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-01-at-5s.png",
+        "time": 5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344634,
+        "contentHash": "edca5588ea9d0a5ff3eb17b0740e25f974f5ea619445e8b098dd8931eb5f2cf7",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-2",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-02-at-10s.png",
+        "time": 10,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344634,
+        "contentHash": "3ee657ef061ee8fada3e5d9ee48bca1e1abbb46cf51cbf94b025b58cbe8b0d2e",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-3",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-03-at-15s.png",
+        "time": 15,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344634,
+        "contentHash": "c84faa71a09dcde992e2d4d62caf75eda9ee45d34c9a22dfce09b19431481443",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-4",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-04-at-20s.png",
+        "time": 20,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344634,
+        "contentHash": "b5260eb18cdbd48b83247d7f36678eec069736950290f7c8c466ce412247240f",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-5",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-05-at-25s.png",
+        "time": 25,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344635,
+        "contentHash": "43c9ec38f7cfb8a92e5c7e227e6e4ce343981fa84e4547c82b0a560080a492df",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-6",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-06-at-30s.png",
+        "time": 30,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344635,
+        "contentHash": "0538f44a7728abf173a05e4864c3bd1005937bb9987fadd90f8a1ea88707b992",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-7",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-07-at-35s.png",
+        "time": 35,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344635,
+        "contentHash": "e4682987120cc44a840bf19e14b68304ee3ba9097e0d8730e14731da164dab84",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-8",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-08-at-40s.png",
+        "time": 40,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344635,
+        "contentHash": "268a1f5cbf92df5e1447c4e48cbca1b0d6507488502ceefcea79952ed8492553",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-9",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-09-at-45s.png",
+        "time": 45,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344635,
+        "contentHash": "c5da0371e2971e5c325051b89c0a45db97001627134fc470274ebb1aa471c11c",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-10",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-10-at-50s.png",
+        "time": 50,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344635,
+        "contentHash": "1217b8d55e139e60a1ec552a2fc6e0a814df15fa4f45da4645695ed3aedc559e",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-11",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-11-at-55s.png",
+        "time": 55,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344635,
+        "contentHash": "cd7093c22aac816534a0f297c9120a79b807f94ff53d2b42d61611abde779fe3",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-12",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-12-at-60s.png",
+        "time": 60,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344635,
+        "contentHash": "ce854d1b3a6fb0ecb973b29a73db21e5773504a0bf76e38c5e0587443f907dc1",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-13",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-13-at-65s.png",
+        "time": 65,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344635,
+        "contentHash": "9dc6baad887f9fb9fe80c4a54ccf5d57eb00ff964cdfa3839c3fcd758458191f",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "8fcea63e-5018-4a40-ab62-22363d98824e-14",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/.hyperframes/artifacts/snapshots/fbd8f86e-e166-4699-a607-a0a11cdf78d2/frame-14-at-65.152s.png",
+        "time": 65.152,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793872344635,
+        "contentHash": "9dc6baad887f9fb9fe80c4a54ccf5d57eb00ff964cdfa3839c3fcd758458191f",
+        "revision": null,
+        "inputFingerprint": "046db167f89b9fd39037a6ff8016e6628b5884b76da8764da86aad2ab91d2ac9",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "b8e82671-c70b-477c-9dac-c275845f6b27",
+      "completedAt": 1793873688542,
+      "output": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Vietnam-Weather-Oct-Dec-2026-11-05/TF-Vietnam-Weather-Oct-Dec-v02.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

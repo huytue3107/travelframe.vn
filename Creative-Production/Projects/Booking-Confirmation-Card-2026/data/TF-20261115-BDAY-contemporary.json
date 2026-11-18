@@ -1,0 +1,41 @@
+{
+  "ref": "TF-20261115-BDAY",
+  "template": "source/card-contemporary.html",
+  "status": "Draft — chờ Rocky duyệt, chưa gửi khách",
+  "art": {
+    "file": "art/tf-collage-A.png",
+    "source": "ChatGPT, biến thể A, chat 6af956b6-26b8-83ec-8e41-206a79a2b974, tạo 15/11/2026, PNG 1254×1254",
+    "wall_sampled_from_art": "#EFE4D9"
+  },
+  "fields": {
+    "BRAND_LINE": "TravelFrame — Hanoi",
+    "REF_LINE": "№ TF-20261115-BDAY",
+    "VWORD": "CONFIRMED<i>.</i>",
+    "WHO": "Elena Allday &amp; Friend",
+    "TITLE": "Birthday, French Quarter, <span class=\"yr\">2027</span>",
+    "MEDIUM": "<b>Private editorial portrait walk, 2 hours. Party of 2.</b><br>Opera House, colonial villas, leafy boulevards.<br>Your own local host &amp; photographer, with gentle posing direction.<br>Feminine, glamorous, relaxed editorial street style.<br>Full original archive within 24h. 15 retouched works of your choice.<br><span class=\"gift\">Birthday gift: 2 instant photos on the day, 5 film-style prints.</span><br><span class=\"note\">Pick any date from late January to spring. Free rescheduling with advance notice.</span>",
+    "WALL": "#EFE4D9"
+  },
+  "facts": [
+    {
+      "k": "Total",
+      "v": "USD 75",
+      "small": "~1,950,000 VND"
+    },
+    {
+      "k": "Deposit",
+      "v": "500,000 VND",
+      "small": "Received 15.11.2026"
+    },
+    {
+      "k": "Balance",
+      "v": "~1,450,000 VND",
+      "small": "Paid on the day"
+    },
+    {
+      "k": "Valid until",
+      "v": "15.05.2027",
+      "small": "6 months from issue"
+    }
+  ]
+}

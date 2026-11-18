@@ -1,0 +1,13 @@
+{
+  "project": "Booking-Confirmation-Card-2026",
+  "model": "nano-banana-2",
+  "style": "Photorealistic editorial still-life photograph for a premium travel brand, warm, quiet and natural, magazine quality. Restrained palette: ivory linen, deep teal (#008AA3) accents, weathered ochre, soft brick red, blossom pink. Absolutely no text, no letters, no numbers, no logos, no brand names, no watermarks.",
+  "images": [
+    {
+      "id": "card-hero-flatlay",
+      "aspect_ratio": "3:2",
+      "resolution": "2K",
+      "prompt": "[SUBJECT] Overhead flat lay on a softly crumpled ivory linen tablecloth: a vintage silver-and-black 35mm rangefinder film camera with a brown leather strap and no brand markings; two instant-film prints with thick white borders showing softly blurred warm ochre street scenes; a small stack of five 4x6 photo prints tied with a thin deep-teal silk ribbon; a sprig of pink peach blossom; a small cream envelope closed with a plain brick-red wax seal without any emblem. Objects sit loosely along the lower edge and the right side; the upper-left and upper-right corners and the centre-left stay calm, empty linen.\n[MATERIAL AND TEXTURE] Real paper fibres, visible linen weave, faint wear on the camera's metal and leather; natural imperfections, no CGI smoothness.\n[LIGHTING] Soft directional window light from the upper left, late afternoon, about 4500K; gentle, long, soft shadows; low contrast; no clipped highlights.\n[ENVIRONMENT] Tabletop only, seen from directly above; warm, calm, gift-like birthday mood.\n[CAMERA SIMULATION] Medium-format digital camera, 80mm lens, overhead at exactly 90 degrees, f/8, ISO 100, 1/125s; subtle Kodak Portra 400 colour and fine film grain.\n[DEPTH CONTROL] Everything sharp edge to edge at f/8; no tilt-shift, no bokeh, no blurred foreground.\n[AVOID] No hands or people; no text on prints or envelope; no logos on the camera; no balloons, cake or confetti; no glossy plastic look, no oversaturation, no heavy vignette."
+    }
+  ]
+}

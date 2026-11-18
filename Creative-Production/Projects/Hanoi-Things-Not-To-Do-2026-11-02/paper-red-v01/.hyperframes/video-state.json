@@ -1,0 +1,641 @@
+{
+  "version": 1,
+  "historyId": "2c659c25-4689-4262-9b51-6be3c45b1df0",
+  "currentRevision": "2d69b3cf-91f6-436d-a812-f3338f848d8b",
+  "pendingChanges": false,
+  "files": {
+    "assets/adam-alignment.json": {
+      "hash": "77f590d0cb1699a33f90336e40dd6c96ae9dad7c51030a67abef0cbf05ced923",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/77/77f590d0cb1699a33f90336e40dd6c96ae9dad7c51030a67abef0cbf05ced923"
+    },
+    "assets/adam-voice.mp3": {
+      "hash": "2dfede0d5e035651f4713450684506a72c0d081accdea47a1a74348026a257b3",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/2d/2dfede0d5e035651f4713450684506a72c0d081accdea47a1a74348026a257b3"
+    },
+    "assets/bridge.jpg": {
+      "hash": "a6b13c03fb3026c4bf140fa9b4a537ddb9e062e2f17fde89d5054545a76daf6a",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/a6/a6b13c03fb3026c4bf140fa9b4a537ddb9e062e2f17fde89d5054545a76daf6a"
+    },
+    "assets/coffee.jpg": {
+      "hash": "f0248daa50853cc11f83203c56ed01464aac6d6af1afa364628f305ef0c27582",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/f0/f0248daa50853cc11f83203c56ed01464aac6d6af1afa364628f305ef0c27582"
+    },
+    "assets/gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/92/92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "assets/lake.jpg": {
+      "hash": "bad217be4af927c6457d67dae5b07f1cc95ba6f03b822a0112ca012b0008e11a",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/ba/bad217be4af927c6457d67dae5b07f1cc95ba6f03b822a0112ca012b0008e11a"
+    },
+    "assets/old-quarter.jpg": {
+      "hash": "c546d5a609011b0a6d211fb7745ddd9788a7d479a2ab65cec3055a0eec8fa51e",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/c5/c546d5a609011b0a6d211fb7745ddd9788a7d479a2ab65cec3055a0eec8fa51e"
+    },
+    "assets/pho.jpg": {
+      "hash": "40a512ff9378d7d827db3ce0127432e21c62cbbdf2426b1f1c7a4f99acffb71f",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/40/40a512ff9378d7d827db3ce0127432e21c62cbbdf2426b1f1c7a4f99acffb71f"
+    },
+    "assets/sfx/pop.mp3": {
+      "hash": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/19/19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352"
+    },
+    "assets/sfx/whoosh-short.mp3": {
+      "hash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/c2/c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30"
+    },
+    "build.mjs": {
+      "hash": "dc032845e3cef4fced6ca0c262a61600129265a4c808cd7a004d0df4be8f2a46",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/dc/dc032845e3cef4fced6ca0c262a61600129265a4c808cd7a004d0df4be8f2a46"
+    },
+    "index.html": {
+      "hash": "3db4de3a8db20138088e834a00fcd5c0c0b6f7db683c84e95d313e9fc82dd054",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/3d/3db4de3a8db20138088e834a00fcd5c0c0b6f7db683c84e95d313e9fc82dd054"
+    },
+    "assets/cat.png": {
+      "hash": "2a1a26881c8181cd2880fae62d02be794142caa067e31855244dc317c3b5fad9",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/2a/2a1a26881c8181cd2880fae62d02be794142caa067e31855244dc317c3b5fad9"
+    },
+    "assets/music-temp.mp3": {
+      "hash": "c7a0a33e6bccb2ff1704c1233209ba3e1b671865f653b986f581f416e76b4788",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/c7/c7a0a33e6bccb2ff1704c1233209ba3e1b671865f653b986f581f416e76b4788"
+    },
+    "assets/paper-source.png": {
+      "hash": "a7e9725819537ee687a2d2194db0d448573eb35b2975f5a0f634b41fa144b8b5",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/a7/a7e9725819537ee687a2d2194db0d448573eb35b2975f5a0f634b41fa144b8b5"
+    },
+    "assets/cat-chubby.png": {
+      "hash": "473b8d23302db6f2a6ea3d9eaf95a13b4355bfe04774cb8ec0e9b8dfa4fbfd51",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/47/473b8d23302db6f2a6ea3d9eaf95a13b4355bfe04774cb8ec0e9b8dfa4fbfd51"
+    },
+    "assets/cat-surprised.png": {
+      "hash": "ca2a63f802e8da60d40da677aaaace1836a4388195f11c7e738672209cf41bee",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/ca/ca2a63f802e8da60d40da677aaaace1836a4388195f11c7e738672209cf41bee"
+    },
+    "assets/cat-cream.png": {
+      "hash": "75a06c538f1cadd1d58880cb5e485ed0959832fa55f113be76004d13bf5e24c2",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/75/75a06c538f1cadd1d58880cb5e485ed0959832fa55f113be76004d13bf5e24c2"
+    },
+    "index-v01.html.txt": {
+      "hash": "6b400e3ba57b4366779aff76a1b3eb791a3ebc3c0dd4c13455dce6b0a9d6ea32",
+      "content": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/6b/6b400e3ba57b4366779aff76a1b3eb791a3ebc3c0dd4c13455dce6b0a9d6ea32"
+    }
+  },
+  "revisions": {
+    "20951006-0f7c-476f-8766-9d7b33f86912": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793675791344,
+      "endedAt": 1793675793346,
+      "files": {
+        "build.mjs": {
+          "before": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/35/35d36fa6c91db7403dc6d48ebd2b8947206805f3c5d38f0463f98e7aaf8a3458",
+          "after": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/dc/dc032845e3cef4fced6ca0c262a61600129265a4c808cd7a004d0df4be8f2a46"
+        }
+      }
+    },
+    "386696d6-c1d9-43f7-8a7a-6ee45b5e4990": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793675801535,
+      "endedAt": 1793675803537,
+      "files": {
+        "index-v01.html": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/6b/6b400e3ba57b4366779aff76a1b3eb791a3ebc3c0dd4c13455dce6b0a9d6ea32"
+        }
+      }
+    },
+    "6cacf52e-fbe8-448d-a86d-50494dc8df12": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793675913851,
+      "endedAt": 1793675915867,
+      "files": {
+        "assets/cat-chubby.png": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/47/473b8d23302db6f2a6ea3d9eaf95a13b4355bfe04774cb8ec0e9b8dfa4fbfd51"
+        },
+        "assets/cat-cream.png": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/75/75a06c538f1cadd1d58880cb5e485ed0959832fa55f113be76004d13bf5e24c2"
+        },
+        "assets/cat-surprised.png": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/ca/ca2a63f802e8da60d40da677aaaace1836a4388195f11c7e738672209cf41bee"
+        }
+      }
+    },
+    "896b1061-8d59-496d-aeee-234cedfe77bc": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793675920501,
+      "endedAt": 1793675922502,
+      "files": {
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/6b/6b400e3ba57b4366779aff76a1b3eb791a3ebc3c0dd4c13455dce6b0a9d6ea32",
+          "after": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/07/07204012a80e15394e41ac8da6f6bf620e2b0a4907e9624da658e35ffeffc8c5"
+        }
+      }
+    },
+    "c54b37a6-6e0d-41f1-8a1c-7f5f0e2674a8": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793675961076,
+      "endedAt": 1793675963077,
+      "files": {
+        "index-v01.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/6b/6b400e3ba57b4366779aff76a1b3eb791a3ebc3c0dd4c13455dce6b0a9d6ea32",
+          "after": null
+        },
+        "index-v01.html.txt": {
+          "before": null,
+          "after": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/6b/6b400e3ba57b4366779aff76a1b3eb791a3ebc3c0dd4c13455dce6b0a9d6ea32"
+        }
+      }
+    },
+    "31032b76-704c-4ac1-a98a-cab2725f5202": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Delete element",
+      "startedAt": 1793677040410,
+      "endedAt": 1793677040410,
+      "files": {
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/07/07204012a80e15394e41ac8da6f6bf620e2b0a4907e9624da658e35ffeffc8c5",
+          "after": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/3b/3b1415918b470534b9e70a1880e6ebaae7cd5c57da823c2b022eb1e85a159c00"
+        }
+      }
+    },
+    "2d69b3cf-91f6-436d-a812-f3338f848d8b": {
+      "actor": {
+        "kind": "person",
+        "name": "You"
+      },
+      "label": "Delete element",
+      "startedAt": 1793677043847,
+      "endedAt": 1793677043847,
+      "files": {
+        "index.html": {
+          "before": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/3b/3b1415918b470534b9e70a1880e6ebaae7cd5c57da823c2b022eb1e85a159c00",
+          "after": "/Users/macbook/.cache/hyperframes/history/2c659c25-4689-4262-9b51-6be3c45b1df0/blobs/3d/3db4de3a8db20138088e834a00fcd5c0c0b6f7db683c84e95d313e9fc82dd054"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "c54b37a6-6e0d-41f1-8a1c-7f5f0e2674a8",
+      "id": "6e45143d-1e85-4f12-aa6d-ad129be174d2"
+    },
+    "revisions": {
+      "896b1061-8d59-496d-aeee-234cedfe77bc": [
+        {
+          "id": "54e4b0db-bbb7-419d-b81d-a626af7a4016",
+          "scope": "project",
+          "report": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/checks/54e4b0db-bbb7-419d-b81d-a626af7a4016.json",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": true,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1793675937958,
+          "contentHash": "cc470865005429298a0b47e71db1dc46a8e1c40903f3fe6faf2f20237c7d3571",
+          "revision": "896b1061-8d59-496d-aeee-234cedfe77bc",
+          "inputFingerprint": "6562ce2e6327dacbd1aa7a03b670b7ad898131a38a1af5c52c280f7cf0ecde59",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "c54b37a6-6e0d-41f1-8a1c-7f5f0e2674a8": [
+        {
+          "id": "6e45143d-1e85-4f12-aa6d-ad129be174d2",
+          "scope": "project",
+          "report": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/checks/6e45143d-1e85-4f12-aa6d-ad129be174d2.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 3000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1793675997563,
+          "contentHash": "c715047e04f050d1a321c6e1058374acbb9dc2fb39420f8c751b9f221960d763",
+          "revision": "c54b37a6-6e0d-41f1-8a1c-7f5f0e2674a8",
+          "inputFingerprint": "f45fffe1445f7b2b1d3b58e0109d4afb65be342fdac0731ccc9f0ebdcd4d6b57",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "e3f424c6-33d6-48e8-b162-74b1af486607",
+        "scope": "project",
+        "report": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/checks/e3f424c6-33d6-48e8-b162-74b1af486607.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1793675742440,
+        "contentHash": "6bcaaf3204fd0c80f936c2e9ffe3342f786769bc790477018fbce10d5cd5eafd",
+        "revision": null,
+        "inputFingerprint": "395c4a5c6ecfe46891906c68dc3fadfde150a5a31e610cf6d8c096a7cc90f30d",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "896b1061-8d59-496d-aeee-234cedfe77bc",
+      "id": "c11cdd79-62a8-4bab-8fca-18a4e301d25e-7"
+    },
+    "revisions": {
+      "896b1061-8d59-496d-aeee-234cedfe77bc": [
+        {
+          "scope": "full",
+          "id": "c11cdd79-62a8-4bab-8fca-18a4e301d25e-0",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/8ac3c4a8-6f6b-4c66-a509-ea3f22b4e8dd/frame-00-at-1s.png",
+          "time": 1,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793675939957,
+          "contentHash": "1c9b2df0275fa6d3dbae4ddd9842e5f23ba442ff66e476988052fd0364cfd765",
+          "revision": "896b1061-8d59-496d-aeee-234cedfe77bc",
+          "inputFingerprint": "6562ce2e6327dacbd1aa7a03b670b7ad898131a38a1af5c52c280f7cf0ecde59",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c11cdd79-62a8-4bab-8fca-18a4e301d25e-1",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/8ac3c4a8-6f6b-4c66-a509-ea3f22b4e8dd/frame-01-at-4s.png",
+          "time": 4,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793675939957,
+          "contentHash": "4e4fb2a5eee28fa19c4143df96575acbf0a1984c308ca997dfaa7fb26324d37d",
+          "revision": "896b1061-8d59-496d-aeee-234cedfe77bc",
+          "inputFingerprint": "6562ce2e6327dacbd1aa7a03b670b7ad898131a38a1af5c52c280f7cf0ecde59",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c11cdd79-62a8-4bab-8fca-18a4e301d25e-2",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/8ac3c4a8-6f6b-4c66-a509-ea3f22b4e8dd/frame-02-at-9s.png",
+          "time": 9,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793675939957,
+          "contentHash": "b4440f591071578e19b95295983d8b924e3313f492d3a0b4d8a91f56ebdccc9a",
+          "revision": "896b1061-8d59-496d-aeee-234cedfe77bc",
+          "inputFingerprint": "6562ce2e6327dacbd1aa7a03b670b7ad898131a38a1af5c52c280f7cf0ecde59",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c11cdd79-62a8-4bab-8fca-18a4e301d25e-3",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/8ac3c4a8-6f6b-4c66-a509-ea3f22b4e8dd/frame-03-at-15s.png",
+          "time": 15,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793675939957,
+          "contentHash": "c403f99da186701668650398dc05912377cf6a7513981d23907375868e30733a",
+          "revision": "896b1061-8d59-496d-aeee-234cedfe77bc",
+          "inputFingerprint": "6562ce2e6327dacbd1aa7a03b670b7ad898131a38a1af5c52c280f7cf0ecde59",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c11cdd79-62a8-4bab-8fca-18a4e301d25e-4",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/8ac3c4a8-6f6b-4c66-a509-ea3f22b4e8dd/frame-04-at-21s.png",
+          "time": 21,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793675939957,
+          "contentHash": "359ff3ded0e976d7e49df8850de2072b92e0854dbb6c947811619f317a2a4f42",
+          "revision": "896b1061-8d59-496d-aeee-234cedfe77bc",
+          "inputFingerprint": "6562ce2e6327dacbd1aa7a03b670b7ad898131a38a1af5c52c280f7cf0ecde59",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c11cdd79-62a8-4bab-8fca-18a4e301d25e-5",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/8ac3c4a8-6f6b-4c66-a509-ea3f22b4e8dd/frame-05-at-27s.png",
+          "time": 27,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793675939957,
+          "contentHash": "41199b604c6beec5a19a360a930dccba3d6883322eaee5336dfcca9b1b866da1",
+          "revision": "896b1061-8d59-496d-aeee-234cedfe77bc",
+          "inputFingerprint": "6562ce2e6327dacbd1aa7a03b670b7ad898131a38a1af5c52c280f7cf0ecde59",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c11cdd79-62a8-4bab-8fca-18a4e301d25e-6",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/8ac3c4a8-6f6b-4c66-a509-ea3f22b4e8dd/frame-06-at-33s.png",
+          "time": 33,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793675939957,
+          "contentHash": "8ae623762bb85d5cbf8ee0ad4e6cfea30d2a2212a163955ac8f2aea57ca19229",
+          "revision": "896b1061-8d59-496d-aeee-234cedfe77bc",
+          "inputFingerprint": "6562ce2e6327dacbd1aa7a03b670b7ad898131a38a1af5c52c280f7cf0ecde59",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "c11cdd79-62a8-4bab-8fca-18a4e301d25e-7",
+          "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/8ac3c4a8-6f6b-4c66-a509-ea3f22b4e8dd/frame-07-at-34.629s.png",
+          "time": 34.629,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1793675939957,
+          "contentHash": "8ae623762bb85d5cbf8ee0ad4e6cfea30d2a2212a163955ac8f2aea57ca19229",
+          "revision": "896b1061-8d59-496d-aeee-234cedfe77bc",
+          "inputFingerprint": "6562ce2e6327dacbd1aa7a03b670b7ad898131a38a1af5c52c280f7cf0ecde59",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "c7351673-c45a-470a-ad24-9b30a955803d-0",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/35aaf604-cc4c-4d8b-a0de-7205f082742b/frame-00-at-1s.png",
+        "time": 1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793675706330,
+        "contentHash": "07704ac007ba5b5e46f54469344e4f90cedbe9ac410784a864dfefb900297118",
+        "revision": null,
+        "inputFingerprint": "395c4a5c6ecfe46891906c68dc3fadfde150a5a31e610cf6d8c096a7cc90f30d",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "c7351673-c45a-470a-ad24-9b30a955803d-1",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/35aaf604-cc4c-4d8b-a0de-7205f082742b/frame-01-at-4s.png",
+        "time": 4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793675706330,
+        "contentHash": "84a0df67d1005edd21e5cf2e1cfe36aa1688e1249c570b4027a0ff287ef9768b",
+        "revision": null,
+        "inputFingerprint": "395c4a5c6ecfe46891906c68dc3fadfde150a5a31e610cf6d8c096a7cc90f30d",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "c7351673-c45a-470a-ad24-9b30a955803d-2",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/35aaf604-cc4c-4d8b-a0de-7205f082742b/frame-02-at-9s.png",
+        "time": 9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793675706330,
+        "contentHash": "b4440f591071578e19b95295983d8b924e3313f492d3a0b4d8a91f56ebdccc9a",
+        "revision": null,
+        "inputFingerprint": "395c4a5c6ecfe46891906c68dc3fadfde150a5a31e610cf6d8c096a7cc90f30d",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "c7351673-c45a-470a-ad24-9b30a955803d-3",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/35aaf604-cc4c-4d8b-a0de-7205f082742b/frame-03-at-15s.png",
+        "time": 15,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793675706330,
+        "contentHash": "55a11eced3e75bd5105c7bed153be73781a493898f5dad7fdb33681c0ae06286",
+        "revision": null,
+        "inputFingerprint": "395c4a5c6ecfe46891906c68dc3fadfde150a5a31e610cf6d8c096a7cc90f30d",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "c7351673-c45a-470a-ad24-9b30a955803d-4",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/35aaf604-cc4c-4d8b-a0de-7205f082742b/frame-04-at-21s.png",
+        "time": 21,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793675706330,
+        "contentHash": "4d0e883d36abb728e4f3db8e7defe3337b6b04defbd39d71e2ee3371bd33330c",
+        "revision": null,
+        "inputFingerprint": "395c4a5c6ecfe46891906c68dc3fadfde150a5a31e610cf6d8c096a7cc90f30d",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "c7351673-c45a-470a-ad24-9b30a955803d-5",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/35aaf604-cc4c-4d8b-a0de-7205f082742b/frame-05-at-27s.png",
+        "time": 27,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793675706330,
+        "contentHash": "7992d6b5b4abfeb050f8f1806acf64e5cfc0768f0c7060118254fd3c31de7b47",
+        "revision": null,
+        "inputFingerprint": "395c4a5c6ecfe46891906c68dc3fadfde150a5a31e610cf6d8c096a7cc90f30d",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "c7351673-c45a-470a-ad24-9b30a955803d-6",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/35aaf604-cc4c-4d8b-a0de-7205f082742b/frame-06-at-33s.png",
+        "time": 33,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793675706330,
+        "contentHash": "b8ec57f64d8c3f6603f44359ce728fab7d19c13f782f5cdfdc6814f54050143a",
+        "revision": null,
+        "inputFingerprint": "395c4a5c6ecfe46891906c68dc3fadfde150a5a31e610cf6d8c096a7cc90f30d",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "c7351673-c45a-470a-ad24-9b30a955803d-7",
+        "image": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/.hyperframes/artifacts/snapshots/35aaf604-cc4c-4d8b-a0de-7205f082742b/frame-07-at-34.629s.png",
+        "time": 34.629,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793675706330,
+        "contentHash": "b8ec57f64d8c3f6603f44359ce728fab7d19c13f782f5cdfdc6814f54050143a",
+        "revision": null,
+        "inputFingerprint": "395c4a5c6ecfe46891906c68dc3fadfde150a5a31e610cf6d8c096a7cc90f30d",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "eb6f741a-522c-47b5-851e-547abd81fb91",
+      "completedAt": 1793675977115,
+      "output": "/Users/macbook/Codex GPT/travelframe.vn/Creative-Production/Projects/Hanoi-Things-Not-To-Do-2026-11-02/paper-red-v01/TF-Hanoi-Five-Things-Many-Cats-v02.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

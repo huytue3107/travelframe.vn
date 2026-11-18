@@ -1,0 +1,53 @@
+{
+  "ref": "TF-20261115-BDAY",
+  "status": "Draft — chưa gửi khách",
+  "art": {
+    "file": "art/16-photo-walk.png",
+    "note": "Hình tạm lấy từ Hanoi Handbook. Thay bằng card-hero-fq.png sau khi tạo bằng KIE.",
+    "height": 660,
+    "position": "center 58%",
+    "fade": true,
+    "panel_top": 690
+  },
+  "stamp_bottom": "DEPOSIT RECEIVED",
+  "stamp_date": "15 · 11 · 2026",
+  "eyebrow": "Booking confirmation · #TF-20261115-BDAY",
+  "headline": "Your <em>birthday</em> photo walk<br>in the French Quarter",
+  "for_line": "Reserved for [Guest Name] & friend",
+  "cells": [
+    {
+      "label": "Session",
+      "value": "<strong>2-hour private</strong> editorial &amp; portrait walk"
+    },
+    {
+      "label": "Where",
+      "value": "Opera House, colonial villas &amp; leafy boulevards"
+    },
+    {
+      "label": "Valid until",
+      "value": "<strong>May 15, 2027</strong><br><span class=\"muted\">Pick any date, late Jan to spring</span>"
+    },
+    {
+      "label": "Payment",
+      "value": "<strong>500,000 VND</strong> deposit received<br><span class=\"muted\">~1,450,000 VND due on the day</span>"
+    }
+  ],
+  "chips": [
+    {
+      "text": "Full gallery within 24h"
+    },
+    {
+      "text": "15 retouched photos"
+    },
+    {
+      "text": "2 instant photos on the day",
+      "gift": true
+    },
+    {
+      "text": "5 film-style prints",
+      "gift": true
+    }
+  ],
+  "foot_left": "Free rescheduling with advance notice · Issued Nov 15, 2026",
+  "foot_right": "TRAVELFRAME.VN"
+}
