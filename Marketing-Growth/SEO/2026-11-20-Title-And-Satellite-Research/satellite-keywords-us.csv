@@ -1,0 +1,13 @@
+keyword,us_volume_month,kd,intent,coverage_on_site,recommendation
+Hanoi Train Street,4400,0,navigational,Đã có bài (Train Street 2026 safety + photo spots),Kiểm tra thứ hạng; nối link với bài 15 spots
+Temple of Literature Hanoi,4400,10,informational,Đã có bài (Temple of Literature),Kiểm tra thứ hạng; thêm mục góc chụp + link
+Hoan Kiem Lake,1600,6,navigational,"Chưa có (chỉ có Ngọc Sơn temple, Old Quarter guide)",Viết mới: Hoan Kiem Lake guide + góc chụp
+Hanoi Opera House,1300,1,navigational,Đã có (Trang Tien Street & Opera House),Kiểm tra thứ hạng
+Tran Quoc Pagoda,1300,0,navigational,Chưa có,Viết mới: visiting + photography guide
+St Joseph Cathedral Hanoi,590,6,navigational,Đã có bài (St Joseph's Cathedral),Nối link
+Long Bien Bridge (Hanoi),480,0,navigational,Một phần (Sunrise walk: Long Bien + chợ hoa),Cân nhắc trang riêng hoặc mở rộng bài sunrise
+West Lake Hanoi,480,3,informational,Chưa có bài (chỉ có tour Spiritual West Lake),Viết mới: West Lake guide + hoàng hôn
+Hanoi photoshoot,170,0,informational,Đã có (/hanoi-photoshoot),"Trang dịch vụ, giữ"
+Phung Hung mural street,50,0,navigational,Chưa có,Ưu tiên thấp
+Sunrise in Hanoi,30,0,informational,Đã có (Sunrise photography walk),Không viết thêm
+hanoi photo spots / photography spots / instagram spots / instagrammable places / photography tour / street photography / train street photography,10,,informational,Bài 15 spots (hub),Không tách bài: mỗi biến thể ~10/tháng
