@@ -1,0 +1,329 @@
+{
+ "keyword": "hanoi photographer",
+ "goal": "Search Google for \"hanoi photographer\". Stop when the search results page is shown. Do not click any result, ad, map or sign-in button.",
+ "domains": [
+  "travelframe.sidevn.com",
+  "travelframe.vn"
+ ],
+ "run_utc": "2026-11-20T12:55:48+00:00",
+ "pages": [
+  {
+   "page": 1,
+   "url": "https://www.google.com/search?q=hanoi+photographer&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDgJTd2OEmR9n5NlRdzj7gKWbVjaZg%3A1795179348892&source=hp&ei=VEMAa_iRNY6-kPIPscqzoQU&iflsig=AHSINFcAAAAAawBRZK0HOZaW7jatmZZsPwtEwDS8Ezbi&oq=hanoi+photographer&gs_lp=Egdnd3Mtd2l6IhJoYW5vaSBwaG90b2dyYXBoZXIqCwgAGIAEGIoFGJECMgsQABiABBiKBRiRAjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkj-BVAfWB9wAXgAkAEAmAG0AqABtAKqAQMzLTG4AQHIAQD4AQGYAgKgAsYCqAIKwgIREAAY5QYYigMY5wYY6gIYtAKYAwzxBVJ5loVP64OLkgcFMS4zLTGgB7IFsgcDMy0xuAe5AsIHBzAuMS4wLjHIBwuACAE&sclient=gws-wiz",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Hoa Tran (@hanoiphotographer) · Hanoi",
+     "url": "3.2K+ followers",
+     "host": "3.2k+"
+    },
+    {
+     "rank": 2,
+     "title": "I.am.Long | Hanoi & Vietnam Photographer",
+     "url": "https://www.iamlongphoto.com",
+     "host": "www.iamlongphoto.com"
+    },
+    {
+     "rank": 3,
+     "title": "Photographers in Hanoi - Ha Noi - Airbnb",
+     "url": "https://www.airbnb.com › hanoi-vietnam › services › p...",
+     "host": "www.airbnb.com"
+    },
+    {
+     "rank": 4,
+     "title": "The best Hanoi Photoshoots - 2026 (Verified Reviews)",
+     "url": "https://www.getyourguide.com › ... › Tours in Hanoi",
+     "host": "www.getyourguide.com"
+    },
+    {
+     "rank": 5,
+     "title": "Vietnam in Focus Photographer Brian Ng",
+     "url": "https://www.vietnaminfocus.com › photographer › bria...",
+     "host": "www.vietnaminfocus.com"
+    },
+    {
+     "rank": 6,
+     "title": "Photographer recommendations in Hanoi?",
+     "url": "10+ comments · 1 year ago",
+     "host": "10+"
+    },
+    {
+     "rank": 7,
+     "title": "Photographers in Hanoi: wedding photography",
+     "url": "https://mywed.com › All countries › Vietnam",
+     "host": "mywed.com"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "url": "https://www.google.com/search?q=hanoi+photographer&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDgJTd2OEmR9n5NlRdzj7gKWbVjaZg%3A1795179348892&source=hp&ei=VEMAa_iRNY6-kPIPscqzoQU&iflsig=AHSINFcAAAAAawBRZK0HOZaW7jatmZZsPwtEwDS8Ezbi&oq=hanoi+photographer&gs_lp=Egdnd3Mtd2l6IhJoYW5vaSBwaG90b2dyYXBoZXIqCwgAGIAEGIoFGJECMgsQABiABBiKBRiRAjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkj-BVAfWB9wAXgAkAEAmAG0AqABtAKqAQMzLTG4AQHIAQD4AQGYAgKgAsYCqAIKwgIREAAY5QYYigMY5wYY6gIYtAKYAwzxBVJ5loVP64OLkgcFMS4zLTGgB7IFsgcDMy0xuAe5AsIHBzAuMS4wLjHIBwuACAE&sclient=gws-wiz&start=10",
+   "results": [
+    {
+     "rank": 8,
+     "title": "Your Vacation Photographer in Hanoi: Meet Hoa",
+     "url": "https://www.localgrapher.com › profile › hoa",
+     "host": "www.localgrapher.com"
+    },
+    {
+     "rank": 9,
+     "title": "Hanoi Street Photography by International Photographer ...",
+     "url": "https://www.gemma-clarke.com › photography › hanoi...",
+     "host": "www.gemma-clarke.com"
+    },
+    {
+     "rank": 10,
+     "title": "Street Photography in Hanoi, Vietnam: Life on Display",
+     "url": "https://www.koby.photography › blog › 2024/11/25 › s...",
+     "host": "www.koby.photography"
+    },
+    {
+     "rank": 11,
+     "title": "Hoa Tran | Photographer in Hanoi | Lifestyle | Family",
+     "url": "https://www.hoatranphoto.com",
+     "host": "www.hoatranphoto.com"
+    },
+    {
+     "rank": 12,
+     "title": "Portrait Photography Studio Hanoi | Very Dep",
+     "url": "https://verydep.com",
+     "host": "verydep.com"
+    },
+    {
+     "rank": 13,
+     "title": "Hire the Best Photographers in Hanoi, VN",
+     "url": "https://www.upwork.com › ... › Photographers › Vietnam",
+     "host": "www.upwork.com"
+    },
+    {
+     "rank": 14,
+     "title": "A photographer in Hanoi",
+     "url": "10+ comments · 1 year ago",
+     "host": "10+"
+    },
+    {
+     "rank": 15,
+     "title": "The Qui. Photographer (@thequi.photographer) · Hanoi",
+     "url": "770+ followers",
+     "host": "770+"
+    },
+    {
+     "rank": 16,
+     "title": "The Qui – Hanoi Photographer | Telling Your Story ...",
+     "url": "https://www.thequi.com",
+     "host": "www.thequi.com"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "url": "https://www.google.com/search?q=hanoi+photographer&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDgJTd2OEmR9n5NlRdzj7gKWbVjaZg%3A1795179348892&source=hp&ei=VEMAa_iRNY6-kPIPscqzoQU&iflsig=AHSINFcAAAAAawBRZK0HOZaW7jatmZZsPwtEwDS8Ezbi&oq=hanoi+photographer&gs_lp=Egdnd3Mtd2l6IhJoYW5vaSBwaG90b2dyYXBoZXIqCwgAGIAEGIoFGJECMgsQABiABBiKBRiRAjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkj-BVAfWB9wAXgAkAEAmAG0AqABtAKqAQMzLTG4AQHIAQD4AQGYAgKgAsYCqAIKwgIREAAY5QYYigMY5wYY6gIYtAKYAwzxBVJ5loVP64OLkgcFMS4zLTGgB7IFsgcDMy0xuAe5AsIHBzAuMS4wLjHIBwuACAE&sclient=gws-wiz&start=20",
+   "results": [
+    {
+     "rank": 17,
+     "title": "Hanoi & Northern Vietnam Photographer",
+     "url": "https://www.iamlongphoto.com › hanoi---northern-vietn...",
+     "host": "www.iamlongphoto.com"
+    },
+    {
+     "rank": 18,
+     "title": "Private Hanoi Photoshoot – Iconic Spots & Hidden Gems",
+     "url": "https://www.viator.com › ... › Photography Tours",
+     "host": "www.viator.com"
+    },
+    {
+     "rank": 19,
+     "title": "Photographers For Hire in Hanoi",
+     "url": "https://bookanartist.co › Hire Photographers › Vietnam",
+     "host": "bookanartist.co"
+    },
+    {
+     "rank": 20,
+     "title": "Photographers in Hanoi",
+     "url": "4K+ followers",
+     "host": "4k+"
+    },
+    {
+     "rank": 21,
+     "title": "Top 5 Hanoi Photographers to Consider for Your Trip",
+     "url": "https://tamphotographer.com › Hanoi",
+     "host": "tamphotographer.com"
+    },
+    {
+     "rank": 22,
+     "title": "Hire a Hanoi Photographer: Vietnam Photoshoot Prices & ...",
+     "url": "https://locallens.com › Destinations",
+     "host": "locallens.com"
+    },
+    {
+     "rank": 23,
+     "title": "The Best Photographers for Hire in Hanoi",
+     "url": "https://journalist.net › ... › Journalists in Vietnam",
+     "host": "journalist.net"
+    },
+    {
+     "rank": 24,
+     "title": "Enjoy Hanoi with A Photographer · ★4.99",
+     "url": "https://www.airbnb.com › services",
+     "host": "www.airbnb.com"
+    },
+    {
+     "rank": 25,
+     "title": "Film photographers for couple/portrait shoots in Hanoi or ...",
+     "url": "7 comments · 1 year ago",
+     "host": "7"
+    },
+    {
+     "rank": 26,
+     "title": "Justin Mott",
+     "url": "103K+ followers",
+     "host": "103k+"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "url": "https://www.google.com/search?q=hanoi+photographer&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDgJTd2OEmR9n5NlRdzj7gKWbVjaZg%3A1795179348892&source=hp&ei=VEMAa_iRNY6-kPIPscqzoQU&iflsig=AHSINFcAAAAAawBRZK0HOZaW7jatmZZsPwtEwDS8Ezbi&oq=hanoi+photographer&gs_lp=Egdnd3Mtd2l6IhJoYW5vaSBwaG90b2dyYXBoZXIqCwgAGIAEGIoFGJECMgsQABiABBiKBRiRAjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkj-BVAfWB9wAXgAkAEAmAG0AqABtAKqAQMzLTG4AQHIAQD4AQGYAgKgAsYCqAIKwgIREAAY5QYYigMY5wYY6gIYtAKYAwzxBVJ5loVP64OLkgcFMS4zLTGgB7IFsgcDMy0xuAe5AsIHBzAuMS4wLjHIBwuACAE&sclient=gws-wiz&start=30",
+   "results": [
+    {
+     "rank": 27,
+     "title": "The Best Photographers for Hire in Hanoi",
+     "url": "https://journalist.net › ... › Journalists in Vietnam",
+     "host": "journalist.net"
+    },
+    {
+     "rank": 28,
+     "title": "Hire a Hanoi Photographer: Vietnam Photoshoot Prices & ...",
+     "url": "https://locallens.com › Destinations",
+     "host": "locallens.com"
+    },
+    {
+     "rank": 29,
+     "title": "Photographers in Hanoi",
+     "url": "4K+ followers",
+     "host": "4k+"
+    },
+    {
+     "rank": 30,
+     "title": "Hanoi Photographer for Couples, Families and Travel Portraits",
+     "url": "https://tamphotographer.com › Hanoi",
+     "host": "tamphotographer.com"
+    },
+    {
+     "rank": 31,
+     "title": "Enjoy Hanoi with A Photographer · ★4.99",
+     "url": "https://www.airbnb.com › services",
+     "host": "www.airbnb.com"
+    },
+    {
+     "rank": 32,
+     "title": "Film photographers for couple/portrait shoots in Hanoi or ...",
+     "url": "7 comments · 1 year ago",
+     "host": "7"
+    },
+    {
+     "rank": 33,
+     "title": "LOCAL PHOTOGRAPHERS FOR NATURAL CANDID ...",
+     "url": "https://xuanphuongle.com › photoshoot-with-local-viet...",
+     "host": "xuanphuongle.com"
+    },
+    {
+     "rank": 34,
+     "title": "Private Photoshoot in Hanoi with a Local Photographer",
+     "url": "https://travelframe.sidevn.com › hanoi-photoshoot",
+     "host": "travelframe.sidevn.com"
+    },
+    {
+     "rank": 35,
+     "title": "Best Photography Spots in Hanoi: Guide from a Vietnamese ...",
+     "url": "https://vietnamphotoworkshops.com › best-photograph...",
+     "host": "vietnamphotoworkshops.com"
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "url": "https://www.google.com/search?q=hanoi+photographer&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDgJTd2OEmR9n5NlRdzj7gKWbVjaZg%3A1795179348892&source=hp&ei=VEMAa_iRNY6-kPIPscqzoQU&iflsig=AHSINFcAAAAAawBRZK0HOZaW7jatmZZsPwtEwDS8Ezbi&oq=hanoi+photographer&gs_lp=Egdnd3Mtd2l6IhJoYW5vaSBwaG90b2dyYXBoZXIqCwgAGIAEGIoFGJECMgsQABiABBiKBRiRAjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkj-BVAfWB9wAXgAkAEAmAG0AqABtAKqAQMzLTG4AQHIAQD4AQGYAgKgAsYCqAIKwgIREAAY5QYYigMY5wYY6gIYtAKYAwzxBVJ5loVP64OLkgcFMS4zLTGgB7IFsgcDMy0xuAe5AsIHBzAuMS4wLjHIBwuACAE&sclient=gws-wiz&start=40",
+   "results": [
+    {
+     "rank": 36,
+     "title": "Hire the Best Professional Photographer in Hanoi",
+     "url": "https://www.localgrapher.com › photographers-hanoi",
+     "host": "www.localgrapher.com"
+    },
+    {
+     "rank": 37,
+     "title": "THE BEST 10 Hanoi Photography Tours in 2026 ...",
+     "url": "https://www.viator.com › ... › Art & Culture › Culture",
+     "host": "www.viator.com"
+    },
+    {
+     "rank": 38,
+     "title": "As a destination wedding photographer in Vietnam, Hanoi ...",
+     "url": "30+ likes · 8 months ago",
+     "host": "30+"
+    },
+    {
+     "rank": 39,
+     "title": "Hanoi, Vietnam: travel photo shoot photographer, follow ...",
+     "url": "https://www.trip.com › Hanoi › Travel photography",
+     "host": "www.trip.com"
+    },
+    {
+     "rank": 40,
+     "title": "Vietnam in Focus - Photo Tours and Workshops",
+     "url": "https://www.vietnaminfocus.com",
+     "host": "www.vietnaminfocus.com"
+    },
+    {
+     "rank": 41,
+     "title": "Momentlives: Vietnam Photo Tours & Photography Workshops",
+     "url": "https://www.momentlives.com",
+     "host": "www.momentlives.com"
+    },
+    {
+     "rank": 42,
+     "title": "Hanoi Street photography courses with Mark Seymour.",
+     "url": "https://shootthestreet.co.uk › street-photography › hanoi-...",
+     "host": "shootthestreet.co.uk"
+    },
+    {
+     "rank": 43,
+     "title": "Hanoi Photographer: Book a Local Photo Shoot",
+     "url": "https://www.bookholidayphotos.com › ... › Vietnam",
+     "host": "www.bookholidayphotos.com"
+    },
+    {
+     "rank": 44,
+     "title": "Showing results for Photography vendors in Hanoi, Vietnam.",
+     "url": "https://www.bridestory.com › vietnam › photography",
+     "host": "www.bridestory.com"
+    }
+   ]
+  }
+ ],
+ "robot": {
+  "status": "done",
+  "elapsed_ms": 4505,
+  "actions": [
+   {
+    "operation": "TYPE_TEXT",
+    "action": "Search",
+    "text": "hanoi photographer"
+   },
+   {
+    "operation": "CLICK",
+    "action": "hanoi photographer",
+    "text": null
+   }
+  ]
+ },
+ "travelframe_hits": [
+  {
+   "rank": 34,
+   "title": "Private Photoshoot in Hanoi with a Local Photographer",
+   "url": "https://travelframe.sidevn.com › hanoi-photoshoot",
+   "host": "travelframe.sidevn.com"
+  }
+ ]
+}

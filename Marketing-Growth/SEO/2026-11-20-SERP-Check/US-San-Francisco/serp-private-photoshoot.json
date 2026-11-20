@@ -1,0 +1,340 @@
+{
+ "keyword": "private photoshoot",
+ "goal": "Search Google for \"private photoshoot\". Stop when the search results page is shown. Do not click any result, ad, map or sign-in button.",
+ "domains": [
+  "travelframe.sidevn.com",
+  "travelframe.vn"
+ ],
+ "run_utc": "2026-11-20T12:53:29+00:00",
+ "pages": [
+  {
+   "page": 1,
+   "url": "https://www.google.com/search?q=private+photoshoot&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDi6hEsySXG6fi-1i0Sts6l-T-vJbQ%3A1795179209969&source=hp&ei=yUIAa9zXObjNkPIP56SQoQI&iflsig=AHSINFcAAAAAawBQ2c2kyveagcV1vbt3XjeL3cwDCCY-&oq=private+photoshoot&gs_lp=Egdnd3Mtd2l6IhJwcml2YXRlIHBob3Rvc2hvb3QqBQgAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyBRAAGO8FMgUQABjvBTIFEAAY7wVImAdQKFgocAF4AJABAJgBlgKgAZYCqgEDMi0xuAEByAEA-AEBmAICoAKmAqgCCsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtALCAgoQABgDGI8BGOoCmAMJ8QWdvez040fhMZIHBTEuMC4xoAetBbIHAzItMbgHnALCBwMyLTLIBwuACAE&sclient=gws-wiz",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Self Portrait Photo Studio San Francisco | Private Photoshoot",
+     "url": "https://mirrorme.photos",
+     "host": "mirrorme.photos"
+    },
+    {
+     "rank": 2,
+     "title": "Hire a Local San Francisco Photographer",
+     "url": "https://www.flytographer.com › destinations › san-franc...",
+     "host": "www.flytographer.com"
+    },
+    {
+     "rank": 3,
+     "title": "The Click | Self-portrait Studio | San Francisco, CA, USA",
+     "url": "https://www.theclickstudio.com",
+     "host": "www.theclickstudio.com"
+    },
+    {
+     "rank": 4,
+     "title": "Palace of Fine Arts Photoshoot in SF Bay",
+     "url": "https://www.shoott.com › Photoshoots › SF Bay",
+     "host": "www.shoott.com"
+    },
+    {
+     "rank": 5,
+     "title": "Private Photo Shoot in San Francisco (with Reviews)",
+     "url": "https://www.tripadvisor.com › AttractionProductReview...",
+     "host": "www.tripadvisor.com"
+    },
+    {
+     "rank": 6,
+     "title": "Photographers in San Francisco - California",
+     "url": "https://www.airbnb.com › san-francisco-ca › services",
+     "host": "www.airbnb.com"
+    },
+    {
+     "rank": 7,
+     "title": "\"Professional\" Photographer in SF for quick 30 minute shoot?",
+     "url": "7 comments · 5 years ago",
+     "host": "7"
+    },
+    {
+     "rank": 8,
+     "title": "San Francisco Portrait Photographer",
+     "url": "https://tianahunterphoto.com › portraits",
+     "host": "tianahunterphoto.com"
+    },
+    {
+     "rank": 9,
+     "title": "San Francisco Photography - Professional Photographers ...",
+     "url": "https://www.sweetescape.com › cities › san-francisco",
+     "host": "www.sweetescape.com"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "url": "https://www.google.com/search?q=private+photoshoot&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDi6hEsySXG6fi-1i0Sts6l-T-vJbQ%3A1795179209969&source=hp&ei=yUIAa9zXObjNkPIP56SQoQI&iflsig=AHSINFcAAAAAawBQ2c2kyveagcV1vbt3XjeL3cwDCCY-&oq=private+photoshoot&gs_lp=Egdnd3Mtd2l6IhJwcml2YXRlIHBob3Rvc2hvb3QqBQgAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyBRAAGO8FMgUQABjvBTIFEAAY7wVImAdQKFgocAF4AJABAJgBlgKgAZYCqgEDMi0xuAEByAEA-AEBmAICoAKmAqgCCsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtALCAgoQABgDGI8BGOoCmAMJ8QWdvez040fhMZIHBTEuMC4xoAetBbIHAzItMbgHnALCBwMyLTLIBwuACAE&sclient=gws-wiz&start=10",
+   "results": [
+    {
+     "rank": 10,
+     "title": "San Francisco's Best Locations for Photography Sessions",
+     "url": "https://ashleykaplanphotography.com › Blog",
+     "host": "ashleykaplanphotography.com"
+    },
+    {
+     "rank": 11,
+     "title": "Hire a Photographer for a Photoshoot in San Francisco",
+     "url": "https://www.localgrapher.com › ... › California",
+     "host": "www.localgrapher.com"
+    },
+    {
+     "rank": 12,
+     "title": "Emily Jenks Photography: San Francisco Wedding + ...",
+     "url": "https://emilyjenksphotography.com",
+     "host": "emilyjenksphotography.com"
+    },
+    {
+     "rank": 13,
+     "title": "📸 Looking for a photographer in San Francisco ...",
+     "url": "10+ comments · 7 months ago",
+     "host": "10+"
+    },
+    {
+     "rank": 14,
+     "title": "Engagement Photoshoot San Francisco | MirrorMe",
+     "url": "https://mirrorme.photos › services › engagement-photos...",
+     "host": "mirrorme.photos"
+    },
+    {
+     "rank": 15,
+     "title": "THE 15 BEST San Francisco Photography Tours (with Prices)",
+     "url": "https://www.tripadvisor.com › Attractions-g60713-Acti...",
+     "host": "www.tripadvisor.com"
+    },
+    {
+     "rank": 16,
+     "title": "What are some unique places in San Francisco that you ...",
+     "url": "40+ answers · 3 years ago",
+     "host": "40+"
+    },
+    {
+     "rank": 17,
+     "title": "Can anyone take photos at San Francisco City Hall, or only ...",
+     "url": "1.3K+ views · 1 year ago",
+     "host": "1.3k+"
+    },
+    {
+     "rank": 18,
+     "title": "TOP 10 BEST In-Home Photoshoot in San Francisco, CA",
+     "url": "https://www.yelp.com › Event Planning & Services",
+     "host": "www.yelp.com"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "url": "https://www.google.com/search?q=private+photoshoot&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDi6hEsySXG6fi-1i0Sts6l-T-vJbQ%3A1795179209969&source=hp&ei=yUIAa9zXObjNkPIP56SQoQI&iflsig=AHSINFcAAAAAawBQ2c2kyveagcV1vbt3XjeL3cwDCCY-&oq=private+photoshoot&gs_lp=Egdnd3Mtd2l6IhJwcml2YXRlIHBob3Rvc2hvb3QqBQgAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyBRAAGO8FMgUQABjvBTIFEAAY7wVImAdQKFgocAF4AJABAJgBlgKgAZYCqgEDMi0xuAEByAEA-AEBmAICoAKmAqgCCsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtALCAgoQABgDGI8BGOoCmAMJ8QWdvez040fhMZIHBTEuMC4xoAetBbIHAzItMbgHnALCBwMyLTLIBwuACAE&sclient=gws-wiz&start=20",
+   "results": [
+    {
+     "rank": 19,
+     "title": "900+ Personal shoot ideas in 2026",
+     "url": "https://www.pinterest.com › alecialee56 › personal-shoot",
+     "host": "www.pinterest.com"
+    },
+    {
+     "rank": 20,
+     "title": "SpotMyPhotos | Privacy-First Event Photo Sharing Platform",
+     "url": "https://www.spotmyphotos.com",
+     "host": "www.spotmyphotos.com"
+    },
+    {
+     "rank": 21,
+     "title": "Couples Photoshoot Studio in San Francisco | MirrorMe",
+     "url": "https://mirrorme.photos › services › couples-photoshoot",
+     "host": "mirrorme.photos"
+    },
+    {
+     "rank": 22,
+     "title": "Private Photo or Video Shoot - Las Vegas",
+     "url": "https://neonmuseum.org › private-photo-or-video-shoot",
+     "host": "neonmuseum.org"
+    },
+    {
+     "rank": 23,
+     "title": "Free Photoshoots in SF Bay — Family, Couples & More",
+     "url": "https://www.shoott.com › Photoshoots",
+     "host": "www.shoott.com"
+    },
+    {
+     "rank": 24,
+     "title": "Peerspace | Unique venues for events, meetings, photo & film ...",
+     "url": "https://www.peerspace.com",
+     "host": "www.peerspace.com"
+    },
+    {
+     "rank": 25,
+     "title": "SF's first self-portrait studio @t.h.e_click , no photographer, just ...",
+     "url": "150+ likes · 7 months ago",
+     "host": "150+"
+    },
+    {
+     "rank": 26,
+     "title": "Recs for personal Photographer : r/SFbitcheswithtaste",
+     "url": "10+ comments · 6 months ago",
+     "host": "10+"
+    },
+    {
+     "rank": 27,
+     "title": "The Best Photographers in San Francisco, CA",
+     "url": "https://www.thumbtack.com › CA › San Francisco",
+     "host": "www.thumbtack.com"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "url": "https://www.google.com/search?q=private+photoshoot&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDi6hEsySXG6fi-1i0Sts6l-T-vJbQ%3A1795179209969&source=hp&ei=yUIAa9zXObjNkPIP56SQoQI&iflsig=AHSINFcAAAAAawBQ2c2kyveagcV1vbt3XjeL3cwDCCY-&oq=private+photoshoot&gs_lp=Egdnd3Mtd2l6IhJwcml2YXRlIHBob3Rvc2hvb3QqBQgAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyBRAAGO8FMgUQABjvBTIFEAAY7wVImAdQKFgocAF4AJABAJgBlgKgAZYCqgEDMi0xuAEByAEA-AEBmAICoAKmAqgCCsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtALCAgoQABgDGI8BGOoCmAMJ8QWdvez040fhMZIHBTEuMC4xoAetBbIHAzItMbgHnALCBwMyLTLIBwuACAE&sclient=gws-wiz&start=30",
+   "results": [
+    {
+     "rank": 28,
+     "title": "Giggster | Rent Filming, Photo shoot, Party, & Event ... - Los ...",
+     "url": "https://giggster.com",
+     "host": "giggster.com"
+    },
+    {
+     "rank": 29,
+     "title": "Capture Your Moment: Magic Kingdom Park - Disney World",
+     "url": "https://disneyworld.disney.go.com › ...",
+     "host": "disneyworld.disney.go.com"
+    },
+    {
+     "rank": 30,
+     "title": "Localgrapher: Hire a Local Photographer for a Private ...",
+     "url": "https://www.localgrapher.com",
+     "host": "www.localgrapher.com"
+    },
+    {
+     "rank": 31,
+     "title": "Hire a San Francisco Photographer: Photoshoot Packages ...",
+     "url": "https://locallens.com › Destinations",
+     "host": "locallens.com"
+    },
+    {
+     "rank": 32,
+     "title": "Where can I find event photographers for free in San ...",
+     "url": "30+ answers · 12 years ago",
+     "host": "30+"
+    },
+    {
+     "rank": 33,
+     "title": "𝗦𝗮𝗻 𝗙𝗿𝗮𝗻𝗰𝗶𝘀𝗰𝗼 𝗕𝗮𝘆 𝗔𝗿𝗲𝗮 | Is a photoshoot with ...",
+     "url": "30+ likes · 1 year ago",
+     "host": "30+"
+    },
+    {
+     "rank": 34,
+     "title": "Hide photos on your iPhone, iPad, Mac, or Apple Vision ...",
+     "url": "https://support.apple.com › en-us",
+     "host": "support.apple.com"
+    },
+    {
+     "rank": 35,
+     "title": "11 Mini Session Tips I Wish Someone Told Me Sooner",
+     "url": "520+ views · 1 month ago",
+     "host": "520+"
+    },
+    {
+     "rank": 36,
+     "title": "Private Photoshoot at Apukka Resort | Book a Photographer |",
+     "url": "https://apukkaresort.fi › Products",
+     "host": "apukkaresort.fi"
+    },
+    {
+     "rank": 37,
+     "title": "Private Jet Photoshoot: How to Plan High-End Jet Imagery ...",
+     "url": "https://jettly.com › post › private-jet-photoshoot",
+     "host": "jettly.com"
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "url": "https://www.google.com/search?q=private+photoshoot&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDi6hEsySXG6fi-1i0Sts6l-T-vJbQ%3A1795179209969&source=hp&ei=yUIAa9zXObjNkPIP56SQoQI&iflsig=AHSINFcAAAAAawBQ2c2kyveagcV1vbt3XjeL3cwDCCY-&oq=private+photoshoot&gs_lp=Egdnd3Mtd2l6IhJwcml2YXRlIHBob3Rvc2hvb3QqBQgAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyBRAAGO8FMgUQABjvBTIFEAAY7wVImAdQKFgocAF4AJABAJgBlgKgAZYCqgEDMi0xuAEByAEA-AEBmAICoAKmAqgCCsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtALCAgoQABgDGI8BGOoCmAMJ8QWdvez040fhMZIHBTEuMC4xoAetBbIHAzItMbgHnALCBwMyLTLIBwuACAE&sclient=gws-wiz&start=40",
+   "results": [
+    {
+     "rank": 38,
+     "title": "Private Photoshoot at Apukka Resort | Book a Photographer |",
+     "url": "https://apukkaresort.fi › Products",
+     "host": "apukkaresort.fi"
+    },
+    {
+     "rank": 39,
+     "title": "Private Jet Photoshoot: How to Plan High-End Jet Imagery ...",
+     "url": "https://jettly.com › post › private-jet-photoshoot",
+     "host": "jettly.com"
+    },
+    {
+     "rank": 40,
+     "title": "Private Photoshoot at Landmarks in Taipei",
+     "url": "https://www.aaa.com › Inspire › Taipei › Things To Do",
+     "host": "www.aaa.com"
+    },
+    {
+     "rank": 41,
+     "title": "Private Photo Session with a Local Photographer in San ...",
+     "url": "https://www.tripadvisor.com › AttractionProductReview...",
+     "host": "www.tripadvisor.com"
+    },
+    {
+     "rank": 42,
+     "title": "San Francisco Portrait Photographer Guide for Natural Photos ...",
+     "url": "2 days ago",
+     "host": "2"
+    },
+    {
+     "rank": 43,
+     "title": "\"Professional\" Photographer in SF for quick 30 minute shoot?",
+     "url": "7 comments · 5 years ago",
+     "host": "7"
+    },
+    {
+     "rank": 44,
+     "title": "Hire a Local San Jose Photographer",
+     "url": "https://www.flytographer.com › destinations › san-jose-ca",
+     "host": "www.flytographer.com"
+    },
+    {
+     "rank": 45,
+     "title": "Private Fashion Photoshoots in Miami",
+     "url": "https://www.juliayatel.com › private-photoshoot",
+     "host": "www.juliayatel.com"
+    },
+    {
+     "rank": 46,
+     "title": "For the moms over 40 who want to give their husbands ...",
+     "url": "40+ likes · 1 day ago",
+     "host": "40+"
+    },
+    {
+     "rank": 47,
+     "title": "Professional Photo Packages - Capture Your Magical ...",
+     "url": "https://disneycruise.disney.go.com › featured › photo-pa...",
+     "host": "disneycruise.disney.go.com"
+    }
+   ]
+  }
+ ],
+ "robot": {
+  "status": "done",
+  "elapsed_ms": 4019,
+  "actions": [
+   {
+    "operation": "TYPE_TEXT",
+    "action": "Search",
+    "text": "private photoshoot"
+   },
+   {
+    "operation": "CLICK",
+    "action": "private photoshoot",
+    "text": null
+   }
+  ]
+ },
+ "travelframe_hits": []
+}

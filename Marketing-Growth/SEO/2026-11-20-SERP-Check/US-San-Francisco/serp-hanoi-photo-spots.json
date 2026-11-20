@@ -1,0 +1,335 @@
+{
+ "keyword": "hanoi photo spots",
+ "goal": "Search Google for \"hanoi photo spots\". Stop when the search results page is shown. Do not click any result, ad, map or sign-in button.",
+ "domains": [
+  "travelframe.sidevn.com",
+  "travelframe.vn"
+ ],
+ "run_utc": "2026-11-20T12:52:12+00:00",
+ "pages": [
+  {
+   "page": 1,
+   "url": "https://www.google.com/search?q=hanoi+photo+spots&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDj9s9zUHJJ4nQ9O61wkiJUtZwEJ1Q%3A1795179137159&source=hp&ei=gUIAa7ObCO2uur8P6YjE8A4&iflsig=AHSINFcAAAAAawBQkU3dH6R1zG47-Xzu94PjwNWjtMc1&oq=hanoi+photo+spots&gs_lp=Egdnd3Mtd2l6IhFoYW5vaSBwaG90byBzcG90cyoLCAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGA0iiBlA4WDhwAXgAkAEAmAGZAqABmQKqAQMyLTG4AQHIAQD4AQGYAgKgAqgCqAIKwgITEC4YgAQYigUYQxjnBhjqAhi0AsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtAKYAwrxBeOwGirQnGf3kgcFMS4wLjGgB_UFsgcDMi0xuAeeAsIHBTAuMS4xyAcKgAgB&sclient=gws-wiz",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Travel Blogger | 12 incredible places to visit in Hanoi ...",
+     "url": "3.3K+ likes · 1 year ago",
+     "host": "3.3k+"
+    },
+    {
+     "rank": 2,
+     "title": "The 23 Best Hanoi Photo Spots",
+     "url": "https://routinelynomadic.com › hanoi-photo-spots",
+     "host": "routinelynomadic.com"
+    },
+    {
+     "rank": 3,
+     "title": "Top 5 spots for photography",
+     "url": "https://meritelhanoi.com › travel-guide › top-5-spots-for-...",
+     "host": "meritelhanoi.com"
+    },
+    {
+     "rank": 4,
+     "title": "A Street Photography Guide to Hanoi, Vietnam",
+     "url": "https://shooterfiles.com › 2017/01 › city-street-guides-b...",
+     "host": "shooterfiles.com"
+    },
+    {
+     "rank": 5,
+     "title": "Top 42 Photo Spots at Hanoi in 2026",
+     "url": "https://www.locationscout.net › ... › Countries › Vietnam",
+     "host": "www.locationscout.net"
+    },
+    {
+     "rank": 6,
+     "title": "Wandering in Hanoi: 9 Photo Spotlights You Shouldn't Miss",
+     "url": "9 comments · 1 year ago",
+     "host": "9"
+    },
+    {
+     "rank": 7,
+     "title": "The 12 most instagrammable photo spots in Vietnam",
+     "url": "https://chrisandwrensworld.com › Recent Posts",
+     "host": "chrisandwrensworld.com"
+    },
+    {
+     "rank": 8,
+     "title": "Must Shoot: Best Photo Spots in Hanoi - Ithaca Galleries",
+     "url": "https://www.ithacagalleries.com › post › must-shoot-bes...",
+     "host": "www.ithacagalleries.com"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "url": "https://www.google.com/search?q=hanoi+photo+spots&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDj9s9zUHJJ4nQ9O61wkiJUtZwEJ1Q%3A1795179137159&source=hp&ei=gUIAa7ObCO2uur8P6YjE8A4&iflsig=AHSINFcAAAAAawBQkU3dH6R1zG47-Xzu94PjwNWjtMc1&oq=hanoi+photo+spots&gs_lp=Egdnd3Mtd2l6IhFoYW5vaSBwaG90byBzcG90cyoLCAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGA0iiBlA4WDhwAXgAkAEAmAGZAqABmQKqAQMyLTG4AQHIAQD4AQGYAgKgAqgCqAIKwgITEC4YgAQYigUYQxjnBhjqAhi0AsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtAKYAwrxBeOwGirQnGf3kgcFMS4wLjGgB_UFsgcDMi0xuAeeAsIHBTAuMS4xyAcKgAgB&sclient=gws-wiz&start=10",
+   "results": [
+    {
+     "rank": 9,
+     "title": "Looking for photography location suggestions please",
+     "url": "8 comments · 5 months ago",
+     "host": "8"
+    },
+    {
+     "rank": 10,
+     "title": "15 Instagrammable Places in Vietnam — Walk My World",
+     "url": "https://www.walkmyworld.com › posts › instagrammabl...",
+     "host": "www.walkmyworld.com"
+    },
+    {
+     "rank": 11,
+     "title": "Guide to Hanoi Street Photography",
+     "url": "https://www.picturetheworld.co › post › guide-to-hanoi...",
+     "host": "www.picturetheworld.co"
+    },
+    {
+     "rank": 12,
+     "title": "Returning to Hanoi for a few days and looking for hidden ...",
+     "url": "30+ comments · 1 year ago",
+     "host": "30+"
+    },
+    {
+     "rank": 13,
+     "title": "Hanoi Instagram Spots",
+     "url": "https://www.pinterest.com › ... › Travel Ideas › Day Trips",
+     "host": "www.pinterest.com"
+    },
+    {
+     "rank": 14,
+     "title": "Top 10 Photography Spots in Hanoi",
+     "url": "https://rubicontours.com › Travel Experiences",
+     "host": "rubicontours.com"
+    },
+    {
+     "rank": 15,
+     "title": "Hanoi Photography Tours #1 for Hidden Spots & Local ...",
+     "url": "https://www.vietnaminfocus.com › hanoi-photography-...",
+     "host": "www.vietnaminfocus.com"
+    },
+    {
+     "rank": 16,
+     "title": "The Best Photo Spots in Vietnam",
+     "url": "https://sidecarphoto.co › blog › posts › the-best-photo-s...",
+     "host": "sidecarphoto.co"
+    },
+    {
+     "rank": 17,
+     "title": "Hanoi's Most Instagrammable spots #vietnam #travel",
+     "url": "1.9K+ views · 9 months ago",
+     "host": "1.9k+"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "url": "https://www.google.com/search?q=hanoi+photo+spots&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDj9s9zUHJJ4nQ9O61wkiJUtZwEJ1Q%3A1795179137159&source=hp&ei=gUIAa7ObCO2uur8P6YjE8A4&iflsig=AHSINFcAAAAAawBQkU3dH6R1zG47-Xzu94PjwNWjtMc1&oq=hanoi+photo+spots&gs_lp=Egdnd3Mtd2l6IhFoYW5vaSBwaG90byBzcG90cyoLCAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGA0iiBlA4WDhwAXgAkAEAmAGZAqABmQKqAQMyLTG4AQHIAQD4AQGYAgKgAqgCqAIKwgITEC4YgAQYigUYQxjnBhjqAhi0AsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtAKYAwrxBeOwGirQnGf3kgcFMS4wLjGgB_UFsgcDMi0xuAeeAsIHBTAuMS4xyAcKgAgB&sclient=gws-wiz&start=20",
+   "results": [
+    {
+     "rank": 18,
+     "title": "My Best Hanoi Old Quarter Photography",
+     "url": "https://wander-lush.org › hanoi-old-quarter-photography",
+     "host": "wander-lush.org"
+    },
+    {
+     "rank": 19,
+     "title": "15 Hanoi Photo Spots: Local Guide | TravelFrame Vietnam",
+     "url": "https://travelframe.sidevn.com › news › 15-best-photo-s...",
+     "host": "travelframe.sidevn.com"
+    },
+    {
+     "rank": 20,
+     "title": "Travel Photography in Hanoi - Great spots to visit",
+     "url": "https://mel365.com › Featured Destinations › Vietnam",
+     "host": "mel365.com"
+    },
+    {
+     "rank": 21,
+     "title": "10 things to do in Hanoi, Vietnam ⤵ 1. Explore the Old Quarter",
+     "url": "3.6K+ likes · 1 year ago",
+     "host": "3.6k+"
+    },
+    {
+     "rank": 22,
+     "title": "Hanoi - for photography enthusiasts - Vietnam Forum",
+     "url": "https://www.tripadvisor.ca › Forum › Asia",
+     "host": "www.tripadvisor.ca"
+    },
+    {
+     "rank": 23,
+     "title": "Most iconic Hanoi photo spot?",
+     "url": "7 comments · 8 months ago",
+     "host": "7"
+    },
+    {
+     "rank": 24,
+     "title": "Looking for unique photo spots in Hanoi? 📸✨ From historic ...",
+     "url": "140+ likes · 7 months ago",
+     "host": "140+"
+    },
+    {
+     "rank": 25,
+     "title": "10 Top Instagram and Photography Spots in Hanoi | TAD",
+     "url": "https://www.travelanddestinations.com › ... › Vietnam",
+     "host": "www.travelanddestinations.com"
+    },
+    {
+     "rank": 26,
+     "title": "The Best Places for Photography in Hanoi",
+     "url": "https://joshprostejovsky.com › blog- › best-places-for-ph...",
+     "host": "joshprostejovsky.com"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "url": "https://www.google.com/search?q=hanoi+photo+spots&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDj9s9zUHJJ4nQ9O61wkiJUtZwEJ1Q%3A1795179137159&source=hp&ei=gUIAa7ObCO2uur8P6YjE8A4&iflsig=AHSINFcAAAAAawBQkU3dH6R1zG47-Xzu94PjwNWjtMc1&oq=hanoi+photo+spots&gs_lp=Egdnd3Mtd2l6IhFoYW5vaSBwaG90byBzcG90cyoLCAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGA0iiBlA4WDhwAXgAkAEAmAGZAqABmQKqAQMyLTG4AQHIAQD4AQGYAgKgAqgCqAIKwgITEC4YgAQYigUYQxjnBhjqAhi0AsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtAKYAwrxBeOwGirQnGf3kgcFMS4wLjGgB_UFsgcDMi0xuAeeAsIHBTAuMS4xyAcKgAgB&sclient=gws-wiz&start=30",
+   "results": [
+    {
+     "rank": 27,
+     "title": "📸 10 Most Beautiful Places in Hanoi for Photos 🇻🇳 Want to ...",
+     "url": "190+ reactions · 1 month ago",
+     "host": "190+"
+    },
+    {
+     "rank": 28,
+     "title": "Hanoi Photo Spot Recommendations | VietGo",
+     "url": "https://viet-go.com › Home › Articles › Travel Guide",
+     "host": "viet-go.com"
+    },
+    {
+     "rank": 29,
+     "title": "Hanoi Private Photoshoot – Iconic Spots & Hidden Gems",
+     "url": "https://www.getyourguide.com › hanoi-l205 › hanoi-pr...",
+     "host": "www.getyourguide.com"
+    },
+    {
+     "rank": 30,
+     "title": "Looking for unique photo spots in Hanoi? 📸✨ From historic ...",
+     "url": "140+ likes · 7 months ago",
+     "host": "140+"
+    },
+    {
+     "rank": 31,
+     "title": "10 Top Instagram and Photography Spots in Hanoi | TAD",
+     "url": "https://www.travelanddestinations.com › ... › Vietnam",
+     "host": "www.travelanddestinations.com"
+    },
+    {
+     "rank": 32,
+     "title": "Top Photography Spots in Hanoi",
+     "url": "https://www.hanoilocaltour.com › top-photography-spo...",
+     "host": "www.hanoilocaltour.com"
+    },
+    {
+     "rank": 33,
+     "title": "The 47 best photo spots in Hanoi",
+     "url": "https://wanderlog.com › list › best...",
+     "host": "wanderlog.com"
+    },
+    {
+     "rank": 34,
+     "title": "Best Photography Spots in Hanoi: Guide from a Vietnamese ...",
+     "url": "https://vietnamphotoworkshops.com › best-photograph...",
+     "host": "vietnamphotoworkshops.com"
+    },
+    {
+     "rank": 35,
+     "title": "Top Instagrammable Spots in Hanoi Vietnam - Tripoto",
+     "url": "https://www.tripoto.com › ... › Hanoi Trips",
+     "host": "www.tripoto.com"
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "url": "https://www.google.com/search?q=hanoi+photo+spots&sca_esv=b6ecb78a7a4df699&hl=en&sxsrf=AKL5yDj9s9zUHJJ4nQ9O61wkiJUtZwEJ1Q%3A1795179137159&source=hp&ei=gUIAa7ObCO2uur8P6YjE8A4&iflsig=AHSINFcAAAAAawBQkU3dH6R1zG47-Xzu94PjwNWjtMc1&oq=hanoi+photo+spots&gs_lp=Egdnd3Mtd2l6IhFoYW5vaSBwaG90byBzcG90cyoLCAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGA0iiBlA4WDhwAXgAkAEAmAGZAqABmQKqAQMyLTG4AQHIAQD4AQGYAgKgAqgCqAIKwgITEC4YgAQYigUYQxjnBhjqAhi0AsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtAKYAwrxBeOwGirQnGf3kgcFMS4wLjGgB_UFsgcDMi0xuAeeAsIHBTAuMS4xyAcKgAgB&sclient=gws-wiz&start=40",
+   "results": [
+    {
+     "rank": 36,
+     "title": "Hanoi - for photography enthusiasts - Vietnam Forum",
+     "url": "https://www.tripadvisor.ca › Forum › Asia",
+     "host": "www.tripadvisor.ca"
+    },
+    {
+     "rank": 37,
+     "title": "Street Photography in Hanoi [Inspiration + 10 tips]",
+     "url": "https://www.theinspiredeye.net › ha...",
+     "host": "www.theinspiredeye.net"
+    },
+    {
+     "rank": 38,
+     "title": "Looking for unique photo spots in Hanoi? 📸✨ From historic ...",
+     "url": "140+ likes · 7 months ago",
+     "host": "140+"
+    },
+    {
+     "rank": 39,
+     "title": "Hanoi Photo Spots: 8 Places for the Best Shot",
+     "url": "https://siestatofiesta.com › Vietnam › Hanoi",
+     "host": "siestatofiesta.com"
+    },
+    {
+     "rank": 40,
+     "title": "Private Hanoi Photoshoot – Iconic Spots & Hidden Gems",
+     "url": "https://www.viator.com › ... › Photography Tours",
+     "host": "www.viator.com"
+    },
+    {
+     "rank": 41,
+     "title": "Hanoi Guide | The best photo spots in Hanoi",
+     "url": "https://fotogoals.com › Startseite › Vietnam",
+     "host": "fotogoals.com"
+    },
+    {
+     "rank": 42,
+     "title": "Returning to Hanoi for a few days and looking for hidden ...",
+     "url": "30+ comments · 1 year ago",
+     "host": "30+"
+    },
+    {
+     "rank": 43,
+     "title": "Best Photography Locations in Hanoi",
+     "url": "https://us.trip.com › detail › hanoi-181-155895462",
+     "host": "us.trip.com"
+    },
+    {
+     "rank": 44,
+     "title": "Photography Spots in Hanoi",
+     "url": "https://www.pinterest.com › ... › Travel Ideas › Day Trips",
+     "host": "www.pinterest.com"
+    },
+    {
+     "rank": 45,
+     "title": "Best of Inspirational Ideas about Hanoi Street Photography",
+     "url": "https://www.bestpricetravel.com › ... › Hanoi Old Quarter",
+     "host": "www.bestpricetravel.com"
+    }
+   ]
+  }
+ ],
+ "robot": {
+  "status": "done",
+  "elapsed_ms": 4643,
+  "actions": [
+   {
+    "operation": "TYPE_TEXT",
+    "action": "Search",
+    "text": "hanoi photo spots"
+   },
+   {
+    "operation": "CLICK",
+    "action": "hanoi photo spots",
+    "text": null
+   }
+  ]
+ },
+ "travelframe_hits": [
+  {
+   "rank": 19,
+   "title": "15 Hanoi Photo Spots: Local Guide | TravelFrame Vietnam",
+   "url": "https://travelframe.sidevn.com › news › 15-best-photo-s...",
+   "host": "travelframe.sidevn.com"
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "keyword": "private photoshoot",
+ "goal": "Search Google for \"private photoshoot\". Stop when the search results page is shown. Do not click any result, ad, map or sign-in button.",
+ "domains": [
+  "travelframe.sidevn.com",
+  "travelframe.vn"
+ ],
+ "run_utc": "2026-11-20T12:25:48+00:00",
+ "pages": [
+  {
+   "page": 1,
+   "url": "https://www.google.com/search?q=private+photoshoot&sca_esv=255b5630f5566803&hl=en&sxsrf=AKL5yDjnqYLoNpjgae1ex1Dtc3qgXDBRqg%3A1795177548284&source=hp&ei=TDwAa66VELfn2roPz4qv6QY&iflsig=AHSINFcAAAAAawBKXIFHGDeLngWO0s-qFQrNxOV667LV&oq=private+photoshoot&gs_lp=Egdnd3Mtd2l6IhJwcml2YXRlIHBob3Rvc2hvb3QqBQgAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCBAAGIAEGKIEMgUQABjvBTIIEAAYgAQYogRIyxRQFVgVcAF4AJABAJgBtwGgAbcBqgEDMC4xuAEByAEA-AEBmAICoALBAagCCsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtALCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqApgDBvEFUdI9vjWpiimSBwMxLjGgB6IFsgcDMC4xuAe7AcIHBTAuMS4xyAcHgAgB&sclient=gws-wiz",
+   "results": [
+    {
+     "rank": 1,
+     "title": "Hanoi Private Photoshoot – Iconic Spots & Hidden Gems",
+     "url": "https://www.getyourguide.com › hanoi-l205 › hanoi-pr...",
+     "host": "www.getyourguide.com"
+    },
+    {
+     "rank": 2,
+     "title": "Private Hanoi Photoshoot – Iconic Spots & Hidden Gems",
+     "url": "https://www.viator.com › ... › Photography Tours",
+     "host": "www.viator.com"
+    },
+    {
+     "rank": 3,
+     "title": "Hoa Tran (@hanoiphotographer) · Hanoi",
+     "url": "3.2K+ followers",
+     "host": "3.2k+"
+    },
+    {
+     "rank": 4,
+     "title": "I.am.Long | Hanoi & Vietnam Photographer",
+     "url": "https://www.iamlongphoto.com",
+     "host": "www.iamlongphoto.com"
+    },
+    {
+     "rank": 5,
+     "title": "Photographers in Hanoi - Ha Noi - Airbnb",
+     "url": "https://www.airbnb.com › hanoi-vietnam › services › p...",
+     "host": "www.airbnb.com"
+    },
+    {
+     "rank": 6,
+     "title": "THE 15 BEST Hanoi Photography Tours (with Prices)",
+     "url": "https://www.tripadvisor.com › ... › Tours in Hanoi",
+     "host": "www.tripadvisor.com"
+    },
+    {
+     "rank": 7,
+     "title": "Private Photoshoot in Hanoi with a Local Photographer",
+     "url": "https://travelframe.sidevn.com › hanoi-photoshoot",
+     "host": "travelframe.sidevn.com"
+    },
+    {
+     "rank": 8,
+     "title": "Photographers in Hanoi",
+     "url": "4K+ followers",
+     "host": "4k+"
+    },
+    {
+     "rank": 9,
+     "title": "Ultimate Hanoi: The best Photography Experience ...",
+     "url": "https://www.vietnaminfocus.com › day-tours › ultimate...",
+     "host": "www.vietnaminfocus.com"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "url": "https://www.google.com/search?q=private+photoshoot&sca_esv=255b5630f5566803&hl=en&sxsrf=AKL5yDjnqYLoNpjgae1ex1Dtc3qgXDBRqg%3A1795177548284&source=hp&ei=TDwAa66VELfn2roPz4qv6QY&iflsig=AHSINFcAAAAAawBKXIFHGDeLngWO0s-qFQrNxOV667LV&oq=private+photoshoot&gs_lp=Egdnd3Mtd2l6IhJwcml2YXRlIHBob3Rvc2hvb3QqBQgAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCBAAGIAEGKIEMgUQABjvBTIIEAAYgAQYogRIyxRQFVgVcAF4AJABAJgBtwGgAbcBqgEDMC4xuAEByAEA-AEBmAICoALBAagCCsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtALCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqApgDBvEFUdI9vjWpiimSBwMxLjGgB6IFsgcDMC4xuAe7AcIHBTAuMS4xyAcHgAgB&sclient=gws-wiz&start=10",
+   "results": [
+    {
+     "rank": 10,
+     "title": "Portrait Photography Studio Hanoi | Very Dep",
+     "url": "https://verydep.com",
+     "host": "verydep.com"
+    },
+    {
+     "rank": 11,
+     "title": "Private Photo Session with a Local Photographer in Hanoi",
+     "url": "https://activities.marriott.com › asia › hanoi › activities",
+     "host": "activities.marriott.com"
+    },
+    {
+     "rank": 12,
+     "title": "Hanoi Photography - Professional Photographers for Hire",
+     "url": "https://www.sweetescape.com › cities › hanoi",
+     "host": "www.sweetescape.com"
+    },
+    {
+     "rank": 13,
+     "title": "Hire a Hanoi Photographer: Vietnam Photoshoot Prices & ...",
+     "url": "https://locallens.com › Destinations",
+     "host": "locallens.com"
+    },
+    {
+     "rank": 14,
+     "title": "Private Hanoi Photoshoot – Iconic Spots & Hidden Gems",
+     "url": "https://www.tripadvisor.com › ... › Things to Do in Hanoi",
+     "host": "www.tripadvisor.com"
+    },
+    {
+     "rank": 15,
+     "title": "Hanoi Photoshoot • 1.7K reels on ...",
+     "url": "https://www.instagram.com › popular › hanoi-photoshoot",
+     "host": "www.instagram.com"
+    },
+    {
+     "rank": 16,
+     "title": "Hoa Tran | Photographer in Hanoi | Lifestyle | Family",
+     "url": "https://www.hoatranphoto.com",
+     "host": "www.hoatranphoto.com"
+    },
+    {
+     "rank": 17,
+     "title": "The best Hanoi Photoshoots - 2026 (Verified Reviews)",
+     "url": "https://www.getyourguide.com › ... › Tours in Hanoi",
+     "host": "www.getyourguide.com"
+    },
+    {
+     "rank": 18,
+     "title": "Hire the Best Professional Photographer in Vietnam",
+     "url": "https://www.localgrapher.com › photographers-vietnam",
+     "host": "www.localgrapher.com"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "url": "https://www.google.com/search?q=private+photoshoot&sca_esv=255b5630f5566803&hl=en&sxsrf=AKL5yDjnqYLoNpjgae1ex1Dtc3qgXDBRqg%3A1795177548284&source=hp&ei=TDwAa66VELfn2roPz4qv6QY&iflsig=AHSINFcAAAAAawBKXIFHGDeLngWO0s-qFQrNxOV667LV&oq=private+photoshoot&gs_lp=Egdnd3Mtd2l6IhJwcml2YXRlIHBob3Rvc2hvb3QqBQgAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCBAAGIAEGKIEMgUQABjvBTIIEAAYgAQYogRIyxRQFVgVcAF4AJABAJgBtwGgAbcBqgEDMC4xuAEByAEA-AEBmAICoALBAagCCsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtALCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqApgDBvEFUdI9vjWpiimSBwMxLjGgB6IFsgcDMC4xuAe7AcIHBTAuMS4xyAcHgAgB&sclient=gws-wiz&start=20",
+   "results": [
+    {
+     "rank": 19,
+     "title": "Hanoi Private Photoshoot: Review of Hidden Gems & ...",
+     "url": "https://travelstride7.wordpress.com › 2025/12/27 › han...",
+     "host": "travelstride7.wordpress.com"
+    },
+    {
+     "rank": 20,
+     "title": "Photoshoot in Vietnam: Cost, Tips & How to Arrange It",
+     "url": "https://localvietnam.com › Travel Guide › Travel tips",
+     "host": "localvietnam.com"
+    },
+    {
+     "rank": 21,
+     "title": "Personal Photo Studio Hanoi Recommendations",
+     "url": "https://www.facebook.com › fb-answers › personal-pho...",
+     "host": "www.facebook.com"
+    },
+    {
+     "rank": 22,
+     "title": "Couples photoshoot : r/hanoi",
+     "url": "8 comments · 1 year ago",
+     "host": "8"
+    },
+    {
+     "rank": 23,
+     "title": "Hanoi Private photo shoot (Vietnam) - Tripadvisor",
+     "url": "https://www.tripadvisor.com › ... › Things to Do in Hanoi",
+     "host": "www.tripadvisor.com"
+    },
+    {
+     "rank": 24,
+     "title": "Couples Photography Hanoi | Engagement & Portraits",
+     "url": "https://verydep.com › couples-portraits",
+     "host": "verydep.com"
+    },
+    {
+     "rank": 25,
+     "title": "Private Professional Photoshoot in Saigon",
+     "url": "https://www.klook.com › activity › 33036-private-prof...",
+     "host": "www.klook.com"
+    },
+    {
+     "rank": 26,
+     "title": "PRE WEDDING PHOTOGRAPHY IN HO CHI MINH CITY",
+     "url": "https://tuart.net › pre-wdding-photography-in-ho-chi-m...",
+     "host": "tuart.net"
+    },
+    {
+     "rank": 27,
+     "title": "Book a photoshoot with a professional photographer at unique ...",
+     "url": "https://fotopop.studio › professional-photoshoot-at-uniq...",
+     "host": "fotopop.studio"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "url": "https://www.google.com/search?q=private+photoshoot&sca_esv=255b5630f5566803&hl=en&sxsrf=AKL5yDjnqYLoNpjgae1ex1Dtc3qgXDBRqg%3A1795177548284&source=hp&ei=TDwAa66VELfn2roPz4qv6QY&iflsig=AHSINFcAAAAAawBKXIFHGDeLngWO0s-qFQrNxOV667LV&oq=private+photoshoot&gs_lp=Egdnd3Mtd2l6IhJwcml2YXRlIHBob3Rvc2hvb3QqBQgAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCBAAGIAEGKIEMgUQABjvBTIIEAAYgAQYogRIyxRQFVgVcAF4AJABAJgBtwGgAbcBqgEDMC4xuAEByAEA-AEBmAICoALBAagCCsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtALCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqApgDBvEFUdI9vjWpiimSBwMxLjGgB6IFsgcDMC4xuAe7AcIHBTAuMS4xyAcHgAgB&sclient=gws-wiz&start=30",
+   "results": [
+    {
+     "rank": 28,
+     "title": "Vietnam Elopement Destination Intimate Wedding Photography",
+     "url": "https://thientongphotography.com",
+     "host": "thientongphotography.com"
+    },
+    {
+     "rank": 29,
+     "title": "Come to our wedding shoot with us in Hanoi!! . We booked ...",
+     "url": "110+ likes · 1 year ago",
+     "host": "110+"
+    },
+    {
+     "rank": 30,
+     "title": "Photography",
+     "url": "https://www.halomedia.vn › photo...",
+     "host": "www.halomedia.vn"
+    },
+    {
+     "rank": 31,
+     "title": "Lily Studio Photoshoot in Ho Chi Minh City: 1.8M VND Package ...",
+     "url": "20+ reactions · 3 months ago",
+     "host": "20+"
+    },
+    {
+     "rank": 32,
+     "title": "The best Vietnam Photoshoots - 2026 (Verified Reviews)",
+     "url": "https://www.getyourguide.com › Vietnam",
+     "host": "www.getyourguide.com"
+    },
+    {
+     "rank": 33,
+     "title": "Private Professional Photo Shoot Hanoi (with Reviews)",
+     "url": "https://www.tripadvisor.com.sg › ... › Hanoi Attractions",
+     "host": "www.tripadvisor.com.sg"
+    },
+    {
+     "rank": 34,
+     "title": "Tours - Hoi An Photographer",
+     "url": "https://www.hoianphotographer.net › tours",
+     "host": "www.hoianphotographer.net"
+    },
+    {
+     "rank": 35,
+     "title": "PRE WEDDING PHOTOGRAPHY IN HANOI - TUART",
+     "url": "https://tuart.net › pre-wedding-photography-in-hanoi",
+     "host": "tuart.net"
+    },
+    {
+     "rank": 36,
+     "title": "Vietnam Photoshoot Tour - An Bui Photo Tour Vietnam",
+     "url": "https://anbuiphotography.com › vietnam-photoshoot-tour",
+     "host": "anbuiphotography.com"
+    },
+    {
+     "rank": 37,
+     "title": "Couple Photoshoot in Hanoi : r/VietNam",
+     "url": "3 comments · 2 months ago",
+     "host": "3"
+    }
+   ]
+  },
+  {
+   "page": 5,
+   "url": "https://www.google.com/search?q=private+photoshoot&sca_esv=255b5630f5566803&hl=en&sxsrf=AKL5yDjnqYLoNpjgae1ex1Dtc3qgXDBRqg%3A1795177548284&source=hp&ei=TDwAa66VELfn2roPz4qv6QY&iflsig=AHSINFcAAAAAawBKXIFHGDeLngWO0s-qFQrNxOV667LV&oq=private+photoshoot&gs_lp=Egdnd3Mtd2l6IhJwcml2YXRlIHBob3Rvc2hvb3QqBQgAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCBAAGIAEGKIEMgUQABjvBTIIEAAYgAQYogRIyxRQFVgVcAF4AJABAJgBtwGgAbcBqgEDMC4xuAEByAEA-AEBmAICoALBAagCCsICERAAGOUGGIoDGOcGGOoCGLQCwgIREC4Y5QYYigMY5wYY6gIYtALCAgoQABgDGI8BGOoCwgIKEC4YAxiPARjqApgDBvEFUdI9vjWpiimSBwMxLjGgB6IFsgcDMC4xuAe7AcIHBTAuMS4xyAcHgAgB&sclient=gws-wiz&start=40",
+   "results": [
+    {
+     "rank": 38,
+     "title": "Peggy Ng Photography | Photographer in Ho Chi Minh City ...",
+     "url": "https://www.peggyng.com",
+     "host": "www.peggyng.com"
+    },
+    {
+     "rank": 39,
+     "title": "(@vietnamphotographyservice) • Instagram photos and ...",
+     "url": "83K+ followers",
+     "host": "83k+"
+    },
+    {
+     "rank": 40,
+     "title": "What a Pre-Wedding Photoshoot in Vietnam is Really Like (my ...",
+     "url": "2.5K+ views · 1 year ago",
+     "host": "2.5k+"
+    },
+    {
+     "rank": 41,
+     "title": "PART 2 - Prewedding Photoshoot in Vietnam. From hidden ...",
+     "url": "150+ likes · 6 months ago",
+     "host": "150+"
+    },
+    {
+     "rank": 42,
+     "title": "Professional Photo Shoot in Da Nang | Book Your Session",
+     "url": "https://www.kkday.com › ... › Photography Experience",
+     "host": "www.kkday.com"
+    },
+    {
+     "rank": 43,
+     "title": "Mura na Photoshoot sa Hanoi? Chem Studio Review & Price!",
+     "url": "2.7M+ views · 1 year ago",
+     "host": "2.7m+"
+    },
+    {
+     "rank": 44,
+     "title": "(Closed) Our Pre-Wedding Photos in Vietnam!!",
+     "url": "https://boards.weddingbee.com › ... › Photos/Videos",
+     "host": "boards.weddingbee.com"
+    },
+    {
+     "rank": 45,
+     "title": "7 Trusted Studios for Your Photo Sessions in Ho Chi Minh ...",
+     "url": "https://www.anastasiasokyrka.com › blog › 7-trusted-st...",
+     "host": "www.anastasiasokyrka.com"
+    },
+    {
+     "rank": 46,
+     "title": "Duong Le | Couple, Engagement & Family Photographer in ...",
+     "url": "https://dphoto.vn",
+     "host": "dphoto.vn"
+    },
+    {
+     "rank": 47,
+     "title": "🇻🇳 Wanted to get his suit tailored in Vietnam so we figured ...",
+     "url": "600+ likes · 5 months ago",
+     "host": "600+"
+    }
+   ]
+  }
+ ],
+ "robot": {
+  "status": "done",
+  "elapsed_ms": 7880,
+  "actions": [
+   {
+    "operation": "TYPE_TEXT",
+    "action": "Search",
+    "text": "private photoshoot"
+   },
+   {
+    "operation": "CLICK",
+    "action": "private photoshoot",
+    "text": null
+   }
+  ]
+ },
+ "travelframe_hits": [
+  {
+   "rank": 7,
+   "title": "Private Photoshoot in Hanoi with a Local Photographer",
+   "url": "https://travelframe.sidevn.com › hanoi-photoshoot",
+   "host": "travelframe.sidevn.com"
+  }
+ ]
+}
