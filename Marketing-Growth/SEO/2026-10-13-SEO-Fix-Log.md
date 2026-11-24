@@ -355,3 +355,14 @@ Rocky xác nhận trong chat ngày 18/11/2026: "Đã có consent" (người tron
 - Không đổi: ảnh bìa (Main image) của node 68 là file `2026-09/60a4b8ae….webp`, alt "Nguyen Minh Tuan - Quang Phu Cau Incense Village", không thuộc 3 ảnh Pexels.
 - Các file Pexels cũ vẫn ở trên site vì node 139 và node 138 còn dùng.
 - **Rollback:** revert node 68 về revision 373 (bản có link sang node 139, trước khi thay ảnh).
+
+## 24. /hanoi-photoshoot: thay 2 link builder bằng lời mời hỏi giá qua WhatsApp (24/11, Rocky "Duyệt, triển khai")
+
+Hồ sơ: [Page-Edits.md](../Content/Drafts/2026-11-24-hanoi-photoshoot-estimate-links/Page-Edits.md). Nguồn: ticket developer D23 (b).
+
+- **Lý do:** trang ghi ví dụ 2 giờ là 60 / 120 / 198 USD rồi mời khách "Build an estimate" trên Custom Tour builder. Builder cộng thêm gói tour (Standard 55 USD), nên ra 115 / 175 / 253 USD. Rocky xác nhận 24/11 giá gói tour là có chủ đích.
+- **Node 104:** đoạn dưới ví dụ giá đổi thành "Want your exact total? Send us your date, group size and tier on WhatsApp. We reply with the price in writing." (link `wa.me` có câu điền sẵn). FAQ "How do I book?" bỏ vế "or build an estimate on our Tours page".
+- **Kiểm tra (15:35 ICT):** khách ẩn danh HTTP 200, `x-drupal-cache: MISS`, 1 H1, 12 H2, 11 ảnh, title/canonical/meta không đổi, `dtpc-card` 0 lần, ba ví dụ giá giữ nguyên, link WhatsApp mới chuyển tới api.whatsapp.com đúng câu điền sẵn.
+- **Không làm:** khối template "Want to taste it yourself? … See tours" (D8), giá và công thức của builder (D23 a), thanh sticky (D20). Chưa gửi index.
+- **Rollback:** node 104 về revision 388 (`/node/104/revisions/388/revert`).
+- **Tiếp theo:** đọc `contact_click` (channel `whatsapp`, placement `body`) trên `/hanoi-photoshoot` sau 14 ngày. Mẫu nhỏ, chỉ mang tính định hướng.
