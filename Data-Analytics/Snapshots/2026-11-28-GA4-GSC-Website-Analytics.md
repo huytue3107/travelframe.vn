@@ -1,7 +1,7 @@
 # GA4 + GSC Website Analytics Snapshot — 2026-11-28
 
 - **Captured:** 2026-11-28 ~12:50 (Asia/Saigon) | GA4 Data API property `552867189` qua MCP `travelframe-google-analytics` (chỉ-đọc); Google Search Console qua OpenSEO (chỉ-đọc, không tốn credit)
-- **Status:** Research snapshot. Số GA4 là **số thô**, chưa lọc admin/nội bộ (bộ lọc `exclude_internal` của MCP v0.3.0 chưa chạy trên máy Rocky).
+- **Status:** Research snapshot. Mục 1 và 2 là **số thô**; mục 1a là số đã loại trang admin.
 - **Kỳ:** tuần thứ Hai–Chủ nhật. Tuần 23–29/11 mới có 5 ngày (23–27/11).
 - **Báo cáo trước:** `Data-Analytics/Snapshots/2026-10-14-GA4-Website-Analytics.md` (6 tuần trống ở giữa).
 
@@ -16,6 +16,36 @@
 
 **Đọc số:** "Sessions không phải direct" là chỉ số sạch tạm thời tốt nhất hiện có, vì traffic admin gần như toàn bộ vào qua direct.
 Tuần 02–08 và 09–15/11 có phiên trung bình 467–663s và 3–6 phiên/người direct, khớp với lịch soạn và đăng 26 bài trên Drupal (**đoán**, chưa tách được bằng bộ lọc).
+
+## 1a. GA4 đã loại admin (bổ sung 28/11 ~13:15, MCP v0.3.0 `exclude_internal: true`)
+
+| Tuần | Users | Sessions | Pageviews sạch | Pageviews thô | Admin bị loại | % admin | Avg session |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 02–08/11 | 26 | 73 | 381 | 418 | 37 | 8,9% | 575s |
+| 09–15/11 | 98 | 192 | 694 | 787 | 93 | 11,8% | 349s |
+| 16–22/11 | 95 | 146 | 313 | 417 | 104 | 24,9% | 184s |
+| 23–27/11 (5 ngày) | 63 | 79 | 110 | 119 | 9 | 7,6% | 75s |
+
+- Bộ lọc chỉ bỏ lượt xem trang admin. Users và sessions gần như không đổi vì người nội bộ cũng xem trang công khai trong cùng phiên; phần này chưa tách được.
+- Từ 28/11 ~13:05, GTM phiên bản 9 ngừng gửi GA4 trên `/admin`, `/node/add`, `/node/N/edit|delete|revisions`, `/side-user` (thêm vào `/travelframe-admin`, `/login`, `/user` đã có). Site không có module Google Tag của Drupal; GTM viết cứng trong theme.
+
+### Trang vào đầu tiên 16–27/11 (đã loại admin, top theo sessions)
+
+| Landing page | Nguồn | Sessions | Users | Engaged |
+|---|---|---:|---:|---:|
+| / | direct | 21 | 14 | 8 |
+| /news/christmas-dinner-hanoi | google / organic | 16 | 16 | 11 |
+| /news/christmas-in-hanoi | google / organic | 11 | 10 | 6 |
+| /hanoi-photoshoot | chatgpt.com | 10 | 9 | 8 |
+| / | google / organic | 9 | 5 | 6 |
+| /tours | ig / social | 7 | 7 | 5 |
+| /tour/hanoi-early-bird-sunrise-local-markets | direct | 6 | 2 | 6 |
+| /tours | direct | 5 | 4 | 2 |
+| /news/cam-phu-cau-incense-village-photography-guide | chatgpt.com | 4 | 4 | 1 |
+| /news/hang-ma-street-christmas-photo-spots | google / organic | 4 | 4 | 3 |
+| /news/santorini-park-lovely-photo-spot-right-outside-hanoi | google / organic | 4 | 3 | 4 |
+
+ChatGPT đưa khách thẳng vào trang bán hàng `/hanoi-photoshoot` (10 phiên, 8 phiên có tương tác).
 
 ## 2. Nguồn traffic theo tuần (sessions, top 10 mỗi tuần)
 
@@ -86,7 +116,7 @@ Kết luận: chặn GTM trên trang admin (runbook `RBK-20261013-TRAFFIC-HYGIEN
 
 ## 6. Giới hạn
 
-- Chưa tách được pageview admin theo tuần; cần MCP v0.3.0 (`exclude_internal: true`) chạy trên máy Rocky rồi chụp lại.
+- Nguồn traffic theo tuần (mục 2) vẫn là số thô.
 - Nguồn traffic chỉ lấy top 10 mỗi tuần.
 - Không đọc được site live và `sitemap.xml` từ môi trường này (mạng bị chặn); trạng thái sitemap lấy từ kết quả URL Inspection.
 - Chưa có số DM, booking, doanh thu và key event `generate_lead`.
