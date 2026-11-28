@@ -5,6 +5,7 @@ import { BetaAnalyticsDataClient } from "@google-analytics/data";
 import { existsSync } from "node:fs";
 import { homedir } from "node:os";
 import { join } from "node:path";
+import { buildPathExclusionFilter } from "./google-analytics-filters.mjs";
 
 // Keep the stdio server alive: a rejected Google API promise must never kill the process
 // (a crash shows up in Claude as "MCP server disconnected").
@@ -76,6 +77,17 @@ function resolvePropertyId(explicitId) {
   return rawId.startsWith("properties/") ? rawId : `properties/${rawId}`;
 }
 
+const filterSchema = {
+  exclude_internal: z
+    .boolean()
+    .optional()
+    .describe("Exclude Drupal admin/editor/login paths (travelframe-admin, admin, node/add, node/N/edit, side-user, user, login). Default: false"),
+  exclude_path_regex: z
+    .string()
+    .optional()
+    .describe("Extra GA4 full-match regex (RE2) of page paths to exclude"),
+};
+
 function result(data) {
   return {
     content: [
@@ -89,7 +101,7 @@ function result(data) {
 
 const server = new McpServer({
   name: "travelframe-google-analytics-readonly",
-  version: "0.2.0",
+  version: "0.3.0",
 });
 
 server.registerTool(
@@ -120,14 +132,17 @@ server.registerTool(
       property_id: z.string().optional().describe("GA4 Property ID"),
       start_date: z.string().optional().describe("Start date (format YYYY-MM-DD or relative like '30daysAgo', '7daysAgo'). Default: '30daysAgo'"),
       end_date: z.string().optional().describe("End date (format YYYY-MM-DD or relative like 'today', 'yesterday'). Default: 'today'"),
+      ...filterSchema,
     },
   },
-  safe(async ({ property_id, start_date = "30daysAgo", end_date = "today" }) => {
+  safe(async ({ property_id, start_date = "30daysAgo", end_date = "today", exclude_internal, exclude_path_regex }) => {
     const client = getAnalyticsClient();
     const property = resolvePropertyId(property_id);
+    const dimensionFilter = buildPathExclusionFilter({ excludeInternal: exclude_internal, excludePathRegex: exclude_path_regex });
     const [response] = await client.runReport({
       property,
       dateRanges: [{ startDate: start_date, endDate: end_date }],
+      ...(dimensionFilter ? { dimensionFilter } : {}),
       metrics: [
         { name: "activeUsers" },
         { name: "sessions" },
@@ -149,17 +164,22 @@ server.registerTool(
       start_date: z.string().optional().describe("Start date. Default: '30daysAgo'"),
       end_date: z.string().optional().describe("End date. Default: 'today'"),
       limit: z.number().int().min(1).max(100).optional().describe("Max rows to return (1-100). Default: 20"),
+      offset: z.number().int().min(0).optional().describe("Rows to skip, for paging past 100 rows. Default: 0"),
+      ...filterSchema,
     },
   },
-  safe(async ({ property_id, start_date = "30daysAgo", end_date = "today", limit = 20 }) => {
+  safe(async ({ property_id, start_date = "30daysAgo", end_date = "today", limit = 20, offset = 0, exclude_internal, exclude_path_regex }) => {
     const client = getAnalyticsClient();
     const property = resolvePropertyId(property_id);
+    const dimensionFilter = buildPathExclusionFilter({ excludeInternal: exclude_internal, excludePathRegex: exclude_path_regex });
     const [response] = await client.runReport({
       property,
       dateRanges: [{ startDate: start_date, endDate: end_date }],
       dimensions: [{ name: "pagePath" }, { name: "pageTitle" }],
       metrics: [{ name: "screenPageViews" }, { name: "activeUsers" }],
+      ...(dimensionFilter ? { dimensionFilter } : {}),
       limit,
+      offset,
       orderBys: [{ metric: { metricName: "screenPageViews" }, desc: true }],
     });
     return result(response);
@@ -175,16 +195,52 @@ server.registerTool(
       start_date: z.string().optional().describe("Start date. Default: '30daysAgo'"),
       end_date: z.string().optional().describe("End date. Default: 'today'"),
       limit: z.number().int().min(1).max(50).optional().describe("Max rows to return (1-50). Default: 15"),
+      ...filterSchema,
     },
   },
-  safe(async ({ property_id, start_date = "30daysAgo", end_date = "today", limit = 15 }) => {
+  safe(async ({ property_id, start_date = "30daysAgo", end_date = "today", limit = 15, exclude_internal, exclude_path_regex }) => {
     const client = getAnalyticsClient();
     const property = resolvePropertyId(property_id);
+    const dimensionFilter = buildPathExclusionFilter({ excludeInternal: exclude_internal, excludePathRegex: exclude_path_regex });
     const [response] = await client.runReport({
       property,
       dateRanges: [{ startDate: start_date, endDate: end_date }],
       dimensions: [{ name: "sessionDefaultChannelGroup" }, { name: "sessionSourceMedium" }],
       metrics: [{ name: "sessions" }, { name: "activeUsers" }],
+      ...(dimensionFilter ? { dimensionFilter } : {}),
+      limit,
+      orderBys: [{ metric: { metricName: "sessions" }, desc: true }],
+    });
+    return result(response);
+  })
+);
+
+server.registerTool(
+  "get_ga4_landing_pages",
+  {
+    description: "Get sessions by landing page and source/medium (where visits start). Read-only.",
+    inputSchema: {
+      property_id: z.string().optional().describe("GA4 Property ID"),
+      start_date: z.string().optional().describe("Start date. Default: '30daysAgo'"),
+      end_date: z.string().optional().describe("End date. Default: 'today'"),
+      limit: z.number().int().min(1).max(100).optional().describe("Max rows to return (1-100). Default: 25"),
+      ...filterSchema,
+    },
+  },
+  safe(async ({ property_id, start_date = "30daysAgo", end_date = "today", limit = 25, exclude_internal, exclude_path_regex }) => {
+    const client = getAnalyticsClient();
+    const property = resolvePropertyId(property_id);
+    const dimensionFilter = buildPathExclusionFilter({
+      excludeInternal: exclude_internal,
+      excludePathRegex: exclude_path_regex,
+      fieldName: "landingPage",
+    });
+    const [response] = await client.runReport({
+      property,
+      dateRanges: [{ startDate: start_date, endDate: end_date }],
+      dimensions: [{ name: "landingPage" }, { name: "sessionSourceMedium" }],
+      metrics: [{ name: "sessions" }, { name: "activeUsers" }, { name: "engagedSessions" }],
+      ...(dimensionFilter ? { dimensionFilter } : {}),
       limit,
       orderBys: [{ metric: { metricName: "sessions" }, desc: true }],
     });

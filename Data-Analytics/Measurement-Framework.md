@@ -29,7 +29,7 @@ Confirmed Booking → Paid Booking → Completed Tour → Review
 | Website Users | GA4 Property `552867189` | `activeUsers` metric |
 | Website Sessions | GA4 | `sessions` metric |
 | Page Views by Path | GA4 | `screenPageViews` by `pagePath` |
-| Booking Page Visits | GA4 | Filter `pagePath = /book-tour` |
+| Booking Page Visits | GA4 | Filter `pagePath` = `/booking` hoặc `/booking/details` (cập nhật 2026-11-28; GA4 tháng 11 ghi nhận `/booking`, không thấy `/book-tour`) |
 | Traffic Source | GA4 | `sessionSource` / `sessionMedium` |
 | Avg Session Duration | GA4 | `averageSessionDuration` |
 | DM Inquiries | Manual count (IG DM inbox) | Count weekly |
@@ -57,7 +57,80 @@ Confirmed Booking → Paid Booking → Completed Tour → Review
 
 ---
 
-## 3. Weekly Snapshot Template
+## 3. Weekly Report Template v2 (từ 2026-11-28)
+
+Lập sáng **thứ Hai** cho kỳ thứ Hai–Chủ nhật vừa qua, giờ Asia/Saigon.
+Lưu vào `Data-Analytics/Reports/YYYY-MM-DD-Weekly-Report.md` (ngày = thứ Hai lập báo cáo).
+
+Quy tắc:
+- Số GA4 lấy bằng MCP `travelframe-google-analytics` v0.3.0+ với `exclude_internal: true`; ghi cả số thô ở mục 6.
+- Nhóm trang theo `pagePath`, không theo `pageTitle`.
+- Mỗi số ghi nguồn; số đếm tay ghi "(tay)"; chỗ suy luận ghi "(đoán)".
+- Trang booking thật: `/booking`, `/booking/details` (không phải `/book-tour`).
+
+```markdown
+# Báo cáo tuần TravelFrame — [DD/MM–DD/MM]
+
+Lập: [ngày giờ] · Trạng thái: Research snapshot · Nguồn: GA4 552867189, GSC, Meta Graph API, đếm tay
+
+## 1. Kết luận
+- Tốt nhất:
+- Xấu nhất:
+- Việc cần làm tuần tới:
+
+## 2. Phễu (GA4 đã loại admin)
+| Bước | Tuần này | Tuần trước | Δ |
+|---|---:|---:|---:|
+| IG reach | | | |
+| IG profile visits | | | |
+| Phiên web từ social | | | |
+| Phiên web tổng (sạch) | | | |
+| Xem /tours, /tour/*, /hanoi-photoshoot | | | |
+| Xem /booking, /booking/details | | | |
+| generate_lead | | | |
+| DM "PHOTO" (tay) | | | |
+| Booking xác nhận (tay) | | | |
+| Doanh thu (tay, VND) | | | |
+
+## 3. Nguồn traffic (sessions / users, đã loại admin)
+| Kênh | Tuần này | Tuần trước | Δ |
+|---|---:|---:|---:|
+| Direct | | | |
+| Google organic | | | |
+| AI Assistant (ChatGPT, Gemini…) | | | |
+| Facebook (mọi nguồn) | | | |
+| Instagram (mọi nguồn) | | | |
+| Khác | | | |
+
+## 4. SEO (GSC)
+| Chỉ số | Tuần này | Tuần trước |
+|---|---:|---:|
+| Clicks | | |
+| Impressions | | |
+| CTR | | |
+| Vị trí TB | | |
+
+- Top 10 trang theo clicks; bài mới trong tuần và trạng thái index (URL Inspection)
+
+## 5. Social
+| Kênh | Bài đăng | Reach | Saves | Shares |
+|---|---:|---:|---:|---:|
+| Instagram | | | | |
+| Facebook | | | | |
+
+- Top 3 bài:
+
+## 6. Chất lượng dữ liệu
+- Pageview admin còn lọt (mục tiêu < 3% tổng thô):
+- Số thô: users / sessions / pageviews
+- Cảnh báo bot: ngày có direct > 2 lần trung bình tuần với ~1 trang/phiên
+- Chỗ đoán và số thiếu:
+
+## 7. Việc tuần tới (tối đa 3, có owner)
+- [ ]
+```
+
+## 3a. Weekly Snapshot Template v1 (2026-09-15, thay bằng v2 ở trên)
 
 Chụp mỗi **Chủ nhật**, lưu vào `Data-Analytics/Snapshots/`.
 
