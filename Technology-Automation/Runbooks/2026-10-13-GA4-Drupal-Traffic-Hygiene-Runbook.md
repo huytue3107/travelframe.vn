@@ -150,3 +150,11 @@ Regex này trùng với `INTERNAL_PATH_REGEX` trong `Technology-Automation/MCP/g
 1. Đăng nhập Drupal, mở `/node/add/news` và một trang `/node/<id>/edit`.
 2. Mở GA4 → Reports → Realtime: không được xuất hiện 2 trang trên.
 3. Sau 7 ngày: chạy MCP `get_ga4_top_pages` không bộ lọc; tổng pageview admin < 3% tổng.
+
+### Đã thực hiện 2026-11-28 (Rocky duyệt trong project thread)
+* Drupal **không có** module Google Tag (`/admin/config/services/google-tag` trả 404); GTM `GTM-MKLJQNBG` viết cứng trong theme. Phần "Drupal module Google Tag" ở trên không áp dụng được qua giao diện quản trị.
+* GTM: trigger `EX - Admin, Login, User pages` đổi regex từ `^/(travelframe-admin|login|user)` thành
+  `^/(travelframe-admin|admin|node/add|node/[0-9]+/(edit|delete|revisions)|side-user|login|user)(/|$)`.
+  Xuất bản **phiên bản 9** ("2026-11-28 Exclude admin paths"). Không đổi tag nào.
+* Rollback: GTM → Phiên bản → phiên bản 8 → Xuất bản.
+* Chưa làm: loại người đang đăng nhập khi xem trang công khai (có thể dùng biến `drupalSettings.user.uid` khác `"0"`); Microsoft Clarity vẫn chạy trên trang admin.
