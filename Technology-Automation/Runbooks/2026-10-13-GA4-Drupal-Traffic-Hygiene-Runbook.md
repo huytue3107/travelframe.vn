@@ -112,3 +112,41 @@
 
   Sitemap: https://travelframe.sidevn.com/sitemap.xml
   ```
+
+---
+
+## 5. BỔ SUNG 2026-11-28: ĐƯỜNG DẪN ADMIN MỚI CÒN LỌT VÀO GA4
+
+* **Bằng chứng:** GA4 16–27/11 vẫn ghi nhận `/node/add/news` 15, `/side-user` 7, `/node/104/edit` 5, `/admin/config/development/performance` 4, `/node/68/edit` 4, `/node/94/edit` 4 lượt xem. Xem `Data-Analytics/Snapshots/2026-11-28-GA4-GSC-Website-Analytics.md`.
+* **Kết luận:** danh sách loại trừ ở mục 2 thiếu `/admin`, `/node/add`, `/node/*/edit`, `/side-user`, hoặc mục 2 chưa được áp dụng. Cần Rocky kiểm tra và áp dụng; đây là thay đổi live.
+
+### Drupal module Google Tag — danh sách "All pages except the listed pages"
+```text
+/travelframe-admin
+/travelframe-admin/*
+/admin
+/admin/*
+/node/add
+/node/add/*
+/node/*/edit
+/node/*/delete
+/node/*/revisions
+/node/*/revisions/*
+/side-user
+/side-user/*
+/user
+/user/*
+/login
+```
+Và loại trừ role `administrator`, `content editor` (bước quan trọng nhất: chặn cả khi admin xem trang công khai).
+
+### GTM exception trigger — thay regex ở mục 2, Cách 2
+```text
+^/(travelframe-admin|admin|node/add|node/[0-9]+/(edit|delete|revisions)|side-user|user|login)([/?#].*)?$
+```
+Regex này trùng với `INTERNAL_PATH_REGEX` trong `Technology-Automation/MCP/google-analytics-filters.mjs`, để báo cáo và tracking dùng cùng một định nghĩa.
+
+### Kiểm tra sau khi làm
+1. Đăng nhập Drupal, mở `/node/add/news` và một trang `/node/<id>/edit`.
+2. Mở GA4 → Reports → Realtime: không được xuất hiện 2 trang trên.
+3. Sau 7 ngày: chạy MCP `get_ga4_top_pages` không bộ lọc; tổng pageview admin < 3% tổng.
